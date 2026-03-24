@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📦 Box Sandbox</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0d1117; overflow: hidden; font-family: system-ui; }
+    canvas { cursor: grab; }
+    canvas.grabbing { cursor: grabbing; }
+
+    #hint {
+      position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%);
+      color: #555; font-size: 13px; letter-spacing: 0.05em;
+      pointer-events: none; transition: opacity 0.5s;
+    }
+    #ui { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); }
+    button {
+      background: #f0c040; color: #1a0f00; border: none; border-radius: 8px;
+      padding: 0.65rem 2rem; font: bold 15px system-ui; cursor: pointer;
+      letter-spacing: 0.05em; transition: background 0.15s, transform 0.1s;
+    }
+    button:hover { background: #ffe060; transform: scale(1.05); }
+    button:active { transform: scale(0.97); }
+    #grade-popup {
+      position: fixed; top: 42%; left: 50%; transform: translate(-50%, -50%);
+      font-size: 3.5rem; font-weight: 900; letter-spacing: 0.08em;
+      pointer-events: none; opacity: 0; transition: opacity 0.4s;
+      text-shadow: 0 0 30px currentColor, 0 0 60px currentColor;
+    }
+  </style>
+</head>
+<body>
+  <div id="hint">드래그: 잡기 · 던지기 &nbsp;/&nbsp; 클릭: 개봉</div>
+  <div id="grade-popup"></div>
+  <div id="ui"><button id="btn">개봉하기</button></div>
+
+  <script type="importmap">
+  {"imports":{
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }}
+  </script>
+
+  <script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+    // ── Renderer ───────────────────────────────────────────────────
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    renderer.setSize(innerWidth, innerHeight);
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.1;
+    document.body.appendChild(renderer.domElement);
+
+    // ── Scene / Camera ─────────────────────────────────────────────
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0d1117);
+    scene.fog = new THREE.FogExp2(0x0d1117, 0.06);
+
+    const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 100);
+    camera.position.set(2.8, 2.3, 2.8);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.target.set(0, 0.6, 0);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.07;
+    controls.minDistance = 1.5;
+    controls.maxDistance = 8;
+    controls.maxPolarAngle = Math.PI * 0.48;
+    controls.update();
+
+    // ── Lighting ───────────────────────────────────────────────────
+    scene.add(new THREE.AmbientLight(0xffeedd, 0.55));
+
+    const sun = new THREE.DirectionalLight(0xfff5e0, 1.6);
+    sun.position.set(4, 8, 4);
+    sun.castShadow = true;
+    sun.shadow.mapSize.set(2048, 2048);
+    sun.shadow.camera.left = sun.shadow.camera.bottom = -8;
+    sun.shadow.camera.right = sun.shadow.camera.top = 8;
+    sun.shadow.camera.near = 0.5;
+    sun.shadow.camera.far = 35;
+    sun.shadow.bias = -0.002;
+    scene.add(sun);
+
+    const rimLight = new THREE.PointLight(0x3355ff, 0.7, 12);
+    rimLight.position.set(-3, 3, -2);
+    scene.add(rimLight);
+
+    // ── Floor ──────────────────────────────────────────────────────
+    const floor = new THREE.Mesh(
+      new THREE.PlaneGeometry(40, 40),
+      new THREE.MeshStandardMaterial({ color: 0x0f1520, roughness: 0.95 })
+    );
+    floor.rotation.x = -Math.PI / 2;
+    floor.receiveShadow = true;
+    scene.add(floor);
+
+    // ── Cardboard textures ─────────────────────────────────────────
+    // tapeCenter: 0=canvas 상단, 1=canvas 하단 (null=테이프 없음)
+    // UV.v=1 → canvas y=0 (상단),  UV.v=0 → canvas y=s (하단)
+    function makeCardTex(base, tapeCenter = null) {
+      const s = 512, cv = document.createElement('canvas');
+      cv.width = cv.height = s;
+      const cx = cv.getContext('2d');
+      cx.fillStyle = base; cx.fillRect(0, 0, s, s);
+      for (let y = 0; y < s; y += 4) {
+        cx.fillStyle = `rgba(0,0,0,${0.01 + Math.random() * 0.03})`;
+        cx.fillRect(0, y, s, 1.5);
+      }
+      for (let i = 0; i < 6000; i++) {
+        const x = Math.random() * s, y = Math.random() * s, l = Math.random() > .5;
+        cx.fillStyle = `rgba(${l?'255,210,120':'0,0,0'},${Math.random()*0.05})`;
+        cx.fillRect(x, y, 1 + Math.random() * 2, 1);
+      }
+      if (tapeCenter !== null) {
+        const th = s * 0.13;
+        const ty = Math.max(0, tapeCenter * s - th / 2);
+        cx.fillStyle = 'rgba(215,195,95,.75)';
+        cx.fillRect(0, ty, s, th);
+        cx.fillStyle = 'rgba(0,0,0,.13)';
+        cx.fillRect(0, ty - 3, s, 5);
+        cx.fillRect(0, ty + th - 2, s, 5);
+        for (let i = 0; i < 1200; i++) {
+          cx.fillStyle = `rgba(200,180,80,${Math.random()*.06})`;
+          cx.fillRect(Math.random() * s, ty + Math.random() * th, 2, 1);
+        }
+      }
+      return new THREE.CanvasTexture(cv);
+    }
+
+    const matBase = { roughness: 0.87, metalness: 0.0, side: THREE.DoubleSide };
+    const cardMat      = new THREE.MeshStandardMaterial({ map: makeCardTex('#b07030'), ...matBase });
+    // 앞면: 테이프 없음 (테이프는 위 플랩에만 표시)
+    const frontFaceMat = cardMat;
+    // 앞 플랩 자유단(UV.v≈1, canvas y≈0) = 상단 중앙 이음선 위치
+    // tapeCenter=0.07 → 테이프 절반이 이음선에 걸쳐 정중앙에 배치
+    const frontFlapMat = new THREE.MeshStandardMaterial({ map: makeCardTex('#b07030', 0.04), ...matBase });
+
+    // ── Box dimensions ─────────────────────────────────────────────
+    const W = 1.4, H = 1.0, D = 1.0;
+    const HW = W/2, HD = D/2;
+    const FW = HD;
+    const FL = HW;
+    const FLOOR_Y  = 0.08;
+    const BOUNDS_X = 1.85;   // 드래그/물리 허용 범위 ±X
+    const BOUNDS_Z = 1.55;   // 드래그/물리 허용 범위 ±Z
+    const DROP_Y   = 5.2;    // 초기 낙하 시작 높이 (화면 위)
+
+    // ── Play area (드래그 허용 구역 시각화) ─────────────────────────
+    const area = new THREE.Mesh(
+      new THREE.PlaneGeometry(BOUNDS_X * 2, BOUNDS_Z * 2),
+      new THREE.MeshStandardMaterial({ color: 0x13201a, roughness: 0.92 })
+    );
+    area.rotation.x = -Math.PI / 2;
+    area.position.y = 0.001;
+    area.receiveShadow = true;
+    scene.add(area);
+
+    // 경계 아웃라인
+    const _bx = BOUNDS_X, _bz = BOUNDS_Z, _by = 0.004;
+    const edgeGeo = new THREE.BufferGeometry();
+    edgeGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([
+      -_bx,_by,-_bz,  _bx,_by,-_bz,
+       _bx,_by,-_bz,  _bx,_by, _bz,
+       _bx,_by, _bz, -_bx,_by, _bz,
+      -_bx,_by, _bz, -_bx,_by,-_bz,
+    ]), 3));
+    scene.add(new THREE.LineSegments(edgeGeo,
+      new THREE.LineBasicMaterial({ color: 0x2a6632 })
+    ));
+
+    const boxGroup = new THREE.Group();
+    boxGroup.position.y = DROP_Y;   // 화면 위에서 시작 → 자유낙하
+    scene.add(boxGroup);
+
+    // ── Face helper (PlaneGeometry — 두께 없음, 그림자는 shadow caster 담당)
+    function addFace(w, h, mat, x, y, z, rx = 0, ry = 0) {
+      const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), mat);
+      m.position.set(x, y, z);
+      m.rotation.set(rx, ry, 0);
+      m.receiveShadow = true;
+      boxGroup.add(m);
+      return m;
+    }
+
+    addFace(W, D, cardMat,  0,    0,    0,  -Math.PI/2);          // bottom
+    addFace(W, H, frontFaceMat,  0,    H/2,  HD);                  // front
+    addFace(W, H, cardMat,  0,    H/2, -HD, 0,  Math.PI);         // back
+    addFace(D, H, cardMat, -HW,   H/2,  0,  0,  Math.PI/2);       // left
+    addFace(D, H, cardMat,  HW,   H/2,  0,  0, -Math.PI/2);       // right
+
+    // 솔리드 shadow caster — colorWrite:false 로 화면엔 안 보이지만
+    // Three.js shadow pass 는 depth material 로 별도 렌더되므로 그림자만 투사
+    // 솔리드 shadow caster:
+    //   colorWrite:false + depthWrite:false → 메인 패스에서 완전히 비가시
+    //   shadow pass 는 자체 MeshDepthMaterial 사용 → 그림자만 솔리드하게 투사
+    const shadowCaster = new THREE.Mesh(
+      new THREE.BoxGeometry(W, H, D),
+      new THREE.MeshBasicMaterial({ colorWrite: false, depthWrite: false })
+    );
+    shadowCaster.position.set(0, H / 2, 0);
+    shadowCaster.castShadow = true;
+    boxGroup.add(shadowCaster);
+
+    // ── Flap helper (PlaneGeometry — 두께 없음)
+    function makeFlap(gw, gd, mat, px, pz, offX, offZ, pivotYOffset = 0) {
+      const pivot = new THREE.Group();
+      pivot.position.set(px, H + pivotYOffset, pz);
+      const m = new THREE.Mesh(new THREE.PlaneGeometry(gw, gd), mat);
+      m.rotation.x = -Math.PI / 2;
+      m.position.set(offX, 0, offZ);
+      m.receiveShadow = true;
+      pivot.add(m);
+      boxGroup.add(pivot);
+      return pivot;
+    }
+
+    // front/back 플랩을 약간 위에 배치해 left/right 와의 z-fighting 방지
+    const frontFlap = makeFlap(W,  FW, frontFlapMat,  0,    HD,   0,   -FW/2,  0.002);
+    const backFlap  = makeFlap(W,  FW, cardMat,  0,   -HD,   0,   +FW/2,  0.002);
+    const leftFlap  = makeFlap(FL, D,  cardMat, -HW,   0,  +FL/2,  0);
+    const rightFlap = makeFlap(FL, D,  cardMat, +HW,   0,  -FL/2,  0);
+
+    // ── Product ────────────────────────────────────────────────────
+    const GRADES  = ['C','B','A','S','SS','SSS'];
+    const G_COLORS = [0x888888,0x7799ff,0xffdd00,0xff8800,0xff44aa,0x44ffff];
+    const G_WEIGHT = [5,20,35,25,10,5];
+
+    function pickGrade() {
+      let r = Math.random() * 100;
+      for (let i = 0; i < G_WEIGHT.length; i++) { r -= G_WEIGHT[i]; if (r <= 0) return i; }
+      return 2;
+    }
+
+    const shapes = [
+      new THREE.BoxGeometry(0.28,0.32,0.28),
+      new THREE.SphereGeometry(0.19,20,20),
+      new THREE.ConeGeometry(0.15,0.38,8),
+      new THREE.TorusGeometry(0.15,0.055,12,30),
+      new THREE.OctahedronGeometry(0.2),
+    ];
+
+    // productPivot 을 boxGroup 에 추가 → 드래그 시 같이 이동
+    const productPivot = new THREE.Group();
+    productPivot.position.set(0, 0.35, 0);
+    productPivot.scale.setScalar(0);
+    boxGroup.add(productPivot);
+
+    const productMat = new THREE.MeshStandardMaterial({
+      color: 0xffdd00, emissive: 0xffdd00, emissiveIntensity: 0.45,
+      roughness: 0.2, metalness: 0.75,
+    });
+    const productMesh = new THREE.Mesh(shapes[0], productMat);
+    productMesh.castShadow = true;
+    productPivot.add(productMesh);
+
+    // glowLight 도 boxGroup 에 → 같이 이동
+    const glowLight = new THREE.PointLight(0xffdd00, 0, 4);
+    glowLight.position.set(0, 0.8, 0);
+    boxGroup.add(glowLight);
+
+    // ── Open animation state ───────────────────────────────────────
+    let animState = 'idle';  // 'idle' | 'opening' | 'open'
+    let animT = 0;
+    let gradeIdx = 2;
+    const OPEN_FB = Math.PI * 0.82;
+    const OPEN_LR = Math.PI * 0.78;
+
+    function ease(t) { return t<.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2; }
+
+    function triggerOpen() {
+      if (animState !== 'idle') return;
+      gradeIdx = pickGrade();
+      const col = G_COLORS[gradeIdx];
+      productMat.color.setHex(col); productMat.emissive.setHex(col);
+      glowLight.color.setHex(col);
+      productMesh.geometry = shapes[Math.floor(Math.random()*shapes.length)];
+      animState = 'opening'; animT = 0;
+      document.getElementById('hint').style.opacity = '0';
+    }
+
+    function triggerReset() {
+      animState = 'idle'; animT = 0;
+      frontFlap.rotation.x = backFlap.rotation.x = 0;
+      leftFlap.rotation.z  = rightFlap.rotation.z = 0;
+      productPivot.scale.setScalar(0);
+      productPivot.position.y = 0.35;
+      glowLight.intensity = 0;
+      document.getElementById('grade-popup').style.opacity = '0';
+      document.getElementById('btn').textContent = '개봉하기';
+      document.getElementById('hint').style.opacity = '1';
+    }
+
+    // ── Physics ────────────────────────────────────────────────────
+    const vel = new THREE.Vector3();
+    let angX = 0, angZ = 0;  // angular velocity for tumble
+    let onFloor = false;   // 시작 시 낙하 상태
+
+    // 초기 랜덤 회전 속도 (낙하 중 자연스러운 텀블)
+    angX = (Math.random() - 0.5) * 2.5;
+    angZ = (Math.random() - 0.5) * 2.5;
+    vel.x = (Math.random() - 0.5) * 0.6;  // 약간의 수평 편향
+    const GRAVITY = -16;
+    const BOUNCE  = 0.38;
+
+    // ── Drag ───────────────────────────────────────────────────────
+    let grabbed       = false;
+    let downOnBox     = false;
+    const downNDC     = new THREE.Vector2();
+    const mouseNDC    = new THREE.Vector2();
+    const GRAB_Y      = 1.4;
+    const dragPlane   = new THREE.Plane(new THREE.Vector3(0,1,0), -GRAB_Y);
+    const dragPt      = new THREE.Vector3();
+    const posHist     = [];  // {x,z,t}
+    const raycaster   = new THREE.Raycaster();
+    const identityQ   = new THREE.Quaternion();
+
+    // boxGroup 내 모든 메시 수집 (hit-test용)
+    const boxMeshes = [];
+    boxGroup.traverse(o => { if (o.isMesh) boxMeshes.push(o); });
+
+    function ndcFromEvent(e) {
+      mouseNDC.set(e.clientX/innerWidth*2-1, -e.clientY/innerHeight*2+1);
+    }
+
+    renderer.domElement.addEventListener('pointerdown', e => {
+      ndcFromEvent(e);
+      raycaster.setFromCamera(mouseNDC, camera);
+      if (raycaster.intersectObjects(boxMeshes, true).length > 0) {
+        downOnBox = true;
+        downNDC.copy(mouseNDC);
+        posHist.length = 0;
+      }
+    });
+
+    renderer.domElement.addEventListener('pointermove', e => {
+      ndcFromEvent(e);
+      // 드래그 시작 감지
+      if (downOnBox && !grabbed) {
+        const dx = mouseNDC.x - downNDC.x;
+        const dy = mouseNDC.y - downNDC.y;
+        if (Math.sqrt(dx*dx+dy*dy) > 0.018) {
+          grabbed = true;
+          downOnBox = false;
+          controls.enabled = false;
+          vel.set(0,0,0); angX = 0; angZ = 0;
+          onFloor = false;
+          renderer.domElement.classList.add('grabbing');
+        }
+      }
+      if (grabbed) {
+        raycaster.setFromCamera(mouseNDC, camera);
+        if (raycaster.ray.intersectPlane(dragPlane, dragPt)) {
+          // 드래그 영역 클램프
+          dragPt.x = Math.max(-BOUNDS_X, Math.min(BOUNDS_X, dragPt.x));
+          dragPt.z = Math.max(-BOUNDS_Z, Math.min(BOUNDS_Z, dragPt.z));
+          posHist.push({ x: dragPt.x, z: dragPt.z, t: performance.now() });
+          if (posHist.length > 8) posHist.shift();
+        }
+      }
+    });
+
+    renderer.domElement.addEventListener('pointerup', e => {
+      if (grabbed) {
+        grabbed = false;
+        controls.enabled = true;
+        renderer.domElement.classList.remove('grabbing');
+        // 던지기 속도 계산
+        if (posHist.length >= 2) {
+          const a = posHist[0], b = posHist[posHist.length-1];
+          const dt = Math.max((b.t - a.t) / 1000, 0.001);
+          vel.x = (b.x - a.x) / dt;
+          vel.z = (b.z - a.z) / dt;
+        }
+        vel.y = 2.0;
+        // 이동방향 기반 텀블
+        angX =  vel.z * 0.12;
+        angZ = -vel.x * 0.12;
+        onFloor = false;
+      } else if (downOnBox) {
+        downOnBox = false;
+        // 클릭 → 개봉
+        ndcFromEvent(e);
+        raycaster.setFromCamera(mouseNDC, camera);
+        if (raycaster.intersectObjects(boxMeshes, true).length > 0) {
+          if (animState === 'idle') triggerOpen();
+        }
+      }
+    });
+
+    document.getElementById('btn').addEventListener('click', () => {
+      if (animState === 'idle') triggerOpen();
+      else if (animState === 'open') triggerReset();
+    });
+
+    // ── Render loop ────────────────────────────────────────────────
+    const clock = new THREE.Clock();
+    let prevBX = 0, prevBZ = 0;
+
+    renderer.setAnimationLoop(() => {
+      const dt = Math.min(clock.getDelta(), 0.05);
+
+      // ─ 드래그: 박스를 손에 따라 부드럽게 이동
+      if (grabbed) {
+        const k = 1 - Math.pow(0.001, dt);
+        boxGroup.position.x += (dragPt.x - boxGroup.position.x) * k;
+        boxGroup.position.z += (dragPt.z - boxGroup.position.z) * k;
+        boxGroup.position.y += (GRAB_Y   - boxGroup.position.y) * (1 - Math.pow(0.01, dt));
+
+        // 이동 방향으로 기울기
+        const mx = boxGroup.position.x - prevBX;
+        const mz = boxGroup.position.z - prevBZ;
+        boxGroup.rotation.x += (-mz * 3 - boxGroup.rotation.x) * dt * 6;
+        boxGroup.rotation.z += ( mx * 3 - boxGroup.rotation.z) * dt * 6;
+      }
+
+      // ─ 물리: 중력 + 바운스
+      if (!grabbed && !onFloor) {
+        vel.y += GRAVITY * dt;
+        boxGroup.position.addScaledVector(vel, dt);
+
+        // 회전 (텀블)
+        boxGroup.rotation.x += angX * dt;
+        boxGroup.rotation.z += angZ * dt;
+        angX *= Math.pow(0.85, dt * 60);
+        angZ *= Math.pow(0.85, dt * 60);
+
+        if (boxGroup.position.y <= FLOOR_Y) {
+          boxGroup.position.y = FLOOR_Y;
+          vel.y = -vel.y * BOUNCE;
+          vel.x *= 0.65; vel.z *= 0.65;
+          angX *= 0.4;   angZ *= 0.4;
+          if (Math.abs(vel.y) < 0.2) {
+            vel.set(0,0,0); angX = 0; angZ = 0; onFloor = true;
+          }
+        }
+        // XZ 경계 벽 충돌 (튕기기)
+        if (Math.abs(boxGroup.position.x) > BOUNDS_X) {
+          boxGroup.position.x = Math.sign(boxGroup.position.x) * BOUNDS_X;
+          vel.x *= -0.45; angZ *= -0.5;
+        }
+        if (Math.abs(boxGroup.position.z) > BOUNDS_Z) {
+          boxGroup.position.z = Math.sign(boxGroup.position.z) * BOUNDS_Z;
+          vel.z *= -0.45; angX *= -0.5;
+        }
+      }
+
+      // ─ 바닥/정지 시 자세 복원
+      if (!grabbed) {
+        boxGroup.rotation.x += (0 - boxGroup.rotation.x) * dt * (onFloor ? 5 : 1);
+        boxGroup.rotation.z += (0 - boxGroup.rotation.z) * dt * (onFloor ? 5 : 1);
+      }
+
+      prevBX = boxGroup.position.x;
+      prevBZ = boxGroup.position.z;
+
+      // ─ 개봉 애니메이션
+      if (animState === 'opening') {
+        animT = Math.min(animT + dt * 0.72, 1);
+        const t = ease(animT);
+        frontFlap.rotation.x =  OPEN_FB * t;
+        backFlap.rotation.x  = -OPEN_FB * t;
+        leftFlap.rotation.z  =  OPEN_LR * t;
+        rightFlap.rotation.z = -OPEN_LR * t;
+
+        if (animT > 0.55) {
+          const r = ease(Math.min((animT-0.55)/0.38, 1));
+          productPivot.scale.setScalar(r);
+          glowLight.intensity = r * 3.5;
+        }
+        if (animT >= 1) {
+          animState = 'open';
+          document.getElementById('btn').textContent = '다시 시작';
+          const el = document.getElementById('grade-popup');
+          el.textContent = GRADES[gradeIdx] + ' 등급!';
+          el.style.color = '#' + G_COLORS[gradeIdx].toString(16).padStart(6,'0');
+          el.style.opacity = '1';
+          setTimeout(() => el.style.opacity = '0', 2200);
+        }
+      }
+
+      if (animState === 'open') {
+        productMesh.rotation.y += dt * 1.1;
+        productPivot.position.y = 0.35 + Math.sin(clock.elapsedTime * 2.2) * 0.045;
+      }
+
+      controls.update();
+      renderer.render(scene, camera);
+    });
+
+    addEventListener('resize', () => {
+      camera.aspect = innerWidth / innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(innerWidth, innerHeight);
+    });
+  </script>
+</body>
+</html>
