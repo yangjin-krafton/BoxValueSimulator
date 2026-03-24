@@ -301,6 +301,7 @@ PixiJS는 고성능 2D 렌더러이므로,
 * **Shader/Filter**: PixiJS Filter / custom shader
 * **Audio**: Howler.js 또는 WebAudio
 * **Data**: JSON 기반 상품/상자 테이블
+* **배포/서빙**: 정적 페이지 (GitHub Pages) — 서버 없이 빌드 결과물 단독 배포
 
 ---
 

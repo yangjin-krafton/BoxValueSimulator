@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Box Value Simulator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a2e;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.4rem;
+      color: #f0c040;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05em;
+    }
+    .subtitle {
+      font-size: 1rem;
+      color: #9090a0;
+      margin-bottom: 2rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #2a2a4a;
+      border: 1px solid #444466;
+      border-radius: 6px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      color: #8888cc;
+      margin-bottom: 2.5rem;
+    }
+    .box-grid {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .box {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #3a2a1a, #5a3a2a);
+      border: 2px solid #8a6a4a;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .box:hover { transform: translateY(-4px); border-color: #f0c040; }
+    .desc {
+      font-size: 0.9rem;
+      color: #707080;
+      line-height: 1.7;
+    }
+    #canvas-container {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📦 Box Value Simulator</h1>
+    <p class="subtitle">상자를 사고, 뜯고, 상품을 감정하고, 팔고, 다시 도전하는<br>무한 루프형 언박싱 경제 시뮬레이터</p>
+    <span class="badge">🚧 개발중 · PixiJS + TypeScript + Vite</span>
+    <div class="box-grid">
+      <div class="box">📦</div>
+      <div class="box">📦</div>
+      <div class="box">📦</div>
+      <div class="box">📦</div>
+      <div class="box">📦</div>
+    </div>
+    <p class="desc">
+      박스 한 세트(10개)의 총 가치는 미리 정해지고,<br>
+      각 박스에 비대칭 분배됩니다.<br>
+      상품의 상태(C~SSS)에 따라 판매가가 결정됩니다.
+    </p>
+  </div>
+  <div id="canvas-container"></div>
+</body>
+</html>
