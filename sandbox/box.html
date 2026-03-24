@@ -7,12 +7,12 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #0d1117; overflow: hidden; font-family: system-ui; }
-    canvas { cursor: grab; }
+    canvas { cursor: default; }
+    canvas.hovering { cursor: pointer; }
     canvas.grabbing { cursor: grabbing; }
-
     #hint {
       position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%);
-      color: #555; font-size: 13px; letter-spacing: 0.05em;
+      color: #556; font-size: 13px; letter-spacing: 0.05em;
       pointer-events: none; transition: opacity 0.5s;
     }
     #ui { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); }
@@ -32,22 +32,21 @@
   </style>
 </head>
 <body>
-  <div id="hint">드래그: 잡기 · 던지기 &nbsp;/&nbsp; 클릭: 개봉</div>
+  <div id="hint">상자를 클릭해서 선택하세요</div>
   <div id="grade-popup"></div>
-  <div id="ui"><button id="btn">개봉하기</button></div>
+  <div id="ui"><button id="btn" style="display:none">개봉하기</button></div>
 
   <script type="importmap">
   {"imports":{
-    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
-    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    "three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
   }}
   </script>
-
   <script type="module">
     import * as THREE from 'three';
     import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-    // ── Renderer ───────────────────────────────────────────────────
+    // ── Renderer ──────────────────────────────────────────────────
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
     renderer.setSize(innerWidth, innerHeight);
@@ -57,53 +56,116 @@
     renderer.toneMappingExposure = 1.1;
     document.body.appendChild(renderer.domElement);
 
-    // ── Scene / Camera ─────────────────────────────────────────────
+    // ── Scene / Camera ────────────────────────────────────────────
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0d1117);
-    scene.fog = new THREE.FogExp2(0x0d1117, 0.06);
+    scene.background = new THREE.Color(0x0a0e15);
+    scene.fog = new THREE.FogExp2(0x0a0e15, 0.045);
 
-    const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 100);
-    camera.position.set(2.8, 2.3, 2.8);
+    const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 120);
+    camera.position.set(0, 5, 9);
 
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.target.set(0, 0.6, 0);
+    controls.target.set(0, 1, -1);
     controls.enableDamping = true;
     controls.dampingFactor = 0.07;
-    controls.minDistance = 1.5;
-    controls.maxDistance = 8;
-    controls.maxPolarAngle = Math.PI * 0.48;
+    controls.minDistance = 3;
+    controls.maxDistance = 16;
+    controls.maxPolarAngle = Math.PI * 0.47;
     controls.update();
 
-    // ── Lighting ───────────────────────────────────────────────────
-    scene.add(new THREE.AmbientLight(0xffeedd, 0.55));
+    // ── Lighting ──────────────────────────────────────────────────
+    scene.add(new THREE.AmbientLight(0x334466, 0.8));
 
-    const sun = new THREE.DirectionalLight(0xfff5e0, 1.6);
-    sun.position.set(4, 8, 4);
+    // 메인 태양광
+    const sun = new THREE.DirectionalLight(0xfff5e0, 1.2);
+    sun.position.set(4, 8, 6);
     sun.castShadow = true;
     sun.shadow.mapSize.set(2048, 2048);
-    sun.shadow.camera.left = sun.shadow.camera.bottom = -8;
-    sun.shadow.camera.right = sun.shadow.camera.top = 8;
+    sun.shadow.camera.left = sun.shadow.camera.bottom = -10;
+    sun.shadow.camera.right = sun.shadow.camera.top = 10;
     sun.shadow.camera.near = 0.5;
-    sun.shadow.camera.far = 35;
+    sun.shadow.camera.far = 40;
     sun.shadow.bias = -0.002;
     scene.add(sun);
 
-    const rimLight = new THREE.PointLight(0x3355ff, 0.7, 12);
-    rimLight.position.set(-3, 3, -2);
-    scene.add(rimLight);
+    // 선반 조명 (스포트라이트 2개)
+    function makeSpot(x, z, color = 0xffe8a0) {
+      const spot = new THREE.SpotLight(color, 5);
+      spot.position.set(x, 7, z);
+      spot.angle = Math.PI / 5;
+      spot.penumbra = 0.4;
+      spot.castShadow = false;
+      spot.target.position.set(0, 0, z - 0.5);
+      scene.add(spot);
+      scene.add(spot.target);
+      return spot;
+    }
+    // 탑 구역 스포트라이트
+    // decay=0: 물리 역제곱 감쇄 비활성 → 거리 무관 일정 밝기
+    const towerSpot = new THREE.SpotLight(0xffe0a0, 2.8);
+    towerSpot.position.set(0, 9, -2.5);
+    towerSpot.angle = Math.PI / 5.5;
+    towerSpot.penumbra = 0.4;
+    towerSpot.decay = 0;
+    towerSpot.castShadow = true;
+    towerSpot.shadow.mapSize.set(1024, 1024);
+    towerSpot.shadow.bias = -0.002;
+    towerSpot.target.position.set(0, 1.5, -5.2);
+    scene.add(towerSpot);
+    scene.add(towerSpot.target);
 
-    // ── Floor ──────────────────────────────────────────────────────
+    // 시각적 빔 콘 (반투명 메시)
+    // 스팟 위치 (0, 9, -2.5) → 타깃 (0, 1.5, -5.2), 중심 = 중점, 기울기 ~20°
+    const beamMesh = new THREE.Mesh(
+      new THREE.ConeGeometry(2.8, 8.5, 24, 1, true),
+      new THREE.MeshBasicMaterial({
+        color: 0xffe8c0, transparent: true, opacity: 0.06,
+        side: THREE.BackSide, depthWrite: false,
+      })
+    );
+    beamMesh.position.set(0, 5.2, -3.85);  // 스팟~타깃 중점
+    beamMesh.rotation.x = 0.35;            // 스팟이 +Z 쪽에 있으므로 앞으로 기울기
+    beamMesh.renderOrder = 1;
+    scene.add(beamMesh);
+
+    // 플레이 구역 주변광
+    const areaLight = new THREE.PointLight(0x6688ff, 0.6, 8);
+    areaLight.position.set(0, 3, 2);
+    scene.add(areaLight);
+
+    // ── Floor ─────────────────────────────────────────────────────
     const floor = new THREE.Mesh(
-      new THREE.PlaneGeometry(40, 40),
-      new THREE.MeshStandardMaterial({ color: 0x0f1520, roughness: 0.95 })
+      new THREE.PlaneGeometry(60, 60),
+      new THREE.MeshStandardMaterial({ color: 0x0c1018, roughness: 0.95 })
     );
     floor.rotation.x = -Math.PI / 2;
     floor.receiveShadow = true;
     scene.add(floor);
 
-    // ── Cardboard textures ─────────────────────────────────────────
-    // tapeCenter: 0=canvas 상단, 1=canvas 하단 (null=테이프 없음)
-    // UV.v=1 → canvas y=0 (상단),  UV.v=0 → canvas y=s (하단)
+    // ── Play area ─────────────────────────────────────────────────
+    const BOUNDS_X = 1.85, BOUNDS_Z = 1.55;
+    const FLOOR_Y  = 0.06;
+
+    const areaMarker = new THREE.Mesh(
+      new THREE.PlaneGeometry(BOUNDS_X * 2, BOUNDS_Z * 2),
+      new THREE.MeshStandardMaterial({ color: 0x13201a, roughness: 0.92 })
+    );
+    areaMarker.rotation.x = -Math.PI / 2;
+    areaMarker.position.y = 0.001;
+    areaMarker.receiveShadow = true;
+    scene.add(areaMarker);
+
+    const edgeGeo = new THREE.BufferGeometry();
+    edgeGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([
+      -BOUNDS_X,.004,-BOUNDS_Z,  BOUNDS_X,.004,-BOUNDS_Z,
+       BOUNDS_X,.004,-BOUNDS_Z,  BOUNDS_X,.004, BOUNDS_Z,
+       BOUNDS_X,.004, BOUNDS_Z, -BOUNDS_X,.004, BOUNDS_Z,
+      -BOUNDS_X,.004, BOUNDS_Z, -BOUNDS_X,.004,-BOUNDS_Z,
+    ]), 3));
+    scene.add(new THREE.LineSegments(edgeGeo,
+      new THREE.LineBasicMaterial({ color: 0x2a6632 })));
+
+    // ── Textures & Materials ──────────────────────────────────────
     function makeCardTex(base, tapeCenter = null) {
       const s = 512, cv = document.createElement('canvas');
       cv.width = cv.height = s;
@@ -114,130 +176,147 @@
         cx.fillRect(0, y, s, 1.5);
       }
       for (let i = 0; i < 6000; i++) {
-        const x = Math.random() * s, y = Math.random() * s, l = Math.random() > .5;
+        const x = Math.random()*s, y = Math.random()*s, l = Math.random()>.5;
         cx.fillStyle = `rgba(${l?'255,210,120':'0,0,0'},${Math.random()*0.05})`;
-        cx.fillRect(x, y, 1 + Math.random() * 2, 1);
+        cx.fillRect(x, y, 1 + Math.random()*2, 1);
       }
       if (tapeCenter !== null) {
-        const th = s * 0.13;
-        const ty = Math.max(0, tapeCenter * s - th / 2);
-        cx.fillStyle = 'rgba(215,195,95,.75)';
-        cx.fillRect(0, ty, s, th);
+        const th = s * 0.13, ty = Math.max(0, tapeCenter * s - th / 2);
+        cx.fillStyle = 'rgba(215,195,95,.75)'; cx.fillRect(0, ty, s, th);
         cx.fillStyle = 'rgba(0,0,0,.13)';
-        cx.fillRect(0, ty - 3, s, 5);
-        cx.fillRect(0, ty + th - 2, s, 5);
+        cx.fillRect(0, ty - 3, s, 5); cx.fillRect(0, ty + th - 2, s, 5);
         for (let i = 0; i < 1200; i++) {
           cx.fillStyle = `rgba(200,180,80,${Math.random()*.06})`;
-          cx.fillRect(Math.random() * s, ty + Math.random() * th, 2, 1);
+          cx.fillRect(Math.random()*s, ty + Math.random()*th, 2, 1);
         }
       }
       return new THREE.CanvasTexture(cv);
     }
 
     const matBase = { roughness: 0.87, metalness: 0.0, side: THREE.DoubleSide };
-    const cardMat      = new THREE.MeshStandardMaterial({ map: makeCardTex('#b07030'), ...matBase });
-    // 앞면: 테이프 없음 (테이프는 위 플랩에만 표시)
-    const frontFaceMat = cardMat;
-    // 앞 플랩 자유단(UV.v≈1, canvas y≈0) = 상단 중앙 이음선 위치
-    // tapeCenter=0.07 → 테이프 절반이 이음선에 걸쳐 정중앙에 배치
-    const frontFlapMat = new THREE.MeshStandardMaterial({ map: makeCardTex('#b07030', 0.04), ...matBase });
+    const cardMat     = new THREE.MeshStandardMaterial({ map: makeCardTex('#b07030'), ...matBase });
+    const frontFlapMat= new THREE.MeshStandardMaterial({ map: makeCardTex('#b07030', 0.04), ...matBase });
+    const shadowMat   = new THREE.MeshBasicMaterial({ colorWrite: false, depthWrite: false });
 
-    // ── Box dimensions ─────────────────────────────────────────────
+    // ── Box dimensions ────────────────────────────────────────────
     const W = 1.4, H = 1.0, D = 1.0;
-    const HW = W/2, HD = D/2;
-    const FW = HD;
-    const FL = HW;
-    const FLOOR_Y  = 0.08;
-    const BOUNDS_X = 1.85;   // 드래그/물리 허용 범위 ±X
-    const BOUNDS_Z = 1.55;   // 드래그/물리 허용 범위 ±Z
-    const DROP_Y   = 5.2;    // 초기 낙하 시작 높이 (화면 위)
+    const HW = W/2, HD = D/2, FW = HD, FL = HW;
+    const PI = Math.PI;
 
-    // ── Play area (드래그 허용 구역 시각화) ─────────────────────────
-    const area = new THREE.Mesh(
-      new THREE.PlaneGeometry(BOUNDS_X * 2, BOUNDS_Z * 2),
-      new THREE.MeshStandardMaterial({ color: 0x13201a, roughness: 0.92 })
-    );
-    area.rotation.x = -Math.PI / 2;
-    area.position.y = 0.001;
-    area.receiveShadow = true;
-    scene.add(area);
+    // 공유 geometry
+    const GEO = {
+      bot:    new THREE.PlaneGeometry(W, D),
+      fb:     new THREE.PlaneGeometry(W, H),
+      lr:     new THREE.PlaneGeometry(D, H),
+      flapFB: new THREE.PlaneGeometry(W, FW),
+      flapLR: new THREE.PlaneGeometry(FL, D),
+      shadow: new THREE.BoxGeometry(W, H, D),
+      glow:   new THREE.BoxGeometry(W * 1.08, H * 1.08, D * 1.08),
+    };
 
-    // 경계 아웃라인
-    const _bx = BOUNDS_X, _bz = BOUNDS_Z, _by = 0.004;
-    const edgeGeo = new THREE.BufferGeometry();
-    edgeGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array([
-      -_bx,_by,-_bz,  _bx,_by,-_bz,
-       _bx,_by,-_bz,  _bx,_by, _bz,
-       _bx,_by, _bz, -_bx,_by, _bz,
-      -_bx,_by, _bz, -_bx,_by,-_bz,
-    ]), 3));
-    scene.add(new THREE.LineSegments(edgeGeo,
-      new THREE.LineBasicMaterial({ color: 0x2a6632 })
-    ));
+    // ── Box Factory ───────────────────────────────────────────────
+    function createBox() {
+      const grp = new THREE.Group();
+      const meshes = []; // raycasting용 (shadow caster 제외)
 
-    const boxGroup = new THREE.Group();
-    boxGroup.position.y = DROP_Y;   // 화면 위에서 시작 → 자유낙하
-    scene.add(boxGroup);
+      function addFace(geo, mat, x, y, z, rx = 0, ry = 0) {
+        const m = new THREE.Mesh(geo, mat);
+        m.position.set(x, y, z);
+        m.rotation.set(rx, ry, 0);
+        m.receiveShadow = true;
+        grp.add(m);
+        meshes.push(m);
+      }
+      addFace(GEO.bot, cardMat,  0,     0,      0,    -PI/2);
+      addFace(GEO.fb,  cardMat,  0,     H/2,    HD);
+      addFace(GEO.fb,  cardMat,  0,     H/2,   -HD,    0, PI);
+      addFace(GEO.lr,  cardMat, -HW,    H/2,    0,     0, PI/2);
+      addFace(GEO.lr,  cardMat,  HW,    H/2,    0,     0, -PI/2);
 
-    // ── Face helper (PlaneGeometry — 두께 없음, 그림자는 shadow caster 담당)
-    function addFace(w, h, mat, x, y, z, rx = 0, ry = 0) {
-      const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), mat);
-      m.position.set(x, y, z);
-      m.rotation.set(rx, ry, 0);
-      m.receiveShadow = true;
-      boxGroup.add(m);
-      return m;
+      function addFlap(geo, mat, px, pz, offX, offZ, yOff = 0) {
+        const pivot = new THREE.Group();
+        pivot.position.set(px, H + yOff, pz);
+        const m = new THREE.Mesh(geo, mat);
+        m.rotation.x = -PI / 2;
+        m.position.set(offX, 0, offZ);
+        m.receiveShadow = true;
+        pivot.add(m);
+        grp.add(pivot);
+        meshes.push(m);
+        return pivot;
+      }
+      const flaps = {
+        front: addFlap(GEO.flapFB, frontFlapMat,  0,    HD,   0,   -FW/2, 0.002),
+        back:  addFlap(GEO.flapFB, cardMat,        0,   -HD,   0,   +FW/2, 0.002),
+        left:  addFlap(GEO.flapLR, cardMat,       -HW,   0,  +FL/2,  0),
+        right: addFlap(GEO.flapLR, cardMat,       +HW,   0,  -FL/2,  0),
+      };
+
+      // shadow caster (meshes에 포함 안 함)
+      const sc = new THREE.Mesh(GEO.shadow, shadowMat);
+      sc.position.set(0, H/2, 0);
+      sc.castShadow = true;
+      grp.add(sc);
+
+      return { grp, flaps, meshes };
     }
 
-    addFace(W, D, cardMat,  0,    0,    0,  -Math.PI/2);          // bottom
-    addFace(W, H, frontFaceMat,  0,    H/2,  HD);                  // front
-    addFace(W, H, cardMat,  0,    H/2, -HD, 0,  Math.PI);         // back
-    addFace(D, H, cardMat, -HW,   H/2,  0,  0,  Math.PI/2);       // left
-    addFace(D, H, cardMat,  HW,   H/2,  0,  0, -Math.PI/2);       // right
-
-    // 솔리드 shadow caster — colorWrite:false 로 화면엔 안 보이지만
-    // Three.js shadow pass 는 depth material 로 별도 렌더되므로 그림자만 투사
-    // 솔리드 shadow caster:
-    //   colorWrite:false + depthWrite:false → 메인 패스에서 완전히 비가시
-    //   shadow pass 는 자체 MeshDepthMaterial 사용 → 그림자만 솔리드하게 투사
-    const shadowCaster = new THREE.Mesh(
-      new THREE.BoxGeometry(W, H, D),
-      new THREE.MeshBasicMaterial({ colorWrite: false, depthWrite: false })
+    // ── Hover Glow ────────────────────────────────────────────────
+    const hoverGlow = new THREE.LineSegments(
+      new THREE.EdgesGeometry(GEO.glow),
+      new THREE.LineBasicMaterial({ color: 0xffee55 })
     );
-    shadowCaster.position.set(0, H / 2, 0);
-    shadowCaster.castShadow = true;
-    boxGroup.add(shadowCaster);
+    hoverGlow.visible = false;
+    scene.add(hoverGlow);
 
-    // ── Flap helper (PlaneGeometry — 두께 없음)
-    function makeFlap(gw, gd, mat, px, pz, offX, offZ, pivotYOffset = 0) {
-      const pivot = new THREE.Group();
-      pivot.position.set(px, H + pivotYOffset, pz);
-      const m = new THREE.Mesh(new THREE.PlaneGeometry(gw, gd), mat);
-      m.rotation.x = -Math.PI / 2;
-      m.position.set(offX, 0, offZ);
-      m.receiveShadow = true;
-      pivot.add(m);
-      boxGroup.add(pivot);
-      return pivot;
-    }
+    // ── 10개 박스 — 3개 탑으로 쌓기 (3 + 4 + 3) ─────────────────
+    const shelfData = [];
 
-    // front/back 플랩을 약간 위에 배치해 left/right 와의 z-fighting 방지
-    const frontFlap = makeFlap(W,  FW, frontFlapMat,  0,    HD,   0,   -FW/2,  0.002);
-    const backFlap  = makeFlap(W,  FW, cardMat,  0,   -HD,   0,   +FW/2,  0.002);
-    const leftFlap  = makeFlap(FL, D,  cardMat, -HW,   0,  +FL/2,  0);
-    const rightFlap = makeFlap(FL, D,  cardMat, +HW,   0,  -FL/2,  0);
+    // 탑 배치: [x위치, z위치, 박스 수]
+    const TOWERS = [
+      { x: -2.0, z: -5.0, n: 3 },
+      { x:  0.0, z: -5.3, n: 4 },
+      { x:  2.0, z: -5.0, n: 3 },
+    ];
 
-    // ── Product ────────────────────────────────────────────────────
-    const GRADES  = ['C','B','A','S','SS','SSS'];
+    let shelfIdx = 0;
+    TOWERS.forEach(tower => {
+      let stackY = FLOOR_Y;
+      for (let j = 0; j < tower.n; j++) {
+        const scale  = 0.52 + Math.random() * 0.46;
+        const box    = createBox();
+        const x      = tower.x + (Math.random() - 0.5) * 0.08;
+        const z      = tower.z + (Math.random() - 0.5) * 0.08;
+        const rotY   = (Math.random() - 0.5) * 0.3;  // 약간 틀어짐
+
+        box.grp.scale.setScalar(scale);
+        box.grp.position.set(x, stackY, z);
+        box.grp.rotation.y = rotY;
+
+        box.meshes.forEach(m => m.userData.shelfIdx = shelfIdx);
+        scene.add(box.grp);
+
+        shelfData.push({
+          box, scale,
+          origin:      new THREE.Vector3(x, stackY, z),
+          originRotY:  rotY,
+          state: 'shelf',
+        });
+
+        stackY += H * scale + 0.005;  // 다음 박스 Y = 현재 박스 위
+        shelfIdx++;
+      }
+    });
+
+    // ── Product (싱글턴) ──────────────────────────────────────────
+    const GRADES   = ['C','B','A','S','SS','SSS'];
     const G_COLORS = [0x888888,0x7799ff,0xffdd00,0xff8800,0xff44aa,0x44ffff];
     const G_WEIGHT = [5,20,35,25,10,5];
-
     function pickGrade() {
-      let r = Math.random() * 100;
-      for (let i = 0; i < G_WEIGHT.length; i++) { r -= G_WEIGHT[i]; if (r <= 0) return i; }
+      let r = Math.random()*100;
+      for (let i=0; i<G_WEIGHT.length; i++) { r -= G_WEIGHT[i]; if (r<=0) return i; }
       return 2;
     }
-
     const shapes = [
       new THREE.BoxGeometry(0.28,0.32,0.28),
       new THREE.SphereGeometry(0.19,20,20),
@@ -245,13 +324,9 @@
       new THREE.TorusGeometry(0.15,0.055,12,30),
       new THREE.OctahedronGeometry(0.2),
     ];
-
-    // productPivot 을 boxGroup 에 추가 → 드래그 시 같이 이동
     const productPivot = new THREE.Group();
-    productPivot.position.set(0, 0.35, 0);
     productPivot.scale.setScalar(0);
-    boxGroup.add(productPivot);
-
+    scene.add(productPivot);
     const productMat = new THREE.MeshStandardMaterial({
       color: 0xffdd00, emissive: 0xffdd00, emissiveIntensity: 0.45,
       roughness: 0.2, metalness: 0.75,
@@ -259,20 +334,74 @@
     const productMesh = new THREE.Mesh(shapes[0], productMat);
     productMesh.castShadow = true;
     productPivot.add(productMesh);
+    const glowLight = new THREE.PointLight(0xffdd00, 0, 5);
+    scene.add(glowLight);
 
-    // glowLight 도 boxGroup 에 → 같이 이동
-    const glowLight = new THREE.PointLight(0xffdd00, 0, 4);
-    glowLight.position.set(0, 0.8, 0);
-    boxGroup.add(glowLight);
+    // ── State ─────────────────────────────────────────────────────
+    let appState = 'shelf';  // 'shelf' | 'flying' | 'playable'
+    let hoveredIdx = -1;
+    let activeSD = null;     // 현재 활성 선반 데이터
 
-    // ── Open animation state ───────────────────────────────────────
-    let animState = 'idle';  // 'idle' | 'opening' | 'open'
+    // per-active 물리
+    let vel   = new THREE.Vector3();
+    let angX  = 0, angZ = 0;
+    let onFloor = true;
+    let animState = 'idle';  // 'idle'|'opening'|'open'
     let animT = 0;
     let gradeIdx = 2;
-    const OPEN_FB = Math.PI * 0.82;
-    const OPEN_LR = Math.PI * 0.78;
+    let flyT = 0;
+    const FLY_DUR = 1.5;
+    const DROP_Y  = 5.0;
+    const GRAVITY = -16, BOUNCE = 0.38;
+    const OPEN_FB = PI * 0.82, OPEN_LR = PI * 0.78;
 
     function ease(t) { return t<.5 ? 2*t*t : 1-Math.pow(-2*t+2,2)/2; }
+
+    function bezier(p0, p2, t) {
+      const ctrl = new THREE.Vector3(
+        (p0.x+p2.x)/2, Math.max(p0.y,p2.y)+3.5, (p0.z+p2.z)/2
+      );
+      const u = 1-t;
+      return new THREE.Vector3(
+        u*u*p0.x+2*u*t*ctrl.x+t*t*p2.x,
+        u*u*p0.y+2*u*t*ctrl.y+t*t*p2.y,
+        u*u*p0.z+2*u*t*ctrl.z+t*t*p2.z,
+      );
+    }
+
+    function selectBox(idx) {
+      const sd = shelfData[idx];
+      if (sd.state !== 'shelf') return;
+      sd.state = 'flying';
+      activeSD   = sd;
+      appState   = 'flying';
+      flyT       = 0;
+      animState  = 'idle';
+      animT      = 0;
+      hoverGlow.visible = false;
+      controls.enabled = false;
+      document.getElementById('hint').style.opacity = '0';
+    }
+
+    function resetActive() {
+      if (!activeSD) return;
+      const {flaps} = activeSD.box;
+      flaps.front.rotation.x = flaps.back.rotation.x = 0;
+      flaps.left.rotation.z  = flaps.right.rotation.z = 0;
+      productPivot.scale.setScalar(0);
+      glowLight.intensity = 0;
+      document.getElementById('grade-popup').style.opacity = '0';
+      // 선반에서 제거
+      activeSD.box.grp.visible = false;
+      activeSD.state = 'done';
+      activeSD = null;
+      appState  = 'shelf';
+      animState = 'idle';
+      controls.enabled = true;
+      document.getElementById('btn').style.display = 'none';
+      document.getElementById('hint').textContent = '상자를 클릭해서 선택하세요';
+      document.getElementById('hint').style.opacity = '1';
+    }
 
     function triggerOpen() {
       if (animState !== 'idle') return;
@@ -282,82 +411,67 @@
       glowLight.color.setHex(col);
       productMesh.geometry = shapes[Math.floor(Math.random()*shapes.length)];
       animState = 'opening'; animT = 0;
-      document.getElementById('hint').style.opacity = '0';
     }
 
-    function triggerReset() {
-      animState = 'idle'; animT = 0;
-      frontFlap.rotation.x = backFlap.rotation.x = 0;
-      leftFlap.rotation.z  = rightFlap.rotation.z = 0;
-      productPivot.scale.setScalar(0);
-      productPivot.position.y = 0.35;
-      glowLight.intensity = 0;
-      document.getElementById('grade-popup').style.opacity = '0';
-      document.getElementById('btn').textContent = '개봉하기';
-      document.getElementById('hint').style.opacity = '1';
-    }
-
-    // ── Physics ────────────────────────────────────────────────────
-    const vel = new THREE.Vector3();
-    let angX = 0, angZ = 0;  // angular velocity for tumble
-    let onFloor = false;   // 시작 시 낙하 상태
-
-    // 초기 랜덤 회전 속도 (낙하 중 자연스러운 텀블)
-    angX = (Math.random() - 0.5) * 2.5;
-    angZ = (Math.random() - 0.5) * 2.5;
-    vel.x = (Math.random() - 0.5) * 0.6;  // 약간의 수평 편향
-    const GRAVITY = -16;
-    const BOUNCE  = 0.38;
-
-    // ── Drag ───────────────────────────────────────────────────────
-    let grabbed       = false;
-    let downOnBox     = false;
-    const downNDC     = new THREE.Vector2();
-    const mouseNDC    = new THREE.Vector2();
-    const GRAB_Y      = 1.4;
-    const dragPlane   = new THREE.Plane(new THREE.Vector3(0,1,0), -GRAB_Y);
-    const dragPt      = new THREE.Vector3();
-    const posHist     = [];  // {x,z,t}
-    const raycaster   = new THREE.Raycaster();
-    const identityQ   = new THREE.Quaternion();
-
-    // boxGroup 내 모든 메시 수집 (hit-test용)
-    const boxMeshes = [];
-    boxGroup.traverse(o => { if (o.isMesh) boxMeshes.push(o); });
+    // ── Drag ──────────────────────────────────────────────────────
+    let grabbed = false, downOnBox = false;
+    const downNDC = new THREE.Vector2(), mouseNDC = new THREE.Vector2();
+    const GRAB_Y  = 1.4;
+    const dragPlane = new THREE.Plane(new THREE.Vector3(0,1,0), -GRAB_Y);
+    const dragPt  = new THREE.Vector3();
+    const posHist = [];
+    const raycaster = new THREE.Raycaster();
 
     function ndcFromEvent(e) {
       mouseNDC.set(e.clientX/innerWidth*2-1, -e.clientY/innerHeight*2+1);
     }
 
-    renderer.domElement.addEventListener('pointerdown', e => {
-      ndcFromEvent(e);
-      raycaster.setFromCamera(mouseNDC, camera);
-      if (raycaster.intersectObjects(boxMeshes, true).length > 0) {
-        downOnBox = true;
-        downNDC.copy(mouseNDC);
-        posHist.length = 0;
-      }
-    });
+    function shelfMeshes() {
+      return shelfData
+        .filter(sd => sd.state === 'shelf')
+        .flatMap(sd => sd.box.meshes);
+    }
 
-    renderer.domElement.addEventListener('pointermove', e => {
+    // hover
+    addEventListener('pointermove', e => {
       ndcFromEvent(e);
-      // 드래그 시작 감지
+
+      if (appState === 'shelf') {
+        raycaster.setFromCamera(mouseNDC, camera);
+        const hits = raycaster.intersectObjects(shelfMeshes());
+        if (hits.length > 0) {
+          const idx = hits[0].object.userData.shelfIdx;
+          if (idx !== hoveredIdx) {
+            hoveredIdx = idx;
+            const sd = shelfData[idx];
+            const wp = new THREE.Vector3();
+            sd.box.grp.getWorldPosition(wp);
+            hoverGlow.position.set(wp.x, wp.y + H/2*sd.scale, wp.z);
+            hoverGlow.scale.setScalar(sd.scale);
+            hoverGlow.rotation.y = sd.originRotY;
+            hoverGlow.visible = true;
+          }
+          renderer.domElement.classList.add('hovering');
+        } else {
+          hoveredIdx = -1;
+          hoverGlow.visible = false;
+          renderer.domElement.classList.remove('hovering');
+        }
+      }
+
+      // drag
       if (downOnBox && !grabbed) {
-        const dx = mouseNDC.x - downNDC.x;
-        const dy = mouseNDC.y - downNDC.y;
+        const dx = mouseNDC.x - downNDC.x, dy = mouseNDC.y - downNDC.y;
         if (Math.sqrt(dx*dx+dy*dy) > 0.018) {
-          grabbed = true;
-          downOnBox = false;
+          grabbed = true; downOnBox = false;
           controls.enabled = false;
-          vel.set(0,0,0); angX = 0; angZ = 0;
-          onFloor = false;
+          vel.set(0,0,0); angX = 0; angZ = 0; onFloor = false;
           renderer.domElement.classList.add('grabbing');
         }
       }
-      if (grabbed) {
+      if (grabbed && activeSD) {
         raycaster.setFromCamera(mouseNDC, camera);
         if (raycaster.ray.intersectPlane(dragPlane, dragPt)) {
-          // 드래그 영역 클램프
           dragPt.x = Math.max(-BOUNDS_X, Math.min(BOUNDS_X, dragPt.x));
           dragPt.z = Math.max(-BOUNDS_Z, Math.min(BOUNDS_Z, dragPt.z));
           posHist.push({ x: dragPt.x, z: dragPt.z, t: performance.now() });
@@ -366,128 +480,175 @@
       }
     });
 
-    renderer.domElement.addEventListener('pointerup', e => {
+    addEventListener('pointerdown', e => {
+      ndcFromEvent(e);
+      raycaster.setFromCamera(mouseNDC, camera);
+
+      if (appState === 'shelf') {
+        const hits = raycaster.intersectObjects(shelfMeshes());
+        if (hits.length > 0) selectBox(hits[0].object.userData.shelfIdx);
+        return;
+      }
+
+      if (appState === 'playable' && activeSD) {
+        const hits = raycaster.intersectObjects(activeSD.box.meshes, true);
+        if (hits.length > 0) {
+          downOnBox = true;
+          downNDC.copy(mouseNDC);
+          posHist.length = 0;
+        }
+      }
+    });
+
+    addEventListener('pointerup', e => {
       if (grabbed) {
         grabbed = false;
         controls.enabled = true;
         renderer.domElement.classList.remove('grabbing');
-        // 던지기 속도 계산
         if (posHist.length >= 2) {
-          const a = posHist[0], b = posHist[posHist.length-1];
-          const dt = Math.max((b.t - a.t) / 1000, 0.001);
-          vel.x = (b.x - a.x) / dt;
-          vel.z = (b.z - a.z) / dt;
+          const a=posHist[0], b=posHist[posHist.length-1];
+          const dt = Math.max((b.t-a.t)/1000, 0.001);
+          vel.x = (b.x-a.x)/dt; vel.z = (b.z-a.z)/dt;
         }
         vel.y = 2.0;
-        // 이동방향 기반 텀블
-        angX =  vel.z * 0.12;
-        angZ = -vel.x * 0.12;
+        angX = vel.z*0.12; angZ = -vel.x*0.12;
         onFloor = false;
       } else if (downOnBox) {
         downOnBox = false;
-        // 클릭 → 개봉
         ndcFromEvent(e);
         raycaster.setFromCamera(mouseNDC, camera);
-        if (raycaster.intersectObjects(boxMeshes, true).length > 0) {
+        if (activeSD && raycaster.intersectObjects(activeSD.box.meshes, true).length > 0) {
           if (animState === 'idle') triggerOpen();
         }
       }
     });
 
     document.getElementById('btn').addEventListener('click', () => {
-      if (animState === 'idle') triggerOpen();
-      else if (animState === 'open') triggerReset();
+      if (animState === 'idle')   triggerOpen();
+      else if (animState === 'open') resetActive();
     });
 
-    // ── Render loop ────────────────────────────────────────────────
+    // ── Render Loop ───────────────────────────────────────────────
     const clock = new THREE.Clock();
     let prevBX = 0, prevBZ = 0;
 
     renderer.setAnimationLoop(() => {
       const dt = Math.min(clock.getDelta(), 0.05);
 
-      // ─ 드래그: 박스를 손에 따라 부드럽게 이동
-      if (grabbed) {
-        const k = 1 - Math.pow(0.001, dt);
-        boxGroup.position.x += (dragPt.x - boxGroup.position.x) * k;
-        boxGroup.position.z += (dragPt.z - boxGroup.position.z) * k;
-        boxGroup.position.y += (GRAB_Y   - boxGroup.position.y) * (1 - Math.pow(0.01, dt));
+      // ─ 선반 박스 hover 부유
+      shelfData.forEach((sd, i) => {
+        if (sd.state !== 'shelf') return;
+        const ty = sd.origin.y + (i === hoveredIdx ? 0.12 : 0);
+        sd.box.grp.position.y += (ty - sd.box.grp.position.y) * dt * 7;
+      });
 
-        // 이동 방향으로 기울기
-        const mx = boxGroup.position.x - prevBX;
-        const mz = boxGroup.position.z - prevBZ;
-        boxGroup.rotation.x += (-mz * 3 - boxGroup.rotation.x) * dt * 6;
-        boxGroup.rotation.z += ( mx * 3 - boxGroup.rotation.z) * dt * 6;
-      }
+      if (activeSD) {
+        const grp = activeSD.box.grp;
 
-      // ─ 물리: 중력 + 바운스
-      if (!grabbed && !onFloor) {
-        vel.y += GRAVITY * dt;
-        boxGroup.position.addScaledVector(vel, dt);
+        // ─ 비행 애니메이션 (Bezier arc)
+        if (activeSD.state === 'flying') {
+          flyT = Math.min(flyT + dt / FLY_DUR, 1);
+          const pos = bezier(activeSD.origin, new THREE.Vector3(0, DROP_Y, 0), ease(flyT));
+          grp.position.copy(pos);
+          grp.rotation.x += dt * 1.8;
+          grp.rotation.z += dt * 1.2;
 
-        // 회전 (텀블)
-        boxGroup.rotation.x += angX * dt;
-        boxGroup.rotation.z += angZ * dt;
-        angX *= Math.pow(0.85, dt * 60);
-        angZ *= Math.pow(0.85, dt * 60);
+          if (flyT >= 1) {
+            activeSD.state = 'active';
+            appState = 'playable';
+            controls.enabled = true;
+            vel.set((Math.random()-.5)*.4, 0, (Math.random()-.5)*.4);
+            angX = (Math.random()-.5)*2; angZ = (Math.random()-.5)*2;
+            onFloor = false;
+            document.getElementById('btn').style.display = '';
+            document.getElementById('btn').textContent = '개봉하기';
+            document.getElementById('hint').textContent = '드래그: 잡기 · 클릭: 개봉';
+            document.getElementById('hint').style.opacity = '1';
+          }
 
-        if (boxGroup.position.y <= FLOOR_Y) {
-          boxGroup.position.y = FLOOR_Y;
-          vel.y = -vel.y * BOUNCE;
-          vel.x *= 0.65; vel.z *= 0.65;
-          angX *= 0.4;   angZ *= 0.4;
-          if (Math.abs(vel.y) < 0.2) {
-            vel.set(0,0,0); angX = 0; angZ = 0; onFloor = true;
+          controls.update();
+          renderer.render(scene, camera);
+          return;
+        }
+
+        // ─ 드래그
+        if (grabbed) {
+          const k = 1 - Math.pow(0.001, dt);
+          const mx = dragPt.x - grp.position.x, mz = dragPt.z - grp.position.z;
+          grp.position.x += mx * k;
+          grp.position.z += mz * k;
+          grp.position.y += (GRAB_Y - grp.position.y) * (1 - Math.pow(0.01, dt));
+          grp.rotation.x += (-mz*3 - grp.rotation.x) * dt * 6;
+          grp.rotation.z += ( mx*3 - grp.rotation.z) * dt * 6;
+        }
+
+        // ─ 물리
+        if (!grabbed && !onFloor) {
+          vel.y += GRAVITY * dt;
+          grp.position.addScaledVector(vel, dt);
+          grp.rotation.x += angX * dt; grp.rotation.z += angZ * dt;
+          angX *= Math.pow(0.85, dt*60); angZ *= Math.pow(0.85, dt*60);
+
+          if (grp.position.y <= FLOOR_Y) {
+            grp.position.y = FLOOR_Y;
+            vel.y *= -BOUNCE; vel.x *= 0.65; vel.z *= 0.65;
+            angX *= 0.4; angZ *= 0.4;
+            if (Math.abs(vel.y) < 0.2) {
+              vel.set(0,0,0); angX=0; angZ=0; onFloor=true;
+            }
+          }
+          if (Math.abs(grp.position.x) > BOUNDS_X) {
+            grp.position.x = Math.sign(grp.position.x)*BOUNDS_X;
+            vel.x *= -0.45; angZ *= -0.5;
+          }
+          if (Math.abs(grp.position.z) > BOUNDS_Z) {
+            grp.position.z = Math.sign(grp.position.z)*BOUNDS_Z;
+            vel.z *= -0.45; angX *= -0.5;
           }
         }
-        // XZ 경계 벽 충돌 (튕기기)
-        if (Math.abs(boxGroup.position.x) > BOUNDS_X) {
-          boxGroup.position.x = Math.sign(boxGroup.position.x) * BOUNDS_X;
-          vel.x *= -0.45; angZ *= -0.5;
+
+        // ─ 자세 복원
+        if (!grabbed) {
+          grp.rotation.x += (0 - grp.rotation.x) * dt * (onFloor ? 5 : 1);
+          grp.rotation.z += (0 - grp.rotation.z) * dt * (onFloor ? 5 : 1);
         }
-        if (Math.abs(boxGroup.position.z) > BOUNDS_Z) {
-          boxGroup.position.z = Math.sign(boxGroup.position.z) * BOUNDS_Z;
-          vel.z *= -0.45; angX *= -0.5;
+
+        prevBX = grp.position.x; prevBZ = grp.position.z;
+
+        // ─ 제품 위치 동기화
+        productPivot.position.set(grp.position.x, grp.position.y + 0.38, grp.position.z);
+        glowLight.position.set(grp.position.x, grp.position.y + 0.9, grp.position.z);
+
+        // ─ 개봉 애니메이션
+        if (animState === 'opening') {
+          animT = Math.min(animT + dt * 0.72, 1);
+          const t = ease(animT);
+          const {flaps} = activeSD.box;
+          flaps.front.rotation.x =  OPEN_FB * t;
+          flaps.back.rotation.x  = -OPEN_FB * t;
+          flaps.left.rotation.z  =  OPEN_LR * t;
+          flaps.right.rotation.z = -OPEN_LR * t;
+
+          if (animT > 0.55) {
+            const r = ease(Math.min((animT-.55)/.38, 1));
+            productPivot.scale.setScalar(r);
+            glowLight.intensity = r * 3.5;
+          }
+          if (animT >= 1) {
+            animState = 'open';
+            document.getElementById('btn').textContent = '다시 시작';
+            const el = document.getElementById('grade-popup');
+            el.textContent = GRADES[gradeIdx] + ' 등급!';
+            el.style.color = '#' + G_COLORS[gradeIdx].toString(16).padStart(6, '0');
+            el.style.opacity = '1';
+            setTimeout(() => el.style.opacity = '0', 2200);
+          }
         }
-      }
 
-      // ─ 바닥/정지 시 자세 복원
-      if (!grabbed) {
-        boxGroup.rotation.x += (0 - boxGroup.rotation.x) * dt * (onFloor ? 5 : 1);
-        boxGroup.rotation.z += (0 - boxGroup.rotation.z) * dt * (onFloor ? 5 : 1);
-      }
-
-      prevBX = boxGroup.position.x;
-      prevBZ = boxGroup.position.z;
-
-      // ─ 개봉 애니메이션
-      if (animState === 'opening') {
-        animT = Math.min(animT + dt * 0.72, 1);
-        const t = ease(animT);
-        frontFlap.rotation.x =  OPEN_FB * t;
-        backFlap.rotation.x  = -OPEN_FB * t;
-        leftFlap.rotation.z  =  OPEN_LR * t;
-        rightFlap.rotation.z = -OPEN_LR * t;
-
-        if (animT > 0.55) {
-          const r = ease(Math.min((animT-0.55)/0.38, 1));
-          productPivot.scale.setScalar(r);
-          glowLight.intensity = r * 3.5;
+        if (animState === 'open') {
+          productMesh.rotation.y += dt * 1.1;
+          productPivot.position.y = grp.position.y + .35 + Math.sin(clock.elapsedTime*2.2)*.045;
         }
-        if (animT >= 1) {
-          animState = 'open';
-          document.getElementById('btn').textContent = '다시 시작';
-          const el = document.getElementById('grade-popup');
-          el.textContent = GRADES[gradeIdx] + ' 등급!';
-          el.style.color = '#' + G_COLORS[gradeIdx].toString(16).padStart(6,'0');
-          el.style.opacity = '1';
-          setTimeout(() => el.style.opacity = '0', 2200);
-        }
-      }
-
-      if (animState === 'open') {
-        productMesh.rotation.y += dt * 1.1;
-        productPivot.position.y = 0.35 + Math.sin(clock.elapsedTime * 2.2) * 0.045;
       }
 
       controls.update();
