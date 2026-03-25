@@ -6,90 +6,75 @@
   <title>Box Value Simulator</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #1a1a2e;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
+    body { background: #0a0e15; overflow: hidden; font-family: system-ui, sans-serif; }
+    canvas { display: block; cursor: default; }
+    canvas.hovering { cursor: pointer; }
+    canvas.grabbing { cursor: grabbing; }
+
+    #hud {
+      position: fixed; top: 0; left: 0; width: 100%; pointer-events: none;
+      display: flex; justify-content: space-between; padding: 1rem 1.5rem;
+      color: #c0c0d0; font-size: 14px; z-index: 10;
     }
-    .container {
+    #hud .money { color: #f0c040; font-weight: bold; font-size: 18px; }
+
+    #hint {
+      position: fixed; top: 4rem; left: 50%; transform: translateX(-50%);
+      color: #556; font-size: 13px; letter-spacing: 0.05em;
+      pointer-events: none; transition: opacity 0.5s;
+    }
+
+    #grade-popup {
+      position: fixed; top: 40%; left: 50%; transform: translate(-50%, -50%);
+      font-size: 3.5rem; font-weight: 900; letter-spacing: 0.08em;
+      pointer-events: none; opacity: 0; transition: opacity 0.4s;
+      text-shadow: 0 0 30px currentColor, 0 0 60px currentColor;
       text-align: center;
-      max-width: 600px;
-      padding: 2rem;
     }
-    h1 {
-      font-size: 2.4rem;
-      color: #f0c040;
-      margin-bottom: 0.5rem;
-      letter-spacing: 0.05em;
+
+    #ui {
+      position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
+      z-index: 10;
     }
-    .subtitle {
-      font-size: 1rem;
-      color: #9090a0;
-      margin-bottom: 2rem;
+    #ui button {
+      background: #f0c040; color: #1a0f00; border: none; border-radius: 8px;
+      padding: 0.65rem 2rem; font: bold 15px system-ui; cursor: pointer;
+      letter-spacing: 0.05em; transition: background 0.15s, transform 0.1s;
+      pointer-events: auto;
     }
-    .badge {
-      display: inline-block;
-      background: #2a2a4a;
-      border: 1px solid #444466;
-      border-radius: 6px;
-      padding: 0.3rem 0.8rem;
-      font-size: 0.8rem;
-      color: #8888cc;
-      margin-bottom: 2.5rem;
-    }
-    .box-grid {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      margin-bottom: 2rem;
-    }
-    .box {
-      width: 60px;
-      height: 60px;
-      background: linear-gradient(135deg, #3a2a1a, #5a3a2a);
-      border: 2px solid #8a6a4a;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      cursor: pointer;
-      transition: transform 0.2s, border-color 0.2s;
-    }
-    .box:hover { transform: translateY(-4px); border-color: #f0c040; }
-    .desc {
-      font-size: 0.9rem;
-      color: #707080;
-      line-height: 1.7;
-    }
-    #canvas-container {
-      display: none;
+    #ui button:hover { background: #ffe060; transform: scale(1.05); }
+    #ui button:active { transform: scale(0.97); }
+
+    #loading {
+      position: fixed; inset: 0; background: #0a0e15;
+      display: flex; align-items: center; justify-content: center;
+      color: #f0c040; font-size: 1.2rem; z-index: 100;
+      transition: opacity 0.5s;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>📦 Box Value Simulator</h1>
-    <p class="subtitle">상자를 사고, 뜯고, 상품을 감정하고, 팔고, 다시 도전하는<br>무한 루프형 언박싱 경제 시뮬레이터</p>
-    <span class="badge">🚧 개발중 · PixiJS + TypeScript + Vite</span>
-    <div class="box-grid">
-      <div class="box">📦</div>
-      <div class="box">📦</div>
-      <div class="box">📦</div>
-      <div class="box">📦</div>
-      <div class="box">📦</div>
-    </div>
-    <p class="desc">
-      박스 한 세트(10개)의 총 가치는 미리 정해지고,<br>
-      각 박스에 비대칭 분배됩니다.<br>
-      상품의 상태(C~SSS)에 따라 판매가가 결정됩니다.
-    </p>
+  <div id="loading">로딩 중...</div>
+
+  <div id="hud">
+    <div>📦 Box Value Simulator</div>
+    <div class="money" id="money-display">₩ 100,000</div>
   </div>
-  <div id="canvas-container"></div>
+
+  <div id="hint">상자를 클릭해서 선택하세요</div>
+  <div id="grade-popup"></div>
+  <div id="ui">
+    <button id="btn-action" style="display:none">개봉하기</button>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="main.js"></script>
 </body>
 </html>

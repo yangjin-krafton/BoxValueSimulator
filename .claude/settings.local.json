@@ -105,7 +105,12 @@
       "Bash(python3 -c \":*)",
       "Bash(ls -la /d/Weeks/Devolution-Idle-Game/src/data/ | grep -E \"\\\\.\\(js|csv\\)$\")",
       "Read(//d/Weeks/Devolution-Idle-Game/**)",
-      "Bash(mv /tmp/enemy-env-fixed.csv src/data/enemy-environment-table.csv)"
+      "Bash(mv /tmp/enemy-env-fixed.csv src/data/enemy-environment-table.csv)",
+      "Bash(find /d/Weeks/BoxValueSimulator -type f \\\\\\(-name *.ts -o -name *.tsx -o -name *.js -o -name *.jsx -o -name *.css \\\\\\))",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(rm -f package.json package-lock.json tsconfig.json vite.config.ts index.html)",
+      "Bash(rm -rf node_modules dist)"
     ],
     "additionalDirectories": [
       "\\tmp"

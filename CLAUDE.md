@@ -4,57 +4,61 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Status
 
-This project is currently in the **design/specification phase**. The README.md is the authoritative design document (written in Korean). No source code exists yet.
+**Active development.** Core gameplay loop (box selection → unboxing → grade → sell) is implemented. No build step — pure ES modules served directly from `src/`.
 
-## Planned Tech Stack
+## Tech Stack
 
-- **Renderer**: PixiJS (2D rendering; 3D models used as pre-rendered sprites, not real-time 3D)
-- **Language**: TypeScript
-- **Bundler**: Vite
-- **State**: Simple game state manager or Zustand-style structure
-- **Asset pipeline**: Blender → sprite sheets → PixiJS
-- **Shaders**: PixiJS Filter / custom GLSL for condition-state variations
-- **Audio**: Howler.js or WebAudio
-- **Data**: JSON-based product/box tables
-- **Deployment**: Static page (GitHub Pages) — no server, ships the Vite build output directly
+- **Renderer**: Three.js (CDN via importmap, real-time 3D, GLB via GLTFLoader)
+- **Language**: Vanilla JavaScript (ES modules, no TypeScript, no bundler)
+- **Deployment**: GitHub Pages — serves `src/` directory directly, zero build step
+- **State**: EventBus + GameStateManager (custom)
+- **3D Models**: GLB format, loaded at runtime; fallback procedural shapes when unavailable
 
-## Expected Commands (once scaffolded)
+## No Build Step
 
-```bash
-npm install            # Install dependencies
-npm run dev            # Dev server (Vite)
-npx vite build         # Production build
-python tools/trim_resize_sprites.py   # Sprite preprocessing
-```
+This project runs without npm, Node.js, or any bundler. Three.js is loaded from CDN via `<script type="importmap">` in `index.html`. All `.js` files use native ES module imports with explicit `.js` extensions.
 
-## Game Architecture Overview
+To run locally: serve `src/` with any static server (e.g. `npx serve src`, `python -m http.server -d src`, or VS Code Live Server).
 
-### Core Loop
-Buy box → open → get random product → grade determined → sell → reinvest (or work minigame if bankrupt)
-
-### Key Systems
-
-**Box System**: Boxes come in sets of 10. The total value of all 10 is pre-seeded first, then distributed asymmetrically across individual boxes. This creates the risk/reward tension — expensive boxes can be duds, cheap boxes can be jackpots.
-
-**Product + Condition System**: Products have a base value and a condition grade (C / B / A / S / SS / SSS). Grade is not pure random — each product category has its own probability distribution. Grade multipliers: C×0.4, B×0.7, A×1.0, S×1.4, SS×2.0, SSS×3.5. Visual state is expressed via PixiJS shader filters (scratches, dust, discoloration, gloss).
-
-**Pricing Formula**:
-```
-Sale price = Base Value × Condition Multiplier × Rarity Multiplier × Market Adjustment
-```
-
-**Economy Balance**: Target return rate per box is 0.82–0.95 (slight long-term loss). If player goes bankrupt, work minigames (packing, labeling, sorting) provide recovery funds.
-
-### Intended Architecture Layers
+## Architecture
 
 ```
-UI (PixiJS)       — BoxSelectionScreen, UnboxingAnimation, GradeDisplay, SaleUI, MinigameUI
-Game Logic        — BoxGenerator (set value distribution), ProductRNG, PricingCalculator, GameStateManager
-Asset Layer       — Sprite sheets from Blender renders, shader-based condition variants
-Data Layer        — JSON tables for products and boxes
+src/
+├── index.html                   # Entry point (importmap for Three.js CDN)
+├── main.js                      # Wires all modules, game loop, event handlers
+├── core/
+│   ├── EventBus.js              # Typed pub/sub for module communication
+│   ├── GameStateManager.js      # Central state (money, phase, boxes)
+│   └── AssetLoader.js           # GLB loader with caching + fallback shapes
+├── systems/
+│   ├── BoxGenerator.js          # 10-box set generation (Dirichlet-like distribution)
+│   ├── GradeSystem.js           # Grade definitions (C~SSS), weighted random
+│   └── PricingCalculator.js     # Sale price formula
+├── rendering/
+│   ├── SceneManager.js          # Three.js scene, camera, lights, floor, render loop
+│   ├── BoxMesh.js               # Box geometry factory (cardboard texture, flaps)
+│   └── ProductRenderer.js       # GLB product display with glow + reveal animation
+├── scenes/
+│   ├── BoxSelectionScene.js     # 10-box shelf (3+4+3 towers), hover, click
+│   └── UnboxingScene.js         # Flying, physics, drag, open animation, product reveal
+├── ui/
+│   └── HUD.js                   # DOM-based UI (money, hints, grade popup, buttons)
+├── data/
+│   └── products.js              # Product definition table
+└── assets/
+    └── models/                  # GLB model files go here
 ```
 
-### Math Model Notes
-- 10-box set total value range: 180,000–320,000 KRW, asymmetrically distributed
-- Low-value products weight toward B/A grades; premium products span C–SSS; rare items skew toward upper grades
-- Bankruptcy is recoverable via minigame income; no permanent game over
+### Adding GLB Models
+
+1. Place `.glb` files in `src/assets/models/`
+2. Add entries to `src/data/products.js` with `modelPath: 'assets/models/filename.glb'`
+3. AssetLoader loads, caches, and auto-scales models to fit inside boxes
+4. Empty modelPath → random fallback shape
+
+### Key Design Decisions
+- One file = one responsibility (LLM-friendly maintenance)
+- Modules communicate via EventBus (loose coupling)
+- Rendering separated from game logic
+- DOM UI separated from Three.js canvas
+- All imports use relative paths with `.js` extensions (native ES modules)
