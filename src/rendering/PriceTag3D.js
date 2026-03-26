@@ -95,6 +95,8 @@ export function createPriceTag3D() {
   group.add(pole);
 
   let _boxDef = null;
+  let _effectivePrice = 0;   // 보너스 할인 적용된 실제 가격
+  let _totalDiscount = 0;    // 표시할 총 할인율
   let _priceMesh = null;
   let _discountMesh = null;
   let _status = '';
@@ -107,15 +109,16 @@ export function createPriceTag3D() {
     // 기존 메시 제거
     if (_priceMesh) { group.remove(_priceMesh); _priceMesh.geometry.dispose(); _priceMesh.material.dispose(); }
     if (_discountMesh) { group.remove(_discountMesh); _discountMesh.geometry.dispose(); _discountMesh.material.dispose(); }
+    _priceMesh = null; _discountMesh = null;
     _hitMeshes.length = 0;
 
     const pal = PALETTE[status];
-    const priceText = formatPrice(_boxDef.price);
+    const priceText = formatPrice(_effectivePrice);
 
-    if (_boxDef.discount > 0) {
+    if (_totalDiscount > 0) {
       // 할인율 위, 가격 아래
       _discountMesh = createTextMesh(
-        formatDiscount(_boxDef.discount), font, 0.18, 0.06,
+        formatDiscount(_totalDiscount), font, 0.18, 0.06,
         PALETTE.sale.main, PALETTE.sale.emissive
       );
       _discountMesh.position.y = 0.15;
@@ -143,23 +146,30 @@ export function createPriceTag3D() {
   return {
     group,
 
-    setBox(boxDef) {
+    /**
+     * @param {object} boxDef           상자 정의
+     * @param {number} [effectivePrice] 보너스 할인 적용 가격 (없으면 boxDef.price)
+     * @param {number} [bonusDiscount]  열 클리어 보너스 할인율
+     */
+    setBox(boxDef, effectivePrice, bonusDiscount = 0) {
       _boxDef = boxDef;
+      _effectivePrice = effectivePrice ?? boxDef.price;
+      _totalDiscount = bonusDiscount;
     },
 
     updateState(money) {
       if (!_boxDef) return;
 
       let status;
-      if (_boxDef.discount > 0) {
+      if (_totalDiscount > 0) {
         status = 'sale';
-      } else if (money >= _boxDef.price) {
+      } else if (money >= _effectivePrice) {
         status = 'affordable';
       } else {
         status = 'expensive';
       }
 
-      if (status === _status) return;   // 변경 없으면 스킵
+      if (status === _status) return;
       _status = status;
       rebuild(status);
     },

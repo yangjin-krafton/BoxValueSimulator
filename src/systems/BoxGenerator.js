@@ -20,18 +20,10 @@ export function generateBoxSet() {
   const boxes = innerValues.map((innerValue, index) => {
     const product = pickProduct(innerValue);
     const priceNoise = 0.7 + Math.random() * 0.6;
-    const originalPrice = Math.max(1000, Math.round((innerValue * priceNoise) / 1000) * 1000);
+    const price = Math.max(1000, Math.round((innerValue * priceNoise) / 1000) * 1000);
     const scale = Math.max(0.45, Math.min(0.98, 0.52 + (innerValue / totalValue) * 2.5));
 
-    // 할인 (20% 확률, 10~40% 할인)
-    let discount = 0;
-    let price = originalPrice;
-    if (Math.random() < 0.20) {
-      discount = 0.1 + Math.random() * 0.3;                     // 10~40%
-      price = Math.max(1000, Math.round((originalPrice * (1 - discount)) / 1000) * 1000);
-    }
-
-    return { index, price, originalPrice, discount, innerValue, product, scale };
+    return { index, price, innerValue, product, scale };
   });
 
   return { totalValue, boxes };

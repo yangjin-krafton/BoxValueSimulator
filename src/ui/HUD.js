@@ -9,11 +9,98 @@ export class HUD {
     this._popup   = document.getElementById('grade-popup');
     this._btn     = document.getElementById('btn-action');
 
-    bus.on('money:change', (v) => this.updateMoney(v));
+    /** 코인 카운트업 애니메이션 상태 */
+    this._displayAmount = 0;       // 현재 화면에 표시 중인 금액
+    this._targetAmount = 0;        // 최종 목표 금액
+    this._coinQueue = [];          // 대기 중인 코인 단위 틱 [{amount, time}]
+    this._tickRAF = null;
+    this._lastTickTime = 0;
+
+    bus.on('money:change', (v) => {
+      // spend는 즉시 반영, earn은 코인 바운스로 처리
+      if (v < this._displayAmount && this._coinQueue.length === 0) {
+        this._displayAmount = v;
+        this._targetAmount = v;
+        this._renderMoney();
+        this._bounce();
+      }
+    });
   }
 
   updateMoney(amount) {
-    this._money.textContent = `₩ ${amount.toLocaleString()}`;
+    this._displayAmount = amount;
+    this._targetAmount = amount;
+    this._coinQueue.length = 0;
+    this._renderMoney();
+  }
+
+  /**
+   * 판매 수익을 코인 단위로 바운스하며 카운트업.
+   * @param {number} totalAmount  총 수익
+   * @param {number} coinCount    코인 개수
+   */
+  startCoinCountUp(totalAmount, coinCount) {
+    const perCoin = totalAmount / coinCount;
+    const baseDelay = 0.03;   // 코인 간 간격 (초)
+    const now = performance.now() / 1000;
+
+    // 흡수 코인 타이밍에 맞춰 지연 시작 (폭발 0.4s + 흡수 시작)
+    const startDelay = 0.6;
+
+    this._coinQueue.length = 0;
+    for (let i = 0; i < coinCount; i++) {
+      this._coinQueue.push({
+        amount: perCoin,
+        time: now + startDelay + i * baseDelay,
+      });
+    }
+    this._targetAmount = this._displayAmount + totalAmount;
+
+    if (!this._tickRAF) this._tickLoop();
+  }
+
+  _tickLoop() {
+    this._tickRAF = requestAnimationFrame(() => {
+      const now = performance.now() / 1000;
+      let ticked = false;
+
+      while (this._coinQueue.length > 0 && this._coinQueue[0].time <= now) {
+        const tick = this._coinQueue.shift();
+        this._displayAmount += tick.amount;
+        ticked = true;
+      }
+
+      if (ticked) {
+        // 마지막 틱이면 정확한 목표치로 보정
+        if (this._coinQueue.length === 0) {
+          this._displayAmount = this._targetAmount;
+        }
+        this._renderMoney();
+        this._bounce();
+      }
+
+      if (this._coinQueue.length > 0) {
+        this._tickLoop();
+      } else {
+        this._tickRAF = null;
+      }
+    });
+  }
+
+  _renderMoney() {
+    const v = Math.round(this._displayAmount);
+    this._money.innerHTML = `<span class="coin-icon">🪙</span>₩ ${v.toLocaleString()}`;
+  }
+
+  _bounce() {
+    this._money.style.transition = 'none';
+    this._money.style.transform = 'scale(1.25)';
+    this._money.style.color = '#ffe566';
+    // force reflow
+    void this._money.offsetWidth;
+    this._money.style.transition = 'transform 0.15s ease-out, color 0.3s';
+    this._money.style.transform = 'scale(1)';
+    this._money.style.color = '#f0c040';
   }
 
   setHint(text, visible = true) {

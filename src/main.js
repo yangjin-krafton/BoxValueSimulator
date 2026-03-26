@@ -2,6 +2,7 @@ import { EventBus } from './core/EventBus.js';
 import { GameStateManager } from './core/GameStateManager.js';
 import { AssetLoader } from './core/AssetLoader.js';
 import { SceneManager } from './rendering/SceneManager.js';
+import { CoinSystem } from './rendering/CoinSystem.js';
 import { BoxSelectionScene } from './scenes/BoxSelectionScene.js';
 import { UnboxingScene } from './scenes/UnboxingScene.js';
 import { HUD } from './ui/HUD.js';
@@ -14,12 +15,14 @@ const gameState  = new GameStateManager(bus);
 const assetLoader = new AssetLoader();
 const sceneMgr   = new SceneManager();
 const hud        = new HUD(bus);
+const coins      = new CoinSystem(sceneMgr.scene, sceneMgr.camera);
 
 const boxSelection = new BoxSelectionScene(sceneMgr, gameState, bus);
 const unboxing     = new UnboxingScene(sceneMgr, gameState, bus, assetLoader);
 
 // ── 새 세트 시작 ──
 function startNewSet() {
+  coins.clearFloor();
   const boxSet = generateBoxSet();
   gameState.setBoxSet(boxSet);
   gameState.setPhase('box_selection');
@@ -31,16 +34,25 @@ function startNewSet() {
 
 // ── 이벤트 ──
 bus.on('box:select', (index) => {
-  const boxDef = gameState.state.boxSet.boxes[index];
-  if (!gameState.spendMoney(boxDef.price)) {
-    hud.setHint(`자금 부족! (필요: ₩${boxDef.price.toLocaleString()})`);
-    boxSelection.setTagsVisible(true);   // 가격표 다시 표시
+  const effectivePrice = boxSelection.getEffectivePrice(index);
+  if (!gameState.spendMoney(effectivePrice)) {
+    hud.setHint(`자금 부족! (필요: ₩${effectivePrice.toLocaleString()})`);
+    boxSelection.setTagsVisible(true);
     return;
   }
+
+  // 코인 뿌리기 (구매)
+  const meshData = boxSelection.getBoxMesh(index);
+  if (meshData) {
+    const spawnPos = meshData.group.position.clone();
+    spawnPos.y += 1;
+    coins.spendCoins(effectivePrice, spawnPos);
+  }
+
+  boxSelection.consumeBonus();
   gameState.selectBox(index);
   gameState.setPhase('flying');
 
-  const meshData = boxSelection.getBoxMesh(index);
   if (meshData) unboxing.startUnboxing(meshData);
 
   hud.setHint('', false);
@@ -61,32 +73,49 @@ bus.on('box:open', () => {
 });
 
 function sellAndContinue() {
-  if (gameState.state.currentProduct) gameState.sellProduct();
+  const product = gameState.state.currentProduct;
+  if (product) {
+    // 상품 위치에서 코인 폭발 → HUD로 흡수
+    const productPos = unboxing.productRenderer.pivot.position.clone();
+    const coinCount = Math.max(3, Math.floor(product.salePrice / 1000));
+    coins.earnCoins(product.salePrice, productPos);
+
+    // 코인 바운스 카운트업 (sellProduct 전에 현재 금액 기준으로 시작)
+    hud.startCoinCountUp(product.salePrice, coinCount);
+    gameState.sellProduct();
+  }
+
+  hud.hideButton();
+  hud.setHint('');
 
   const idx = gameState.state.selectedBoxIndex;
   gameState.setBoxState(idx, 'done');
   boxSelection.hideBox(idx);
-  unboxing.reset();
 
-  const remaining = gameState.state.boxStates.filter(s => s === 'shelf').length;
-  if (remaining > 0) {
-    gameState.setPhase('box_selection');
-    boxSelection.setTagsVisible(true);
-    hud.setHint('다음 상자를 선택하세요');
-    hud.hideButton();
-  } else {
-    hud.showButton('새 세트 열기', () => startNewSet());
-    hud.setHint('모든 상자를 열었습니다!');
-  }
+  // 카메라 서서히 복원 → 완료 후 다음 단계
+  unboxing.startSellTransition(() => {
+    const remaining = gameState.state.boxStates.filter(s => s === 'shelf').length;
+    if (remaining > 0) {
+      gameState.setPhase('box_selection');
+      boxSelection.setTagsVisible(true);
+      hud.setHint('다음 상자를 선택하세요');
+      hud.hideButton();
+    } else {
+      hud.showButton('새 세트 열기', () => startNewSet());
+      hud.setHint('모든 상자를 열었습니다!');
+    }
+  });
 }
 
 // ── 렌더 루프 ──
 sceneMgr.startLoop((dt) => {
   const phase = gameState.state.phase;
   if (phase === 'box_selection') boxSelection.updateShelf(dt);
-  if (phase === 'flying' || phase === 'playable' || phase === 'opening' || phase === 'result') {
+  if (phase === 'flying' || phase === 'playable' || phase === 'opening' || phase === 'result'
+      || unboxing._selling) {
     unboxing.update(dt, sceneMgr.clock.elapsedTime);
   }
+  coins.update(dt);
 });
 
 // ── 시작 ──

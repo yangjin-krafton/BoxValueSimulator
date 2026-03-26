@@ -11,12 +11,24 @@
     canvas.hovering { cursor: pointer; }
     canvas.grabbing { cursor: grabbing; }
 
-    #hud {
+    #hud-top {
       position: fixed; top: 0; left: 0; width: 100%; pointer-events: none;
-      display: flex; justify-content: space-between; padding: 1rem 1.5rem;
+      display: flex; justify-content: center; padding: 0.8rem 1.5rem;
       color: #c0c0d0; font-size: 14px; z-index: 10;
     }
-    #hud .money { color: #f0c040; font-weight: bold; font-size: 18px; }
+
+    #hud-bottom {
+      position: fixed; bottom: 0; left: 0; width: 100%; pointer-events: none;
+      display: flex; justify-content: center; align-items: center;
+      padding: 0.6rem 1.5rem; z-index: 10;
+      background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    }
+    #money-display {
+      color: #f0c040; font-weight: 900; font-size: 22px;
+      text-shadow: 0 0 12px rgba(240,192,64,0.5);
+      letter-spacing: 0.03em;
+    }
+    #money-display .coin-icon { display: inline-block; margin-right: 6px; }
 
     #hint {
       position: fixed; top: 4rem; left: 50%; transform: translateX(-50%);
@@ -33,7 +45,7 @@
     }
 
     #ui {
-      position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
+      position: fixed; bottom: 3.5rem; left: 50%; transform: translateX(-50%);
       z-index: 10;
     }
     #ui button {
@@ -56,9 +68,9 @@
 <body>
   <div id="loading">로딩 중...</div>
 
-  <div id="hud">
-    <div>📦 Box Value Simulator</div>
-    <div class="money" id="money-display">₩ 100,000</div>
+  <div id="hud-top">Box Value Simulator</div>
+  <div id="hud-bottom">
+    <div id="money-display"><span class="coin-icon">🪙</span>₩ 100,000</div>
   </div>
 
   <div id="hint">상자를 클릭해서 선택하세요</div>

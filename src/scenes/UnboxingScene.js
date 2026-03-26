@@ -50,6 +50,14 @@ export class UnboxingScene {
     this._origCamPos = new THREE.Vector3();
     this._origTarget = new THREE.Vector3();
 
+    // 판매 전환 애니메이션
+    this._selling = false;
+    this._sellT = 0;
+    this._sellDur = 1.2;
+    this._sellCallback = null;
+    this._sellCamStart = new THREE.Vector3();
+    this._sellTargetStart = new THREE.Vector3();
+
     this._setupInput();
   }
 
@@ -106,7 +114,22 @@ export class UnboxingScene {
     this.gameState.setPhase('opening');
   }
 
+  /**
+   * 판매 전환 시작: 카메라 서서히 복원 + 상품 축소.
+   * 완료 후 onDone 콜백 호출.
+   */
+  startSellTransition(onDone) {
+    this._selling = true;
+    this._sellT = 0;
+    this._sellCallback = onDone;
+    this._sellCamStart.copy(this.sceneMgr.camera.position);
+    this._sellTargetStart.copy(this.sceneMgr.controls.target);
+    this.sceneMgr.controls.enabled = false;
+  }
+
+  /** 즉시 리셋 (전환 없이) */
   reset() {
+    this._selling = false;
     if (this._active) {
       const f = this._active.flaps;
       f.front.rotation.x = f.back.rotation.x = 0;
@@ -126,6 +149,30 @@ export class UnboxingScene {
 
   update(dt, elapsed) {
     this.confetti.update(dt);
+
+    // ── 판매 전환 애니메이션 ──
+    if (this._selling) {
+      this._sellT = Math.min(this._sellT + dt / this._sellDur, 1);
+      const t = ease(this._sellT);
+
+      // 카메라 위치 서서히 복원
+      this.sceneMgr.camera.position.lerpVectors(this._sellCamStart, this._origCamPos, t);
+      this.sceneMgr.controls.target.lerpVectors(this._sellTargetStart, this._origTarget, t);
+
+      // 상품 축소 + 상자 숨기기
+      this.productRenderer.pivot.scale.setScalar(Math.max(0, 1 - t));
+
+      if (this._sellT >= 1) {
+        this._selling = false;
+        this.reset();
+        if (this._sellCallback) {
+          const cb = this._sellCallback;
+          this._sellCallback = null;
+          cb();
+        }
+      }
+      return;
+    }
 
     const a = this._active;
     if (!a) return;

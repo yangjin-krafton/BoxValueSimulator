@@ -52,6 +52,11 @@ export class BoxSelectionScene {
     /** @type {Map<number, ReturnType<typeof createPriceTag3D>>} boxIdx → tag */
     this._priceTags = new Map();
 
+    /** 열 클리어 보너스: 1회성, 각 상자별 랜덤 할인율 */
+    this._bonusActive = false;
+    /** @type {Map<number, number>} boxIdx → 할인율 (0.1~0.4) */
+    this._bonusRates = new Map();
+
     this._hoveredIdx = -1;
     this._ray = new THREE.Raycaster();
     this._mouse = new THREE.Vector2();
@@ -65,6 +70,8 @@ export class BoxSelectionScene {
   /** 새 세트 10개 배치 (매번 2~4열 랜덤) */
   spawnBoxes(boxSet) {
     this.clear();
+    this._bonusActive = false;
+    this._bonusRates.clear();
     const towers = randomTowers(boxSet.boxes.length);
     this._towers = towers;
 
@@ -102,6 +109,27 @@ export class BoxSelectionScene {
 
   getBoxMesh(index) { return this.boxMeshes[index]; }
 
+  /** 보너스 할인 적용된 실제 구매 가격 */
+  getEffectivePrice(index) {
+    const def = this.gameState.state.boxSet.boxes[index];
+    const rate = this._bonusRates.get(index) || 0;
+    if (rate > 0) {
+      return Math.max(1000, Math.round((def.price * (1 - rate)) / 1000) * 1000);
+    }
+    return def.price;
+  }
+
+  /** 보너스 할인 소비 (구매 후 호출) — 전체 보너스 1회 소진 */
+  consumeBonus() {
+    const had = this._bonusActive;
+    this._bonusActive = false;
+    this._bonusRates.clear();
+    return had;
+  }
+
+  /** 현재 보너스 활성 여부 */
+  get bonusActive() { return this._bonusActive; }
+
   /** 선반 위 호버 부유 + 가격표 회전 */
   updateShelf(dt) {
     this.boxMeshes.forEach((md, i) => {
@@ -120,7 +148,26 @@ export class BoxSelectionScene {
 
   hideBox(index) {
     const md = this.boxMeshes[index];
-    if (md) md.group.visible = false;
+    if (!md) return;
+    md.group.visible = false;
+
+    // 열 클리어 감지: 해당 타워에 shelf 상자가 0개면 보너스 활성
+    const ti = md.towerIdx;
+    const towerHasShelf = this.boxMeshes.some(
+      (m, i) => m.towerIdx === ti && this.gameState.state.boxStates[i] === 'shelf'
+    );
+    if (!towerHasShelf && !this._bonusActive) {
+      this._bonusActive = true;
+      this._bonusRates.clear();
+      // 남은 모든 최상단 상자에 각각 랜덤 할인율 배정
+      const tops = this._topIndices();
+      for (const boxIdx of tops) {
+        const rate = 0.1 + Math.random() * 0.3;   // 10~40% 랜덤
+        this._bonusRates.set(boxIdx, rate);
+      }
+      this.bus.emit('tower:cleared', ti);
+    }
+
     this._rebuildTags();
   }
 
@@ -155,7 +202,10 @@ export class BoxSelectionScene {
       const def = boxSet.boxes[boxIdx];
       const tag = createPriceTag3D();
 
-      tag.setBox(def);
+      // 보너스 할인 적용된 가격으로 표시
+      const effectivePrice = this.getEffectivePrice(boxIdx);
+      const bonusRate = this._bonusRates.get(boxIdx) || 0;
+      tag.setBox(def, effectivePrice, bonusRate);
       tag.updateState(money);
 
       // 상자 최상단 위에 배치
