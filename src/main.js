@@ -65,11 +65,14 @@ function resumeFromSave() {
 // ── 교환 버튼 ──
 function swapBoxes() {
   if (gameState.state.phase !== 'box_selection') return;
-  coins.clearFloor();
-  const boxSet = generateBoxSet();
-  gameState.setBoxSet(boxSet);
-  boxSelection.spawnBoxes(boxSet);
-  hud.setHint('새 상자가 도착했습니다!');
+  sceneMgr.fadeTransition(1.4, () => {
+    // 어두운 시점: 상자 교체
+    coins.clearFloor();
+    const boxSet = generateBoxSet();
+    gameState.setBoxSet(boxSet);
+    boxSelection.spawnBoxes(boxSet);
+    hud.setHint('새 상자가 도착했습니다!');
+  });
 }
 hud.onSwap(swapBoxes);
 
@@ -114,7 +117,11 @@ bus.on('box:open', () => {
   const product = unboxing.productInstance;
   if (product) {
     hud.showProductResult(product);
-    hud.showButton('판매하기', () => sellAndContinue());
+    hud.showButton(
+      `판매하기  ₩${product.salePrice.toLocaleString()}`,
+      () => sellAndContinue(),
+      { bg: '#2e7d32', color: '#ffffff' },
+    );
   }
 });
 
@@ -148,7 +155,9 @@ function sellAndContinue() {
       hud.hideButton();
       hud.setSwapVisible(true);
     } else {
-      hud.showButton('새 세트 열기', () => startNewSet());
+      hud.showButton('새 세트 열기', () => {
+        sceneMgr.fadeTransition(1.4, () => startNewSet());
+      });
       hud.setHint('모든 상자를 열었습니다!');
       hud.setSwapVisible(false);
     }

@@ -131,14 +131,18 @@ export class HUD {
     setTimeout(() => { this._popup.style.opacity = '0'; }, 3000);
   }
 
-  showButton(text, onClick) {
+  showButton(text, onClick, style) {
     this._btn.textContent = text;
     this._btn.style.display = '';
+    this._btn.style.background = style?.bg || '#f0c040';
+    this._btn.style.color = style?.color || '#1a0f00';
     this._btn.onclick = onClick;
   }
 
   hideButton() {
     this._btn.style.display = 'none';
+    this._btn.style.background = '';
+    this._btn.style.color = '';
     this._btn.onclick = null;
   }
 

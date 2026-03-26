@@ -30,7 +30,7 @@ export class UnboxingScene {
     this.sceneMgr = sceneMgr;
     this.gameState = gameState;
     this.bus = bus;
-    this.productRenderer = new ProductRenderer(sceneMgr.scene, assetLoader);
+    this.productRenderer = new ProductRenderer(sceneMgr.scene, assetLoader, sceneMgr.camera);
     this.confetti = new ConfettiSystem(sceneMgr.scene);
 
     this._active = null;
@@ -44,6 +44,8 @@ export class UnboxingScene {
     this._gradeInfo = null;
     this._product = null;
 
+    this._viewDist = 4;
+    this._riseCamStart = new THREE.Vector3();
     this._mouse = new THREE.Vector2();
     this._ray = new THREE.Raycaster();
 
@@ -272,6 +274,18 @@ export class UnboxingScene {
       if (this._animT >= 1) {
         this._animState = 'rising';
         this._riseT = 0;
+
+        // 모델 bound 기준 카메라 거리 — 화면에 꽉 차게
+        const br = this.productRenderer._boundRadius || 0.5;
+        const cam = this.sceneMgr.camera;
+        const fov = cam.fov * (PI / 180);
+        const aspect = cam.aspect;
+        // 세로/가로 중 좁은 쪽 기준으로 거리 계산 (모바일 세로 대응)
+        const hFov = 2 * Math.atan(Math.tan(fov / 2) * aspect);
+        const effectiveFov = Math.min(fov, hFov);
+        // 모델이 화면 ~80% 차지하는 거리 (1.15 = br / tan * 여유)
+        this._viewDist = Math.max(1.2, (br * 1.15) / Math.tan(effectiveFov / 2));
+        this._riseCamStart = this.sceneMgr.camera.position.clone();
       }
       return;
     }
@@ -281,21 +295,27 @@ export class UnboxingScene {
       this._riseT = Math.min(this._riseT + dt / RISE_DUR, 1);
       const t = ease(this._riseT);
       const riseY = FLOOR_Y + 0.38 + RISE_HEIGHT * t;
+      const productPos = new THREE.Vector3(grp.position.x, riseY, grp.position.z);
 
-      this.productRenderer.setPosition(grp.position.x, riseY, grp.position.z);
+      this.productRenderer.setPosition(productPos.x, productPos.y, productPos.z);
       this.productRenderer.rotate(dt, elapsed);
 
-      this.sceneMgr.controls.target.lerp(
-        new THREE.Vector3(grp.position.x, riseY, grp.position.z), dt * 4
+      // 카메라 타겟 → 상품 위치
+      this.sceneMgr.controls.target.lerp(productPos, dt * 4);
+
+      // 카메라 위치 → 상품 앞에서 적정 거리
+      const idealCamPos = new THREE.Vector3(
+        productPos.x,
+        productPos.y + 0.3,
+        productPos.z + this._viewDist,
       );
+      this.sceneMgr.camera.position.lerp(idealCamPos, dt * 3);
 
       if (this._riseT >= 1) {
         this._animState = 'display';
         this.gameState.setPhase('result');
         this.gameState.setCurrentProduct(this._product);
-        this.sceneMgr.controls.target.set(
-          grp.position.x, FLOOR_Y + 0.38 + RISE_HEIGHT, grp.position.z
-        );
+        this.sceneMgr.controls.target.copy(productPos);
         this.sceneMgr.controls.enabled = true;
         this.bus.emit('box:open', undefined);
       }

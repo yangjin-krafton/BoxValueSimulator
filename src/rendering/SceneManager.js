@@ -43,9 +43,13 @@ export class SceneManager {
 
     this.clock = new THREE.Clock();
 
+    this._spotFlicker = false;
+    this._spotFlickerT = 0;
+
     this._setupLighting();
     this._setupFloor();
     this._setupResize();
+    this._setupFade();
   }
 
   get canvas() { return this.renderer.domElement; }
@@ -70,17 +74,18 @@ export class SceneManager {
     const spotTarget = new THREE.Vector3(0, -3, -5.2);
     const spotAngle = Math.PI / 9.5;
 
-    const spot = new THREE.SpotLight(0xffe0a0, 2.8);
-    spot.position.copy(spotPos);
-    spot.angle = spotAngle;
-    spot.penumbra = 0.25;
-    spot.decay = 1.0;
-    spot.castShadow = !isMobile;        // 모바일: spot shadow 비활성
-    spot.shadow.mapSize.set(isMobile ? 512 : 1024, isMobile ? 512 : 1024);
-    spot.shadow.bias = -0.002;
-    spot.target.position.copy(spotTarget);
-    this.scene.add(spot);
-    this.scene.add(spot.target);
+    this.spot = new THREE.SpotLight(0xffe0a0, 2.8);
+    this.spot.position.copy(spotPos);
+    this.spot.angle = spotAngle;
+    this.spot.penumbra = 0.25;
+    this.spot.decay = 1.0;
+    this.spot.castShadow = !isMobile;
+    this.spot.shadow.mapSize.set(isMobile ? 512 : 1024, isMobile ? 512 : 1024);
+    this.spot.shadow.bias = -0.002;
+    this.spot.target.position.copy(spotTarget);
+    this.scene.add(this.spot);
+    this.scene.add(this.spot.target);
+    this._spotBaseIntensity = 2.8;
 
     const particleCount = isMobile ? 600 : 2000;
     this.volumetric = new VolumetricParticles(this.scene, this.camera, {
@@ -135,6 +140,103 @@ export class SceneManager {
     });
   }
 
+  // ── Fade 시스템 ──
+
+  _setupFade() {
+    // 전체 화면 위에 검은 오버레이
+    this._fadeEl = document.createElement('div');
+    Object.assign(this._fadeEl.style, {
+      position: 'fixed', inset: '0', background: '#000',
+      opacity: '0', pointerEvents: 'none', zIndex: '50',
+      transition: 'none',
+    });
+    document.body.appendChild(this._fadeEl);
+
+    this._fading = false;
+    this._fadeT = 0;
+    this._fadeDur = 0;
+    this._fadeHalf = false;
+    this._fadeOnMid = null;
+    this._fadeOnDone = null;
+  }
+
+  /**
+   * fade out → onMid 콜백 → fade in → onDone.
+   * @param {number} duration  전체 시간 (초)
+   * @param {function} onMid   어두워진 시점 콜백
+   * @param {function} [onDone] 밝아진 뒤 콜백
+   */
+  fadeTransition(duration, onMid, onDone) {
+    this._fading = true;
+    this._fadeT = 0;
+    this._fadeDur = duration;
+    this._fadeHalf = false;
+    this._fadeOnMid = onMid;
+    this._fadeOnDone = onDone || null;
+    // spot 끄기
+    this.spot.intensity = 0;
+  }
+
+  _updateFade(dt) {
+    if (!this._fading) return;
+    this._fadeT += dt;
+    const half = this._fadeDur / 2;
+
+    if (this._fadeT < half) {
+      // fade out (0→1)
+      const t = this._fadeT / half;
+      this._fadeEl.style.opacity = t.toString();
+    } else {
+      // 중간 콜백
+      if (!this._fadeHalf) {
+        this._fadeHalf = true;
+        this._fadeEl.style.opacity = '1';
+        if (this._fadeOnMid) this._fadeOnMid();
+        // spot 깜빡 시작
+        this._spotFlicker = true;
+        this._spotFlickerT = 0;
+      }
+      // fade in (1→0)
+      const t = (this._fadeT - half) / half;
+      this._fadeEl.style.opacity = Math.max(0, 1 - t).toString();
+
+      if (this._fadeT >= this._fadeDur) {
+        this._fading = false;
+        this._fadeEl.style.opacity = '0';
+        if (this._fadeOnDone) this._fadeOnDone();
+      }
+    }
+  }
+
+  // ── Spot 깜빡 연출 ──
+
+  _updateSpotFlicker(dt) {
+    if (!this._spotFlicker) return;
+    this._spotFlickerT += dt;
+    const t = this._spotFlickerT;
+
+    if (t < 0.15) {
+      this.spot.intensity = this._spotBaseIntensity * 0.3;
+    } else if (t < 0.25) {
+      this.spot.intensity = 0;
+    } else if (t < 0.4) {
+      this.spot.intensity = this._spotBaseIntensity * 0.6;
+    } else if (t < 0.5) {
+      this.spot.intensity = this._spotBaseIntensity * 0.15;
+    } else if (t < 0.7) {
+      this.spot.intensity = this._spotBaseIntensity * 0.8;
+    } else if (t < 0.8) {
+      this.spot.intensity = this._spotBaseIntensity * 0.4;
+    } else if (t < 1.0) {
+      // 최종 점등
+      const p = (t - 0.8) / 0.2;
+      this.spot.intensity = this._spotBaseIntensity * (0.4 + p * 0.6);
+    } else {
+      this.spot.intensity = this._spotBaseIntensity;
+      this._spotFlicker = false;
+    }
+  }
+
   render() {
     this.controls.update();
     if (this.volumetric) this.volumetric.update(this.clock.elapsedTime);
@@ -145,6 +247,8 @@ export class SceneManager {
   startLoop(update) {
     this.renderer.setAnimationLoop(() => {
       const dt = Math.min(this.clock.getDelta(), 0.05);
+      this._updateFade(dt);
+      this._updateSpotFlicker(dt);
       update(dt);
       this.render();
     });
