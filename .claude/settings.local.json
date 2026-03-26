@@ -121,7 +121,8 @@
       "WebFetch(domain:ijdykeman.github.io)",
       "Bash(pip install:*)",
       "WebFetch(domain:akidevcat.github.io)",
-      "WebFetch(domain:blog.mmacklin.com)"
+      "WebFetch(domain:blog.mmacklin.com)",
+      "Bash(kill 681 929)"
     ],
     "additionalDirectories": [
       "\\tmp"

@@ -1,0 +1,11 @@
+{
+  "name": "box-value-simulator-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "node scan-models.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

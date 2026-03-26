@@ -1,0 +1,4 @@
+# Tools - dev only (screenshots, node_modules, etc.)
+tools/screenshots/
+tools/node_modules/
+tools/package-lock.json
