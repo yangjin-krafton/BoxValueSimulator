@@ -8,6 +8,17 @@ export class HUD {
     this._hint    = document.getElementById('hint');
     this._popup   = document.getElementById('grade-popup');
     this._btn     = document.getElementById('btn-action');
+    this._swap    = document.getElementById('btn-swap');
+
+    /** 교환 쿨타임 */
+    this._swapCooldown = 0;          // 남은 초
+    this._swapTimer = null;
+    this._swapCallback = null;
+    this._swap.addEventListener('click', () => {
+      if (this._swapCooldown > 0 || !this._swapCallback) return;
+      this._swapCallback();
+      this.startSwapCooldown(60);
+    });
 
     /** 코인 카운트업 애니메이션 상태 */
     this._displayAmount = 0;       // 현재 화면에 표시 중인 금액
@@ -134,5 +145,44 @@ export class HUD {
   hideLoading() {
     const el = document.getElementById('loading');
     if (el) { el.style.opacity = '0'; setTimeout(() => el.remove(), 500); }
+  }
+
+  // ── 교환 버튼 ──
+
+  /** 교환 콜백 등록 */
+  onSwap(callback) {
+    this._swapCallback = callback;
+  }
+
+  /** 교환 버튼 표시/숨김 */
+  setSwapVisible(visible) {
+    this._swap.style.display = visible ? '' : 'none';
+  }
+
+  /** 쿨타임 시작 */
+  startSwapCooldown(seconds) {
+    this._swapCooldown = seconds;
+    this._swap.disabled = true;
+    this._updateSwapLabel();
+
+    if (this._swapTimer) clearInterval(this._swapTimer);
+    this._swapTimer = setInterval(() => {
+      this._swapCooldown--;
+      if (this._swapCooldown <= 0) {
+        this._swapCooldown = 0;
+        this._swap.disabled = false;
+        clearInterval(this._swapTimer);
+        this._swapTimer = null;
+      }
+      this._updateSwapLabel();
+    }, 1000);
+  }
+
+  _updateSwapLabel() {
+    if (this._swapCooldown > 0) {
+      this._swap.innerHTML = `🔄 교환 <span class="cooldown">${this._swapCooldown}s</span>`;
+    } else {
+      this._swap.textContent = '🔄 교환';
+    }
   }
 }

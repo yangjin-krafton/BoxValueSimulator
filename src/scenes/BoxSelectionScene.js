@@ -68,13 +68,16 @@ export class BoxSelectionScene {
   }
 
   /** 새 세트 10개 배치 (매번 2~4열 랜덤) */
-  spawnBoxes(boxSet) {
+  spawnBoxes(boxSet, savedLayout) {
     this.clear();
     this._bonusActive = false;
     this._bonusRates.clear();
-    const towers = randomTowers(boxSet.boxes.length);
+
+    const towers = savedLayout ? savedLayout.towers : randomTowers(boxSet.boxes.length);
     this._towers = towers;
 
+    // 박스별 위치/회전 생성 또는 복원
+    const positions = savedLayout ? savedLayout.positions : null;
     let idx = 0;
     for (let ti = 0; ti < towers.length; ti++) {
       const tower = towers[ti];
@@ -83,9 +86,18 @@ export class BoxSelectionScene {
         const def = boxSet.boxes[idx];
         const md = createBoxMesh();
         const s = def.scale;
-        const x = tower.x + (Math.random() - 0.5) * 0.08;
-        const z = tower.z + (Math.random() - 0.5) * 0.08;
-        const ry = (Math.random() - 0.5) * 0.3;
+
+        let x, z, ry;
+        if (positions && positions[idx]) {
+          x = positions[idx].x;
+          z = positions[idx].z;
+          ry = positions[idx].ry;
+          stackY = positions[idx].y;
+        } else {
+          x = tower.x + (Math.random() - 0.5) * 0.08;
+          z = tower.z + (Math.random() - 0.5) * 0.08;
+          ry = (Math.random() - 0.5) * 0.3;
+        }
 
         md.group.scale.setScalar(s);
         md.group.position.set(x, stackY, z);
@@ -99,12 +111,29 @@ export class BoxSelectionScene {
         addPriceStickers(md.group, def.price);
         this.sceneMgr.scene.add(md.group);
         this.boxMeshes.push(md);
-        stackY += BOX_H * s + 0.005;
+        if (!positions) stackY += BOX_H * s + 0.005;
         idx++;
       }
     }
 
+    // 레이아웃 저장
+    this._saveLayout();
     this._rebuildTags();
+  }
+
+  /** 현재 배치 정보를 gameState에 저장 */
+  _saveLayout() {
+    const positions = this.boxMeshes.map(md => ({
+      x: md.originPos.x,
+      y: md.originPos.y,
+      z: md.originPos.z,
+      ry: md.originRotY,
+    }));
+    this.gameState.state.layout = {
+      towers: this._towers,
+      positions,
+    };
+    this.gameState.save();
   }
 
   getBoxMesh(index) { return this.boxMeshes[index]; }

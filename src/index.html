@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Box Value Simulator</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #0a0e15; overflow: hidden; font-family: system-ui, sans-serif; }
@@ -19,7 +20,7 @@
 
     #hud-bottom {
       position: fixed; bottom: 0; left: 0; width: 100%; pointer-events: none;
-      display: flex; justify-content: center; align-items: center;
+      display: flex; justify-content: space-between; align-items: center;
       padding: 0.6rem 1.5rem; z-index: 10;
       background: linear-gradient(transparent, rgba(0,0,0,0.6));
     }
@@ -57,6 +58,18 @@
     #ui button:hover { background: #ffe060; transform: scale(1.05); }
     #ui button:active { transform: scale(0.97); }
 
+    #btn-swap {
+      background: none; border: none; cursor: pointer; pointer-events: auto;
+      color: #f0c040; font-weight: 900; font-size: 22px;
+      text-shadow: 0 0 12px rgba(240,192,64,0.5);
+      letter-spacing: 0.03em;
+      transition: transform 0.1s, opacity 0.3s;
+    }
+    #btn-swap:hover:not(:disabled) { transform: scale(1.1); }
+    #btn-swap:active:not(:disabled) { transform: scale(0.95); }
+    #btn-swap:disabled { opacity: 0.35; cursor: not-allowed; }
+    #btn-swap .cooldown { font-size: 14px; opacity: 0.7; }
+
     #loading {
       position: fixed; inset: 0; background: #0a0e15;
       display: flex; align-items: center; justify-content: center;
@@ -70,6 +83,7 @@
 
   <div id="hud-top">Box Value Simulator</div>
   <div id="hud-bottom">
+    <button id="btn-swap">🔄 교환</button>
     <div id="money-display"><span class="coin-icon">🪙</span>₩ 100,000</div>
   </div>
 
