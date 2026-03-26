@@ -2,7 +2,8 @@ import * as THREE from 'three';
 
 /**
  * 상자 안 상품 3D 렌더링.
- * GLB 또는 폴백 도형 표시, 등장/회전 애니메이션.
+ * PBR 프리셋 → MeshPhysicalMaterial 파라미터 override
+ * Matcap 프리셋 → MeshMatcapMaterial로 교체
  */
 export class ProductRenderer {
   /**
@@ -29,6 +30,7 @@ export class ProductRenderer {
       if (product.modelPath) {
         this._model = await this.assetLoader.loadGLB(product.modelPath);
         this.assetLoader.fitToBox(this._model);
+        if (product.preset) await this.#applyPreset(this._model, product.preset);
       } else {
         throw new Error('no model');
       }
@@ -38,6 +40,73 @@ export class ProductRenderer {
 
     this.pivot.add(this._model);
     this.glowLight.color.setHex(gradeInfo.color);
+  }
+
+  /** 프리셋 적용 — PBR 또는 Matcap */
+  async #applyPreset(model, preset) {
+    if (!preset || preset.key === 'plastic_matte') return; // 기본 = 원본 유지
+
+    if (preset.type === 'matcap') {
+      await this.#applyMatcap(model, preset);
+    } else {
+      this.#applyPBR(model, preset);
+    }
+  }
+
+  /** PBR: MeshPhysicalMaterial 파라미터 override (원본 텍스처 유지) */
+  #applyPBR(model, preset) {
+    const p = preset.params;
+    model.traverse((child) => {
+      if (!child.isMesh) return;
+      const mat = child.material;
+      if (!mat) return;
+
+      // MeshPhysicalMaterial로 업그레이드 (clearcoat/sheen/transmission 지원)
+      if (!mat.isMeshPhysicalMaterial && (p.clearcoat || p.sheen || p.transmission)) {
+        const phys = new THREE.MeshPhysicalMaterial();
+        THREE.MeshStandardMaterial.prototype.copy.call(phys, mat);
+        child.material = phys;
+        child.material.map = mat.map;
+        child.material.normalMap = mat.normalMap;
+      }
+
+      const m = child.material;
+      if (p.metalness != null)           m.metalness = p.metalness;
+      if (p.roughness != null)           m.roughness = p.roughness;
+      if (p.clearcoat != null)           m.clearcoat = p.clearcoat;
+      if (p.clearcoatRoughness != null)  m.clearcoatRoughness = p.clearcoatRoughness;
+      if (p.sheen != null)               m.sheen = p.sheen;
+      if (p.sheenRoughness != null)      m.sheenRoughness = p.sheenRoughness;
+      if (p.ior != null)                 m.ior = p.ior;
+
+      if (p.transmission > 0) {
+        m.transmission = p.transmission;
+        m.transparent = true;
+        m.opacity = p.opacity ?? 0.5;
+      } else if (p.opacity < 1) {
+        m.transparent = true;
+        m.opacity = p.opacity;
+      }
+
+      m.needsUpdate = true;
+    });
+  }
+
+  /** Matcap: 모든 메시를 MeshMatcapMaterial로 교체 */
+  async #applyMatcap(model, preset) {
+    const matcapTex = await this.assetLoader.loadTexture(preset.texture);
+
+    model.traverse((child) => {
+      if (!child.isMesh) return;
+      const oldMat = child.material;
+
+      const matcapMat = new THREE.MeshMatcapMaterial({
+        matcap: matcapTex,
+        color: oldMat.color?.clone() ?? new THREE.Color(0xffffff),
+      });
+
+      child.material = matcapMat;
+    });
   }
 
   /** 등장 진행도 (0→1) */
@@ -56,6 +125,12 @@ export class ProductRenderer {
   syncPosition(boxPos) {
     this.pivot.position.set(boxPos.x, boxPos.y + 0.38, boxPos.z);
     this.glowLight.position.set(boxPos.x, boxPos.y + 0.9, boxPos.z);
+  }
+
+  /** 절대 위치 직접 설정 (상승 애니메이션용) */
+  setPosition(x, y, z) {
+    this.pivot.position.set(x, y, z);
+    this.glowLight.position.set(x, y + 0.5, z);
   }
 
   reset() {

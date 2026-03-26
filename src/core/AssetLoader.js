@@ -7,10 +7,13 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
  */
 export class AssetLoader {
   #loader = new GLTFLoader();
+  #texLoader = new THREE.TextureLoader();
   /** @type {Map<string, THREE.Group>} */
   #cache = new Map();
   /** @type {Map<string, Promise<THREE.Group>>} */
   #loading = new Map();
+  /** @type {Map<string, THREE.Texture>} */
+  #texCache = new Map();
 
   /** @param {string} path  @returns {Promise<THREE.Group>} */
   async loadGLB(path) {
@@ -55,6 +58,20 @@ export class AssetLoader {
     const group = new THREE.Group();
     group.add(mesh);
     return group;
+  }
+
+  /** 텍스처 로드 + 캐싱 (matcap 등) */
+  async loadTexture(path) {
+    const cached = this.#texCache.get(path);
+    if (cached) return cached;
+    return new Promise((resolve, reject) => {
+      this.#texLoader.load(
+        path,
+        (tex) => { this.#texCache.set(path, tex); resolve(tex); },
+        undefined,
+        reject,
+      );
+    });
   }
 
   /** 모델을 상자 내부 크기에 맞춤 */

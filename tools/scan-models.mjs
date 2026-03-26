@@ -1,184 +1,85 @@
 #!/usr/bin/env node
 /**
- * GLB 모델 자동 스캔 → LM Studio Vision → products.js 생성
+ * ╔═══════════════════════════════════════════════════════════════╗
+ * ║  GLB Model Scan Agent                                        ║
+ * ║  Pipeline: Scan → Screenshot → Analyze → Shader Gen → Output ║
+ * ╚═══════════════════════════════════════════════════════════════╝
  *
- * 사용법:
- *   cd tools && npm install && npm run scan
+ * 사용법:  cd tools && npm install && npm run scan
  *
  * 옵션:
- *   --lm-url    LM Studio 서버 주소  (기본: http://localhost:1234)
- *   --model     Vision 모델 이름      (기본: 자동 감지)
- *   --out       출력 파일 경로        (기본: ../src/data/products.js)
- *   --dry-run   products.js를 쓰지 않고 JSON만 stdout 출력
- *   --concurrency  동시 처리 수       (기본: 3)
+ *   --lm-url       LM Studio 서버 주소     (기본: http://100.66.10.225:1234)
+ *   --model        LM Studio 모델 이름     (기본: qwen/qwen3.5-9b)
+ *   --out          출력 파일 경로           (기본: ../src/data/products.js)
+ *   --dry-run      파일 안 쓰고 JSON 출력
+ *   --variations   모델당 shader 변형 수    (기본: 3)
+ *   --batch        배치 크기 (N개씩 처리 후 CSV 저장) (기본: 5)
+ *   --reset        기존 CSV 무시하고 처음부터 다시
  */
 
-import { readdir, writeFile, mkdir } from 'node:fs/promises';
-import { resolve, basename, extname, relative } from 'node:path';
+import { readdir, writeFile, mkdir, readFile } from 'node:fs/promises';
+import { resolve, basename, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createServer } from 'node:http';
-import { readFile } from 'node:fs/promises';
-import { lookup } from 'node:dns';
 import puppeteer from 'puppeteer';
 
-// ─── CLI 옵션 파싱 ──────────────────────────────────────────
+// ─── 설정 ───────────────────────────────────────────────────
 const args = process.argv.slice(2);
 function flag(name, fallback) {
   const i = args.indexOf(`--${name}`);
-  if (i === -1) return fallback;
-  return args[i + 1] ?? fallback;
+  return i === -1 ? fallback : (args[i + 1] ?? fallback);
 }
-const LM_URL     = flag('lm-url', 'http://100.66.68.140:1234');
-const LM_MODEL   = flag('model', '');
-const OUT_PATH   = resolve(flag('out', '../src/data/products.js'));
-const DRY_RUN    = args.includes('--dry-run');
-const CONCURRENCY = Number(flag('concurrency', '3'));
+
+const CONFIG = {
+  lmUrl:       flag('lm-url', 'http://100.66.10.225:1234'),
+  lmModel:     flag('model', 'qwen/qwen3.5-9b'),
+  outPath:     resolve(flag('out', '../src/data/products.csv')),
+  dryRun:      args.includes('--dry-run'),
+  reset:       args.includes('--reset'),
+  variations:  Number(flag('variations', '3')),
+  batchSize:   Number(flag('batch', '5')),
+};
 
 const __dirname   = fileURLToPath(new URL('.', import.meta.url));
 const MODELS_DIR  = resolve(__dirname, '../src/assets/models');
-const VIEWER_HTML = resolve(__dirname, 'model-viewer.html');
+const SRC_DIR     = resolve(__dirname, '../src');
+const TOOLS_DIR   = __dirname;
 const SHOTS_DIR   = resolve(__dirname, 'screenshots');
+const VIEWER_HTML = resolve(__dirname, 'model-viewer.html');
 
-// ─── 유틸 ───────────────────────────────────────────────────
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-function filenameToLabel(filename) {
-  // AccessoryGlassBoston3 → Accessory Glass Boston 3
-  return basename(filename, extname(filename))
-    .replace(/([a-z])([A-Z])/g, '$1 $2')
-    .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
-    .replace(/(\d+)/g, ' $1')
-    .trim();
+// ─────────────────────────────────────────────────────────────
+//  STAGE 1: Scanner — 폴더 스캔, GLB 목록 수집
+// ─────────────────────────────────────────────────────────────
+async function stageScanner() {
+  console.log('\n━━ Stage 1: Scanner ━━');
+  const files = (await readdir(MODELS_DIR))
+    .filter(f => f.toLowerCase().endsWith('.glb'))
+    .sort();
+  console.log(`   ${files.length}개 GLB 발견`);
+  return files;
 }
 
-// ─── LM Studio API ──────────────────────────────────────────
-async function detectModel() {
-  if (LM_MODEL) return LM_MODEL;
-  try {
-    const res = await fetch(`${LM_URL}/v1/models`);
-    const data = await res.json();
-    const models = data.data || [];
-    // vision / multimodal 모델 우선
-    const vision = models.find(m =>
-      /vision|llava|pixtral|qwen.*vl|gemma.*it/i.test(m.id)
-    );
-    const picked = vision || models[0];
-    if (!picked) throw new Error('LM Studio에 로드된 모델이 없습니다.');
-    console.log(`🤖 모델 감지: ${picked.id}`);
-    return picked.id;
-  } catch (e) {
-    console.error(`❌ LM Studio 연결 실패 (${LM_URL}): ${e.message}`);
-    process.exit(1);
-  }
-}
-
-// Structured output JSON schema — LM Studio response_format 지원
-const PRODUCT_SCHEMA = {
-  type: 'json_schema',
-  json_schema: {
-    name: 'product_metadata',
-    strict: true,
-    schema: {
-      type: 'object',
-      properties: {
-        name:      { type: 'string',  description: '한국어 상품명 (e.g. "보스턴 안경", "사이버 고글")' },
-        baseValue: { type: 'integer', description: '추정 가격 KRW (5000~200000)' },
-        rarity:    { type: 'number',  description: '희귀도 0.1~2.0 (낮을수록 희귀)' },
-        category:  { type: 'string',  enum: ['안경', '선글라스', '고글', '마스크', '액세서리'] },
-      },
-      required: ['name', 'baseValue', 'rarity', 'category'],
-      additionalProperties: false,
-    },
-  },
-};
-
-async function analyzeWithVision(modelId, imageDataUrl, filename) {
-  const label = filenameToLabel(filename);
-
-  const prompt = `You are analyzing a 3D model screenshot for a "box value simulator" game.
-The model file name is: "${filename}"
-Readable label: "${label}"
-
-Based on the screenshot and name, fill in the product metadata.
-
-Rules:
-- name: 한국어 상품명 (e.g. "보스턴 안경", "나비 선글라스")
-- baseValue: KRW 가격 5000~200000 — 독특한 디자인(cyber, flower, butterfly)일수록 비싸게
-- rarity: 0.1~2.0 — 독특할수록 낮게(희귀), 흔할수록 높게
-- category: 스크린샷 외형에 맞는 카테고리
-- 번호 변형(0,1,2...)은 색상 차이 — 동일 희귀도, 약간의 가격 차이`;
-
-  const body = {
-    model: modelId,
-    messages: [
-      {
-        role: 'user',
-        content: [
-          { type: 'text', text: prompt },
-          { type: 'image_url', image_url: { url: imageDataUrl } },
-        ],
-      },
-    ],
-    response_format: PRODUCT_SCHEMA,
-    temperature: 0.3,
-    max_tokens: 300,
-  };
-
-  const res = await fetch(`${LM_URL}/v1/chat/completions`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`LM Studio API 오류 (${res.status}): ${text}`);
-  }
-
-  const data = await res.json();
-  const raw = (data.choices?.[0]?.message?.content || '').trim();
-
-  try {
-    // structured output이므로 바로 파싱 가능
-    return JSON.parse(raw);
-  } catch {
-    // 펜스 감싸진 경우 대비 폴백
-    const cleaned = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
-    try {
-      return JSON.parse(cleaned);
-    } catch {
-      console.warn(`⚠️  JSON 파싱 실패 [${filename}]: ${raw.slice(0, 120)}`);
-      return null;
-    }
-  }
-}
-
-// ─── 로컬 HTTP 서버 (file:// CORS 우회) ─────────────────────
-const SRC_DIR = resolve(__dirname, '../src');
-
-const TOOLS_DIR = __dirname;
-
+// ─────────────────────────────────────────────────────────────
+//  STAGE 2: Renderer — Puppeteer로 각 모델 스크린샷
+// ─────────────────────────────────────────────────────────────
 function startStaticServer() {
-  return new Promise((res) => {
-    const mimeTypes = {
-      '.html': 'text/html', '.js': 'application/javascript',
-      '.glb': 'model/gltf-binary', '.json': 'application/json',
-      '.png': 'image/png', '.css': 'text/css',
-    };
+  const mimeTypes = {
+    '.html': 'text/html', '.js': 'application/javascript',
+    '.glb': 'model/gltf-binary', '.json': 'application/json',
+    '.png': 'image/png', '.css': 'text/css',
+  };
+  return new Promise(res => {
     const server = createServer(async (req, reply) => {
       try {
         const urlPath = decodeURIComponent(req.url);
-        // /tools/ 경로 → tools 디렉토리, 그 외 → src 디렉토리
-        let filePath;
-        if (urlPath.startsWith('/tools/')) {
-          filePath = resolve(TOOLS_DIR, '.' + urlPath.replace('/tools/', '/'));
-        } else {
-          filePath = resolve(SRC_DIR, '.' + urlPath);
-        }
+        const filePath = urlPath.startsWith('/tools/')
+          ? resolve(TOOLS_DIR, '.' + urlPath.replace('/tools/', '/'))
+          : resolve(SRC_DIR, '.' + urlPath);
         const data = await readFile(filePath);
-        const ext = extname(filePath);
         reply.writeHead(200, {
-          'Content-Type': mimeTypes[ext] || 'application/octet-stream',
+          'Content-Type': mimeTypes[extname(filePath)] || 'application/octet-stream',
           'Access-Control-Allow-Origin': '*',
         });
         reply.end(data);
@@ -188,209 +89,473 @@ function startStaticServer() {
       }
     });
     server.listen(0, '127.0.0.1', () => {
-      const port = server.address().port;
-      console.log(`🌐 정적 서버 시작: http://127.0.0.1:${port}`);
-      res({ server, port });
+      res({ server, port: server.address().port });
     });
   });
 }
 
-// ─── 스크린샷 캡처 ──────────────────────────────────────────
-async function setupBrowser(serverPort) {
+async function stageRenderer(files) {
+  console.log('\n━━ Stage 2: Renderer ━━');
+  await mkdir(SHOTS_DIR, { recursive: true });
+
+  const { server, port } = await startStaticServer();
+  console.log(`   HTTP 서버: http://127.0.0.1:${port}`);
+
   const browser = await puppeteer.launch({
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--use-gl=angle'],
   });
   const page = await browser.newPage();
   await page.setViewport({ width: 512, height: 512 });
-
-  // HTTP 서버를 통해 뷰어 HTML 로드 (file:// → http:// CORS 문제 방지)
-  await page.goto(`http://127.0.0.1:${serverPort}/tools/model-viewer.html`, {
+  await page.goto(`http://127.0.0.1:${port}/tools/model-viewer.html`, {
     waitUntil: 'networkidle0',
   });
-
-  // 뷰어 준비 대기
   await page.waitForFunction('window.__VIEWER_READY__ === true', { timeout: 15000 });
-  console.log('🖼️  모델 뷰어 준비 완료');
-  return { browser, page };
-}
+  console.log('   뷰어 준비 완료');
 
-async function captureScreenshot(page, glbFilename, serverPort) {
-  // HTTP 서버를 통해 GLB를 로드
-  const modelUrl = `http://127.0.0.1:${serverPort}/assets/models/${encodeURIComponent(glbFilename)}`;
-  try {
-    const dataUrl = await page.evaluate(async (url) => {
-      try {
-        const result = await window.captureModel(url);
-        return { ok: true, data: result };
-      } catch (e) {
-        return { ok: false, error: e?.message || String(e) };
-      }
-    }, modelUrl);
-    if (!dataUrl.ok) throw new Error(dataUrl.error);
-    return dataUrl.data;
-  } catch (e) {
-    throw new Error(`캡처 실패: ${e.message}`);
-  }
-}
-
-// ─── 배치 처리 ──────────────────────────────────────────────
-async function processInBatches(items, concurrency, fn) {
-  const results = [];
-  for (let i = 0; i < items.length; i += concurrency) {
-    const batch = items.slice(i, i + concurrency);
-    const batchResults = await Promise.all(batch.map(fn));
-    results.push(...batchResults);
-  }
-  return results;
-}
-
-// ─── products.js 생성 ───────────────────────────────────────
-function generateProductsJS(products) {
-  const entries = products.map(p => {
-    return `  {
-    id: '${p.id}',
-    name: '${p.name}',
-    baseValue: ${p.baseValue},
-    rarity: ${p.rarity},
-    category: '${p.category}',
-    modelPath: '${p.modelPath}',
-  }`;
-  });
-
-  return `/**
- * 상품 정의 테이블 — 자동 생성됨
- * 생성 시각: ${new Date().toISOString()}
- * 생성 도구: tools/scan-models.mjs
- *
- * 수동 편집하지 마세요! 모델을 추가/제거한 뒤 다시 스캔하세요:
- *   cd tools && npm run scan
- *
- * @type {Array<{
- *   id: string,
- *   name: string,
- *   baseValue: number,
- *   rarity: number,
- *   category: string,
- *   modelPath: string
- * }>}
- */
-export const PRODUCTS = [
-${entries.join(',\n')}
-];
-`;
-}
-
-// ─── 메인 ───────────────────────────────────────────────────
-async function main() {
-  console.log('📂 모델 폴더 스캔 중...');
-
-  // 1. GLB 파일 목록
-  const files = (await readdir(MODELS_DIR))
-    .filter(f => f.toLowerCase().endsWith('.glb'))
-    .sort();
-
-  if (files.length === 0) {
-    console.log('모델 파일이 없습니다.');
-    process.exit(0);
-  }
-  console.log(`   ${files.length}개 GLB 파일 발견\n`);
-
-  // 2. LM Studio 모델 감지
-  const modelId = await detectModel();
-
-  // 3. 로컬 HTTP 서버 + Puppeteer 브라우저 시작
-  const { server, port } = await startStaticServer();
-  const { browser, page } = await setupBrowser(port);
-
-  // 4. 스크린샷 디렉토리 생성
-  await mkdir(SHOTS_DIR, { recursive: true });
-
-  // 5. 각 모델 처리 (순차 — 한 페이지에서 모델을 교체하며 캡처)
-  const products = [];
-  let success = 0;
-  let fail = 0;
+  const screenshots = [];
 
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
-    const glbPath = resolve(MODELS_DIR, file);
     const id = basename(file, '.glb').replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
-    const progress = `[${i + 1}/${files.length}]`;
-
-    process.stdout.write(`${progress} ${file} ... `);
+    process.stdout.write(`   [${i + 1}/${files.length}] ${file} ... `);
 
     try {
-      // 스크린샷 캡처 (HTTP 서버 경유)
-      const dataUrl = await captureScreenshot(page, file, port);
+      const modelUrl = `http://127.0.0.1:${port}/assets/models/${encodeURIComponent(file)}`;
+      const result = await page.evaluate(async (url) => {
+        try { return { ok: true, data: await window.captureModel(url) }; }
+        catch (e) { return { ok: false, error: e?.message || String(e) }; }
+      }, modelUrl);
 
-      // 스크린샷 저장 (디버깅용)
-      const pngData = dataUrl.replace(/^data:image\/png;base64,/, '');
+      if (!result.ok) throw new Error(result.error);
+
+      const pngData = result.data.replace(/^data:image\/png;base64,/, '');
       await writeFile(resolve(SHOTS_DIR, `${id}.png`), pngData, 'base64');
-
-      // LM Studio Vision 분석
-      const meta = await analyzeWithVision(modelId, dataUrl, file);
-
-      if (meta) {
-        products.push({
-          id,
-          name: meta.name || filenameToLabel(file),
-          baseValue: Math.round(Number(meta.baseValue) || 15000),
-          rarity: Math.round((Number(meta.rarity) || 1.0) * 100) / 100,
-          category: meta.category || '액세서리',
-          modelPath: `assets/models/${file}`,
-        });
-        console.log(`✅ ${meta.name} (₩${meta.baseValue})`);
-        success++;
-      } else {
-        // LLM 실패 → 파일명 기반 폴백
-        products.push({
-          id,
-          name: filenameToLabel(file),
-          baseValue: 15000,
-          rarity: 1.0,
-          category: '액세서리',
-          modelPath: `assets/models/${file}`,
-        });
-        console.log(`⚠️  폴백 사용`);
-        fail++;
-      }
+      screenshots.push({ file, id, dataUrl: result.data });
+      console.log('✅');
     } catch (e) {
-      console.log(`❌ 오류: ${e.message}`);
-      // 오류 시에도 폴백 등록
-      products.push({
-        id,
-        name: filenameToLabel(file),
-        baseValue: 15000,
-        rarity: 1.0,
-        category: '액세서리',
-        modelPath: `assets/models/${file}`,
-      });
-      fail++;
+      console.log(`❌ ${e.message}`);
+      screenshots.push({ file, id, dataUrl: null });
     }
-
-    // LM Studio 과부하 방지
-    await sleep(300);
   }
 
   await browser.close();
   server.close();
 
-  // 6. 결과 출력
-  console.log(`\n📊 결과: ${success} 성공 / ${fail} 폴백 / 총 ${products.length}개`);
-
-  if (DRY_RUN) {
-    console.log('\n--- DRY RUN (JSON) ---');
-    console.log(JSON.stringify(products, null, 2));
-  } else {
-    const js = generateProductsJS(products);
-    await writeFile(OUT_PATH, js, 'utf-8');
-    console.log(`✅ ${OUT_PATH} 생성 완료`);
-  }
-
-  console.log(`📸 스크린샷: ${SHOTS_DIR}`);
+  const ok = screenshots.filter(s => s.dataUrl).length;
+  console.log(`   ${ok}/${files.length} 스크린샷 성공`);
+  return screenshots;
 }
 
-main().catch(e => {
-  console.error('치명적 오류:', e);
-  process.exit(1);
-});
+// ─────────────────────────────────────────────────────────────
+//  STAGE 3: Analyzer — LM Studio Vision으로 메타데이터 추출
+// ─────────────────────────────────────────────────────────────
+function filenameToLabel(filename) {
+  return basename(filename, extname(filename))
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+    .replace(/(\d+)/g, ' $1')
+    .trim();
+}
+
+function stripThinking(raw) {
+  const idx = raw.indexOf('</think>');
+  if (idx !== -1) raw = raw.slice(idx + 8);
+  return raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/m, '').trim();
+}
+
+async function callLM(messages) {
+  const res = await fetch(`${CONFIG.lmUrl}/v1/chat/completions`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: CONFIG.lmModel,
+      messages,
+      temperature: 0.2,
+      max_tokens: 4000,
+    }),
+  });
+  if (!res.ok) throw new Error(`LM API ${res.status}: ${await res.text()}`);
+  const data = await res.json();
+  return stripThinking(data.choices?.[0]?.message?.content || '');
+}
+
+function parseJSON(raw, filename) {
+  try { return JSON.parse(raw); } catch {}
+  const match = raw.match(/\{[\s\S]*\}/);
+  if (match) try { return JSON.parse(match[0]); } catch {}
+  console.warn(`   ⚠️  JSON 파싱 실패 [${filename}]: ${raw.slice(0, 100)}`);
+  return null;
+}
+
+/**
+ * 배치 분석 — 여러 모델을 한 번의 LM 호출로 처리.
+ * 이미지 N개 + 파일목록을 한 프롬프트에 보내고 JSON 배열로 응답받음.
+ */
+async function analyzeBatch(shots) {
+  const validShots = shots.filter(s => s.dataUrl);
+  if (validShots.length === 0) return shots.map(s => ({ ...s, meta: fallbackMeta(s.file) }));
+
+  // 프롬프트: 파일 목록 + 이미지들
+  const fileList = validShots.map((s, i) =>
+    `${i + 1}. 파일: ${s.file} / 레이블: ${filenameToLabel(s.file)}`
+  ).join('\n');
+
+  const content = [
+    {
+      type: 'text',
+      text: `아래 ${validShots.length}개 3D 모델 스크린샷을 분석해서 JSON 배열로 답해줘.
+각 모델은 3D 모델 상점에서 판매하는 상품으로 가격을 매겨줘.
+
+모델 목록:
+${fileList}
+
+응답 형식 (JSON 배열, 순서 유지):
+[{"name":"한국어 상품명","baseValue":5000~200000,"rarity":0.1~2.0,"category":"안경|선글라스|고글|마스크|액세서리","dominantColors":["#hex1","#hex2"],"designKeywords":["키워드"]}]
+
+규칙: 독특한 디자인→비싸고 희귀(rarity 낮음), 흔한 디자인→저렴(rarity 높음)
+이미지 순서는 위 목록 순서와 동일.`
+    },
+    // 이미지들을 순서대로 추가
+    ...validShots.map(s => ({
+      type: 'image_url',
+      image_url: { url: s.dataUrl },
+    })),
+  ];
+
+  const raw = await callLM([{ role: 'user', content }]);
+
+  // JSON 배열 파싱
+  let results = null;
+  try {
+    results = JSON.parse(raw);
+  } catch {
+    // 배열 추출 시도
+    const arrMatch = raw.match(/\[[\s\S]*\]/);
+    if (arrMatch) try { results = JSON.parse(arrMatch[0]); } catch {}
+  }
+
+  // 결과 매핑
+  const analyses = [];
+  const validIdx = new Map(validShots.map((s, i) => [s.file, i]));
+
+  for (const shot of shots) {
+    const idx = validIdx.get(shot.file);
+    const meta = (results && Array.isArray(results) && idx != null)
+      ? results[idx] ?? null
+      : null;
+
+    if (meta && meta.name) {
+      analyses.push({ ...shot, meta });
+    } else {
+      analyses.push({ ...shot, meta: fallbackMeta(shot.file) });
+    }
+  }
+  return analyses;
+}
+
+function fallbackMeta(file) {
+  return {
+    name: filenameToLabel(file),
+    baseValue: 15000,
+    rarity: 1.0,
+    category: '액세서리',
+    dominantColors: ['#888888', '#cccccc'],
+    designKeywords: ['기본'],
+  };
+}
+
+// ─────────────────────────────────────────────────────────────
+//  STAGE 4: Preset Variation — 모델당 20종 (PBR 10 + Matcap 10)
+// ─────────────────────────────────────────────────────────────
+
+/** presets.js와 동일한 20개 프리셋 key 목록 (빌드 타임용) */
+const ALL_PRESET_KEYS = [
+  // PBR 10
+  { key: 'plastic_matte',    label: '매트 플라스틱',      valueMod: 0,   rarityMod: 0 },
+  { key: 'plastic_gloss',    label: '글로시 플라스틱',    valueMod: 10,  rarityMod: -0.05 },
+  { key: 'rubber_soft',      label: '소프트 러버',        valueMod: 5,   rarityMod: 0 },
+  { key: 'ceramic_clean',    label: '클린 세라믹',        valueMod: 20,  rarityMod: -0.1 },
+  { key: 'metal_brushed',    label: '브러시드 메탈',      valueMod: 35,  rarityMod: -0.2 },
+  { key: 'metal_polished',   label: '폴리시드 메탈',      valueMod: 50,  rarityMod: -0.3 },
+  { key: 'paint_clearcoat',  label: '클리어코트 페인트',  valueMod: 30,  rarityMod: -0.15 },
+  { key: 'fabric_sheen',     label: '패브릭 쉰',          valueMod: 15,  rarityMod: -0.05 },
+  { key: 'glass_clear',      label: '클리어 글래스',      valueMod: 60,  rarityMod: -0.4 },
+  { key: 'resin_tinted',     label: '틴티드 레진',        valueMod: 45,  rarityMod: -0.25 },
+  // Matcap 10
+  { key: 'matcap_clay',          label: '클레이',          valueMod: 5,   rarityMod: 0 },
+  { key: 'matcap_wax',           label: '왁스',            valueMod: 10,  rarityMod: -0.05 },
+  { key: 'matcap_chrome',        label: '크롬',            valueMod: 55,  rarityMod: -0.35 },
+  { key: 'matcap_bronze',        label: '브론즈',          valueMod: 40,  rarityMod: -0.2 },
+  { key: 'matcap_black_rubber',  label: '블랙 러버',      valueMod: 8,   rarityMod: 0 },
+  { key: 'matcap_red_wax',       label: '레드 왁스',      valueMod: 15,  rarityMod: -0.1 },
+  { key: 'matcap_white_ceramic', label: '화이트 세라믹',  valueMod: 25,  rarityMod: -0.15 },
+  { key: 'matcap_blue_gloss',    label: '블루 글로시',    valueMod: 20,  rarityMod: -0.1 },
+  { key: 'matcap_gold',          label: '골드',            valueMod: 70,  rarityMod: -0.5 },
+  { key: 'matcap_silver_soft',   label: '소프트 실버',    valueMod: 35,  rarityMod: -0.2 },
+];
+
+function stagePresetGen(analyses) {
+  const products = [];
+
+  for (const entry of analyses) {
+    const { id, file, meta } = entry;
+    const base = meta.baseValue || 15000;
+    const baseRarity = meta.rarity || 1.0;
+
+    for (const preset of ALL_PRESET_KEYS) {
+      const priceMod = 1 + preset.valueMod / 100;
+      const finalValue = Math.round(base * priceMod / 100) * 100;
+      const finalRarity = Math.max(0.1, Math.min(2.0, baseRarity + preset.rarityMod));
+
+      products.push({
+        id: `${id}_${preset.key}`,
+        name: `${meta.name} (${preset.label})`,
+        baseValue: finalValue,
+        rarity: Math.round(finalRarity * 100) / 100,
+        category: meta.category || '액세서리',
+        modelPath: `assets/models/${file}`,
+        preset: preset.key,
+      });
+    }
+  }
+
+  return products;
+}
+
+// ─────────────────────────────────────────────────────────────
+//  CSV 유틸 — 점진적 읽기/쓰기 + 중복 체크
+// ─────────────────────────────────────────────────────────────
+const CSV_HEADERS = ['id','name','baseValue','rarity','category','modelPath','preset'];
+
+function productToRow(p) {
+  return [p.id, p.name, p.baseValue, p.rarity, p.category, p.modelPath, p.preset].join(',');
+}
+
+/** 기존 CSV에서 이미 처리된 id Set 로드 */
+async function loadExistingIds() {
+  try {
+    const text = await readFile(CONFIG.outPath, 'utf-8');
+    const lines = text.trim().split('\n');
+    if (lines.length < 2) return new Set();
+    const idIdx = lines[0].split(',').indexOf('id');
+    const ids = new Set();
+    for (let i = 1; i < lines.length; i++) {
+      const id = lines[i].split(',')[idIdx];
+      if (id) ids.add(id);
+    }
+    console.log(`   기존 CSV: ${ids.size}개 항목 발견`);
+    return ids;
+  } catch {
+    return new Set();
+  }
+}
+
+/** CSV 파일에 헤더가 없으면 생성, 있으면 그대로 */
+async function ensureCSVHeader() {
+  try {
+    const text = await readFile(CONFIG.outPath, 'utf-8');
+    if (text.trim().startsWith(CSV_HEADERS[0])) return; // 이미 있음
+  } catch { /* 파일 없음 */ }
+  await writeFile(CONFIG.outPath, CSV_HEADERS.join(',') + '\n', 'utf-8');
+}
+
+/** 새 행들을 CSV에 추가 (중복 id 건너뜀) */
+async function appendToCSV(products, existingIds) {
+  const newRows = [];
+  for (const p of products) {
+    if (existingIds.has(p.id)) continue;
+    newRows.push(productToRow(p));
+    existingIds.add(p.id);
+  }
+  if (newRows.length === 0) return 0;
+
+  const text = await readFile(CONFIG.outPath, 'utf-8');
+  const append = newRows.join('\n') + '\n';
+  await writeFile(CONFIG.outPath, text + append, 'utf-8');
+  return newRows.length;
+}
+
+// ─────────────────────────────────────────────────────────────
+//  STAGE 6: CSV 분할 — 200행 단위로 분리 + manifest.json 생성
+// ─────────────────────────────────────────────────────────────
+const ROWS_PER_FILE = 200;
+const CSV_DIR = resolve(__dirname, '../src/data');
+
+async function splitCSV() {
+  console.log('\n━━ Stage 6: CSV 분할 ━━');
+  const text = await readFile(CONFIG.outPath, 'utf-8');
+  const lines = text.trim().split('\n');
+  const header = lines[0];
+  const dataLines = lines.slice(1).filter(l => l.trim());
+
+  if (dataLines.length <= ROWS_PER_FILE) {
+    console.log(`   ${dataLines.length}행 — 분할 불필요 (단일 파일)`);
+    // manifest에 단일 파일 등록
+    const manifest = { files: ['data/products.csv'], totalProducts: dataLines.length };
+    await writeFile(resolve(CSV_DIR, 'products-manifest.json'), JSON.stringify(manifest, null, 2), 'utf-8');
+    return;
+  }
+
+  // 기존 분할 파일 정리
+  const existingParts = (await readdir(CSV_DIR)).filter(f => /^products_\d+\.csv$/.test(f));
+  for (const f of existingParts) {
+    await writeFile(resolve(CSV_DIR, f), '', 'utf-8'); // 덮어쓰기로 정리
+  }
+
+  const fileList = [];
+  const totalChunks = Math.ceil(dataLines.length / ROWS_PER_FILE);
+
+  for (let i = 0; i < totalChunks; i++) {
+    const chunk = dataLines.slice(i * ROWS_PER_FILE, (i + 1) * ROWS_PER_FILE);
+    const filename = `products_${String(i + 1).padStart(2, '0')}.csv`;
+    const content = [header, ...chunk].join('\n') + '\n';
+    await writeFile(resolve(CSV_DIR, filename), content, 'utf-8');
+    fileList.push(`data/${filename}`);
+    console.log(`   📄 ${filename}: ${chunk.length}행`);
+  }
+
+  // manifest 생성
+  const manifest = { files: fileList, totalProducts: dataLines.length };
+  await writeFile(resolve(CSV_DIR, 'products-manifest.json'), JSON.stringify(manifest, null, 2), 'utf-8');
+  console.log(`   ✅ ${totalChunks}개 파일로 분할, manifest 생성`);
+}
+
+// ─────────────────────────────────────────────────────────────
+//  MAIN — 배치 단위 점진적 Agent 파이프라인
+// ─────────────────────────────────────────────────────────────
+async function main() {
+  console.log('╔═══════════════════════════════════════╗');
+  console.log('║  GLB Model Scan Agent (Incremental)   ║');
+  console.log('╚═══════════════════════════════════════╝');
+  console.log(`   배치: ${CONFIG.batchSize}개씩 | 프리셋: ${ALL_PRESET_KEYS.length}종 (PBR 10 + Matcap 10)\n`);
+
+  // Stage 1: 폴더 스캔
+  const files = await stageScanner();
+  if (files.length === 0) { console.log('모델 없음. 종료.'); return; }
+
+  // CSV 준비 + 기존 데이터 로드 (중복 체크용)
+  if (CONFIG.reset) {
+    await writeFile(CONFIG.outPath, CSV_HEADERS.join(',') + '\n', 'utf-8');
+    console.log('   --reset: CSV 초기화');
+  } else {
+    await ensureCSVHeader();
+  }
+  const existingIds = CONFIG.reset ? new Set() : await loadExistingIds();
+
+  // 이미 처리된 모델의 base id 추출 (shader 변형 suffix 제거)
+  const doneBaseIds = new Set();
+  for (const id of existingIds) {
+    // 프리셋 suffix 제거해서 원본 모델 id 추출
+    const presetKeys = ALL_PRESET_KEYS.map(p => p.key).join('|');
+    doneBaseIds.add(id.replace(new RegExp(`_(${presetKeys})$`), ''));
+  }
+  const pendingFiles = files.filter(f => {
+    const baseId = basename(f, '.glb').replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+    return !doneBaseIds.has(baseId);
+  });
+
+  if (pendingFiles.length === 0) {
+    console.log(`\n✅ 모든 ${files.length}개 모델이 이미 처리됨. 완료!`);
+    return;
+  }
+  console.log(`   대기: ${pendingFiles.length}개 (기존 ${files.length - pendingFiles.length}개 건너뜀)\n`);
+
+  // Stage 2: 브라우저 + 서버 시작 (전체 세션에서 재사용)
+  console.log('━━ Stage 2: Renderer 준비 ━━');
+  await mkdir(SHOTS_DIR, { recursive: true });
+  const { server, port } = await startStaticServer();
+  console.log(`   HTTP 서버: http://127.0.0.1:${port}`);
+
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--use-gl=angle'],
+  });
+  const page = await browser.newPage();
+  await page.setViewport({ width: 512, height: 512 });
+  await page.goto(`http://127.0.0.1:${port}/tools/model-viewer.html`, {
+    waitUntil: 'networkidle0',
+  });
+  await page.waitForFunction('window.__VIEWER_READY__ === true', { timeout: 15000 });
+  console.log('   뷰어 준비 완료');
+
+  // 배치 루프
+  const totalBatches = Math.ceil(pendingFiles.length / CONFIG.batchSize);
+  let totalAdded = 0;
+  let totalOk = 0;
+
+  for (let b = 0; b < totalBatches; b++) {
+    const batchStart = b * CONFIG.batchSize;
+    const batch = pendingFiles.slice(batchStart, batchStart + CONFIG.batchSize);
+    const batchNum = b + 1;
+
+    console.log(`\n━━ Batch ${batchNum}/${totalBatches} (${batch.length}개) ━━`);
+
+    // 2a. 스크린샷 캡처
+    const screenshots = [];
+    for (const file of batch) {
+      const id = basename(file, '.glb').replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+      process.stdout.write(`   📸 ${file} ... `);
+      try {
+        const modelUrl = `http://127.0.0.1:${port}/assets/models/${encodeURIComponent(file)}`;
+        const result = await page.evaluate(async (url) => {
+          try { return { ok: true, data: await window.captureModel(url) }; }
+          catch (e) { return { ok: false, error: e?.message || String(e) }; }
+        }, modelUrl);
+        if (!result.ok) throw new Error(result.error);
+        const pngData = result.data.replace(/^data:image\/png;base64,/, '');
+        await writeFile(resolve(SHOTS_DIR, `${id}.png`), pngData, 'base64');
+        screenshots.push({ file, id, dataUrl: result.data });
+        console.log('✅');
+      } catch (e) {
+        console.log(`❌ ${e.message}`);
+        screenshots.push({ file, id, dataUrl: null });
+      }
+    }
+
+    // 3. LM Studio 배치 분석 (한 번의 호출로 N개 처리)
+    process.stdout.write(`   🤖 LM 배치 분석 (${screenshots.length}개) ... `);
+    let analyses;
+    try {
+      analyses = await analyzeBatch(screenshots);
+      const okCount = analyses.filter(a => a.meta.name !== filenameToLabel(a.file)).length;
+      totalOk += okCount;
+      console.log(`✅ ${okCount}/${screenshots.length} 성공`);
+      for (const a of analyses) {
+        console.log(`      ${a.file} → ${a.meta.name} (₩${a.meta.baseValue})`);
+      }
+    } catch (e) {
+      console.log(`❌ ${e.message.slice(0, 60)}`);
+      analyses = screenshots.map(s => ({ ...s, meta: fallbackMeta(s.file) }));
+    }
+
+    // 4. Shader 변형 생성
+    // Stage 4: 20종 프리셋 변형 생성
+    const products = stagePresetGen(analyses);
+
+    // 5. CSV에 점진적 추가 (중복 체크)
+    if (!CONFIG.dryRun) {
+      const added = await appendToCSV(products, existingIds);
+      totalAdded += added;
+      console.log(`   💾 CSV 저장: +${added}행 (누적 ${existingIds.size}개)`);
+    } else {
+      console.log(`   [dry-run] ${products.length}개 생성됨`);
+    }
+  }
+
+  // 정리
+  await browser.close();
+  server.close();
+
+  // Stage 6: CSV 분할 (200행 단위)
+  if (!CONFIG.dryRun) {
+    await splitCSV();
+  }
+
+  console.log('\n╔═══════════════════════════════════════╗');
+  console.log(`║  완료! ${totalAdded}개 추가 (총 ${existingIds.size}개)`.padEnd(40) + '║');
+  console.log(`║  분석 성공: ${totalOk}/${pendingFiles.length}`.padEnd(40) + '║');
+  console.log('╚═══════════════════════════════════════╝');
+}
+
+main().catch(e => { console.error('치명적 오류:', e); process.exit(1); });

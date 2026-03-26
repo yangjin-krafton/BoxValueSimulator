@@ -122,7 +122,12 @@
       "Bash(pip install:*)",
       "WebFetch(domain:akidevcat.github.io)",
       "WebFetch(domain:blog.mmacklin.com)",
-      "Bash(kill 681 929)"
+      "Bash(kill 681 929)",
+      "Bash(BASE=\"https://raw.githubusercontent.com/nidorx/matcaps/master/256\")",
+      "Bash(mv C7C0AC_2E181A_543B30_6B6270-256px.png clay.png)",
+      "Bash(mv FFECD6_C3A47A_D1B28F_B19574-256px.png wax.png)",
+      "Bash(mv C8C8C8_3F3F3F_787878_5C5C5C-256px.png chrome.png)",
+      "Bash(mv 7B4E2E_543520_C7A46F_A07040-256px.png bronze.png)"
     ],
     "additionalDirectories": [
       "\\tmp"

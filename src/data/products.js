@@ -1,467 +1,101 @@
 /**
- * 상품 정의 테이블 — 자동 생성됨
- * 생성 시각: 2026-03-26T14:07:07.296Z
- * 생성 도구: tools/scan-models.mjs
+ * 상품 데이터 로더.
  *
- * 수동 편집하지 마세요! 모델을 추가/제거한 뒤 다시 스캔하세요:
- *   cd tools && npm run scan
+ * 매니페스트(products-manifest.json)에서 CSV 파일 목록을 읽고,
+ * 랜덤으로 1~2개 CSV를 선택하여 로드합니다.
+ * CSV가 1개뿐이면 그것을 로드.
  *
- * @type {Array<{
- *   id: string,
- *   name: string,
- *   baseValue: number,
- *   rarity: number,
- *   category: string,
- *   modelPath: string
- * }>}
+ * CSV 컬럼: id,name,baseValue,rarity,category,modelPath,preset
+ * CSV는 tools/scan-models.mjs 가 자동 생성합니다.
  */
-export const PRODUCTS = [
-  {
-    id: 'accessoryglassbirthday0',
-    name: 'Accessory Glass Birthday 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBirthday0.glb',
-  },
-  {
-    id: 'accessoryglassbirthday1',
-    name: 'Accessory Glass Birthday 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBirthday1.glb',
-  },
-  {
-    id: 'accessoryglassbirthday2',
-    name: 'Accessory Glass Birthday 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBirthday2.glb',
-  },
-  {
-    id: 'accessoryglassbirthday3',
-    name: 'Accessory Glass Birthday 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBirthday3.glb',
-  },
-  {
-    id: 'accessoryglassblind0',
-    name: 'Accessory Glass Blind 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBlind0.glb',
-  },
-  {
-    id: 'accessoryglassblind1',
-    name: 'Accessory Glass Blind 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBlind1.glb',
-  },
-  {
-    id: 'accessoryglassblind2',
-    name: 'Accessory Glass Blind 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBlind2.glb',
-  },
-  {
-    id: 'accessoryglassblind3',
-    name: 'Accessory Glass Blind 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBlind3.glb',
-  },
-  {
-    id: 'accessoryglassblind4',
-    name: 'Accessory Glass Blind 4',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBlind4.glb',
-  },
-  {
-    id: 'accessoryglassblind5',
-    name: 'Accessory Glass Blind 5',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBlind5.glb',
-  },
-  {
-    id: 'accessoryglassboston0',
-    name: 'Accessory Glass Boston 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston0.glb',
-  },
-  {
-    id: 'accessoryglassboston1',
-    name: 'Accessory Glass Boston 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston1.glb',
-  },
-  {
-    id: 'accessoryglassboston2',
-    name: 'Accessory Glass Boston 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston2.glb',
-  },
-  {
-    id: 'accessoryglassboston3',
-    name: 'Accessory Glass Boston 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston3.glb',
-  },
-  {
-    id: 'accessoryglassboston4',
-    name: 'Accessory Glass Boston 4',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston4.glb',
-  },
-  {
-    id: 'accessoryglassboston5',
-    name: 'Accessory Glass Boston 5',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston5.glb',
-  },
-  {
-    id: 'accessoryglassboston6',
-    name: 'Accessory Glass Boston 6',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston6.glb',
-  },
-  {
-    id: 'accessoryglassboston7',
-    name: 'Accessory Glass Boston 7',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBoston7.glb',
-  },
-  {
-    id: 'accessoryglassbottleblack',
-    name: 'Accessory Glass Bottle Black',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassBottleBlack.glb',
-  },
-  {
-    id: 'accessoryglassbutterfly0',
-    name: 'Accessory Glass Butterfly 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassButterfly0.glb',
-  },
-  {
-    id: 'accessoryglassbutterfly1',
-    name: 'Accessory Glass Butterfly 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassButterfly1.glb',
-  },
-  {
-    id: 'accessoryglassbutterfly2',
-    name: 'Accessory Glass Butterfly 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassButterfly2.glb',
-  },
-  {
-    id: 'accessoryglasscircle0',
-    name: 'Accessory Glass Circle 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCircle0.glb',
-  },
-  {
-    id: 'accessoryglasscircle1',
-    name: 'Accessory Glass Circle 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCircle1.glb',
-  },
-  {
-    id: 'accessoryglasscircle2',
-    name: 'Accessory Glass Circle 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCircle2.glb',
-  },
-  {
-    id: 'accessoryglasscircle3',
-    name: 'Accessory Glass Circle 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCircle3.glb',
-  },
-  {
-    id: 'accessoryglasscircle4',
-    name: 'Accessory Glass Circle 4',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCircle4.glb',
-  },
-  {
-    id: 'accessoryglasscrackblack',
-    name: 'Accessory Glass Crack Black',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCrackBlack.glb',
-  },
-  {
-    id: 'accessoryglasscyber0',
-    name: 'Accessory Glass Cyber 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCyber0.glb',
-  },
-  {
-    id: 'accessoryglasscyber1',
-    name: 'Accessory Glass Cyber 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCyber1.glb',
-  },
-  {
-    id: 'accessoryglasscyber2',
-    name: 'Accessory Glass Cyber 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCyber2.glb',
-  },
-  {
-    id: 'accessoryglasscyber3',
-    name: 'Accessory Glass Cyber 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCyber3.glb',
-  },
-  {
-    id: 'accessoryglasscyber4',
-    name: 'Accessory Glass Cyber 4',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCyber4.glb',
-  },
-  {
-    id: 'accessoryglasscyber5',
-    name: 'Accessory Glass Cyber 5',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassCyber5.glb',
-  },
-  {
-    id: 'accessoryglassdalglass0',
-    name: 'Accessory Glass Dalglass 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDalglass0.glb',
-  },
-  {
-    id: 'accessoryglassdalmask0',
-    name: 'Accessory Glass Dalmask 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDalmask0.glb',
-  },
-  {
-    id: 'accessoryglassdot0',
-    name: 'Accessory Glass Dot 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDot0.glb',
-  },
-  {
-    id: 'accessoryglassdot1',
-    name: 'Accessory Glass Dot 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDot1.glb',
-  },
-  {
-    id: 'accessoryglassdot2',
-    name: 'Accessory Glass Dot 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDot2.glb',
-  },
-  {
-    id: 'accessoryglassdot3',
-    name: 'Accessory Glass Dot 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDot3.glb',
-  },
-  {
-    id: 'accessoryglassdoublebridge0',
-    name: 'Accessory Glass Doublebridge 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDoublebridge0.glb',
-  },
-  {
-    id: 'accessoryglassdoublebridge1',
-    name: 'Accessory Glass Doublebridge 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDoublebridge1.glb',
-  },
-  {
-    id: 'accessoryglassdoublebridge2',
-    name: 'Accessory Glass Doublebridge 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDoublebridge2.glb',
-  },
-  {
-    id: 'accessoryglassdoublebridge3',
-    name: 'Accessory Glass Doublebridge 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassDoublebridge3.glb',
-  },
-  {
-    id: 'accessoryglasseyepatchwhite',
-    name: 'Accessory Glass Eyepatch White',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassEyepatchWhite.glb',
-  },
-  {
-    id: 'accessoryglasseyes0',
-    name: 'Accessory Glass Eyes 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassEyes0.glb',
-  },
-  {
-    id: 'accessoryglasseyes1',
-    name: 'Accessory Glass Eyes 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassEyes1.glb',
-  },
-  {
-    id: 'accessoryglasseyes2',
-    name: 'Accessory Glass Eyes 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassEyes2.glb',
-  },
-  {
-    id: 'accessoryglassflower0',
-    name: 'Accessory Glass Flower 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassFlower0.glb',
-  },
-  {
-    id: 'accessoryglassflower1',
-    name: 'Accessory Glass Flower 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassFlower1.glb',
-  },
-  {
-    id: 'accessoryglassflower2',
-    name: 'Accessory Glass Flower 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassFlower2.glb',
-  },
-  {
-    id: 'accessoryglassflower3',
-    name: 'Accessory Glass Flower 3',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassFlower3.glb',
-  },
-  {
-    id: 'accessoryglassflower4',
-    name: 'Accessory Glass Flower 4',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassFlower4.glb',
-  },
-  {
-    id: 'accessoryglassgoggles0',
-    name: 'Accessory Glass Goggles 0',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassGoggles0.glb',
-  },
-  {
-    id: 'accessoryglassgoggles1',
-    name: 'Accessory Glass Goggles 1',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassGoggles1.glb',
-  },
-  {
-    id: 'accessoryglassgoggles2',
-    name: 'Accessory Glass Goggles 2',
-    baseValue: 15000,
-    rarity: 1,
-    category: '액세서리',
-    modelPath: 'assets/models/AccessoryGlassGoggles2.glb',
+
+import { getPreset } from './presets.js';
+
+/** @type {Array<Product>} */
+export let PRODUCTS = [];
+
+/**
+ * @typedef {{
+ *   id: string, name: string, baseValue: number, rarity: number,
+ *   category: string, modelPath: string, preset: object
+ * }} Product
+ */
+
+const MANIFEST_PATH = 'data/products-manifest.json';
+const FALLBACK_CSV  = 'data/products.csv';
+
+/** CSV 한 줄 → Product 객체 */
+function rowToProduct(headers, values) {
+  const raw = {};
+  headers.forEach((h, i) => raw[h] = values[i] ?? '');
+
+  return {
+    id:        raw.id,
+    name:      raw.name,
+    baseValue: Number(raw.baseValue) || 0,
+    rarity:    Number(raw.rarity) || 1.0,
+    category:  raw.category || '액세서리',
+    modelPath: raw.modelPath || '',
+    preset:    getPreset(raw.preset),
+  };
+}
+
+/** CSV 텍스트 → Product[] */
+function parseCSV(text) {
+  const lines = text.trim().split('\n').filter(l => l.trim());
+  if (lines.length < 2) return [];
+  const headers = lines[0].split(',');
+  return lines.slice(1).map(line => {
+    const values = line.split(',');
+    return rowToProduct(headers, values);
+  });
+}
+
+/** 배열에서 랜덤으로 N개 선택 */
+function pickRandom(arr, n) {
+  const shuffled = [...arr].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(n, arr.length));
+}
+
+/** 초기화 — main.js에서 호출 */
+export async function loadProducts() {
+  try {
+    // 1. 매니페스트에서 CSV 파일 목록
+    let csvFiles = [FALLBACK_CSV];
+    try {
+      const mRes = await fetch(MANIFEST_PATH);
+      if (mRes.ok) {
+        const manifest = await mRes.json();
+        if (manifest.files?.length > 0) csvFiles = manifest.files;
+      }
+    } catch { /* 매니페스트 없으면 폴백 */ }
+
+    // 2. 파일이 여러 개면 랜덤 1~2개 선택, 1개면 그대로
+    const selected = csvFiles.length > 1
+      ? pickRandom(csvFiles, Math.min(2, csvFiles.length))
+      : csvFiles;
+
+    // 3. 선택된 CSV 로드 + 파싱 + 병합
+    const allProducts = [];
+    for (const csvPath of selected) {
+      const res = await fetch(csvPath);
+      if (!res.ok) continue;
+      const text = await res.text();
+      allProducts.push(...parseCSV(text));
+    }
+
+    // 4. 중복 제거 (id 기준)
+    const seen = new Set();
+    PRODUCTS = allProducts.filter(p => {
+      if (seen.has(p.id)) return false;
+      seen.add(p.id);
+      return true;
+    });
+
+    console.log(`[products] ${PRODUCTS.length}개 상품 로드됨 (${selected.length}개 CSV)`);
+  } catch (e) {
+    console.warn(`[products] 로드 실패 (${e.message}), 빈 상태로 시작`);
+    PRODUCTS = [];
   }
-];
+  return PRODUCTS;
+}

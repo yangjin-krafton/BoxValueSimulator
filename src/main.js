@@ -6,6 +6,7 @@ import { BoxSelectionScene } from './scenes/BoxSelectionScene.js';
 import { UnboxingScene } from './scenes/UnboxingScene.js';
 import { HUD } from './ui/HUD.js';
 import { generateBoxSet } from './systems/BoxGenerator.js';
+import { loadProducts } from './data/products.js';
 
 // ── 초기화 ──
 const bus        = new EventBus();
@@ -46,7 +47,7 @@ bus.on('box:select', (index) => {
 });
 
 bus.on('box:landed', () => {
-  hud.setHint('드래그: 잡기 · 클릭: 개봉');
+  hud.setHint('상자를 클릭하여 개봉하세요');
   hud.showButton('개봉하기', () => unboxing.triggerOpen());
 });
 
@@ -87,5 +88,7 @@ sceneMgr.startLoop((dt) => {
 });
 
 // ── 시작 ──
-hud.hideLoading();
-startNewSet();
+loadProducts().then(() => {
+  hud.hideLoading();
+  startNewSet();
+});

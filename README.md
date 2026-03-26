@@ -293,15 +293,123 @@ PixiJS는 고성능 2D 렌더러이므로,
 
 ## 기술 스택
 
-* **Renderer**: PixiJS
-* **Language**: TypeScript
-* **Bundler**: Vite
-* **State**: 간단한 게임 상태 매니저 또는 Zustand 스타일 구조
-* **Asset Pipeline**: Blender + texture export + sprite preprocessing
-* **Shader/Filter**: PixiJS Filter / custom shader
-* **Audio**: Howler.js 또는 WebAudio
-* **Data**: JSON 기반 상품/상자 테이블
-* **배포/서빙**: 정적 페이지 (GitHub Pages) — 서버 없이 빌드 결과물 단독 배포
+* **Renderer**: Three.js (CDN via importmap, 실시간 3D, GLB via GLTFLoader)
+* **Language**: Vanilla JavaScript (ES modules, No TypeScript, No bundler)
+* **Deployment**: GitHub Pages — `src/` 디렉토리 직접 서빙, 빌드 스텝 없음
+* **State**: EventBus + GameStateManager (커스텀)
+* **3D Models**: GLB 포맷, 런타임 로드; 폴백 프로시저 도형
+* **Shader/Material**: PBR 10종 (MeshPhysicalMaterial) + Matcap 10종 = 20종 프리셋
+* **Data**: CSV 기반 상품 테이블 (자동 생성) + JSON manifest
+* **배포/서빙**: 정적 페이지 (GitHub Pages) — 서버 없이 `src/` 단독 배포
+
+---
+
+## GLB 모델 추가 및 상품 테이블 생성 가이드
+
+새로운 3D 모델(GLB)을 추가하면, 자동 스캔 에이전트가 스크린샷 촬영 → AI 분석 → 20종 셰이더 변형 → CSV 테이블 생성까지 처리합니다.
+
+### 사전 요구사항
+
+* **Node.js** (v18 이상)
+* **LM Studio** — Vision 지원 모델 로드 (예: `qwen/qwen3.5-9b`)
+* LM Studio 서버 실행 상태 (`http://<IP>:1234`)
+
+### 1단계: GLB 파일 배치
+
+```
+src/assets/models/ 아래에 .glb 파일을 복사합니다.
+```
+
+파일명 규칙: `카테고리명변형번호.glb` (예: `AccessoryGlassBoston0.glb`)
+같은 디자인의 색상 변형은 번호만 변경 (0, 1, 2...)
+
+### 2단계: 스캔 에이전트 실행
+
+```bash
+cd tools
+npm install          # 최초 1회
+npm run scan         # 전체 스캔 (이미 처리된 모델은 자동 건너뜀)
+```
+
+### 주요 옵션
+
+| 플래그 | 기본값 | 설명 |
+|--------|--------|------|
+| `--lm-url` | `http://100.66.10.225:1234` | LM Studio 서버 주소 |
+| `--model` | `qwen/qwen3.5-9b` | Vision 모델 이름 |
+| `--batch` | `5` | 배치 크기 (N개씩 LM에 한 번에 전송) |
+| `--reset` | - | 기존 CSV 무시하고 처음부터 다시 |
+| `--dry-run` | - | CSV 파일 안 쓰고 결과만 출력 |
+
+### 에이전트 파이프라인 (5단계)
+
+```
+Stage 1: Scanner     — src/assets/models/*.glb 스캔
+Stage 2: Renderer    — Puppeteer + Three.js로 512×512 스크린샷 캡처
+Stage 3: Analyzer    — LM Studio Vision에 배치 전송, 한국어 상품명/가격/희귀도 산출
+Stage 4: Preset Gen  — 모델당 20종 셰이더 변형 (PBR 10 + Matcap 10) 생성
+Stage 5: CSV 저장    — 5개 모델 처리할 때마다 CSV에 점진적 추가 (중복 체크)
+Stage 6: CSV 분할    — 200행 단위로 분할 + products-manifest.json 생성
+```
+
+### 3단계: 결과 확인
+
+```
+src/data/
+├── products-manifest.json      # CSV 파일 목록 (게임 로더가 참조)
+├── products.csv                # 전체 마스터 CSV
+├── products_01.csv ~ _NN.csv   # 200행 단위 분할 파일
+├── presets.js                  # PBR 10 + Matcap 10 프리셋 정의
+```
+
+CSV 컬럼: `id, name, baseValue, rarity, category, modelPath, preset`
+
+### 20종 셰이더 프리셋
+
+각 모델은 아래 20종 재질 변형으로 확장됩니다.
+baseValue에 valueMod%가 적용되어 변형별 가격이 달라집니다.
+
+**PBR 10종** (원본 텍스처 유지 + MeshPhysicalMaterial 파라미터 override):
+
+| 프리셋 | 라벨 | 가치 보정 |
+|--------|------|-----------|
+| plastic_matte | 매트 플라스틱 | +0% |
+| plastic_gloss | 글로시 플라스틱 | +10% |
+| rubber_soft | 소프트 러버 | +5% |
+| ceramic_clean | 클린 세라믹 | +20% |
+| metal_brushed | 브러시드 메탈 | +35% |
+| metal_polished | 폴리시드 메탈 | +50% |
+| paint_clearcoat | 클리어코트 페인트 | +30% |
+| fabric_sheen | 패브릭 쉰 | +15% |
+| glass_clear | 클리어 글래스 | +60% |
+| resin_tinted | 틴티드 레진 | +45% |
+
+**Matcap 10종** (MeshMatcapMaterial로 교체, 조명 불필요):
+
+| 프리셋 | 라벨 | 가치 보정 |
+|--------|------|-----------|
+| matcap_clay | 클레이 | +5% |
+| matcap_wax | 왁스 | +10% |
+| matcap_chrome | 크롬 | +55% |
+| matcap_bronze | 브론즈 | +40% |
+| matcap_black_rubber | 블랙 러버 | +8% |
+| matcap_red_wax | 레드 왁스 | +15% |
+| matcap_white_ceramic | 화이트 세라믹 | +25% |
+| matcap_blue_gloss | 블루 글로시 | +20% |
+| matcap_gold | 골드 | +70% |
+| matcap_silver_soft | 소프트 실버 | +35% |
+
+### 게임 런타임 로딩
+
+게임 시작 시 `products-manifest.json`에서 CSV 파일 목록을 읽고,
+랜덤으로 1~2개 CSV를 선택하여 로드합니다.
+이를 통해 매 플레이마다 다른 상품 조합이 등장합니다.
+
+### 참고
+
+* Matcap 텍스처: `src/assets/matcaps/` (nidorx/matcaps 출처)
+* 스크린샷 캐시: `tools/screenshots/` (디버깅용, git 미추적)
+* `tools/` 폴더의 `node_modules`, `screenshots`, `package-lock.json`은 `.gitignore`에 포함
 
 ---
 

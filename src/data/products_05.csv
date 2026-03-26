@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+accessoryglassdalmask0_plastic_matte,달마스크 안경 (매트 플라스틱),15000,0.8,마스크,assets/models/AccessoryGlassDalmask0.glb,plastic_matte
+accessoryglassdalmask0_plastic_gloss,달마스크 안경 (글로시 플라스틱),16500,0.75,마스크,assets/models/AccessoryGlassDalmask0.glb,plastic_gloss
+accessoryglassdalmask0_rubber_soft,달마스크 안경 (소프트 러버),15800,0.8,마스크,assets/models/AccessoryGlassDalmask0.glb,rubber_soft
+accessoryglassdalmask0_ceramic_clean,달마스크 안경 (클린 세라믹),18000,0.7,마스크,assets/models/AccessoryGlassDalmask0.glb,ceramic_clean
+accessoryglassdalmask0_metal_brushed,달마스크 안경 (브러시드 메탈),20300,0.6,마스크,assets/models/AccessoryGlassDalmask0.glb,metal_brushed
+accessoryglassdalmask0_metal_polished,달마스크 안경 (폴리시드 메탈),22500,0.5,마스크,assets/models/AccessoryGlassDalmask0.glb,metal_polished
+accessoryglassdalmask0_paint_clearcoat,달마스크 안경 (클리어코트 페인트),19500,0.65,마스크,assets/models/AccessoryGlassDalmask0.glb,paint_clearcoat
+accessoryglassdalmask0_fabric_sheen,달마스크 안경 (패브릭 쉰),17300,0.75,마스크,assets/models/AccessoryGlassDalmask0.glb,fabric_sheen
+accessoryglassdalmask0_glass_clear,달마스크 안경 (클리어 글래스),24000,0.4,마스크,assets/models/AccessoryGlassDalmask0.glb,glass_clear
+accessoryglassdalmask0_resin_tinted,달마스크 안경 (틴티드 레진),21800,0.55,마스크,assets/models/AccessoryGlassDalmask0.glb,resin_tinted
+accessoryglassdalmask0_matcap_clay,달마스크 안경 (클레이),15800,0.8,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_clay
+accessoryglassdalmask0_matcap_wax,달마스크 안경 (왁스),16500,0.75,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_wax
+accessoryglassdalmask0_matcap_chrome,달마스크 안경 (크롬),23300,0.45,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_chrome
+accessoryglassdalmask0_matcap_bronze,달마스크 안경 (브론즈),21000,0.6,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_bronze
+accessoryglassdalmask0_matcap_black_rubber,달마스크 안경 (블랙 러버),16200,0.8,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_black_rubber
+accessoryglassdalmask0_matcap_red_wax,달마스크 안경 (레드 왁스),17300,0.7,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_red_wax
+accessoryglassdalmask0_matcap_white_ceramic,달마스크 안경 (화이트 세라믹),18800,0.65,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_white_ceramic
+accessoryglassdalmask0_matcap_blue_gloss,달마스크 안경 (블루 글로시),18000,0.7,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_blue_gloss
+accessoryglassdalmask0_matcap_gold,달마스크 안경 (골드),25500,0.3,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_gold
+accessoryglassdalmask0_matcap_silver_soft,달마스크 안경 (소프트 실버),20300,0.6,마스크,assets/models/AccessoryGlassDalmask0.glb,matcap_silver_soft
+accessoryglassdot0_plastic_matte,픽셀 안경 레드 (매트 플라스틱),10000,1.2,안경,assets/models/AccessoryGlassDot0.glb,plastic_matte
+accessoryglassdot0_plastic_gloss,픽셀 안경 레드 (글로시 플라스틱),11000,1.15,안경,assets/models/AccessoryGlassDot0.glb,plastic_gloss
+accessoryglassdot0_rubber_soft,픽셀 안경 레드 (소프트 러버),10500,1.2,안경,assets/models/AccessoryGlassDot0.glb,rubber_soft
+accessoryglassdot0_ceramic_clean,픽셀 안경 레드 (클린 세라믹),12000,1.1,안경,assets/models/AccessoryGlassDot0.glb,ceramic_clean
+accessoryglassdot0_metal_brushed,픽셀 안경 레드 (브러시드 메탈),13500,1,안경,assets/models/AccessoryGlassDot0.glb,metal_brushed
+accessoryglassdot0_metal_polished,픽셀 안경 레드 (폴리시드 메탈),15000,0.9,안경,assets/models/AccessoryGlassDot0.glb,metal_polished
+accessoryglassdot0_paint_clearcoat,픽셀 안경 레드 (클리어코트 페인트),13000,1.05,안경,assets/models/AccessoryGlassDot0.glb,paint_clearcoat
+accessoryglassdot0_fabric_sheen,픽셀 안경 레드 (패브릭 쉰),11500,1.15,안경,assets/models/AccessoryGlassDot0.glb,fabric_sheen
+accessoryglassdot0_glass_clear,픽셀 안경 레드 (클리어 글래스),16000,0.8,안경,assets/models/AccessoryGlassDot0.glb,glass_clear
+accessoryglassdot0_resin_tinted,픽셀 안경 레드 (틴티드 레진),14500,0.95,안경,assets/models/AccessoryGlassDot0.glb,resin_tinted
+accessoryglassdot0_matcap_clay,픽셀 안경 레드 (클레이),10500,1.2,안경,assets/models/AccessoryGlassDot0.glb,matcap_clay
+accessoryglassdot0_matcap_wax,픽셀 안경 레드 (왁스),11000,1.15,안경,assets/models/AccessoryGlassDot0.glb,matcap_wax
+accessoryglassdot0_matcap_chrome,픽셀 안경 레드 (크롬),15500,0.85,안경,assets/models/AccessoryGlassDot0.glb,matcap_chrome
+accessoryglassdot0_matcap_bronze,픽셀 안경 레드 (브론즈),14000,1,안경,assets/models/AccessoryGlassDot0.glb,matcap_bronze
+accessoryglassdot0_matcap_black_rubber,픽셀 안경 레드 (블랙 러버),10800,1.2,안경,assets/models/AccessoryGlassDot0.glb,matcap_black_rubber
+accessoryglassdot0_matcap_red_wax,픽셀 안경 레드 (레드 왁스),11500,1.1,안경,assets/models/AccessoryGlassDot0.glb,matcap_red_wax
+accessoryglassdot0_matcap_white_ceramic,픽셀 안경 레드 (화이트 세라믹),12500,1.05,안경,assets/models/AccessoryGlassDot0.glb,matcap_white_ceramic
+accessoryglassdot0_matcap_blue_gloss,픽셀 안경 레드 (블루 글로시),12000,1.1,안경,assets/models/AccessoryGlassDot0.glb,matcap_blue_gloss
+accessoryglassdot0_matcap_gold,픽셀 안경 레드 (골드),17000,0.7,안경,assets/models/AccessoryGlassDot0.glb,matcap_gold
+accessoryglassdot0_matcap_silver_soft,픽셀 안경 레드 (소프트 실버),13500,1,안경,assets/models/AccessoryGlassDot0.glb,matcap_silver_soft
+accessoryglassdot1_plastic_matte,픽셀 안경 그린 (매트 플라스틱),10000,1.2,안경,assets/models/AccessoryGlassDot1.glb,plastic_matte
+accessoryglassdot1_plastic_gloss,픽셀 안경 그린 (글로시 플라스틱),11000,1.15,안경,assets/models/AccessoryGlassDot1.glb,plastic_gloss
+accessoryglassdot1_rubber_soft,픽셀 안경 그린 (소프트 러버),10500,1.2,안경,assets/models/AccessoryGlassDot1.glb,rubber_soft
+accessoryglassdot1_ceramic_clean,픽셀 안경 그린 (클린 세라믹),12000,1.1,안경,assets/models/AccessoryGlassDot1.glb,ceramic_clean
+accessoryglassdot1_metal_brushed,픽셀 안경 그린 (브러시드 메탈),13500,1,안경,assets/models/AccessoryGlassDot1.glb,metal_brushed
+accessoryglassdot1_metal_polished,픽셀 안경 그린 (폴리시드 메탈),15000,0.9,안경,assets/models/AccessoryGlassDot1.glb,metal_polished
+accessoryglassdot1_paint_clearcoat,픽셀 안경 그린 (클리어코트 페인트),13000,1.05,안경,assets/models/AccessoryGlassDot1.glb,paint_clearcoat
+accessoryglassdot1_fabric_sheen,픽셀 안경 그린 (패브릭 쉰),11500,1.15,안경,assets/models/AccessoryGlassDot1.glb,fabric_sheen
+accessoryglassdot1_glass_clear,픽셀 안경 그린 (클리어 글래스),16000,0.8,안경,assets/models/AccessoryGlassDot1.glb,glass_clear
+accessoryglassdot1_resin_tinted,픽셀 안경 그린 (틴티드 레진),14500,0.95,안경,assets/models/AccessoryGlassDot1.glb,resin_tinted
+accessoryglassdot1_matcap_clay,픽셀 안경 그린 (클레이),10500,1.2,안경,assets/models/AccessoryGlassDot1.glb,matcap_clay
+accessoryglassdot1_matcap_wax,픽셀 안경 그린 (왁스),11000,1.15,안경,assets/models/AccessoryGlassDot1.glb,matcap_wax
+accessoryglassdot1_matcap_chrome,픽셀 안경 그린 (크롬),15500,0.85,안경,assets/models/AccessoryGlassDot1.glb,matcap_chrome
+accessoryglassdot1_matcap_bronze,픽셀 안경 그린 (브론즈),14000,1,안경,assets/models/AccessoryGlassDot1.glb,matcap_bronze
+accessoryglassdot1_matcap_black_rubber,픽셀 안경 그린 (블랙 러버),10800,1.2,안경,assets/models/AccessoryGlassDot1.glb,matcap_black_rubber
+accessoryglassdot1_matcap_red_wax,픽셀 안경 그린 (레드 왁스),11500,1.1,안경,assets/models/AccessoryGlassDot1.glb,matcap_red_wax
+accessoryglassdot1_matcap_white_ceramic,픽셀 안경 그린 (화이트 세라믹),12500,1.05,안경,assets/models/AccessoryGlassDot1.glb,matcap_white_ceramic
+accessoryglassdot1_matcap_blue_gloss,픽셀 안경 그린 (블루 글로시),12000,1.1,안경,assets/models/AccessoryGlassDot1.glb,matcap_blue_gloss
+accessoryglassdot1_matcap_gold,픽셀 안경 그린 (골드),17000,0.7,안경,assets/models/AccessoryGlassDot1.glb,matcap_gold
+accessoryglassdot1_matcap_silver_soft,픽셀 안경 그린 (소프트 실버),13500,1,안경,assets/models/AccessoryGlassDot1.glb,matcap_silver_soft
+accessoryglassdot2_plastic_matte,픽셀 안경 블루 (매트 플라스틱),10000,1.2,안경,assets/models/AccessoryGlassDot2.glb,plastic_matte
+accessoryglassdot2_plastic_gloss,픽셀 안경 블루 (글로시 플라스틱),11000,1.15,안경,assets/models/AccessoryGlassDot2.glb,plastic_gloss
+accessoryglassdot2_rubber_soft,픽셀 안경 블루 (소프트 러버),10500,1.2,안경,assets/models/AccessoryGlassDot2.glb,rubber_soft
+accessoryglassdot2_ceramic_clean,픽셀 안경 블루 (클린 세라믹),12000,1.1,안경,assets/models/AccessoryGlassDot2.glb,ceramic_clean
+accessoryglassdot2_metal_brushed,픽셀 안경 블루 (브러시드 메탈),13500,1,안경,assets/models/AccessoryGlassDot2.glb,metal_brushed
+accessoryglassdot2_metal_polished,픽셀 안경 블루 (폴리시드 메탈),15000,0.9,안경,assets/models/AccessoryGlassDot2.glb,metal_polished
+accessoryglassdot2_paint_clearcoat,픽셀 안경 블루 (클리어코트 페인트),13000,1.05,안경,assets/models/AccessoryGlassDot2.glb,paint_clearcoat
+accessoryglassdot2_fabric_sheen,픽셀 안경 블루 (패브릭 쉰),11500,1.15,안경,assets/models/AccessoryGlassDot2.glb,fabric_sheen
+accessoryglassdot2_glass_clear,픽셀 안경 블루 (클리어 글래스),16000,0.8,안경,assets/models/AccessoryGlassDot2.glb,glass_clear
+accessoryglassdot2_resin_tinted,픽셀 안경 블루 (틴티드 레진),14500,0.95,안경,assets/models/AccessoryGlassDot2.glb,resin_tinted
+accessoryglassdot2_matcap_clay,픽셀 안경 블루 (클레이),10500,1.2,안경,assets/models/AccessoryGlassDot2.glb,matcap_clay
+accessoryglassdot2_matcap_wax,픽셀 안경 블루 (왁스),11000,1.15,안경,assets/models/AccessoryGlassDot2.glb,matcap_wax
+accessoryglassdot2_matcap_chrome,픽셀 안경 블루 (크롬),15500,0.85,안경,assets/models/AccessoryGlassDot2.glb,matcap_chrome
+accessoryglassdot2_matcap_bronze,픽셀 안경 블루 (브론즈),14000,1,안경,assets/models/AccessoryGlassDot2.glb,matcap_bronze
+accessoryglassdot2_matcap_black_rubber,픽셀 안경 블루 (블랙 러버),10800,1.2,안경,assets/models/AccessoryGlassDot2.glb,matcap_black_rubber
+accessoryglassdot2_matcap_red_wax,픽셀 안경 블루 (레드 왁스),11500,1.1,안경,assets/models/AccessoryGlassDot2.glb,matcap_red_wax
+accessoryglassdot2_matcap_white_ceramic,픽셀 안경 블루 (화이트 세라믹),12500,1.05,안경,assets/models/AccessoryGlassDot2.glb,matcap_white_ceramic
+accessoryglassdot2_matcap_blue_gloss,픽셀 안경 블루 (블루 글로시),12000,1.1,안경,assets/models/AccessoryGlassDot2.glb,matcap_blue_gloss
+accessoryglassdot2_matcap_gold,픽셀 안경 블루 (골드),17000,0.7,안경,assets/models/AccessoryGlassDot2.glb,matcap_gold
+accessoryglassdot2_matcap_silver_soft,픽셀 안경 블루 (소프트 실버),13500,1,안경,assets/models/AccessoryGlassDot2.glb,matcap_silver_soft
+accessoryglassdot3_plastic_matte,픽셀 안경 블랙 (매트 플라스틱),10000,1.2,안경,assets/models/AccessoryGlassDot3.glb,plastic_matte
+accessoryglassdot3_plastic_gloss,픽셀 안경 블랙 (글로시 플라스틱),11000,1.15,안경,assets/models/AccessoryGlassDot3.glb,plastic_gloss
+accessoryglassdot3_rubber_soft,픽셀 안경 블랙 (소프트 러버),10500,1.2,안경,assets/models/AccessoryGlassDot3.glb,rubber_soft
+accessoryglassdot3_ceramic_clean,픽셀 안경 블랙 (클린 세라믹),12000,1.1,안경,assets/models/AccessoryGlassDot3.glb,ceramic_clean
+accessoryglassdot3_metal_brushed,픽셀 안경 블랙 (브러시드 메탈),13500,1,안경,assets/models/AccessoryGlassDot3.glb,metal_brushed
+accessoryglassdot3_metal_polished,픽셀 안경 블랙 (폴리시드 메탈),15000,0.9,안경,assets/models/AccessoryGlassDot3.glb,metal_polished
+accessoryglassdot3_paint_clearcoat,픽셀 안경 블랙 (클리어코트 페인트),13000,1.05,안경,assets/models/AccessoryGlassDot3.glb,paint_clearcoat
+accessoryglassdot3_fabric_sheen,픽셀 안경 블랙 (패브릭 쉰),11500,1.15,안경,assets/models/AccessoryGlassDot3.glb,fabric_sheen
+accessoryglassdot3_glass_clear,픽셀 안경 블랙 (클리어 글래스),16000,0.8,안경,assets/models/AccessoryGlassDot3.glb,glass_clear
+accessoryglassdot3_resin_tinted,픽셀 안경 블랙 (틴티드 레진),14500,0.95,안경,assets/models/AccessoryGlassDot3.glb,resin_tinted
+accessoryglassdot3_matcap_clay,픽셀 안경 블랙 (클레이),10500,1.2,안경,assets/models/AccessoryGlassDot3.glb,matcap_clay
+accessoryglassdot3_matcap_wax,픽셀 안경 블랙 (왁스),11000,1.15,안경,assets/models/AccessoryGlassDot3.glb,matcap_wax
+accessoryglassdot3_matcap_chrome,픽셀 안경 블랙 (크롬),15500,0.85,안경,assets/models/AccessoryGlassDot3.glb,matcap_chrome
+accessoryglassdot3_matcap_bronze,픽셀 안경 블랙 (브론즈),14000,1,안경,assets/models/AccessoryGlassDot3.glb,matcap_bronze
+accessoryglassdot3_matcap_black_rubber,픽셀 안경 블랙 (블랙 러버),10800,1.2,안경,assets/models/AccessoryGlassDot3.glb,matcap_black_rubber
+accessoryglassdot3_matcap_red_wax,픽셀 안경 블랙 (레드 왁스),11500,1.1,안경,assets/models/AccessoryGlassDot3.glb,matcap_red_wax
+accessoryglassdot3_matcap_white_ceramic,픽셀 안경 블랙 (화이트 세라믹),12500,1.05,안경,assets/models/AccessoryGlassDot3.glb,matcap_white_ceramic
+accessoryglassdot3_matcap_blue_gloss,픽셀 안경 블랙 (블루 글로시),12000,1.1,안경,assets/models/AccessoryGlassDot3.glb,matcap_blue_gloss
+accessoryglassdot3_matcap_gold,픽셀 안경 블랙 (골드),17000,0.7,안경,assets/models/AccessoryGlassDot3.glb,matcap_gold
+accessoryglassdot3_matcap_silver_soft,픽셀 안경 블랙 (소프트 실버),13500,1,안경,assets/models/AccessoryGlassDot3.glb,matcap_silver_soft
+accessoryglassdoublebridge0_plastic_matte,오렌지 더블 브릿지 선글라스 (매트 플라스틱),15000,1.8,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,plastic_matte
+accessoryglassdoublebridge0_plastic_gloss,오렌지 더블 브릿지 선글라스 (글로시 플라스틱),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,plastic_gloss
+accessoryglassdoublebridge0_rubber_soft,오렌지 더블 브릿지 선글라스 (소프트 러버),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,rubber_soft
+accessoryglassdoublebridge0_ceramic_clean,오렌지 더블 브릿지 선글라스 (클린 세라믹),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,ceramic_clean
+accessoryglassdoublebridge0_metal_brushed,오렌지 더블 브릿지 선글라스 (브러시드 메탈),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,metal_brushed
+accessoryglassdoublebridge0_metal_polished,오렌지 더블 브릿지 선글라스 (폴리시드 메탈),22500,1.5,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,metal_polished
+accessoryglassdoublebridge0_paint_clearcoat,오렌지 더블 브릿지 선글라스 (클리어코트 페인트),19500,1.65,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,paint_clearcoat
+accessoryglassdoublebridge0_fabric_sheen,오렌지 더블 브릿지 선글라스 (패브릭 쉰),17300,1.75,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,fabric_sheen
+accessoryglassdoublebridge0_glass_clear,오렌지 더블 브릿지 선글라스 (클리어 글래스),24000,1.4,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,glass_clear
+accessoryglassdoublebridge0_resin_tinted,오렌지 더블 브릿지 선글라스 (틴티드 레진),21800,1.55,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,resin_tinted
+accessoryglassdoublebridge0_matcap_clay,오렌지 더블 브릿지 선글라스 (클레이),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_clay
+accessoryglassdoublebridge0_matcap_wax,오렌지 더블 브릿지 선글라스 (왁스),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_wax
+accessoryglassdoublebridge0_matcap_chrome,오렌지 더블 브릿지 선글라스 (크롬),23300,1.45,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_chrome
+accessoryglassdoublebridge0_matcap_bronze,오렌지 더블 브릿지 선글라스 (브론즈),21000,1.6,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_bronze
+accessoryglassdoublebridge0_matcap_black_rubber,오렌지 더블 브릿지 선글라스 (블랙 러버),16200,1.8,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_black_rubber
+accessoryglassdoublebridge0_matcap_red_wax,오렌지 더블 브릿지 선글라스 (레드 왁스),17300,1.7,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_red_wax
+accessoryglassdoublebridge0_matcap_white_ceramic,오렌지 더블 브릿지 선글라스 (화이트 세라믹),18800,1.65,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_white_ceramic
+accessoryglassdoublebridge0_matcap_blue_gloss,오렌지 더블 브릿지 선글라스 (블루 글로시),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_blue_gloss
+accessoryglassdoublebridge0_matcap_gold,오렌지 더블 브릿지 선글라스 (골드),25500,1.3,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_gold
+accessoryglassdoublebridge0_matcap_silver_soft,오렌지 더블 브릿지 선글라스 (소프트 실버),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge0.glb,matcap_silver_soft
+accessoryglassdoublebridge1_plastic_matte,퍼플 더블 브릿지 선글라스 (매트 플라스틱),15000,1.8,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,plastic_matte
+accessoryglassdoublebridge1_plastic_gloss,퍼플 더블 브릿지 선글라스 (글로시 플라스틱),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,plastic_gloss
+accessoryglassdoublebridge1_rubber_soft,퍼플 더블 브릿지 선글라스 (소프트 러버),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,rubber_soft
+accessoryglassdoublebridge1_ceramic_clean,퍼플 더블 브릿지 선글라스 (클린 세라믹),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,ceramic_clean
+accessoryglassdoublebridge1_metal_brushed,퍼플 더블 브릿지 선글라스 (브러시드 메탈),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,metal_brushed
+accessoryglassdoublebridge1_metal_polished,퍼플 더블 브릿지 선글라스 (폴리시드 메탈),22500,1.5,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,metal_polished
+accessoryglassdoublebridge1_paint_clearcoat,퍼플 더블 브릿지 선글라스 (클리어코트 페인트),19500,1.65,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,paint_clearcoat
+accessoryglassdoublebridge1_fabric_sheen,퍼플 더블 브릿지 선글라스 (패브릭 쉰),17300,1.75,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,fabric_sheen
+accessoryglassdoublebridge1_glass_clear,퍼플 더블 브릿지 선글라스 (클리어 글래스),24000,1.4,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,glass_clear
+accessoryglassdoublebridge1_resin_tinted,퍼플 더블 브릿지 선글라스 (틴티드 레진),21800,1.55,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,resin_tinted
+accessoryglassdoublebridge1_matcap_clay,퍼플 더블 브릿지 선글라스 (클레이),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_clay
+accessoryglassdoublebridge1_matcap_wax,퍼플 더블 브릿지 선글라스 (왁스),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_wax
+accessoryglassdoublebridge1_matcap_chrome,퍼플 더블 브릿지 선글라스 (크롬),23300,1.45,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_chrome
+accessoryglassdoublebridge1_matcap_bronze,퍼플 더블 브릿지 선글라스 (브론즈),21000,1.6,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_bronze
+accessoryglassdoublebridge1_matcap_black_rubber,퍼플 더블 브릿지 선글라스 (블랙 러버),16200,1.8,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_black_rubber
+accessoryglassdoublebridge1_matcap_red_wax,퍼플 더블 브릿지 선글라스 (레드 왁스),17300,1.7,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_red_wax
+accessoryglassdoublebridge1_matcap_white_ceramic,퍼플 더블 브릿지 선글라스 (화이트 세라믹),18800,1.65,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_white_ceramic
+accessoryglassdoublebridge1_matcap_blue_gloss,퍼플 더블 브릿지 선글라스 (블루 글로시),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_blue_gloss
+accessoryglassdoublebridge1_matcap_gold,퍼플 더블 브릿지 선글라스 (골드),25500,1.3,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_gold
+accessoryglassdoublebridge1_matcap_silver_soft,퍼플 더블 브릿지 선글라스 (소프트 실버),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge1.glb,matcap_silver_soft
+accessoryglassdoublebridge2_plastic_matte,그레이 더블 브릿지 선글라스 (매트 플라스틱),15000,1.8,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,plastic_matte
+accessoryglassdoublebridge2_plastic_gloss,그레이 더블 브릿지 선글라스 (글로시 플라스틱),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,plastic_gloss
+accessoryglassdoublebridge2_rubber_soft,그레이 더블 브릿지 선글라스 (소프트 러버),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,rubber_soft
+accessoryglassdoublebridge2_ceramic_clean,그레이 더블 브릿지 선글라스 (클린 세라믹),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,ceramic_clean
+accessoryglassdoublebridge2_metal_brushed,그레이 더블 브릿지 선글라스 (브러시드 메탈),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,metal_brushed
+accessoryglassdoublebridge2_metal_polished,그레이 더블 브릿지 선글라스 (폴리시드 메탈),22500,1.5,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,metal_polished
+accessoryglassdoublebridge2_paint_clearcoat,그레이 더블 브릿지 선글라스 (클리어코트 페인트),19500,1.65,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,paint_clearcoat
+accessoryglassdoublebridge2_fabric_sheen,그레이 더블 브릿지 선글라스 (패브릭 쉰),17300,1.75,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,fabric_sheen
+accessoryglassdoublebridge2_glass_clear,그레이 더블 브릿지 선글라스 (클리어 글래스),24000,1.4,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,glass_clear
+accessoryglassdoublebridge2_resin_tinted,그레이 더블 브릿지 선글라스 (틴티드 레진),21800,1.55,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,resin_tinted
+accessoryglassdoublebridge2_matcap_clay,그레이 더블 브릿지 선글라스 (클레이),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_clay
+accessoryglassdoublebridge2_matcap_wax,그레이 더블 브릿지 선글라스 (왁스),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_wax
+accessoryglassdoublebridge2_matcap_chrome,그레이 더블 브릿지 선글라스 (크롬),23300,1.45,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_chrome
+accessoryglassdoublebridge2_matcap_bronze,그레이 더블 브릿지 선글라스 (브론즈),21000,1.6,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_bronze
+accessoryglassdoublebridge2_matcap_black_rubber,그레이 더블 브릿지 선글라스 (블랙 러버),16200,1.8,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_black_rubber
+accessoryglassdoublebridge2_matcap_red_wax,그레이 더블 브릿지 선글라스 (레드 왁스),17300,1.7,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_red_wax
+accessoryglassdoublebridge2_matcap_white_ceramic,그레이 더블 브릿지 선글라스 (화이트 세라믹),18800,1.65,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_white_ceramic
+accessoryglassdoublebridge2_matcap_blue_gloss,그레이 더블 브릿지 선글라스 (블루 글로시),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_blue_gloss
+accessoryglassdoublebridge2_matcap_gold,그레이 더블 브릿지 선글라스 (골드),25500,1.3,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_gold
+accessoryglassdoublebridge2_matcap_silver_soft,그레이 더블 브릿지 선글라스 (소프트 실버),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge2.glb,matcap_silver_soft
+accessoryglassdoublebridge3_plastic_matte,다크블루 더블 브릿지 선글라스 (매트 플라스틱),15000,1.8,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,plastic_matte
+accessoryglassdoublebridge3_plastic_gloss,다크블루 더블 브릿지 선글라스 (글로시 플라스틱),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,plastic_gloss
+accessoryglassdoublebridge3_rubber_soft,다크블루 더블 브릿지 선글라스 (소프트 러버),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,rubber_soft
+accessoryglassdoublebridge3_ceramic_clean,다크블루 더블 브릿지 선글라스 (클린 세라믹),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,ceramic_clean
+accessoryglassdoublebridge3_metal_brushed,다크블루 더블 브릿지 선글라스 (브러시드 메탈),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,metal_brushed
+accessoryglassdoublebridge3_metal_polished,다크블루 더블 브릿지 선글라스 (폴리시드 메탈),22500,1.5,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,metal_polished
+accessoryglassdoublebridge3_paint_clearcoat,다크블루 더블 브릿지 선글라스 (클리어코트 페인트),19500,1.65,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,paint_clearcoat
+accessoryglassdoublebridge3_fabric_sheen,다크블루 더블 브릿지 선글라스 (패브릭 쉰),17300,1.75,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,fabric_sheen
+accessoryglassdoublebridge3_glass_clear,다크블루 더블 브릿지 선글라스 (클리어 글래스),24000,1.4,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,glass_clear
+accessoryglassdoublebridge3_resin_tinted,다크블루 더블 브릿지 선글라스 (틴티드 레진),21800,1.55,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,resin_tinted
+accessoryglassdoublebridge3_matcap_clay,다크블루 더블 브릿지 선글라스 (클레이),15800,1.8,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_clay
+accessoryglassdoublebridge3_matcap_wax,다크블루 더블 브릿지 선글라스 (왁스),16500,1.75,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_wax
+accessoryglassdoublebridge3_matcap_chrome,다크블루 더블 브릿지 선글라스 (크롬),23300,1.45,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_chrome
+accessoryglassdoublebridge3_matcap_bronze,다크블루 더블 브릿지 선글라스 (브론즈),21000,1.6,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_bronze
+accessoryglassdoublebridge3_matcap_black_rubber,다크블루 더블 브릿지 선글라스 (블랙 러버),16200,1.8,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_black_rubber
+accessoryglassdoublebridge3_matcap_red_wax,다크블루 더블 브릿지 선글라스 (레드 왁스),17300,1.7,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_red_wax
+accessoryglassdoublebridge3_matcap_white_ceramic,다크블루 더블 브릿지 선글라스 (화이트 세라믹),18800,1.65,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_white_ceramic
+accessoryglassdoublebridge3_matcap_blue_gloss,다크블루 더블 브릿지 선글라스 (블루 글로시),18000,1.7,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_blue_gloss
+accessoryglassdoublebridge3_matcap_gold,다크블루 더블 브릿지 선글라스 (골드),25500,1.3,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_gold
+accessoryglassdoublebridge3_matcap_silver_soft,다크블루 더블 브릿지 선글라스 (소프트 실버),20300,1.6,선글라스,assets/models/AccessoryGlassDoublebridge3.glb,matcap_silver_soft
+accessoryglasseyepatchwhite_plastic_matte,화이트 메쉬 아이패치 (매트 플라스틱),30000,1,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,plastic_matte
+accessoryglasseyepatchwhite_plastic_gloss,화이트 메쉬 아이패치 (글로시 플라스틱),33000,0.95,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,plastic_gloss
+accessoryglasseyepatchwhite_rubber_soft,화이트 메쉬 아이패치 (소프트 러버),31500,1,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,rubber_soft
+accessoryglasseyepatchwhite_ceramic_clean,화이트 메쉬 아이패치 (클린 세라믹),36000,0.9,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,ceramic_clean
+accessoryglasseyepatchwhite_metal_brushed,화이트 메쉬 아이패치 (브러시드 메탈),40500,0.8,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,metal_brushed
+accessoryglasseyepatchwhite_metal_polished,화이트 메쉬 아이패치 (폴리시드 메탈),45000,0.7,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,metal_polished
+accessoryglasseyepatchwhite_paint_clearcoat,화이트 메쉬 아이패치 (클리어코트 페인트),39000,0.85,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,paint_clearcoat
+accessoryglasseyepatchwhite_fabric_sheen,화이트 메쉬 아이패치 (패브릭 쉰),34500,0.95,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,fabric_sheen
+accessoryglasseyepatchwhite_glass_clear,화이트 메쉬 아이패치 (클리어 글래스),48000,0.6,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,glass_clear
+accessoryglasseyepatchwhite_resin_tinted,화이트 메쉬 아이패치 (틴티드 레진),43500,0.75,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,resin_tinted
+accessoryglasseyepatchwhite_matcap_clay,화이트 메쉬 아이패치 (클레이),31500,1,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_clay
+accessoryglasseyepatchwhite_matcap_wax,화이트 메쉬 아이패치 (왁스),33000,0.95,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_wax
+accessoryglasseyepatchwhite_matcap_chrome,화이트 메쉬 아이패치 (크롬),46500,0.65,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_chrome
+accessoryglasseyepatchwhite_matcap_bronze,화이트 메쉬 아이패치 (브론즈),42000,0.8,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_bronze
+accessoryglasseyepatchwhite_matcap_black_rubber,화이트 메쉬 아이패치 (블랙 러버),32400,1,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_black_rubber
+accessoryglasseyepatchwhite_matcap_red_wax,화이트 메쉬 아이패치 (레드 왁스),34500,0.9,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_red_wax
+accessoryglasseyepatchwhite_matcap_white_ceramic,화이트 메쉬 아이패치 (화이트 세라믹),37500,0.85,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_white_ceramic
+accessoryglasseyepatchwhite_matcap_blue_gloss,화이트 메쉬 아이패치 (블루 글로시),36000,0.9,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_blue_gloss
+accessoryglasseyepatchwhite_matcap_gold,화이트 메쉬 아이패치 (골드),51000,0.5,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_gold
+accessoryglasseyepatchwhite_matcap_silver_soft,화이트 메쉬 아이패치 (소프트 실버),40500,0.8,액세서리,assets/models/AccessoryGlassEyepatchWhite.glb,matcap_silver_soft

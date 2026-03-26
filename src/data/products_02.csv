@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+accessoryglassboston0_plastic_matte,클래식 블랙 라운드 선글라스 (매트 플라스틱),15000,1.5,선글라스,assets/models/AccessoryGlassBoston0.glb,plastic_matte
+accessoryglassboston0_plastic_gloss,클래식 블랙 라운드 선글라스 (글로시 플라스틱),16500,1.45,선글라스,assets/models/AccessoryGlassBoston0.glb,plastic_gloss
+accessoryglassboston0_rubber_soft,클래식 블랙 라운드 선글라스 (소프트 러버),15800,1.5,선글라스,assets/models/AccessoryGlassBoston0.glb,rubber_soft
+accessoryglassboston0_ceramic_clean,클래식 블랙 라운드 선글라스 (클린 세라믹),18000,1.4,선글라스,assets/models/AccessoryGlassBoston0.glb,ceramic_clean
+accessoryglassboston0_metal_brushed,클래식 블랙 라운드 선글라스 (브러시드 메탈),20300,1.3,선글라스,assets/models/AccessoryGlassBoston0.glb,metal_brushed
+accessoryglassboston0_metal_polished,클래식 블랙 라운드 선글라스 (폴리시드 메탈),22500,1.2,선글라스,assets/models/AccessoryGlassBoston0.glb,metal_polished
+accessoryglassboston0_paint_clearcoat,클래식 블랙 라운드 선글라스 (클리어코트 페인트),19500,1.35,선글라스,assets/models/AccessoryGlassBoston0.glb,paint_clearcoat
+accessoryglassboston0_fabric_sheen,클래식 블랙 라운드 선글라스 (패브릭 쉰),17300,1.45,선글라스,assets/models/AccessoryGlassBoston0.glb,fabric_sheen
+accessoryglassboston0_glass_clear,클래식 블랙 라운드 선글라스 (클리어 글래스),24000,1.1,선글라스,assets/models/AccessoryGlassBoston0.glb,glass_clear
+accessoryglassboston0_resin_tinted,클래식 블랙 라운드 선글라스 (틴티드 레진),21800,1.25,선글라스,assets/models/AccessoryGlassBoston0.glb,resin_tinted
+accessoryglassboston0_matcap_clay,클래식 블랙 라운드 선글라스 (클레이),15800,1.5,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_clay
+accessoryglassboston0_matcap_wax,클래식 블랙 라운드 선글라스 (왁스),16500,1.45,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_wax
+accessoryglassboston0_matcap_chrome,클래식 블랙 라운드 선글라스 (크롬),23300,1.15,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_chrome
+accessoryglassboston0_matcap_bronze,클래식 블랙 라운드 선글라스 (브론즈),21000,1.3,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_bronze
+accessoryglassboston0_matcap_black_rubber,클래식 블랙 라운드 선글라스 (블랙 러버),16200,1.5,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_black_rubber
+accessoryglassboston0_matcap_red_wax,클래식 블랙 라운드 선글라스 (레드 왁스),17300,1.4,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_red_wax
+accessoryglassboston0_matcap_white_ceramic,클래식 블랙 라운드 선글라스 (화이트 세라믹),18800,1.35,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_white_ceramic
+accessoryglassboston0_matcap_blue_gloss,클래식 블랙 라운드 선글라스 (블루 글로시),18000,1.4,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_blue_gloss
+accessoryglassboston0_matcap_gold,클래식 블랙 라운드 선글라스 (골드),25500,1,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_gold
+accessoryglassboston0_matcap_silver_soft,클래식 블랙 라운드 선글라스 (소프트 실버),20300,1.3,선글라스,assets/models/AccessoryGlassBoston0.glb,matcap_silver_soft
+accessoryglassboston1_plastic_matte,올드스쿨 비틀즈 스타일 그린 선글라스 (매트 플라스틱),120000,0.3,선글라스,assets/models/AccessoryGlassBoston1.glb,plastic_matte
+accessoryglassboston1_plastic_gloss,올드스쿨 비틀즈 스타일 그린 선글라스 (글로시 플라스틱),132000,0.25,선글라스,assets/models/AccessoryGlassBoston1.glb,plastic_gloss
+accessoryglassboston1_rubber_soft,올드스쿨 비틀즈 스타일 그린 선글라스 (소프트 러버),126000,0.3,선글라스,assets/models/AccessoryGlassBoston1.glb,rubber_soft
+accessoryglassboston1_ceramic_clean,올드스쿨 비틀즈 스타일 그린 선글라스 (클린 세라믹),144000,0.2,선글라스,assets/models/AccessoryGlassBoston1.glb,ceramic_clean
+accessoryglassboston1_metal_brushed,올드스쿨 비틀즈 스타일 그린 선글라스 (브러시드 메탈),162000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,metal_brushed
+accessoryglassboston1_metal_polished,올드스쿨 비틀즈 스타일 그린 선글라스 (폴리시드 메탈),180000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,metal_polished
+accessoryglassboston1_paint_clearcoat,올드스쿨 비틀즈 스타일 그린 선글라스 (클리어코트 페인트),156000,0.15,선글라스,assets/models/AccessoryGlassBoston1.glb,paint_clearcoat
+accessoryglassboston1_fabric_sheen,올드스쿨 비틀즈 스타일 그린 선글라스 (패브릭 쉰),138000,0.25,선글라스,assets/models/AccessoryGlassBoston1.glb,fabric_sheen
+accessoryglassboston1_glass_clear,올드스쿨 비틀즈 스타일 그린 선글라스 (클리어 글래스),192000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,glass_clear
+accessoryglassboston1_resin_tinted,올드스쿨 비틀즈 스타일 그린 선글라스 (틴티드 레진),174000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,resin_tinted
+accessoryglassboston1_matcap_clay,올드스쿨 비틀즈 스타일 그린 선글라스 (클레이),126000,0.3,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_clay
+accessoryglassboston1_matcap_wax,올드스쿨 비틀즈 스타일 그린 선글라스 (왁스),132000,0.25,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_wax
+accessoryglassboston1_matcap_chrome,올드스쿨 비틀즈 스타일 그린 선글라스 (크롬),186000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_chrome
+accessoryglassboston1_matcap_bronze,올드스쿨 비틀즈 스타일 그린 선글라스 (브론즈),168000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_bronze
+accessoryglassboston1_matcap_black_rubber,올드스쿨 비틀즈 스타일 그린 선글라스 (블랙 러버),129600,0.3,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_black_rubber
+accessoryglassboston1_matcap_red_wax,올드스쿨 비틀즈 스타일 그린 선글라스 (레드 왁스),138000,0.2,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_red_wax
+accessoryglassboston1_matcap_white_ceramic,올드스쿨 비틀즈 스타일 그린 선글라스 (화이트 세라믹),150000,0.15,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_white_ceramic
+accessoryglassboston1_matcap_blue_gloss,올드스쿨 비틀즈 스타일 그린 선글라스 (블루 글로시),144000,0.2,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_blue_gloss
+accessoryglassboston1_matcap_gold,올드스쿨 비틀즈 스타일 그린 선글라스 (골드),204000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_gold
+accessoryglassboston1_matcap_silver_soft,올드스쿨 비틀즈 스타일 그린 선글라스 (소프트 실버),162000,0.1,선글라스,assets/models/AccessoryGlassBoston1.glb,matcap_silver_soft
+accessoryglassboston2_plastic_matte,Accessory Glass Boston 2 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassBoston2.glb,plastic_matte
+accessoryglassboston2_plastic_gloss,Accessory Glass Boston 2 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassBoston2.glb,plastic_gloss
+accessoryglassboston2_rubber_soft,Accessory Glass Boston 2 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassBoston2.glb,rubber_soft
+accessoryglassboston2_ceramic_clean,Accessory Glass Boston 2 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassBoston2.glb,ceramic_clean
+accessoryglassboston2_metal_brushed,Accessory Glass Boston 2 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassBoston2.glb,metal_brushed
+accessoryglassboston2_metal_polished,Accessory Glass Boston 2 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassBoston2.glb,metal_polished
+accessoryglassboston2_paint_clearcoat,Accessory Glass Boston 2 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassBoston2.glb,paint_clearcoat
+accessoryglassboston2_fabric_sheen,Accessory Glass Boston 2 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassBoston2.glb,fabric_sheen
+accessoryglassboston2_glass_clear,Accessory Glass Boston 2 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassBoston2.glb,glass_clear
+accessoryglassboston2_resin_tinted,Accessory Glass Boston 2 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassBoston2.glb,resin_tinted
+accessoryglassboston2_matcap_clay,Accessory Glass Boston 2 (클레이),15800,1,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_clay
+accessoryglassboston2_matcap_wax,Accessory Glass Boston 2 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_wax
+accessoryglassboston2_matcap_chrome,Accessory Glass Boston 2 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_chrome
+accessoryglassboston2_matcap_bronze,Accessory Glass Boston 2 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_bronze
+accessoryglassboston2_matcap_black_rubber,Accessory Glass Boston 2 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_black_rubber
+accessoryglassboston2_matcap_red_wax,Accessory Glass Boston 2 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_red_wax
+accessoryglassboston2_matcap_white_ceramic,Accessory Glass Boston 2 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_white_ceramic
+accessoryglassboston2_matcap_blue_gloss,Accessory Glass Boston 2 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_blue_gloss
+accessoryglassboston2_matcap_gold,Accessory Glass Boston 2 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_gold
+accessoryglassboston2_matcap_silver_soft,Accessory Glass Boston 2 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassBoston2.glb,matcap_silver_soft
+accessoryglassboston3_plastic_matte,Accessory Glass Boston 3 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassBoston3.glb,plastic_matte
+accessoryglassboston3_plastic_gloss,Accessory Glass Boston 3 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassBoston3.glb,plastic_gloss
+accessoryglassboston3_rubber_soft,Accessory Glass Boston 3 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassBoston3.glb,rubber_soft
+accessoryglassboston3_ceramic_clean,Accessory Glass Boston 3 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassBoston3.glb,ceramic_clean
+accessoryglassboston3_metal_brushed,Accessory Glass Boston 3 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassBoston3.glb,metal_brushed
+accessoryglassboston3_metal_polished,Accessory Glass Boston 3 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassBoston3.glb,metal_polished
+accessoryglassboston3_paint_clearcoat,Accessory Glass Boston 3 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassBoston3.glb,paint_clearcoat
+accessoryglassboston3_fabric_sheen,Accessory Glass Boston 3 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassBoston3.glb,fabric_sheen
+accessoryglassboston3_glass_clear,Accessory Glass Boston 3 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassBoston3.glb,glass_clear
+accessoryglassboston3_resin_tinted,Accessory Glass Boston 3 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassBoston3.glb,resin_tinted
+accessoryglassboston3_matcap_clay,Accessory Glass Boston 3 (클레이),15800,1,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_clay
+accessoryglassboston3_matcap_wax,Accessory Glass Boston 3 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_wax
+accessoryglassboston3_matcap_chrome,Accessory Glass Boston 3 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_chrome
+accessoryglassboston3_matcap_bronze,Accessory Glass Boston 3 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_bronze
+accessoryglassboston3_matcap_black_rubber,Accessory Glass Boston 3 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_black_rubber
+accessoryglassboston3_matcap_red_wax,Accessory Glass Boston 3 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_red_wax
+accessoryglassboston3_matcap_white_ceramic,Accessory Glass Boston 3 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_white_ceramic
+accessoryglassboston3_matcap_blue_gloss,Accessory Glass Boston 3 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_blue_gloss
+accessoryglassboston3_matcap_gold,Accessory Glass Boston 3 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_gold
+accessoryglassboston3_matcap_silver_soft,Accessory Glass Boston 3 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassBoston3.glb,matcap_silver_soft
+accessoryglassboston4_plastic_matte,마젠타 두꺼운 프레임 선글라스 (매트 플라스틱),150000,0.2,선글라스,assets/models/AccessoryGlassBoston4.glb,plastic_matte
+accessoryglassboston4_plastic_gloss,마젠타 두꺼운 프레임 선글라스 (글로시 플라스틱),165000,0.15,선글라스,assets/models/AccessoryGlassBoston4.glb,plastic_gloss
+accessoryglassboston4_rubber_soft,마젠타 두꺼운 프레임 선글라스 (소프트 러버),157500,0.2,선글라스,assets/models/AccessoryGlassBoston4.glb,rubber_soft
+accessoryglassboston4_ceramic_clean,마젠타 두꺼운 프레임 선글라스 (클린 세라믹),180000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,ceramic_clean
+accessoryglassboston4_metal_brushed,마젠타 두꺼운 프레임 선글라스 (브러시드 메탈),202500,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,metal_brushed
+accessoryglassboston4_metal_polished,마젠타 두꺼운 프레임 선글라스 (폴리시드 메탈),225000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,metal_polished
+accessoryglassboston4_paint_clearcoat,마젠타 두꺼운 프레임 선글라스 (클리어코트 페인트),195000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,paint_clearcoat
+accessoryglassboston4_fabric_sheen,마젠타 두꺼운 프레임 선글라스 (패브릭 쉰),172500,0.15,선글라스,assets/models/AccessoryGlassBoston4.glb,fabric_sheen
+accessoryglassboston4_glass_clear,마젠타 두꺼운 프레임 선글라스 (클리어 글래스),240000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,glass_clear
+accessoryglassboston4_resin_tinted,마젠타 두꺼운 프레임 선글라스 (틴티드 레진),217500,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,resin_tinted
+accessoryglassboston4_matcap_clay,마젠타 두꺼운 프레임 선글라스 (클레이),157500,0.2,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_clay
+accessoryglassboston4_matcap_wax,마젠타 두꺼운 프레임 선글라스 (왁스),165000,0.15,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_wax
+accessoryglassboston4_matcap_chrome,마젠타 두꺼운 프레임 선글라스 (크롬),232500,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_chrome
+accessoryglassboston4_matcap_bronze,마젠타 두꺼운 프레임 선글라스 (브론즈),210000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_bronze
+accessoryglassboston4_matcap_black_rubber,마젠타 두꺼운 프레임 선글라스 (블랙 러버),162000,0.2,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_black_rubber
+accessoryglassboston4_matcap_red_wax,마젠타 두꺼운 프레임 선글라스 (레드 왁스),172500,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_red_wax
+accessoryglassboston4_matcap_white_ceramic,마젠타 두꺼운 프레임 선글라스 (화이트 세라믹),187500,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_white_ceramic
+accessoryglassboston4_matcap_blue_gloss,마젠타 두꺼운 프레임 선글라스 (블루 글로시),180000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_blue_gloss
+accessoryglassboston4_matcap_gold,마젠타 두꺼운 프레임 선글라스 (골드),255000,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_gold
+accessoryglassboston4_matcap_silver_soft,마젠타 두꺼운 프레임 선글라스 (소프트 실버),202500,0.1,선글라스,assets/models/AccessoryGlassBoston4.glb,matcap_silver_soft
+accessoryglassboston5_plastic_matte,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (매트 플라스틱),100000,1,선글라스,assets/models/AccessoryGlassBoston5.glb,plastic_matte
+accessoryglassboston5_plastic_gloss,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (글로시 플라스틱),110000,0.95,선글라스,assets/models/AccessoryGlassBoston5.glb,plastic_gloss
+accessoryglassboston5_rubber_soft,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (소프트 러버),105000,1,선글라스,assets/models/AccessoryGlassBoston5.glb,rubber_soft
+accessoryglassboston5_ceramic_clean,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (클린 세라믹),120000,0.9,선글라스,assets/models/AccessoryGlassBoston5.glb,ceramic_clean
+accessoryglassboston5_metal_brushed,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (브러시드 메탈),135000,0.8,선글라스,assets/models/AccessoryGlassBoston5.glb,metal_brushed
+accessoryglassboston5_metal_polished,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (폴리시드 메탈),150000,0.7,선글라스,assets/models/AccessoryGlassBoston5.glb,metal_polished
+accessoryglassboston5_paint_clearcoat,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (클리어코트 페인트),130000,0.85,선글라스,assets/models/AccessoryGlassBoston5.glb,paint_clearcoat
+accessoryglassboston5_fabric_sheen,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (패브릭 쉰),115000,0.95,선글라스,assets/models/AccessoryGlassBoston5.glb,fabric_sheen
+accessoryglassboston5_glass_clear,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (클리어 글래스),160000,0.6,선글라스,assets/models/AccessoryGlassBoston5.glb,glass_clear
+accessoryglassboston5_resin_tinted,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (틴티드 레진),145000,0.75,선글라스,assets/models/AccessoryGlassBoston5.glb,resin_tinted
+accessoryglassboston5_matcap_clay,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (클레이),105000,1,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_clay
+accessoryglassboston5_matcap_wax,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (왁스),110000,0.95,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_wax
+accessoryglassboston5_matcap_chrome,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (크롬),155000,0.65,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_chrome
+accessoryglassboston5_matcap_bronze,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (브론즈),140000,0.8,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_bronze
+accessoryglassboston5_matcap_black_rubber,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (블랙 러버),108000,1,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_black_rubber
+accessoryglassboston5_matcap_red_wax,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (레드 왁스),115000,0.9,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_red_wax
+accessoryglassboston5_matcap_white_ceramic,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (화이트 세라믹),125000,0.85,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_white_ceramic
+accessoryglassboston5_matcap_blue_gloss,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (블루 글로시),120000,0.9,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_blue_gloss
+accessoryglassboston5_matcap_gold,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (골드),170000,0.5,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_gold
+accessoryglassboston5_matcap_silver_soft,레트로 스타일 진홍색 두꺼운 프레임 선글라스 (소프트 실버),135000,0.8,선글라스,assets/models/AccessoryGlassBoston5.glb,matcap_silver_soft
+accessoryglassboston6_plastic_matte,Boston 클래식 라운드 선글라스 (매트 플라스틱),85000,1.6,선글라스,assets/models/AccessoryGlassBoston6.glb,plastic_matte
+accessoryglassboston6_plastic_gloss,Boston 클래식 라운드 선글라스 (글로시 플라스틱),93500,1.55,선글라스,assets/models/AccessoryGlassBoston6.glb,plastic_gloss
+accessoryglassboston6_rubber_soft,Boston 클래식 라운드 선글라스 (소프트 러버),89300,1.6,선글라스,assets/models/AccessoryGlassBoston6.glb,rubber_soft
+accessoryglassboston6_ceramic_clean,Boston 클래식 라운드 선글라스 (클린 세라믹),102000,1.5,선글라스,assets/models/AccessoryGlassBoston6.glb,ceramic_clean
+accessoryglassboston6_metal_brushed,Boston 클래식 라운드 선글라스 (브러시드 메탈),114800,1.4,선글라스,assets/models/AccessoryGlassBoston6.glb,metal_brushed
+accessoryglassboston6_metal_polished,Boston 클래식 라운드 선글라스 (폴리시드 메탈),127500,1.3,선글라스,assets/models/AccessoryGlassBoston6.glb,metal_polished
+accessoryglassboston6_paint_clearcoat,Boston 클래식 라운드 선글라스 (클리어코트 페인트),110500,1.45,선글라스,assets/models/AccessoryGlassBoston6.glb,paint_clearcoat
+accessoryglassboston6_fabric_sheen,Boston 클래식 라운드 선글라스 (패브릭 쉰),97700,1.55,선글라스,assets/models/AccessoryGlassBoston6.glb,fabric_sheen
+accessoryglassboston6_glass_clear,Boston 클래식 라운드 선글라스 (클리어 글래스),136000,1.2,선글라스,assets/models/AccessoryGlassBoston6.glb,glass_clear
+accessoryglassboston6_resin_tinted,Boston 클래식 라운드 선글라스 (틴티드 레진),123300,1.35,선글라스,assets/models/AccessoryGlassBoston6.glb,resin_tinted
+accessoryglassboston6_matcap_clay,Boston 클래식 라운드 선글라스 (클레이),89300,1.6,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_clay
+accessoryglassboston6_matcap_wax,Boston 클래식 라운드 선글라스 (왁스),93500,1.55,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_wax
+accessoryglassboston6_matcap_chrome,Boston 클래식 라운드 선글라스 (크롬),131800,1.25,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_chrome
+accessoryglassboston6_matcap_bronze,Boston 클래식 라운드 선글라스 (브론즈),119000,1.4,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_bronze
+accessoryglassboston6_matcap_black_rubber,Boston 클래식 라운드 선글라스 (블랙 러버),91800,1.6,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_black_rubber
+accessoryglassboston6_matcap_red_wax,Boston 클래식 라운드 선글라스 (레드 왁스),97700,1.5,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_red_wax
+accessoryglassboston6_matcap_white_ceramic,Boston 클래식 라운드 선글라스 (화이트 세라믹),106300,1.45,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_white_ceramic
+accessoryglassboston6_matcap_blue_gloss,Boston 클래식 라운드 선글라스 (블루 글로시),102000,1.5,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_blue_gloss
+accessoryglassboston6_matcap_gold,Boston 클래식 라운드 선글라스 (골드),144500,1.1,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_gold
+accessoryglassboston6_matcap_silver_soft,Boston 클래식 라운드 선글라스 (소프트 실버),114800,1.4,선글라스,assets/models/AccessoryGlassBoston6.glb,matcap_silver_soft
+accessoryglassboston7_plastic_matte,보라색 레트로 선글라스 (매트 플라스틱),150000,0.6,선글라스,assets/models/AccessoryGlassBoston7.glb,plastic_matte
+accessoryglassboston7_plastic_gloss,보라색 레트로 선글라스 (글로시 플라스틱),165000,0.55,선글라스,assets/models/AccessoryGlassBoston7.glb,plastic_gloss
+accessoryglassboston7_rubber_soft,보라색 레트로 선글라스 (소프트 러버),157500,0.6,선글라스,assets/models/AccessoryGlassBoston7.glb,rubber_soft
+accessoryglassboston7_ceramic_clean,보라색 레트로 선글라스 (클린 세라믹),180000,0.5,선글라스,assets/models/AccessoryGlassBoston7.glb,ceramic_clean
+accessoryglassboston7_metal_brushed,보라색 레트로 선글라스 (브러시드 메탈),202500,0.4,선글라스,assets/models/AccessoryGlassBoston7.glb,metal_brushed
+accessoryglassboston7_metal_polished,보라색 레트로 선글라스 (폴리시드 메탈),225000,0.3,선글라스,assets/models/AccessoryGlassBoston7.glb,metal_polished
+accessoryglassboston7_paint_clearcoat,보라색 레트로 선글라스 (클리어코트 페인트),195000,0.45,선글라스,assets/models/AccessoryGlassBoston7.glb,paint_clearcoat
+accessoryglassboston7_fabric_sheen,보라색 레트로 선글라스 (패브릭 쉰),172500,0.55,선글라스,assets/models/AccessoryGlassBoston7.glb,fabric_sheen
+accessoryglassboston7_glass_clear,보라색 레트로 선글라스 (클리어 글래스),240000,0.2,선글라스,assets/models/AccessoryGlassBoston7.glb,glass_clear
+accessoryglassboston7_resin_tinted,보라색 레트로 선글라스 (틴티드 레진),217500,0.35,선글라스,assets/models/AccessoryGlassBoston7.glb,resin_tinted
+accessoryglassboston7_matcap_clay,보라색 레트로 선글라스 (클레이),157500,0.6,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_clay
+accessoryglassboston7_matcap_wax,보라색 레트로 선글라스 (왁스),165000,0.55,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_wax
+accessoryglassboston7_matcap_chrome,보라색 레트로 선글라스 (크롬),232500,0.25,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_chrome
+accessoryglassboston7_matcap_bronze,보라색 레트로 선글라스 (브론즈),210000,0.4,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_bronze
+accessoryglassboston7_matcap_black_rubber,보라색 레트로 선글라스 (블랙 러버),162000,0.6,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_black_rubber
+accessoryglassboston7_matcap_red_wax,보라색 레트로 선글라스 (레드 왁스),172500,0.5,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_red_wax
+accessoryglassboston7_matcap_white_ceramic,보라색 레트로 선글라스 (화이트 세라믹),187500,0.45,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_white_ceramic
+accessoryglassboston7_matcap_blue_gloss,보라색 레트로 선글라스 (블루 글로시),180000,0.5,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_blue_gloss
+accessoryglassboston7_matcap_gold,보라색 레트로 선글라스 (골드),255000,0.1,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_gold
+accessoryglassboston7_matcap_silver_soft,보라색 레트로 선글라스 (소프트 실버),202500,0.4,선글라스,assets/models/AccessoryGlassBoston7.glb,matcap_silver_soft
+accessoryglassbottleblack_plastic_matte,검은색 병모양 안경 (매트 플라스틱),80000,0.5,안경,assets/models/AccessoryGlassBottleBlack.glb,plastic_matte
+accessoryglassbottleblack_plastic_gloss,검은색 병모양 안경 (글로시 플라스틱),88000,0.45,안경,assets/models/AccessoryGlassBottleBlack.glb,plastic_gloss
+accessoryglassbottleblack_rubber_soft,검은색 병모양 안경 (소프트 러버),84000,0.5,안경,assets/models/AccessoryGlassBottleBlack.glb,rubber_soft
+accessoryglassbottleblack_ceramic_clean,검은색 병모양 안경 (클린 세라믹),96000,0.4,안경,assets/models/AccessoryGlassBottleBlack.glb,ceramic_clean
+accessoryglassbottleblack_metal_brushed,검은색 병모양 안경 (브러시드 메탈),108000,0.3,안경,assets/models/AccessoryGlassBottleBlack.glb,metal_brushed
+accessoryglassbottleblack_metal_polished,검은색 병모양 안경 (폴리시드 메탈),120000,0.2,안경,assets/models/AccessoryGlassBottleBlack.glb,metal_polished
+accessoryglassbottleblack_paint_clearcoat,검은색 병모양 안경 (클리어코트 페인트),104000,0.35,안경,assets/models/AccessoryGlassBottleBlack.glb,paint_clearcoat
+accessoryglassbottleblack_fabric_sheen,검은색 병모양 안경 (패브릭 쉰),92000,0.45,안경,assets/models/AccessoryGlassBottleBlack.glb,fabric_sheen
+accessoryglassbottleblack_glass_clear,검은색 병모양 안경 (클리어 글래스),128000,0.1,안경,assets/models/AccessoryGlassBottleBlack.glb,glass_clear
+accessoryglassbottleblack_resin_tinted,검은색 병모양 안경 (틴티드 레진),116000,0.25,안경,assets/models/AccessoryGlassBottleBlack.glb,resin_tinted
+accessoryglassbottleblack_matcap_clay,검은색 병모양 안경 (클레이),84000,0.5,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_clay
+accessoryglassbottleblack_matcap_wax,검은색 병모양 안경 (왁스),88000,0.45,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_wax
+accessoryglassbottleblack_matcap_chrome,검은색 병모양 안경 (크롬),124000,0.15,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_chrome
+accessoryglassbottleblack_matcap_bronze,검은색 병모양 안경 (브론즈),112000,0.3,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_bronze
+accessoryglassbottleblack_matcap_black_rubber,검은색 병모양 안경 (블랙 러버),86400,0.5,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_black_rubber
+accessoryglassbottleblack_matcap_red_wax,검은색 병모양 안경 (레드 왁스),92000,0.4,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_red_wax
+accessoryglassbottleblack_matcap_white_ceramic,검은색 병모양 안경 (화이트 세라믹),100000,0.35,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_white_ceramic
+accessoryglassbottleblack_matcap_blue_gloss,검은색 병모양 안경 (블루 글로시),96000,0.4,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_blue_gloss
+accessoryglassbottleblack_matcap_gold,검은색 병모양 안경 (골드),136000,0.1,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_gold
+accessoryglassbottleblack_matcap_silver_soft,검은색 병모양 안경 (소프트 실버),108000,0.3,안경,assets/models/AccessoryGlassBottleBlack.glb,matcap_silver_soft
+accessoryglassbutterfly0_plastic_matte,버터플라이 블랙 선글라스 (매트 플라스틱),85000,0.5,선글라스,assets/models/AccessoryGlassButterfly0.glb,plastic_matte
+accessoryglassbutterfly0_plastic_gloss,버터플라이 블랙 선글라스 (글로시 플라스틱),93500,0.45,선글라스,assets/models/AccessoryGlassButterfly0.glb,plastic_gloss
+accessoryglassbutterfly0_rubber_soft,버터플라이 블랙 선글라스 (소프트 러버),89300,0.5,선글라스,assets/models/AccessoryGlassButterfly0.glb,rubber_soft
+accessoryglassbutterfly0_ceramic_clean,버터플라이 블랙 선글라스 (클린 세라믹),102000,0.4,선글라스,assets/models/AccessoryGlassButterfly0.glb,ceramic_clean
+accessoryglassbutterfly0_metal_brushed,버터플라이 블랙 선글라스 (브러시드 메탈),114800,0.3,선글라스,assets/models/AccessoryGlassButterfly0.glb,metal_brushed
+accessoryglassbutterfly0_metal_polished,버터플라이 블랙 선글라스 (폴리시드 메탈),127500,0.2,선글라스,assets/models/AccessoryGlassButterfly0.glb,metal_polished
+accessoryglassbutterfly0_paint_clearcoat,버터플라이 블랙 선글라스 (클리어코트 페인트),110500,0.35,선글라스,assets/models/AccessoryGlassButterfly0.glb,paint_clearcoat
+accessoryglassbutterfly0_fabric_sheen,버터플라이 블랙 선글라스 (패브릭 쉰),97700,0.45,선글라스,assets/models/AccessoryGlassButterfly0.glb,fabric_sheen
+accessoryglassbutterfly0_glass_clear,버터플라이 블랙 선글라스 (클리어 글래스),136000,0.1,선글라스,assets/models/AccessoryGlassButterfly0.glb,glass_clear
+accessoryglassbutterfly0_resin_tinted,버터플라이 블랙 선글라스 (틴티드 레진),123300,0.25,선글라스,assets/models/AccessoryGlassButterfly0.glb,resin_tinted
+accessoryglassbutterfly0_matcap_clay,버터플라이 블랙 선글라스 (클레이),89300,0.5,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_clay
+accessoryglassbutterfly0_matcap_wax,버터플라이 블랙 선글라스 (왁스),93500,0.45,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_wax
+accessoryglassbutterfly0_matcap_chrome,버터플라이 블랙 선글라스 (크롬),131800,0.15,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_chrome
+accessoryglassbutterfly0_matcap_bronze,버터플라이 블랙 선글라스 (브론즈),119000,0.3,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_bronze
+accessoryglassbutterfly0_matcap_black_rubber,버터플라이 블랙 선글라스 (블랙 러버),91800,0.5,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_black_rubber
+accessoryglassbutterfly0_matcap_red_wax,버터플라이 블랙 선글라스 (레드 왁스),97700,0.4,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_red_wax
+accessoryglassbutterfly0_matcap_white_ceramic,버터플라이 블랙 선글라스 (화이트 세라믹),106300,0.35,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_white_ceramic
+accessoryglassbutterfly0_matcap_blue_gloss,버터플라이 블랙 선글라스 (블루 글로시),102000,0.4,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_blue_gloss
+accessoryglassbutterfly0_matcap_gold,버터플라이 블랙 선글라스 (골드),144500,0.1,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_gold
+accessoryglassbutterfly0_matcap_silver_soft,버터플라이 블랙 선글라스 (소프트 실버),114800,0.3,선글라스,assets/models/AccessoryGlassButterfly0.glb,matcap_silver_soft

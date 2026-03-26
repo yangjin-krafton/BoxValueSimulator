@@ -92,6 +92,92 @@ export function createBoxMesh() {
   };
 }
 
+// ── 가격 스티커 텍스처 생성 ──
+const STICKER_W = 0.75, STICKER_H = 0.45;
+const stickerGeo = new THREE.PlaneGeometry(STICKER_W, STICKER_H);
+
+function makeStickerTex(price) {
+  const cv = document.createElement('canvas');
+  cv.width = 512; cv.height = 256;
+  const cx = cv.getContext('2d');
+  const w = cv.width, h = cv.height;
+
+  // 노란 배경 (마트 가격표 느낌)
+  cx.fillStyle = '#ffe033';
+  cx.fillRect(0, 0, w, h);
+
+  // 굵은 빨간 테두리
+  cx.strokeStyle = '#c62828'; cx.lineWidth = 14;
+  cx.strokeRect(7, 7, w - 14, h - 14);
+
+  // 만 단위로 표시 (예: ₩1.5만, ₩12만)
+  const man = price / 10000;
+  let text, fontSize;
+  if (price < 10000) {
+    text = `₩${price.toLocaleString()}`;
+    fontSize = 88;
+  } else if (man === Math.floor(man)) {
+    text = `₩${Math.floor(man)}만`;
+    fontSize = 120;
+  } else {
+    text = `₩${man.toFixed(1)}만`;
+    fontSize = 108;
+  }
+
+  // 텍스트 그림자
+  cx.font = `900 ${fontSize}px sans-serif`;
+  cx.textAlign = 'center';
+  cx.textBaseline = 'middle';
+  cx.fillStyle = 'rgba(0,0,0,0.25)';
+  cx.fillText(text, w / 2 + 3, h / 2 + 3);
+
+  // 메인 텍스트
+  cx.fillStyle = '#b71c1c';
+  cx.fillText(text, w / 2, h / 2);
+
+  const tex = new THREE.CanvasTexture(cv);
+  tex.anisotropy = 4;
+  return tex;
+}
+
+/**
+ * 박스 4면(앞/뒤/좌/우)에 가격 스티커 부착.
+ * @param {THREE.Group} group  박스 그룹
+ * @param {number} price       박스 가격
+ */
+export function addPriceStickers(group, price) {
+  const tex = makeStickerTex(price);
+  const mat = new THREE.MeshBasicMaterial({
+    map: tex, transparent: true, depthWrite: false, polygonOffset: true, polygonOffsetFactor: -1,
+  });
+
+  const sy = BOX_H * 0.42;           // 박스 높이 중앙 약간 아래
+  const off = 0.003;                  // 면에서 살짝 띄움
+
+  // 앞면
+  const f = new THREE.Mesh(stickerGeo, mat);
+  f.position.set(0, sy, HD + off);
+  group.add(f);
+
+  // 뒷면
+  const b = new THREE.Mesh(stickerGeo, mat);
+  b.position.set(0, sy, -HD - off);
+  b.rotation.y = PI;
+  group.add(b);
+
+  // 왼쪽
+  const l = new THREE.Mesh(stickerGeo, mat);
+  l.position.set(-HW - off, sy, 0);
+  l.rotation.y = -PI / 2;
+  group.add(l);
+
+  // 오른쪽
+  const r = new THREE.Mesh(stickerGeo, mat);
+  r.position.set(HW + off, sy, 0);
+  r.rotation.y = PI / 2;
+  group.add(r);
+}
+
 /** 호버 글로우 (씬에 1개) */
 export function createHoverGlow() {
   const g = new THREE.LineSegments(
