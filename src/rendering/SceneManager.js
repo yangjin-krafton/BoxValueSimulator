@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { VolumetricParticles } from './VolumetricParticles.js';
 
 /**
  * Three.js 씬, 카메라, 렌더러, 조명, 바닥 관리.
@@ -58,29 +59,33 @@ export class SceneManager {
     sun.shadow.bias = -0.002;
     this.scene.add(sun);
 
+    const spotPos = new THREE.Vector3(0, 9, -2.5);
+    const spotTarget = new THREE.Vector3(0, -3, -5.2);
+    const spotAngle = Math.PI / 9.5;
+
     const spot = new THREE.SpotLight(0xffe0a0, 2.8);
-    spot.position.set(0, 9, -2.5);
-    spot.angle = Math.PI / 5.5;
-    spot.penumbra = 0.4;
-    spot.decay = 0;
+    spot.position.copy(spotPos);
+    spot.angle = spotAngle;
+    spot.penumbra = 0.25;
+    spot.decay = 1.0;
     spot.castShadow = true;
     spot.shadow.mapSize.set(1024, 1024);
     spot.shadow.bias = -0.002;
-    spot.target.position.set(0, 1.5, -5.2);
+    spot.target.position.copy(spotTarget);
     this.scene.add(spot);
     this.scene.add(spot.target);
 
-    const beam = new THREE.Mesh(
-      new THREE.ConeGeometry(2.8, 8.5, 24, 1, true),
-      new THREE.MeshBasicMaterial({
-        color: 0xffe8c0, transparent: true, opacity: 0.06,
-        side: THREE.BackSide, depthWrite: false,
-      })
-    );
-    beam.position.set(0, 5.2, -3.85);
-    beam.rotation.x = 0.35;
-    beam.renderOrder = 1;
-    this.scene.add(beam);
+    this.volumetric = new VolumetricParticles(this.scene, this.camera, {
+      position: spotPos,
+      target: spotTarget,
+      color: 0xffe0a0,
+      angle: spotAngle,
+      particles: 2000,
+      density: 0.01,
+      size: 50,
+      drift: 0.15,
+      brightness: 0.1,
+    });
 
     const area = new THREE.PointLight(0x6688ff, 0.6, 8);
     area.position.set(0, 3, 2);
@@ -124,6 +129,7 @@ export class SceneManager {
 
   render() {
     this.controls.update();
+    if (this.volumetric) this.volumetric.update(this.clock.elapsedTime);
     this.renderer.render(this.scene, this.camera);
   }
 

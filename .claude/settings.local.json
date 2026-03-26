@@ -110,7 +110,18 @@
       "Bash(npm install:*)",
       "Bash(npx tsc:*)",
       "Bash(rm -f package.json package-lock.json tsconfig.json vite.config.ts index.html)",
-      "Bash(rm -rf node_modules dist)"
+      "Bash(rm -rf node_modules dist)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.shadertoy.com)",
+      "WebFetch(domain:coda.io)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:akidevcat.itch.io)",
+      "WebFetch(domain:assetstore.unity.com)",
+      "Bash(/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; try { \\\\$r = Invoke-WebRequest -Uri 'https://www.shadertoy.com/api/v1/shaders/sl3fzB?key=BdHjRn' -UseBasicParsing -UserAgent 'Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36'; \\\\$r.Content } catch { Write-Host \\\\$_.Exception.Message; Write-Host \\\\$_.Exception.Response.StatusCode }\" 2>&1)",
+      "WebFetch(domain:ijdykeman.github.io)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:akidevcat.github.io)",
+      "WebFetch(domain:blog.mmacklin.com)"
     ],
     "additionalDirectories": [
       "\\tmp"
