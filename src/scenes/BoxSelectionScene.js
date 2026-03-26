@@ -1,7 +1,10 @@
 import * as THREE from 'three';
 import { createBoxMesh, createHoverGlow, addPriceStickers, BOX_H } from '../rendering/BoxMesh.js';
+import { createPriceTag3D } from '../rendering/PriceTag3D.js';
 
 const FLOOR_Y = 0.06;
+const TAG_FLOAT_HEIGHT = 0.55;   // 상자 위 가격표 간격
+const TAG_SPIN_SPEED = 0.6;      // 가격표 회전 속도 (rad/s)
 
 /** 2~4열 타워를 랜덤 생성하고 10개 박스를 분배 */
 function randomTowers(boxCount) {
@@ -26,7 +29,7 @@ function randomTowers(boxCount) {
 }
 
 /**
- * 상자 10개 선반 배치, 호버, 클릭 선택.
+ * 상자 10개 선반 배치, 호버, 클릭 선택, 3D 가격표.
  */
 export class BoxSelectionScene {
   /**
@@ -41,14 +44,20 @@ export class BoxSelectionScene {
 
     /** @type {Array<{group, flaps, hitTargets, scale, originPos, originRotY, towerIdx: number}>} */
     this.boxMeshes = [];
-    /** @type {Array<{x, z, n}>} 현재 타워 배치 */
+    /** @type {Array<{x, z, n}>} */
     this._towers = [];
     this.hoverGlow = createHoverGlow();
     this.sceneMgr.scene.add(this.hoverGlow);
 
+    /** @type {Map<number, ReturnType<typeof createPriceTag3D>>} boxIdx → tag */
+    this._priceTags = new Map();
+
     this._hoveredIdx = -1;
     this._ray = new THREE.Raycaster();
     this._mouse = new THREE.Vector2();
+
+    // 잔액 변경 시 가격표 색상 갱신
+    this.bus.on('money:change', () => this._refreshTagColors());
 
     this._setupInput();
   }
@@ -87,22 +96,39 @@ export class BoxSelectionScene {
         idx++;
       }
     }
+
+    this._rebuildTags();
   }
 
   getBoxMesh(index) { return this.boxMeshes[index]; }
 
-  /** 선반 위 호버 부유 */
+  /** 선반 위 호버 부유 + 가격표 회전 */
   updateShelf(dt) {
     this.boxMeshes.forEach((md, i) => {
       if (this.gameState.state.boxStates[i] !== 'shelf') return;
       const ty = md.originPos.y + (i === this._hoveredIdx ? 0.12 : 0);
       md.group.position.y += (ty - md.group.position.y) * dt * 7;
     });
+
+    // 가격표 회전 + 부유
+    for (const [boxIdx, tag] of this._priceTags) {
+      tag.group.rotation.y += TAG_SPIN_SPEED * dt;
+      // 부유 효과
+      tag.group.position.y = tag._baseY + Math.sin(Date.now() * 0.002 + boxIdx) * 0.04;
+    }
   }
 
   hideBox(index) {
     const md = this.boxMeshes[index];
     if (md) md.group.visible = false;
+    this._rebuildTags();
+  }
+
+  /** 가격표 보이기/숨기기 (phase 전환용) */
+  setTagsVisible(visible) {
+    for (const [, tag] of this._priceTags) {
+      tag.group.visible = visible;
+    }
   }
 
   clear() {
@@ -110,6 +136,55 @@ export class BoxSelectionScene {
     this.boxMeshes = [];
     this._hoveredIdx = -1;
     this.hoverGlow.visible = false;
+    this._clearTags();
+  }
+
+  // ── 가격표 관리 ──
+
+  /** 최상단 박스에만 3D 가격표 배치 */
+  _rebuildTags() {
+    this._clearTags();
+
+    const tops = this._topIndices();
+    const money = this.gameState.state.money;
+    const boxSet = this.gameState.state.boxSet;
+    if (!boxSet) return;
+
+    for (const boxIdx of tops) {
+      const md = this.boxMeshes[boxIdx];
+      const def = boxSet.boxes[boxIdx];
+      const tag = createPriceTag3D();
+
+      tag.setBox(def);
+      tag.updateState(money);
+
+      // 상자 최상단 위에 배치
+      const topY = md.originPos.y + BOX_H * md.scale + TAG_FLOAT_HEIGHT;
+      tag.group.position.set(md.originPos.x, topY, md.originPos.z);
+      tag._baseY = topY;
+
+      // boxIdx 기록 (async rebuild 후에도 전파되도록 group에도 저장)
+      tag.group.userData.boxIdx = boxIdx;
+      tag.hitMeshes.forEach(m => { m.userData.boxIdx = boxIdx; });
+
+      this.sceneMgr.scene.add(tag.group);
+      this._priceTags.set(boxIdx, tag);
+    }
+  }
+
+  _clearTags() {
+    for (const [, tag] of this._priceTags) {
+      this.sceneMgr.scene.remove(tag.group);
+      tag.dispose();
+    }
+    this._priceTags.clear();
+  }
+
+  _refreshTagColors() {
+    const money = this.gameState.state.money;
+    for (const [, tag] of this._priceTags) {
+      tag.updateState(money);
+    }
   }
 
   // ── Input ──
@@ -128,11 +203,26 @@ export class BoxSelectionScene {
     return new Set(topByTower.values());
   }
 
+  /** 상자 + 가격표 hitTarget 반환 */
   _shelfTargets() {
     const tops = this._topIndices();
-    return this.boxMeshes
-      .filter((_, i) => tops.has(i))
-      .flatMap(m => m.hitTargets);
+    const targets = [];
+    for (const i of tops) {
+      targets.push(...this.boxMeshes[i].hitTargets);
+      const tag = this._priceTags.get(i);
+      if (tag) targets.push(...tag.hitMeshes);
+    }
+    return targets;
+  }
+
+  /** hit된 object에서 boxIdx 추출 (parent 탐색) */
+  _resolveBoxIdx(obj) {
+    let cur = obj;
+    while (cur) {
+      if (cur.userData && cur.userData.boxIdx !== undefined) return cur.userData.boxIdx;
+      cur = cur.parent;
+    }
+    return undefined;
   }
 
   _setupInput() {
@@ -143,7 +233,8 @@ export class BoxSelectionScene {
       const hits = this._ray.intersectObjects(this._shelfTargets());
 
       if (hits.length > 0) {
-        const idx = hits[0].object.userData.boxIdx;
+        const idx = this._resolveBoxIdx(hits[0].object);
+        if (idx === undefined) return;
         if (idx !== this._hoveredIdx) {
           this._hoveredIdx = idx;
           const md = this.boxMeshes[idx];
@@ -168,8 +259,11 @@ export class BoxSelectionScene {
       this._ray.setFromCamera(this._mouse, this.sceneMgr.camera);
       const hits = this._ray.intersectObjects(this._shelfTargets());
       if (hits.length > 0) {
+        const idx = this._resolveBoxIdx(hits[0].object);
+        if (idx === undefined) return;
         this.hoverGlow.visible = false;
-        this.bus.emit('box:select', hits[0].object.userData.boxIdx);
+        this.setTagsVisible(false);
+        this.bus.emit('box:select', idx);
       }
     });
   }

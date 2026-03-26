@@ -17,6 +17,8 @@ const GRADE_CONFIG = {
 
 const GRAVITY = -6;
 const CONFETTI_SHAPES = ['rect', 'circle', 'star'];
+const _isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+const MOBILE_SCALE = _isMobile ? 0.4 : 1;   // 모바일 파티클 수 40%
 
 export class ConfettiSystem {
   /**
@@ -52,7 +54,8 @@ export class ConfettiSystem {
   _spawnBurst(origin, cfg) {
     const colors = cfg.colors.map(c => new THREE.Color(c));
 
-    for (let i = 0; i < cfg.count; i++) {
+    const count = Math.ceil(cfg.count * MOBILE_SCALE);
+    for (let i = 0; i < count; i++) {
       const color = colors[Math.floor(Math.random() * colors.length)];
       const shape = CONFETTI_SHAPES[Math.floor(Math.random() * CONFETTI_SHAPES.length)];
       const mesh = this._getMesh(shape, color);

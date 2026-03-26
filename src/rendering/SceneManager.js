@@ -5,14 +5,19 @@ import { VolumetricParticles } from './VolumetricParticles.js';
 /**
  * Three.js 씬, 카메라, 렌더러, 조명, 바닥 관리.
  */
+const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+
 export class SceneManager {
   constructor() {
-    // Renderer
-    this.renderer = new THREE.WebGLRenderer({ antialias: true });
-    this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    // Renderer — 모바일은 경량 설정
+    this.renderer = new THREE.WebGLRenderer({
+      antialias: !isMobile,
+      powerPreference: isMobile ? 'high-performance' : 'default',
+    });
+    this.renderer.setPixelRatio(Math.min(devicePixelRatio, isMobile ? 1.5 : 2));
     this.renderer.setSize(innerWidth, innerHeight);
     this.renderer.shadowMap.enabled = true;
-    this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    this.renderer.shadowMap.type = isMobile ? THREE.BasicShadowMap : THREE.PCFSoftShadowMap;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.1;
     document.body.appendChild(this.renderer.domElement);
@@ -48,10 +53,12 @@ export class SceneManager {
   _setupLighting() {
     this.scene.add(new THREE.AmbientLight(0x334466, 0.8));
 
+    const shadowRes = isMobile ? 1024 : 2048;
+
     const sun = new THREE.DirectionalLight(0xfff5e0, 1.2);
     sun.position.set(4, 8, 6);
     sun.castShadow = true;
-    sun.shadow.mapSize.set(2048, 2048);
+    sun.shadow.mapSize.set(shadowRes, shadowRes);
     sun.shadow.camera.left = sun.shadow.camera.bottom = -10;
     sun.shadow.camera.right = sun.shadow.camera.top = 10;
     sun.shadow.camera.near = 0.5;
@@ -68,19 +75,20 @@ export class SceneManager {
     spot.angle = spotAngle;
     spot.penumbra = 0.25;
     spot.decay = 1.0;
-    spot.castShadow = true;
-    spot.shadow.mapSize.set(1024, 1024);
+    spot.castShadow = !isMobile;        // 모바일: spot shadow 비활성
+    spot.shadow.mapSize.set(isMobile ? 512 : 1024, isMobile ? 512 : 1024);
     spot.shadow.bias = -0.002;
     spot.target.position.copy(spotTarget);
     this.scene.add(spot);
     this.scene.add(spot.target);
 
+    const particleCount = isMobile ? 600 : 2000;
     this.volumetric = new VolumetricParticles(this.scene, this.camera, {
       position: spotPos,
       target: spotTarget,
       color: 0xffe0a0,
       angle: spotAngle,
-      particles: 2000,
+      particles: particleCount,
       density: 0.01,
       size: 50,
       drift: 0.15,

@@ -34,6 +34,7 @@ bus.on('box:select', (index) => {
   const boxDef = gameState.state.boxSet.boxes[index];
   if (!gameState.spendMoney(boxDef.price)) {
     hud.setHint(`자금 부족! (필요: ₩${boxDef.price.toLocaleString()})`);
+    boxSelection.setTagsVisible(true);   // 가격표 다시 표시
     return;
   }
   gameState.selectBox(index);
@@ -70,6 +71,7 @@ function sellAndContinue() {
   const remaining = gameState.state.boxStates.filter(s => s === 'shelf').length;
   if (remaining > 0) {
     gameState.setPhase('box_selection');
+    boxSelection.setTagsVisible(true);
     hud.setHint('다음 상자를 선택하세요');
     hud.hideButton();
   } else {

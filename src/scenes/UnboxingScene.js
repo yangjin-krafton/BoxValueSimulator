@@ -1,45 +1,31 @@
 import * as THREE from 'three';
 import { ProductRenderer } from '../rendering/ProductRenderer.js';
 import { ConfettiSystem } from '../rendering/ConfettiSystem.js';
-import { BOX_H } from '../rendering/BoxMesh.js';
+import { BOX_H, BOX_W, BOX_D } from '../rendering/BoxMesh.js';
 import { rollGrade } from '../systems/GradeSystem.js';
 import { createProductInstance } from '../systems/PricingCalculator.js';
 
 const PI = Math.PI;
 const FLOOR_Y = 0.06;
-const FLY_DUR = 1.2;
-const LAND_POS = new THREE.Vector3(0, FLOOR_Y, 0);
 const OPEN_FB = PI * 0.82, OPEN_LR = PI * 0.78;
-const RISE_HEIGHT = 2.8;      // 상품이 올라가는 최종 높이
-const RISE_DUR = 1.2;         // 올라가는 시간
+const RISE_HEIGHT = 2.8;
+const RISE_DUR = 1.2;
+
+// 그리드 경계
+const GRID_BX = 1.85, GRID_BZ = 1.55;
+
+// 낙하 물리
+const GRAVITY = -18;
+const BOUNCE = 0.3;
+const DROP_HEIGHT = 4.5;      // 상자가 나타나는 높이
+const SETTLE_VEL = 0.5;       // 이 속도 이하면 정지 판정
 
 function ease(t) { return t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2; }
 
-function bezier(p0, p2, t) {
-  const ctrl = new THREE.Vector3(
-    (p0.x + p2.x) / 2,
-    Math.max(p0.y, p2.y) + 3.5,
-    (p0.z + p2.z) / 2,
-  );
-  const u = 1 - t;
-  return new THREE.Vector3(
-    u * u * p0.x + 2 * u * t * ctrl.x + t * t * p2.x,
-    u * u * p0.y + 2 * u * t * ctrl.y + t * t * p2.y,
-    u * u * p0.z + 2 * u * t * ctrl.z + t * t * p2.z,
-  );
-}
-
 /**
- * 비행 → 착지 → 클릭 개봉 → 상품 상승 회전.
- * 상자 잡기/드래그 없음. 개봉 후 OrbitControls로 상품 감상.
+ * 물리 낙하 → 착지 → 클릭 개봉 → 상품 상승 회전.
  */
 export class UnboxingScene {
-  /**
-   * @param {import('../rendering/SceneManager.js').SceneManager} sceneMgr
-   * @param {import('../core/GameStateManager.js').GameStateManager} gameState
-   * @param {import('../core/EventBus.js').EventBus} bus
-   * @param {import('../core/AssetLoader.js').AssetLoader} assetLoader
-   */
   constructor(sceneMgr, gameState, bus, assetLoader) {
     this.sceneMgr = sceneMgr;
     this.gameState = gameState;
@@ -48,7 +34,10 @@ export class UnboxingScene {
     this.confetti = new ConfettiSystem(sceneMgr.scene);
 
     this._active = null;
-    this._flyT = 0;
+    this._vel = new THREE.Vector3();
+    this._angVel = new THREE.Vector3();
+    this._settled = false;
+
     this._animState = 'idle';   // 'idle'|'opening'|'rising'|'display'
     this._animT = 0;
     this._riseT = 0;
@@ -58,7 +47,6 @@ export class UnboxingScene {
     this._mouse = new THREE.Vector2();
     this._ray = new THREE.Raycaster();
 
-    // 카메라 원래 위치 저장 (되돌리기용)
     this._origCamPos = new THREE.Vector3();
     this._origTarget = new THREE.Vector3();
 
@@ -67,16 +55,37 @@ export class UnboxingScene {
 
   async startUnboxing(meshData) {
     this._active = meshData;
-    this._flyT = 0;
     this._animState = 'idle';
     this._animT = 0;
     this._riseT = 0;
+    this._settled = false;
 
-    // 카메라 원래 상태 저장
+    // 카메라 저장
     this._origCamPos.copy(this.sceneMgr.camera.position);
     this._origTarget.copy(this.sceneMgr.controls.target);
-
     this.sceneMgr.controls.enabled = false;
+
+    // 상자를 그리드 위 공중에 바로 배치 (회전 없이)
+    const grp = meshData.group;
+    const dropX = Math.max(-GRID_BX + 0.4, Math.min(GRID_BX - 0.4,
+      meshData.originPos.x * 0.45));
+    const dropZ = (Math.random() - 0.5) * 0.5;
+
+    grp.position.set(dropX, DROP_HEIGHT, dropZ);
+    grp.rotation.set(0, (Math.random() - 0.5) * 0.4, 0);
+
+    // 초기 속도: 아래로 약간 + 수평 미세 랜덤
+    this._vel.set(
+      (Math.random() - 0.5) * 0.3,
+      -1,                              // 살짝 아래로 시작
+      (Math.random() - 0.5) * 0.2
+    );
+    // 미세한 회전 (자연스러운 낙하 느낌)
+    this._angVel.set(
+      (Math.random() - 0.5) * 0.8,
+      0,
+      (Math.random() - 0.5) * 0.6
+    );
 
     const boxDef = this.gameState.state.boxSet.boxes[this.gameState.state.selectedBoxIndex];
     this._gradeInfo = rollGrade(boxDef.product.category);
@@ -111,7 +120,6 @@ export class UnboxingScene {
     this._gradeInfo = null;
     this._product = null;
 
-    // 카메라 원래 위치로 복원
     this.sceneMgr.controls.target.copy(this._origTarget);
     this.sceneMgr.controls.enabled = true;
   }
@@ -124,14 +132,58 @@ export class UnboxingScene {
     const grp = a.group;
     const phase = this.gameState.state.phase;
 
-    // ── 비행 (선반 → 중앙) ──
-    if (phase === 'flying') {
-      this._flyT = Math.min(this._flyT + dt / FLY_DUR, 1);
-      grp.position.copy(bezier(a.originPos, LAND_POS, ease(this._flyT)));
-      grp.rotation.x += dt * 1.8;
-      grp.rotation.z += dt * 1.2;
-      if (this._flyT >= 1) {
-        grp.position.copy(LAND_POS);
+    // ── 물리 낙하 ──
+    if (phase === 'flying' && !this._settled) {
+      // 중력
+      this._vel.y += GRAVITY * dt;
+      grp.position.addScaledVector(this._vel, dt);
+
+      // 미세 회전
+      grp.rotation.x += this._angVel.x * dt;
+      grp.rotation.z += this._angVel.z * dt;
+
+      // 바닥 충돌
+      if (grp.position.y <= FLOOR_Y) {
+        grp.position.y = FLOOR_Y;
+        this._vel.y *= -BOUNCE;
+        this._vel.x *= 0.5;
+        this._vel.z *= 0.5;
+        this._angVel.multiplyScalar(0.3);
+
+        // 정지 판정
+        if (Math.abs(this._vel.y) < SETTLE_VEL) {
+          this._vel.set(0, 0, 0);
+          this._angVel.set(0, 0, 0);
+          this._settled = true;
+        }
+      }
+
+      // 수평 경계 반사
+      if (Math.abs(grp.position.x) > GRID_BX) {
+        grp.position.x = Math.sign(grp.position.x) * GRID_BX;
+        this._vel.x *= -0.4;
+      }
+      if (Math.abs(grp.position.z) > GRID_BZ) {
+        grp.position.z = Math.sign(grp.position.z) * GRID_BZ;
+        this._vel.z *= -0.4;
+      }
+
+      // 공기 저항
+      this._vel.x *= Math.pow(0.98, dt * 60);
+      this._vel.z *= Math.pow(0.98, dt * 60);
+      this._angVel.multiplyScalar(Math.pow(0.96, dt * 60));
+
+      this.productRenderer.syncPosition(grp.position);
+      return;
+    }
+
+    // ── 정지 후 자세 복원 → playable 전환 ──
+    if (phase === 'flying' && this._settled) {
+      // 자세 부드럽게 수평으로 복원
+      grp.rotation.x += -grp.rotation.x * dt * 8;
+      grp.rotation.z += -grp.rotation.z * dt * 8;
+
+      if (Math.abs(grp.rotation.x) < 0.01 && Math.abs(grp.rotation.z) < 0.01) {
         grp.rotation.x = 0;
         grp.rotation.z = 0;
         this.gameState.setPhase('playable');
@@ -142,7 +194,7 @@ export class UnboxingScene {
       return;
     }
 
-    // ── 대기 (착지 후 클릭 대기) ──
+    // ── 대기 ──
     if (phase === 'playable') {
       this.productRenderer.syncPosition(grp.position);
       return;
@@ -157,7 +209,6 @@ export class UnboxingScene {
       a.flaps.left.rotation.z  =  OPEN_LR * t;
       a.flaps.right.rotation.z = -OPEN_LR * t;
 
-      // 뚜껑이 열리면서 꽃가루 폭죽 발사!
       if (this._animT > 0.35 && !this._confettiFired) {
         this._confettiFired = true;
         const firePos = new THREE.Vector3(
@@ -178,7 +229,7 @@ export class UnboxingScene {
       return;
     }
 
-    // ── 상품 상승 (상자에서 공중으로) ──
+    // ── 상품 상승 ──
     if (this._animState === 'rising') {
       this._riseT = Math.min(this._riseT + dt / RISE_DUR, 1);
       const t = ease(this._riseT);
@@ -187,18 +238,14 @@ export class UnboxingScene {
       this.productRenderer.setPosition(grp.position.x, riseY, grp.position.z);
       this.productRenderer.rotate(dt, elapsed);
 
-      // 카메라 타겟을 상품 쪽으로 부드럽게 이동
-      const targetY = FLOOR_Y + 0.38 + RISE_HEIGHT * t;
       this.sceneMgr.controls.target.lerp(
-        new THREE.Vector3(grp.position.x, targetY, grp.position.z), dt * 4
+        new THREE.Vector3(grp.position.x, riseY, grp.position.z), dt * 4
       );
 
       if (this._riseT >= 1) {
         this._animState = 'display';
         this.gameState.setPhase('result');
         this.gameState.setCurrentProduct(this._product);
-
-        // 카메라 타겟 고정
         this.sceneMgr.controls.target.set(
           grp.position.x, FLOOR_Y + 0.38 + RISE_HEIGHT, grp.position.z
         );
@@ -208,7 +255,7 @@ export class UnboxingScene {
       return;
     }
 
-    // ── 전시 (빙글빙글 회전 + 부유) ──
+    // ── 전시 ──
     if (this._animState === 'display') {
       const displayY = FLOOR_Y + 0.38 + RISE_HEIGHT + Math.sin(elapsed * 2.2) * 0.08;
       this.productRenderer.setPosition(grp.position.x, displayY, grp.position.z);

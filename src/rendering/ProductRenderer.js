@@ -63,11 +63,20 @@ export class ProductRenderer {
 
       // MeshPhysicalMaterial로 업그레이드 (clearcoat/sheen/transmission 지원)
       if (!mat.isMeshPhysicalMaterial && (p.clearcoat || p.sheen || p.transmission)) {
-        const phys = new THREE.MeshPhysicalMaterial();
-        THREE.MeshStandardMaterial.prototype.copy.call(phys, mat);
+        const phys = new THREE.MeshPhysicalMaterial({
+          color: mat.color?.clone(),
+          map: mat.map,
+          normalMap: mat.normalMap,
+          roughnessMap: mat.roughnessMap,
+          metalnessMap: mat.metalnessMap,
+          aoMap: mat.aoMap,
+          emissiveMap: mat.emissiveMap,
+          emissive: mat.emissive?.clone(),
+          metalness: mat.metalness ?? 0,
+          roughness: mat.roughness ?? 1,
+          side: mat.side,
+        });
         child.material = phys;
-        child.material.map = mat.map;
-        child.material.normalMap = mat.normalMap;
       }
 
       const m = child.material;

@@ -42,7 +42,7 @@ export class GameStateManager {
   selectBox(index) {
     this.state.selectedBoxIndex = index;
     this.setBoxState(index, 'flying');
-    this.bus.emit('box:select', index);
+    this.bus.emit('box:selected', index);
   }
 
   setCurrentProduct(product) {
