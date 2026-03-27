@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+capornamenttulip1_plastic_matte,Cap Ornament Tulip 1 (매트 플라스틱),15000,1,액세서리,assets/models/CapOrnamentTulip1.glb,plastic_matte
+capornamenttulip1_plastic_gloss,Cap Ornament Tulip 1 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapOrnamentTulip1.glb,plastic_gloss
+capornamenttulip1_rubber_soft,Cap Ornament Tulip 1 (소프트 러버),15800,1,액세서리,assets/models/CapOrnamentTulip1.glb,rubber_soft
+capornamenttulip1_ceramic_clean,Cap Ornament Tulip 1 (클린 세라믹),18000,0.9,액세서리,assets/models/CapOrnamentTulip1.glb,ceramic_clean
+capornamenttulip1_metal_brushed,Cap Ornament Tulip 1 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapOrnamentTulip1.glb,metal_brushed
+capornamenttulip1_metal_polished,Cap Ornament Tulip 1 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapOrnamentTulip1.glb,metal_polished
+capornamenttulip1_paint_clearcoat,Cap Ornament Tulip 1 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapOrnamentTulip1.glb,paint_clearcoat
+capornamenttulip1_fabric_sheen,Cap Ornament Tulip 1 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapOrnamentTulip1.glb,fabric_sheen
+capornamenttulip1_glass_clear,Cap Ornament Tulip 1 (클리어 글래스),24000,0.6,액세서리,assets/models/CapOrnamentTulip1.glb,glass_clear
+capornamenttulip1_resin_tinted,Cap Ornament Tulip 1 (틴티드 레진),21800,0.75,액세서리,assets/models/CapOrnamentTulip1.glb,resin_tinted
+capornamenttulip1_matcap_clay,Cap Ornament Tulip 1 (클레이),15800,1,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_clay
+capornamenttulip1_matcap_wax,Cap Ornament Tulip 1 (왁스),16500,0.95,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_wax
+capornamenttulip1_matcap_chrome,Cap Ornament Tulip 1 (크롬),23300,0.65,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_chrome
+capornamenttulip1_matcap_bronze,Cap Ornament Tulip 1 (브론즈),21000,0.8,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_bronze
+capornamenttulip1_matcap_black_rubber,Cap Ornament Tulip 1 (블랙 러버),16200,1,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_black_rubber
+capornamenttulip1_matcap_red_wax,Cap Ornament Tulip 1 (레드 왁스),17300,0.9,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_red_wax
+capornamenttulip1_matcap_white_ceramic,Cap Ornament Tulip 1 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_white_ceramic
+capornamenttulip1_matcap_blue_gloss,Cap Ornament Tulip 1 (블루 글로시),18000,0.9,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_blue_gloss
+capornamenttulip1_matcap_gold,Cap Ornament Tulip 1 (골드),25500,0.5,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_gold
+capornamenttulip1_matcap_silver_soft,Cap Ornament Tulip 1 (소프트 실버),20300,0.8,액세서리,assets/models/CapOrnamentTulip1.glb,matcap_silver_soft
+capornamentyuri1_plastic_matte,Cap Ornament Yuri 1 (매트 플라스틱),15000,1,액세서리,assets/models/CapOrnamentYuri1.glb,plastic_matte
+capornamentyuri1_plastic_gloss,Cap Ornament Yuri 1 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapOrnamentYuri1.glb,plastic_gloss
+capornamentyuri1_rubber_soft,Cap Ornament Yuri 1 (소프트 러버),15800,1,액세서리,assets/models/CapOrnamentYuri1.glb,rubber_soft
+capornamentyuri1_ceramic_clean,Cap Ornament Yuri 1 (클린 세라믹),18000,0.9,액세서리,assets/models/CapOrnamentYuri1.glb,ceramic_clean
+capornamentyuri1_metal_brushed,Cap Ornament Yuri 1 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapOrnamentYuri1.glb,metal_brushed
+capornamentyuri1_metal_polished,Cap Ornament Yuri 1 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapOrnamentYuri1.glb,metal_polished
+capornamentyuri1_paint_clearcoat,Cap Ornament Yuri 1 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapOrnamentYuri1.glb,paint_clearcoat
+capornamentyuri1_fabric_sheen,Cap Ornament Yuri 1 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapOrnamentYuri1.glb,fabric_sheen
+capornamentyuri1_glass_clear,Cap Ornament Yuri 1 (클리어 글래스),24000,0.6,액세서리,assets/models/CapOrnamentYuri1.glb,glass_clear
+capornamentyuri1_resin_tinted,Cap Ornament Yuri 1 (틴티드 레진),21800,0.75,액세서리,assets/models/CapOrnamentYuri1.glb,resin_tinted
+capornamentyuri1_matcap_clay,Cap Ornament Yuri 1 (클레이),15800,1,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_clay
+capornamentyuri1_matcap_wax,Cap Ornament Yuri 1 (왁스),16500,0.95,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_wax
+capornamentyuri1_matcap_chrome,Cap Ornament Yuri 1 (크롬),23300,0.65,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_chrome
+capornamentyuri1_matcap_bronze,Cap Ornament Yuri 1 (브론즈),21000,0.8,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_bronze
+capornamentyuri1_matcap_black_rubber,Cap Ornament Yuri 1 (블랙 러버),16200,1,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_black_rubber
+capornamentyuri1_matcap_red_wax,Cap Ornament Yuri 1 (레드 왁스),17300,0.9,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_red_wax
+capornamentyuri1_matcap_white_ceramic,Cap Ornament Yuri 1 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_white_ceramic
+capornamentyuri1_matcap_blue_gloss,Cap Ornament Yuri 1 (블루 글로시),18000,0.9,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_blue_gloss
+capornamentyuri1_matcap_gold,Cap Ornament Yuri 1 (골드),25500,0.5,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_gold
+capornamentyuri1_matcap_silver_soft,Cap Ornament Yuri 1 (소프트 실버),20300,0.8,액세서리,assets/models/CapOrnamentYuri1.glb,matcap_silver_soft
+cappltornamentrlily_plastic_matte,Cap Plt Ornament R Lily (매트 플라스틱),15000,1,액세서리,assets/models/CapPltOrnamentRLily.glb,plastic_matte
+cappltornamentrlily_plastic_gloss,Cap Plt Ornament R Lily (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapPltOrnamentRLily.glb,plastic_gloss
+cappltornamentrlily_rubber_soft,Cap Plt Ornament R Lily (소프트 러버),15800,1,액세서리,assets/models/CapPltOrnamentRLily.glb,rubber_soft
+cappltornamentrlily_ceramic_clean,Cap Plt Ornament R Lily (클린 세라믹),18000,0.9,액세서리,assets/models/CapPltOrnamentRLily.glb,ceramic_clean
+cappltornamentrlily_metal_brushed,Cap Plt Ornament R Lily (브러시드 메탈),20300,0.8,액세서리,assets/models/CapPltOrnamentRLily.glb,metal_brushed
+cappltornamentrlily_metal_polished,Cap Plt Ornament R Lily (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapPltOrnamentRLily.glb,metal_polished
+cappltornamentrlily_paint_clearcoat,Cap Plt Ornament R Lily (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapPltOrnamentRLily.glb,paint_clearcoat
+cappltornamentrlily_fabric_sheen,Cap Plt Ornament R Lily (패브릭 쉰),17300,0.95,액세서리,assets/models/CapPltOrnamentRLily.glb,fabric_sheen
+cappltornamentrlily_glass_clear,Cap Plt Ornament R Lily (클리어 글래스),24000,0.6,액세서리,assets/models/CapPltOrnamentRLily.glb,glass_clear
+cappltornamentrlily_resin_tinted,Cap Plt Ornament R Lily (틴티드 레진),21800,0.75,액세서리,assets/models/CapPltOrnamentRLily.glb,resin_tinted
+cappltornamentrlily_matcap_clay,Cap Plt Ornament R Lily (클레이),15800,1,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_clay
+cappltornamentrlily_matcap_wax,Cap Plt Ornament R Lily (왁스),16500,0.95,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_wax
+cappltornamentrlily_matcap_chrome,Cap Plt Ornament R Lily (크롬),23300,0.65,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_chrome
+cappltornamentrlily_matcap_bronze,Cap Plt Ornament R Lily (브론즈),21000,0.8,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_bronze
+cappltornamentrlily_matcap_black_rubber,Cap Plt Ornament R Lily (블랙 러버),16200,1,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_black_rubber
+cappltornamentrlily_matcap_red_wax,Cap Plt Ornament R Lily (레드 왁스),17300,0.9,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_red_wax
+cappltornamentrlily_matcap_white_ceramic,Cap Plt Ornament R Lily (화이트 세라믹),18800,0.85,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_white_ceramic
+cappltornamentrlily_matcap_blue_gloss,Cap Plt Ornament R Lily (블루 글로시),18000,0.9,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_blue_gloss
+cappltornamentrlily_matcap_gold,Cap Plt Ornament R Lily (골드),25500,0.5,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_gold
+cappltornamentrlily_matcap_silver_soft,Cap Plt Ornament R Lily (소프트 실버),20300,0.8,액세서리,assets/models/CapPltOrnamentRLily.glb,matcap_silver_soft
+cappltornamentrmum_plastic_matte,Cap Plt Ornament R Mum (매트 플라스틱),15000,1,액세서리,assets/models/CapPltOrnamentRMum.glb,plastic_matte
+cappltornamentrmum_plastic_gloss,Cap Plt Ornament R Mum (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapPltOrnamentRMum.glb,plastic_gloss
+cappltornamentrmum_rubber_soft,Cap Plt Ornament R Mum (소프트 러버),15800,1,액세서리,assets/models/CapPltOrnamentRMum.glb,rubber_soft
+cappltornamentrmum_ceramic_clean,Cap Plt Ornament R Mum (클린 세라믹),18000,0.9,액세서리,assets/models/CapPltOrnamentRMum.glb,ceramic_clean
+cappltornamentrmum_metal_brushed,Cap Plt Ornament R Mum (브러시드 메탈),20300,0.8,액세서리,assets/models/CapPltOrnamentRMum.glb,metal_brushed
+cappltornamentrmum_metal_polished,Cap Plt Ornament R Mum (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapPltOrnamentRMum.glb,metal_polished
+cappltornamentrmum_paint_clearcoat,Cap Plt Ornament R Mum (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapPltOrnamentRMum.glb,paint_clearcoat
+cappltornamentrmum_fabric_sheen,Cap Plt Ornament R Mum (패브릭 쉰),17300,0.95,액세서리,assets/models/CapPltOrnamentRMum.glb,fabric_sheen
+cappltornamentrmum_glass_clear,Cap Plt Ornament R Mum (클리어 글래스),24000,0.6,액세서리,assets/models/CapPltOrnamentRMum.glb,glass_clear
+cappltornamentrmum_resin_tinted,Cap Plt Ornament R Mum (틴티드 레진),21800,0.75,액세서리,assets/models/CapPltOrnamentRMum.glb,resin_tinted
+cappltornamentrmum_matcap_clay,Cap Plt Ornament R Mum (클레이),15800,1,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_clay
+cappltornamentrmum_matcap_wax,Cap Plt Ornament R Mum (왁스),16500,0.95,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_wax
+cappltornamentrmum_matcap_chrome,Cap Plt Ornament R Mum (크롬),23300,0.65,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_chrome
+cappltornamentrmum_matcap_bronze,Cap Plt Ornament R Mum (브론즈),21000,0.8,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_bronze
+cappltornamentrmum_matcap_black_rubber,Cap Plt Ornament R Mum (블랙 러버),16200,1,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_black_rubber
+cappltornamentrmum_matcap_red_wax,Cap Plt Ornament R Mum (레드 왁스),17300,0.9,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_red_wax
+cappltornamentrmum_matcap_white_ceramic,Cap Plt Ornament R Mum (화이트 세라믹),18800,0.85,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_white_ceramic
+cappltornamentrmum_matcap_blue_gloss,Cap Plt Ornament R Mum (블루 글로시),18000,0.9,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_blue_gloss
+cappltornamentrmum_matcap_gold,Cap Plt Ornament R Mum (골드),25500,0.5,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_gold
+cappltornamentrmum_matcap_silver_soft,Cap Plt Ornament R Mum (소프트 실버),20300,0.8,액세서리,assets/models/CapPltOrnamentRMum.glb,matcap_silver_soft
+cappltornamentrpansy_plastic_matte,Cap Plt Ornament R Pansy (매트 플라스틱),15000,1,액세서리,assets/models/CapPltOrnamentRPansy.glb,plastic_matte
+cappltornamentrpansy_plastic_gloss,Cap Plt Ornament R Pansy (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapPltOrnamentRPansy.glb,plastic_gloss
+cappltornamentrpansy_rubber_soft,Cap Plt Ornament R Pansy (소프트 러버),15800,1,액세서리,assets/models/CapPltOrnamentRPansy.glb,rubber_soft
+cappltornamentrpansy_ceramic_clean,Cap Plt Ornament R Pansy (클린 세라믹),18000,0.9,액세서리,assets/models/CapPltOrnamentRPansy.glb,ceramic_clean
+cappltornamentrpansy_metal_brushed,Cap Plt Ornament R Pansy (브러시드 메탈),20300,0.8,액세서리,assets/models/CapPltOrnamentRPansy.glb,metal_brushed
+cappltornamentrpansy_metal_polished,Cap Plt Ornament R Pansy (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapPltOrnamentRPansy.glb,metal_polished
+cappltornamentrpansy_paint_clearcoat,Cap Plt Ornament R Pansy (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapPltOrnamentRPansy.glb,paint_clearcoat
+cappltornamentrpansy_fabric_sheen,Cap Plt Ornament R Pansy (패브릭 쉰),17300,0.95,액세서리,assets/models/CapPltOrnamentRPansy.glb,fabric_sheen
+cappltornamentrpansy_glass_clear,Cap Plt Ornament R Pansy (클리어 글래스),24000,0.6,액세서리,assets/models/CapPltOrnamentRPansy.glb,glass_clear
+cappltornamentrpansy_resin_tinted,Cap Plt Ornament R Pansy (틴티드 레진),21800,0.75,액세서리,assets/models/CapPltOrnamentRPansy.glb,resin_tinted
+cappltornamentrpansy_matcap_clay,Cap Plt Ornament R Pansy (클레이),15800,1,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_clay
+cappltornamentrpansy_matcap_wax,Cap Plt Ornament R Pansy (왁스),16500,0.95,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_wax
+cappltornamentrpansy_matcap_chrome,Cap Plt Ornament R Pansy (크롬),23300,0.65,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_chrome
+cappltornamentrpansy_matcap_bronze,Cap Plt Ornament R Pansy (브론즈),21000,0.8,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_bronze
+cappltornamentrpansy_matcap_black_rubber,Cap Plt Ornament R Pansy (블랙 러버),16200,1,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_black_rubber
+cappltornamentrpansy_matcap_red_wax,Cap Plt Ornament R Pansy (레드 왁스),17300,0.9,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_red_wax
+cappltornamentrpansy_matcap_white_ceramic,Cap Plt Ornament R Pansy (화이트 세라믹),18800,0.85,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_white_ceramic
+cappltornamentrpansy_matcap_blue_gloss,Cap Plt Ornament R Pansy (블루 글로시),18000,0.9,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_blue_gloss
+cappltornamentrpansy_matcap_gold,Cap Plt Ornament R Pansy (골드),25500,0.5,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_gold
+cappltornamentrpansy_matcap_silver_soft,Cap Plt Ornament R Pansy (소프트 실버),20300,0.8,액세서리,assets/models/CapPltOrnamentRPansy.glb,matcap_silver_soft
+cappltornamentrtulip_plastic_matte,튤립 장식 모자 (매트 플라스틱),85000,1.2,액세서리,assets/models/CapPltOrnamentRTulip.glb,plastic_matte
+cappltornamentrtulip_plastic_gloss,튤립 장식 모자 (글로시 플라스틱),93500,1.15,액세서리,assets/models/CapPltOrnamentRTulip.glb,plastic_gloss
+cappltornamentrtulip_rubber_soft,튤립 장식 모자 (소프트 러버),89300,1.2,액세서리,assets/models/CapPltOrnamentRTulip.glb,rubber_soft
+cappltornamentrtulip_ceramic_clean,튤립 장식 모자 (클린 세라믹),102000,1.1,액세서리,assets/models/CapPltOrnamentRTulip.glb,ceramic_clean
+cappltornamentrtulip_metal_brushed,튤립 장식 모자 (브러시드 메탈),114800,1,액세서리,assets/models/CapPltOrnamentRTulip.glb,metal_brushed
+cappltornamentrtulip_metal_polished,튤립 장식 모자 (폴리시드 메탈),127500,0.9,액세서리,assets/models/CapPltOrnamentRTulip.glb,metal_polished
+cappltornamentrtulip_paint_clearcoat,튤립 장식 모자 (클리어코트 페인트),110500,1.05,액세서리,assets/models/CapPltOrnamentRTulip.glb,paint_clearcoat
+cappltornamentrtulip_fabric_sheen,튤립 장식 모자 (패브릭 쉰),97700,1.15,액세서리,assets/models/CapPltOrnamentRTulip.glb,fabric_sheen
+cappltornamentrtulip_glass_clear,튤립 장식 모자 (클리어 글래스),136000,0.8,액세서리,assets/models/CapPltOrnamentRTulip.glb,glass_clear
+cappltornamentrtulip_resin_tinted,튤립 장식 모자 (틴티드 레진),123300,0.95,액세서리,assets/models/CapPltOrnamentRTulip.glb,resin_tinted
+cappltornamentrtulip_matcap_clay,튤립 장식 모자 (클레이),89300,1.2,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_clay
+cappltornamentrtulip_matcap_wax,튤립 장식 모자 (왁스),93500,1.15,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_wax
+cappltornamentrtulip_matcap_chrome,튤립 장식 모자 (크롬),131800,0.85,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_chrome
+cappltornamentrtulip_matcap_bronze,튤립 장식 모자 (브론즈),119000,1,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_bronze
+cappltornamentrtulip_matcap_black_rubber,튤립 장식 모자 (블랙 러버),91800,1.2,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_black_rubber
+cappltornamentrtulip_matcap_red_wax,튤립 장식 모자 (레드 왁스),97700,1.1,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_red_wax
+cappltornamentrtulip_matcap_white_ceramic,튤립 장식 모자 (화이트 세라믹),106300,1.05,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_white_ceramic
+cappltornamentrtulip_matcap_blue_gloss,튤립 장식 모자 (블루 글로시),102000,1.1,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_blue_gloss
+cappltornamentrtulip_matcap_gold,튤립 장식 모자 (골드),144500,0.7,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_gold
+cappltornamentrtulip_matcap_silver_soft,튤립 장식 모자 (소프트 실버),114800,1,액세서리,assets/models/CapPltOrnamentRTulip.glb,matcap_silver_soft
+cappltornamentryuri_plastic_matte,유리 장식 모자 (매트 플라스틱),92000,1.1,액세서리,assets/models/CapPltOrnamentRYuri.glb,plastic_matte
+cappltornamentryuri_plastic_gloss,유리 장식 모자 (글로시 플라스틱),101200,1.05,액세서리,assets/models/CapPltOrnamentRYuri.glb,plastic_gloss
+cappltornamentryuri_rubber_soft,유리 장식 모자 (소프트 러버),96600,1.1,액세서리,assets/models/CapPltOrnamentRYuri.glb,rubber_soft
+cappltornamentryuri_ceramic_clean,유리 장식 모자 (클린 세라믹),110400,1,액세서리,assets/models/CapPltOrnamentRYuri.glb,ceramic_clean
+cappltornamentryuri_metal_brushed,유리 장식 모자 (브러시드 메탈),124200,0.9,액세서리,assets/models/CapPltOrnamentRYuri.glb,metal_brushed
+cappltornamentryuri_metal_polished,유리 장식 모자 (폴리시드 메탈),138000,0.8,액세서리,assets/models/CapPltOrnamentRYuri.glb,metal_polished
+cappltornamentryuri_paint_clearcoat,유리 장식 모자 (클리어코트 페인트),119600,0.95,액세서리,assets/models/CapPltOrnamentRYuri.glb,paint_clearcoat
+cappltornamentryuri_fabric_sheen,유리 장식 모자 (패브릭 쉰),105800,1.05,액세서리,assets/models/CapPltOrnamentRYuri.glb,fabric_sheen
+cappltornamentryuri_glass_clear,유리 장식 모자 (클리어 글래스),147200,0.7,액세서리,assets/models/CapPltOrnamentRYuri.glb,glass_clear
+cappltornamentryuri_resin_tinted,유리 장식 모자 (틴티드 레진),133400,0.85,액세서리,assets/models/CapPltOrnamentRYuri.glb,resin_tinted
+cappltornamentryuri_matcap_clay,유리 장식 모자 (클레이),96600,1.1,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_clay
+cappltornamentryuri_matcap_wax,유리 장식 모자 (왁스),101200,1.05,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_wax
+cappltornamentryuri_matcap_chrome,유리 장식 모자 (크롬),142600,0.75,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_chrome
+cappltornamentryuri_matcap_bronze,유리 장식 모자 (브론즈),128800,0.9,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_bronze
+cappltornamentryuri_matcap_black_rubber,유리 장식 모자 (블랙 러버),99400,1.1,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_black_rubber
+cappltornamentryuri_matcap_red_wax,유리 장식 모자 (레드 왁스),105800,1,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_red_wax
+cappltornamentryuri_matcap_white_ceramic,유리 장식 모자 (화이트 세라믹),115000,0.95,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_white_ceramic
+cappltornamentryuri_matcap_blue_gloss,유리 장식 모자 (블루 글로시),110400,1,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_blue_gloss
+cappltornamentryuri_matcap_gold,유리 장식 모자 (골드),156400,0.6,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_gold
+cappltornamentryuri_matcap_silver_soft,유리 장식 모자 (소프트 실버),124200,0.9,액세서리,assets/models/CapPltOrnamentRYuri.glb,matcap_silver_soft
+capwiggeisya0_plastic_matte,게이샤 웨이그 (매트 플라스틱),180000,0.6,액세서리,assets/models/CapWigGeisya0.glb,plastic_matte
+capwiggeisya0_plastic_gloss,게이샤 웨이그 (글로시 플라스틱),198000,0.55,액세서리,assets/models/CapWigGeisya0.glb,plastic_gloss
+capwiggeisya0_rubber_soft,게이샤 웨이그 (소프트 러버),189000,0.6,액세서리,assets/models/CapWigGeisya0.glb,rubber_soft
+capwiggeisya0_ceramic_clean,게이샤 웨이그 (클린 세라믹),216000,0.5,액세서리,assets/models/CapWigGeisya0.glb,ceramic_clean
+capwiggeisya0_metal_brushed,게이샤 웨이그 (브러시드 메탈),243000,0.4,액세서리,assets/models/CapWigGeisya0.glb,metal_brushed
+capwiggeisya0_metal_polished,게이샤 웨이그 (폴리시드 메탈),270000,0.3,액세서리,assets/models/CapWigGeisya0.glb,metal_polished
+capwiggeisya0_paint_clearcoat,게이샤 웨이그 (클리어코트 페인트),234000,0.45,액세서리,assets/models/CapWigGeisya0.glb,paint_clearcoat
+capwiggeisya0_fabric_sheen,게이샤 웨이그 (패브릭 쉰),207000,0.55,액세서리,assets/models/CapWigGeisya0.glb,fabric_sheen
+capwiggeisya0_glass_clear,게이샤 웨이그 (클리어 글래스),288000,0.2,액세서리,assets/models/CapWigGeisya0.glb,glass_clear
+capwiggeisya0_resin_tinted,게이샤 웨이그 (틴티드 레진),261000,0.35,액세서리,assets/models/CapWigGeisya0.glb,resin_tinted
+capwiggeisya0_matcap_clay,게이샤 웨이그 (클레이),189000,0.6,액세서리,assets/models/CapWigGeisya0.glb,matcap_clay
+capwiggeisya0_matcap_wax,게이샤 웨이그 (왁스),198000,0.55,액세서리,assets/models/CapWigGeisya0.glb,matcap_wax
+capwiggeisya0_matcap_chrome,게이샤 웨이그 (크롬),279000,0.25,액세서리,assets/models/CapWigGeisya0.glb,matcap_chrome
+capwiggeisya0_matcap_bronze,게이샤 웨이그 (브론즈),252000,0.4,액세서리,assets/models/CapWigGeisya0.glb,matcap_bronze
+capwiggeisya0_matcap_black_rubber,게이샤 웨이그 (블랙 러버),194400,0.6,액세서리,assets/models/CapWigGeisya0.glb,matcap_black_rubber
+capwiggeisya0_matcap_red_wax,게이샤 웨이그 (레드 왁스),207000,0.5,액세서리,assets/models/CapWigGeisya0.glb,matcap_red_wax
+capwiggeisya0_matcap_white_ceramic,게이샤 웨이그 (화이트 세라믹),225000,0.45,액세서리,assets/models/CapWigGeisya0.glb,matcap_white_ceramic
+capwiggeisya0_matcap_blue_gloss,게이샤 웨이그 (블루 글로시),216000,0.5,액세서리,assets/models/CapWigGeisya0.glb,matcap_blue_gloss
+capwiggeisya0_matcap_gold,게이샤 웨이그 (골드),306000,0.1,액세서리,assets/models/CapWigGeisya0.glb,matcap_gold
+capwiggeisya0_matcap_silver_soft,게이샤 웨이그 (소프트 실버),243000,0.4,액세서리,assets/models/CapWigGeisya0.glb,matcap_silver_soft
+capwigmohican_plastic_matte,모히칸 웨이그 (매트 플라스틱),155000,0.9,액세서리,assets/models/CapWigMohican.glb,plastic_matte
+capwigmohican_plastic_gloss,모히칸 웨이그 (글로시 플라스틱),170500,0.85,액세서리,assets/models/CapWigMohican.glb,plastic_gloss
+capwigmohican_rubber_soft,모히칸 웨이그 (소프트 러버),162800,0.9,액세서리,assets/models/CapWigMohican.glb,rubber_soft
+capwigmohican_ceramic_clean,모히칸 웨이그 (클린 세라믹),186000,0.8,액세서리,assets/models/CapWigMohican.glb,ceramic_clean
+capwigmohican_metal_brushed,모히칸 웨이그 (브러시드 메탈),209300,0.7,액세서리,assets/models/CapWigMohican.glb,metal_brushed
+capwigmohican_metal_polished,모히칸 웨이그 (폴리시드 메탈),232500,0.6,액세서리,assets/models/CapWigMohican.glb,metal_polished
+capwigmohican_paint_clearcoat,모히칸 웨이그 (클리어코트 페인트),201500,0.75,액세서리,assets/models/CapWigMohican.glb,paint_clearcoat
+capwigmohican_fabric_sheen,모히칸 웨이그 (패브릭 쉰),178300,0.85,액세서리,assets/models/CapWigMohican.glb,fabric_sheen
+capwigmohican_glass_clear,모히칸 웨이그 (클리어 글래스),248000,0.5,액세서리,assets/models/CapWigMohican.glb,glass_clear
+capwigmohican_resin_tinted,모히칸 웨이그 (틴티드 레진),224800,0.65,액세서리,assets/models/CapWigMohican.glb,resin_tinted
+capwigmohican_matcap_clay,모히칸 웨이그 (클레이),162800,0.9,액세서리,assets/models/CapWigMohican.glb,matcap_clay
+capwigmohican_matcap_wax,모히칸 웨이그 (왁스),170500,0.85,액세서리,assets/models/CapWigMohican.glb,matcap_wax
+capwigmohican_matcap_chrome,모히칸 웨이그 (크롬),240300,0.55,액세서리,assets/models/CapWigMohican.glb,matcap_chrome
+capwigmohican_matcap_bronze,모히칸 웨이그 (브론즈),217000,0.7,액세서리,assets/models/CapWigMohican.glb,matcap_bronze
+capwigmohican_matcap_black_rubber,모히칸 웨이그 (블랙 러버),167400,0.9,액세서리,assets/models/CapWigMohican.glb,matcap_black_rubber
+capwigmohican_matcap_red_wax,모히칸 웨이그 (레드 왁스),178300,0.8,액세서리,assets/models/CapWigMohican.glb,matcap_red_wax
+capwigmohican_matcap_white_ceramic,모히칸 웨이그 (화이트 세라믹),193800,0.75,액세서리,assets/models/CapWigMohican.glb,matcap_white_ceramic
+capwigmohican_matcap_blue_gloss,모히칸 웨이그 (블루 글로시),186000,0.8,액세서리,assets/models/CapWigMohican.glb,matcap_blue_gloss
+capwigmohican_matcap_gold,모히칸 웨이그 (골드),263500,0.4,액세서리,assets/models/CapWigMohican.glb,matcap_gold
+capwigmohican_matcap_silver_soft,모히칸 웨이그 (소프트 실버),209300,0.7,액세서리,assets/models/CapWigMohican.glb,matcap_silver_soft
+capwigpigtail_plastic_matte,땋은 머리 웨이그 (매트 플라스틱),135000,1,액세서리,assets/models/CapWigPigtail.glb,plastic_matte
+capwigpigtail_plastic_gloss,땋은 머리 웨이그 (글로시 플라스틱),148500,0.95,액세서리,assets/models/CapWigPigtail.glb,plastic_gloss
+capwigpigtail_rubber_soft,땋은 머리 웨이그 (소프트 러버),141800,1,액세서리,assets/models/CapWigPigtail.glb,rubber_soft
+capwigpigtail_ceramic_clean,땋은 머리 웨이그 (클린 세라믹),162000,0.9,액세서리,assets/models/CapWigPigtail.glb,ceramic_clean
+capwigpigtail_metal_brushed,땋은 머리 웨이그 (브러시드 메탈),182300,0.8,액세서리,assets/models/CapWigPigtail.glb,metal_brushed
+capwigpigtail_metal_polished,땋은 머리 웨이그 (폴리시드 메탈),202500,0.7,액세서리,assets/models/CapWigPigtail.glb,metal_polished
+capwigpigtail_paint_clearcoat,땋은 머리 웨이그 (클리어코트 페인트),175500,0.85,액세서리,assets/models/CapWigPigtail.glb,paint_clearcoat
+capwigpigtail_fabric_sheen,땋은 머리 웨이그 (패브릭 쉰),155300,0.95,액세서리,assets/models/CapWigPigtail.glb,fabric_sheen
+capwigpigtail_glass_clear,땋은 머리 웨이그 (클리어 글래스),216000,0.6,액세서리,assets/models/CapWigPigtail.glb,glass_clear
+capwigpigtail_resin_tinted,땋은 머리 웨이그 (틴티드 레진),195800,0.75,액세서리,assets/models/CapWigPigtail.glb,resin_tinted
+capwigpigtail_matcap_clay,땋은 머리 웨이그 (클레이),141800,1,액세서리,assets/models/CapWigPigtail.glb,matcap_clay
+capwigpigtail_matcap_wax,땋은 머리 웨이그 (왁스),148500,0.95,액세서리,assets/models/CapWigPigtail.glb,matcap_wax
+capwigpigtail_matcap_chrome,땋은 머리 웨이그 (크롬),209300,0.65,액세서리,assets/models/CapWigPigtail.glb,matcap_chrome
+capwigpigtail_matcap_bronze,땋은 머리 웨이그 (브론즈),189000,0.8,액세서리,assets/models/CapWigPigtail.glb,matcap_bronze
+capwigpigtail_matcap_black_rubber,땋은 머리 웨이그 (블랙 러버),145800,1,액세서리,assets/models/CapWigPigtail.glb,matcap_black_rubber
+capwigpigtail_matcap_red_wax,땋은 머리 웨이그 (레드 왁스),155300,0.9,액세서리,assets/models/CapWigPigtail.glb,matcap_red_wax
+capwigpigtail_matcap_white_ceramic,땋은 머리 웨이그 (화이트 세라믹),168800,0.85,액세서리,assets/models/CapWigPigtail.glb,matcap_white_ceramic
+capwigpigtail_matcap_blue_gloss,땋은 머리 웨이그 (블루 글로시),162000,0.9,액세서리,assets/models/CapWigPigtail.glb,matcap_blue_gloss
+capwigpigtail_matcap_gold,땋은 머리 웨이그 (골드),229500,0.5,액세서리,assets/models/CapWigPigtail.glb,matcap_gold
+capwigpigtail_matcap_silver_soft,땋은 머리 웨이그 (소프트 실버),182300,0.8,액세서리,assets/models/CapWigPigtail.glb,matcap_silver_soft

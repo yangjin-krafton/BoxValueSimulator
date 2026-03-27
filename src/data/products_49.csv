@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+uniticonpltkabu_plastic_matte,유닛 아이콘 양배추 (매트 플라스틱),60000,0.8,음식,assets/models/UnitIconPltKabu.glb,plastic_matte
+uniticonpltkabu_plastic_gloss,유닛 아이콘 양배추 (글로시 플라스틱),66000,0.75,음식,assets/models/UnitIconPltKabu.glb,plastic_gloss
+uniticonpltkabu_rubber_soft,유닛 아이콘 양배추 (소프트 러버),63000,0.8,음식,assets/models/UnitIconPltKabu.glb,rubber_soft
+uniticonpltkabu_ceramic_clean,유닛 아이콘 양배추 (클린 세라믹),72000,0.7,음식,assets/models/UnitIconPltKabu.glb,ceramic_clean
+uniticonpltkabu_metal_brushed,유닛 아이콘 양배추 (브러시드 메탈),81000,0.6,음식,assets/models/UnitIconPltKabu.glb,metal_brushed
+uniticonpltkabu_metal_polished,유닛 아이콘 양배추 (폴리시드 메탈),90000,0.5,음식,assets/models/UnitIconPltKabu.glb,metal_polished
+uniticonpltkabu_paint_clearcoat,유닛 아이콘 양배추 (클리어코트 페인트),78000,0.65,음식,assets/models/UnitIconPltKabu.glb,paint_clearcoat
+uniticonpltkabu_fabric_sheen,유닛 아이콘 양배추 (패브릭 쉰),69000,0.75,음식,assets/models/UnitIconPltKabu.glb,fabric_sheen
+uniticonpltkabu_glass_clear,유닛 아이콘 양배추 (클리어 글래스),96000,0.4,음식,assets/models/UnitIconPltKabu.glb,glass_clear
+uniticonpltkabu_resin_tinted,유닛 아이콘 양배추 (틴티드 레진),87000,0.55,음식,assets/models/UnitIconPltKabu.glb,resin_tinted
+uniticonpltkabu_matcap_clay,유닛 아이콘 양배추 (클레이),63000,0.8,음식,assets/models/UnitIconPltKabu.glb,matcap_clay
+uniticonpltkabu_matcap_wax,유닛 아이콘 양배추 (왁스),66000,0.75,음식,assets/models/UnitIconPltKabu.glb,matcap_wax
+uniticonpltkabu_matcap_chrome,유닛 아이콘 양배추 (크롬),93000,0.45,음식,assets/models/UnitIconPltKabu.glb,matcap_chrome
+uniticonpltkabu_matcap_bronze,유닛 아이콘 양배추 (브론즈),84000,0.6,음식,assets/models/UnitIconPltKabu.glb,matcap_bronze
+uniticonpltkabu_matcap_black_rubber,유닛 아이콘 양배추 (블랙 러버),64800,0.8,음식,assets/models/UnitIconPltKabu.glb,matcap_black_rubber
+uniticonpltkabu_matcap_red_wax,유닛 아이콘 양배추 (레드 왁스),69000,0.7,음식,assets/models/UnitIconPltKabu.glb,matcap_red_wax
+uniticonpltkabu_matcap_white_ceramic,유닛 아이콘 양배추 (화이트 세라믹),75000,0.65,음식,assets/models/UnitIconPltKabu.glb,matcap_white_ceramic
+uniticonpltkabu_matcap_blue_gloss,유닛 아이콘 양배추 (블루 글로시),72000,0.7,음식,assets/models/UnitIconPltKabu.glb,matcap_blue_gloss
+uniticonpltkabu_matcap_gold,유닛 아이콘 양배추 (골드),102000,0.3,음식,assets/models/UnitIconPltKabu.glb,matcap_gold
+uniticonpltkabu_matcap_silver_soft,유닛 아이콘 양배추 (소프트 실버),81000,0.6,음식,assets/models/UnitIconPltKabu.glb,matcap_silver_soft
+uniticonrecipe_plastic_matte,유닛 아이콘 레시피 카드 (매트 플라스틱),50000,0.9,음식,assets/models/UnitIconRecipe.glb,plastic_matte
+uniticonrecipe_plastic_gloss,유닛 아이콘 레시피 카드 (글로시 플라스틱),55000,0.85,음식,assets/models/UnitIconRecipe.glb,plastic_gloss
+uniticonrecipe_rubber_soft,유닛 아이콘 레시피 카드 (소프트 러버),52500,0.9,음식,assets/models/UnitIconRecipe.glb,rubber_soft
+uniticonrecipe_ceramic_clean,유닛 아이콘 레시피 카드 (클린 세라믹),60000,0.8,음식,assets/models/UnitIconRecipe.glb,ceramic_clean
+uniticonrecipe_metal_brushed,유닛 아이콘 레시피 카드 (브러시드 메탈),67500,0.7,음식,assets/models/UnitIconRecipe.glb,metal_brushed
+uniticonrecipe_metal_polished,유닛 아이콘 레시피 카드 (폴리시드 메탈),75000,0.6,음식,assets/models/UnitIconRecipe.glb,metal_polished
+uniticonrecipe_paint_clearcoat,유닛 아이콘 레시피 카드 (클리어코트 페인트),65000,0.75,음식,assets/models/UnitIconRecipe.glb,paint_clearcoat
+uniticonrecipe_fabric_sheen,유닛 아이콘 레시피 카드 (패브릭 쉰),57500,0.85,음식,assets/models/UnitIconRecipe.glb,fabric_sheen
+uniticonrecipe_glass_clear,유닛 아이콘 레시피 카드 (클리어 글래스),80000,0.5,음식,assets/models/UnitIconRecipe.glb,glass_clear
+uniticonrecipe_resin_tinted,유닛 아이콘 레시피 카드 (틴티드 레진),72500,0.65,음식,assets/models/UnitIconRecipe.glb,resin_tinted
+uniticonrecipe_matcap_clay,유닛 아이콘 레시피 카드 (클레이),52500,0.9,음식,assets/models/UnitIconRecipe.glb,matcap_clay
+uniticonrecipe_matcap_wax,유닛 아이콘 레시피 카드 (왁스),55000,0.85,음식,assets/models/UnitIconRecipe.glb,matcap_wax
+uniticonrecipe_matcap_chrome,유닛 아이콘 레시피 카드 (크롬),77500,0.55,음식,assets/models/UnitIconRecipe.glb,matcap_chrome
+uniticonrecipe_matcap_bronze,유닛 아이콘 레시피 카드 (브론즈),70000,0.7,음식,assets/models/UnitIconRecipe.glb,matcap_bronze
+uniticonrecipe_matcap_black_rubber,유닛 아이콘 레시피 카드 (블랙 러버),54000,0.9,음식,assets/models/UnitIconRecipe.glb,matcap_black_rubber
+uniticonrecipe_matcap_red_wax,유닛 아이콘 레시피 카드 (레드 왁스),57500,0.8,음식,assets/models/UnitIconRecipe.glb,matcap_red_wax
+uniticonrecipe_matcap_white_ceramic,유닛 아이콘 레시피 카드 (화이트 세라믹),62500,0.75,음식,assets/models/UnitIconRecipe.glb,matcap_white_ceramic
+uniticonrecipe_matcap_blue_gloss,유닛 아이콘 레시피 카드 (블루 글로시),60000,0.8,음식,assets/models/UnitIconRecipe.glb,matcap_blue_gloss
+uniticonrecipe_matcap_gold,유닛 아이콘 레시피 카드 (골드),85000,0.4,음식,assets/models/UnitIconRecipe.glb,matcap_gold
+uniticonrecipe_matcap_silver_soft,유닛 아이콘 레시피 카드 (소프트 실버),67500,0.7,음식,assets/models/UnitIconRecipe.glb,matcap_silver_soft
+uniticonrug_plastic_matte,유닛 아이콘 러그 (매트 플라스틱),150000,0.5,장식,assets/models/UnitIconRug.glb,plastic_matte
+uniticonrug_plastic_gloss,유닛 아이콘 러그 (글로시 플라스틱),165000,0.45,장식,assets/models/UnitIconRug.glb,plastic_gloss
+uniticonrug_rubber_soft,유닛 아이콘 러그 (소프트 러버),157500,0.5,장식,assets/models/UnitIconRug.glb,rubber_soft
+uniticonrug_ceramic_clean,유닛 아이콘 러그 (클린 세라믹),180000,0.4,장식,assets/models/UnitIconRug.glb,ceramic_clean
+uniticonrug_metal_brushed,유닛 아이콘 러그 (브러시드 메탈),202500,0.3,장식,assets/models/UnitIconRug.glb,metal_brushed
+uniticonrug_metal_polished,유닛 아이콘 러그 (폴리시드 메탈),225000,0.2,장식,assets/models/UnitIconRug.glb,metal_polished
+uniticonrug_paint_clearcoat,유닛 아이콘 러그 (클리어코트 페인트),195000,0.35,장식,assets/models/UnitIconRug.glb,paint_clearcoat
+uniticonrug_fabric_sheen,유닛 아이콘 러그 (패브릭 쉰),172500,0.45,장식,assets/models/UnitIconRug.glb,fabric_sheen
+uniticonrug_glass_clear,유닛 아이콘 러그 (클리어 글래스),240000,0.1,장식,assets/models/UnitIconRug.glb,glass_clear
+uniticonrug_resin_tinted,유닛 아이콘 러그 (틴티드 레진),217500,0.25,장식,assets/models/UnitIconRug.glb,resin_tinted
+uniticonrug_matcap_clay,유닛 아이콘 러그 (클레이),157500,0.5,장식,assets/models/UnitIconRug.glb,matcap_clay
+uniticonrug_matcap_wax,유닛 아이콘 러그 (왁스),165000,0.45,장식,assets/models/UnitIconRug.glb,matcap_wax
+uniticonrug_matcap_chrome,유닛 아이콘 러그 (크롬),232500,0.15,장식,assets/models/UnitIconRug.glb,matcap_chrome
+uniticonrug_matcap_bronze,유닛 아이콘 러그 (브론즈),210000,0.3,장식,assets/models/UnitIconRug.glb,matcap_bronze
+uniticonrug_matcap_black_rubber,유닛 아이콘 러그 (블랙 러버),162000,0.5,장식,assets/models/UnitIconRug.glb,matcap_black_rubber
+uniticonrug_matcap_red_wax,유닛 아이콘 러그 (레드 왁스),172500,0.4,장식,assets/models/UnitIconRug.glb,matcap_red_wax
+uniticonrug_matcap_white_ceramic,유닛 아이콘 러그 (화이트 세라믹),187500,0.35,장식,assets/models/UnitIconRug.glb,matcap_white_ceramic
+uniticonrug_matcap_blue_gloss,유닛 아이콘 러그 (블루 글로시),180000,0.4,장식,assets/models/UnitIconRug.glb,matcap_blue_gloss
+uniticonrug_matcap_gold,유닛 아이콘 러그 (골드),255000,0.1,장식,assets/models/UnitIconRug.glb,matcap_gold
+uniticonrug_matcap_silver_soft,유닛 아이콘 러그 (소프트 실버),202500,0.3,장식,assets/models/UnitIconRug.glb,matcap_silver_soft
+uniticonshoes_plastic_matte,유닛 아이콘 신발 (매트 플라스틱),200000,0.3,신발,assets/models/UnitIconShoes.glb,plastic_matte
+uniticonshoes_plastic_gloss,유닛 아이콘 신발 (글로시 플라스틱),220000,0.25,신발,assets/models/UnitIconShoes.glb,plastic_gloss
+uniticonshoes_rubber_soft,유닛 아이콘 신발 (소프트 러버),210000,0.3,신발,assets/models/UnitIconShoes.glb,rubber_soft
+uniticonshoes_ceramic_clean,유닛 아이콘 신발 (클린 세라믹),240000,0.2,신발,assets/models/UnitIconShoes.glb,ceramic_clean
+uniticonshoes_metal_brushed,유닛 아이콘 신발 (브러시드 메탈),270000,0.1,신발,assets/models/UnitIconShoes.glb,metal_brushed
+uniticonshoes_metal_polished,유닛 아이콘 신발 (폴리시드 메탈),300000,0.1,신발,assets/models/UnitIconShoes.glb,metal_polished
+uniticonshoes_paint_clearcoat,유닛 아이콘 신발 (클리어코트 페인트),260000,0.15,신발,assets/models/UnitIconShoes.glb,paint_clearcoat
+uniticonshoes_fabric_sheen,유닛 아이콘 신발 (패브릭 쉰),230000,0.25,신발,assets/models/UnitIconShoes.glb,fabric_sheen
+uniticonshoes_glass_clear,유닛 아이콘 신발 (클리어 글래스),320000,0.1,신발,assets/models/UnitIconShoes.glb,glass_clear
+uniticonshoes_resin_tinted,유닛 아이콘 신발 (틴티드 레진),290000,0.1,신발,assets/models/UnitIconShoes.glb,resin_tinted
+uniticonshoes_matcap_clay,유닛 아이콘 신발 (클레이),210000,0.3,신발,assets/models/UnitIconShoes.glb,matcap_clay
+uniticonshoes_matcap_wax,유닛 아이콘 신발 (왁스),220000,0.25,신발,assets/models/UnitIconShoes.glb,matcap_wax
+uniticonshoes_matcap_chrome,유닛 아이콘 신발 (크롬),310000,0.1,신발,assets/models/UnitIconShoes.glb,matcap_chrome
+uniticonshoes_matcap_bronze,유닛 아이콘 신발 (브론즈),280000,0.1,신발,assets/models/UnitIconShoes.glb,matcap_bronze
+uniticonshoes_matcap_black_rubber,유닛 아이콘 신발 (블랙 러버),216000,0.3,신발,assets/models/UnitIconShoes.glb,matcap_black_rubber
+uniticonshoes_matcap_red_wax,유닛 아이콘 신발 (레드 왁스),230000,0.2,신발,assets/models/UnitIconShoes.glb,matcap_red_wax
+uniticonshoes_matcap_white_ceramic,유닛 아이콘 신발 (화이트 세라믹),250000,0.15,신발,assets/models/UnitIconShoes.glb,matcap_white_ceramic
+uniticonshoes_matcap_blue_gloss,유닛 아이콘 신발 (블루 글로시),240000,0.2,신발,assets/models/UnitIconShoes.glb,matcap_blue_gloss
+uniticonshoes_matcap_gold,유닛 아이콘 신발 (골드),340000,0.1,신발,assets/models/UnitIconShoes.glb,matcap_gold
+uniticonshoes_matcap_silver_soft,유닛 아이콘 신발 (소프트 실버),270000,0.1,신발,assets/models/UnitIconShoes.glb,matcap_silver_soft
+uniticonsocks_plastic_matte,유닛 아이콘 양말 (매트 플라스틱),80000,0.6,의류,assets/models/UnitIconSocks.glb,plastic_matte
+uniticonsocks_plastic_gloss,유닛 아이콘 양말 (글로시 플라스틱),88000,0.55,의류,assets/models/UnitIconSocks.glb,plastic_gloss
+uniticonsocks_rubber_soft,유닛 아이콘 양말 (소프트 러버),84000,0.6,의류,assets/models/UnitIconSocks.glb,rubber_soft
+uniticonsocks_ceramic_clean,유닛 아이콘 양말 (클린 세라믹),96000,0.5,의류,assets/models/UnitIconSocks.glb,ceramic_clean
+uniticonsocks_metal_brushed,유닛 아이콘 양말 (브러시드 메탈),108000,0.4,의류,assets/models/UnitIconSocks.glb,metal_brushed
+uniticonsocks_metal_polished,유닛 아이콘 양말 (폴리시드 메탈),120000,0.3,의류,assets/models/UnitIconSocks.glb,metal_polished
+uniticonsocks_paint_clearcoat,유닛 아이콘 양말 (클리어코트 페인트),104000,0.45,의류,assets/models/UnitIconSocks.glb,paint_clearcoat
+uniticonsocks_fabric_sheen,유닛 아이콘 양말 (패브릭 쉰),92000,0.55,의류,assets/models/UnitIconSocks.glb,fabric_sheen
+uniticonsocks_glass_clear,유닛 아이콘 양말 (클리어 글래스),128000,0.2,의류,assets/models/UnitIconSocks.glb,glass_clear
+uniticonsocks_resin_tinted,유닛 아이콘 양말 (틴티드 레진),116000,0.35,의류,assets/models/UnitIconSocks.glb,resin_tinted
+uniticonsocks_matcap_clay,유닛 아이콘 양말 (클레이),84000,0.6,의류,assets/models/UnitIconSocks.glb,matcap_clay
+uniticonsocks_matcap_wax,유닛 아이콘 양말 (왁스),88000,0.55,의류,assets/models/UnitIconSocks.glb,matcap_wax
+uniticonsocks_matcap_chrome,유닛 아이콘 양말 (크롬),124000,0.25,의류,assets/models/UnitIconSocks.glb,matcap_chrome
+uniticonsocks_matcap_bronze,유닛 아이콘 양말 (브론즈),112000,0.4,의류,assets/models/UnitIconSocks.glb,matcap_bronze
+uniticonsocks_matcap_black_rubber,유닛 아이콘 양말 (블랙 러버),86400,0.6,의류,assets/models/UnitIconSocks.glb,matcap_black_rubber
+uniticonsocks_matcap_red_wax,유닛 아이콘 양말 (레드 왁스),92000,0.5,의류,assets/models/UnitIconSocks.glb,matcap_red_wax
+uniticonsocks_matcap_white_ceramic,유닛 아이콘 양말 (화이트 세라믹),100000,0.45,의류,assets/models/UnitIconSocks.glb,matcap_white_ceramic
+uniticonsocks_matcap_blue_gloss,유닛 아이콘 양말 (블루 글로시),96000,0.5,의류,assets/models/UnitIconSocks.glb,matcap_blue_gloss
+uniticonsocks_matcap_gold,유닛 아이콘 양말 (골드),136000,0.1,의류,assets/models/UnitIconSocks.glb,matcap_gold
+uniticonsocks_matcap_silver_soft,유닛 아이콘 양말 (소프트 실버),108000,0.4,의류,assets/models/UnitIconSocks.glb,matcap_silver_soft
+uniticonstar0_plastic_matte,별 모양 아이콘 (매트 플라스틱),60000,1.7,액세서리,assets/models/UnitIconStar0.glb,plastic_matte
+uniticonstar0_plastic_gloss,별 모양 아이콘 (글로시 플라스틱),66000,1.65,액세서리,assets/models/UnitIconStar0.glb,plastic_gloss
+uniticonstar0_rubber_soft,별 모양 아이콘 (소프트 러버),63000,1.7,액세서리,assets/models/UnitIconStar0.glb,rubber_soft
+uniticonstar0_ceramic_clean,별 모양 아이콘 (클린 세라믹),72000,1.6,액세서리,assets/models/UnitIconStar0.glb,ceramic_clean
+uniticonstar0_metal_brushed,별 모양 아이콘 (브러시드 메탈),81000,1.5,액세서리,assets/models/UnitIconStar0.glb,metal_brushed
+uniticonstar0_metal_polished,별 모양 아이콘 (폴리시드 메탈),90000,1.4,액세서리,assets/models/UnitIconStar0.glb,metal_polished
+uniticonstar0_paint_clearcoat,별 모양 아이콘 (클리어코트 페인트),78000,1.55,액세서리,assets/models/UnitIconStar0.glb,paint_clearcoat
+uniticonstar0_fabric_sheen,별 모양 아이콘 (패브릭 쉰),69000,1.65,액세서리,assets/models/UnitIconStar0.glb,fabric_sheen
+uniticonstar0_glass_clear,별 모양 아이콘 (클리어 글래스),96000,1.3,액세서리,assets/models/UnitIconStar0.glb,glass_clear
+uniticonstar0_resin_tinted,별 모양 아이콘 (틴티드 레진),87000,1.45,액세서리,assets/models/UnitIconStar0.glb,resin_tinted
+uniticonstar0_matcap_clay,별 모양 아이콘 (클레이),63000,1.7,액세서리,assets/models/UnitIconStar0.glb,matcap_clay
+uniticonstar0_matcap_wax,별 모양 아이콘 (왁스),66000,1.65,액세서리,assets/models/UnitIconStar0.glb,matcap_wax
+uniticonstar0_matcap_chrome,별 모양 아이콘 (크롬),93000,1.35,액세서리,assets/models/UnitIconStar0.glb,matcap_chrome
+uniticonstar0_matcap_bronze,별 모양 아이콘 (브론즈),84000,1.5,액세서리,assets/models/UnitIconStar0.glb,matcap_bronze
+uniticonstar0_matcap_black_rubber,별 모양 아이콘 (블랙 러버),64800,1.7,액세서리,assets/models/UnitIconStar0.glb,matcap_black_rubber
+uniticonstar0_matcap_red_wax,별 모양 아이콘 (레드 왁스),69000,1.6,액세서리,assets/models/UnitIconStar0.glb,matcap_red_wax
+uniticonstar0_matcap_white_ceramic,별 모양 아이콘 (화이트 세라믹),75000,1.55,액세서리,assets/models/UnitIconStar0.glb,matcap_white_ceramic
+uniticonstar0_matcap_blue_gloss,별 모양 아이콘 (블루 글로시),72000,1.6,액세서리,assets/models/UnitIconStar0.glb,matcap_blue_gloss
+uniticonstar0_matcap_gold,별 모양 아이콘 (골드),102000,1.2,액세서리,assets/models/UnitIconStar0.glb,matcap_gold
+uniticonstar0_matcap_silver_soft,별 모양 아이콘 (소프트 실버),81000,1.5,액세서리,assets/models/UnitIconStar0.glb,matcap_silver_soft
+uniticonstick_plastic_matte,별 막대 간식 (매트 플라스틱),45000,1.9,액세서리,assets/models/UnitIconStick.glb,plastic_matte
+uniticonstick_plastic_gloss,별 막대 간식 (글로시 플라스틱),49500,1.85,액세서리,assets/models/UnitIconStick.glb,plastic_gloss
+uniticonstick_rubber_soft,별 막대 간식 (소프트 러버),47300,1.9,액세서리,assets/models/UnitIconStick.glb,rubber_soft
+uniticonstick_ceramic_clean,별 막대 간식 (클린 세라믹),54000,1.8,액세서리,assets/models/UnitIconStick.glb,ceramic_clean
+uniticonstick_metal_brushed,별 막대 간식 (브러시드 메탈),60800,1.7,액세서리,assets/models/UnitIconStick.glb,metal_brushed
+uniticonstick_metal_polished,별 막대 간식 (폴리시드 메탈),67500,1.6,액세서리,assets/models/UnitIconStick.glb,metal_polished
+uniticonstick_paint_clearcoat,별 막대 간식 (클리어코트 페인트),58500,1.75,액세서리,assets/models/UnitIconStick.glb,paint_clearcoat
+uniticonstick_fabric_sheen,별 막대 간식 (패브릭 쉰),51700,1.85,액세서리,assets/models/UnitIconStick.glb,fabric_sheen
+uniticonstick_glass_clear,별 막대 간식 (클리어 글래스),72000,1.5,액세서리,assets/models/UnitIconStick.glb,glass_clear
+uniticonstick_resin_tinted,별 막대 간식 (틴티드 레진),65300,1.65,액세서리,assets/models/UnitIconStick.glb,resin_tinted
+uniticonstick_matcap_clay,별 막대 간식 (클레이),47300,1.9,액세서리,assets/models/UnitIconStick.glb,matcap_clay
+uniticonstick_matcap_wax,별 막대 간식 (왁스),49500,1.85,액세서리,assets/models/UnitIconStick.glb,matcap_wax
+uniticonstick_matcap_chrome,별 막대 간식 (크롬),69800,1.55,액세서리,assets/models/UnitIconStick.glb,matcap_chrome
+uniticonstick_matcap_bronze,별 막대 간식 (브론즈),63000,1.7,액세서리,assets/models/UnitIconStick.glb,matcap_bronze
+uniticonstick_matcap_black_rubber,별 막대 간식 (블랙 러버),48600,1.9,액세서리,assets/models/UnitIconStick.glb,matcap_black_rubber
+uniticonstick_matcap_red_wax,별 막대 간식 (레드 왁스),51700,1.8,액세서리,assets/models/UnitIconStick.glb,matcap_red_wax
+uniticonstick_matcap_white_ceramic,별 막대 간식 (화이트 세라믹),56300,1.75,액세서리,assets/models/UnitIconStick.glb,matcap_white_ceramic
+uniticonstick_matcap_blue_gloss,별 막대 간식 (블루 글로시),54000,1.8,액세서리,assets/models/UnitIconStick.glb,matcap_blue_gloss
+uniticonstick_matcap_gold,별 막대 간식 (골드),76500,1.4,액세서리,assets/models/UnitIconStick.glb,matcap_gold
+uniticonstick_matcap_silver_soft,별 막대 간식 (소프트 실버),60800,1.7,액세서리,assets/models/UnitIconStick.glb,matcap_silver_soft
+uniticonstone_plastic_matte,거친 돌 아이콘 (매트 플라스틱),55000,1.6,액세서리,assets/models/UnitIconStone.glb,plastic_matte
+uniticonstone_plastic_gloss,거친 돌 아이콘 (글로시 플라스틱),60500,1.55,액세서리,assets/models/UnitIconStone.glb,plastic_gloss
+uniticonstone_rubber_soft,거친 돌 아이콘 (소프트 러버),57800,1.6,액세서리,assets/models/UnitIconStone.glb,rubber_soft
+uniticonstone_ceramic_clean,거친 돌 아이콘 (클린 세라믹),66000,1.5,액세서리,assets/models/UnitIconStone.glb,ceramic_clean
+uniticonstone_metal_brushed,거친 돌 아이콘 (브러시드 메탈),74300,1.4,액세서리,assets/models/UnitIconStone.glb,metal_brushed
+uniticonstone_metal_polished,거친 돌 아이콘 (폴리시드 메탈),82500,1.3,액세서리,assets/models/UnitIconStone.glb,metal_polished
+uniticonstone_paint_clearcoat,거친 돌 아이콘 (클리어코트 페인트),71500,1.45,액세서리,assets/models/UnitIconStone.glb,paint_clearcoat
+uniticonstone_fabric_sheen,거친 돌 아이콘 (패브릭 쉰),63200,1.55,액세서리,assets/models/UnitIconStone.glb,fabric_sheen
+uniticonstone_glass_clear,거친 돌 아이콘 (클리어 글래스),88000,1.2,액세서리,assets/models/UnitIconStone.glb,glass_clear
+uniticonstone_resin_tinted,거친 돌 아이콘 (틴티드 레진),79800,1.35,액세서리,assets/models/UnitIconStone.glb,resin_tinted
+uniticonstone_matcap_clay,거친 돌 아이콘 (클레이),57800,1.6,액세서리,assets/models/UnitIconStone.glb,matcap_clay
+uniticonstone_matcap_wax,거친 돌 아이콘 (왁스),60500,1.55,액세서리,assets/models/UnitIconStone.glb,matcap_wax
+uniticonstone_matcap_chrome,거친 돌 아이콘 (크롬),85300,1.25,액세서리,assets/models/UnitIconStone.glb,matcap_chrome
+uniticonstone_matcap_bronze,거친 돌 아이콘 (브론즈),77000,1.4,액세서리,assets/models/UnitIconStone.glb,matcap_bronze
+uniticonstone_matcap_black_rubber,거친 돌 아이콘 (블랙 러버),59400,1.6,액세서리,assets/models/UnitIconStone.glb,matcap_black_rubber
+uniticonstone_matcap_red_wax,거친 돌 아이콘 (레드 왁스),63200,1.5,액세서리,assets/models/UnitIconStone.glb,matcap_red_wax
+uniticonstone_matcap_white_ceramic,거친 돌 아이콘 (화이트 세라믹),68800,1.45,액세서리,assets/models/UnitIconStone.glb,matcap_white_ceramic
+uniticonstone_matcap_blue_gloss,거친 돌 아이콘 (블루 글로시),66000,1.5,액세서리,assets/models/UnitIconStone.glb,matcap_blue_gloss
+uniticonstone_matcap_gold,거친 돌 아이콘 (골드),93500,1.1,액세서리,assets/models/UnitIconStone.glb,matcap_gold
+uniticonstone_matcap_silver_soft,거친 돌 아이콘 (소프트 실버),74300,1.4,액세서리,assets/models/UnitIconStone.glb,matcap_silver_soft
+uniticontimer_plastic_matte,스톱워치 아이콘 (매트 플라스틱),85000,1.4,액세서리,assets/models/UnitIconTimer.glb,plastic_matte
+uniticontimer_plastic_gloss,스톱워치 아이콘 (글로시 플라스틱),93500,1.35,액세서리,assets/models/UnitIconTimer.glb,plastic_gloss
+uniticontimer_rubber_soft,스톱워치 아이콘 (소프트 러버),89300,1.4,액세서리,assets/models/UnitIconTimer.glb,rubber_soft
+uniticontimer_ceramic_clean,스톱워치 아이콘 (클린 세라믹),102000,1.3,액세서리,assets/models/UnitIconTimer.glb,ceramic_clean
+uniticontimer_metal_brushed,스톱워치 아이콘 (브러시드 메탈),114800,1.2,액세서리,assets/models/UnitIconTimer.glb,metal_brushed
+uniticontimer_metal_polished,스톱워치 아이콘 (폴리시드 메탈),127500,1.1,액세서리,assets/models/UnitIconTimer.glb,metal_polished
+uniticontimer_paint_clearcoat,스톱워치 아이콘 (클리어코트 페인트),110500,1.25,액세서리,assets/models/UnitIconTimer.glb,paint_clearcoat
+uniticontimer_fabric_sheen,스톱워치 아이콘 (패브릭 쉰),97700,1.35,액세서리,assets/models/UnitIconTimer.glb,fabric_sheen
+uniticontimer_glass_clear,스톱워치 아이콘 (클리어 글래스),136000,1,액세서리,assets/models/UnitIconTimer.glb,glass_clear
+uniticontimer_resin_tinted,스톱워치 아이콘 (틴티드 레진),123300,1.15,액세서리,assets/models/UnitIconTimer.glb,resin_tinted
+uniticontimer_matcap_clay,스톱워치 아이콘 (클레이),89300,1.4,액세서리,assets/models/UnitIconTimer.glb,matcap_clay
+uniticontimer_matcap_wax,스톱워치 아이콘 (왁스),93500,1.35,액세서리,assets/models/UnitIconTimer.glb,matcap_wax
+uniticontimer_matcap_chrome,스톱워치 아이콘 (크롬),131800,1.05,액세서리,assets/models/UnitIconTimer.glb,matcap_chrome
+uniticontimer_matcap_bronze,스톱워치 아이콘 (브론즈),119000,1.2,액세서리,assets/models/UnitIconTimer.glb,matcap_bronze
+uniticontimer_matcap_black_rubber,스톱워치 아이콘 (블랙 러버),91800,1.4,액세서리,assets/models/UnitIconTimer.glb,matcap_black_rubber
+uniticontimer_matcap_red_wax,스톱워치 아이콘 (레드 왁스),97700,1.3,액세서리,assets/models/UnitIconTimer.glb,matcap_red_wax
+uniticontimer_matcap_white_ceramic,스톱워치 아이콘 (화이트 세라믹),106300,1.25,액세서리,assets/models/UnitIconTimer.glb,matcap_white_ceramic
+uniticontimer_matcap_blue_gloss,스톱워치 아이콘 (블루 글로시),102000,1.3,액세서리,assets/models/UnitIconTimer.glb,matcap_blue_gloss
+uniticontimer_matcap_gold,스톱워치 아이콘 (골드),144500,0.9,액세서리,assets/models/UnitIconTimer.glb,matcap_gold
+uniticontimer_matcap_silver_soft,스톱워치 아이콘 (소프트 실버),114800,1.2,액세서리,assets/models/UnitIconTimer.glb,matcap_silver_soft
+uniticontops_plastic_matte,핑크條紋 티셔츠 (매트 플라스틱),120000,1.2,액세서리,assets/models/UnitIconTops.glb,plastic_matte
+uniticontops_plastic_gloss,핑크條紋 티셔츠 (글로시 플라스틱),132000,1.15,액세서리,assets/models/UnitIconTops.glb,plastic_gloss
+uniticontops_rubber_soft,핑크條紋 티셔츠 (소프트 러버),126000,1.2,액세서리,assets/models/UnitIconTops.glb,rubber_soft
+uniticontops_ceramic_clean,핑크條紋 티셔츠 (클린 세라믹),144000,1.1,액세서리,assets/models/UnitIconTops.glb,ceramic_clean
+uniticontops_metal_brushed,핑크條紋 티셔츠 (브러시드 메탈),162000,1,액세서리,assets/models/UnitIconTops.glb,metal_brushed
+uniticontops_metal_polished,핑크條紋 티셔츠 (폴리시드 메탈),180000,0.9,액세서리,assets/models/UnitIconTops.glb,metal_polished
+uniticontops_paint_clearcoat,핑크條紋 티셔츠 (클리어코트 페인트),156000,1.05,액세서리,assets/models/UnitIconTops.glb,paint_clearcoat
+uniticontops_fabric_sheen,핑크條紋 티셔츠 (패브릭 쉰),138000,1.15,액세서리,assets/models/UnitIconTops.glb,fabric_sheen
+uniticontops_glass_clear,핑크條紋 티셔츠 (클리어 글래스),192000,0.8,액세서리,assets/models/UnitIconTops.glb,glass_clear
+uniticontops_resin_tinted,핑크條紋 티셔츠 (틴티드 레진),174000,0.95,액세서리,assets/models/UnitIconTops.glb,resin_tinted
+uniticontops_matcap_clay,핑크條紋 티셔츠 (클레이),126000,1.2,액세서리,assets/models/UnitIconTops.glb,matcap_clay
+uniticontops_matcap_wax,핑크條紋 티셔츠 (왁스),132000,1.15,액세서리,assets/models/UnitIconTops.glb,matcap_wax
+uniticontops_matcap_chrome,핑크條紋 티셔츠 (크롬),186000,0.85,액세서리,assets/models/UnitIconTops.glb,matcap_chrome
+uniticontops_matcap_bronze,핑크條紋 티셔츠 (브론즈),168000,1,액세서리,assets/models/UnitIconTops.glb,matcap_bronze
+uniticontops_matcap_black_rubber,핑크條紋 티셔츠 (블랙 러버),129600,1.2,액세서리,assets/models/UnitIconTops.glb,matcap_black_rubber
+uniticontops_matcap_red_wax,핑크條紋 티셔츠 (레드 왁스),138000,1.1,액세서리,assets/models/UnitIconTops.glb,matcap_red_wax
+uniticontops_matcap_white_ceramic,핑크條紋 티셔츠 (화이트 세라믹),150000,1.05,액세서리,assets/models/UnitIconTops.glb,matcap_white_ceramic
+uniticontops_matcap_blue_gloss,핑크條紋 티셔츠 (블루 글로시),144000,1.1,액세서리,assets/models/UnitIconTops.glb,matcap_blue_gloss
+uniticontops_matcap_gold,핑크條紋 티셔츠 (골드),204000,0.7,액세서리,assets/models/UnitIconTops.glb,matcap_gold
+uniticontops_matcap_silver_soft,핑크條紋 티셔츠 (소프트 실버),162000,1,액세서리,assets/models/UnitIconTops.glb,matcap_silver_soft

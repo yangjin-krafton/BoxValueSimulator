@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+pltflwcosmos0_plastic_matte,코스모스 꽃 액세서리 (매트 플라스틱),20000,0.6,액세서리,assets/models/PltFlwCosmos0.glb,plastic_matte
+pltflwcosmos0_plastic_gloss,코스모스 꽃 액세서리 (글로시 플라스틱),22000,0.55,액세서리,assets/models/PltFlwCosmos0.glb,plastic_gloss
+pltflwcosmos0_rubber_soft,코스모스 꽃 액세서리 (소프트 러버),21000,0.6,액세서리,assets/models/PltFlwCosmos0.glb,rubber_soft
+pltflwcosmos0_ceramic_clean,코스모스 꽃 액세서리 (클린 세라믹),24000,0.5,액세서리,assets/models/PltFlwCosmos0.glb,ceramic_clean
+pltflwcosmos0_metal_brushed,코스모스 꽃 액세서리 (브러시드 메탈),27000,0.4,액세서리,assets/models/PltFlwCosmos0.glb,metal_brushed
+pltflwcosmos0_metal_polished,코스모스 꽃 액세서리 (폴리시드 메탈),30000,0.3,액세서리,assets/models/PltFlwCosmos0.glb,metal_polished
+pltflwcosmos0_paint_clearcoat,코스모스 꽃 액세서리 (클리어코트 페인트),26000,0.45,액세서리,assets/models/PltFlwCosmos0.glb,paint_clearcoat
+pltflwcosmos0_fabric_sheen,코스모스 꽃 액세서리 (패브릭 쉰),23000,0.55,액세서리,assets/models/PltFlwCosmos0.glb,fabric_sheen
+pltflwcosmos0_glass_clear,코스모스 꽃 액세서리 (클리어 글래스),32000,0.2,액세서리,assets/models/PltFlwCosmos0.glb,glass_clear
+pltflwcosmos0_resin_tinted,코스모스 꽃 액세서리 (틴티드 레진),29000,0.35,액세서리,assets/models/PltFlwCosmos0.glb,resin_tinted
+pltflwcosmos0_matcap_clay,코스모스 꽃 액세서리 (클레이),21000,0.6,액세서리,assets/models/PltFlwCosmos0.glb,matcap_clay
+pltflwcosmos0_matcap_wax,코스모스 꽃 액세서리 (왁스),22000,0.55,액세서리,assets/models/PltFlwCosmos0.glb,matcap_wax
+pltflwcosmos0_matcap_chrome,코스모스 꽃 액세서리 (크롬),31000,0.25,액세서리,assets/models/PltFlwCosmos0.glb,matcap_chrome
+pltflwcosmos0_matcap_bronze,코스모스 꽃 액세서리 (브론즈),28000,0.4,액세서리,assets/models/PltFlwCosmos0.glb,matcap_bronze
+pltflwcosmos0_matcap_black_rubber,코스모스 꽃 액세서리 (블랙 러버),21600,0.6,액세서리,assets/models/PltFlwCosmos0.glb,matcap_black_rubber
+pltflwcosmos0_matcap_red_wax,코스모스 꽃 액세서리 (레드 왁스),23000,0.5,액세서리,assets/models/PltFlwCosmos0.glb,matcap_red_wax
+pltflwcosmos0_matcap_white_ceramic,코스모스 꽃 액세서리 (화이트 세라믹),25000,0.45,액세서리,assets/models/PltFlwCosmos0.glb,matcap_white_ceramic
+pltflwcosmos0_matcap_blue_gloss,코스모스 꽃 액세서리 (블루 글로시),24000,0.5,액세서리,assets/models/PltFlwCosmos0.glb,matcap_blue_gloss
+pltflwcosmos0_matcap_gold,코스모스 꽃 액세서리 (골드),34000,0.1,액세서리,assets/models/PltFlwCosmos0.glb,matcap_gold
+pltflwcosmos0_matcap_silver_soft,코스모스 꽃 액세서리 (소프트 실버),27000,0.4,액세서리,assets/models/PltFlwCosmos0.glb,matcap_silver_soft
+pltflwhyacinth0_plastic_matte,하인스향 꽃 액세서리 (매트 플라스틱),10000,1.2,액세서리,assets/models/PltFlwHyacinth0.glb,plastic_matte
+pltflwhyacinth0_plastic_gloss,하인스향 꽃 액세서리 (글로시 플라스틱),11000,1.15,액세서리,assets/models/PltFlwHyacinth0.glb,plastic_gloss
+pltflwhyacinth0_rubber_soft,하인스향 꽃 액세서리 (소프트 러버),10500,1.2,액세서리,assets/models/PltFlwHyacinth0.glb,rubber_soft
+pltflwhyacinth0_ceramic_clean,하인스향 꽃 액세서리 (클린 세라믹),12000,1.1,액세서리,assets/models/PltFlwHyacinth0.glb,ceramic_clean
+pltflwhyacinth0_metal_brushed,하인스향 꽃 액세서리 (브러시드 메탈),13500,1,액세서리,assets/models/PltFlwHyacinth0.glb,metal_brushed
+pltflwhyacinth0_metal_polished,하인스향 꽃 액세서리 (폴리시드 메탈),15000,0.9,액세서리,assets/models/PltFlwHyacinth0.glb,metal_polished
+pltflwhyacinth0_paint_clearcoat,하인스향 꽃 액세서리 (클리어코트 페인트),13000,1.05,액세서리,assets/models/PltFlwHyacinth0.glb,paint_clearcoat
+pltflwhyacinth0_fabric_sheen,하인스향 꽃 액세서리 (패브릭 쉰),11500,1.15,액세서리,assets/models/PltFlwHyacinth0.glb,fabric_sheen
+pltflwhyacinth0_glass_clear,하인스향 꽃 액세서리 (클리어 글래스),16000,0.8,액세서리,assets/models/PltFlwHyacinth0.glb,glass_clear
+pltflwhyacinth0_resin_tinted,하인스향 꽃 액세서리 (틴티드 레진),14500,0.95,액세서리,assets/models/PltFlwHyacinth0.glb,resin_tinted
+pltflwhyacinth0_matcap_clay,하인스향 꽃 액세서리 (클레이),10500,1.2,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_clay
+pltflwhyacinth0_matcap_wax,하인스향 꽃 액세서리 (왁스),11000,1.15,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_wax
+pltflwhyacinth0_matcap_chrome,하인스향 꽃 액세서리 (크롬),15500,0.85,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_chrome
+pltflwhyacinth0_matcap_bronze,하인스향 꽃 액세서리 (브론즈),14000,1,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_bronze
+pltflwhyacinth0_matcap_black_rubber,하인스향 꽃 액세서리 (블랙 러버),10800,1.2,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_black_rubber
+pltflwhyacinth0_matcap_red_wax,하인스향 꽃 액세서리 (레드 왁스),11500,1.1,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_red_wax
+pltflwhyacinth0_matcap_white_ceramic,하인스향 꽃 액세서리 (화이트 세라믹),12500,1.05,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_white_ceramic
+pltflwhyacinth0_matcap_blue_gloss,하인스향 꽃 액세서리 (블루 글로시),12000,1.1,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_blue_gloss
+pltflwhyacinth0_matcap_gold,하인스향 꽃 액세서리 (골드),17000,0.7,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_gold
+pltflwhyacinth0_matcap_silver_soft,하인스향 꽃 액세서리 (소프트 실버),13500,1,액세서리,assets/models/PltFlwHyacinth0.glb,matcap_silver_soft
+pltflwlily_plastic_matte,리리 오브 더 밸리 액세서리 (매트 플라스틱),15000,0.8,액세서리,assets/models/PltFlwLily.glb,plastic_matte
+pltflwlily_plastic_gloss,리리 오브 더 밸리 액세서리 (글로시 플라스틱),16500,0.75,액세서리,assets/models/PltFlwLily.glb,plastic_gloss
+pltflwlily_rubber_soft,리리 오브 더 밸리 액세서리 (소프트 러버),15800,0.8,액세서리,assets/models/PltFlwLily.glb,rubber_soft
+pltflwlily_ceramic_clean,리리 오브 더 밸리 액세서리 (클린 세라믹),18000,0.7,액세서리,assets/models/PltFlwLily.glb,ceramic_clean
+pltflwlily_metal_brushed,리리 오브 더 밸리 액세서리 (브러시드 메탈),20300,0.6,액세서리,assets/models/PltFlwLily.glb,metal_brushed
+pltflwlily_metal_polished,리리 오브 더 밸리 액세서리 (폴리시드 메탈),22500,0.5,액세서리,assets/models/PltFlwLily.glb,metal_polished
+pltflwlily_paint_clearcoat,리리 오브 더 밸리 액세서리 (클리어코트 페인트),19500,0.65,액세서리,assets/models/PltFlwLily.glb,paint_clearcoat
+pltflwlily_fabric_sheen,리리 오브 더 밸리 액세서리 (패브릭 쉰),17300,0.75,액세서리,assets/models/PltFlwLily.glb,fabric_sheen
+pltflwlily_glass_clear,리리 오브 더 밸리 액세서리 (클리어 글래스),24000,0.4,액세서리,assets/models/PltFlwLily.glb,glass_clear
+pltflwlily_resin_tinted,리리 오브 더 밸리 액세서리 (틴티드 레진),21800,0.55,액세서리,assets/models/PltFlwLily.glb,resin_tinted
+pltflwlily_matcap_clay,리리 오브 더 밸리 액세서리 (클레이),15800,0.8,액세서리,assets/models/PltFlwLily.glb,matcap_clay
+pltflwlily_matcap_wax,리리 오브 더 밸리 액세서리 (왁스),16500,0.75,액세서리,assets/models/PltFlwLily.glb,matcap_wax
+pltflwlily_matcap_chrome,리리 오브 더 밸리 액세서리 (크롬),23300,0.45,액세서리,assets/models/PltFlwLily.glb,matcap_chrome
+pltflwlily_matcap_bronze,리리 오브 더 밸리 액세서리 (브론즈),21000,0.6,액세서리,assets/models/PltFlwLily.glb,matcap_bronze
+pltflwlily_matcap_black_rubber,리리 오브 더 밸리 액세서리 (블랙 러버),16200,0.8,액세서리,assets/models/PltFlwLily.glb,matcap_black_rubber
+pltflwlily_matcap_red_wax,리리 오브 더 밸리 액세서리 (레드 왁스),17300,0.7,액세서리,assets/models/PltFlwLily.glb,matcap_red_wax
+pltflwlily_matcap_white_ceramic,리리 오브 더 밸리 액세서리 (화이트 세라믹),18800,0.65,액세서리,assets/models/PltFlwLily.glb,matcap_white_ceramic
+pltflwlily_matcap_blue_gloss,리리 오브 더 밸리 액세서리 (블루 글로시),18000,0.7,액세서리,assets/models/PltFlwLily.glb,matcap_blue_gloss
+pltflwlily_matcap_gold,리리 오브 더 밸리 액세서리 (골드),25500,0.3,액세서리,assets/models/PltFlwLily.glb,matcap_gold
+pltflwlily_matcap_silver_soft,리리 오브 더 밸리 액세서리 (소프트 실버),20300,0.6,액세서리,assets/models/PltFlwLily.glb,matcap_silver_soft
+pltflwmum0_plastic_matte,카네이션 꽃 액세서리 (매트 플라스틱),12000,1,액세서리,assets/models/PltFlwMum0.glb,plastic_matte
+pltflwmum0_plastic_gloss,카네이션 꽃 액세서리 (글로시 플라스틱),13200,0.95,액세서리,assets/models/PltFlwMum0.glb,plastic_gloss
+pltflwmum0_rubber_soft,카네이션 꽃 액세서리 (소프트 러버),12600,1,액세서리,assets/models/PltFlwMum0.glb,rubber_soft
+pltflwmum0_ceramic_clean,카네이션 꽃 액세서리 (클린 세라믹),14400,0.9,액세서리,assets/models/PltFlwMum0.glb,ceramic_clean
+pltflwmum0_metal_brushed,카네이션 꽃 액세서리 (브러시드 메탈),16200,0.8,액세서리,assets/models/PltFlwMum0.glb,metal_brushed
+pltflwmum0_metal_polished,카네이션 꽃 액세서리 (폴리시드 메탈),18000,0.7,액세서리,assets/models/PltFlwMum0.glb,metal_polished
+pltflwmum0_paint_clearcoat,카네이션 꽃 액세서리 (클리어코트 페인트),15600,0.85,액세서리,assets/models/PltFlwMum0.glb,paint_clearcoat
+pltflwmum0_fabric_sheen,카네이션 꽃 액세서리 (패브릭 쉰),13800,0.95,액세서리,assets/models/PltFlwMum0.glb,fabric_sheen
+pltflwmum0_glass_clear,카네이션 꽃 액세서리 (클리어 글래스),19200,0.6,액세서리,assets/models/PltFlwMum0.glb,glass_clear
+pltflwmum0_resin_tinted,카네이션 꽃 액세서리 (틴티드 레진),17400,0.75,액세서리,assets/models/PltFlwMum0.glb,resin_tinted
+pltflwmum0_matcap_clay,카네이션 꽃 액세서리 (클레이),12600,1,액세서리,assets/models/PltFlwMum0.glb,matcap_clay
+pltflwmum0_matcap_wax,카네이션 꽃 액세서리 (왁스),13200,0.95,액세서리,assets/models/PltFlwMum0.glb,matcap_wax
+pltflwmum0_matcap_chrome,카네이션 꽃 액세서리 (크롬),18600,0.65,액세서리,assets/models/PltFlwMum0.glb,matcap_chrome
+pltflwmum0_matcap_bronze,카네이션 꽃 액세서리 (브론즈),16800,0.8,액세서리,assets/models/PltFlwMum0.glb,matcap_bronze
+pltflwmum0_matcap_black_rubber,카네이션 꽃 액세서리 (블랙 러버),13000,1,액세서리,assets/models/PltFlwMum0.glb,matcap_black_rubber
+pltflwmum0_matcap_red_wax,카네이션 꽃 액세서리 (레드 왁스),13800,0.9,액세서리,assets/models/PltFlwMum0.glb,matcap_red_wax
+pltflwmum0_matcap_white_ceramic,카네이션 꽃 액세서리 (화이트 세라믹),15000,0.85,액세서리,assets/models/PltFlwMum0.glb,matcap_white_ceramic
+pltflwmum0_matcap_blue_gloss,카네이션 꽃 액세서리 (블루 글로시),14400,0.9,액세서리,assets/models/PltFlwMum0.glb,matcap_blue_gloss
+pltflwmum0_matcap_gold,카네이션 꽃 액세서리 (골드),20400,0.5,액세서리,assets/models/PltFlwMum0.glb,matcap_gold
+pltflwmum0_matcap_silver_soft,카네이션 꽃 액세서리 (소프트 실버),16200,0.8,액세서리,assets/models/PltFlwMum0.glb,matcap_silver_soft
+pltflwmumseedling_plastic_matte,카네이션 잎 액세서리 (매트 플라스틱),8000,1.3,액세서리,assets/models/PltFlwMumSeedling.glb,plastic_matte
+pltflwmumseedling_plastic_gloss,카네이션 잎 액세서리 (글로시 플라스틱),8800,1.25,액세서리,assets/models/PltFlwMumSeedling.glb,plastic_gloss
+pltflwmumseedling_rubber_soft,카네이션 잎 액세서리 (소프트 러버),8400,1.3,액세서리,assets/models/PltFlwMumSeedling.glb,rubber_soft
+pltflwmumseedling_ceramic_clean,카네이션 잎 액세서리 (클린 세라믹),9600,1.2,액세서리,assets/models/PltFlwMumSeedling.glb,ceramic_clean
+pltflwmumseedling_metal_brushed,카네이션 잎 액세서리 (브러시드 메탈),10800,1.1,액세서리,assets/models/PltFlwMumSeedling.glb,metal_brushed
+pltflwmumseedling_metal_polished,카네이션 잎 액세서리 (폴리시드 메탈),12000,1,액세서리,assets/models/PltFlwMumSeedling.glb,metal_polished
+pltflwmumseedling_paint_clearcoat,카네이션 잎 액세서리 (클리어코트 페인트),10400,1.15,액세서리,assets/models/PltFlwMumSeedling.glb,paint_clearcoat
+pltflwmumseedling_fabric_sheen,카네이션 잎 액세서리 (패브릭 쉰),9200,1.25,액세서리,assets/models/PltFlwMumSeedling.glb,fabric_sheen
+pltflwmumseedling_glass_clear,카네이션 잎 액세서리 (클리어 글래스),12800,0.9,액세서리,assets/models/PltFlwMumSeedling.glb,glass_clear
+pltflwmumseedling_resin_tinted,카네이션 잎 액세서리 (틴티드 레진),11600,1.05,액세서리,assets/models/PltFlwMumSeedling.glb,resin_tinted
+pltflwmumseedling_matcap_clay,카네이션 잎 액세서리 (클레이),8400,1.3,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_clay
+pltflwmumseedling_matcap_wax,카네이션 잎 액세서리 (왁스),8800,1.25,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_wax
+pltflwmumseedling_matcap_chrome,카네이션 잎 액세서리 (크롬),12400,0.95,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_chrome
+pltflwmumseedling_matcap_bronze,카네이션 잎 액세서리 (브론즈),11200,1.1,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_bronze
+pltflwmumseedling_matcap_black_rubber,카네이션 잎 액세서리 (블랙 러버),8600,1.3,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_black_rubber
+pltflwmumseedling_matcap_red_wax,카네이션 잎 액세서리 (레드 왁스),9200,1.2,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_red_wax
+pltflwmumseedling_matcap_white_ceramic,카네이션 잎 액세서리 (화이트 세라믹),10000,1.15,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_white_ceramic
+pltflwmumseedling_matcap_blue_gloss,카네이션 잎 액세서리 (블루 글로시),9600,1.2,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_blue_gloss
+pltflwmumseedling_matcap_gold,카네이션 잎 액세서리 (골드),13600,0.8,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_gold
+pltflwmumseedling_matcap_silver_soft,카네이션 잎 액세서리 (소프트 실버),10800,1.1,액세서리,assets/models/PltFlwMumSeedling.glb,matcap_silver_soft
+pltflwpansy0_plastic_matte,팬시 꽃 (매트 플라스틱),10000,1.2,액세서리,assets/models/PltFlwPansy0.glb,plastic_matte
+pltflwpansy0_plastic_gloss,팬시 꽃 (글로시 플라스틱),11000,1.15,액세서리,assets/models/PltFlwPansy0.glb,plastic_gloss
+pltflwpansy0_rubber_soft,팬시 꽃 (소프트 러버),10500,1.2,액세서리,assets/models/PltFlwPansy0.glb,rubber_soft
+pltflwpansy0_ceramic_clean,팬시 꽃 (클린 세라믹),12000,1.1,액세서리,assets/models/PltFlwPansy0.glb,ceramic_clean
+pltflwpansy0_metal_brushed,팬시 꽃 (브러시드 메탈),13500,1,액세서리,assets/models/PltFlwPansy0.glb,metal_brushed
+pltflwpansy0_metal_polished,팬시 꽃 (폴리시드 메탈),15000,0.9,액세서리,assets/models/PltFlwPansy0.glb,metal_polished
+pltflwpansy0_paint_clearcoat,팬시 꽃 (클리어코트 페인트),13000,1.05,액세서리,assets/models/PltFlwPansy0.glb,paint_clearcoat
+pltflwpansy0_fabric_sheen,팬시 꽃 (패브릭 쉰),11500,1.15,액세서리,assets/models/PltFlwPansy0.glb,fabric_sheen
+pltflwpansy0_glass_clear,팬시 꽃 (클리어 글래스),16000,0.8,액세서리,assets/models/PltFlwPansy0.glb,glass_clear
+pltflwpansy0_resin_tinted,팬시 꽃 (틴티드 레진),14500,0.95,액세서리,assets/models/PltFlwPansy0.glb,resin_tinted
+pltflwpansy0_matcap_clay,팬시 꽃 (클레이),10500,1.2,액세서리,assets/models/PltFlwPansy0.glb,matcap_clay
+pltflwpansy0_matcap_wax,팬시 꽃 (왁스),11000,1.15,액세서리,assets/models/PltFlwPansy0.glb,matcap_wax
+pltflwpansy0_matcap_chrome,팬시 꽃 (크롬),15500,0.85,액세서리,assets/models/PltFlwPansy0.glb,matcap_chrome
+pltflwpansy0_matcap_bronze,팬시 꽃 (브론즈),14000,1,액세서리,assets/models/PltFlwPansy0.glb,matcap_bronze
+pltflwpansy0_matcap_black_rubber,팬시 꽃 (블랙 러버),10800,1.2,액세서리,assets/models/PltFlwPansy0.glb,matcap_black_rubber
+pltflwpansy0_matcap_red_wax,팬시 꽃 (레드 왁스),11500,1.1,액세서리,assets/models/PltFlwPansy0.glb,matcap_red_wax
+pltflwpansy0_matcap_white_ceramic,팬시 꽃 (화이트 세라믹),12500,1.05,액세서리,assets/models/PltFlwPansy0.glb,matcap_white_ceramic
+pltflwpansy0_matcap_blue_gloss,팬시 꽃 (블루 글로시),12000,1.1,액세서리,assets/models/PltFlwPansy0.glb,matcap_blue_gloss
+pltflwpansy0_matcap_gold,팬시 꽃 (골드),17000,0.7,액세서리,assets/models/PltFlwPansy0.glb,matcap_gold
+pltflwpansy0_matcap_silver_soft,팬시 꽃 (소프트 실버),13500,1,액세서리,assets/models/PltFlwPansy0.glb,matcap_silver_soft
+pltflwrose0_plastic_matte,장미 꽃봉오리 (매트 플라스틱),12000,1,액세서리,assets/models/PltFlwRose0.glb,plastic_matte
+pltflwrose0_plastic_gloss,장미 꽃봉오리 (글로시 플라스틱),13200,0.95,액세서리,assets/models/PltFlwRose0.glb,plastic_gloss
+pltflwrose0_rubber_soft,장미 꽃봉오리 (소프트 러버),12600,1,액세서리,assets/models/PltFlwRose0.glb,rubber_soft
+pltflwrose0_ceramic_clean,장미 꽃봉오리 (클린 세라믹),14400,0.9,액세서리,assets/models/PltFlwRose0.glb,ceramic_clean
+pltflwrose0_metal_brushed,장미 꽃봉오리 (브러시드 메탈),16200,0.8,액세서리,assets/models/PltFlwRose0.glb,metal_brushed
+pltflwrose0_metal_polished,장미 꽃봉오리 (폴리시드 메탈),18000,0.7,액세서리,assets/models/PltFlwRose0.glb,metal_polished
+pltflwrose0_paint_clearcoat,장미 꽃봉오리 (클리어코트 페인트),15600,0.85,액세서리,assets/models/PltFlwRose0.glb,paint_clearcoat
+pltflwrose0_fabric_sheen,장미 꽃봉오리 (패브릭 쉰),13800,0.95,액세서리,assets/models/PltFlwRose0.glb,fabric_sheen
+pltflwrose0_glass_clear,장미 꽃봉오리 (클리어 글래스),19200,0.6,액세서리,assets/models/PltFlwRose0.glb,glass_clear
+pltflwrose0_resin_tinted,장미 꽃봉오리 (틴티드 레진),17400,0.75,액세서리,assets/models/PltFlwRose0.glb,resin_tinted
+pltflwrose0_matcap_clay,장미 꽃봉오리 (클레이),12600,1,액세서리,assets/models/PltFlwRose0.glb,matcap_clay
+pltflwrose0_matcap_wax,장미 꽃봉오리 (왁스),13200,0.95,액세서리,assets/models/PltFlwRose0.glb,matcap_wax
+pltflwrose0_matcap_chrome,장미 꽃봉오리 (크롬),18600,0.65,액세서리,assets/models/PltFlwRose0.glb,matcap_chrome
+pltflwrose0_matcap_bronze,장미 꽃봉오리 (브론즈),16800,0.8,액세서리,assets/models/PltFlwRose0.glb,matcap_bronze
+pltflwrose0_matcap_black_rubber,장미 꽃봉오리 (블랙 러버),13000,1,액세서리,assets/models/PltFlwRose0.glb,matcap_black_rubber
+pltflwrose0_matcap_red_wax,장미 꽃봉오리 (레드 왁스),13800,0.9,액세서리,assets/models/PltFlwRose0.glb,matcap_red_wax
+pltflwrose0_matcap_white_ceramic,장미 꽃봉오리 (화이트 세라믹),15000,0.85,액세서리,assets/models/PltFlwRose0.glb,matcap_white_ceramic
+pltflwrose0_matcap_blue_gloss,장미 꽃봉오리 (블루 글로시),14400,0.9,액세서리,assets/models/PltFlwRose0.glb,matcap_blue_gloss
+pltflwrose0_matcap_gold,장미 꽃봉오리 (골드),20400,0.5,액세서리,assets/models/PltFlwRose0.glb,matcap_gold
+pltflwrose0_matcap_silver_soft,장미 꽃봉오리 (소프트 실버),16200,0.8,액세서리,assets/models/PltFlwRose0.glb,matcap_silver_soft
+pltflwroseseedling_plastic_matte,장미 묘목 (매트 플라스틱),5000,1.8,액세서리,assets/models/PltFlwRoseSeedling.glb,plastic_matte
+pltflwroseseedling_plastic_gloss,장미 묘목 (글로시 플라스틱),5500,1.75,액세서리,assets/models/PltFlwRoseSeedling.glb,plastic_gloss
+pltflwroseseedling_rubber_soft,장미 묘목 (소프트 러버),5300,1.8,액세서리,assets/models/PltFlwRoseSeedling.glb,rubber_soft
+pltflwroseseedling_ceramic_clean,장미 묘목 (클린 세라믹),6000,1.7,액세서리,assets/models/PltFlwRoseSeedling.glb,ceramic_clean
+pltflwroseseedling_metal_brushed,장미 묘목 (브러시드 메탈),6800,1.6,액세서리,assets/models/PltFlwRoseSeedling.glb,metal_brushed
+pltflwroseseedling_metal_polished,장미 묘목 (폴리시드 메탈),7500,1.5,액세서리,assets/models/PltFlwRoseSeedling.glb,metal_polished
+pltflwroseseedling_paint_clearcoat,장미 묘목 (클리어코트 페인트),6500,1.65,액세서리,assets/models/PltFlwRoseSeedling.glb,paint_clearcoat
+pltflwroseseedling_fabric_sheen,장미 묘목 (패브릭 쉰),5800,1.75,액세서리,assets/models/PltFlwRoseSeedling.glb,fabric_sheen
+pltflwroseseedling_glass_clear,장미 묘목 (클리어 글래스),8000,1.4,액세서리,assets/models/PltFlwRoseSeedling.glb,glass_clear
+pltflwroseseedling_resin_tinted,장미 묘목 (틴티드 레진),7300,1.55,액세서리,assets/models/PltFlwRoseSeedling.glb,resin_tinted
+pltflwroseseedling_matcap_clay,장미 묘목 (클레이),5300,1.8,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_clay
+pltflwroseseedling_matcap_wax,장미 묘목 (왁스),5500,1.75,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_wax
+pltflwroseseedling_matcap_chrome,장미 묘목 (크롬),7800,1.45,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_chrome
+pltflwroseseedling_matcap_bronze,장미 묘목 (브론즈),7000,1.6,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_bronze
+pltflwroseseedling_matcap_black_rubber,장미 묘목 (블랙 러버),5400,1.8,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_black_rubber
+pltflwroseseedling_matcap_red_wax,장미 묘목 (레드 왁스),5800,1.7,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_red_wax
+pltflwroseseedling_matcap_white_ceramic,장미 묘목 (화이트 세라믹),6300,1.65,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_white_ceramic
+pltflwroseseedling_matcap_blue_gloss,장미 묘목 (블루 글로시),6000,1.7,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_blue_gloss
+pltflwroseseedling_matcap_gold,장미 묘목 (골드),8500,1.3,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_gold
+pltflwroseseedling_matcap_silver_soft,장미 묘목 (소프트 실버),6800,1.6,액세서리,assets/models/PltFlwRoseSeedling.glb,matcap_silver_soft
+pltflwtulip0_plastic_matte,튤립 꽃봉오리 (매트 플라스틱),11000,1.3,액세서리,assets/models/PltFlwTulip0.glb,plastic_matte
+pltflwtulip0_plastic_gloss,튤립 꽃봉오리 (글로시 플라스틱),12100,1.25,액세서리,assets/models/PltFlwTulip0.glb,plastic_gloss
+pltflwtulip0_rubber_soft,튤립 꽃봉오리 (소프트 러버),11600,1.3,액세서리,assets/models/PltFlwTulip0.glb,rubber_soft
+pltflwtulip0_ceramic_clean,튤립 꽃봉오리 (클린 세라믹),13200,1.2,액세서리,assets/models/PltFlwTulip0.glb,ceramic_clean
+pltflwtulip0_metal_brushed,튤립 꽃봉오리 (브러시드 메탈),14900,1.1,액세서리,assets/models/PltFlwTulip0.glb,metal_brushed
+pltflwtulip0_metal_polished,튤립 꽃봉오리 (폴리시드 메탈),16500,1,액세서리,assets/models/PltFlwTulip0.glb,metal_polished
+pltflwtulip0_paint_clearcoat,튤립 꽃봉오리 (클리어코트 페인트),14300,1.15,액세서리,assets/models/PltFlwTulip0.glb,paint_clearcoat
+pltflwtulip0_fabric_sheen,튤립 꽃봉오리 (패브릭 쉰),12600,1.25,액세서리,assets/models/PltFlwTulip0.glb,fabric_sheen
+pltflwtulip0_glass_clear,튤립 꽃봉오리 (클리어 글래스),17600,0.9,액세서리,assets/models/PltFlwTulip0.glb,glass_clear
+pltflwtulip0_resin_tinted,튤립 꽃봉오리 (틴티드 레진),16000,1.05,액세서리,assets/models/PltFlwTulip0.glb,resin_tinted
+pltflwtulip0_matcap_clay,튤립 꽃봉오리 (클레이),11600,1.3,액세서리,assets/models/PltFlwTulip0.glb,matcap_clay
+pltflwtulip0_matcap_wax,튤립 꽃봉오리 (왁스),12100,1.25,액세서리,assets/models/PltFlwTulip0.glb,matcap_wax
+pltflwtulip0_matcap_chrome,튤립 꽃봉오리 (크롬),17100,0.95,액세서리,assets/models/PltFlwTulip0.glb,matcap_chrome
+pltflwtulip0_matcap_bronze,튤립 꽃봉오리 (브론즈),15400,1.1,액세서리,assets/models/PltFlwTulip0.glb,matcap_bronze
+pltflwtulip0_matcap_black_rubber,튤립 꽃봉오리 (블랙 러버),11900,1.3,액세서리,assets/models/PltFlwTulip0.glb,matcap_black_rubber
+pltflwtulip0_matcap_red_wax,튤립 꽃봉오리 (레드 왁스),12600,1.2,액세서리,assets/models/PltFlwTulip0.glb,matcap_red_wax
+pltflwtulip0_matcap_white_ceramic,튤립 꽃봉오리 (화이트 세라믹),13800,1.15,액세서리,assets/models/PltFlwTulip0.glb,matcap_white_ceramic
+pltflwtulip0_matcap_blue_gloss,튤립 꽃봉오리 (블루 글로시),13200,1.2,액세서리,assets/models/PltFlwTulip0.glb,matcap_blue_gloss
+pltflwtulip0_matcap_gold,튤립 꽃봉오리 (골드),18700,0.8,액세서리,assets/models/PltFlwTulip0.glb,matcap_gold
+pltflwtulip0_matcap_silver_soft,튤립 꽃봉오리 (소프트 실버),14900,1.1,액세서리,assets/models/PltFlwTulip0.glb,matcap_silver_soft
+pltflwyuri0_plastic_matte,유리 꽃 (매트 플라스틱),20000,0.6,액세서리,assets/models/PltFlwYuri0.glb,plastic_matte
+pltflwyuri0_plastic_gloss,유리 꽃 (글로시 플라스틱),22000,0.55,액세서리,assets/models/PltFlwYuri0.glb,plastic_gloss
+pltflwyuri0_rubber_soft,유리 꽃 (소프트 러버),21000,0.6,액세서리,assets/models/PltFlwYuri0.glb,rubber_soft
+pltflwyuri0_ceramic_clean,유리 꽃 (클린 세라믹),24000,0.5,액세서리,assets/models/PltFlwYuri0.glb,ceramic_clean
+pltflwyuri0_metal_brushed,유리 꽃 (브러시드 메탈),27000,0.4,액세서리,assets/models/PltFlwYuri0.glb,metal_brushed
+pltflwyuri0_metal_polished,유리 꽃 (폴리시드 메탈),30000,0.3,액세서리,assets/models/PltFlwYuri0.glb,metal_polished
+pltflwyuri0_paint_clearcoat,유리 꽃 (클리어코트 페인트),26000,0.45,액세서리,assets/models/PltFlwYuri0.glb,paint_clearcoat
+pltflwyuri0_fabric_sheen,유리 꽃 (패브릭 쉰),23000,0.55,액세서리,assets/models/PltFlwYuri0.glb,fabric_sheen
+pltflwyuri0_glass_clear,유리 꽃 (클리어 글래스),32000,0.2,액세서리,assets/models/PltFlwYuri0.glb,glass_clear
+pltflwyuri0_resin_tinted,유리 꽃 (틴티드 레진),29000,0.35,액세서리,assets/models/PltFlwYuri0.glb,resin_tinted
+pltflwyuri0_matcap_clay,유리 꽃 (클레이),21000,0.6,액세서리,assets/models/PltFlwYuri0.glb,matcap_clay
+pltflwyuri0_matcap_wax,유리 꽃 (왁스),22000,0.55,액세서리,assets/models/PltFlwYuri0.glb,matcap_wax
+pltflwyuri0_matcap_chrome,유리 꽃 (크롬),31000,0.25,액세서리,assets/models/PltFlwYuri0.glb,matcap_chrome
+pltflwyuri0_matcap_bronze,유리 꽃 (브론즈),28000,0.4,액세서리,assets/models/PltFlwYuri0.glb,matcap_bronze
+pltflwyuri0_matcap_black_rubber,유리 꽃 (블랙 러버),21600,0.6,액세서리,assets/models/PltFlwYuri0.glb,matcap_black_rubber
+pltflwyuri0_matcap_red_wax,유리 꽃 (레드 왁스),23000,0.5,액세서리,assets/models/PltFlwYuri0.glb,matcap_red_wax
+pltflwyuri0_matcap_white_ceramic,유리 꽃 (화이트 세라믹),25000,0.45,액세서리,assets/models/PltFlwYuri0.glb,matcap_white_ceramic
+pltflwyuri0_matcap_blue_gloss,유리 꽃 (블루 글로시),24000,0.5,액세서리,assets/models/PltFlwYuri0.glb,matcap_blue_gloss
+pltflwyuri0_matcap_gold,유리 꽃 (골드),34000,0.1,액세서리,assets/models/PltFlwYuri0.glb,matcap_gold
+pltflwyuri0_matcap_silver_soft,유리 꽃 (소프트 실버),27000,0.4,액세서리,assets/models/PltFlwYuri0.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+accessorymouthleafgreen_plastic_matte,액세서리 마우스 리프 그린 (매트 플라스틱),15000,1.2,액세서리,assets/models/AccessoryMouthLeafGreen.glb,plastic_matte
+accessorymouthleafgreen_plastic_gloss,액세서리 마우스 리프 그린 (글로시 플라스틱),16500,1.15,액세서리,assets/models/AccessoryMouthLeafGreen.glb,plastic_gloss
+accessorymouthleafgreen_rubber_soft,액세서리 마우스 리프 그린 (소프트 러버),15800,1.2,액세서리,assets/models/AccessoryMouthLeafGreen.glb,rubber_soft
+accessorymouthleafgreen_ceramic_clean,액세서리 마우스 리프 그린 (클린 세라믹),18000,1.1,액세서리,assets/models/AccessoryMouthLeafGreen.glb,ceramic_clean
+accessorymouthleafgreen_metal_brushed,액세서리 마우스 리프 그린 (브러시드 메탈),20300,1,액세서리,assets/models/AccessoryMouthLeafGreen.glb,metal_brushed
+accessorymouthleafgreen_metal_polished,액세서리 마우스 리프 그린 (폴리시드 메탈),22500,0.9,액세서리,assets/models/AccessoryMouthLeafGreen.glb,metal_polished
+accessorymouthleafgreen_paint_clearcoat,액세서리 마우스 리프 그린 (클리어코트 페인트),19500,1.05,액세서리,assets/models/AccessoryMouthLeafGreen.glb,paint_clearcoat
+accessorymouthleafgreen_fabric_sheen,액세서리 마우스 리프 그린 (패브릭 쉰),17300,1.15,액세서리,assets/models/AccessoryMouthLeafGreen.glb,fabric_sheen
+accessorymouthleafgreen_glass_clear,액세서리 마우스 리프 그린 (클리어 글래스),24000,0.8,액세서리,assets/models/AccessoryMouthLeafGreen.glb,glass_clear
+accessorymouthleafgreen_resin_tinted,액세서리 마우스 리프 그린 (틴티드 레진),21800,0.95,액세서리,assets/models/AccessoryMouthLeafGreen.glb,resin_tinted
+accessorymouthleafgreen_matcap_clay,액세서리 마우스 리프 그린 (클레이),15800,1.2,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_clay
+accessorymouthleafgreen_matcap_wax,액세서리 마우스 리프 그린 (왁스),16500,1.15,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_wax
+accessorymouthleafgreen_matcap_chrome,액세서리 마우스 리프 그린 (크롬),23300,0.85,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_chrome
+accessorymouthleafgreen_matcap_bronze,액세서리 마우스 리프 그린 (브론즈),21000,1,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_bronze
+accessorymouthleafgreen_matcap_black_rubber,액세서리 마우스 리프 그린 (블랙 러버),16200,1.2,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_black_rubber
+accessorymouthleafgreen_matcap_red_wax,액세서리 마우스 리프 그린 (레드 왁스),17300,1.1,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_red_wax
+accessorymouthleafgreen_matcap_white_ceramic,액세서리 마우스 리프 그린 (화이트 세라믹),18800,1.05,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_white_ceramic
+accessorymouthleafgreen_matcap_blue_gloss,액세서리 마우스 리프 그린 (블루 글로시),18000,1.1,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_blue_gloss
+accessorymouthleafgreen_matcap_gold,액세서리 마우스 리프 그린 (골드),25500,0.7,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_gold
+accessorymouthleafgreen_matcap_silver_soft,액세서리 마우스 리프 그린 (소프트 실버),20300,1,액세서리,assets/models/AccessoryMouthLeafGreen.glb,matcap_silver_soft
+accessorymouthpasta_plastic_matte,액세서리 마우스 파스타 (매트 플라스틱),14000,1.3,액세서리,assets/models/AccessoryMouthPasta.glb,plastic_matte
+accessorymouthpasta_plastic_gloss,액세서리 마우스 파스타 (글로시 플라스틱),15400,1.25,액세서리,assets/models/AccessoryMouthPasta.glb,plastic_gloss
+accessorymouthpasta_rubber_soft,액세서리 마우스 파스타 (소프트 러버),14700,1.3,액세서리,assets/models/AccessoryMouthPasta.glb,rubber_soft
+accessorymouthpasta_ceramic_clean,액세서리 마우스 파스타 (클린 세라믹),16800,1.2,액세서리,assets/models/AccessoryMouthPasta.glb,ceramic_clean
+accessorymouthpasta_metal_brushed,액세서리 마우스 파스타 (브러시드 메탈),18900,1.1,액세서리,assets/models/AccessoryMouthPasta.glb,metal_brushed
+accessorymouthpasta_metal_polished,액세서리 마우스 파스타 (폴리시드 메탈),21000,1,액세서리,assets/models/AccessoryMouthPasta.glb,metal_polished
+accessorymouthpasta_paint_clearcoat,액세서리 마우스 파스타 (클리어코트 페인트),18200,1.15,액세서리,assets/models/AccessoryMouthPasta.glb,paint_clearcoat
+accessorymouthpasta_fabric_sheen,액세서리 마우스 파스타 (패브릭 쉰),16100,1.25,액세서리,assets/models/AccessoryMouthPasta.glb,fabric_sheen
+accessorymouthpasta_glass_clear,액세서리 마우스 파스타 (클리어 글래스),22400,0.9,액세서리,assets/models/AccessoryMouthPasta.glb,glass_clear
+accessorymouthpasta_resin_tinted,액세서리 마우스 파스타 (틴티드 레진),20300,1.05,액세서리,assets/models/AccessoryMouthPasta.glb,resin_tinted
+accessorymouthpasta_matcap_clay,액세서리 마우스 파스타 (클레이),14700,1.3,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_clay
+accessorymouthpasta_matcap_wax,액세서리 마우스 파스타 (왁스),15400,1.25,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_wax
+accessorymouthpasta_matcap_chrome,액세서리 마우스 파스타 (크롬),21700,0.95,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_chrome
+accessorymouthpasta_matcap_bronze,액세서리 마우스 파스타 (브론즈),19600,1.1,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_bronze
+accessorymouthpasta_matcap_black_rubber,액세서리 마우스 파스타 (블랙 러버),15100,1.3,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_black_rubber
+accessorymouthpasta_matcap_red_wax,액세서리 마우스 파스타 (레드 왁스),16100,1.2,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_red_wax
+accessorymouthpasta_matcap_white_ceramic,액세서리 마우스 파스타 (화이트 세라믹),17500,1.15,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_white_ceramic
+accessorymouthpasta_matcap_blue_gloss,액세서리 마우스 파스타 (블루 글로시),16800,1.2,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_blue_gloss
+accessorymouthpasta_matcap_gold,액세서리 마우스 파스타 (골드),23800,0.8,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_gold
+accessorymouthpasta_matcap_silver_soft,액세서리 마우스 파스타 (소프트 실버),18900,1.1,액세서리,assets/models/AccessoryMouthPasta.glb,matcap_silver_soft
+accessorymouthpigpink_plastic_matte,액세서리 마우스 피그 핑크 (매트 플라스틱),20000,1,액세서리,assets/models/AccessoryMouthPigPink.glb,plastic_matte
+accessorymouthpigpink_plastic_gloss,액세서리 마우스 피그 핑크 (글로시 플라스틱),22000,0.95,액세서리,assets/models/AccessoryMouthPigPink.glb,plastic_gloss
+accessorymouthpigpink_rubber_soft,액세서리 마우스 피그 핑크 (소프트 러버),21000,1,액세서리,assets/models/AccessoryMouthPigPink.glb,rubber_soft
+accessorymouthpigpink_ceramic_clean,액세서리 마우스 피그 핑크 (클린 세라믹),24000,0.9,액세서리,assets/models/AccessoryMouthPigPink.glb,ceramic_clean
+accessorymouthpigpink_metal_brushed,액세서리 마우스 피그 핑크 (브러시드 메탈),27000,0.8,액세서리,assets/models/AccessoryMouthPigPink.glb,metal_brushed
+accessorymouthpigpink_metal_polished,액세서리 마우스 피그 핑크 (폴리시드 메탈),30000,0.7,액세서리,assets/models/AccessoryMouthPigPink.glb,metal_polished
+accessorymouthpigpink_paint_clearcoat,액세서리 마우스 피그 핑크 (클리어코트 페인트),26000,0.85,액세서리,assets/models/AccessoryMouthPigPink.glb,paint_clearcoat
+accessorymouthpigpink_fabric_sheen,액세서리 마우스 피그 핑크 (패브릭 쉰),23000,0.95,액세서리,assets/models/AccessoryMouthPigPink.glb,fabric_sheen
+accessorymouthpigpink_glass_clear,액세서리 마우스 피그 핑크 (클리어 글래스),32000,0.6,액세서리,assets/models/AccessoryMouthPigPink.glb,glass_clear
+accessorymouthpigpink_resin_tinted,액세서리 마우스 피그 핑크 (틴티드 레진),29000,0.75,액세서리,assets/models/AccessoryMouthPigPink.glb,resin_tinted
+accessorymouthpigpink_matcap_clay,액세서리 마우스 피그 핑크 (클레이),21000,1,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_clay
+accessorymouthpigpink_matcap_wax,액세서리 마우스 피그 핑크 (왁스),22000,0.95,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_wax
+accessorymouthpigpink_matcap_chrome,액세서리 마우스 피그 핑크 (크롬),31000,0.65,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_chrome
+accessorymouthpigpink_matcap_bronze,액세서리 마우스 피그 핑크 (브론즈),28000,0.8,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_bronze
+accessorymouthpigpink_matcap_black_rubber,액세서리 마우스 피그 핑크 (블랙 러버),21600,1,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_black_rubber
+accessorymouthpigpink_matcap_red_wax,액세서리 마우스 피그 핑크 (레드 왁스),23000,0.9,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_red_wax
+accessorymouthpigpink_matcap_white_ceramic,액세서리 마우스 피그 핑크 (화이트 세라믹),25000,0.85,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_white_ceramic
+accessorymouthpigpink_matcap_blue_gloss,액세서리 마우스 피그 핑크 (블루 글로시),24000,0.9,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_blue_gloss
+accessorymouthpigpink_matcap_gold,액세서리 마우스 피그 핑크 (골드),34000,0.5,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_gold
+accessorymouthpigpink_matcap_silver_soft,액세서리 마우스 피그 핑크 (소프트 실버),27000,0.8,액세서리,assets/models/AccessoryMouthPigPink.glb,matcap_silver_soft
+accessorymouthrabbit0_plastic_matte,액세서리 마우스 라빗 0 (매트 플라스틱),22000,0.9,액세서리,assets/models/AccessoryMouthRabbit0.glb,plastic_matte
+accessorymouthrabbit0_plastic_gloss,액세서리 마우스 라빗 0 (글로시 플라스틱),24200,0.85,액세서리,assets/models/AccessoryMouthRabbit0.glb,plastic_gloss
+accessorymouthrabbit0_rubber_soft,액세서리 마우스 라빗 0 (소프트 러버),23100,0.9,액세서리,assets/models/AccessoryMouthRabbit0.glb,rubber_soft
+accessorymouthrabbit0_ceramic_clean,액세서리 마우스 라빗 0 (클린 세라믹),26400,0.8,액세서리,assets/models/AccessoryMouthRabbit0.glb,ceramic_clean
+accessorymouthrabbit0_metal_brushed,액세서리 마우스 라빗 0 (브러시드 메탈),29700,0.7,액세서리,assets/models/AccessoryMouthRabbit0.glb,metal_brushed
+accessorymouthrabbit0_metal_polished,액세서리 마우스 라빗 0 (폴리시드 메탈),33000,0.6,액세서리,assets/models/AccessoryMouthRabbit0.glb,metal_polished
+accessorymouthrabbit0_paint_clearcoat,액세서리 마우스 라빗 0 (클리어코트 페인트),28600,0.75,액세서리,assets/models/AccessoryMouthRabbit0.glb,paint_clearcoat
+accessorymouthrabbit0_fabric_sheen,액세서리 마우스 라빗 0 (패브릭 쉰),25300,0.85,액세서리,assets/models/AccessoryMouthRabbit0.glb,fabric_sheen
+accessorymouthrabbit0_glass_clear,액세서리 마우스 라빗 0 (클리어 글래스),35200,0.5,액세서리,assets/models/AccessoryMouthRabbit0.glb,glass_clear
+accessorymouthrabbit0_resin_tinted,액세서리 마우스 라빗 0 (틴티드 레진),31900,0.65,액세서리,assets/models/AccessoryMouthRabbit0.glb,resin_tinted
+accessorymouthrabbit0_matcap_clay,액세서리 마우스 라빗 0 (클레이),23100,0.9,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_clay
+accessorymouthrabbit0_matcap_wax,액세서리 마우스 라빗 0 (왁스),24200,0.85,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_wax
+accessorymouthrabbit0_matcap_chrome,액세서리 마우스 라빗 0 (크롬),34100,0.55,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_chrome
+accessorymouthrabbit0_matcap_bronze,액세서리 마우스 라빗 0 (브론즈),30800,0.7,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_bronze
+accessorymouthrabbit0_matcap_black_rubber,액세서리 마우스 라빗 0 (블랙 러버),23800,0.9,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_black_rubber
+accessorymouthrabbit0_matcap_red_wax,액세서리 마우스 라빗 0 (레드 왁스),25300,0.8,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_red_wax
+accessorymouthrabbit0_matcap_white_ceramic,액세서리 마우스 라빗 0 (화이트 세라믹),27500,0.75,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_white_ceramic
+accessorymouthrabbit0_matcap_blue_gloss,액세서리 마우스 라빗 0 (블루 글로시),26400,0.8,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_blue_gloss
+accessorymouthrabbit0_matcap_gold,액세서리 마우스 라빗 0 (골드),37400,0.4,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_gold
+accessorymouthrabbit0_matcap_silver_soft,액세서리 마우스 라빗 0 (소프트 실버),29700,0.7,액세서리,assets/models/AccessoryMouthRabbit0.glb,matcap_silver_soft
+accessorymouthrice_plastic_matte,액세서리 마우스 라이스 (매트 플라스틱),16000,1.2,액세서리,assets/models/AccessoryMouthRice.glb,plastic_matte
+accessorymouthrice_plastic_gloss,액세서리 마우스 라이스 (글로시 플라스틱),17600,1.15,액세서리,assets/models/AccessoryMouthRice.glb,plastic_gloss
+accessorymouthrice_rubber_soft,액세서리 마우스 라이스 (소프트 러버),16800,1.2,액세서리,assets/models/AccessoryMouthRice.glb,rubber_soft
+accessorymouthrice_ceramic_clean,액세서리 마우스 라이스 (클린 세라믹),19200,1.1,액세서리,assets/models/AccessoryMouthRice.glb,ceramic_clean
+accessorymouthrice_metal_brushed,액세서리 마우스 라이스 (브러시드 메탈),21600,1,액세서리,assets/models/AccessoryMouthRice.glb,metal_brushed
+accessorymouthrice_metal_polished,액세서리 마우스 라이스 (폴리시드 메탈),24000,0.9,액세서리,assets/models/AccessoryMouthRice.glb,metal_polished
+accessorymouthrice_paint_clearcoat,액세서리 마우스 라이스 (클리어코트 페인트),20800,1.05,액세서리,assets/models/AccessoryMouthRice.glb,paint_clearcoat
+accessorymouthrice_fabric_sheen,액세서리 마우스 라이스 (패브릭 쉰),18400,1.15,액세서리,assets/models/AccessoryMouthRice.glb,fabric_sheen
+accessorymouthrice_glass_clear,액세서리 마우스 라이스 (클리어 글래스),25600,0.8,액세서리,assets/models/AccessoryMouthRice.glb,glass_clear
+accessorymouthrice_resin_tinted,액세서리 마우스 라이스 (틴티드 레진),23200,0.95,액세서리,assets/models/AccessoryMouthRice.glb,resin_tinted
+accessorymouthrice_matcap_clay,액세서리 마우스 라이스 (클레이),16800,1.2,액세서리,assets/models/AccessoryMouthRice.glb,matcap_clay
+accessorymouthrice_matcap_wax,액세서리 마우스 라이스 (왁스),17600,1.15,액세서리,assets/models/AccessoryMouthRice.glb,matcap_wax
+accessorymouthrice_matcap_chrome,액세서리 마우스 라이스 (크롬),24800,0.85,액세서리,assets/models/AccessoryMouthRice.glb,matcap_chrome
+accessorymouthrice_matcap_bronze,액세서리 마우스 라이스 (브론즈),22400,1,액세서리,assets/models/AccessoryMouthRice.glb,matcap_bronze
+accessorymouthrice_matcap_black_rubber,액세서리 마우스 라이스 (블랙 러버),17300,1.2,액세서리,assets/models/AccessoryMouthRice.glb,matcap_black_rubber
+accessorymouthrice_matcap_red_wax,액세서리 마우스 라이스 (레드 왁스),18400,1.1,액세서리,assets/models/AccessoryMouthRice.glb,matcap_red_wax
+accessorymouthrice_matcap_white_ceramic,액세서리 마우스 라이스 (화이트 세라믹),20000,1.05,액세서리,assets/models/AccessoryMouthRice.glb,matcap_white_ceramic
+accessorymouthrice_matcap_blue_gloss,액세서리 마우스 라이스 (블루 글로시),19200,1.1,액세서리,assets/models/AccessoryMouthRice.glb,matcap_blue_gloss
+accessorymouthrice_matcap_gold,액세서리 마우스 라이스 (골드),27200,0.7,액세서리,assets/models/AccessoryMouthRice.glb,matcap_gold
+accessorymouthrice_matcap_silver_soft,액세서리 마우스 라이스 (소프트 실버),21600,1,액세서리,assets/models/AccessoryMouthRice.glb,matcap_silver_soft
+accessorypltmouthrose_plastic_matte,Accessory Plt Mouth Rose (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryPltMouthRose.glb,plastic_matte
+accessorypltmouthrose_plastic_gloss,Accessory Plt Mouth Rose (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryPltMouthRose.glb,plastic_gloss
+accessorypltmouthrose_rubber_soft,Accessory Plt Mouth Rose (소프트 러버),15800,1,액세서리,assets/models/AccessoryPltMouthRose.glb,rubber_soft
+accessorypltmouthrose_ceramic_clean,Accessory Plt Mouth Rose (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryPltMouthRose.glb,ceramic_clean
+accessorypltmouthrose_metal_brushed,Accessory Plt Mouth Rose (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryPltMouthRose.glb,metal_brushed
+accessorypltmouthrose_metal_polished,Accessory Plt Mouth Rose (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryPltMouthRose.glb,metal_polished
+accessorypltmouthrose_paint_clearcoat,Accessory Plt Mouth Rose (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryPltMouthRose.glb,paint_clearcoat
+accessorypltmouthrose_fabric_sheen,Accessory Plt Mouth Rose (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryPltMouthRose.glb,fabric_sheen
+accessorypltmouthrose_glass_clear,Accessory Plt Mouth Rose (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryPltMouthRose.glb,glass_clear
+accessorypltmouthrose_resin_tinted,Accessory Plt Mouth Rose (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryPltMouthRose.glb,resin_tinted
+accessorypltmouthrose_matcap_clay,Accessory Plt Mouth Rose (클레이),15800,1,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_clay
+accessorypltmouthrose_matcap_wax,Accessory Plt Mouth Rose (왁스),16500,0.95,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_wax
+accessorypltmouthrose_matcap_chrome,Accessory Plt Mouth Rose (크롬),23300,0.65,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_chrome
+accessorypltmouthrose_matcap_bronze,Accessory Plt Mouth Rose (브론즈),21000,0.8,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_bronze
+accessorypltmouthrose_matcap_black_rubber,Accessory Plt Mouth Rose (블랙 러버),16200,1,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_black_rubber
+accessorypltmouthrose_matcap_red_wax,Accessory Plt Mouth Rose (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_red_wax
+accessorypltmouthrose_matcap_white_ceramic,Accessory Plt Mouth Rose (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_white_ceramic
+accessorypltmouthrose_matcap_blue_gloss,Accessory Plt Mouth Rose (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_blue_gloss
+accessorypltmouthrose_matcap_gold,Accessory Plt Mouth Rose (골드),25500,0.5,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_gold
+accessorypltmouthrose_matcap_silver_soft,Accessory Plt Mouth Rose (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryPltMouthRose.glb,matcap_silver_soft
+agave_plastic_matte,Agave (매트 플라스틱),15000,1,액세서리,assets/models/Agave.glb,plastic_matte
+agave_plastic_gloss,Agave (글로시 플라스틱),16500,0.95,액세서리,assets/models/Agave.glb,plastic_gloss
+agave_rubber_soft,Agave (소프트 러버),15800,1,액세서리,assets/models/Agave.glb,rubber_soft
+agave_ceramic_clean,Agave (클린 세라믹),18000,0.9,액세서리,assets/models/Agave.glb,ceramic_clean
+agave_metal_brushed,Agave (브러시드 메탈),20300,0.8,액세서리,assets/models/Agave.glb,metal_brushed
+agave_metal_polished,Agave (폴리시드 메탈),22500,0.7,액세서리,assets/models/Agave.glb,metal_polished
+agave_paint_clearcoat,Agave (클리어코트 페인트),19500,0.85,액세서리,assets/models/Agave.glb,paint_clearcoat
+agave_fabric_sheen,Agave (패브릭 쉰),17300,0.95,액세서리,assets/models/Agave.glb,fabric_sheen
+agave_glass_clear,Agave (클리어 글래스),24000,0.6,액세서리,assets/models/Agave.glb,glass_clear
+agave_resin_tinted,Agave (틴티드 레진),21800,0.75,액세서리,assets/models/Agave.glb,resin_tinted
+agave_matcap_clay,Agave (클레이),15800,1,액세서리,assets/models/Agave.glb,matcap_clay
+agave_matcap_wax,Agave (왁스),16500,0.95,액세서리,assets/models/Agave.glb,matcap_wax
+agave_matcap_chrome,Agave (크롬),23300,0.65,액세서리,assets/models/Agave.glb,matcap_chrome
+agave_matcap_bronze,Agave (브론즈),21000,0.8,액세서리,assets/models/Agave.glb,matcap_bronze
+agave_matcap_black_rubber,Agave (블랙 러버),16200,1,액세서리,assets/models/Agave.glb,matcap_black_rubber
+agave_matcap_red_wax,Agave (레드 왁스),17300,0.9,액세서리,assets/models/Agave.glb,matcap_red_wax
+agave_matcap_white_ceramic,Agave (화이트 세라믹),18800,0.85,액세서리,assets/models/Agave.glb,matcap_white_ceramic
+agave_matcap_blue_gloss,Agave (블루 글로시),18000,0.9,액세서리,assets/models/Agave.glb,matcap_blue_gloss
+agave_matcap_gold,Agave (골드),25500,0.5,액세서리,assets/models/Agave.glb,matcap_gold
+agave_matcap_silver_soft,Agave (소프트 실버),20300,0.8,액세서리,assets/models/Agave.glb,matcap_silver_soft
+anthurium_plastic_matte,Anthurium (매트 플라스틱),15000,1,액세서리,assets/models/Anthurium.glb,plastic_matte
+anthurium_plastic_gloss,Anthurium (글로시 플라스틱),16500,0.95,액세서리,assets/models/Anthurium.glb,plastic_gloss
+anthurium_rubber_soft,Anthurium (소프트 러버),15800,1,액세서리,assets/models/Anthurium.glb,rubber_soft
+anthurium_ceramic_clean,Anthurium (클린 세라믹),18000,0.9,액세서리,assets/models/Anthurium.glb,ceramic_clean
+anthurium_metal_brushed,Anthurium (브러시드 메탈),20300,0.8,액세서리,assets/models/Anthurium.glb,metal_brushed
+anthurium_metal_polished,Anthurium (폴리시드 메탈),22500,0.7,액세서리,assets/models/Anthurium.glb,metal_polished
+anthurium_paint_clearcoat,Anthurium (클리어코트 페인트),19500,0.85,액세서리,assets/models/Anthurium.glb,paint_clearcoat
+anthurium_fabric_sheen,Anthurium (패브릭 쉰),17300,0.95,액세서리,assets/models/Anthurium.glb,fabric_sheen
+anthurium_glass_clear,Anthurium (클리어 글래스),24000,0.6,액세서리,assets/models/Anthurium.glb,glass_clear
+anthurium_resin_tinted,Anthurium (틴티드 레진),21800,0.75,액세서리,assets/models/Anthurium.glb,resin_tinted
+anthurium_matcap_clay,Anthurium (클레이),15800,1,액세서리,assets/models/Anthurium.glb,matcap_clay
+anthurium_matcap_wax,Anthurium (왁스),16500,0.95,액세서리,assets/models/Anthurium.glb,matcap_wax
+anthurium_matcap_chrome,Anthurium (크롬),23300,0.65,액세서리,assets/models/Anthurium.glb,matcap_chrome
+anthurium_matcap_bronze,Anthurium (브론즈),21000,0.8,액세서리,assets/models/Anthurium.glb,matcap_bronze
+anthurium_matcap_black_rubber,Anthurium (블랙 러버),16200,1,액세서리,assets/models/Anthurium.glb,matcap_black_rubber
+anthurium_matcap_red_wax,Anthurium (레드 왁스),17300,0.9,액세서리,assets/models/Anthurium.glb,matcap_red_wax
+anthurium_matcap_white_ceramic,Anthurium (화이트 세라믹),18800,0.85,액세서리,assets/models/Anthurium.glb,matcap_white_ceramic
+anthurium_matcap_blue_gloss,Anthurium (블루 글로시),18000,0.9,액세서리,assets/models/Anthurium.glb,matcap_blue_gloss
+anthurium_matcap_gold,Anthurium (골드),25500,0.5,액세서리,assets/models/Anthurium.glb,matcap_gold
+anthurium_matcap_silver_soft,Anthurium (소프트 실버),20300,0.8,액세서리,assets/models/Anthurium.glb,matcap_silver_soft
+bagbackpackbody0_plastic_matte,Bag Backpack Body 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagBackpackBody0.glb,plastic_matte
+bagbackpackbody0_plastic_gloss,Bag Backpack Body 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagBackpackBody0.glb,plastic_gloss
+bagbackpackbody0_rubber_soft,Bag Backpack Body 0 (소프트 러버),15800,1,액세서리,assets/models/BagBackpackBody0.glb,rubber_soft
+bagbackpackbody0_ceramic_clean,Bag Backpack Body 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagBackpackBody0.glb,ceramic_clean
+bagbackpackbody0_metal_brushed,Bag Backpack Body 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagBackpackBody0.glb,metal_brushed
+bagbackpackbody0_metal_polished,Bag Backpack Body 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagBackpackBody0.glb,metal_polished
+bagbackpackbody0_paint_clearcoat,Bag Backpack Body 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagBackpackBody0.glb,paint_clearcoat
+bagbackpackbody0_fabric_sheen,Bag Backpack Body 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagBackpackBody0.glb,fabric_sheen
+bagbackpackbody0_glass_clear,Bag Backpack Body 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagBackpackBody0.glb,glass_clear
+bagbackpackbody0_resin_tinted,Bag Backpack Body 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagBackpackBody0.glb,resin_tinted
+bagbackpackbody0_matcap_clay,Bag Backpack Body 0 (클레이),15800,1,액세서리,assets/models/BagBackpackBody0.glb,matcap_clay
+bagbackpackbody0_matcap_wax,Bag Backpack Body 0 (왁스),16500,0.95,액세서리,assets/models/BagBackpackBody0.glb,matcap_wax
+bagbackpackbody0_matcap_chrome,Bag Backpack Body 0 (크롬),23300,0.65,액세서리,assets/models/BagBackpackBody0.glb,matcap_chrome
+bagbackpackbody0_matcap_bronze,Bag Backpack Body 0 (브론즈),21000,0.8,액세서리,assets/models/BagBackpackBody0.glb,matcap_bronze
+bagbackpackbody0_matcap_black_rubber,Bag Backpack Body 0 (블랙 러버),16200,1,액세서리,assets/models/BagBackpackBody0.glb,matcap_black_rubber
+bagbackpackbody0_matcap_red_wax,Bag Backpack Body 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagBackpackBody0.glb,matcap_red_wax
+bagbackpackbody0_matcap_white_ceramic,Bag Backpack Body 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagBackpackBody0.glb,matcap_white_ceramic
+bagbackpackbody0_matcap_blue_gloss,Bag Backpack Body 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagBackpackBody0.glb,matcap_blue_gloss
+bagbackpackbody0_matcap_gold,Bag Backpack Body 0 (골드),25500,0.5,액세서리,assets/models/BagBackpackBody0.glb,matcap_gold
+bagbackpackbody0_matcap_silver_soft,Bag Backpack Body 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagBackpackBody0.glb,matcap_silver_soft
+bagbackpackdal0_plastic_matte,Bag Backpack Dal 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagBackpackDal0.glb,plastic_matte
+bagbackpackdal0_plastic_gloss,Bag Backpack Dal 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagBackpackDal0.glb,plastic_gloss
+bagbackpackdal0_rubber_soft,Bag Backpack Dal 0 (소프트 러버),15800,1,액세서리,assets/models/BagBackpackDal0.glb,rubber_soft
+bagbackpackdal0_ceramic_clean,Bag Backpack Dal 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagBackpackDal0.glb,ceramic_clean
+bagbackpackdal0_metal_brushed,Bag Backpack Dal 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagBackpackDal0.glb,metal_brushed
+bagbackpackdal0_metal_polished,Bag Backpack Dal 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagBackpackDal0.glb,metal_polished
+bagbackpackdal0_paint_clearcoat,Bag Backpack Dal 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagBackpackDal0.glb,paint_clearcoat
+bagbackpackdal0_fabric_sheen,Bag Backpack Dal 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagBackpackDal0.glb,fabric_sheen
+bagbackpackdal0_glass_clear,Bag Backpack Dal 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagBackpackDal0.glb,glass_clear
+bagbackpackdal0_resin_tinted,Bag Backpack Dal 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagBackpackDal0.glb,resin_tinted
+bagbackpackdal0_matcap_clay,Bag Backpack Dal 0 (클레이),15800,1,액세서리,assets/models/BagBackpackDal0.glb,matcap_clay
+bagbackpackdal0_matcap_wax,Bag Backpack Dal 0 (왁스),16500,0.95,액세서리,assets/models/BagBackpackDal0.glb,matcap_wax
+bagbackpackdal0_matcap_chrome,Bag Backpack Dal 0 (크롬),23300,0.65,액세서리,assets/models/BagBackpackDal0.glb,matcap_chrome
+bagbackpackdal0_matcap_bronze,Bag Backpack Dal 0 (브론즈),21000,0.8,액세서리,assets/models/BagBackpackDal0.glb,matcap_bronze
+bagbackpackdal0_matcap_black_rubber,Bag Backpack Dal 0 (블랙 러버),16200,1,액세서리,assets/models/BagBackpackDal0.glb,matcap_black_rubber
+bagbackpackdal0_matcap_red_wax,Bag Backpack Dal 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagBackpackDal0.glb,matcap_red_wax
+bagbackpackdal0_matcap_white_ceramic,Bag Backpack Dal 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagBackpackDal0.glb,matcap_white_ceramic
+bagbackpackdal0_matcap_blue_gloss,Bag Backpack Dal 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagBackpackDal0.glb,matcap_blue_gloss
+bagbackpackdal0_matcap_gold,Bag Backpack Dal 0 (골드),25500,0.5,액세서리,assets/models/BagBackpackDal0.glb,matcap_gold
+bagbackpackdal0_matcap_silver_soft,Bag Backpack Dal 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagBackpackDal0.glb,matcap_silver_soft

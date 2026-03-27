@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+bagshoulderdrum0_plastic_matte,Bag Shoulder Drum 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagShoulderDrum0.glb,plastic_matte
+bagshoulderdrum0_plastic_gloss,Bag Shoulder Drum 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagShoulderDrum0.glb,plastic_gloss
+bagshoulderdrum0_rubber_soft,Bag Shoulder Drum 0 (소프트 러버),15800,1,액세서리,assets/models/BagShoulderDrum0.glb,rubber_soft
+bagshoulderdrum0_ceramic_clean,Bag Shoulder Drum 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagShoulderDrum0.glb,ceramic_clean
+bagshoulderdrum0_metal_brushed,Bag Shoulder Drum 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagShoulderDrum0.glb,metal_brushed
+bagshoulderdrum0_metal_polished,Bag Shoulder Drum 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagShoulderDrum0.glb,metal_polished
+bagshoulderdrum0_paint_clearcoat,Bag Shoulder Drum 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagShoulderDrum0.glb,paint_clearcoat
+bagshoulderdrum0_fabric_sheen,Bag Shoulder Drum 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagShoulderDrum0.glb,fabric_sheen
+bagshoulderdrum0_glass_clear,Bag Shoulder Drum 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagShoulderDrum0.glb,glass_clear
+bagshoulderdrum0_resin_tinted,Bag Shoulder Drum 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagShoulderDrum0.glb,resin_tinted
+bagshoulderdrum0_matcap_clay,Bag Shoulder Drum 0 (클레이),15800,1,액세서리,assets/models/BagShoulderDrum0.glb,matcap_clay
+bagshoulderdrum0_matcap_wax,Bag Shoulder Drum 0 (왁스),16500,0.95,액세서리,assets/models/BagShoulderDrum0.glb,matcap_wax
+bagshoulderdrum0_matcap_chrome,Bag Shoulder Drum 0 (크롬),23300,0.65,액세서리,assets/models/BagShoulderDrum0.glb,matcap_chrome
+bagshoulderdrum0_matcap_bronze,Bag Shoulder Drum 0 (브론즈),21000,0.8,액세서리,assets/models/BagShoulderDrum0.glb,matcap_bronze
+bagshoulderdrum0_matcap_black_rubber,Bag Shoulder Drum 0 (블랙 러버),16200,1,액세서리,assets/models/BagShoulderDrum0.glb,matcap_black_rubber
+bagshoulderdrum0_matcap_red_wax,Bag Shoulder Drum 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagShoulderDrum0.glb,matcap_red_wax
+bagshoulderdrum0_matcap_white_ceramic,Bag Shoulder Drum 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagShoulderDrum0.glb,matcap_white_ceramic
+bagshoulderdrum0_matcap_blue_gloss,Bag Shoulder Drum 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagShoulderDrum0.glb,matcap_blue_gloss
+bagshoulderdrum0_matcap_gold,Bag Shoulder Drum 0 (골드),25500,0.5,액세서리,assets/models/BagShoulderDrum0.glb,matcap_gold
+bagshoulderdrum0_matcap_silver_soft,Bag Shoulder Drum 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagShoulderDrum0.glb,matcap_silver_soft
+bagshoulderfish0_plastic_matte,Bag Shoulder Fish 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagShoulderFish0.glb,plastic_matte
+bagshoulderfish0_plastic_gloss,Bag Shoulder Fish 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagShoulderFish0.glb,plastic_gloss
+bagshoulderfish0_rubber_soft,Bag Shoulder Fish 0 (소프트 러버),15800,1,액세서리,assets/models/BagShoulderFish0.glb,rubber_soft
+bagshoulderfish0_ceramic_clean,Bag Shoulder Fish 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagShoulderFish0.glb,ceramic_clean
+bagshoulderfish0_metal_brushed,Bag Shoulder Fish 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagShoulderFish0.glb,metal_brushed
+bagshoulderfish0_metal_polished,Bag Shoulder Fish 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagShoulderFish0.glb,metal_polished
+bagshoulderfish0_paint_clearcoat,Bag Shoulder Fish 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagShoulderFish0.glb,paint_clearcoat
+bagshoulderfish0_fabric_sheen,Bag Shoulder Fish 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagShoulderFish0.glb,fabric_sheen
+bagshoulderfish0_glass_clear,Bag Shoulder Fish 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagShoulderFish0.glb,glass_clear
+bagshoulderfish0_resin_tinted,Bag Shoulder Fish 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagShoulderFish0.glb,resin_tinted
+bagshoulderfish0_matcap_clay,Bag Shoulder Fish 0 (클레이),15800,1,액세서리,assets/models/BagShoulderFish0.glb,matcap_clay
+bagshoulderfish0_matcap_wax,Bag Shoulder Fish 0 (왁스),16500,0.95,액세서리,assets/models/BagShoulderFish0.glb,matcap_wax
+bagshoulderfish0_matcap_chrome,Bag Shoulder Fish 0 (크롬),23300,0.65,액세서리,assets/models/BagShoulderFish0.glb,matcap_chrome
+bagshoulderfish0_matcap_bronze,Bag Shoulder Fish 0 (브론즈),21000,0.8,액세서리,assets/models/BagShoulderFish0.glb,matcap_bronze
+bagshoulderfish0_matcap_black_rubber,Bag Shoulder Fish 0 (블랙 러버),16200,1,액세서리,assets/models/BagShoulderFish0.glb,matcap_black_rubber
+bagshoulderfish0_matcap_red_wax,Bag Shoulder Fish 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagShoulderFish0.glb,matcap_red_wax
+bagshoulderfish0_matcap_white_ceramic,Bag Shoulder Fish 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagShoulderFish0.glb,matcap_white_ceramic
+bagshoulderfish0_matcap_blue_gloss,Bag Shoulder Fish 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagShoulderFish0.glb,matcap_blue_gloss
+bagshoulderfish0_matcap_gold,Bag Shoulder Fish 0 (골드),25500,0.5,액세서리,assets/models/BagShoulderFish0.glb,matcap_gold
+bagshoulderfish0_matcap_silver_soft,Bag Shoulder Fish 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagShoulderFish0.glb,matcap_silver_soft
+bagshouldermaple0_plastic_matte,Bag Shoulder Maple 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagShoulderMaple0.glb,plastic_matte
+bagshouldermaple0_plastic_gloss,Bag Shoulder Maple 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagShoulderMaple0.glb,plastic_gloss
+bagshouldermaple0_rubber_soft,Bag Shoulder Maple 0 (소프트 러버),15800,1,액세서리,assets/models/BagShoulderMaple0.glb,rubber_soft
+bagshouldermaple0_ceramic_clean,Bag Shoulder Maple 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagShoulderMaple0.glb,ceramic_clean
+bagshouldermaple0_metal_brushed,Bag Shoulder Maple 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagShoulderMaple0.glb,metal_brushed
+bagshouldermaple0_metal_polished,Bag Shoulder Maple 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagShoulderMaple0.glb,metal_polished
+bagshouldermaple0_paint_clearcoat,Bag Shoulder Maple 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagShoulderMaple0.glb,paint_clearcoat
+bagshouldermaple0_fabric_sheen,Bag Shoulder Maple 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagShoulderMaple0.glb,fabric_sheen
+bagshouldermaple0_glass_clear,Bag Shoulder Maple 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagShoulderMaple0.glb,glass_clear
+bagshouldermaple0_resin_tinted,Bag Shoulder Maple 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagShoulderMaple0.glb,resin_tinted
+bagshouldermaple0_matcap_clay,Bag Shoulder Maple 0 (클레이),15800,1,액세서리,assets/models/BagShoulderMaple0.glb,matcap_clay
+bagshouldermaple0_matcap_wax,Bag Shoulder Maple 0 (왁스),16500,0.95,액세서리,assets/models/BagShoulderMaple0.glb,matcap_wax
+bagshouldermaple0_matcap_chrome,Bag Shoulder Maple 0 (크롬),23300,0.65,액세서리,assets/models/BagShoulderMaple0.glb,matcap_chrome
+bagshouldermaple0_matcap_bronze,Bag Shoulder Maple 0 (브론즈),21000,0.8,액세서리,assets/models/BagShoulderMaple0.glb,matcap_bronze
+bagshouldermaple0_matcap_black_rubber,Bag Shoulder Maple 0 (블랙 러버),16200,1,액세서리,assets/models/BagShoulderMaple0.glb,matcap_black_rubber
+bagshouldermaple0_matcap_red_wax,Bag Shoulder Maple 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagShoulderMaple0.glb,matcap_red_wax
+bagshouldermaple0_matcap_white_ceramic,Bag Shoulder Maple 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagShoulderMaple0.glb,matcap_white_ceramic
+bagshouldermaple0_matcap_blue_gloss,Bag Shoulder Maple 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagShoulderMaple0.glb,matcap_blue_gloss
+bagshouldermaple0_matcap_gold,Bag Shoulder Maple 0 (골드),25500,0.5,액세서리,assets/models/BagShoulderMaple0.glb,matcap_gold
+bagshouldermaple0_matcap_silver_soft,Bag Shoulder Maple 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagShoulderMaple0.glb,matcap_silver_soft
+bagshoulderparty0_plastic_matte,Bag Shoulder Party 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagShoulderParty0.glb,plastic_matte
+bagshoulderparty0_plastic_gloss,Bag Shoulder Party 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagShoulderParty0.glb,plastic_gloss
+bagshoulderparty0_rubber_soft,Bag Shoulder Party 0 (소프트 러버),15800,1,액세서리,assets/models/BagShoulderParty0.glb,rubber_soft
+bagshoulderparty0_ceramic_clean,Bag Shoulder Party 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagShoulderParty0.glb,ceramic_clean
+bagshoulderparty0_metal_brushed,Bag Shoulder Party 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagShoulderParty0.glb,metal_brushed
+bagshoulderparty0_metal_polished,Bag Shoulder Party 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagShoulderParty0.glb,metal_polished
+bagshoulderparty0_paint_clearcoat,Bag Shoulder Party 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagShoulderParty0.glb,paint_clearcoat
+bagshoulderparty0_fabric_sheen,Bag Shoulder Party 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagShoulderParty0.glb,fabric_sheen
+bagshoulderparty0_glass_clear,Bag Shoulder Party 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagShoulderParty0.glb,glass_clear
+bagshoulderparty0_resin_tinted,Bag Shoulder Party 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagShoulderParty0.glb,resin_tinted
+bagshoulderparty0_matcap_clay,Bag Shoulder Party 0 (클레이),15800,1,액세서리,assets/models/BagShoulderParty0.glb,matcap_clay
+bagshoulderparty0_matcap_wax,Bag Shoulder Party 0 (왁스),16500,0.95,액세서리,assets/models/BagShoulderParty0.glb,matcap_wax
+bagshoulderparty0_matcap_chrome,Bag Shoulder Party 0 (크롬),23300,0.65,액세서리,assets/models/BagShoulderParty0.glb,matcap_chrome
+bagshoulderparty0_matcap_bronze,Bag Shoulder Party 0 (브론즈),21000,0.8,액세서리,assets/models/BagShoulderParty0.glb,matcap_bronze
+bagshoulderparty0_matcap_black_rubber,Bag Shoulder Party 0 (블랙 러버),16200,1,액세서리,assets/models/BagShoulderParty0.glb,matcap_black_rubber
+bagshoulderparty0_matcap_red_wax,Bag Shoulder Party 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagShoulderParty0.glb,matcap_red_wax
+bagshoulderparty0_matcap_white_ceramic,Bag Shoulder Party 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagShoulderParty0.glb,matcap_white_ceramic
+bagshoulderparty0_matcap_blue_gloss,Bag Shoulder Party 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagShoulderParty0.glb,matcap_blue_gloss
+bagshoulderparty0_matcap_gold,Bag Shoulder Party 0 (골드),25500,0.5,액세서리,assets/models/BagShoulderParty0.glb,matcap_gold
+bagshoulderparty0_matcap_silver_soft,Bag Shoulder Party 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagShoulderParty0.glb,matcap_silver_soft
+bagshoulderrace0_plastic_matte,Bag Shoulder Race 0 (매트 플라스틱),15000,1,액세서리,assets/models/BagShoulderRace0.glb,plastic_matte
+bagshoulderrace0_plastic_gloss,Bag Shoulder Race 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/BagShoulderRace0.glb,plastic_gloss
+bagshoulderrace0_rubber_soft,Bag Shoulder Race 0 (소프트 러버),15800,1,액세서리,assets/models/BagShoulderRace0.glb,rubber_soft
+bagshoulderrace0_ceramic_clean,Bag Shoulder Race 0 (클린 세라믹),18000,0.9,액세서리,assets/models/BagShoulderRace0.glb,ceramic_clean
+bagshoulderrace0_metal_brushed,Bag Shoulder Race 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/BagShoulderRace0.glb,metal_brushed
+bagshoulderrace0_metal_polished,Bag Shoulder Race 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/BagShoulderRace0.glb,metal_polished
+bagshoulderrace0_paint_clearcoat,Bag Shoulder Race 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/BagShoulderRace0.glb,paint_clearcoat
+bagshoulderrace0_fabric_sheen,Bag Shoulder Race 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/BagShoulderRace0.glb,fabric_sheen
+bagshoulderrace0_glass_clear,Bag Shoulder Race 0 (클리어 글래스),24000,0.6,액세서리,assets/models/BagShoulderRace0.glb,glass_clear
+bagshoulderrace0_resin_tinted,Bag Shoulder Race 0 (틴티드 레진),21800,0.75,액세서리,assets/models/BagShoulderRace0.glb,resin_tinted
+bagshoulderrace0_matcap_clay,Bag Shoulder Race 0 (클레이),15800,1,액세서리,assets/models/BagShoulderRace0.glb,matcap_clay
+bagshoulderrace0_matcap_wax,Bag Shoulder Race 0 (왁스),16500,0.95,액세서리,assets/models/BagShoulderRace0.glb,matcap_wax
+bagshoulderrace0_matcap_chrome,Bag Shoulder Race 0 (크롬),23300,0.65,액세서리,assets/models/BagShoulderRace0.glb,matcap_chrome
+bagshoulderrace0_matcap_bronze,Bag Shoulder Race 0 (브론즈),21000,0.8,액세서리,assets/models/BagShoulderRace0.glb,matcap_bronze
+bagshoulderrace0_matcap_black_rubber,Bag Shoulder Race 0 (블랙 러버),16200,1,액세서리,assets/models/BagShoulderRace0.glb,matcap_black_rubber
+bagshoulderrace0_matcap_red_wax,Bag Shoulder Race 0 (레드 왁스),17300,0.9,액세서리,assets/models/BagShoulderRace0.glb,matcap_red_wax
+bagshoulderrace0_matcap_white_ceramic,Bag Shoulder Race 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/BagShoulderRace0.glb,matcap_white_ceramic
+bagshoulderrace0_matcap_blue_gloss,Bag Shoulder Race 0 (블루 글로시),18000,0.9,액세서리,assets/models/BagShoulderRace0.glb,matcap_blue_gloss
+bagshoulderrace0_matcap_gold,Bag Shoulder Race 0 (골드),25500,0.5,액세서리,assets/models/BagShoulderRace0.glb,matcap_gold
+bagshoulderrace0_matcap_silver_soft,Bag Shoulder Race 0 (소프트 실버),20300,0.8,액세서리,assets/models/BagShoulderRace0.glb,matcap_silver_soft
+bagshouldersnow0_plastic_matte,스노우 숄더백 (매트 플라스틱),15000,1.4,액세서리,assets/models/BagShoulderSnow0.glb,plastic_matte
+bagshouldersnow0_plastic_gloss,스노우 숄더백 (글로시 플라스틱),16500,1.35,액세서리,assets/models/BagShoulderSnow0.glb,plastic_gloss
+bagshouldersnow0_rubber_soft,스노우 숄더백 (소프트 러버),15800,1.4,액세서리,assets/models/BagShoulderSnow0.glb,rubber_soft
+bagshouldersnow0_ceramic_clean,스노우 숄더백 (클린 세라믹),18000,1.3,액세서리,assets/models/BagShoulderSnow0.glb,ceramic_clean
+bagshouldersnow0_metal_brushed,스노우 숄더백 (브러시드 메탈),20300,1.2,액세서리,assets/models/BagShoulderSnow0.glb,metal_brushed
+bagshouldersnow0_metal_polished,스노우 숄더백 (폴리시드 메탈),22500,1.1,액세서리,assets/models/BagShoulderSnow0.glb,metal_polished
+bagshouldersnow0_paint_clearcoat,스노우 숄더백 (클리어코트 페인트),19500,1.25,액세서리,assets/models/BagShoulderSnow0.glb,paint_clearcoat
+bagshouldersnow0_fabric_sheen,스노우 숄더백 (패브릭 쉰),17300,1.35,액세서리,assets/models/BagShoulderSnow0.glb,fabric_sheen
+bagshouldersnow0_glass_clear,스노우 숄더백 (클리어 글래스),24000,1,액세서리,assets/models/BagShoulderSnow0.glb,glass_clear
+bagshouldersnow0_resin_tinted,스노우 숄더백 (틴티드 레진),21800,1.15,액세서리,assets/models/BagShoulderSnow0.glb,resin_tinted
+bagshouldersnow0_matcap_clay,스노우 숄더백 (클레이),15800,1.4,액세서리,assets/models/BagShoulderSnow0.glb,matcap_clay
+bagshouldersnow0_matcap_wax,스노우 숄더백 (왁스),16500,1.35,액세서리,assets/models/BagShoulderSnow0.glb,matcap_wax
+bagshouldersnow0_matcap_chrome,스노우 숄더백 (크롬),23300,1.05,액세서리,assets/models/BagShoulderSnow0.glb,matcap_chrome
+bagshouldersnow0_matcap_bronze,스노우 숄더백 (브론즈),21000,1.2,액세서리,assets/models/BagShoulderSnow0.glb,matcap_bronze
+bagshouldersnow0_matcap_black_rubber,스노우 숄더백 (블랙 러버),16200,1.4,액세서리,assets/models/BagShoulderSnow0.glb,matcap_black_rubber
+bagshouldersnow0_matcap_red_wax,스노우 숄더백 (레드 왁스),17300,1.3,액세서리,assets/models/BagShoulderSnow0.glb,matcap_red_wax
+bagshouldersnow0_matcap_white_ceramic,스노우 숄더백 (화이트 세라믹),18800,1.25,액세서리,assets/models/BagShoulderSnow0.glb,matcap_white_ceramic
+bagshouldersnow0_matcap_blue_gloss,스노우 숄더백 (블루 글로시),18000,1.3,액세서리,assets/models/BagShoulderSnow0.glb,matcap_blue_gloss
+bagshouldersnow0_matcap_gold,스노우 숄더백 (골드),25500,0.9,액세서리,assets/models/BagShoulderSnow0.glb,matcap_gold
+bagshouldersnow0_matcap_silver_soft,스노우 숄더백 (소프트 실버),20300,1.2,액세서리,assets/models/BagShoulderSnow0.glb,matcap_silver_soft
+bagshoulderstar0_plastic_matte,스타 숄더백 (매트 플라스틱),15000,1.4,액세서리,assets/models/BagShoulderStar0.glb,plastic_matte
+bagshoulderstar0_plastic_gloss,스타 숄더백 (글로시 플라스틱),16500,1.35,액세서리,assets/models/BagShoulderStar0.glb,plastic_gloss
+bagshoulderstar0_rubber_soft,스타 숄더백 (소프트 러버),15800,1.4,액세서리,assets/models/BagShoulderStar0.glb,rubber_soft
+bagshoulderstar0_ceramic_clean,스타 숄더백 (클린 세라믹),18000,1.3,액세서리,assets/models/BagShoulderStar0.glb,ceramic_clean
+bagshoulderstar0_metal_brushed,스타 숄더백 (브러시드 메탈),20300,1.2,액세서리,assets/models/BagShoulderStar0.glb,metal_brushed
+bagshoulderstar0_metal_polished,스타 숄더백 (폴리시드 메탈),22500,1.1,액세서리,assets/models/BagShoulderStar0.glb,metal_polished
+bagshoulderstar0_paint_clearcoat,스타 숄더백 (클리어코트 페인트),19500,1.25,액세서리,assets/models/BagShoulderStar0.glb,paint_clearcoat
+bagshoulderstar0_fabric_sheen,스타 숄더백 (패브릭 쉰),17300,1.35,액세서리,assets/models/BagShoulderStar0.glb,fabric_sheen
+bagshoulderstar0_glass_clear,스타 숄더백 (클리어 글래스),24000,1,액세서리,assets/models/BagShoulderStar0.glb,glass_clear
+bagshoulderstar0_resin_tinted,스타 숄더백 (틴티드 레진),21800,1.15,액세서리,assets/models/BagShoulderStar0.glb,resin_tinted
+bagshoulderstar0_matcap_clay,스타 숄더백 (클레이),15800,1.4,액세서리,assets/models/BagShoulderStar0.glb,matcap_clay
+bagshoulderstar0_matcap_wax,스타 숄더백 (왁스),16500,1.35,액세서리,assets/models/BagShoulderStar0.glb,matcap_wax
+bagshoulderstar0_matcap_chrome,스타 숄더백 (크롬),23300,1.05,액세서리,assets/models/BagShoulderStar0.glb,matcap_chrome
+bagshoulderstar0_matcap_bronze,스타 숄더백 (브론즈),21000,1.2,액세서리,assets/models/BagShoulderStar0.glb,matcap_bronze
+bagshoulderstar0_matcap_black_rubber,스타 숄더백 (블랙 러버),16200,1.4,액세서리,assets/models/BagShoulderStar0.glb,matcap_black_rubber
+bagshoulderstar0_matcap_red_wax,스타 숄더백 (레드 왁스),17300,1.3,액세서리,assets/models/BagShoulderStar0.glb,matcap_red_wax
+bagshoulderstar0_matcap_white_ceramic,스타 숄더백 (화이트 세라믹),18800,1.25,액세서리,assets/models/BagShoulderStar0.glb,matcap_white_ceramic
+bagshoulderstar0_matcap_blue_gloss,스타 숄더백 (블루 글로시),18000,1.3,액세서리,assets/models/BagShoulderStar0.glb,matcap_blue_gloss
+bagshoulderstar0_matcap_gold,스타 숄더백 (골드),25500,0.9,액세서리,assets/models/BagShoulderStar0.glb,matcap_gold
+bagshoulderstar0_matcap_silver_soft,스타 숄더백 (소프트 실버),20300,1.2,액세서리,assets/models/BagShoulderStar0.glb,matcap_silver_soft
+bagshouldertool0_plastic_matte,툴 숄더백 (매트 플라스틱),25000,0.8,액세서리,assets/models/BagShoulderTool0.glb,plastic_matte
+bagshouldertool0_plastic_gloss,툴 숄더백 (글로시 플라스틱),27500,0.75,액세서리,assets/models/BagShoulderTool0.glb,plastic_gloss
+bagshouldertool0_rubber_soft,툴 숄더백 (소프트 러버),26300,0.8,액세서리,assets/models/BagShoulderTool0.glb,rubber_soft
+bagshouldertool0_ceramic_clean,툴 숄더백 (클린 세라믹),30000,0.7,액세서리,assets/models/BagShoulderTool0.glb,ceramic_clean
+bagshouldertool0_metal_brushed,툴 숄더백 (브러시드 메탈),33800,0.6,액세서리,assets/models/BagShoulderTool0.glb,metal_brushed
+bagshouldertool0_metal_polished,툴 숄더백 (폴리시드 메탈),37500,0.5,액세서리,assets/models/BagShoulderTool0.glb,metal_polished
+bagshouldertool0_paint_clearcoat,툴 숄더백 (클리어코트 페인트),32500,0.65,액세서리,assets/models/BagShoulderTool0.glb,paint_clearcoat
+bagshouldertool0_fabric_sheen,툴 숄더백 (패브릭 쉰),28700,0.75,액세서리,assets/models/BagShoulderTool0.glb,fabric_sheen
+bagshouldertool0_glass_clear,툴 숄더백 (클리어 글래스),40000,0.4,액세서리,assets/models/BagShoulderTool0.glb,glass_clear
+bagshouldertool0_resin_tinted,툴 숄더백 (틴티드 레진),36300,0.55,액세서리,assets/models/BagShoulderTool0.glb,resin_tinted
+bagshouldertool0_matcap_clay,툴 숄더백 (클레이),26300,0.8,액세서리,assets/models/BagShoulderTool0.glb,matcap_clay
+bagshouldertool0_matcap_wax,툴 숄더백 (왁스),27500,0.75,액세서리,assets/models/BagShoulderTool0.glb,matcap_wax
+bagshouldertool0_matcap_chrome,툴 숄더백 (크롬),38800,0.45,액세서리,assets/models/BagShoulderTool0.glb,matcap_chrome
+bagshouldertool0_matcap_bronze,툴 숄더백 (브론즈),35000,0.6,액세서리,assets/models/BagShoulderTool0.glb,matcap_bronze
+bagshouldertool0_matcap_black_rubber,툴 숄더백 (블랙 러버),27000,0.8,액세서리,assets/models/BagShoulderTool0.glb,matcap_black_rubber
+bagshouldertool0_matcap_red_wax,툴 숄더백 (레드 왁스),28700,0.7,액세서리,assets/models/BagShoulderTool0.glb,matcap_red_wax
+bagshouldertool0_matcap_white_ceramic,툴 숄더백 (화이트 세라믹),31300,0.65,액세서리,assets/models/BagShoulderTool0.glb,matcap_white_ceramic
+bagshouldertool0_matcap_blue_gloss,툴 숄더백 (블루 글로시),30000,0.7,액세서리,assets/models/BagShoulderTool0.glb,matcap_blue_gloss
+bagshouldertool0_matcap_gold,툴 숄더백 (골드),42500,0.3,액세서리,assets/models/BagShoulderTool0.glb,matcap_gold
+bagshouldertool0_matcap_silver_soft,툴 숄더백 (소프트 실버),33800,0.6,액세서리,assets/models/BagShoulderTool0.glb,matcap_silver_soft
+coloumpu_plastic_matte,화이트 컬럼 액세서리 (매트 플라스틱),8000,1.9,액세서리,assets/models/COLOUMpu.glb,plastic_matte
+coloumpu_plastic_gloss,화이트 컬럼 액세서리 (글로시 플라스틱),8800,1.85,액세서리,assets/models/COLOUMpu.glb,plastic_gloss
+coloumpu_rubber_soft,화이트 컬럼 액세서리 (소프트 러버),8400,1.9,액세서리,assets/models/COLOUMpu.glb,rubber_soft
+coloumpu_ceramic_clean,화이트 컬럼 액세서리 (클린 세라믹),9600,1.8,액세서리,assets/models/COLOUMpu.glb,ceramic_clean
+coloumpu_metal_brushed,화이트 컬럼 액세서리 (브러시드 메탈),10800,1.7,액세서리,assets/models/COLOUMpu.glb,metal_brushed
+coloumpu_metal_polished,화이트 컬럼 액세서리 (폴리시드 메탈),12000,1.6,액세서리,assets/models/COLOUMpu.glb,metal_polished
+coloumpu_paint_clearcoat,화이트 컬럼 액세서리 (클리어코트 페인트),10400,1.75,액세서리,assets/models/COLOUMpu.glb,paint_clearcoat
+coloumpu_fabric_sheen,화이트 컬럼 액세서리 (패브릭 쉰),9200,1.85,액세서리,assets/models/COLOUMpu.glb,fabric_sheen
+coloumpu_glass_clear,화이트 컬럼 액세서리 (클리어 글래스),12800,1.5,액세서리,assets/models/COLOUMpu.glb,glass_clear
+coloumpu_resin_tinted,화이트 컬럼 액세서리 (틴티드 레진),11600,1.65,액세서리,assets/models/COLOUMpu.glb,resin_tinted
+coloumpu_matcap_clay,화이트 컬럼 액세서리 (클레이),8400,1.9,액세서리,assets/models/COLOUMpu.glb,matcap_clay
+coloumpu_matcap_wax,화이트 컬럼 액세서리 (왁스),8800,1.85,액세서리,assets/models/COLOUMpu.glb,matcap_wax
+coloumpu_matcap_chrome,화이트 컬럼 액세서리 (크롬),12400,1.55,액세서리,assets/models/COLOUMpu.glb,matcap_chrome
+coloumpu_matcap_bronze,화이트 컬럼 액세서리 (브론즈),11200,1.7,액세서리,assets/models/COLOUMpu.glb,matcap_bronze
+coloumpu_matcap_black_rubber,화이트 컬럼 액세서리 (블랙 러버),8600,1.9,액세서리,assets/models/COLOUMpu.glb,matcap_black_rubber
+coloumpu_matcap_red_wax,화이트 컬럼 액세서리 (레드 왁스),9200,1.8,액세서리,assets/models/COLOUMpu.glb,matcap_red_wax
+coloumpu_matcap_white_ceramic,화이트 컬럼 액세서리 (화이트 세라믹),10000,1.75,액세서리,assets/models/COLOUMpu.glb,matcap_white_ceramic
+coloumpu_matcap_blue_gloss,화이트 컬럼 액세서리 (블루 글로시),9600,1.8,액세서리,assets/models/COLOUMpu.glb,matcap_blue_gloss
+coloumpu_matcap_gold,화이트 컬럼 액세서리 (골드),13600,1.4,액세서리,assets/models/COLOUMpu.glb,matcap_gold
+coloumpu_matcap_silver_soft,화이트 컬럼 액세서리 (소프트 실버),10800,1.7,액세서리,assets/models/COLOUMpu.glb,matcap_silver_soft
+coloumre_plastic_matte,화이트 컬럼 액세서리 (매트 플라스틱),8000,1.9,액세서리,assets/models/COLOUMre.glb,plastic_matte
+coloumre_plastic_gloss,화이트 컬럼 액세서리 (글로시 플라스틱),8800,1.85,액세서리,assets/models/COLOUMre.glb,plastic_gloss
+coloumre_rubber_soft,화이트 컬럼 액세서리 (소프트 러버),8400,1.9,액세서리,assets/models/COLOUMre.glb,rubber_soft
+coloumre_ceramic_clean,화이트 컬럼 액세서리 (클린 세라믹),9600,1.8,액세서리,assets/models/COLOUMre.glb,ceramic_clean
+coloumre_metal_brushed,화이트 컬럼 액세서리 (브러시드 메탈),10800,1.7,액세서리,assets/models/COLOUMre.glb,metal_brushed
+coloumre_metal_polished,화이트 컬럼 액세서리 (폴리시드 메탈),12000,1.6,액세서리,assets/models/COLOUMre.glb,metal_polished
+coloumre_paint_clearcoat,화이트 컬럼 액세서리 (클리어코트 페인트),10400,1.75,액세서리,assets/models/COLOUMre.glb,paint_clearcoat
+coloumre_fabric_sheen,화이트 컬럼 액세서리 (패브릭 쉰),9200,1.85,액세서리,assets/models/COLOUMre.glb,fabric_sheen
+coloumre_glass_clear,화이트 컬럼 액세서리 (클리어 글래스),12800,1.5,액세서리,assets/models/COLOUMre.glb,glass_clear
+coloumre_resin_tinted,화이트 컬럼 액세서리 (틴티드 레진),11600,1.65,액세서리,assets/models/COLOUMre.glb,resin_tinted
+coloumre_matcap_clay,화이트 컬럼 액세서리 (클레이),8400,1.9,액세서리,assets/models/COLOUMre.glb,matcap_clay
+coloumre_matcap_wax,화이트 컬럼 액세서리 (왁스),8800,1.85,액세서리,assets/models/COLOUMre.glb,matcap_wax
+coloumre_matcap_chrome,화이트 컬럼 액세서리 (크롬),12400,1.55,액세서리,assets/models/COLOUMre.glb,matcap_chrome
+coloumre_matcap_bronze,화이트 컬럼 액세서리 (브론즈),11200,1.7,액세서리,assets/models/COLOUMre.glb,matcap_bronze
+coloumre_matcap_black_rubber,화이트 컬럼 액세서리 (블랙 러버),8600,1.9,액세서리,assets/models/COLOUMre.glb,matcap_black_rubber
+coloumre_matcap_red_wax,화이트 컬럼 액세서리 (레드 왁스),9200,1.8,액세서리,assets/models/COLOUMre.glb,matcap_red_wax
+coloumre_matcap_white_ceramic,화이트 컬럼 액세서리 (화이트 세라믹),10000,1.75,액세서리,assets/models/COLOUMre.glb,matcap_white_ceramic
+coloumre_matcap_blue_gloss,화이트 컬럼 액세서리 (블루 글로시),9600,1.8,액세서리,assets/models/COLOUMre.glb,matcap_blue_gloss
+coloumre_matcap_gold,화이트 컬럼 액세서리 (골드),13600,1.4,액세서리,assets/models/COLOUMre.glb,matcap_gold
+coloumre_matcap_silver_soft,화이트 컬럼 액세서리 (소프트 실버),10800,1.7,액세서리,assets/models/COLOUMre.glb,matcap_silver_soft

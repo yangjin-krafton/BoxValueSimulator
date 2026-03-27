@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+uniticonholeoff_plastic_matte,Unit Icon Hole Off (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconHoleOff.glb,plastic_matte
+uniticonholeoff_plastic_gloss,Unit Icon Hole Off (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconHoleOff.glb,plastic_gloss
+uniticonholeoff_rubber_soft,Unit Icon Hole Off (소프트 러버),15800,1,액세서리,assets/models/UnitIconHoleOff.glb,rubber_soft
+uniticonholeoff_ceramic_clean,Unit Icon Hole Off (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconHoleOff.glb,ceramic_clean
+uniticonholeoff_metal_brushed,Unit Icon Hole Off (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconHoleOff.glb,metal_brushed
+uniticonholeoff_metal_polished,Unit Icon Hole Off (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconHoleOff.glb,metal_polished
+uniticonholeoff_paint_clearcoat,Unit Icon Hole Off (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconHoleOff.glb,paint_clearcoat
+uniticonholeoff_fabric_sheen,Unit Icon Hole Off (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconHoleOff.glb,fabric_sheen
+uniticonholeoff_glass_clear,Unit Icon Hole Off (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconHoleOff.glb,glass_clear
+uniticonholeoff_resin_tinted,Unit Icon Hole Off (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconHoleOff.glb,resin_tinted
+uniticonholeoff_matcap_clay,Unit Icon Hole Off (클레이),15800,1,액세서리,assets/models/UnitIconHoleOff.glb,matcap_clay
+uniticonholeoff_matcap_wax,Unit Icon Hole Off (왁스),16500,0.95,액세서리,assets/models/UnitIconHoleOff.glb,matcap_wax
+uniticonholeoff_matcap_chrome,Unit Icon Hole Off (크롬),23300,0.65,액세서리,assets/models/UnitIconHoleOff.glb,matcap_chrome
+uniticonholeoff_matcap_bronze,Unit Icon Hole Off (브론즈),21000,0.8,액세서리,assets/models/UnitIconHoleOff.glb,matcap_bronze
+uniticonholeoff_matcap_black_rubber,Unit Icon Hole Off (블랙 러버),16200,1,액세서리,assets/models/UnitIconHoleOff.glb,matcap_black_rubber
+uniticonholeoff_matcap_red_wax,Unit Icon Hole Off (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconHoleOff.glb,matcap_red_wax
+uniticonholeoff_matcap_white_ceramic,Unit Icon Hole Off (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconHoleOff.glb,matcap_white_ceramic
+uniticonholeoff_matcap_blue_gloss,Unit Icon Hole Off (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconHoleOff.glb,matcap_blue_gloss
+uniticonholeoff_matcap_gold,Unit Icon Hole Off (골드),25500,0.5,액세서리,assets/models/UnitIconHoleOff.glb,matcap_gold
+uniticonholeoff_matcap_silver_soft,Unit Icon Hole Off (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconHoleOff.glb,matcap_silver_soft
+uniticonholeon_plastic_matte,Unit Icon Hole On (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconHoleOn.glb,plastic_matte
+uniticonholeon_plastic_gloss,Unit Icon Hole On (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconHoleOn.glb,plastic_gloss
+uniticonholeon_rubber_soft,Unit Icon Hole On (소프트 러버),15800,1,액세서리,assets/models/UnitIconHoleOn.glb,rubber_soft
+uniticonholeon_ceramic_clean,Unit Icon Hole On (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconHoleOn.glb,ceramic_clean
+uniticonholeon_metal_brushed,Unit Icon Hole On (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconHoleOn.glb,metal_brushed
+uniticonholeon_metal_polished,Unit Icon Hole On (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconHoleOn.glb,metal_polished
+uniticonholeon_paint_clearcoat,Unit Icon Hole On (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconHoleOn.glb,paint_clearcoat
+uniticonholeon_fabric_sheen,Unit Icon Hole On (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconHoleOn.glb,fabric_sheen
+uniticonholeon_glass_clear,Unit Icon Hole On (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconHoleOn.glb,glass_clear
+uniticonholeon_resin_tinted,Unit Icon Hole On (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconHoleOn.glb,resin_tinted
+uniticonholeon_matcap_clay,Unit Icon Hole On (클레이),15800,1,액세서리,assets/models/UnitIconHoleOn.glb,matcap_clay
+uniticonholeon_matcap_wax,Unit Icon Hole On (왁스),16500,0.95,액세서리,assets/models/UnitIconHoleOn.glb,matcap_wax
+uniticonholeon_matcap_chrome,Unit Icon Hole On (크롬),23300,0.65,액세서리,assets/models/UnitIconHoleOn.glb,matcap_chrome
+uniticonholeon_matcap_bronze,Unit Icon Hole On (브론즈),21000,0.8,액세서리,assets/models/UnitIconHoleOn.glb,matcap_bronze
+uniticonholeon_matcap_black_rubber,Unit Icon Hole On (블랙 러버),16200,1,액세서리,assets/models/UnitIconHoleOn.glb,matcap_black_rubber
+uniticonholeon_matcap_red_wax,Unit Icon Hole On (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconHoleOn.glb,matcap_red_wax
+uniticonholeon_matcap_white_ceramic,Unit Icon Hole On (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconHoleOn.glb,matcap_white_ceramic
+uniticonholeon_matcap_blue_gloss,Unit Icon Hole On (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconHoleOn.glb,matcap_blue_gloss
+uniticonholeon_matcap_gold,Unit Icon Hole On (골드),25500,0.5,액세서리,assets/models/UnitIconHoleOn.glb,matcap_gold
+uniticonholeon_matcap_silver_soft,Unit Icon Hole On (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconHoleOn.glb,matcap_silver_soft
+uniticoninsect_plastic_matte,Unit Icon Insect (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconInsect.glb,plastic_matte
+uniticoninsect_plastic_gloss,Unit Icon Insect (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconInsect.glb,plastic_gloss
+uniticoninsect_rubber_soft,Unit Icon Insect (소프트 러버),15800,1,액세서리,assets/models/UnitIconInsect.glb,rubber_soft
+uniticoninsect_ceramic_clean,Unit Icon Insect (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconInsect.glb,ceramic_clean
+uniticoninsect_metal_brushed,Unit Icon Insect (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconInsect.glb,metal_brushed
+uniticoninsect_metal_polished,Unit Icon Insect (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconInsect.glb,metal_polished
+uniticoninsect_paint_clearcoat,Unit Icon Insect (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconInsect.glb,paint_clearcoat
+uniticoninsect_fabric_sheen,Unit Icon Insect (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconInsect.glb,fabric_sheen
+uniticoninsect_glass_clear,Unit Icon Insect (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconInsect.glb,glass_clear
+uniticoninsect_resin_tinted,Unit Icon Insect (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconInsect.glb,resin_tinted
+uniticoninsect_matcap_clay,Unit Icon Insect (클레이),15800,1,액세서리,assets/models/UnitIconInsect.glb,matcap_clay
+uniticoninsect_matcap_wax,Unit Icon Insect (왁스),16500,0.95,액세서리,assets/models/UnitIconInsect.glb,matcap_wax
+uniticoninsect_matcap_chrome,Unit Icon Insect (크롬),23300,0.65,액세서리,assets/models/UnitIconInsect.glb,matcap_chrome
+uniticoninsect_matcap_bronze,Unit Icon Insect (브론즈),21000,0.8,액세서리,assets/models/UnitIconInsect.glb,matcap_bronze
+uniticoninsect_matcap_black_rubber,Unit Icon Insect (블랙 러버),16200,1,액세서리,assets/models/UnitIconInsect.glb,matcap_black_rubber
+uniticoninsect_matcap_red_wax,Unit Icon Insect (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconInsect.glb,matcap_red_wax
+uniticoninsect_matcap_white_ceramic,Unit Icon Insect (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconInsect.glb,matcap_white_ceramic
+uniticoninsect_matcap_blue_gloss,Unit Icon Insect (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconInsect.glb,matcap_blue_gloss
+uniticoninsect_matcap_gold,Unit Icon Insect (골드),25500,0.5,액세서리,assets/models/UnitIconInsect.glb,matcap_gold
+uniticoninsect_matcap_silver_soft,Unit Icon Insect (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconInsect.glb,matcap_silver_soft
+uniticoniron_plastic_matte,Unit Icon Iron (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconIron.glb,plastic_matte
+uniticoniron_plastic_gloss,Unit Icon Iron (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconIron.glb,plastic_gloss
+uniticoniron_rubber_soft,Unit Icon Iron (소프트 러버),15800,1,액세서리,assets/models/UnitIconIron.glb,rubber_soft
+uniticoniron_ceramic_clean,Unit Icon Iron (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconIron.glb,ceramic_clean
+uniticoniron_metal_brushed,Unit Icon Iron (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconIron.glb,metal_brushed
+uniticoniron_metal_polished,Unit Icon Iron (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconIron.glb,metal_polished
+uniticoniron_paint_clearcoat,Unit Icon Iron (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconIron.glb,paint_clearcoat
+uniticoniron_fabric_sheen,Unit Icon Iron (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconIron.glb,fabric_sheen
+uniticoniron_glass_clear,Unit Icon Iron (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconIron.glb,glass_clear
+uniticoniron_resin_tinted,Unit Icon Iron (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconIron.glb,resin_tinted
+uniticoniron_matcap_clay,Unit Icon Iron (클레이),15800,1,액세서리,assets/models/UnitIconIron.glb,matcap_clay
+uniticoniron_matcap_wax,Unit Icon Iron (왁스),16500,0.95,액세서리,assets/models/UnitIconIron.glb,matcap_wax
+uniticoniron_matcap_chrome,Unit Icon Iron (크롬),23300,0.65,액세서리,assets/models/UnitIconIron.glb,matcap_chrome
+uniticoniron_matcap_bronze,Unit Icon Iron (브론즈),21000,0.8,액세서리,assets/models/UnitIconIron.glb,matcap_bronze
+uniticoniron_matcap_black_rubber,Unit Icon Iron (블랙 러버),16200,1,액세서리,assets/models/UnitIconIron.glb,matcap_black_rubber
+uniticoniron_matcap_red_wax,Unit Icon Iron (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconIron.glb,matcap_red_wax
+uniticoniron_matcap_white_ceramic,Unit Icon Iron (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconIron.glb,matcap_white_ceramic
+uniticoniron_matcap_blue_gloss,Unit Icon Iron (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconIron.glb,matcap_blue_gloss
+uniticoniron_matcap_gold,Unit Icon Iron (골드),25500,0.5,액세서리,assets/models/UnitIconIron.glb,matcap_gold
+uniticoniron_matcap_silver_soft,Unit Icon Iron (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconIron.glb,matcap_silver_soft
+uniticonleaf_plastic_matte,Unit Icon Leaf (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconLeaf.glb,plastic_matte
+uniticonleaf_plastic_gloss,Unit Icon Leaf (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconLeaf.glb,plastic_gloss
+uniticonleaf_rubber_soft,Unit Icon Leaf (소프트 러버),15800,1,액세서리,assets/models/UnitIconLeaf.glb,rubber_soft
+uniticonleaf_ceramic_clean,Unit Icon Leaf (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconLeaf.glb,ceramic_clean
+uniticonleaf_metal_brushed,Unit Icon Leaf (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconLeaf.glb,metal_brushed
+uniticonleaf_metal_polished,Unit Icon Leaf (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconLeaf.glb,metal_polished
+uniticonleaf_paint_clearcoat,Unit Icon Leaf (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconLeaf.glb,paint_clearcoat
+uniticonleaf_fabric_sheen,Unit Icon Leaf (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconLeaf.glb,fabric_sheen
+uniticonleaf_glass_clear,Unit Icon Leaf (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconLeaf.glb,glass_clear
+uniticonleaf_resin_tinted,Unit Icon Leaf (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconLeaf.glb,resin_tinted
+uniticonleaf_matcap_clay,Unit Icon Leaf (클레이),15800,1,액세서리,assets/models/UnitIconLeaf.glb,matcap_clay
+uniticonleaf_matcap_wax,Unit Icon Leaf (왁스),16500,0.95,액세서리,assets/models/UnitIconLeaf.glb,matcap_wax
+uniticonleaf_matcap_chrome,Unit Icon Leaf (크롬),23300,0.65,액세서리,assets/models/UnitIconLeaf.glb,matcap_chrome
+uniticonleaf_matcap_bronze,Unit Icon Leaf (브론즈),21000,0.8,액세서리,assets/models/UnitIconLeaf.glb,matcap_bronze
+uniticonleaf_matcap_black_rubber,Unit Icon Leaf (블랙 러버),16200,1,액세서리,assets/models/UnitIconLeaf.glb,matcap_black_rubber
+uniticonleaf_matcap_red_wax,Unit Icon Leaf (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconLeaf.glb,matcap_red_wax
+uniticonleaf_matcap_white_ceramic,Unit Icon Leaf (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconLeaf.glb,matcap_white_ceramic
+uniticonleaf_matcap_blue_gloss,Unit Icon Leaf (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconLeaf.glb,matcap_blue_gloss
+uniticonleaf_matcap_gold,Unit Icon Leaf (골드),25500,0.5,액세서리,assets/models/UnitIconLeaf.glb,matcap_gold
+uniticonleaf_matcap_silver_soft,Unit Icon Leaf (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconLeaf.glb,matcap_silver_soft
+uniticonmap_plastic_matte,지도 아이콘 (매트 플라스틱),8000,1.5,액세서리,assets/models/UnitIconMap.glb,plastic_matte
+uniticonmap_plastic_gloss,지도 아이콘 (글로시 플라스틱),8800,1.45,액세서리,assets/models/UnitIconMap.glb,plastic_gloss
+uniticonmap_rubber_soft,지도 아이콘 (소프트 러버),8400,1.5,액세서리,assets/models/UnitIconMap.glb,rubber_soft
+uniticonmap_ceramic_clean,지도 아이콘 (클린 세라믹),9600,1.4,액세서리,assets/models/UnitIconMap.glb,ceramic_clean
+uniticonmap_metal_brushed,지도 아이콘 (브러시드 메탈),10800,1.3,액세서리,assets/models/UnitIconMap.glb,metal_brushed
+uniticonmap_metal_polished,지도 아이콘 (폴리시드 메탈),12000,1.2,액세서리,assets/models/UnitIconMap.glb,metal_polished
+uniticonmap_paint_clearcoat,지도 아이콘 (클리어코트 페인트),10400,1.35,액세서리,assets/models/UnitIconMap.glb,paint_clearcoat
+uniticonmap_fabric_sheen,지도 아이콘 (패브릭 쉰),9200,1.45,액세서리,assets/models/UnitIconMap.glb,fabric_sheen
+uniticonmap_glass_clear,지도 아이콘 (클리어 글래스),12800,1.1,액세서리,assets/models/UnitIconMap.glb,glass_clear
+uniticonmap_resin_tinted,지도 아이콘 (틴티드 레진),11600,1.25,액세서리,assets/models/UnitIconMap.glb,resin_tinted
+uniticonmap_matcap_clay,지도 아이콘 (클레이),8400,1.5,액세서리,assets/models/UnitIconMap.glb,matcap_clay
+uniticonmap_matcap_wax,지도 아이콘 (왁스),8800,1.45,액세서리,assets/models/UnitIconMap.glb,matcap_wax
+uniticonmap_matcap_chrome,지도 아이콘 (크롬),12400,1.15,액세서리,assets/models/UnitIconMap.glb,matcap_chrome
+uniticonmap_matcap_bronze,지도 아이콘 (브론즈),11200,1.3,액세서리,assets/models/UnitIconMap.glb,matcap_bronze
+uniticonmap_matcap_black_rubber,지도 아이콘 (블랙 러버),8600,1.5,액세서리,assets/models/UnitIconMap.glb,matcap_black_rubber
+uniticonmap_matcap_red_wax,지도 아이콘 (레드 왁스),9200,1.4,액세서리,assets/models/UnitIconMap.glb,matcap_red_wax
+uniticonmap_matcap_white_ceramic,지도 아이콘 (화이트 세라믹),10000,1.35,액세서리,assets/models/UnitIconMap.glb,matcap_white_ceramic
+uniticonmap_matcap_blue_gloss,지도 아이콘 (블루 글로시),9600,1.4,액세서리,assets/models/UnitIconMap.glb,matcap_blue_gloss
+uniticonmap_matcap_gold,지도 아이콘 (골드),13600,1,액세서리,assets/models/UnitIconMap.glb,matcap_gold
+uniticonmap_matcap_silver_soft,지도 아이콘 (소프트 실버),10800,1.3,액세서리,assets/models/UnitIconMap.glb,matcap_silver_soft
+uniticonmusic_plastic_matte,음악 아이콘 (매트 플라스틱),8000,1.5,액세서리,assets/models/UnitIconMusic.glb,plastic_matte
+uniticonmusic_plastic_gloss,음악 아이콘 (글로시 플라스틱),8800,1.45,액세서리,assets/models/UnitIconMusic.glb,plastic_gloss
+uniticonmusic_rubber_soft,음악 아이콘 (소프트 러버),8400,1.5,액세서리,assets/models/UnitIconMusic.glb,rubber_soft
+uniticonmusic_ceramic_clean,음악 아이콘 (클린 세라믹),9600,1.4,액세서리,assets/models/UnitIconMusic.glb,ceramic_clean
+uniticonmusic_metal_brushed,음악 아이콘 (브러시드 메탈),10800,1.3,액세서리,assets/models/UnitIconMusic.glb,metal_brushed
+uniticonmusic_metal_polished,음악 아이콘 (폴리시드 메탈),12000,1.2,액세서리,assets/models/UnitIconMusic.glb,metal_polished
+uniticonmusic_paint_clearcoat,음악 아이콘 (클리어코트 페인트),10400,1.35,액세서리,assets/models/UnitIconMusic.glb,paint_clearcoat
+uniticonmusic_fabric_sheen,음악 아이콘 (패브릭 쉰),9200,1.45,액세서리,assets/models/UnitIconMusic.glb,fabric_sheen
+uniticonmusic_glass_clear,음악 아이콘 (클리어 글래스),12800,1.1,액세서리,assets/models/UnitIconMusic.glb,glass_clear
+uniticonmusic_resin_tinted,음악 아이콘 (틴티드 레진),11600,1.25,액세서리,assets/models/UnitIconMusic.glb,resin_tinted
+uniticonmusic_matcap_clay,음악 아이콘 (클레이),8400,1.5,액세서리,assets/models/UnitIconMusic.glb,matcap_clay
+uniticonmusic_matcap_wax,음악 아이콘 (왁스),8800,1.45,액세서리,assets/models/UnitIconMusic.glb,matcap_wax
+uniticonmusic_matcap_chrome,음악 아이콘 (크롬),12400,1.15,액세서리,assets/models/UnitIconMusic.glb,matcap_chrome
+uniticonmusic_matcap_bronze,음악 아이콘 (브론즈),11200,1.3,액세서리,assets/models/UnitIconMusic.glb,matcap_bronze
+uniticonmusic_matcap_black_rubber,음악 아이콘 (블랙 러버),8600,1.5,액세서리,assets/models/UnitIconMusic.glb,matcap_black_rubber
+uniticonmusic_matcap_red_wax,음악 아이콘 (레드 왁스),9200,1.4,액세서리,assets/models/UnitIconMusic.glb,matcap_red_wax
+uniticonmusic_matcap_white_ceramic,음악 아이콘 (화이트 세라믹),10000,1.35,액세서리,assets/models/UnitIconMusic.glb,matcap_white_ceramic
+uniticonmusic_matcap_blue_gloss,음악 아이콘 (블루 글로시),9600,1.4,액세서리,assets/models/UnitIconMusic.glb,matcap_blue_gloss
+uniticonmusic_matcap_gold,음악 아이콘 (골드),13600,1,액세서리,assets/models/UnitIconMusic.glb,matcap_gold
+uniticonmusic_matcap_silver_soft,음악 아이콘 (소프트 실버),10800,1.3,액세서리,assets/models/UnitIconMusic.glb,matcap_silver_soft
+uniticonpaper_plastic_matte,종이 아이콘 (매트 플라스틱),8000,1.5,액세서리,assets/models/UnitIconPaper.glb,plastic_matte
+uniticonpaper_plastic_gloss,종이 아이콘 (글로시 플라스틱),8800,1.45,액세서리,assets/models/UnitIconPaper.glb,plastic_gloss
+uniticonpaper_rubber_soft,종이 아이콘 (소프트 러버),8400,1.5,액세서리,assets/models/UnitIconPaper.glb,rubber_soft
+uniticonpaper_ceramic_clean,종이 아이콘 (클린 세라믹),9600,1.4,액세서리,assets/models/UnitIconPaper.glb,ceramic_clean
+uniticonpaper_metal_brushed,종이 아이콘 (브러시드 메탈),10800,1.3,액세서리,assets/models/UnitIconPaper.glb,metal_brushed
+uniticonpaper_metal_polished,종이 아이콘 (폴리시드 메탈),12000,1.2,액세서리,assets/models/UnitIconPaper.glb,metal_polished
+uniticonpaper_paint_clearcoat,종이 아이콘 (클리어코트 페인트),10400,1.35,액세서리,assets/models/UnitIconPaper.glb,paint_clearcoat
+uniticonpaper_fabric_sheen,종이 아이콘 (패브릭 쉰),9200,1.45,액세서리,assets/models/UnitIconPaper.glb,fabric_sheen
+uniticonpaper_glass_clear,종이 아이콘 (클리어 글래스),12800,1.1,액세서리,assets/models/UnitIconPaper.glb,glass_clear
+uniticonpaper_resin_tinted,종이 아이콘 (틴티드 레진),11600,1.25,액세서리,assets/models/UnitIconPaper.glb,resin_tinted
+uniticonpaper_matcap_clay,종이 아이콘 (클레이),8400,1.5,액세서리,assets/models/UnitIconPaper.glb,matcap_clay
+uniticonpaper_matcap_wax,종이 아이콘 (왁스),8800,1.45,액세서리,assets/models/UnitIconPaper.glb,matcap_wax
+uniticonpaper_matcap_chrome,종이 아이콘 (크롬),12400,1.15,액세서리,assets/models/UnitIconPaper.glb,matcap_chrome
+uniticonpaper_matcap_bronze,종이 아이콘 (브론즈),11200,1.3,액세서리,assets/models/UnitIconPaper.glb,matcap_bronze
+uniticonpaper_matcap_black_rubber,종이 아이콘 (블랙 러버),8600,1.5,액세서리,assets/models/UnitIconPaper.glb,matcap_black_rubber
+uniticonpaper_matcap_red_wax,종이 아이콘 (레드 왁스),9200,1.4,액세서리,assets/models/UnitIconPaper.glb,matcap_red_wax
+uniticonpaper_matcap_white_ceramic,종이 아이콘 (화이트 세라믹),10000,1.35,액세서리,assets/models/UnitIconPaper.glb,matcap_white_ceramic
+uniticonpaper_matcap_blue_gloss,종이 아이콘 (블루 글로시),9600,1.4,액세서리,assets/models/UnitIconPaper.glb,matcap_blue_gloss
+uniticonpaper_matcap_gold,종이 아이콘 (골드),13600,1,액세서리,assets/models/UnitIconPaper.glb,matcap_gold
+uniticonpaper_matcap_silver_soft,종이 아이콘 (소프트 실버),10800,1.3,액세서리,assets/models/UnitIconPaper.glb,matcap_silver_soft
+uniticonparts_plastic_matte,부품 아이콘 (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconParts.glb,plastic_matte
+uniticonparts_plastic_gloss,부품 아이콘 (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconParts.glb,plastic_gloss
+uniticonparts_rubber_soft,부품 아이콘 (소프트 러버),15800,1,액세서리,assets/models/UnitIconParts.glb,rubber_soft
+uniticonparts_ceramic_clean,부품 아이콘 (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconParts.glb,ceramic_clean
+uniticonparts_metal_brushed,부품 아이콘 (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconParts.glb,metal_brushed
+uniticonparts_metal_polished,부품 아이콘 (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconParts.glb,metal_polished
+uniticonparts_paint_clearcoat,부품 아이콘 (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconParts.glb,paint_clearcoat
+uniticonparts_fabric_sheen,부품 아이콘 (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconParts.glb,fabric_sheen
+uniticonparts_glass_clear,부품 아이콘 (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconParts.glb,glass_clear
+uniticonparts_resin_tinted,부품 아이콘 (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconParts.glb,resin_tinted
+uniticonparts_matcap_clay,부품 아이콘 (클레이),15800,1,액세서리,assets/models/UnitIconParts.glb,matcap_clay
+uniticonparts_matcap_wax,부품 아이콘 (왁스),16500,0.95,액세서리,assets/models/UnitIconParts.glb,matcap_wax
+uniticonparts_matcap_chrome,부품 아이콘 (크롬),23300,0.65,액세서리,assets/models/UnitIconParts.glb,matcap_chrome
+uniticonparts_matcap_bronze,부품 아이콘 (브론즈),21000,0.8,액세서리,assets/models/UnitIconParts.glb,matcap_bronze
+uniticonparts_matcap_black_rubber,부품 아이콘 (블랙 러버),16200,1,액세서리,assets/models/UnitIconParts.glb,matcap_black_rubber
+uniticonparts_matcap_red_wax,부품 아이콘 (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconParts.glb,matcap_red_wax
+uniticonparts_matcap_white_ceramic,부품 아이콘 (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconParts.glb,matcap_white_ceramic
+uniticonparts_matcap_blue_gloss,부품 아이콘 (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconParts.glb,matcap_blue_gloss
+uniticonparts_matcap_gold,부품 아이콘 (골드),25500,0.5,액세서리,assets/models/UnitIconParts.glb,matcap_gold
+uniticonparts_matcap_silver_soft,부품 아이콘 (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconParts.glb,matcap_silver_soft
+uniticonpitfall_plastic_matte,함정 아이콘 (매트 플라스틱),15000,1,액세서리,assets/models/UnitIconPitfall.glb,plastic_matte
+uniticonpitfall_plastic_gloss,함정 아이콘 (글로시 플라스틱),16500,0.95,액세서리,assets/models/UnitIconPitfall.glb,plastic_gloss
+uniticonpitfall_rubber_soft,함정 아이콘 (소프트 러버),15800,1,액세서리,assets/models/UnitIconPitfall.glb,rubber_soft
+uniticonpitfall_ceramic_clean,함정 아이콘 (클린 세라믹),18000,0.9,액세서리,assets/models/UnitIconPitfall.glb,ceramic_clean
+uniticonpitfall_metal_brushed,함정 아이콘 (브러시드 메탈),20300,0.8,액세서리,assets/models/UnitIconPitfall.glb,metal_brushed
+uniticonpitfall_metal_polished,함정 아이콘 (폴리시드 메탈),22500,0.7,액세서리,assets/models/UnitIconPitfall.glb,metal_polished
+uniticonpitfall_paint_clearcoat,함정 아이콘 (클리어코트 페인트),19500,0.85,액세서리,assets/models/UnitIconPitfall.glb,paint_clearcoat
+uniticonpitfall_fabric_sheen,함정 아이콘 (패브릭 쉰),17300,0.95,액세서리,assets/models/UnitIconPitfall.glb,fabric_sheen
+uniticonpitfall_glass_clear,함정 아이콘 (클리어 글래스),24000,0.6,액세서리,assets/models/UnitIconPitfall.glb,glass_clear
+uniticonpitfall_resin_tinted,함정 아이콘 (틴티드 레진),21800,0.75,액세서리,assets/models/UnitIconPitfall.glb,resin_tinted
+uniticonpitfall_matcap_clay,함정 아이콘 (클레이),15800,1,액세서리,assets/models/UnitIconPitfall.glb,matcap_clay
+uniticonpitfall_matcap_wax,함정 아이콘 (왁스),16500,0.95,액세서리,assets/models/UnitIconPitfall.glb,matcap_wax
+uniticonpitfall_matcap_chrome,함정 아이콘 (크롬),23300,0.65,액세서리,assets/models/UnitIconPitfall.glb,matcap_chrome
+uniticonpitfall_matcap_bronze,함정 아이콘 (브론즈),21000,0.8,액세서리,assets/models/UnitIconPitfall.glb,matcap_bronze
+uniticonpitfall_matcap_black_rubber,함정 아이콘 (블랙 러버),16200,1,액세서리,assets/models/UnitIconPitfall.glb,matcap_black_rubber
+uniticonpitfall_matcap_red_wax,함정 아이콘 (레드 왁스),17300,0.9,액세서리,assets/models/UnitIconPitfall.glb,matcap_red_wax
+uniticonpitfall_matcap_white_ceramic,함정 아이콘 (화이트 세라믹),18800,0.85,액세서리,assets/models/UnitIconPitfall.glb,matcap_white_ceramic
+uniticonpitfall_matcap_blue_gloss,함정 아이콘 (블루 글로시),18000,0.9,액세서리,assets/models/UnitIconPitfall.glb,matcap_blue_gloss
+uniticonpitfall_matcap_gold,함정 아이콘 (골드),25500,0.5,액세서리,assets/models/UnitIconPitfall.glb,matcap_gold
+uniticonpitfall_matcap_silver_soft,함정 아이콘 (소프트 실버),20300,0.8,액세서리,assets/models/UnitIconPitfall.glb,matcap_silver_soft

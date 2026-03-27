@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+rugroundlacem00_plastic_matte,레이스 패턴 원형 러그 (매트 플라스틱),15000,1.2,러그,assets/models/RugRoundLaceM00.glb,plastic_matte
+rugroundlacem00_plastic_gloss,레이스 패턴 원형 러그 (글로시 플라스틱),16500,1.15,러그,assets/models/RugRoundLaceM00.glb,plastic_gloss
+rugroundlacem00_rubber_soft,레이스 패턴 원형 러그 (소프트 러버),15800,1.2,러그,assets/models/RugRoundLaceM00.glb,rubber_soft
+rugroundlacem00_ceramic_clean,레이스 패턴 원형 러그 (클린 세라믹),18000,1.1,러그,assets/models/RugRoundLaceM00.glb,ceramic_clean
+rugroundlacem00_metal_brushed,레이스 패턴 원형 러그 (브러시드 메탈),20300,1,러그,assets/models/RugRoundLaceM00.glb,metal_brushed
+rugroundlacem00_metal_polished,레이스 패턴 원형 러그 (폴리시드 메탈),22500,0.9,러그,assets/models/RugRoundLaceM00.glb,metal_polished
+rugroundlacem00_paint_clearcoat,레이스 패턴 원형 러그 (클리어코트 페인트),19500,1.05,러그,assets/models/RugRoundLaceM00.glb,paint_clearcoat
+rugroundlacem00_fabric_sheen,레이스 패턴 원형 러그 (패브릭 쉰),17300,1.15,러그,assets/models/RugRoundLaceM00.glb,fabric_sheen
+rugroundlacem00_glass_clear,레이스 패턴 원형 러그 (클리어 글래스),24000,0.8,러그,assets/models/RugRoundLaceM00.glb,glass_clear
+rugroundlacem00_resin_tinted,레이스 패턴 원형 러그 (틴티드 레진),21800,0.95,러그,assets/models/RugRoundLaceM00.glb,resin_tinted
+rugroundlacem00_matcap_clay,레이스 패턴 원형 러그 (클레이),15800,1.2,러그,assets/models/RugRoundLaceM00.glb,matcap_clay
+rugroundlacem00_matcap_wax,레이스 패턴 원형 러그 (왁스),16500,1.15,러그,assets/models/RugRoundLaceM00.glb,matcap_wax
+rugroundlacem00_matcap_chrome,레이스 패턴 원형 러그 (크롬),23300,0.85,러그,assets/models/RugRoundLaceM00.glb,matcap_chrome
+rugroundlacem00_matcap_bronze,레이스 패턴 원형 러그 (브론즈),21000,1,러그,assets/models/RugRoundLaceM00.glb,matcap_bronze
+rugroundlacem00_matcap_black_rubber,레이스 패턴 원형 러그 (블랙 러버),16200,1.2,러그,assets/models/RugRoundLaceM00.glb,matcap_black_rubber
+rugroundlacem00_matcap_red_wax,레이스 패턴 원형 러그 (레드 왁스),17300,1.1,러그,assets/models/RugRoundLaceM00.glb,matcap_red_wax
+rugroundlacem00_matcap_white_ceramic,레이스 패턴 원형 러그 (화이트 세라믹),18800,1.05,러그,assets/models/RugRoundLaceM00.glb,matcap_white_ceramic
+rugroundlacem00_matcap_blue_gloss,레이스 패턴 원형 러그 (블루 글로시),18000,1.1,러그,assets/models/RugRoundLaceM00.glb,matcap_blue_gloss
+rugroundlacem00_matcap_gold,레이스 패턴 원형 러그 (골드),25500,0.7,러그,assets/models/RugRoundLaceM00.glb,matcap_gold
+rugroundlacem00_matcap_silver_soft,레이스 패턴 원형 러그 (소프트 실버),20300,1,러그,assets/models/RugRoundLaceM00.glb,matcap_silver_soft
+rugroundmagicm00_plastic_matte,마법 원형 러그 (매트 플라스틱),45000,0.8,러그,assets/models/RugRoundMagicM00.glb,plastic_matte
+rugroundmagicm00_plastic_gloss,마법 원형 러그 (글로시 플라스틱),49500,0.75,러그,assets/models/RugRoundMagicM00.glb,plastic_gloss
+rugroundmagicm00_rubber_soft,마법 원형 러그 (소프트 러버),47300,0.8,러그,assets/models/RugRoundMagicM00.glb,rubber_soft
+rugroundmagicm00_ceramic_clean,마법 원형 러그 (클린 세라믹),54000,0.7,러그,assets/models/RugRoundMagicM00.glb,ceramic_clean
+rugroundmagicm00_metal_brushed,마법 원형 러그 (브러시드 메탈),60800,0.6,러그,assets/models/RugRoundMagicM00.glb,metal_brushed
+rugroundmagicm00_metal_polished,마법 원형 러그 (폴리시드 메탈),67500,0.5,러그,assets/models/RugRoundMagicM00.glb,metal_polished
+rugroundmagicm00_paint_clearcoat,마법 원형 러그 (클리어코트 페인트),58500,0.65,러그,assets/models/RugRoundMagicM00.glb,paint_clearcoat
+rugroundmagicm00_fabric_sheen,마법 원형 러그 (패브릭 쉰),51700,0.75,러그,assets/models/RugRoundMagicM00.glb,fabric_sheen
+rugroundmagicm00_glass_clear,마법 원형 러그 (클리어 글래스),72000,0.4,러그,assets/models/RugRoundMagicM00.glb,glass_clear
+rugroundmagicm00_resin_tinted,마법 원형 러그 (틴티드 레진),65300,0.55,러그,assets/models/RugRoundMagicM00.glb,resin_tinted
+rugroundmagicm00_matcap_clay,마법 원형 러그 (클레이),47300,0.8,러그,assets/models/RugRoundMagicM00.glb,matcap_clay
+rugroundmagicm00_matcap_wax,마법 원형 러그 (왁스),49500,0.75,러그,assets/models/RugRoundMagicM00.glb,matcap_wax
+rugroundmagicm00_matcap_chrome,마법 원형 러그 (크롬),69800,0.45,러그,assets/models/RugRoundMagicM00.glb,matcap_chrome
+rugroundmagicm00_matcap_bronze,마법 원형 러그 (브론즈),63000,0.6,러그,assets/models/RugRoundMagicM00.glb,matcap_bronze
+rugroundmagicm00_matcap_black_rubber,마법 원형 러그 (블랙 러버),48600,0.8,러그,assets/models/RugRoundMagicM00.glb,matcap_black_rubber
+rugroundmagicm00_matcap_red_wax,마법 원형 러그 (레드 왁스),51700,0.7,러그,assets/models/RugRoundMagicM00.glb,matcap_red_wax
+rugroundmagicm00_matcap_white_ceramic,마법 원형 러그 (화이트 세라믹),56300,0.65,러그,assets/models/RugRoundMagicM00.glb,matcap_white_ceramic
+rugroundmagicm00_matcap_blue_gloss,마법 원형 러그 (블루 글로시),54000,0.7,러그,assets/models/RugRoundMagicM00.glb,matcap_blue_gloss
+rugroundmagicm00_matcap_gold,마법 원형 러그 (골드),76500,0.3,러그,assets/models/RugRoundMagicM00.glb,matcap_gold
+rugroundmagicm00_matcap_silver_soft,마법 원형 러그 (소프트 실버),60800,0.6,러그,assets/models/RugRoundMagicM00.glb,matcap_silver_soft
+rugroundsimplem00_plastic_matte,심플 원형 러그 (매트 플라스틱),12000,1.8,러그,assets/models/RugRoundSimpleM00.glb,plastic_matte
+rugroundsimplem00_plastic_gloss,심플 원형 러그 (글로시 플라스틱),13200,1.75,러그,assets/models/RugRoundSimpleM00.glb,plastic_gloss
+rugroundsimplem00_rubber_soft,심플 원형 러그 (소프트 러버),12600,1.8,러그,assets/models/RugRoundSimpleM00.glb,rubber_soft
+rugroundsimplem00_ceramic_clean,심플 원형 러그 (클린 세라믹),14400,1.7,러그,assets/models/RugRoundSimpleM00.glb,ceramic_clean
+rugroundsimplem00_metal_brushed,심플 원형 러그 (브러시드 메탈),16200,1.6,러그,assets/models/RugRoundSimpleM00.glb,metal_brushed
+rugroundsimplem00_metal_polished,심플 원형 러그 (폴리시드 메탈),18000,1.5,러그,assets/models/RugRoundSimpleM00.glb,metal_polished
+rugroundsimplem00_paint_clearcoat,심플 원형 러그 (클리어코트 페인트),15600,1.65,러그,assets/models/RugRoundSimpleM00.glb,paint_clearcoat
+rugroundsimplem00_fabric_sheen,심플 원형 러그 (패브릭 쉰),13800,1.75,러그,assets/models/RugRoundSimpleM00.glb,fabric_sheen
+rugroundsimplem00_glass_clear,심플 원형 러그 (클리어 글래스),19200,1.4,러그,assets/models/RugRoundSimpleM00.glb,glass_clear
+rugroundsimplem00_resin_tinted,심플 원형 러그 (틴티드 레진),17400,1.55,러그,assets/models/RugRoundSimpleM00.glb,resin_tinted
+rugroundsimplem00_matcap_clay,심플 원형 러그 (클레이),12600,1.8,러그,assets/models/RugRoundSimpleM00.glb,matcap_clay
+rugroundsimplem00_matcap_wax,심플 원형 러그 (왁스),13200,1.75,러그,assets/models/RugRoundSimpleM00.glb,matcap_wax
+rugroundsimplem00_matcap_chrome,심플 원형 러그 (크롬),18600,1.45,러그,assets/models/RugRoundSimpleM00.glb,matcap_chrome
+rugroundsimplem00_matcap_bronze,심플 원형 러그 (브론즈),16800,1.6,러그,assets/models/RugRoundSimpleM00.glb,matcap_bronze
+rugroundsimplem00_matcap_black_rubber,심플 원형 러그 (블랙 러버),13000,1.8,러그,assets/models/RugRoundSimpleM00.glb,matcap_black_rubber
+rugroundsimplem00_matcap_red_wax,심플 원형 러그 (레드 왁스),13800,1.7,러그,assets/models/RugRoundSimpleM00.glb,matcap_red_wax
+rugroundsimplem00_matcap_white_ceramic,심플 원형 러그 (화이트 세라믹),15000,1.65,러그,assets/models/RugRoundSimpleM00.glb,matcap_white_ceramic
+rugroundsimplem00_matcap_blue_gloss,심플 원형 러그 (블루 글로시),14400,1.7,러그,assets/models/RugRoundSimpleM00.glb,matcap_blue_gloss
+rugroundsimplem00_matcap_gold,심플 원형 러그 (골드),20400,1.3,러그,assets/models/RugRoundSimpleM00.glb,matcap_gold
+rugroundsimplem00_matcap_silver_soft,심플 원형 러그 (소프트 실버),16200,1.6,러그,assets/models/RugRoundSimpleM00.glb,matcap_silver_soft
+rugroundsnowm00_plastic_matte,눈송이 원형 러그 (매트 플라스틱),25000,1,러그,assets/models/RugRoundSnowM00.glb,plastic_matte
+rugroundsnowm00_plastic_gloss,눈송이 원형 러그 (글로시 플라스틱),27500,0.95,러그,assets/models/RugRoundSnowM00.glb,plastic_gloss
+rugroundsnowm00_rubber_soft,눈송이 원형 러그 (소프트 러버),26300,1,러그,assets/models/RugRoundSnowM00.glb,rubber_soft
+rugroundsnowm00_ceramic_clean,눈송이 원형 러그 (클린 세라믹),30000,0.9,러그,assets/models/RugRoundSnowM00.glb,ceramic_clean
+rugroundsnowm00_metal_brushed,눈송이 원형 러그 (브러시드 메탈),33800,0.8,러그,assets/models/RugRoundSnowM00.glb,metal_brushed
+rugroundsnowm00_metal_polished,눈송이 원형 러그 (폴리시드 메탈),37500,0.7,러그,assets/models/RugRoundSnowM00.glb,metal_polished
+rugroundsnowm00_paint_clearcoat,눈송이 원형 러그 (클리어코트 페인트),32500,0.85,러그,assets/models/RugRoundSnowM00.glb,paint_clearcoat
+rugroundsnowm00_fabric_sheen,눈송이 원형 러그 (패브릭 쉰),28700,0.95,러그,assets/models/RugRoundSnowM00.glb,fabric_sheen
+rugroundsnowm00_glass_clear,눈송이 원형 러그 (클리어 글래스),40000,0.6,러그,assets/models/RugRoundSnowM00.glb,glass_clear
+rugroundsnowm00_resin_tinted,눈송이 원형 러그 (틴티드 레진),36300,0.75,러그,assets/models/RugRoundSnowM00.glb,resin_tinted
+rugroundsnowm00_matcap_clay,눈송이 원형 러그 (클레이),26300,1,러그,assets/models/RugRoundSnowM00.glb,matcap_clay
+rugroundsnowm00_matcap_wax,눈송이 원형 러그 (왁스),27500,0.95,러그,assets/models/RugRoundSnowM00.glb,matcap_wax
+rugroundsnowm00_matcap_chrome,눈송이 원형 러그 (크롬),38800,0.65,러그,assets/models/RugRoundSnowM00.glb,matcap_chrome
+rugroundsnowm00_matcap_bronze,눈송이 원형 러그 (브론즈),35000,0.8,러그,assets/models/RugRoundSnowM00.glb,matcap_bronze
+rugroundsnowm00_matcap_black_rubber,눈송이 원형 러그 (블랙 러버),27000,1,러그,assets/models/RugRoundSnowM00.glb,matcap_black_rubber
+rugroundsnowm00_matcap_red_wax,눈송이 원형 러그 (레드 왁스),28700,0.9,러그,assets/models/RugRoundSnowM00.glb,matcap_red_wax
+rugroundsnowm00_matcap_white_ceramic,눈송이 원형 러그 (화이트 세라믹),31300,0.85,러그,assets/models/RugRoundSnowM00.glb,matcap_white_ceramic
+rugroundsnowm00_matcap_blue_gloss,눈송이 원형 러그 (블루 글로시),30000,0.9,러그,assets/models/RugRoundSnowM00.glb,matcap_blue_gloss
+rugroundsnowm00_matcap_gold,눈송이 원형 러그 (골드),42500,0.5,러그,assets/models/RugRoundSnowM00.glb,matcap_gold
+rugroundsnowm00_matcap_silver_soft,눈송이 원형 러그 (소프트 실버),33800,0.8,러그,assets/models/RugRoundSnowM00.glb,matcap_silver_soft
+rugsquareblockm00_plastic_matte,체크무늬 사각 러그 (매트 플라스틱),18000,1.3,러그,assets/models/RugSquareBlockM00.glb,plastic_matte
+rugsquareblockm00_plastic_gloss,체크무늬 사각 러그 (글로시 플라스틱),19800,1.25,러그,assets/models/RugSquareBlockM00.glb,plastic_gloss
+rugsquareblockm00_rubber_soft,체크무늬 사각 러그 (소프트 러버),18900,1.3,러그,assets/models/RugSquareBlockM00.glb,rubber_soft
+rugsquareblockm00_ceramic_clean,체크무늬 사각 러그 (클린 세라믹),21600,1.2,러그,assets/models/RugSquareBlockM00.glb,ceramic_clean
+rugsquareblockm00_metal_brushed,체크무늬 사각 러그 (브러시드 메탈),24300,1.1,러그,assets/models/RugSquareBlockM00.glb,metal_brushed
+rugsquareblockm00_metal_polished,체크무늬 사각 러그 (폴리시드 메탈),27000,1,러그,assets/models/RugSquareBlockM00.glb,metal_polished
+rugsquareblockm00_paint_clearcoat,체크무늬 사각 러그 (클리어코트 페인트),23400,1.15,러그,assets/models/RugSquareBlockM00.glb,paint_clearcoat
+rugsquareblockm00_fabric_sheen,체크무늬 사각 러그 (패브릭 쉰),20700,1.25,러그,assets/models/RugSquareBlockM00.glb,fabric_sheen
+rugsquareblockm00_glass_clear,체크무늬 사각 러그 (클리어 글래스),28800,0.9,러그,assets/models/RugSquareBlockM00.glb,glass_clear
+rugsquareblockm00_resin_tinted,체크무늬 사각 러그 (틴티드 레진),26100,1.05,러그,assets/models/RugSquareBlockM00.glb,resin_tinted
+rugsquareblockm00_matcap_clay,체크무늬 사각 러그 (클레이),18900,1.3,러그,assets/models/RugSquareBlockM00.glb,matcap_clay
+rugsquareblockm00_matcap_wax,체크무늬 사각 러그 (왁스),19800,1.25,러그,assets/models/RugSquareBlockM00.glb,matcap_wax
+rugsquareblockm00_matcap_chrome,체크무늬 사각 러그 (크롬),27900,0.95,러그,assets/models/RugSquareBlockM00.glb,matcap_chrome
+rugsquareblockm00_matcap_bronze,체크무늬 사각 러그 (브론즈),25200,1.1,러그,assets/models/RugSquareBlockM00.glb,matcap_bronze
+rugsquareblockm00_matcap_black_rubber,체크무늬 사각 러그 (블랙 러버),19400,1.3,러그,assets/models/RugSquareBlockM00.glb,matcap_black_rubber
+rugsquareblockm00_matcap_red_wax,체크무늬 사각 러그 (레드 왁스),20700,1.2,러그,assets/models/RugSquareBlockM00.glb,matcap_red_wax
+rugsquareblockm00_matcap_white_ceramic,체크무늬 사각 러그 (화이트 세라믹),22500,1.15,러그,assets/models/RugSquareBlockM00.glb,matcap_white_ceramic
+rugsquareblockm00_matcap_blue_gloss,체크무늬 사각 러그 (블루 글로시),21600,1.2,러그,assets/models/RugSquareBlockM00.glb,matcap_blue_gloss
+rugsquareblockm00_matcap_gold,체크무늬 사각 러그 (골드),30600,0.8,러그,assets/models/RugSquareBlockM00.glb,matcap_gold
+rugsquareblockm00_matcap_silver_soft,체크무늬 사각 러그 (소프트 실버),24300,1.1,러그,assets/models/RugSquareBlockM00.glb,matcap_silver_soft
+rugsquarekiriml00_plastic_matte,Kirim L00 (매트 플라스틱),15000,0.8,장식,assets/models/RugSquareKirimL00.glb,plastic_matte
+rugsquarekiriml00_plastic_gloss,Kirim L00 (글로시 플라스틱),16500,0.75,장식,assets/models/RugSquareKirimL00.glb,plastic_gloss
+rugsquarekiriml00_rubber_soft,Kirim L00 (소프트 러버),15800,0.8,장식,assets/models/RugSquareKirimL00.glb,rubber_soft
+rugsquarekiriml00_ceramic_clean,Kirim L00 (클린 세라믹),18000,0.7,장식,assets/models/RugSquareKirimL00.glb,ceramic_clean
+rugsquarekiriml00_metal_brushed,Kirim L00 (브러시드 메탈),20300,0.6,장식,assets/models/RugSquareKirimL00.glb,metal_brushed
+rugsquarekiriml00_metal_polished,Kirim L00 (폴리시드 메탈),22500,0.5,장식,assets/models/RugSquareKirimL00.glb,metal_polished
+rugsquarekiriml00_paint_clearcoat,Kirim L00 (클리어코트 페인트),19500,0.65,장식,assets/models/RugSquareKirimL00.glb,paint_clearcoat
+rugsquarekiriml00_fabric_sheen,Kirim L00 (패브릭 쉰),17300,0.75,장식,assets/models/RugSquareKirimL00.glb,fabric_sheen
+rugsquarekiriml00_glass_clear,Kirim L00 (클리어 글래스),24000,0.4,장식,assets/models/RugSquareKirimL00.glb,glass_clear
+rugsquarekiriml00_resin_tinted,Kirim L00 (틴티드 레진),21800,0.55,장식,assets/models/RugSquareKirimL00.glb,resin_tinted
+rugsquarekiriml00_matcap_clay,Kirim L00 (클레이),15800,0.8,장식,assets/models/RugSquareKirimL00.glb,matcap_clay
+rugsquarekiriml00_matcap_wax,Kirim L00 (왁스),16500,0.75,장식,assets/models/RugSquareKirimL00.glb,matcap_wax
+rugsquarekiriml00_matcap_chrome,Kirim L00 (크롬),23300,0.45,장식,assets/models/RugSquareKirimL00.glb,matcap_chrome
+rugsquarekiriml00_matcap_bronze,Kirim L00 (브론즈),21000,0.6,장식,assets/models/RugSquareKirimL00.glb,matcap_bronze
+rugsquarekiriml00_matcap_black_rubber,Kirim L00 (블랙 러버),16200,0.8,장식,assets/models/RugSquareKirimL00.glb,matcap_black_rubber
+rugsquarekiriml00_matcap_red_wax,Kirim L00 (레드 왁스),17300,0.7,장식,assets/models/RugSquareKirimL00.glb,matcap_red_wax
+rugsquarekiriml00_matcap_white_ceramic,Kirim L00 (화이트 세라믹),18800,0.65,장식,assets/models/RugSquareKirimL00.glb,matcap_white_ceramic
+rugsquarekiriml00_matcap_blue_gloss,Kirim L00 (블루 글로시),18000,0.7,장식,assets/models/RugSquareKirimL00.glb,matcap_blue_gloss
+rugsquarekiriml00_matcap_gold,Kirim L00 (골드),25500,0.3,장식,assets/models/RugSquareKirimL00.glb,matcap_gold
+rugsquarekiriml00_matcap_silver_soft,Kirim L00 (소프트 실버),20300,0.6,장식,assets/models/RugSquareKirimL00.glb,matcap_silver_soft
+rugsquarepersianl00_plastic_matte,Persian L00 (매트 플라스틱),25000,0.5,장식,assets/models/RugSquarePersianL00.glb,plastic_matte
+rugsquarepersianl00_plastic_gloss,Persian L00 (글로시 플라스틱),27500,0.45,장식,assets/models/RugSquarePersianL00.glb,plastic_gloss
+rugsquarepersianl00_rubber_soft,Persian L00 (소프트 러버),26300,0.5,장식,assets/models/RugSquarePersianL00.glb,rubber_soft
+rugsquarepersianl00_ceramic_clean,Persian L00 (클린 세라믹),30000,0.4,장식,assets/models/RugSquarePersianL00.glb,ceramic_clean
+rugsquarepersianl00_metal_brushed,Persian L00 (브러시드 메탈),33800,0.3,장식,assets/models/RugSquarePersianL00.glb,metal_brushed
+rugsquarepersianl00_metal_polished,Persian L00 (폴리시드 메탈),37500,0.2,장식,assets/models/RugSquarePersianL00.glb,metal_polished
+rugsquarepersianl00_paint_clearcoat,Persian L00 (클리어코트 페인트),32500,0.35,장식,assets/models/RugSquarePersianL00.glb,paint_clearcoat
+rugsquarepersianl00_fabric_sheen,Persian L00 (패브릭 쉰),28700,0.45,장식,assets/models/RugSquarePersianL00.glb,fabric_sheen
+rugsquarepersianl00_glass_clear,Persian L00 (클리어 글래스),40000,0.1,장식,assets/models/RugSquarePersianL00.glb,glass_clear
+rugsquarepersianl00_resin_tinted,Persian L00 (틴티드 레진),36300,0.25,장식,assets/models/RugSquarePersianL00.glb,resin_tinted
+rugsquarepersianl00_matcap_clay,Persian L00 (클레이),26300,0.5,장식,assets/models/RugSquarePersianL00.glb,matcap_clay
+rugsquarepersianl00_matcap_wax,Persian L00 (왁스),27500,0.45,장식,assets/models/RugSquarePersianL00.glb,matcap_wax
+rugsquarepersianl00_matcap_chrome,Persian L00 (크롬),38800,0.15,장식,assets/models/RugSquarePersianL00.glb,matcap_chrome
+rugsquarepersianl00_matcap_bronze,Persian L00 (브론즈),35000,0.3,장식,assets/models/RugSquarePersianL00.glb,matcap_bronze
+rugsquarepersianl00_matcap_black_rubber,Persian L00 (블랙 러버),27000,0.5,장식,assets/models/RugSquarePersianL00.glb,matcap_black_rubber
+rugsquarepersianl00_matcap_red_wax,Persian L00 (레드 왁스),28700,0.4,장식,assets/models/RugSquarePersianL00.glb,matcap_red_wax
+rugsquarepersianl00_matcap_white_ceramic,Persian L00 (화이트 세라믹),31300,0.35,장식,assets/models/RugSquarePersianL00.glb,matcap_white_ceramic
+rugsquarepersianl00_matcap_blue_gloss,Persian L00 (블루 글로시),30000,0.4,장식,assets/models/RugSquarePersianL00.glb,matcap_blue_gloss
+rugsquarepersianl00_matcap_gold,Persian L00 (골드),42500,0.1,장식,assets/models/RugSquarePersianL00.glb,matcap_gold
+rugsquarepersianl00_matcap_silver_soft,Persian L00 (소프트 실버),33800,0.3,장식,assets/models/RugSquarePersianL00.glb,matcap_silver_soft
+rugsquareshaggyl00_plastic_matte,Shaggy L00 (매트 플라스틱),20000,0.7,장식,assets/models/RugSquareShaggyL00.glb,plastic_matte
+rugsquareshaggyl00_plastic_gloss,Shaggy L00 (글로시 플라스틱),22000,0.65,장식,assets/models/RugSquareShaggyL00.glb,plastic_gloss
+rugsquareshaggyl00_rubber_soft,Shaggy L00 (소프트 러버),21000,0.7,장식,assets/models/RugSquareShaggyL00.glb,rubber_soft
+rugsquareshaggyl00_ceramic_clean,Shaggy L00 (클린 세라믹),24000,0.6,장식,assets/models/RugSquareShaggyL00.glb,ceramic_clean
+rugsquareshaggyl00_metal_brushed,Shaggy L00 (브러시드 메탈),27000,0.5,장식,assets/models/RugSquareShaggyL00.glb,metal_brushed
+rugsquareshaggyl00_metal_polished,Shaggy L00 (폴리시드 메탈),30000,0.4,장식,assets/models/RugSquareShaggyL00.glb,metal_polished
+rugsquareshaggyl00_paint_clearcoat,Shaggy L00 (클리어코트 페인트),26000,0.55,장식,assets/models/RugSquareShaggyL00.glb,paint_clearcoat
+rugsquareshaggyl00_fabric_sheen,Shaggy L00 (패브릭 쉰),23000,0.65,장식,assets/models/RugSquareShaggyL00.glb,fabric_sheen
+rugsquareshaggyl00_glass_clear,Shaggy L00 (클리어 글래스),32000,0.3,장식,assets/models/RugSquareShaggyL00.glb,glass_clear
+rugsquareshaggyl00_resin_tinted,Shaggy L00 (틴티드 레진),29000,0.45,장식,assets/models/RugSquareShaggyL00.glb,resin_tinted
+rugsquareshaggyl00_matcap_clay,Shaggy L00 (클레이),21000,0.7,장식,assets/models/RugSquareShaggyL00.glb,matcap_clay
+rugsquareshaggyl00_matcap_wax,Shaggy L00 (왁스),22000,0.65,장식,assets/models/RugSquareShaggyL00.glb,matcap_wax
+rugsquareshaggyl00_matcap_chrome,Shaggy L00 (크롬),31000,0.35,장식,assets/models/RugSquareShaggyL00.glb,matcap_chrome
+rugsquareshaggyl00_matcap_bronze,Shaggy L00 (브론즈),28000,0.5,장식,assets/models/RugSquareShaggyL00.glb,matcap_bronze
+rugsquareshaggyl00_matcap_black_rubber,Shaggy L00 (블랙 러버),21600,0.7,장식,assets/models/RugSquareShaggyL00.glb,matcap_black_rubber
+rugsquareshaggyl00_matcap_red_wax,Shaggy L00 (레드 왁스),23000,0.6,장식,assets/models/RugSquareShaggyL00.glb,matcap_red_wax
+rugsquareshaggyl00_matcap_white_ceramic,Shaggy L00 (화이트 세라믹),25000,0.55,장식,assets/models/RugSquareShaggyL00.glb,matcap_white_ceramic
+rugsquareshaggyl00_matcap_blue_gloss,Shaggy L00 (블루 글로시),24000,0.6,장식,assets/models/RugSquareShaggyL00.glb,matcap_blue_gloss
+rugsquareshaggyl00_matcap_gold,Shaggy L00 (골드),34000,0.2,장식,assets/models/RugSquareShaggyL00.glb,matcap_gold
+rugsquareshaggyl00_matcap_silver_soft,Shaggy L00 (소프트 실버),27000,0.5,장식,assets/models/RugSquareShaggyL00.glb,matcap_silver_soft
+rugsquaresimplem00_plastic_matte,Simple M00 (매트 플라스틱),5000,1.8,장식,assets/models/RugSquareSimpleM00.glb,plastic_matte
+rugsquaresimplem00_plastic_gloss,Simple M00 (글로시 플라스틱),5500,1.75,장식,assets/models/RugSquareSimpleM00.glb,plastic_gloss
+rugsquaresimplem00_rubber_soft,Simple M00 (소프트 러버),5300,1.8,장식,assets/models/RugSquareSimpleM00.glb,rubber_soft
+rugsquaresimplem00_ceramic_clean,Simple M00 (클린 세라믹),6000,1.7,장식,assets/models/RugSquareSimpleM00.glb,ceramic_clean
+rugsquaresimplem00_metal_brushed,Simple M00 (브러시드 메탈),6800,1.6,장식,assets/models/RugSquareSimpleM00.glb,metal_brushed
+rugsquaresimplem00_metal_polished,Simple M00 (폴리시드 메탈),7500,1.5,장식,assets/models/RugSquareSimpleM00.glb,metal_polished
+rugsquaresimplem00_paint_clearcoat,Simple M00 (클리어코트 페인트),6500,1.65,장식,assets/models/RugSquareSimpleM00.glb,paint_clearcoat
+rugsquaresimplem00_fabric_sheen,Simple M00 (패브릭 쉰),5800,1.75,장식,assets/models/RugSquareSimpleM00.glb,fabric_sheen
+rugsquaresimplem00_glass_clear,Simple M00 (클리어 글래스),8000,1.4,장식,assets/models/RugSquareSimpleM00.glb,glass_clear
+rugsquaresimplem00_resin_tinted,Simple M00 (틴티드 레진),7300,1.55,장식,assets/models/RugSquareSimpleM00.glb,resin_tinted
+rugsquaresimplem00_matcap_clay,Simple M00 (클레이),5300,1.8,장식,assets/models/RugSquareSimpleM00.glb,matcap_clay
+rugsquaresimplem00_matcap_wax,Simple M00 (왁스),5500,1.75,장식,assets/models/RugSquareSimpleM00.glb,matcap_wax
+rugsquaresimplem00_matcap_chrome,Simple M00 (크롬),7800,1.45,장식,assets/models/RugSquareSimpleM00.glb,matcap_chrome
+rugsquaresimplem00_matcap_bronze,Simple M00 (브론즈),7000,1.6,장식,assets/models/RugSquareSimpleM00.glb,matcap_bronze
+rugsquaresimplem00_matcap_black_rubber,Simple M00 (블랙 러버),5400,1.8,장식,assets/models/RugSquareSimpleM00.glb,matcap_black_rubber
+rugsquaresimplem00_matcap_red_wax,Simple M00 (레드 왁스),5800,1.7,장식,assets/models/RugSquareSimpleM00.glb,matcap_red_wax
+rugsquaresimplem00_matcap_white_ceramic,Simple M00 (화이트 세라믹),6300,1.65,장식,assets/models/RugSquareSimpleM00.glb,matcap_white_ceramic
+rugsquaresimplem00_matcap_blue_gloss,Simple M00 (블루 글로시),6000,1.7,장식,assets/models/RugSquareSimpleM00.glb,matcap_blue_gloss
+rugsquaresimplem00_matcap_gold,Simple M00 (골드),8500,1.3,장식,assets/models/RugSquareSimpleM00.glb,matcap_gold
+rugsquaresimplem00_matcap_silver_soft,Simple M00 (소프트 실버),6800,1.6,장식,assets/models/RugSquareSimpleM00.glb,matcap_silver_soft
+rugsquaresimples00_plastic_matte,Simple S00 (매트 플라스틱),5000,1.9,장식,assets/models/RugSquareSimpleS00.glb,plastic_matte
+rugsquaresimples00_plastic_gloss,Simple S00 (글로시 플라스틱),5500,1.85,장식,assets/models/RugSquareSimpleS00.glb,plastic_gloss
+rugsquaresimples00_rubber_soft,Simple S00 (소프트 러버),5300,1.9,장식,assets/models/RugSquareSimpleS00.glb,rubber_soft
+rugsquaresimples00_ceramic_clean,Simple S00 (클린 세라믹),6000,1.8,장식,assets/models/RugSquareSimpleS00.glb,ceramic_clean
+rugsquaresimples00_metal_brushed,Simple S00 (브러시드 메탈),6800,1.7,장식,assets/models/RugSquareSimpleS00.glb,metal_brushed
+rugsquaresimples00_metal_polished,Simple S00 (폴리시드 메탈),7500,1.6,장식,assets/models/RugSquareSimpleS00.glb,metal_polished
+rugsquaresimples00_paint_clearcoat,Simple S00 (클리어코트 페인트),6500,1.75,장식,assets/models/RugSquareSimpleS00.glb,paint_clearcoat
+rugsquaresimples00_fabric_sheen,Simple S00 (패브릭 쉰),5800,1.85,장식,assets/models/RugSquareSimpleS00.glb,fabric_sheen
+rugsquaresimples00_glass_clear,Simple S00 (클리어 글래스),8000,1.5,장식,assets/models/RugSquareSimpleS00.glb,glass_clear
+rugsquaresimples00_resin_tinted,Simple S00 (틴티드 레진),7300,1.65,장식,assets/models/RugSquareSimpleS00.glb,resin_tinted
+rugsquaresimples00_matcap_clay,Simple S00 (클레이),5300,1.9,장식,assets/models/RugSquareSimpleS00.glb,matcap_clay
+rugsquaresimples00_matcap_wax,Simple S00 (왁스),5500,1.85,장식,assets/models/RugSquareSimpleS00.glb,matcap_wax
+rugsquaresimples00_matcap_chrome,Simple S00 (크롬),7800,1.55,장식,assets/models/RugSquareSimpleS00.glb,matcap_chrome
+rugsquaresimples00_matcap_bronze,Simple S00 (브론즈),7000,1.7,장식,assets/models/RugSquareSimpleS00.glb,matcap_bronze
+rugsquaresimples00_matcap_black_rubber,Simple S00 (블랙 러버),5400,1.9,장식,assets/models/RugSquareSimpleS00.glb,matcap_black_rubber
+rugsquaresimples00_matcap_red_wax,Simple S00 (레드 왁스),5800,1.8,장식,assets/models/RugSquareSimpleS00.glb,matcap_red_wax
+rugsquaresimples00_matcap_white_ceramic,Simple S00 (화이트 세라믹),6300,1.75,장식,assets/models/RugSquareSimpleS00.glb,matcap_white_ceramic
+rugsquaresimples00_matcap_blue_gloss,Simple S00 (블루 글로시),6000,1.8,장식,assets/models/RugSquareSimpleS00.glb,matcap_blue_gloss
+rugsquaresimples00_matcap_gold,Simple S00 (골드),8500,1.4,장식,assets/models/RugSquareSimpleS00.glb,matcap_gold
+rugsquaresimples00_matcap_silver_soft,Simple S00 (소프트 실버),6800,1.7,장식,assets/models/RugSquareSimpleS00.glb,matcap_silver_soft

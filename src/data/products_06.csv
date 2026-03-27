@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+capbangsbear0_plastic_matte,Cap Bangs Bear 0 (매트 플라스틱),15000,1,액세서리,assets/models/CapBangsBear0.glb,plastic_matte
+capbangsbear0_plastic_gloss,Cap Bangs Bear 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapBangsBear0.glb,plastic_gloss
+capbangsbear0_rubber_soft,Cap Bangs Bear 0 (소프트 러버),15800,1,액세서리,assets/models/CapBangsBear0.glb,rubber_soft
+capbangsbear0_ceramic_clean,Cap Bangs Bear 0 (클린 세라믹),18000,0.9,액세서리,assets/models/CapBangsBear0.glb,ceramic_clean
+capbangsbear0_metal_brushed,Cap Bangs Bear 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapBangsBear0.glb,metal_brushed
+capbangsbear0_metal_polished,Cap Bangs Bear 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapBangsBear0.glb,metal_polished
+capbangsbear0_paint_clearcoat,Cap Bangs Bear 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapBangsBear0.glb,paint_clearcoat
+capbangsbear0_fabric_sheen,Cap Bangs Bear 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapBangsBear0.glb,fabric_sheen
+capbangsbear0_glass_clear,Cap Bangs Bear 0 (클리어 글래스),24000,0.6,액세서리,assets/models/CapBangsBear0.glb,glass_clear
+capbangsbear0_resin_tinted,Cap Bangs Bear 0 (틴티드 레진),21800,0.75,액세서리,assets/models/CapBangsBear0.glb,resin_tinted
+capbangsbear0_matcap_clay,Cap Bangs Bear 0 (클레이),15800,1,액세서리,assets/models/CapBangsBear0.glb,matcap_clay
+capbangsbear0_matcap_wax,Cap Bangs Bear 0 (왁스),16500,0.95,액세서리,assets/models/CapBangsBear0.glb,matcap_wax
+capbangsbear0_matcap_chrome,Cap Bangs Bear 0 (크롬),23300,0.65,액세서리,assets/models/CapBangsBear0.glb,matcap_chrome
+capbangsbear0_matcap_bronze,Cap Bangs Bear 0 (브론즈),21000,0.8,액세서리,assets/models/CapBangsBear0.glb,matcap_bronze
+capbangsbear0_matcap_black_rubber,Cap Bangs Bear 0 (블랙 러버),16200,1,액세서리,assets/models/CapBangsBear0.glb,matcap_black_rubber
+capbangsbear0_matcap_red_wax,Cap Bangs Bear 0 (레드 왁스),17300,0.9,액세서리,assets/models/CapBangsBear0.glb,matcap_red_wax
+capbangsbear0_matcap_white_ceramic,Cap Bangs Bear 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapBangsBear0.glb,matcap_white_ceramic
+capbangsbear0_matcap_blue_gloss,Cap Bangs Bear 0 (블루 글로시),18000,0.9,액세서리,assets/models/CapBangsBear0.glb,matcap_blue_gloss
+capbangsbear0_matcap_gold,Cap Bangs Bear 0 (골드),25500,0.5,액세서리,assets/models/CapBangsBear0.glb,matcap_gold
+capbangsbear0_matcap_silver_soft,Cap Bangs Bear 0 (소프트 실버),20300,0.8,액세서리,assets/models/CapBangsBear0.glb,matcap_silver_soft
+capbangsbonnet0_plastic_matte,Cap Bangs Bonnet 0 (매트 플라스틱),15000,1,액세서리,assets/models/CapBangsBonnet0.glb,plastic_matte
+capbangsbonnet0_plastic_gloss,Cap Bangs Bonnet 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapBangsBonnet0.glb,plastic_gloss
+capbangsbonnet0_rubber_soft,Cap Bangs Bonnet 0 (소프트 러버),15800,1,액세서리,assets/models/CapBangsBonnet0.glb,rubber_soft
+capbangsbonnet0_ceramic_clean,Cap Bangs Bonnet 0 (클린 세라믹),18000,0.9,액세서리,assets/models/CapBangsBonnet0.glb,ceramic_clean
+capbangsbonnet0_metal_brushed,Cap Bangs Bonnet 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapBangsBonnet0.glb,metal_brushed
+capbangsbonnet0_metal_polished,Cap Bangs Bonnet 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapBangsBonnet0.glb,metal_polished
+capbangsbonnet0_paint_clearcoat,Cap Bangs Bonnet 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapBangsBonnet0.glb,paint_clearcoat
+capbangsbonnet0_fabric_sheen,Cap Bangs Bonnet 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapBangsBonnet0.glb,fabric_sheen
+capbangsbonnet0_glass_clear,Cap Bangs Bonnet 0 (클리어 글래스),24000,0.6,액세서리,assets/models/CapBangsBonnet0.glb,glass_clear
+capbangsbonnet0_resin_tinted,Cap Bangs Bonnet 0 (틴티드 레진),21800,0.75,액세서리,assets/models/CapBangsBonnet0.glb,resin_tinted
+capbangsbonnet0_matcap_clay,Cap Bangs Bonnet 0 (클레이),15800,1,액세서리,assets/models/CapBangsBonnet0.glb,matcap_clay
+capbangsbonnet0_matcap_wax,Cap Bangs Bonnet 0 (왁스),16500,0.95,액세서리,assets/models/CapBangsBonnet0.glb,matcap_wax
+capbangsbonnet0_matcap_chrome,Cap Bangs Bonnet 0 (크롬),23300,0.65,액세서리,assets/models/CapBangsBonnet0.glb,matcap_chrome
+capbangsbonnet0_matcap_bronze,Cap Bangs Bonnet 0 (브론즈),21000,0.8,액세서리,assets/models/CapBangsBonnet0.glb,matcap_bronze
+capbangsbonnet0_matcap_black_rubber,Cap Bangs Bonnet 0 (블랙 러버),16200,1,액세서리,assets/models/CapBangsBonnet0.glb,matcap_black_rubber
+capbangsbonnet0_matcap_red_wax,Cap Bangs Bonnet 0 (레드 왁스),17300,0.9,액세서리,assets/models/CapBangsBonnet0.glb,matcap_red_wax
+capbangsbonnet0_matcap_white_ceramic,Cap Bangs Bonnet 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapBangsBonnet0.glb,matcap_white_ceramic
+capbangsbonnet0_matcap_blue_gloss,Cap Bangs Bonnet 0 (블루 글로시),18000,0.9,액세서리,assets/models/CapBangsBonnet0.glb,matcap_blue_gloss
+capbangsbonnet0_matcap_gold,Cap Bangs Bonnet 0 (골드),25500,0.5,액세서리,assets/models/CapBangsBonnet0.glb,matcap_gold
+capbangsbonnet0_matcap_silver_soft,Cap Bangs Bonnet 0 (소프트 실버),20300,0.8,액세서리,assets/models/CapBangsBonnet0.glb,matcap_silver_soft
+capbangscat0_plastic_matte,Cap Bangs Cat 0 (매트 플라스틱),15000,1,액세서리,assets/models/CapBangsCat0.glb,plastic_matte
+capbangscat0_plastic_gloss,Cap Bangs Cat 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapBangsCat0.glb,plastic_gloss
+capbangscat0_rubber_soft,Cap Bangs Cat 0 (소프트 러버),15800,1,액세서리,assets/models/CapBangsCat0.glb,rubber_soft
+capbangscat0_ceramic_clean,Cap Bangs Cat 0 (클린 세라믹),18000,0.9,액세서리,assets/models/CapBangsCat0.glb,ceramic_clean
+capbangscat0_metal_brushed,Cap Bangs Cat 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapBangsCat0.glb,metal_brushed
+capbangscat0_metal_polished,Cap Bangs Cat 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapBangsCat0.glb,metal_polished
+capbangscat0_paint_clearcoat,Cap Bangs Cat 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapBangsCat0.glb,paint_clearcoat
+capbangscat0_fabric_sheen,Cap Bangs Cat 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapBangsCat0.glb,fabric_sheen
+capbangscat0_glass_clear,Cap Bangs Cat 0 (클리어 글래스),24000,0.6,액세서리,assets/models/CapBangsCat0.glb,glass_clear
+capbangscat0_resin_tinted,Cap Bangs Cat 0 (틴티드 레진),21800,0.75,액세서리,assets/models/CapBangsCat0.glb,resin_tinted
+capbangscat0_matcap_clay,Cap Bangs Cat 0 (클레이),15800,1,액세서리,assets/models/CapBangsCat0.glb,matcap_clay
+capbangscat0_matcap_wax,Cap Bangs Cat 0 (왁스),16500,0.95,액세서리,assets/models/CapBangsCat0.glb,matcap_wax
+capbangscat0_matcap_chrome,Cap Bangs Cat 0 (크롬),23300,0.65,액세서리,assets/models/CapBangsCat0.glb,matcap_chrome
+capbangscat0_matcap_bronze,Cap Bangs Cat 0 (브론즈),21000,0.8,액세서리,assets/models/CapBangsCat0.glb,matcap_bronze
+capbangscat0_matcap_black_rubber,Cap Bangs Cat 0 (블랙 러버),16200,1,액세서리,assets/models/CapBangsCat0.glb,matcap_black_rubber
+capbangscat0_matcap_red_wax,Cap Bangs Cat 0 (레드 왁스),17300,0.9,액세서리,assets/models/CapBangsCat0.glb,matcap_red_wax
+capbangscat0_matcap_white_ceramic,Cap Bangs Cat 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapBangsCat0.glb,matcap_white_ceramic
+capbangscat0_matcap_blue_gloss,Cap Bangs Cat 0 (블루 글로시),18000,0.9,액세서리,assets/models/CapBangsCat0.glb,matcap_blue_gloss
+capbangscat0_matcap_gold,Cap Bangs Cat 0 (골드),25500,0.5,액세서리,assets/models/CapBangsCat0.glb,matcap_gold
+capbangscat0_matcap_silver_soft,Cap Bangs Cat 0 (소프트 실버),20300,0.8,액세서리,assets/models/CapBangsCat0.glb,matcap_silver_soft
+capbangscowl0_plastic_matte,Cap Bangs Cowl 0 (매트 플라스틱),15000,1,액세서리,assets/models/CapBangsCowl0.glb,plastic_matte
+capbangscowl0_plastic_gloss,Cap Bangs Cowl 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapBangsCowl0.glb,plastic_gloss
+capbangscowl0_rubber_soft,Cap Bangs Cowl 0 (소프트 러버),15800,1,액세서리,assets/models/CapBangsCowl0.glb,rubber_soft
+capbangscowl0_ceramic_clean,Cap Bangs Cowl 0 (클린 세라믹),18000,0.9,액세서리,assets/models/CapBangsCowl0.glb,ceramic_clean
+capbangscowl0_metal_brushed,Cap Bangs Cowl 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapBangsCowl0.glb,metal_brushed
+capbangscowl0_metal_polished,Cap Bangs Cowl 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapBangsCowl0.glb,metal_polished
+capbangscowl0_paint_clearcoat,Cap Bangs Cowl 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapBangsCowl0.glb,paint_clearcoat
+capbangscowl0_fabric_sheen,Cap Bangs Cowl 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapBangsCowl0.glb,fabric_sheen
+capbangscowl0_glass_clear,Cap Bangs Cowl 0 (클리어 글래스),24000,0.6,액세서리,assets/models/CapBangsCowl0.glb,glass_clear
+capbangscowl0_resin_tinted,Cap Bangs Cowl 0 (틴티드 레진),21800,0.75,액세서리,assets/models/CapBangsCowl0.glb,resin_tinted
+capbangscowl0_matcap_clay,Cap Bangs Cowl 0 (클레이),15800,1,액세서리,assets/models/CapBangsCowl0.glb,matcap_clay
+capbangscowl0_matcap_wax,Cap Bangs Cowl 0 (왁스),16500,0.95,액세서리,assets/models/CapBangsCowl0.glb,matcap_wax
+capbangscowl0_matcap_chrome,Cap Bangs Cowl 0 (크롬),23300,0.65,액세서리,assets/models/CapBangsCowl0.glb,matcap_chrome
+capbangscowl0_matcap_bronze,Cap Bangs Cowl 0 (브론즈),21000,0.8,액세서리,assets/models/CapBangsCowl0.glb,matcap_bronze
+capbangscowl0_matcap_black_rubber,Cap Bangs Cowl 0 (블랙 러버),16200,1,액세서리,assets/models/CapBangsCowl0.glb,matcap_black_rubber
+capbangscowl0_matcap_red_wax,Cap Bangs Cowl 0 (레드 왁스),17300,0.9,액세서리,assets/models/CapBangsCowl0.glb,matcap_red_wax
+capbangscowl0_matcap_white_ceramic,Cap Bangs Cowl 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapBangsCowl0.glb,matcap_white_ceramic
+capbangscowl0_matcap_blue_gloss,Cap Bangs Cowl 0 (블루 글로시),18000,0.9,액세서리,assets/models/CapBangsCowl0.glb,matcap_blue_gloss
+capbangscowl0_matcap_gold,Cap Bangs Cowl 0 (골드),25500,0.5,액세서리,assets/models/CapBangsCowl0.glb,matcap_gold
+capbangscowl0_matcap_silver_soft,Cap Bangs Cowl 0 (소프트 실버),20300,0.8,액세서리,assets/models/CapBangsCowl0.glb,matcap_silver_soft
+capbangssheep0_plastic_matte,Cap Bangs Sheep 0 (매트 플라스틱),15000,1,액세서리,assets/models/CapBangsSheep0.glb,plastic_matte
+capbangssheep0_plastic_gloss,Cap Bangs Sheep 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/CapBangsSheep0.glb,plastic_gloss
+capbangssheep0_rubber_soft,Cap Bangs Sheep 0 (소프트 러버),15800,1,액세서리,assets/models/CapBangsSheep0.glb,rubber_soft
+capbangssheep0_ceramic_clean,Cap Bangs Sheep 0 (클린 세라믹),18000,0.9,액세서리,assets/models/CapBangsSheep0.glb,ceramic_clean
+capbangssheep0_metal_brushed,Cap Bangs Sheep 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/CapBangsSheep0.glb,metal_brushed
+capbangssheep0_metal_polished,Cap Bangs Sheep 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/CapBangsSheep0.glb,metal_polished
+capbangssheep0_paint_clearcoat,Cap Bangs Sheep 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/CapBangsSheep0.glb,paint_clearcoat
+capbangssheep0_fabric_sheen,Cap Bangs Sheep 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/CapBangsSheep0.glb,fabric_sheen
+capbangssheep0_glass_clear,Cap Bangs Sheep 0 (클리어 글래스),24000,0.6,액세서리,assets/models/CapBangsSheep0.glb,glass_clear
+capbangssheep0_resin_tinted,Cap Bangs Sheep 0 (틴티드 레진),21800,0.75,액세서리,assets/models/CapBangsSheep0.glb,resin_tinted
+capbangssheep0_matcap_clay,Cap Bangs Sheep 0 (클레이),15800,1,액세서리,assets/models/CapBangsSheep0.glb,matcap_clay
+capbangssheep0_matcap_wax,Cap Bangs Sheep 0 (왁스),16500,0.95,액세서리,assets/models/CapBangsSheep0.glb,matcap_wax
+capbangssheep0_matcap_chrome,Cap Bangs Sheep 0 (크롬),23300,0.65,액세서리,assets/models/CapBangsSheep0.glb,matcap_chrome
+capbangssheep0_matcap_bronze,Cap Bangs Sheep 0 (브론즈),21000,0.8,액세서리,assets/models/CapBangsSheep0.glb,matcap_bronze
+capbangssheep0_matcap_black_rubber,Cap Bangs Sheep 0 (블랙 러버),16200,1,액세서리,assets/models/CapBangsSheep0.glb,matcap_black_rubber
+capbangssheep0_matcap_red_wax,Cap Bangs Sheep 0 (레드 왁스),17300,0.9,액세서리,assets/models/CapBangsSheep0.glb,matcap_red_wax
+capbangssheep0_matcap_white_ceramic,Cap Bangs Sheep 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/CapBangsSheep0.glb,matcap_white_ceramic
+capbangssheep0_matcap_blue_gloss,Cap Bangs Sheep 0 (블루 글로시),18000,0.9,액세서리,assets/models/CapBangsSheep0.glb,matcap_blue_gloss
+capbangssheep0_matcap_gold,Cap Bangs Sheep 0 (골드),25500,0.5,액세서리,assets/models/CapBangsSheep0.glb,matcap_gold
+capbangssheep0_matcap_silver_soft,Cap Bangs Sheep 0 (소프트 실버),20300,0.8,액세서리,assets/models/CapBangsSheep0.glb,matcap_silver_soft
+capcostumedevil0_plastic_matte,악마 꼬리 모자 (매트 플라스틱),15000,0.8,액세서리,assets/models/CapCostumeDevil0.glb,plastic_matte
+capcostumedevil0_plastic_gloss,악마 꼬리 모자 (글로시 플라스틱),16500,0.75,액세서리,assets/models/CapCostumeDevil0.glb,plastic_gloss
+capcostumedevil0_rubber_soft,악마 꼬리 모자 (소프트 러버),15800,0.8,액세서리,assets/models/CapCostumeDevil0.glb,rubber_soft
+capcostumedevil0_ceramic_clean,악마 꼬리 모자 (클린 세라믹),18000,0.7,액세서리,assets/models/CapCostumeDevil0.glb,ceramic_clean
+capcostumedevil0_metal_brushed,악마 꼬리 모자 (브러시드 메탈),20300,0.6,액세서리,assets/models/CapCostumeDevil0.glb,metal_brushed
+capcostumedevil0_metal_polished,악마 꼬리 모자 (폴리시드 메탈),22500,0.5,액세서리,assets/models/CapCostumeDevil0.glb,metal_polished
+capcostumedevil0_paint_clearcoat,악마 꼬리 모자 (클리어코트 페인트),19500,0.65,액세서리,assets/models/CapCostumeDevil0.glb,paint_clearcoat
+capcostumedevil0_fabric_sheen,악마 꼬리 모자 (패브릭 쉰),17300,0.75,액세서리,assets/models/CapCostumeDevil0.glb,fabric_sheen
+capcostumedevil0_glass_clear,악마 꼬리 모자 (클리어 글래스),24000,0.4,액세서리,assets/models/CapCostumeDevil0.glb,glass_clear
+capcostumedevil0_resin_tinted,악마 꼬리 모자 (틴티드 레진),21800,0.55,액세서리,assets/models/CapCostumeDevil0.glb,resin_tinted
+capcostumedevil0_matcap_clay,악마 꼬리 모자 (클레이),15800,0.8,액세서리,assets/models/CapCostumeDevil0.glb,matcap_clay
+capcostumedevil0_matcap_wax,악마 꼬리 모자 (왁스),16500,0.75,액세서리,assets/models/CapCostumeDevil0.glb,matcap_wax
+capcostumedevil0_matcap_chrome,악마 꼬리 모자 (크롬),23300,0.45,액세서리,assets/models/CapCostumeDevil0.glb,matcap_chrome
+capcostumedevil0_matcap_bronze,악마 꼬리 모자 (브론즈),21000,0.6,액세서리,assets/models/CapCostumeDevil0.glb,matcap_bronze
+capcostumedevil0_matcap_black_rubber,악마 꼬리 모자 (블랙 러버),16200,0.8,액세서리,assets/models/CapCostumeDevil0.glb,matcap_black_rubber
+capcostumedevil0_matcap_red_wax,악마 꼬리 모자 (레드 왁스),17300,0.7,액세서리,assets/models/CapCostumeDevil0.glb,matcap_red_wax
+capcostumedevil0_matcap_white_ceramic,악마 꼬리 모자 (화이트 세라믹),18800,0.65,액세서리,assets/models/CapCostumeDevil0.glb,matcap_white_ceramic
+capcostumedevil0_matcap_blue_gloss,악마 꼬리 모자 (블루 글로시),18000,0.7,액세서리,assets/models/CapCostumeDevil0.glb,matcap_blue_gloss
+capcostumedevil0_matcap_gold,악마 꼬리 모자 (골드),25500,0.3,액세서리,assets/models/CapCostumeDevil0.glb,matcap_gold
+capcostumedevil0_matcap_silver_soft,악마 꼬리 모자 (소프트 실버),20300,0.6,액세서리,assets/models/CapCostumeDevil0.glb,matcap_silver_soft
+capcostumefarm0_plastic_matte,파운드 도트 모자 (매트 플라스틱),10000,1,액세서리,assets/models/CapCostumeFarm0.glb,plastic_matte
+capcostumefarm0_plastic_gloss,파운드 도트 모자 (글로시 플라스틱),11000,0.95,액세서리,assets/models/CapCostumeFarm0.glb,plastic_gloss
+capcostumefarm0_rubber_soft,파운드 도트 모자 (소프트 러버),10500,1,액세서리,assets/models/CapCostumeFarm0.glb,rubber_soft
+capcostumefarm0_ceramic_clean,파운드 도트 모자 (클린 세라믹),12000,0.9,액세서리,assets/models/CapCostumeFarm0.glb,ceramic_clean
+capcostumefarm0_metal_brushed,파운드 도트 모자 (브러시드 메탈),13500,0.8,액세서리,assets/models/CapCostumeFarm0.glb,metal_brushed
+capcostumefarm0_metal_polished,파운드 도트 모자 (폴리시드 메탈),15000,0.7,액세서리,assets/models/CapCostumeFarm0.glb,metal_polished
+capcostumefarm0_paint_clearcoat,파운드 도트 모자 (클리어코트 페인트),13000,0.85,액세서리,assets/models/CapCostumeFarm0.glb,paint_clearcoat
+capcostumefarm0_fabric_sheen,파운드 도트 모자 (패브릭 쉰),11500,0.95,액세서리,assets/models/CapCostumeFarm0.glb,fabric_sheen
+capcostumefarm0_glass_clear,파운드 도트 모자 (클리어 글래스),16000,0.6,액세서리,assets/models/CapCostumeFarm0.glb,glass_clear
+capcostumefarm0_resin_tinted,파운드 도트 모자 (틴티드 레진),14500,0.75,액세서리,assets/models/CapCostumeFarm0.glb,resin_tinted
+capcostumefarm0_matcap_clay,파운드 도트 모자 (클레이),10500,1,액세서리,assets/models/CapCostumeFarm0.glb,matcap_clay
+capcostumefarm0_matcap_wax,파운드 도트 모자 (왁스),11000,0.95,액세서리,assets/models/CapCostumeFarm0.glb,matcap_wax
+capcostumefarm0_matcap_chrome,파운드 도트 모자 (크롬),15500,0.65,액세서리,assets/models/CapCostumeFarm0.glb,matcap_chrome
+capcostumefarm0_matcap_bronze,파운드 도트 모자 (브론즈),14000,0.8,액세서리,assets/models/CapCostumeFarm0.glb,matcap_bronze
+capcostumefarm0_matcap_black_rubber,파운드 도트 모자 (블랙 러버),10800,1,액세서리,assets/models/CapCostumeFarm0.glb,matcap_black_rubber
+capcostumefarm0_matcap_red_wax,파운드 도트 모자 (레드 왁스),11500,0.9,액세서리,assets/models/CapCostumeFarm0.glb,matcap_red_wax
+capcostumefarm0_matcap_white_ceramic,파운드 도트 모자 (화이트 세라믹),12500,0.85,액세서리,assets/models/CapCostumeFarm0.glb,matcap_white_ceramic
+capcostumefarm0_matcap_blue_gloss,파운드 도트 모자 (블루 글로시),12000,0.9,액세서리,assets/models/CapCostumeFarm0.glb,matcap_blue_gloss
+capcostumefarm0_matcap_gold,파운드 도트 모자 (골드),17000,0.5,액세서리,assets/models/CapCostumeFarm0.glb,matcap_gold
+capcostumefarm0_matcap_silver_soft,파운드 도트 모자 (소프트 실버),13500,0.8,액세서리,assets/models/CapCostumeFarm0.glb,matcap_silver_soft
+capcostumefrog0_plastic_matte,개구리 얼굴 모자 (매트 플라스틱),18000,0.7,액세서리,assets/models/CapCostumeFrog0.glb,plastic_matte
+capcostumefrog0_plastic_gloss,개구리 얼굴 모자 (글로시 플라스틱),19800,0.65,액세서리,assets/models/CapCostumeFrog0.glb,plastic_gloss
+capcostumefrog0_rubber_soft,개구리 얼굴 모자 (소프트 러버),18900,0.7,액세서리,assets/models/CapCostumeFrog0.glb,rubber_soft
+capcostumefrog0_ceramic_clean,개구리 얼굴 모자 (클린 세라믹),21600,0.6,액세서리,assets/models/CapCostumeFrog0.glb,ceramic_clean
+capcostumefrog0_metal_brushed,개구리 얼굴 모자 (브러시드 메탈),24300,0.5,액세서리,assets/models/CapCostumeFrog0.glb,metal_brushed
+capcostumefrog0_metal_polished,개구리 얼굴 모자 (폴리시드 메탈),27000,0.4,액세서리,assets/models/CapCostumeFrog0.glb,metal_polished
+capcostumefrog0_paint_clearcoat,개구리 얼굴 모자 (클리어코트 페인트),23400,0.55,액세서리,assets/models/CapCostumeFrog0.glb,paint_clearcoat
+capcostumefrog0_fabric_sheen,개구리 얼굴 모자 (패브릭 쉰),20700,0.65,액세서리,assets/models/CapCostumeFrog0.glb,fabric_sheen
+capcostumefrog0_glass_clear,개구리 얼굴 모자 (클리어 글래스),28800,0.3,액세서리,assets/models/CapCostumeFrog0.glb,glass_clear
+capcostumefrog0_resin_tinted,개구리 얼굴 모자 (틴티드 레진),26100,0.45,액세서리,assets/models/CapCostumeFrog0.glb,resin_tinted
+capcostumefrog0_matcap_clay,개구리 얼굴 모자 (클레이),18900,0.7,액세서리,assets/models/CapCostumeFrog0.glb,matcap_clay
+capcostumefrog0_matcap_wax,개구리 얼굴 모자 (왁스),19800,0.65,액세서리,assets/models/CapCostumeFrog0.glb,matcap_wax
+capcostumefrog0_matcap_chrome,개구리 얼굴 모자 (크롬),27900,0.35,액세서리,assets/models/CapCostumeFrog0.glb,matcap_chrome
+capcostumefrog0_matcap_bronze,개구리 얼굴 모자 (브론즈),25200,0.5,액세서리,assets/models/CapCostumeFrog0.glb,matcap_bronze
+capcostumefrog0_matcap_black_rubber,개구리 얼굴 모자 (블랙 러버),19400,0.7,액세서리,assets/models/CapCostumeFrog0.glb,matcap_black_rubber
+capcostumefrog0_matcap_red_wax,개구리 얼굴 모자 (레드 왁스),20700,0.6,액세서리,assets/models/CapCostumeFrog0.glb,matcap_red_wax
+capcostumefrog0_matcap_white_ceramic,개구리 얼굴 모자 (화이트 세라믹),22500,0.55,액세서리,assets/models/CapCostumeFrog0.glb,matcap_white_ceramic
+capcostumefrog0_matcap_blue_gloss,개구리 얼굴 모자 (블루 글로시),21600,0.6,액세서리,assets/models/CapCostumeFrog0.glb,matcap_blue_gloss
+capcostumefrog0_matcap_gold,개구리 얼굴 모자 (골드),30600,0.2,액세서리,assets/models/CapCostumeFrog0.glb,matcap_gold
+capcostumefrog0_matcap_silver_soft,개구리 얼굴 모자 (소프트 실버),24300,0.5,액세서리,assets/models/CapCostumeFrog0.glb,matcap_silver_soft
+capcostumestar0_plastic_matte,별 모양 모자 (매트 플라스틱),8000,1,액세서리,assets/models/CapCostumeStar0.glb,plastic_matte
+capcostumestar0_plastic_gloss,별 모양 모자 (글로시 플라스틱),8800,0.95,액세서리,assets/models/CapCostumeStar0.glb,plastic_gloss
+capcostumestar0_rubber_soft,별 모양 모자 (소프트 러버),8400,1,액세서리,assets/models/CapCostumeStar0.glb,rubber_soft
+capcostumestar0_ceramic_clean,별 모양 모자 (클린 세라믹),9600,0.9,액세서리,assets/models/CapCostumeStar0.glb,ceramic_clean
+capcostumestar0_metal_brushed,별 모양 모자 (브러시드 메탈),10800,0.8,액세서리,assets/models/CapCostumeStar0.glb,metal_brushed
+capcostumestar0_metal_polished,별 모양 모자 (폴리시드 메탈),12000,0.7,액세서리,assets/models/CapCostumeStar0.glb,metal_polished
+capcostumestar0_paint_clearcoat,별 모양 모자 (클리어코트 페인트),10400,0.85,액세서리,assets/models/CapCostumeStar0.glb,paint_clearcoat
+capcostumestar0_fabric_sheen,별 모양 모자 (패브릭 쉰),9200,0.95,액세서리,assets/models/CapCostumeStar0.glb,fabric_sheen
+capcostumestar0_glass_clear,별 모양 모자 (클리어 글래스),12800,0.6,액세서리,assets/models/CapCostumeStar0.glb,glass_clear
+capcostumestar0_resin_tinted,별 모양 모자 (틴티드 레진),11600,0.75,액세서리,assets/models/CapCostumeStar0.glb,resin_tinted
+capcostumestar0_matcap_clay,별 모양 모자 (클레이),8400,1,액세서리,assets/models/CapCostumeStar0.glb,matcap_clay
+capcostumestar0_matcap_wax,별 모양 모자 (왁스),8800,0.95,액세서리,assets/models/CapCostumeStar0.glb,matcap_wax
+capcostumestar0_matcap_chrome,별 모양 모자 (크롬),12400,0.65,액세서리,assets/models/CapCostumeStar0.glb,matcap_chrome
+capcostumestar0_matcap_bronze,별 모양 모자 (브론즈),11200,0.8,액세서리,assets/models/CapCostumeStar0.glb,matcap_bronze
+capcostumestar0_matcap_black_rubber,별 모양 모자 (블랙 러버),8600,1,액세서리,assets/models/CapCostumeStar0.glb,matcap_black_rubber
+capcostumestar0_matcap_red_wax,별 모양 모자 (레드 왁스),9200,0.9,액세서리,assets/models/CapCostumeStar0.glb,matcap_red_wax
+capcostumestar0_matcap_white_ceramic,별 모양 모자 (화이트 세라믹),10000,0.85,액세서리,assets/models/CapCostumeStar0.glb,matcap_white_ceramic
+capcostumestar0_matcap_blue_gloss,별 모양 모자 (블루 글로시),9600,0.9,액세서리,assets/models/CapCostumeStar0.glb,matcap_blue_gloss
+capcostumestar0_matcap_gold,별 모양 모자 (골드),13600,0.5,액세서리,assets/models/CapCostumeStar0.glb,matcap_gold
+capcostumestar0_matcap_silver_soft,별 모양 모자 (소프트 실버),10800,0.8,액세서리,assets/models/CapCostumeStar0.glb,matcap_silver_soft
+capfullfacecatcher0_plastic_matte,야구 캐처 헬멧 (매트 플라스틱),20000,0.6,액세서리,assets/models/CapFullfaceCatcher0.glb,plastic_matte
+capfullfacecatcher0_plastic_gloss,야구 캐처 헬멧 (글로시 플라스틱),22000,0.55,액세서리,assets/models/CapFullfaceCatcher0.glb,plastic_gloss
+capfullfacecatcher0_rubber_soft,야구 캐처 헬멧 (소프트 러버),21000,0.6,액세서리,assets/models/CapFullfaceCatcher0.glb,rubber_soft
+capfullfacecatcher0_ceramic_clean,야구 캐처 헬멧 (클린 세라믹),24000,0.5,액세서리,assets/models/CapFullfaceCatcher0.glb,ceramic_clean
+capfullfacecatcher0_metal_brushed,야구 캐처 헬멧 (브러시드 메탈),27000,0.4,액세서리,assets/models/CapFullfaceCatcher0.glb,metal_brushed
+capfullfacecatcher0_metal_polished,야구 캐처 헬멧 (폴리시드 메탈),30000,0.3,액세서리,assets/models/CapFullfaceCatcher0.glb,metal_polished
+capfullfacecatcher0_paint_clearcoat,야구 캐처 헬멧 (클리어코트 페인트),26000,0.45,액세서리,assets/models/CapFullfaceCatcher0.glb,paint_clearcoat
+capfullfacecatcher0_fabric_sheen,야구 캐처 헬멧 (패브릭 쉰),23000,0.55,액세서리,assets/models/CapFullfaceCatcher0.glb,fabric_sheen
+capfullfacecatcher0_glass_clear,야구 캐처 헬멧 (클리어 글래스),32000,0.2,액세서리,assets/models/CapFullfaceCatcher0.glb,glass_clear
+capfullfacecatcher0_resin_tinted,야구 캐처 헬멧 (틴티드 레진),29000,0.35,액세서리,assets/models/CapFullfaceCatcher0.glb,resin_tinted
+capfullfacecatcher0_matcap_clay,야구 캐처 헬멧 (클레이),21000,0.6,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_clay
+capfullfacecatcher0_matcap_wax,야구 캐처 헬멧 (왁스),22000,0.55,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_wax
+capfullfacecatcher0_matcap_chrome,야구 캐처 헬멧 (크롬),31000,0.25,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_chrome
+capfullfacecatcher0_matcap_bronze,야구 캐처 헬멧 (브론즈),28000,0.4,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_bronze
+capfullfacecatcher0_matcap_black_rubber,야구 캐처 헬멧 (블랙 러버),21600,0.6,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_black_rubber
+capfullfacecatcher0_matcap_red_wax,야구 캐처 헬멧 (레드 왁스),23000,0.5,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_red_wax
+capfullfacecatcher0_matcap_white_ceramic,야구 캐처 헬멧 (화이트 세라믹),25000,0.45,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_white_ceramic
+capfullfacecatcher0_matcap_blue_gloss,야구 캐처 헬멧 (블루 글로시),24000,0.5,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_blue_gloss
+capfullfacecatcher0_matcap_gold,야구 캐처 헬멧 (골드),34000,0.1,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_gold
+capfullfacecatcher0_matcap_silver_soft,야구 캐처 헬멧 (소프트 실버),27000,0.4,액세서리,assets/models/CapFullfaceCatcher0.glb,matcap_silver_soft

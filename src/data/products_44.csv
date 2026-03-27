@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+toolscoopwood_plastic_matte,목제 삽 (매트 플라스틱),15000,1.8,액세서리,assets/models/ToolScoopWood.glb,plastic_matte
+toolscoopwood_plastic_gloss,목제 삽 (글로시 플라스틱),16500,1.75,액세서리,assets/models/ToolScoopWood.glb,plastic_gloss
+toolscoopwood_rubber_soft,목제 삽 (소프트 러버),15800,1.8,액세서리,assets/models/ToolScoopWood.glb,rubber_soft
+toolscoopwood_ceramic_clean,목제 삽 (클린 세라믹),18000,1.7,액세서리,assets/models/ToolScoopWood.glb,ceramic_clean
+toolscoopwood_metal_brushed,목제 삽 (브러시드 메탈),20300,1.6,액세서리,assets/models/ToolScoopWood.glb,metal_brushed
+toolscoopwood_metal_polished,목제 삽 (폴리시드 메탈),22500,1.5,액세서리,assets/models/ToolScoopWood.glb,metal_polished
+toolscoopwood_paint_clearcoat,목제 삽 (클리어코트 페인트),19500,1.65,액세서리,assets/models/ToolScoopWood.glb,paint_clearcoat
+toolscoopwood_fabric_sheen,목제 삽 (패브릭 쉰),17300,1.75,액세서리,assets/models/ToolScoopWood.glb,fabric_sheen
+toolscoopwood_glass_clear,목제 삽 (클리어 글래스),24000,1.4,액세서리,assets/models/ToolScoopWood.glb,glass_clear
+toolscoopwood_resin_tinted,목제 삽 (틴티드 레진),21800,1.55,액세서리,assets/models/ToolScoopWood.glb,resin_tinted
+toolscoopwood_matcap_clay,목제 삽 (클레이),15800,1.8,액세서리,assets/models/ToolScoopWood.glb,matcap_clay
+toolscoopwood_matcap_wax,목제 삽 (왁스),16500,1.75,액세서리,assets/models/ToolScoopWood.glb,matcap_wax
+toolscoopwood_matcap_chrome,목제 삽 (크롬),23300,1.45,액세서리,assets/models/ToolScoopWood.glb,matcap_chrome
+toolscoopwood_matcap_bronze,목제 삽 (브론즈),21000,1.6,액세서리,assets/models/ToolScoopWood.glb,matcap_bronze
+toolscoopwood_matcap_black_rubber,목제 삽 (블랙 러버),16200,1.8,액세서리,assets/models/ToolScoopWood.glb,matcap_black_rubber
+toolscoopwood_matcap_red_wax,목제 삽 (레드 왁스),17300,1.7,액세서리,assets/models/ToolScoopWood.glb,matcap_red_wax
+toolscoopwood_matcap_white_ceramic,목제 삽 (화이트 세라믹),18800,1.65,액세서리,assets/models/ToolScoopWood.glb,matcap_white_ceramic
+toolscoopwood_matcap_blue_gloss,목제 삽 (블루 글로시),18000,1.7,액세서리,assets/models/ToolScoopWood.glb,matcap_blue_gloss
+toolscoopwood_matcap_gold,목제 삽 (골드),25500,1.3,액세서리,assets/models/ToolScoopWood.glb,matcap_gold
+toolscoopwood_matcap_silver_soft,목제 삽 (소프트 실버),20300,1.6,액세서리,assets/models/ToolScoopWood.glb,matcap_silver_soft
+toolskeweredbarbecue_plastic_matte,꼬치 바비큐 (매트 플라스틱),45000,1.5,액세서리,assets/models/ToolSkeweredBarbecue.glb,plastic_matte
+toolskeweredbarbecue_plastic_gloss,꼬치 바비큐 (글로시 플라스틱),49500,1.45,액세서리,assets/models/ToolSkeweredBarbecue.glb,plastic_gloss
+toolskeweredbarbecue_rubber_soft,꼬치 바비큐 (소프트 러버),47300,1.5,액세서리,assets/models/ToolSkeweredBarbecue.glb,rubber_soft
+toolskeweredbarbecue_ceramic_clean,꼬치 바비큐 (클린 세라믹),54000,1.4,액세서리,assets/models/ToolSkeweredBarbecue.glb,ceramic_clean
+toolskeweredbarbecue_metal_brushed,꼬치 바비큐 (브러시드 메탈),60800,1.3,액세서리,assets/models/ToolSkeweredBarbecue.glb,metal_brushed
+toolskeweredbarbecue_metal_polished,꼬치 바비큐 (폴리시드 메탈),67500,1.2,액세서리,assets/models/ToolSkeweredBarbecue.glb,metal_polished
+toolskeweredbarbecue_paint_clearcoat,꼬치 바비큐 (클리어코트 페인트),58500,1.35,액세서리,assets/models/ToolSkeweredBarbecue.glb,paint_clearcoat
+toolskeweredbarbecue_fabric_sheen,꼬치 바비큐 (패브릭 쉰),51700,1.45,액세서리,assets/models/ToolSkeweredBarbecue.glb,fabric_sheen
+toolskeweredbarbecue_glass_clear,꼬치 바비큐 (클리어 글래스),72000,1.1,액세서리,assets/models/ToolSkeweredBarbecue.glb,glass_clear
+toolskeweredbarbecue_resin_tinted,꼬치 바비큐 (틴티드 레진),65300,1.25,액세서리,assets/models/ToolSkeweredBarbecue.glb,resin_tinted
+toolskeweredbarbecue_matcap_clay,꼬치 바비큐 (클레이),47300,1.5,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_clay
+toolskeweredbarbecue_matcap_wax,꼬치 바비큐 (왁스),49500,1.45,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_wax
+toolskeweredbarbecue_matcap_chrome,꼬치 바비큐 (크롬),69800,1.15,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_chrome
+toolskeweredbarbecue_matcap_bronze,꼬치 바비큐 (브론즈),63000,1.3,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_bronze
+toolskeweredbarbecue_matcap_black_rubber,꼬치 바비큐 (블랙 러버),48600,1.5,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_black_rubber
+toolskeweredbarbecue_matcap_red_wax,꼬치 바비큐 (레드 왁스),51700,1.4,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_red_wax
+toolskeweredbarbecue_matcap_white_ceramic,꼬치 바비큐 (화이트 세라믹),56300,1.35,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_white_ceramic
+toolskeweredbarbecue_matcap_blue_gloss,꼬치 바비큐 (블루 글로시),54000,1.4,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_blue_gloss
+toolskeweredbarbecue_matcap_gold,꼬치 바비큐 (골드),76500,1,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_gold
+toolskeweredbarbecue_matcap_silver_soft,꼬치 바비큐 (소프트 실버),60800,1.3,액세서리,assets/models/ToolSkeweredBarbecue.glb,matcap_silver_soft
+toolsmartphonebey_plastic_matte,스마트폰 케이스 (매트 플라스틱),35000,1.3,액세서리,assets/models/ToolSmartphoneBey.glb,plastic_matte
+toolsmartphonebey_plastic_gloss,스마트폰 케이스 (글로시 플라스틱),38500,1.25,액세서리,assets/models/ToolSmartphoneBey.glb,plastic_gloss
+toolsmartphonebey_rubber_soft,스마트폰 케이스 (소프트 러버),36800,1.3,액세서리,assets/models/ToolSmartphoneBey.glb,rubber_soft
+toolsmartphonebey_ceramic_clean,스마트폰 케이스 (클린 세라믹),42000,1.2,액세서리,assets/models/ToolSmartphoneBey.glb,ceramic_clean
+toolsmartphonebey_metal_brushed,스마트폰 케이스 (브러시드 메탈),47300,1.1,액세서리,assets/models/ToolSmartphoneBey.glb,metal_brushed
+toolsmartphonebey_metal_polished,스마트폰 케이스 (폴리시드 메탈),52500,1,액세서리,assets/models/ToolSmartphoneBey.glb,metal_polished
+toolsmartphonebey_paint_clearcoat,스마트폰 케이스 (클리어코트 페인트),45500,1.15,액세서리,assets/models/ToolSmartphoneBey.glb,paint_clearcoat
+toolsmartphonebey_fabric_sheen,스마트폰 케이스 (패브릭 쉰),40300,1.25,액세서리,assets/models/ToolSmartphoneBey.glb,fabric_sheen
+toolsmartphonebey_glass_clear,스마트폰 케이스 (클리어 글래스),56000,0.9,액세서리,assets/models/ToolSmartphoneBey.glb,glass_clear
+toolsmartphonebey_resin_tinted,스마트폰 케이스 (틴티드 레진),50800,1.05,액세서리,assets/models/ToolSmartphoneBey.glb,resin_tinted
+toolsmartphonebey_matcap_clay,스마트폰 케이스 (클레이),36800,1.3,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_clay
+toolsmartphonebey_matcap_wax,스마트폰 케이스 (왁스),38500,1.25,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_wax
+toolsmartphonebey_matcap_chrome,스마트폰 케이스 (크롬),54300,0.95,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_chrome
+toolsmartphonebey_matcap_bronze,스마트폰 케이스 (브론즈),49000,1.1,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_bronze
+toolsmartphonebey_matcap_black_rubber,스마트폰 케이스 (블랙 러버),37800,1.3,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_black_rubber
+toolsmartphonebey_matcap_red_wax,스마트폰 케이스 (레드 왁스),40300,1.2,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_red_wax
+toolsmartphonebey_matcap_white_ceramic,스마트폰 케이스 (화이트 세라믹),43800,1.15,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_white_ceramic
+toolsmartphonebey_matcap_blue_gloss,스마트폰 케이스 (블루 글로시),42000,1.2,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_blue_gloss
+toolsmartphonebey_matcap_gold,스마트폰 케이스 (골드),59500,0.8,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_gold
+toolsmartphonebey_matcap_silver_soft,스마트폰 케이스 (소프트 실버),47300,1.1,액세서리,assets/models/ToolSmartphoneBey.glb,matcap_silver_soft
+toolstcikinsect_plastic_matte,나비 꼬치 (매트 플라스틱),120000,0.6,액세서리,assets/models/ToolStcikInsect.glb,plastic_matte
+toolstcikinsect_plastic_gloss,나비 꼬치 (글로시 플라스틱),132000,0.55,액세서리,assets/models/ToolStcikInsect.glb,plastic_gloss
+toolstcikinsect_rubber_soft,나비 꼬치 (소프트 러버),126000,0.6,액세서리,assets/models/ToolStcikInsect.glb,rubber_soft
+toolstcikinsect_ceramic_clean,나비 꼬치 (클린 세라믹),144000,0.5,액세서리,assets/models/ToolStcikInsect.glb,ceramic_clean
+toolstcikinsect_metal_brushed,나비 꼬치 (브러시드 메탈),162000,0.4,액세서리,assets/models/ToolStcikInsect.glb,metal_brushed
+toolstcikinsect_metal_polished,나비 꼬치 (폴리시드 메탈),180000,0.3,액세서리,assets/models/ToolStcikInsect.glb,metal_polished
+toolstcikinsect_paint_clearcoat,나비 꼬치 (클리어코트 페인트),156000,0.45,액세서리,assets/models/ToolStcikInsect.glb,paint_clearcoat
+toolstcikinsect_fabric_sheen,나비 꼬치 (패브릭 쉰),138000,0.55,액세서리,assets/models/ToolStcikInsect.glb,fabric_sheen
+toolstcikinsect_glass_clear,나비 꼬치 (클리어 글래스),192000,0.2,액세서리,assets/models/ToolStcikInsect.glb,glass_clear
+toolstcikinsect_resin_tinted,나비 꼬치 (틴티드 레진),174000,0.35,액세서리,assets/models/ToolStcikInsect.glb,resin_tinted
+toolstcikinsect_matcap_clay,나비 꼬치 (클레이),126000,0.6,액세서리,assets/models/ToolStcikInsect.glb,matcap_clay
+toolstcikinsect_matcap_wax,나비 꼬치 (왁스),132000,0.55,액세서리,assets/models/ToolStcikInsect.glb,matcap_wax
+toolstcikinsect_matcap_chrome,나비 꼬치 (크롬),186000,0.25,액세서리,assets/models/ToolStcikInsect.glb,matcap_chrome
+toolstcikinsect_matcap_bronze,나비 꼬치 (브론즈),168000,0.4,액세서리,assets/models/ToolStcikInsect.glb,matcap_bronze
+toolstcikinsect_matcap_black_rubber,나비 꼬치 (블랙 러버),129600,0.6,액세서리,assets/models/ToolStcikInsect.glb,matcap_black_rubber
+toolstcikinsect_matcap_red_wax,나비 꼬치 (레드 왁스),138000,0.5,액세서리,assets/models/ToolStcikInsect.glb,matcap_red_wax
+toolstcikinsect_matcap_white_ceramic,나비 꼬치 (화이트 세라믹),150000,0.45,액세서리,assets/models/ToolStcikInsect.glb,matcap_white_ceramic
+toolstcikinsect_matcap_blue_gloss,나비 꼬치 (블루 글로시),144000,0.5,액세서리,assets/models/ToolStcikInsect.glb,matcap_blue_gloss
+toolstcikinsect_matcap_gold,나비 꼬치 (골드),204000,0.1,액세서리,assets/models/ToolStcikInsect.glb,matcap_gold
+toolstcikinsect_matcap_silver_soft,나비 꼬치 (소프트 실버),162000,0.4,액세서리,assets/models/ToolStcikInsect.glb,matcap_silver_soft
+toolstickfish_plastic_matte,물고기 꼬치 (매트 플라스틱),110000,0.7,액세서리,assets/models/ToolStickFish.glb,plastic_matte
+toolstickfish_plastic_gloss,물고기 꼬치 (글로시 플라스틱),121000,0.65,액세서리,assets/models/ToolStickFish.glb,plastic_gloss
+toolstickfish_rubber_soft,물고기 꼬치 (소프트 러버),115500,0.7,액세서리,assets/models/ToolStickFish.glb,rubber_soft
+toolstickfish_ceramic_clean,물고기 꼬치 (클린 세라믹),132000,0.6,액세서리,assets/models/ToolStickFish.glb,ceramic_clean
+toolstickfish_metal_brushed,물고기 꼬치 (브러시드 메탈),148500,0.5,액세서리,assets/models/ToolStickFish.glb,metal_brushed
+toolstickfish_metal_polished,물고기 꼬치 (폴리시드 메탈),165000,0.4,액세서리,assets/models/ToolStickFish.glb,metal_polished
+toolstickfish_paint_clearcoat,물고기 꼬치 (클리어코트 페인트),143000,0.55,액세서리,assets/models/ToolStickFish.glb,paint_clearcoat
+toolstickfish_fabric_sheen,물고기 꼬치 (패브릭 쉰),126500,0.65,액세서리,assets/models/ToolStickFish.glb,fabric_sheen
+toolstickfish_glass_clear,물고기 꼬치 (클리어 글래스),176000,0.3,액세서리,assets/models/ToolStickFish.glb,glass_clear
+toolstickfish_resin_tinted,물고기 꼬치 (틴티드 레진),159500,0.45,액세서리,assets/models/ToolStickFish.glb,resin_tinted
+toolstickfish_matcap_clay,물고기 꼬치 (클레이),115500,0.7,액세서리,assets/models/ToolStickFish.glb,matcap_clay
+toolstickfish_matcap_wax,물고기 꼬치 (왁스),121000,0.65,액세서리,assets/models/ToolStickFish.glb,matcap_wax
+toolstickfish_matcap_chrome,물고기 꼬치 (크롬),170500,0.35,액세서리,assets/models/ToolStickFish.glb,matcap_chrome
+toolstickfish_matcap_bronze,물고기 꼬치 (브론즈),154000,0.5,액세서리,assets/models/ToolStickFish.glb,matcap_bronze
+toolstickfish_matcap_black_rubber,물고기 꼬치 (블랙 러버),118800,0.7,액세서리,assets/models/ToolStickFish.glb,matcap_black_rubber
+toolstickfish_matcap_red_wax,물고기 꼬치 (레드 왁스),126500,0.6,액세서리,assets/models/ToolStickFish.glb,matcap_red_wax
+toolstickfish_matcap_white_ceramic,물고기 꼬치 (화이트 세라믹),137500,0.55,액세서리,assets/models/ToolStickFish.glb,matcap_white_ceramic
+toolstickfish_matcap_blue_gloss,물고기 꼬치 (블루 글로시),132000,0.6,액세서리,assets/models/ToolStickFish.glb,matcap_blue_gloss
+toolstickfish_matcap_gold,물고기 꼬치 (골드),187000,0.2,액세서리,assets/models/ToolStickFish.glb,matcap_gold
+toolstickfish_matcap_silver_soft,물고기 꼬치 (소프트 실버),148500,0.5,액세서리,assets/models/ToolStickFish.glb,matcap_silver_soft
+toolstoneaxewood_plastic_matte,석재 도끼 (매트 플라스틱),50000,1.9,액세서리,assets/models/ToolStoneaxeWood.glb,plastic_matte
+toolstoneaxewood_plastic_gloss,석재 도끼 (글로시 플라스틱),55000,1.85,액세서리,assets/models/ToolStoneaxeWood.glb,plastic_gloss
+toolstoneaxewood_rubber_soft,석재 도끼 (소프트 러버),52500,1.9,액세서리,assets/models/ToolStoneaxeWood.glb,rubber_soft
+toolstoneaxewood_ceramic_clean,석재 도끼 (클린 세라믹),60000,1.8,액세서리,assets/models/ToolStoneaxeWood.glb,ceramic_clean
+toolstoneaxewood_metal_brushed,석재 도끼 (브러시드 메탈),67500,1.7,액세서리,assets/models/ToolStoneaxeWood.glb,metal_brushed
+toolstoneaxewood_metal_polished,석재 도끼 (폴리시드 메탈),75000,1.6,액세서리,assets/models/ToolStoneaxeWood.glb,metal_polished
+toolstoneaxewood_paint_clearcoat,석재 도끼 (클리어코트 페인트),65000,1.75,액세서리,assets/models/ToolStoneaxeWood.glb,paint_clearcoat
+toolstoneaxewood_fabric_sheen,석재 도끼 (패브릭 쉰),57500,1.85,액세서리,assets/models/ToolStoneaxeWood.glb,fabric_sheen
+toolstoneaxewood_glass_clear,석재 도끼 (클리어 글래스),80000,1.5,액세서리,assets/models/ToolStoneaxeWood.glb,glass_clear
+toolstoneaxewood_resin_tinted,석재 도끼 (틴티드 레진),72500,1.65,액세서리,assets/models/ToolStoneaxeWood.glb,resin_tinted
+toolstoneaxewood_matcap_clay,석재 도끼 (클레이),52500,1.9,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_clay
+toolstoneaxewood_matcap_wax,석재 도끼 (왁스),55000,1.85,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_wax
+toolstoneaxewood_matcap_chrome,석재 도끼 (크롬),77500,1.55,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_chrome
+toolstoneaxewood_matcap_bronze,석재 도끼 (브론즈),70000,1.7,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_bronze
+toolstoneaxewood_matcap_black_rubber,석재 도끼 (블랙 러버),54000,1.9,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_black_rubber
+toolstoneaxewood_matcap_red_wax,석재 도끼 (레드 왁스),57500,1.8,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_red_wax
+toolstoneaxewood_matcap_white_ceramic,석재 도끼 (화이트 세라믹),62500,1.75,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_white_ceramic
+toolstoneaxewood_matcap_blue_gloss,석재 도끼 (블루 글로시),60000,1.8,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_blue_gloss
+toolstoneaxewood_matcap_gold,석재 도끼 (골드),85000,1.4,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_gold
+toolstoneaxewood_matcap_silver_soft,석재 도끼 (소프트 실버),67500,1.7,액세서리,assets/models/ToolStoneaxeWood.glb,matcap_silver_soft
+tooltambourine_plastic_matte,목제 탬버린 (매트 플라스틱),80000,1.7,액세서리,assets/models/ToolTambourine.glb,plastic_matte
+tooltambourine_plastic_gloss,목제 탬버린 (글로시 플라스틱),88000,1.65,액세서리,assets/models/ToolTambourine.glb,plastic_gloss
+tooltambourine_rubber_soft,목제 탬버린 (소프트 러버),84000,1.7,액세서리,assets/models/ToolTambourine.glb,rubber_soft
+tooltambourine_ceramic_clean,목제 탬버린 (클린 세라믹),96000,1.6,액세서리,assets/models/ToolTambourine.glb,ceramic_clean
+tooltambourine_metal_brushed,목제 탬버린 (브러시드 메탈),108000,1.5,액세서리,assets/models/ToolTambourine.glb,metal_brushed
+tooltambourine_metal_polished,목제 탬버린 (폴리시드 메탈),120000,1.4,액세서리,assets/models/ToolTambourine.glb,metal_polished
+tooltambourine_paint_clearcoat,목제 탬버린 (클리어코트 페인트),104000,1.55,액세서리,assets/models/ToolTambourine.glb,paint_clearcoat
+tooltambourine_fabric_sheen,목제 탬버린 (패브릭 쉰),92000,1.65,액세서리,assets/models/ToolTambourine.glb,fabric_sheen
+tooltambourine_glass_clear,목제 탬버린 (클리어 글래스),128000,1.3,액세서리,assets/models/ToolTambourine.glb,glass_clear
+tooltambourine_resin_tinted,목제 탬버린 (틴티드 레진),116000,1.45,액세서리,assets/models/ToolTambourine.glb,resin_tinted
+tooltambourine_matcap_clay,목제 탬버린 (클레이),84000,1.7,액세서리,assets/models/ToolTambourine.glb,matcap_clay
+tooltambourine_matcap_wax,목제 탬버린 (왁스),88000,1.65,액세서리,assets/models/ToolTambourine.glb,matcap_wax
+tooltambourine_matcap_chrome,목제 탬버린 (크롬),124000,1.35,액세서리,assets/models/ToolTambourine.glb,matcap_chrome
+tooltambourine_matcap_bronze,목제 탬버린 (브론즈),112000,1.5,액세서리,assets/models/ToolTambourine.glb,matcap_bronze
+tooltambourine_matcap_black_rubber,목제 탬버린 (블랙 러버),86400,1.7,액세서리,assets/models/ToolTambourine.glb,matcap_black_rubber
+tooltambourine_matcap_red_wax,목제 탬버린 (레드 왁스),92000,1.6,액세서리,assets/models/ToolTambourine.glb,matcap_red_wax
+tooltambourine_matcap_white_ceramic,목제 탬버린 (화이트 세라믹),100000,1.55,액세서리,assets/models/ToolTambourine.glb,matcap_white_ceramic
+tooltambourine_matcap_blue_gloss,목제 탬버린 (블루 글로시),96000,1.6,액세서리,assets/models/ToolTambourine.glb,matcap_blue_gloss
+tooltambourine_matcap_gold,목제 탬버린 (골드),136000,1.2,액세서리,assets/models/ToolTambourine.glb,matcap_gold
+tooltambourine_matcap_silver_soft,목제 탬버린 (소프트 실버),108000,1.5,액세서리,assets/models/ToolTambourine.glb,matcap_silver_soft
+toolwateringwood_plastic_matte,나무 물뿌리개 (매트 플라스틱),60000,1.8,액세서리,assets/models/ToolWateringWood.glb,plastic_matte
+toolwateringwood_plastic_gloss,나무 물뿌리개 (글로시 플라스틱),66000,1.75,액세서리,assets/models/ToolWateringWood.glb,plastic_gloss
+toolwateringwood_rubber_soft,나무 물뿌리개 (소프트 러버),63000,1.8,액세서리,assets/models/ToolWateringWood.glb,rubber_soft
+toolwateringwood_ceramic_clean,나무 물뿌리개 (클린 세라믹),72000,1.7,액세서리,assets/models/ToolWateringWood.glb,ceramic_clean
+toolwateringwood_metal_brushed,나무 물뿌리개 (브러시드 메탈),81000,1.6,액세서리,assets/models/ToolWateringWood.glb,metal_brushed
+toolwateringwood_metal_polished,나무 물뿌리개 (폴리시드 메탈),90000,1.5,액세서리,assets/models/ToolWateringWood.glb,metal_polished
+toolwateringwood_paint_clearcoat,나무 물뿌리개 (클리어코트 페인트),78000,1.65,액세서리,assets/models/ToolWateringWood.glb,paint_clearcoat
+toolwateringwood_fabric_sheen,나무 물뿌리개 (패브릭 쉰),69000,1.75,액세서리,assets/models/ToolWateringWood.glb,fabric_sheen
+toolwateringwood_glass_clear,나무 물뿌리개 (클리어 글래스),96000,1.4,액세서리,assets/models/ToolWateringWood.glb,glass_clear
+toolwateringwood_resin_tinted,나무 물뿌리개 (틴티드 레진),87000,1.55,액세서리,assets/models/ToolWateringWood.glb,resin_tinted
+toolwateringwood_matcap_clay,나무 물뿌리개 (클레이),63000,1.8,액세서리,assets/models/ToolWateringWood.glb,matcap_clay
+toolwateringwood_matcap_wax,나무 물뿌리개 (왁스),66000,1.75,액세서리,assets/models/ToolWateringWood.glb,matcap_wax
+toolwateringwood_matcap_chrome,나무 물뿌리개 (크롬),93000,1.45,액세서리,assets/models/ToolWateringWood.glb,matcap_chrome
+toolwateringwood_matcap_bronze,나무 물뿌리개 (브론즈),84000,1.6,액세서리,assets/models/ToolWateringWood.glb,matcap_bronze
+toolwateringwood_matcap_black_rubber,나무 물뿌리개 (블랙 러버),64800,1.8,액세서리,assets/models/ToolWateringWood.glb,matcap_black_rubber
+toolwateringwood_matcap_red_wax,나무 물뿌리개 (레드 왁스),69000,1.7,액세서리,assets/models/ToolWateringWood.glb,matcap_red_wax
+toolwateringwood_matcap_white_ceramic,나무 물뿌리개 (화이트 세라믹),75000,1.65,액세서리,assets/models/ToolWateringWood.glb,matcap_white_ceramic
+toolwateringwood_matcap_blue_gloss,나무 물뿌리개 (블루 글로시),72000,1.7,액세서리,assets/models/ToolWateringWood.glb,matcap_blue_gloss
+toolwateringwood_matcap_gold,나무 물뿌리개 (골드),102000,1.3,액세서리,assets/models/ToolWateringWood.glb,matcap_gold
+toolwateringwood_matcap_silver_soft,나무 물뿌리개 (소프트 실버),81000,1.6,액세서리,assets/models/ToolWateringWood.glb,matcap_silver_soft
+umbrellabangasa0_plastic_matte,방사 우산 (매트 플라스틱),100000,1.6,액세서리,assets/models/UmbrellaBangasa0.glb,plastic_matte
+umbrellabangasa0_plastic_gloss,방사 우산 (글로시 플라스틱),110000,1.55,액세서리,assets/models/UmbrellaBangasa0.glb,plastic_gloss
+umbrellabangasa0_rubber_soft,방사 우산 (소프트 러버),105000,1.6,액세서리,assets/models/UmbrellaBangasa0.glb,rubber_soft
+umbrellabangasa0_ceramic_clean,방사 우산 (클린 세라믹),120000,1.5,액세서리,assets/models/UmbrellaBangasa0.glb,ceramic_clean
+umbrellabangasa0_metal_brushed,방사 우산 (브러시드 메탈),135000,1.4,액세서리,assets/models/UmbrellaBangasa0.glb,metal_brushed
+umbrellabangasa0_metal_polished,방사 우산 (폴리시드 메탈),150000,1.3,액세서리,assets/models/UmbrellaBangasa0.glb,metal_polished
+umbrellabangasa0_paint_clearcoat,방사 우산 (클리어코트 페인트),130000,1.45,액세서리,assets/models/UmbrellaBangasa0.glb,paint_clearcoat
+umbrellabangasa0_fabric_sheen,방사 우산 (패브릭 쉰),115000,1.55,액세서리,assets/models/UmbrellaBangasa0.glb,fabric_sheen
+umbrellabangasa0_glass_clear,방사 우산 (클리어 글래스),160000,1.2,액세서리,assets/models/UmbrellaBangasa0.glb,glass_clear
+umbrellabangasa0_resin_tinted,방사 우산 (틴티드 레진),145000,1.35,액세서리,assets/models/UmbrellaBangasa0.glb,resin_tinted
+umbrellabangasa0_matcap_clay,방사 우산 (클레이),105000,1.6,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_clay
+umbrellabangasa0_matcap_wax,방사 우산 (왁스),110000,1.55,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_wax
+umbrellabangasa0_matcap_chrome,방사 우산 (크롬),155000,1.25,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_chrome
+umbrellabangasa0_matcap_bronze,방사 우산 (브론즈),140000,1.4,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_bronze
+umbrellabangasa0_matcap_black_rubber,방사 우산 (블랙 러버),108000,1.6,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_black_rubber
+umbrellabangasa0_matcap_red_wax,방사 우산 (레드 왁스),115000,1.5,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_red_wax
+umbrellabangasa0_matcap_white_ceramic,방사 우산 (화이트 세라믹),125000,1.45,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_white_ceramic
+umbrellabangasa0_matcap_blue_gloss,방사 우산 (블루 글로시),120000,1.5,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_blue_gloss
+umbrellabangasa0_matcap_gold,방사 우산 (골드),170000,1.1,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_gold
+umbrellabangasa0_matcap_silver_soft,방사 우산 (소프트 실버),135000,1.4,액세서리,assets/models/UmbrellaBangasa0.glb,matcap_silver_soft
+umbrellabat0_plastic_matte,지팡이 우산 (매트 플라스틱),120000,1.5,액세서리,assets/models/UmbrellaBat0.glb,plastic_matte
+umbrellabat0_plastic_gloss,지팡이 우산 (글로시 플라스틱),132000,1.45,액세서리,assets/models/UmbrellaBat0.glb,plastic_gloss
+umbrellabat0_rubber_soft,지팡이 우산 (소프트 러버),126000,1.5,액세서리,assets/models/UmbrellaBat0.glb,rubber_soft
+umbrellabat0_ceramic_clean,지팡이 우산 (클린 세라믹),144000,1.4,액세서리,assets/models/UmbrellaBat0.glb,ceramic_clean
+umbrellabat0_metal_brushed,지팡이 우산 (브러시드 메탈),162000,1.3,액세서리,assets/models/UmbrellaBat0.glb,metal_brushed
+umbrellabat0_metal_polished,지팡이 우산 (폴리시드 메탈),180000,1.2,액세서리,assets/models/UmbrellaBat0.glb,metal_polished
+umbrellabat0_paint_clearcoat,지팡이 우산 (클리어코트 페인트),156000,1.35,액세서리,assets/models/UmbrellaBat0.glb,paint_clearcoat
+umbrellabat0_fabric_sheen,지팡이 우산 (패브릭 쉰),138000,1.45,액세서리,assets/models/UmbrellaBat0.glb,fabric_sheen
+umbrellabat0_glass_clear,지팡이 우산 (클리어 글래스),192000,1.1,액세서리,assets/models/UmbrellaBat0.glb,glass_clear
+umbrellabat0_resin_tinted,지팡이 우산 (틴티드 레진),174000,1.25,액세서리,assets/models/UmbrellaBat0.glb,resin_tinted
+umbrellabat0_matcap_clay,지팡이 우산 (클레이),126000,1.5,액세서리,assets/models/UmbrellaBat0.glb,matcap_clay
+umbrellabat0_matcap_wax,지팡이 우산 (왁스),132000,1.45,액세서리,assets/models/UmbrellaBat0.glb,matcap_wax
+umbrellabat0_matcap_chrome,지팡이 우산 (크롬),186000,1.15,액세서리,assets/models/UmbrellaBat0.glb,matcap_chrome
+umbrellabat0_matcap_bronze,지팡이 우산 (브론즈),168000,1.3,액세서리,assets/models/UmbrellaBat0.glb,matcap_bronze
+umbrellabat0_matcap_black_rubber,지팡이 우산 (블랙 러버),129600,1.5,액세서리,assets/models/UmbrellaBat0.glb,matcap_black_rubber
+umbrellabat0_matcap_red_wax,지팡이 우산 (레드 왁스),138000,1.4,액세서리,assets/models/UmbrellaBat0.glb,matcap_red_wax
+umbrellabat0_matcap_white_ceramic,지팡이 우산 (화이트 세라믹),150000,1.35,액세서리,assets/models/UmbrellaBat0.glb,matcap_white_ceramic
+umbrellabat0_matcap_blue_gloss,지팡이 우산 (블루 글로시),144000,1.4,액세서리,assets/models/UmbrellaBat0.glb,matcap_blue_gloss
+umbrellabat0_matcap_gold,지팡이 우산 (골드),204000,1,액세서리,assets/models/UmbrellaBat0.glb,matcap_gold
+umbrellabat0_matcap_silver_soft,지팡이 우산 (소프트 실버),162000,1.3,액세서리,assets/models/UmbrellaBat0.glb,matcap_silver_soft

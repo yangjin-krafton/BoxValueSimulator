@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+furnituretopstoppuffh_plastic_matte,일본 스타일 스포츠 저지 (매트 플라스틱),15000,0.5,액세서리,assets/models/FurnitureTopsTopPuffH.glb,plastic_matte
+furnituretopstoppuffh_plastic_gloss,일본 스타일 스포츠 저지 (글로시 플라스틱),16500,0.45,액세서리,assets/models/FurnitureTopsTopPuffH.glb,plastic_gloss
+furnituretopstoppuffh_rubber_soft,일본 스타일 스포츠 저지 (소프트 러버),15800,0.5,액세서리,assets/models/FurnitureTopsTopPuffH.glb,rubber_soft
+furnituretopstoppuffh_ceramic_clean,일본 스타일 스포츠 저지 (클린 세라믹),18000,0.4,액세서리,assets/models/FurnitureTopsTopPuffH.glb,ceramic_clean
+furnituretopstoppuffh_metal_brushed,일본 스타일 스포츠 저지 (브러시드 메탈),20300,0.3,액세서리,assets/models/FurnitureTopsTopPuffH.glb,metal_brushed
+furnituretopstoppuffh_metal_polished,일본 스타일 스포츠 저지 (폴리시드 메탈),22500,0.2,액세서리,assets/models/FurnitureTopsTopPuffH.glb,metal_polished
+furnituretopstoppuffh_paint_clearcoat,일본 스타일 스포츠 저지 (클리어코트 페인트),19500,0.35,액세서리,assets/models/FurnitureTopsTopPuffH.glb,paint_clearcoat
+furnituretopstoppuffh_fabric_sheen,일본 스타일 스포츠 저지 (패브릭 쉰),17300,0.45,액세서리,assets/models/FurnitureTopsTopPuffH.glb,fabric_sheen
+furnituretopstoppuffh_glass_clear,일본 스타일 스포츠 저지 (클리어 글래스),24000,0.1,액세서리,assets/models/FurnitureTopsTopPuffH.glb,glass_clear
+furnituretopstoppuffh_resin_tinted,일본 스타일 스포츠 저지 (틴티드 레진),21800,0.25,액세서리,assets/models/FurnitureTopsTopPuffH.glb,resin_tinted
+furnituretopstoppuffh_matcap_clay,일본 스타일 스포츠 저지 (클레이),15800,0.5,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_clay
+furnituretopstoppuffh_matcap_wax,일본 스타일 스포츠 저지 (왁스),16500,0.45,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_wax
+furnituretopstoppuffh_matcap_chrome,일본 스타일 스포츠 저지 (크롬),23300,0.15,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_chrome
+furnituretopstoppuffh_matcap_bronze,일본 스타일 스포츠 저지 (브론즈),21000,0.3,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_bronze
+furnituretopstoppuffh_matcap_black_rubber,일본 스타일 스포츠 저지 (블랙 러버),16200,0.5,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_black_rubber
+furnituretopstoppuffh_matcap_red_wax,일본 스타일 스포츠 저지 (레드 왁스),17300,0.4,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_red_wax
+furnituretopstoppuffh_matcap_white_ceramic,일본 스타일 스포츠 저지 (화이트 세라믹),18800,0.35,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_white_ceramic
+furnituretopstoppuffh_matcap_blue_gloss,일본 스타일 스포츠 저지 (블루 글로시),18000,0.4,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_blue_gloss
+furnituretopstoppuffh_matcap_gold,일본 스타일 스포츠 저지 (골드),25500,0.1,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_gold
+furnituretopstoppuffh_matcap_silver_soft,일본 스타일 스포츠 저지 (소프트 실버),20300,0.3,액세서리,assets/models/FurnitureTopsTopPuffH.glb,matcap_silver_soft
+furnituretopstoptshirtsh_plastic_matte,기본 흰색 티셔츠 (매트 플라스틱),5000,2,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,plastic_matte
+furnituretopstoptshirtsh_plastic_gloss,기본 흰색 티셔츠 (글로시 플라스틱),5500,1.95,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,plastic_gloss
+furnituretopstoptshirtsh_rubber_soft,기본 흰색 티셔츠 (소프트 러버),5300,2,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,rubber_soft
+furnituretopstoptshirtsh_ceramic_clean,기본 흰색 티셔츠 (클린 세라믹),6000,1.9,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,ceramic_clean
+furnituretopstoptshirtsh_metal_brushed,기본 흰색 티셔츠 (브러시드 메탈),6800,1.8,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,metal_brushed
+furnituretopstoptshirtsh_metal_polished,기본 흰색 티셔츠 (폴리시드 메탈),7500,1.7,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,metal_polished
+furnituretopstoptshirtsh_paint_clearcoat,기본 흰색 티셔츠 (클리어코트 페인트),6500,1.85,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,paint_clearcoat
+furnituretopstoptshirtsh_fabric_sheen,기본 흰색 티셔츠 (패브릭 쉰),5800,1.95,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,fabric_sheen
+furnituretopstoptshirtsh_glass_clear,기본 흰색 티셔츠 (클리어 글래스),8000,1.6,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,glass_clear
+furnituretopstoptshirtsh_resin_tinted,기본 흰색 티셔츠 (틴티드 레진),7300,1.75,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,resin_tinted
+furnituretopstoptshirtsh_matcap_clay,기본 흰색 티셔츠 (클레이),5300,2,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_clay
+furnituretopstoptshirtsh_matcap_wax,기본 흰색 티셔츠 (왁스),5500,1.95,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_wax
+furnituretopstoptshirtsh_matcap_chrome,기본 흰색 티셔츠 (크롬),7800,1.65,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_chrome
+furnituretopstoptshirtsh_matcap_bronze,기본 흰색 티셔츠 (브론즈),7000,1.8,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_bronze
+furnituretopstoptshirtsh_matcap_black_rubber,기본 흰색 티셔츠 (블랙 러버),5400,2,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_black_rubber
+furnituretopstoptshirtsh_matcap_red_wax,기본 흰색 티셔츠 (레드 왁스),5800,1.9,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_red_wax
+furnituretopstoptshirtsh_matcap_white_ceramic,기본 흰색 티셔츠 (화이트 세라믹),6300,1.85,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_white_ceramic
+furnituretopstoptshirtsh_matcap_blue_gloss,기본 흰색 티셔츠 (블루 글로시),6000,1.9,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_blue_gloss
+furnituretopstoptshirtsh_matcap_gold,기본 흰색 티셔츠 (골드),8500,1.5,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_gold
+furnituretopstoptshirtsh_matcap_silver_soft,기본 흰색 티셔츠 (소프트 실버),6800,1.8,액세서리,assets/models/FurnitureTopsTopTshirtsH.glb,matcap_silver_soft
+furnituretopstoptshirtsl_plastic_matte,흰색 카프 (매트 플라스틱),10000,1,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,plastic_matte
+furnituretopstoptshirtsl_plastic_gloss,흰색 카프 (글로시 플라스틱),11000,0.95,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,plastic_gloss
+furnituretopstoptshirtsl_rubber_soft,흰색 카프 (소프트 러버),10500,1,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,rubber_soft
+furnituretopstoptshirtsl_ceramic_clean,흰색 카프 (클린 세라믹),12000,0.9,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,ceramic_clean
+furnituretopstoptshirtsl_metal_brushed,흰색 카프 (브러시드 메탈),13500,0.8,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,metal_brushed
+furnituretopstoptshirtsl_metal_polished,흰색 카프 (폴리시드 메탈),15000,0.7,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,metal_polished
+furnituretopstoptshirtsl_paint_clearcoat,흰색 카프 (클리어코트 페인트),13000,0.85,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,paint_clearcoat
+furnituretopstoptshirtsl_fabric_sheen,흰색 카프 (패브릭 쉰),11500,0.95,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,fabric_sheen
+furnituretopstoptshirtsl_glass_clear,흰색 카프 (클리어 글래스),16000,0.6,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,glass_clear
+furnituretopstoptshirtsl_resin_tinted,흰색 카프 (틴티드 레진),14500,0.75,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,resin_tinted
+furnituretopstoptshirtsl_matcap_clay,흰색 카프 (클레이),10500,1,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_clay
+furnituretopstoptshirtsl_matcap_wax,흰색 카프 (왁스),11000,0.95,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_wax
+furnituretopstoptshirtsl_matcap_chrome,흰색 카프 (크롬),15500,0.65,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_chrome
+furnituretopstoptshirtsl_matcap_bronze,흰색 카프 (브론즈),14000,0.8,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_bronze
+furnituretopstoptshirtsl_matcap_black_rubber,흰색 카프 (블랙 러버),10800,1,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_black_rubber
+furnituretopstoptshirtsl_matcap_red_wax,흰색 카프 (레드 왁스),11500,0.9,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_red_wax
+furnituretopstoptshirtsl_matcap_white_ceramic,흰색 카프 (화이트 세라믹),12500,0.85,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_white_ceramic
+furnituretopstoptshirtsl_matcap_blue_gloss,흰색 카프 (블루 글로시),12000,0.9,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_blue_gloss
+furnituretopstoptshirtsl_matcap_gold,흰색 카프 (골드),17000,0.5,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_gold
+furnituretopstoptshirtsl_matcap_silver_soft,흰색 카프 (소프트 실버),13500,0.8,액세서리,assets/models/FurnitureTopsTopTshirtsL.glb,matcap_silver_soft
+furnituretopstoptshirtsn_plastic_matte,흰색 무지개 탑 (매트 플라스틱),8000,1.2,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,plastic_matte
+furnituretopstoptshirtsn_plastic_gloss,흰색 무지개 탑 (글로시 플라스틱),8800,1.15,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,plastic_gloss
+furnituretopstoptshirtsn_rubber_soft,흰색 무지개 탑 (소프트 러버),8400,1.2,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,rubber_soft
+furnituretopstoptshirtsn_ceramic_clean,흰색 무지개 탑 (클린 세라믹),9600,1.1,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,ceramic_clean
+furnituretopstoptshirtsn_metal_brushed,흰색 무지개 탑 (브러시드 메탈),10800,1,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,metal_brushed
+furnituretopstoptshirtsn_metal_polished,흰색 무지개 탑 (폴리시드 메탈),12000,0.9,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,metal_polished
+furnituretopstoptshirtsn_paint_clearcoat,흰색 무지개 탑 (클리어코트 페인트),10400,1.05,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,paint_clearcoat
+furnituretopstoptshirtsn_fabric_sheen,흰색 무지개 탑 (패브릭 쉰),9200,1.15,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,fabric_sheen
+furnituretopstoptshirtsn_glass_clear,흰색 무지개 탑 (클리어 글래스),12800,0.8,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,glass_clear
+furnituretopstoptshirtsn_resin_tinted,흰색 무지개 탑 (틴티드 레진),11600,0.95,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,resin_tinted
+furnituretopstoptshirtsn_matcap_clay,흰색 무지개 탑 (클레이),8400,1.2,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_clay
+furnituretopstoptshirtsn_matcap_wax,흰색 무지개 탑 (왁스),8800,1.15,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_wax
+furnituretopstoptshirtsn_matcap_chrome,흰색 무지개 탑 (크롬),12400,0.85,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_chrome
+furnituretopstoptshirtsn_matcap_bronze,흰색 무지개 탑 (브론즈),11200,1,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_bronze
+furnituretopstoptshirtsn_matcap_black_rubber,흰색 무지개 탑 (블랙 러버),8600,1.2,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_black_rubber
+furnituretopstoptshirtsn_matcap_red_wax,흰색 무지개 탑 (레드 왁스),9200,1.1,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_red_wax
+furnituretopstoptshirtsn_matcap_white_ceramic,흰색 무지개 탑 (화이트 세라믹),10000,1.05,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_white_ceramic
+furnituretopstoptshirtsn_matcap_blue_gloss,흰색 무지개 탑 (블루 글로시),9600,1.1,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_blue_gloss
+furnituretopstoptshirtsn_matcap_gold,흰색 무지개 탑 (골드),13600,0.7,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_gold
+furnituretopstoptshirtsn_matcap_silver_soft,흰색 무지개 탑 (소프트 실버),10800,1,액세서리,assets/models/FurnitureTopsTopTshirtsN.glb,matcap_silver_soft
+furnituretopstopyshirtsh_plastic_matte,흰색 Y자 티셔츠 (매트 플라스틱),6000,1.8,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,plastic_matte
+furnituretopstopyshirtsh_plastic_gloss,흰색 Y자 티셔츠 (글로시 플라스틱),6600,1.75,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,plastic_gloss
+furnituretopstopyshirtsh_rubber_soft,흰색 Y자 티셔츠 (소프트 러버),6300,1.8,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,rubber_soft
+furnituretopstopyshirtsh_ceramic_clean,흰색 Y자 티셔츠 (클린 세라믹),7200,1.7,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,ceramic_clean
+furnituretopstopyshirtsh_metal_brushed,흰색 Y자 티셔츠 (브러시드 메탈),8100,1.6,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,metal_brushed
+furnituretopstopyshirtsh_metal_polished,흰색 Y자 티셔츠 (폴리시드 메탈),9000,1.5,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,metal_polished
+furnituretopstopyshirtsh_paint_clearcoat,흰색 Y자 티셔츠 (클리어코트 페인트),7800,1.65,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,paint_clearcoat
+furnituretopstopyshirtsh_fabric_sheen,흰색 Y자 티셔츠 (패브릭 쉰),6900,1.75,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,fabric_sheen
+furnituretopstopyshirtsh_glass_clear,흰색 Y자 티셔츠 (클리어 글래스),9600,1.4,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,glass_clear
+furnituretopstopyshirtsh_resin_tinted,흰색 Y자 티셔츠 (틴티드 레진),8700,1.55,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,resin_tinted
+furnituretopstopyshirtsh_matcap_clay,흰색 Y자 티셔츠 (클레이),6300,1.8,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_clay
+furnituretopstopyshirtsh_matcap_wax,흰색 Y자 티셔츠 (왁스),6600,1.75,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_wax
+furnituretopstopyshirtsh_matcap_chrome,흰색 Y자 티셔츠 (크롬),9300,1.45,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_chrome
+furnituretopstopyshirtsh_matcap_bronze,흰색 Y자 티셔츠 (브론즈),8400,1.6,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_bronze
+furnituretopstopyshirtsh_matcap_black_rubber,흰색 Y자 티셔츠 (블랙 러버),6500,1.8,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_black_rubber
+furnituretopstopyshirtsh_matcap_red_wax,흰색 Y자 티셔츠 (레드 왁스),6900,1.7,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_red_wax
+furnituretopstopyshirtsh_matcap_white_ceramic,흰색 Y자 티셔츠 (화이트 세라믹),7500,1.65,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_white_ceramic
+furnituretopstopyshirtsh_matcap_blue_gloss,흰색 Y자 티셔츠 (블루 글로시),7200,1.7,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_blue_gloss
+furnituretopstopyshirtsh_matcap_gold,흰색 Y자 티셔츠 (골드),10200,1.3,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_gold
+furnituretopstopyshirtsh_matcap_silver_soft,흰색 Y자 티셔츠 (소프트 실버),8100,1.6,액세서리,assets/models/FurnitureTopsTopYshirtsH.glb,matcap_silver_soft
+furnituretopstopyshirtsl_plastic_matte,그리드 패턴 흰색 로브 (매트 플라스틱),15000,0.8,의상,assets/models/FurnitureTopsTopYshirtsL.glb,plastic_matte
+furnituretopstopyshirtsl_plastic_gloss,그리드 패턴 흰색 로브 (글로시 플라스틱),16500,0.75,의상,assets/models/FurnitureTopsTopYshirtsL.glb,plastic_gloss
+furnituretopstopyshirtsl_rubber_soft,그리드 패턴 흰색 로브 (소프트 러버),15800,0.8,의상,assets/models/FurnitureTopsTopYshirtsL.glb,rubber_soft
+furnituretopstopyshirtsl_ceramic_clean,그리드 패턴 흰색 로브 (클린 세라믹),18000,0.7,의상,assets/models/FurnitureTopsTopYshirtsL.glb,ceramic_clean
+furnituretopstopyshirtsl_metal_brushed,그리드 패턴 흰색 로브 (브러시드 메탈),20300,0.6,의상,assets/models/FurnitureTopsTopYshirtsL.glb,metal_brushed
+furnituretopstopyshirtsl_metal_polished,그리드 패턴 흰색 로브 (폴리시드 메탈),22500,0.5,의상,assets/models/FurnitureTopsTopYshirtsL.glb,metal_polished
+furnituretopstopyshirtsl_paint_clearcoat,그리드 패턴 흰색 로브 (클리어코트 페인트),19500,0.65,의상,assets/models/FurnitureTopsTopYshirtsL.glb,paint_clearcoat
+furnituretopstopyshirtsl_fabric_sheen,그리드 패턴 흰색 로브 (패브릭 쉰),17300,0.75,의상,assets/models/FurnitureTopsTopYshirtsL.glb,fabric_sheen
+furnituretopstopyshirtsl_glass_clear,그리드 패턴 흰색 로브 (클리어 글래스),24000,0.4,의상,assets/models/FurnitureTopsTopYshirtsL.glb,glass_clear
+furnituretopstopyshirtsl_resin_tinted,그리드 패턴 흰색 로브 (틴티드 레진),21800,0.55,의상,assets/models/FurnitureTopsTopYshirtsL.glb,resin_tinted
+furnituretopstopyshirtsl_matcap_clay,그리드 패턴 흰색 로브 (클레이),15800,0.8,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_clay
+furnituretopstopyshirtsl_matcap_wax,그리드 패턴 흰색 로브 (왁스),16500,0.75,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_wax
+furnituretopstopyshirtsl_matcap_chrome,그리드 패턴 흰색 로브 (크롬),23300,0.45,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_chrome
+furnituretopstopyshirtsl_matcap_bronze,그리드 패턴 흰색 로브 (브론즈),21000,0.6,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_bronze
+furnituretopstopyshirtsl_matcap_black_rubber,그리드 패턴 흰색 로브 (블랙 러버),16200,0.8,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_black_rubber
+furnituretopstopyshirtsl_matcap_red_wax,그리드 패턴 흰색 로브 (레드 왁스),17300,0.7,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_red_wax
+furnituretopstopyshirtsl_matcap_white_ceramic,그리드 패턴 흰색 로브 (화이트 세라믹),18800,0.65,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_white_ceramic
+furnituretopstopyshirtsl_matcap_blue_gloss,그리드 패턴 흰색 로브 (블루 글로시),18000,0.7,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_blue_gloss
+furnituretopstopyshirtsl_matcap_gold,그리드 패턴 흰색 로브 (골드),25500,0.3,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_gold
+furnituretopstopyshirtsl_matcap_silver_soft,그리드 패턴 흰색 로브 (소프트 실버),20300,0.6,의상,assets/models/FurnitureTopsTopYshirtsL.glb,matcap_silver_soft
+furnituretopstopyshirtsn_plastic_matte,그리드 패턴 흰색 탑 (매트 플라스틱),15000,0.8,의상,assets/models/FurnitureTopsTopYshirtsN.glb,plastic_matte
+furnituretopstopyshirtsn_plastic_gloss,그리드 패턴 흰색 탑 (글로시 플라스틱),16500,0.75,의상,assets/models/FurnitureTopsTopYshirtsN.glb,plastic_gloss
+furnituretopstopyshirtsn_rubber_soft,그리드 패턴 흰색 탑 (소프트 러버),15800,0.8,의상,assets/models/FurnitureTopsTopYshirtsN.glb,rubber_soft
+furnituretopstopyshirtsn_ceramic_clean,그리드 패턴 흰색 탑 (클린 세라믹),18000,0.7,의상,assets/models/FurnitureTopsTopYshirtsN.glb,ceramic_clean
+furnituretopstopyshirtsn_metal_brushed,그리드 패턴 흰색 탑 (브러시드 메탈),20300,0.6,의상,assets/models/FurnitureTopsTopYshirtsN.glb,metal_brushed
+furnituretopstopyshirtsn_metal_polished,그리드 패턴 흰색 탑 (폴리시드 메탈),22500,0.5,의상,assets/models/FurnitureTopsTopYshirtsN.glb,metal_polished
+furnituretopstopyshirtsn_paint_clearcoat,그리드 패턴 흰색 탑 (클리어코트 페인트),19500,0.65,의상,assets/models/FurnitureTopsTopYshirtsN.glb,paint_clearcoat
+furnituretopstopyshirtsn_fabric_sheen,그리드 패턴 흰색 탑 (패브릭 쉰),17300,0.75,의상,assets/models/FurnitureTopsTopYshirtsN.glb,fabric_sheen
+furnituretopstopyshirtsn_glass_clear,그리드 패턴 흰색 탑 (클리어 글래스),24000,0.4,의상,assets/models/FurnitureTopsTopYshirtsN.glb,glass_clear
+furnituretopstopyshirtsn_resin_tinted,그리드 패턴 흰색 탑 (틴티드 레진),21800,0.55,의상,assets/models/FurnitureTopsTopYshirtsN.glb,resin_tinted
+furnituretopstopyshirtsn_matcap_clay,그리드 패턴 흰색 탑 (클레이),15800,0.8,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_clay
+furnituretopstopyshirtsn_matcap_wax,그리드 패턴 흰색 탑 (왁스),16500,0.75,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_wax
+furnituretopstopyshirtsn_matcap_chrome,그리드 패턴 흰색 탑 (크롬),23300,0.45,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_chrome
+furnituretopstopyshirtsn_matcap_bronze,그리드 패턴 흰색 탑 (브론즈),21000,0.6,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_bronze
+furnituretopstopyshirtsn_matcap_black_rubber,그리드 패턴 흰색 탑 (블랙 러버),16200,0.8,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_black_rubber
+furnituretopstopyshirtsn_matcap_red_wax,그리드 패턴 흰색 탑 (레드 왁스),17300,0.7,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_red_wax
+furnituretopstopyshirtsn_matcap_white_ceramic,그리드 패턴 흰색 탑 (화이트 세라믹),18800,0.65,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_white_ceramic
+furnituretopstopyshirtsn_matcap_blue_gloss,그리드 패턴 흰색 탑 (블루 글로시),18000,0.7,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_blue_gloss
+furnituretopstopyshirtsn_matcap_gold,그리드 패턴 흰색 탑 (골드),25500,0.3,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_gold
+furnituretopstopyshirtsn_matcap_silver_soft,그리드 패턴 흰색 탑 (소프트 실버),20300,0.6,의상,assets/models/FurnitureTopsTopYshirtsN.glb,matcap_silver_soft
+haniwakundonation_plastic_matte,건설 작업자 하니와 군 (매트 플라스틱),80000,0.5,캐릭터,assets/models/HaniwaKunDonation.glb,plastic_matte
+haniwakundonation_plastic_gloss,건설 작업자 하니와 군 (글로시 플라스틱),88000,0.45,캐릭터,assets/models/HaniwaKunDonation.glb,plastic_gloss
+haniwakundonation_rubber_soft,건설 작업자 하니와 군 (소프트 러버),84000,0.5,캐릭터,assets/models/HaniwaKunDonation.glb,rubber_soft
+haniwakundonation_ceramic_clean,건설 작업자 하니와 군 (클린 세라믹),96000,0.4,캐릭터,assets/models/HaniwaKunDonation.glb,ceramic_clean
+haniwakundonation_metal_brushed,건설 작업자 하니와 군 (브러시드 메탈),108000,0.3,캐릭터,assets/models/HaniwaKunDonation.glb,metal_brushed
+haniwakundonation_metal_polished,건설 작업자 하니와 군 (폴리시드 메탈),120000,0.2,캐릭터,assets/models/HaniwaKunDonation.glb,metal_polished
+haniwakundonation_paint_clearcoat,건설 작업자 하니와 군 (클리어코트 페인트),104000,0.35,캐릭터,assets/models/HaniwaKunDonation.glb,paint_clearcoat
+haniwakundonation_fabric_sheen,건설 작업자 하니와 군 (패브릭 쉰),92000,0.45,캐릭터,assets/models/HaniwaKunDonation.glb,fabric_sheen
+haniwakundonation_glass_clear,건설 작업자 하니와 군 (클리어 글래스),128000,0.1,캐릭터,assets/models/HaniwaKunDonation.glb,glass_clear
+haniwakundonation_resin_tinted,건설 작업자 하니와 군 (틴티드 레진),116000,0.25,캐릭터,assets/models/HaniwaKunDonation.glb,resin_tinted
+haniwakundonation_matcap_clay,건설 작업자 하니와 군 (클레이),84000,0.5,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_clay
+haniwakundonation_matcap_wax,건설 작업자 하니와 군 (왁스),88000,0.45,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_wax
+haniwakundonation_matcap_chrome,건설 작업자 하니와 군 (크롬),124000,0.15,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_chrome
+haniwakundonation_matcap_bronze,건설 작업자 하니와 군 (브론즈),112000,0.3,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_bronze
+haniwakundonation_matcap_black_rubber,건설 작업자 하니와 군 (블랙 러버),86400,0.5,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_black_rubber
+haniwakundonation_matcap_red_wax,건설 작업자 하니와 군 (레드 왁스),92000,0.4,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_red_wax
+haniwakundonation_matcap_white_ceramic,건설 작업자 하니와 군 (화이트 세라믹),100000,0.35,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_white_ceramic
+haniwakundonation_matcap_blue_gloss,건설 작업자 하니와 군 (블루 글로시),96000,0.4,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_blue_gloss
+haniwakundonation_matcap_gold,건설 작업자 하니와 군 (골드),136000,0.1,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_gold
+haniwakundonation_matcap_silver_soft,건설 작업자 하니와 군 (소프트 실버),108000,0.3,캐릭터,assets/models/HaniwaKunDonation.glb,matcap_silver_soft
+heliconia_plastic_matte,헬리코니아 식물 (매트 플라스틱),45000,1,식물,assets/models/Heliconia.glb,plastic_matte
+heliconia_plastic_gloss,헬리코니아 식물 (글로시 플라스틱),49500,0.95,식물,assets/models/Heliconia.glb,plastic_gloss
+heliconia_rubber_soft,헬리코니아 식물 (소프트 러버),47300,1,식물,assets/models/Heliconia.glb,rubber_soft
+heliconia_ceramic_clean,헬리코니아 식물 (클린 세라믹),54000,0.9,식물,assets/models/Heliconia.glb,ceramic_clean
+heliconia_metal_brushed,헬리코니아 식물 (브러시드 메탈),60800,0.8,식물,assets/models/Heliconia.glb,metal_brushed
+heliconia_metal_polished,헬리코니아 식물 (폴리시드 메탈),67500,0.7,식물,assets/models/Heliconia.glb,metal_polished
+heliconia_paint_clearcoat,헬리코니아 식물 (클리어코트 페인트),58500,0.85,식물,assets/models/Heliconia.glb,paint_clearcoat
+heliconia_fabric_sheen,헬리코니아 식물 (패브릭 쉰),51700,0.95,식물,assets/models/Heliconia.glb,fabric_sheen
+heliconia_glass_clear,헬리코니아 식물 (클리어 글래스),72000,0.6,식물,assets/models/Heliconia.glb,glass_clear
+heliconia_resin_tinted,헬리코니아 식물 (틴티드 레진),65300,0.75,식물,assets/models/Heliconia.glb,resin_tinted
+heliconia_matcap_clay,헬리코니아 식물 (클레이),47300,1,식물,assets/models/Heliconia.glb,matcap_clay
+heliconia_matcap_wax,헬리코니아 식물 (왁스),49500,0.95,식물,assets/models/Heliconia.glb,matcap_wax
+heliconia_matcap_chrome,헬리코니아 식물 (크롬),69800,0.65,식물,assets/models/Heliconia.glb,matcap_chrome
+heliconia_matcap_bronze,헬리코니아 식물 (브론즈),63000,0.8,식물,assets/models/Heliconia.glb,matcap_bronze
+heliconia_matcap_black_rubber,헬리코니아 식물 (블랙 러버),48600,1,식물,assets/models/Heliconia.glb,matcap_black_rubber
+heliconia_matcap_red_wax,헬리코니아 식물 (레드 왁스),51700,0.9,식물,assets/models/Heliconia.glb,matcap_red_wax
+heliconia_matcap_white_ceramic,헬리코니아 식물 (화이트 세라믹),56300,0.85,식물,assets/models/Heliconia.glb,matcap_white_ceramic
+heliconia_matcap_blue_gloss,헬리코니아 식물 (블루 글로시),54000,0.9,식물,assets/models/Heliconia.glb,matcap_blue_gloss
+heliconia_matcap_gold,헬리코니아 식물 (골드),76500,0.5,식물,assets/models/Heliconia.glb,matcap_gold
+heliconia_matcap_silver_soft,헬리코니아 식물 (소프트 실버),60800,0.8,식물,assets/models/Heliconia.glb,matcap_silver_soft
+insectaburazemi_plastic_matte,아부라제미 곤충 (매트 플라스틱),90000,0.3,동물,assets/models/InsectAburazemi.glb,plastic_matte
+insectaburazemi_plastic_gloss,아부라제미 곤충 (글로시 플라스틱),99000,0.25,동물,assets/models/InsectAburazemi.glb,plastic_gloss
+insectaburazemi_rubber_soft,아부라제미 곤충 (소프트 러버),94500,0.3,동물,assets/models/InsectAburazemi.glb,rubber_soft
+insectaburazemi_ceramic_clean,아부라제미 곤충 (클린 세라믹),108000,0.2,동물,assets/models/InsectAburazemi.glb,ceramic_clean
+insectaburazemi_metal_brushed,아부라제미 곤충 (브러시드 메탈),121500,0.1,동물,assets/models/InsectAburazemi.glb,metal_brushed
+insectaburazemi_metal_polished,아부라제미 곤충 (폴리시드 메탈),135000,0.1,동물,assets/models/InsectAburazemi.glb,metal_polished
+insectaburazemi_paint_clearcoat,아부라제미 곤충 (클리어코트 페인트),117000,0.15,동물,assets/models/InsectAburazemi.glb,paint_clearcoat
+insectaburazemi_fabric_sheen,아부라제미 곤충 (패브릭 쉰),103500,0.25,동물,assets/models/InsectAburazemi.glb,fabric_sheen
+insectaburazemi_glass_clear,아부라제미 곤충 (클리어 글래스),144000,0.1,동물,assets/models/InsectAburazemi.glb,glass_clear
+insectaburazemi_resin_tinted,아부라제미 곤충 (틴티드 레진),130500,0.1,동물,assets/models/InsectAburazemi.glb,resin_tinted
+insectaburazemi_matcap_clay,아부라제미 곤충 (클레이),94500,0.3,동물,assets/models/InsectAburazemi.glb,matcap_clay
+insectaburazemi_matcap_wax,아부라제미 곤충 (왁스),99000,0.25,동물,assets/models/InsectAburazemi.glb,matcap_wax
+insectaburazemi_matcap_chrome,아부라제미 곤충 (크롬),139500,0.1,동물,assets/models/InsectAburazemi.glb,matcap_chrome
+insectaburazemi_matcap_bronze,아부라제미 곤충 (브론즈),126000,0.1,동물,assets/models/InsectAburazemi.glb,matcap_bronze
+insectaburazemi_matcap_black_rubber,아부라제미 곤충 (블랙 러버),97200,0.3,동물,assets/models/InsectAburazemi.glb,matcap_black_rubber
+insectaburazemi_matcap_red_wax,아부라제미 곤충 (레드 왁스),103500,0.2,동물,assets/models/InsectAburazemi.glb,matcap_red_wax
+insectaburazemi_matcap_white_ceramic,아부라제미 곤충 (화이트 세라믹),112500,0.15,동물,assets/models/InsectAburazemi.glb,matcap_white_ceramic
+insectaburazemi_matcap_blue_gloss,아부라제미 곤충 (블루 글로시),108000,0.2,동물,assets/models/InsectAburazemi.glb,matcap_blue_gloss
+insectaburazemi_matcap_gold,아부라제미 곤충 (골드),153000,0.1,동물,assets/models/InsectAburazemi.glb,matcap_gold
+insectaburazemi_matcap_silver_soft,아부라제미 곤충 (소프트 실버),121500,0.1,동물,assets/models/InsectAburazemi.glb,matcap_silver_soft

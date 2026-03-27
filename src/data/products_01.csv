@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+accessoryglassdot0_plastic_matte,Accessory Glass Dot 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassDot0.glb,plastic_matte
+accessoryglassdot0_plastic_gloss,Accessory Glass Dot 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassDot0.glb,plastic_gloss
+accessoryglassdot0_rubber_soft,Accessory Glass Dot 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassDot0.glb,rubber_soft
+accessoryglassdot0_ceramic_clean,Accessory Glass Dot 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassDot0.glb,ceramic_clean
+accessoryglassdot0_metal_brushed,Accessory Glass Dot 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassDot0.glb,metal_brushed
+accessoryglassdot0_metal_polished,Accessory Glass Dot 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassDot0.glb,metal_polished
+accessoryglassdot0_paint_clearcoat,Accessory Glass Dot 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassDot0.glb,paint_clearcoat
+accessoryglassdot0_fabric_sheen,Accessory Glass Dot 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassDot0.glb,fabric_sheen
+accessoryglassdot0_glass_clear,Accessory Glass Dot 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassDot0.glb,glass_clear
+accessoryglassdot0_resin_tinted,Accessory Glass Dot 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassDot0.glb,resin_tinted
+accessoryglassdot0_matcap_clay,Accessory Glass Dot 0 (클레이),15800,1,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_clay
+accessoryglassdot0_matcap_wax,Accessory Glass Dot 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_wax
+accessoryglassdot0_matcap_chrome,Accessory Glass Dot 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_chrome
+accessoryglassdot0_matcap_bronze,Accessory Glass Dot 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_bronze
+accessoryglassdot0_matcap_black_rubber,Accessory Glass Dot 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_black_rubber
+accessoryglassdot0_matcap_red_wax,Accessory Glass Dot 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_red_wax
+accessoryglassdot0_matcap_white_ceramic,Accessory Glass Dot 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_white_ceramic
+accessoryglassdot0_matcap_blue_gloss,Accessory Glass Dot 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_blue_gloss
+accessoryglassdot0_matcap_gold,Accessory Glass Dot 0 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_gold
+accessoryglassdot0_matcap_silver_soft,Accessory Glass Dot 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassDot0.glb,matcap_silver_soft
+accessoryglasseyes0_plastic_matte,Accessory Glass Eyes 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassEyes0.glb,plastic_matte
+accessoryglasseyes0_plastic_gloss,Accessory Glass Eyes 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassEyes0.glb,plastic_gloss
+accessoryglasseyes0_rubber_soft,Accessory Glass Eyes 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassEyes0.glb,rubber_soft
+accessoryglasseyes0_ceramic_clean,Accessory Glass Eyes 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassEyes0.glb,ceramic_clean
+accessoryglasseyes0_metal_brushed,Accessory Glass Eyes 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassEyes0.glb,metal_brushed
+accessoryglasseyes0_metal_polished,Accessory Glass Eyes 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassEyes0.glb,metal_polished
+accessoryglasseyes0_paint_clearcoat,Accessory Glass Eyes 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassEyes0.glb,paint_clearcoat
+accessoryglasseyes0_fabric_sheen,Accessory Glass Eyes 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassEyes0.glb,fabric_sheen
+accessoryglasseyes0_glass_clear,Accessory Glass Eyes 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassEyes0.glb,glass_clear
+accessoryglasseyes0_resin_tinted,Accessory Glass Eyes 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassEyes0.glb,resin_tinted
+accessoryglasseyes0_matcap_clay,Accessory Glass Eyes 0 (클레이),15800,1,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_clay
+accessoryglasseyes0_matcap_wax,Accessory Glass Eyes 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_wax
+accessoryglasseyes0_matcap_chrome,Accessory Glass Eyes 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_chrome
+accessoryglasseyes0_matcap_bronze,Accessory Glass Eyes 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_bronze
+accessoryglasseyes0_matcap_black_rubber,Accessory Glass Eyes 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_black_rubber
+accessoryglasseyes0_matcap_red_wax,Accessory Glass Eyes 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_red_wax
+accessoryglasseyes0_matcap_white_ceramic,Accessory Glass Eyes 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_white_ceramic
+accessoryglasseyes0_matcap_blue_gloss,Accessory Glass Eyes 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_blue_gloss
+accessoryglasseyes0_matcap_gold,Accessory Glass Eyes 0 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_gold
+accessoryglasseyes0_matcap_silver_soft,Accessory Glass Eyes 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassEyes0.glb,matcap_silver_soft
+accessoryglasskate0_plastic_matte,Accessory Glass Kate 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassKate0.glb,plastic_matte
+accessoryglasskate0_plastic_gloss,Accessory Glass Kate 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassKate0.glb,plastic_gloss
+accessoryglasskate0_rubber_soft,Accessory Glass Kate 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassKate0.glb,rubber_soft
+accessoryglasskate0_ceramic_clean,Accessory Glass Kate 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassKate0.glb,ceramic_clean
+accessoryglasskate0_metal_brushed,Accessory Glass Kate 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassKate0.glb,metal_brushed
+accessoryglasskate0_metal_polished,Accessory Glass Kate 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassKate0.glb,metal_polished
+accessoryglasskate0_paint_clearcoat,Accessory Glass Kate 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassKate0.glb,paint_clearcoat
+accessoryglasskate0_fabric_sheen,Accessory Glass Kate 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassKate0.glb,fabric_sheen
+accessoryglasskate0_glass_clear,Accessory Glass Kate 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassKate0.glb,glass_clear
+accessoryglasskate0_resin_tinted,Accessory Glass Kate 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassKate0.glb,resin_tinted
+accessoryglasskate0_matcap_clay,Accessory Glass Kate 0 (클레이),15800,1,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_clay
+accessoryglasskate0_matcap_wax,Accessory Glass Kate 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_wax
+accessoryglasskate0_matcap_chrome,Accessory Glass Kate 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_chrome
+accessoryglasskate0_matcap_bronze,Accessory Glass Kate 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_bronze
+accessoryglasskate0_matcap_black_rubber,Accessory Glass Kate 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_black_rubber
+accessoryglasskate0_matcap_red_wax,Accessory Glass Kate 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_red_wax
+accessoryglasskate0_matcap_white_ceramic,Accessory Glass Kate 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_white_ceramic
+accessoryglasskate0_matcap_blue_gloss,Accessory Glass Kate 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_blue_gloss
+accessoryglasskate0_matcap_gold,Accessory Glass Kate 0 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_gold
+accessoryglasskate0_matcap_silver_soft,Accessory Glass Kate 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassKate0.glb,matcap_silver_soft
+accessoryglassmask0_plastic_matte,Accessory Glass Mask 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassMask0.glb,plastic_matte
+accessoryglassmask0_plastic_gloss,Accessory Glass Mask 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassMask0.glb,plastic_gloss
+accessoryglassmask0_rubber_soft,Accessory Glass Mask 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassMask0.glb,rubber_soft
+accessoryglassmask0_ceramic_clean,Accessory Glass Mask 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassMask0.glb,ceramic_clean
+accessoryglassmask0_metal_brushed,Accessory Glass Mask 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassMask0.glb,metal_brushed
+accessoryglassmask0_metal_polished,Accessory Glass Mask 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassMask0.glb,metal_polished
+accessoryglassmask0_paint_clearcoat,Accessory Glass Mask 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassMask0.glb,paint_clearcoat
+accessoryglassmask0_fabric_sheen,Accessory Glass Mask 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassMask0.glb,fabric_sheen
+accessoryglassmask0_glass_clear,Accessory Glass Mask 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassMask0.glb,glass_clear
+accessoryglassmask0_resin_tinted,Accessory Glass Mask 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassMask0.glb,resin_tinted
+accessoryglassmask0_matcap_clay,Accessory Glass Mask 0 (클레이),15800,1,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_clay
+accessoryglassmask0_matcap_wax,Accessory Glass Mask 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_wax
+accessoryglassmask0_matcap_chrome,Accessory Glass Mask 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_chrome
+accessoryglassmask0_matcap_bronze,Accessory Glass Mask 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_bronze
+accessoryglassmask0_matcap_black_rubber,Accessory Glass Mask 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_black_rubber
+accessoryglassmask0_matcap_red_wax,Accessory Glass Mask 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_red_wax
+accessoryglassmask0_matcap_white_ceramic,Accessory Glass Mask 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_white_ceramic
+accessoryglassmask0_matcap_blue_gloss,Accessory Glass Mask 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_blue_gloss
+accessoryglassmask0_matcap_gold,Accessory Glass Mask 0 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_gold
+accessoryglassmask0_matcap_silver_soft,Accessory Glass Mask 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassMask0.glb,matcap_silver_soft
+accessoryglassmini0_plastic_matte,Accessory Glass Mini 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassMini0.glb,plastic_matte
+accessoryglassmini0_plastic_gloss,Accessory Glass Mini 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassMini0.glb,plastic_gloss
+accessoryglassmini0_rubber_soft,Accessory Glass Mini 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassMini0.glb,rubber_soft
+accessoryglassmini0_ceramic_clean,Accessory Glass Mini 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassMini0.glb,ceramic_clean
+accessoryglassmini0_metal_brushed,Accessory Glass Mini 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassMini0.glb,metal_brushed
+accessoryglassmini0_metal_polished,Accessory Glass Mini 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassMini0.glb,metal_polished
+accessoryglassmini0_paint_clearcoat,Accessory Glass Mini 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassMini0.glb,paint_clearcoat
+accessoryglassmini0_fabric_sheen,Accessory Glass Mini 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassMini0.glb,fabric_sheen
+accessoryglassmini0_glass_clear,Accessory Glass Mini 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassMini0.glb,glass_clear
+accessoryglassmini0_resin_tinted,Accessory Glass Mini 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassMini0.glb,resin_tinted
+accessoryglassmini0_matcap_clay,Accessory Glass Mini 0 (클레이),15800,1,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_clay
+accessoryglassmini0_matcap_wax,Accessory Glass Mini 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_wax
+accessoryglassmini0_matcap_chrome,Accessory Glass Mini 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_chrome
+accessoryglassmini0_matcap_bronze,Accessory Glass Mini 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_bronze
+accessoryglassmini0_matcap_black_rubber,Accessory Glass Mini 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_black_rubber
+accessoryglassmini0_matcap_red_wax,Accessory Glass Mini 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_red_wax
+accessoryglassmini0_matcap_white_ceramic,Accessory Glass Mini 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_white_ceramic
+accessoryglassmini0_matcap_blue_gloss,Accessory Glass Mini 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_blue_gloss
+accessoryglassmini0_matcap_gold,Accessory Glass Mini 0 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_gold
+accessoryglassmini0_matcap_silver_soft,Accessory Glass Mini 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassMini0.glb,matcap_silver_soft
+accessoryglassnook0_plastic_matte,잎무늬 안면 패드 (매트 플라스틱),120000,0.8,액세서리,assets/models/AccessoryGlassNook0.glb,plastic_matte
+accessoryglassnook0_plastic_gloss,잎무늬 안면 패드 (글로시 플라스틱),132000,0.75,액세서리,assets/models/AccessoryGlassNook0.glb,plastic_gloss
+accessoryglassnook0_rubber_soft,잎무늬 안면 패드 (소프트 러버),126000,0.8,액세서리,assets/models/AccessoryGlassNook0.glb,rubber_soft
+accessoryglassnook0_ceramic_clean,잎무늬 안면 패드 (클린 세라믹),144000,0.7,액세서리,assets/models/AccessoryGlassNook0.glb,ceramic_clean
+accessoryglassnook0_metal_brushed,잎무늬 안면 패드 (브러시드 메탈),162000,0.6,액세서리,assets/models/AccessoryGlassNook0.glb,metal_brushed
+accessoryglassnook0_metal_polished,잎무늬 안면 패드 (폴리시드 메탈),180000,0.5,액세서리,assets/models/AccessoryGlassNook0.glb,metal_polished
+accessoryglassnook0_paint_clearcoat,잎무늬 안면 패드 (클리어코트 페인트),156000,0.65,액세서리,assets/models/AccessoryGlassNook0.glb,paint_clearcoat
+accessoryglassnook0_fabric_sheen,잎무늬 안면 패드 (패브릭 쉰),138000,0.75,액세서리,assets/models/AccessoryGlassNook0.glb,fabric_sheen
+accessoryglassnook0_glass_clear,잎무늬 안면 패드 (클리어 글래스),192000,0.4,액세서리,assets/models/AccessoryGlassNook0.glb,glass_clear
+accessoryglassnook0_resin_tinted,잎무늬 안면 패드 (틴티드 레진),174000,0.55,액세서리,assets/models/AccessoryGlassNook0.glb,resin_tinted
+accessoryglassnook0_matcap_clay,잎무늬 안면 패드 (클레이),126000,0.8,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_clay
+accessoryglassnook0_matcap_wax,잎무늬 안면 패드 (왁스),132000,0.75,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_wax
+accessoryglassnook0_matcap_chrome,잎무늬 안면 패드 (크롬),186000,0.45,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_chrome
+accessoryglassnook0_matcap_bronze,잎무늬 안면 패드 (브론즈),168000,0.6,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_bronze
+accessoryglassnook0_matcap_black_rubber,잎무늬 안면 패드 (블랙 러버),129600,0.8,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_black_rubber
+accessoryglassnook0_matcap_red_wax,잎무늬 안면 패드 (레드 왁스),138000,0.7,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_red_wax
+accessoryglassnook0_matcap_white_ceramic,잎무늬 안면 패드 (화이트 세라믹),150000,0.65,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_white_ceramic
+accessoryglassnook0_matcap_blue_gloss,잎무늬 안면 패드 (블루 글로시),144000,0.7,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_blue_gloss
+accessoryglassnook0_matcap_gold,잎무늬 안면 패드 (골드),204000,0.3,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_gold
+accessoryglassnook0_matcap_silver_soft,잎무늬 안면 패드 (소프트 실버),162000,0.6,액세서리,assets/models/AccessoryGlassNook0.glb,matcap_silver_soft
+accessoryglassoval0_plastic_matte,초록색 타원 선글라스 (매트 플라스틱),45000,1.8,선글라스,assets/models/AccessoryGlassOval0.glb,plastic_matte
+accessoryglassoval0_plastic_gloss,초록색 타원 선글라스 (글로시 플라스틱),49500,1.75,선글라스,assets/models/AccessoryGlassOval0.glb,plastic_gloss
+accessoryglassoval0_rubber_soft,초록색 타원 선글라스 (소프트 러버),47300,1.8,선글라스,assets/models/AccessoryGlassOval0.glb,rubber_soft
+accessoryglassoval0_ceramic_clean,초록색 타원 선글라스 (클린 세라믹),54000,1.7,선글라스,assets/models/AccessoryGlassOval0.glb,ceramic_clean
+accessoryglassoval0_metal_brushed,초록색 타원 선글라스 (브러시드 메탈),60800,1.6,선글라스,assets/models/AccessoryGlassOval0.glb,metal_brushed
+accessoryglassoval0_metal_polished,초록색 타원 선글라스 (폴리시드 메탈),67500,1.5,선글라스,assets/models/AccessoryGlassOval0.glb,metal_polished
+accessoryglassoval0_paint_clearcoat,초록색 타원 선글라스 (클리어코트 페인트),58500,1.65,선글라스,assets/models/AccessoryGlassOval0.glb,paint_clearcoat
+accessoryglassoval0_fabric_sheen,초록색 타원 선글라스 (패브릭 쉰),51700,1.75,선글라스,assets/models/AccessoryGlassOval0.glb,fabric_sheen
+accessoryglassoval0_glass_clear,초록색 타원 선글라스 (클리어 글래스),72000,1.4,선글라스,assets/models/AccessoryGlassOval0.glb,glass_clear
+accessoryglassoval0_resin_tinted,초록색 타원 선글라스 (틴티드 레진),65300,1.55,선글라스,assets/models/AccessoryGlassOval0.glb,resin_tinted
+accessoryglassoval0_matcap_clay,초록색 타원 선글라스 (클레이),47300,1.8,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_clay
+accessoryglassoval0_matcap_wax,초록색 타원 선글라스 (왁스),49500,1.75,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_wax
+accessoryglassoval0_matcap_chrome,초록색 타원 선글라스 (크롬),69800,1.45,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_chrome
+accessoryglassoval0_matcap_bronze,초록색 타원 선글라스 (브론즈),63000,1.6,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_bronze
+accessoryglassoval0_matcap_black_rubber,초록색 타원 선글라스 (블랙 러버),48600,1.8,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_black_rubber
+accessoryglassoval0_matcap_red_wax,초록색 타원 선글라스 (레드 왁스),51700,1.7,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_red_wax
+accessoryglassoval0_matcap_white_ceramic,초록색 타원 선글라스 (화이트 세라믹),56300,1.65,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_white_ceramic
+accessoryglassoval0_matcap_blue_gloss,초록색 타원 선글라스 (블루 글로시),54000,1.7,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_blue_gloss
+accessoryglassoval0_matcap_gold,초록색 타원 선글라스 (골드),76500,1.3,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_gold
+accessoryglassoval0_matcap_silver_soft,초록색 타원 선글라스 (소프트 실버),60800,1.6,선글라스,assets/models/AccessoryGlassOval0.glb,matcap_silver_soft
+accessoryglassstar0_plastic_matte,별 모양 선글라스 (매트 플라스틱),220000,0.4,선글라스,assets/models/AccessoryGlassStar0.glb,plastic_matte
+accessoryglassstar0_plastic_gloss,별 모양 선글라스 (글로시 플라스틱),242000,0.35,선글라스,assets/models/AccessoryGlassStar0.glb,plastic_gloss
+accessoryglassstar0_rubber_soft,별 모양 선글라스 (소프트 러버),231000,0.4,선글라스,assets/models/AccessoryGlassStar0.glb,rubber_soft
+accessoryglassstar0_ceramic_clean,별 모양 선글라스 (클린 세라믹),264000,0.3,선글라스,assets/models/AccessoryGlassStar0.glb,ceramic_clean
+accessoryglassstar0_metal_brushed,별 모양 선글라스 (브러시드 메탈),297000,0.2,선글라스,assets/models/AccessoryGlassStar0.glb,metal_brushed
+accessoryglassstar0_metal_polished,별 모양 선글라스 (폴리시드 메탈),330000,0.1,선글라스,assets/models/AccessoryGlassStar0.glb,metal_polished
+accessoryglassstar0_paint_clearcoat,별 모양 선글라스 (클리어코트 페인트),286000,0.25,선글라스,assets/models/AccessoryGlassStar0.glb,paint_clearcoat
+accessoryglassstar0_fabric_sheen,별 모양 선글라스 (패브릭 쉰),253000,0.35,선글라스,assets/models/AccessoryGlassStar0.glb,fabric_sheen
+accessoryglassstar0_glass_clear,별 모양 선글라스 (클리어 글래스),352000,0.1,선글라스,assets/models/AccessoryGlassStar0.glb,glass_clear
+accessoryglassstar0_resin_tinted,별 모양 선글라스 (틴티드 레진),319000,0.15,선글라스,assets/models/AccessoryGlassStar0.glb,resin_tinted
+accessoryglassstar0_matcap_clay,별 모양 선글라스 (클레이),231000,0.4,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_clay
+accessoryglassstar0_matcap_wax,별 모양 선글라스 (왁스),242000,0.35,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_wax
+accessoryglassstar0_matcap_chrome,별 모양 선글라스 (크롬),341000,0.1,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_chrome
+accessoryglassstar0_matcap_bronze,별 모양 선글라스 (브론즈),308000,0.2,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_bronze
+accessoryglassstar0_matcap_black_rubber,별 모양 선글라스 (블랙 러버),237600,0.4,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_black_rubber
+accessoryglassstar0_matcap_red_wax,별 모양 선글라스 (레드 왁스),253000,0.3,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_red_wax
+accessoryglassstar0_matcap_white_ceramic,별 모양 선글라스 (화이트 세라믹),275000,0.25,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_white_ceramic
+accessoryglassstar0_matcap_blue_gloss,별 모양 선글라스 (블루 글로시),264000,0.3,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_blue_gloss
+accessoryglassstar0_matcap_gold,별 모양 선글라스 (골드),374000,0.1,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_gold
+accessoryglassstar0_matcap_silver_soft,별 모양 선글라스 (소프트 실버),297000,0.2,선글라스,assets/models/AccessoryGlassStar0.glb,matcap_silver_soft
+accessoryglasswood0_plastic_matte,목재 프레임 선글라스 (매트 플라스틱),150000,0.9,선글라스,assets/models/AccessoryGlassWood0.glb,plastic_matte
+accessoryglasswood0_plastic_gloss,목재 프레임 선글라스 (글로시 플라스틱),165000,0.85,선글라스,assets/models/AccessoryGlassWood0.glb,plastic_gloss
+accessoryglasswood0_rubber_soft,목재 프레임 선글라스 (소프트 러버),157500,0.9,선글라스,assets/models/AccessoryGlassWood0.glb,rubber_soft
+accessoryglasswood0_ceramic_clean,목재 프레임 선글라스 (클린 세라믹),180000,0.8,선글라스,assets/models/AccessoryGlassWood0.glb,ceramic_clean
+accessoryglasswood0_metal_brushed,목재 프레임 선글라스 (브러시드 메탈),202500,0.7,선글라스,assets/models/AccessoryGlassWood0.glb,metal_brushed
+accessoryglasswood0_metal_polished,목재 프레임 선글라스 (폴리시드 메탈),225000,0.6,선글라스,assets/models/AccessoryGlassWood0.glb,metal_polished
+accessoryglasswood0_paint_clearcoat,목재 프레임 선글라스 (클리어코트 페인트),195000,0.75,선글라스,assets/models/AccessoryGlassWood0.glb,paint_clearcoat
+accessoryglasswood0_fabric_sheen,목재 프레임 선글라스 (패브릭 쉰),172500,0.85,선글라스,assets/models/AccessoryGlassWood0.glb,fabric_sheen
+accessoryglasswood0_glass_clear,목재 프레임 선글라스 (클리어 글래스),240000,0.5,선글라스,assets/models/AccessoryGlassWood0.glb,glass_clear
+accessoryglasswood0_resin_tinted,목재 프레임 선글라스 (틴티드 레진),217500,0.65,선글라스,assets/models/AccessoryGlassWood0.glb,resin_tinted
+accessoryglasswood0_matcap_clay,목재 프레임 선글라스 (클레이),157500,0.9,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_clay
+accessoryglasswood0_matcap_wax,목재 프레임 선글라스 (왁스),165000,0.85,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_wax
+accessoryglasswood0_matcap_chrome,목재 프레임 선글라스 (크롬),232500,0.55,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_chrome
+accessoryglasswood0_matcap_bronze,목재 프레임 선글라스 (브론즈),210000,0.7,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_bronze
+accessoryglasswood0_matcap_black_rubber,목재 프레임 선글라스 (블랙 러버),162000,0.9,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_black_rubber
+accessoryglasswood0_matcap_red_wax,목재 프레임 선글라스 (레드 왁스),172500,0.8,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_red_wax
+accessoryglasswood0_matcap_white_ceramic,목재 프레임 선글라스 (화이트 세라믹),187500,0.75,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_white_ceramic
+accessoryglasswood0_matcap_blue_gloss,목재 프레임 선글라스 (블루 글로시),180000,0.8,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_blue_gloss
+accessoryglasswood0_matcap_gold,목재 프레임 선글라스 (골드),255000,0.4,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_gold
+accessoryglasswood0_matcap_silver_soft,목재 프레임 선글라스 (소프트 실버),202500,0.7,선글라스,assets/models/AccessoryGlassWood0.glb,matcap_silver_soft
+accessoryglassmouthbeard0_plastic_matte,블랙 오렌지 선글라스 (매트 플라스틱),80000,1.3,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,plastic_matte
+accessoryglassmouthbeard0_plastic_gloss,블랙 오렌지 선글라스 (글로시 플라스틱),88000,1.25,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,plastic_gloss
+accessoryglassmouthbeard0_rubber_soft,블랙 오렌지 선글라스 (소프트 러버),84000,1.3,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,rubber_soft
+accessoryglassmouthbeard0_ceramic_clean,블랙 오렌지 선글라스 (클린 세라믹),96000,1.2,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,ceramic_clean
+accessoryglassmouthbeard0_metal_brushed,블랙 오렌지 선글라스 (브러시드 메탈),108000,1.1,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,metal_brushed
+accessoryglassmouthbeard0_metal_polished,블랙 오렌지 선글라스 (폴리시드 메탈),120000,1,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,metal_polished
+accessoryglassmouthbeard0_paint_clearcoat,블랙 오렌지 선글라스 (클리어코트 페인트),104000,1.15,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,paint_clearcoat
+accessoryglassmouthbeard0_fabric_sheen,블랙 오렌지 선글라스 (패브릭 쉰),92000,1.25,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,fabric_sheen
+accessoryglassmouthbeard0_glass_clear,블랙 오렌지 선글라스 (클리어 글래스),128000,0.9,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,glass_clear
+accessoryglassmouthbeard0_resin_tinted,블랙 오렌지 선글라스 (틴티드 레진),116000,1.05,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,resin_tinted
+accessoryglassmouthbeard0_matcap_clay,블랙 오렌지 선글라스 (클레이),84000,1.3,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_clay
+accessoryglassmouthbeard0_matcap_wax,블랙 오렌지 선글라스 (왁스),88000,1.25,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_wax
+accessoryglassmouthbeard0_matcap_chrome,블랙 오렌지 선글라스 (크롬),124000,0.95,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_chrome
+accessoryglassmouthbeard0_matcap_bronze,블랙 오렌지 선글라스 (브론즈),112000,1.1,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_bronze
+accessoryglassmouthbeard0_matcap_black_rubber,블랙 오렌지 선글라스 (블랙 러버),86400,1.3,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_black_rubber
+accessoryglassmouthbeard0_matcap_red_wax,블랙 오렌지 선글라스 (레드 왁스),92000,1.2,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_red_wax
+accessoryglassmouthbeard0_matcap_white_ceramic,블랙 오렌지 선글라스 (화이트 세라믹),100000,1.15,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_white_ceramic
+accessoryglassmouthbeard0_matcap_blue_gloss,블랙 오렌지 선글라스 (블루 글로시),96000,1.2,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_blue_gloss
+accessoryglassmouthbeard0_matcap_gold,블랙 오렌지 선글라스 (골드),136000,0.8,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_gold
+accessoryglassmouthbeard0_matcap_silver_soft,블랙 오렌지 선글라스 (소프트 실버),108000,1.1,선글라스,assets/models/AccessoryGlassmouthBeard0.glb,matcap_silver_soft

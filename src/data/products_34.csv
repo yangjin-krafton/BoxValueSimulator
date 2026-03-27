@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+pltflwyuriseedling_plastic_matte,야무리 꽃 묘목 (매트 플라스틱),15000,1.8,식물,assets/models/PltFlwYuriSeedling.glb,plastic_matte
+pltflwyuriseedling_plastic_gloss,야무리 꽃 묘목 (글로시 플라스틱),16500,1.75,식물,assets/models/PltFlwYuriSeedling.glb,plastic_gloss
+pltflwyuriseedling_rubber_soft,야무리 꽃 묘목 (소프트 러버),15800,1.8,식물,assets/models/PltFlwYuriSeedling.glb,rubber_soft
+pltflwyuriseedling_ceramic_clean,야무리 꽃 묘목 (클린 세라믹),18000,1.7,식물,assets/models/PltFlwYuriSeedling.glb,ceramic_clean
+pltflwyuriseedling_metal_brushed,야무리 꽃 묘목 (브러시드 메탈),20300,1.6,식물,assets/models/PltFlwYuriSeedling.glb,metal_brushed
+pltflwyuriseedling_metal_polished,야무리 꽃 묘목 (폴리시드 메탈),22500,1.5,식물,assets/models/PltFlwYuriSeedling.glb,metal_polished
+pltflwyuriseedling_paint_clearcoat,야무리 꽃 묘목 (클리어코트 페인트),19500,1.65,식물,assets/models/PltFlwYuriSeedling.glb,paint_clearcoat
+pltflwyuriseedling_fabric_sheen,야무리 꽃 묘목 (패브릭 쉰),17300,1.75,식물,assets/models/PltFlwYuriSeedling.glb,fabric_sheen
+pltflwyuriseedling_glass_clear,야무리 꽃 묘목 (클리어 글래스),24000,1.4,식물,assets/models/PltFlwYuriSeedling.glb,glass_clear
+pltflwyuriseedling_resin_tinted,야무리 꽃 묘목 (틴티드 레진),21800,1.55,식물,assets/models/PltFlwYuriSeedling.glb,resin_tinted
+pltflwyuriseedling_matcap_clay,야무리 꽃 묘목 (클레이),15800,1.8,식물,assets/models/PltFlwYuriSeedling.glb,matcap_clay
+pltflwyuriseedling_matcap_wax,야무리 꽃 묘목 (왁스),16500,1.75,식물,assets/models/PltFlwYuriSeedling.glb,matcap_wax
+pltflwyuriseedling_matcap_chrome,야무리 꽃 묘목 (크롬),23300,1.45,식물,assets/models/PltFlwYuriSeedling.glb,matcap_chrome
+pltflwyuriseedling_matcap_bronze,야무리 꽃 묘목 (브론즈),21000,1.6,식물,assets/models/PltFlwYuriSeedling.glb,matcap_bronze
+pltflwyuriseedling_matcap_black_rubber,야무리 꽃 묘목 (블랙 러버),16200,1.8,식물,assets/models/PltFlwYuriSeedling.glb,matcap_black_rubber
+pltflwyuriseedling_matcap_red_wax,야무리 꽃 묘목 (레드 왁스),17300,1.7,식물,assets/models/PltFlwYuriSeedling.glb,matcap_red_wax
+pltflwyuriseedling_matcap_white_ceramic,야무리 꽃 묘목 (화이트 세라믹),18800,1.65,식물,assets/models/PltFlwYuriSeedling.glb,matcap_white_ceramic
+pltflwyuriseedling_matcap_blue_gloss,야무리 꽃 묘목 (블루 글로시),18000,1.7,식물,assets/models/PltFlwYuriSeedling.glb,matcap_blue_gloss
+pltflwyuriseedling_matcap_gold,야무리 꽃 묘목 (골드),25500,1.3,식물,assets/models/PltFlwYuriSeedling.glb,matcap_gold
+pltflwyuriseedling_matcap_silver_soft,야무리 꽃 묘목 (소프트 실버),20300,1.6,식물,assets/models/PltFlwYuriSeedling.glb,matcap_silver_soft
+plttreebamboo0_plastic_matte,대나무 묘목 (매트 플라스틱),20000,1.7,식물,assets/models/PltTreeBamboo0.glb,plastic_matte
+plttreebamboo0_plastic_gloss,대나무 묘목 (글로시 플라스틱),22000,1.65,식물,assets/models/PltTreeBamboo0.glb,plastic_gloss
+plttreebamboo0_rubber_soft,대나무 묘목 (소프트 러버),21000,1.7,식물,assets/models/PltTreeBamboo0.glb,rubber_soft
+plttreebamboo0_ceramic_clean,대나무 묘목 (클린 세라믹),24000,1.6,식물,assets/models/PltTreeBamboo0.glb,ceramic_clean
+plttreebamboo0_metal_brushed,대나무 묘목 (브러시드 메탈),27000,1.5,식물,assets/models/PltTreeBamboo0.glb,metal_brushed
+plttreebamboo0_metal_polished,대나무 묘목 (폴리시드 메탈),30000,1.4,식물,assets/models/PltTreeBamboo0.glb,metal_polished
+plttreebamboo0_paint_clearcoat,대나무 묘목 (클리어코트 페인트),26000,1.55,식물,assets/models/PltTreeBamboo0.glb,paint_clearcoat
+plttreebamboo0_fabric_sheen,대나무 묘목 (패브릭 쉰),23000,1.65,식물,assets/models/PltTreeBamboo0.glb,fabric_sheen
+plttreebamboo0_glass_clear,대나무 묘목 (클리어 글래스),32000,1.3,식물,assets/models/PltTreeBamboo0.glb,glass_clear
+plttreebamboo0_resin_tinted,대나무 묘목 (틴티드 레진),29000,1.45,식물,assets/models/PltTreeBamboo0.glb,resin_tinted
+plttreebamboo0_matcap_clay,대나무 묘목 (클레이),21000,1.7,식물,assets/models/PltTreeBamboo0.glb,matcap_clay
+plttreebamboo0_matcap_wax,대나무 묘목 (왁스),22000,1.65,식물,assets/models/PltTreeBamboo0.glb,matcap_wax
+plttreebamboo0_matcap_chrome,대나무 묘목 (크롬),31000,1.35,식물,assets/models/PltTreeBamboo0.glb,matcap_chrome
+plttreebamboo0_matcap_bronze,대나무 묘목 (브론즈),28000,1.5,식물,assets/models/PltTreeBamboo0.glb,matcap_bronze
+plttreebamboo0_matcap_black_rubber,대나무 묘목 (블랙 러버),21600,1.7,식물,assets/models/PltTreeBamboo0.glb,matcap_black_rubber
+plttreebamboo0_matcap_red_wax,대나무 묘목 (레드 왁스),23000,1.6,식물,assets/models/PltTreeBamboo0.glb,matcap_red_wax
+plttreebamboo0_matcap_white_ceramic,대나무 묘목 (화이트 세라믹),25000,1.55,식물,assets/models/PltTreeBamboo0.glb,matcap_white_ceramic
+plttreebamboo0_matcap_blue_gloss,대나무 묘목 (블루 글로시),24000,1.6,식물,assets/models/PltTreeBamboo0.glb,matcap_blue_gloss
+plttreebamboo0_matcap_gold,대나무 묘목 (골드),34000,1.2,식물,assets/models/PltTreeBamboo0.glb,matcap_gold
+plttreebamboo0_matcap_silver_soft,대나무 묘목 (소프트 실버),27000,1.5,식물,assets/models/PltTreeBamboo0.glb,matcap_silver_soft
+plttreecedar0_plastic_matte,소나무 묘목 (매트 플라스틱),30000,1.5,식물,assets/models/PltTreeCedar0.glb,plastic_matte
+plttreecedar0_plastic_gloss,소나무 묘목 (글로시 플라스틱),33000,1.45,식물,assets/models/PltTreeCedar0.glb,plastic_gloss
+plttreecedar0_rubber_soft,소나무 묘목 (소프트 러버),31500,1.5,식물,assets/models/PltTreeCedar0.glb,rubber_soft
+plttreecedar0_ceramic_clean,소나무 묘목 (클린 세라믹),36000,1.4,식물,assets/models/PltTreeCedar0.glb,ceramic_clean
+plttreecedar0_metal_brushed,소나무 묘목 (브러시드 메탈),40500,1.3,식물,assets/models/PltTreeCedar0.glb,metal_brushed
+plttreecedar0_metal_polished,소나무 묘목 (폴리시드 메탈),45000,1.2,식물,assets/models/PltTreeCedar0.glb,metal_polished
+plttreecedar0_paint_clearcoat,소나무 묘목 (클리어코트 페인트),39000,1.35,식물,assets/models/PltTreeCedar0.glb,paint_clearcoat
+plttreecedar0_fabric_sheen,소나무 묘목 (패브릭 쉰),34500,1.45,식물,assets/models/PltTreeCedar0.glb,fabric_sheen
+plttreecedar0_glass_clear,소나무 묘목 (클리어 글래스),48000,1.1,식물,assets/models/PltTreeCedar0.glb,glass_clear
+plttreecedar0_resin_tinted,소나무 묘목 (틴티드 레진),43500,1.25,식물,assets/models/PltTreeCedar0.glb,resin_tinted
+plttreecedar0_matcap_clay,소나무 묘목 (클레이),31500,1.5,식물,assets/models/PltTreeCedar0.glb,matcap_clay
+plttreecedar0_matcap_wax,소나무 묘목 (왁스),33000,1.45,식물,assets/models/PltTreeCedar0.glb,matcap_wax
+plttreecedar0_matcap_chrome,소나무 묘목 (크롬),46500,1.15,식물,assets/models/PltTreeCedar0.glb,matcap_chrome
+plttreecedar0_matcap_bronze,소나무 묘목 (브론즈),42000,1.3,식물,assets/models/PltTreeCedar0.glb,matcap_bronze
+plttreecedar0_matcap_black_rubber,소나무 묘목 (블랙 러버),32400,1.5,식물,assets/models/PltTreeCedar0.glb,matcap_black_rubber
+plttreecedar0_matcap_red_wax,소나무 묘목 (레드 왁스),34500,1.4,식물,assets/models/PltTreeCedar0.glb,matcap_red_wax
+plttreecedar0_matcap_white_ceramic,소나무 묘목 (화이트 세라믹),37500,1.35,식물,assets/models/PltTreeCedar0.glb,matcap_white_ceramic
+plttreecedar0_matcap_blue_gloss,소나무 묘목 (블루 글로시),36000,1.4,식물,assets/models/PltTreeCedar0.glb,matcap_blue_gloss
+plttreecedar0_matcap_gold,소나무 묘목 (골드),51000,1,식물,assets/models/PltTreeCedar0.glb,matcap_gold
+plttreecedar0_matcap_silver_soft,소나무 묘목 (소프트 실버),40500,1.3,식물,assets/models/PltTreeCedar0.glb,matcap_silver_soft
+plttreeoak0_plastic_matte,참나무 묘목 (매트 플라스틱),40000,1.4,식물,assets/models/PltTreeOak0.glb,plastic_matte
+plttreeoak0_plastic_gloss,참나무 묘목 (글로시 플라스틱),44000,1.35,식물,assets/models/PltTreeOak0.glb,plastic_gloss
+plttreeoak0_rubber_soft,참나무 묘목 (소프트 러버),42000,1.4,식물,assets/models/PltTreeOak0.glb,rubber_soft
+plttreeoak0_ceramic_clean,참나무 묘목 (클린 세라믹),48000,1.3,식물,assets/models/PltTreeOak0.glb,ceramic_clean
+plttreeoak0_metal_brushed,참나무 묘목 (브러시드 메탈),54000,1.2,식물,assets/models/PltTreeOak0.glb,metal_brushed
+plttreeoak0_metal_polished,참나무 묘목 (폴리시드 메탈),60000,1.1,식물,assets/models/PltTreeOak0.glb,metal_polished
+plttreeoak0_paint_clearcoat,참나무 묘목 (클리어코트 페인트),52000,1.25,식물,assets/models/PltTreeOak0.glb,paint_clearcoat
+plttreeoak0_fabric_sheen,참나무 묘목 (패브릭 쉰),46000,1.35,식물,assets/models/PltTreeOak0.glb,fabric_sheen
+plttreeoak0_glass_clear,참나무 묘목 (클리어 글래스),64000,1,식물,assets/models/PltTreeOak0.glb,glass_clear
+plttreeoak0_resin_tinted,참나무 묘목 (틴티드 레진),58000,1.15,식물,assets/models/PltTreeOak0.glb,resin_tinted
+plttreeoak0_matcap_clay,참나무 묘목 (클레이),42000,1.4,식물,assets/models/PltTreeOak0.glb,matcap_clay
+plttreeoak0_matcap_wax,참나무 묘목 (왁스),44000,1.35,식물,assets/models/PltTreeOak0.glb,matcap_wax
+plttreeoak0_matcap_chrome,참나무 묘목 (크롬),62000,1.05,식물,assets/models/PltTreeOak0.glb,matcap_chrome
+plttreeoak0_matcap_bronze,참나무 묘목 (브론즈),56000,1.2,식물,assets/models/PltTreeOak0.glb,matcap_bronze
+plttreeoak0_matcap_black_rubber,참나무 묘목 (블랙 러버),43200,1.4,식물,assets/models/PltTreeOak0.glb,matcap_black_rubber
+plttreeoak0_matcap_red_wax,참나무 묘목 (레드 왁스),46000,1.3,식물,assets/models/PltTreeOak0.glb,matcap_red_wax
+plttreeoak0_matcap_white_ceramic,참나무 묘목 (화이트 세라믹),50000,1.25,식물,assets/models/PltTreeOak0.glb,matcap_white_ceramic
+plttreeoak0_matcap_blue_gloss,참나무 묘목 (블루 글로시),48000,1.3,식물,assets/models/PltTreeOak0.glb,matcap_blue_gloss
+plttreeoak0_matcap_gold,참나무 묘목 (골드),68000,0.9,식물,assets/models/PltTreeOak0.glb,matcap_gold
+plttreeoak0_matcap_silver_soft,참나무 묘목 (소프트 실버),54000,1.2,식물,assets/models/PltTreeOak0.glb,matcap_silver_soft
+plttreeoak0snow_plastic_matte,눈 덮인 참나무 묘목 (매트 플라스틱),60000,1.2,식물,assets/models/PltTreeOak0Snow.glb,plastic_matte
+plttreeoak0snow_plastic_gloss,눈 덮인 참나무 묘목 (글로시 플라스틱),66000,1.15,식물,assets/models/PltTreeOak0Snow.glb,plastic_gloss
+plttreeoak0snow_rubber_soft,눈 덮인 참나무 묘목 (소프트 러버),63000,1.2,식물,assets/models/PltTreeOak0Snow.glb,rubber_soft
+plttreeoak0snow_ceramic_clean,눈 덮인 참나무 묘목 (클린 세라믹),72000,1.1,식물,assets/models/PltTreeOak0Snow.glb,ceramic_clean
+plttreeoak0snow_metal_brushed,눈 덮인 참나무 묘목 (브러시드 메탈),81000,1,식물,assets/models/PltTreeOak0Snow.glb,metal_brushed
+plttreeoak0snow_metal_polished,눈 덮인 참나무 묘목 (폴리시드 메탈),90000,0.9,식물,assets/models/PltTreeOak0Snow.glb,metal_polished
+plttreeoak0snow_paint_clearcoat,눈 덮인 참나무 묘목 (클리어코트 페인트),78000,1.05,식물,assets/models/PltTreeOak0Snow.glb,paint_clearcoat
+plttreeoak0snow_fabric_sheen,눈 덮인 참나무 묘목 (패브릭 쉰),69000,1.15,식물,assets/models/PltTreeOak0Snow.glb,fabric_sheen
+plttreeoak0snow_glass_clear,눈 덮인 참나무 묘목 (클리어 글래스),96000,0.8,식물,assets/models/PltTreeOak0Snow.glb,glass_clear
+plttreeoak0snow_resin_tinted,눈 덮인 참나무 묘목 (틴티드 레진),87000,0.95,식물,assets/models/PltTreeOak0Snow.glb,resin_tinted
+plttreeoak0snow_matcap_clay,눈 덮인 참나무 묘목 (클레이),63000,1.2,식물,assets/models/PltTreeOak0Snow.glb,matcap_clay
+plttreeoak0snow_matcap_wax,눈 덮인 참나무 묘목 (왁스),66000,1.15,식물,assets/models/PltTreeOak0Snow.glb,matcap_wax
+plttreeoak0snow_matcap_chrome,눈 덮인 참나무 묘목 (크롬),93000,0.85,식물,assets/models/PltTreeOak0Snow.glb,matcap_chrome
+plttreeoak0snow_matcap_bronze,눈 덮인 참나무 묘목 (브론즈),84000,1,식물,assets/models/PltTreeOak0Snow.glb,matcap_bronze
+plttreeoak0snow_matcap_black_rubber,눈 덮인 참나무 묘목 (블랙 러버),64800,1.2,식물,assets/models/PltTreeOak0Snow.glb,matcap_black_rubber
+plttreeoak0snow_matcap_red_wax,눈 덮인 참나무 묘목 (레드 왁스),69000,1.1,식물,assets/models/PltTreeOak0Snow.glb,matcap_red_wax
+plttreeoak0snow_matcap_white_ceramic,눈 덮인 참나무 묘목 (화이트 세라믹),75000,1.05,식물,assets/models/PltTreeOak0Snow.glb,matcap_white_ceramic
+plttreeoak0snow_matcap_blue_gloss,눈 덮인 참나무 묘목 (블루 글로시),72000,1.1,식물,assets/models/PltTreeOak0Snow.glb,matcap_blue_gloss
+plttreeoak0snow_matcap_gold,눈 덮인 참나무 묘목 (골드),102000,0.7,식물,assets/models/PltTreeOak0Snow.glb,matcap_gold
+plttreeoak0snow_matcap_silver_soft,눈 덮인 참나무 묘목 (소프트 실버),81000,1,식물,assets/models/PltTreeOak0Snow.glb,matcap_silver_soft
+plttreeoak1node_plastic_matte,단일 노드 오크 나무 (매트 플라스틱),15000,1.5,장식,assets/models/PltTreeOak1Node.glb,plastic_matte
+plttreeoak1node_plastic_gloss,단일 노드 오크 나무 (글로시 플라스틱),16500,1.45,장식,assets/models/PltTreeOak1Node.glb,plastic_gloss
+plttreeoak1node_rubber_soft,단일 노드 오크 나무 (소프트 러버),15800,1.5,장식,assets/models/PltTreeOak1Node.glb,rubber_soft
+plttreeoak1node_ceramic_clean,단일 노드 오크 나무 (클린 세라믹),18000,1.4,장식,assets/models/PltTreeOak1Node.glb,ceramic_clean
+plttreeoak1node_metal_brushed,단일 노드 오크 나무 (브러시드 메탈),20300,1.3,장식,assets/models/PltTreeOak1Node.glb,metal_brushed
+plttreeoak1node_metal_polished,단일 노드 오크 나무 (폴리시드 메탈),22500,1.2,장식,assets/models/PltTreeOak1Node.glb,metal_polished
+plttreeoak1node_paint_clearcoat,단일 노드 오크 나무 (클리어코트 페인트),19500,1.35,장식,assets/models/PltTreeOak1Node.glb,paint_clearcoat
+plttreeoak1node_fabric_sheen,단일 노드 오크 나무 (패브릭 쉰),17300,1.45,장식,assets/models/PltTreeOak1Node.glb,fabric_sheen
+plttreeoak1node_glass_clear,단일 노드 오크 나무 (클리어 글래스),24000,1.1,장식,assets/models/PltTreeOak1Node.glb,glass_clear
+plttreeoak1node_resin_tinted,단일 노드 오크 나무 (틴티드 레진),21800,1.25,장식,assets/models/PltTreeOak1Node.glb,resin_tinted
+plttreeoak1node_matcap_clay,단일 노드 오크 나무 (클레이),15800,1.5,장식,assets/models/PltTreeOak1Node.glb,matcap_clay
+plttreeoak1node_matcap_wax,단일 노드 오크 나무 (왁스),16500,1.45,장식,assets/models/PltTreeOak1Node.glb,matcap_wax
+plttreeoak1node_matcap_chrome,단일 노드 오크 나무 (크롬),23300,1.15,장식,assets/models/PltTreeOak1Node.glb,matcap_chrome
+plttreeoak1node_matcap_bronze,단일 노드 오크 나무 (브론즈),21000,1.3,장식,assets/models/PltTreeOak1Node.glb,matcap_bronze
+plttreeoak1node_matcap_black_rubber,단일 노드 오크 나무 (블랙 러버),16200,1.5,장식,assets/models/PltTreeOak1Node.glb,matcap_black_rubber
+plttreeoak1node_matcap_red_wax,단일 노드 오크 나무 (레드 왁스),17300,1.4,장식,assets/models/PltTreeOak1Node.glb,matcap_red_wax
+plttreeoak1node_matcap_white_ceramic,단일 노드 오크 나무 (화이트 세라믹),18800,1.35,장식,assets/models/PltTreeOak1Node.glb,matcap_white_ceramic
+plttreeoak1node_matcap_blue_gloss,단일 노드 오크 나무 (블루 글로시),18000,1.4,장식,assets/models/PltTreeOak1Node.glb,matcap_blue_gloss
+plttreeoak1node_matcap_gold,단일 노드 오크 나무 (골드),25500,1,장식,assets/models/PltTreeOak1Node.glb,matcap_gold
+plttreeoak1node_matcap_silver_soft,단일 노드 오크 나무 (소프트 실버),20300,1.3,장식,assets/models/PltTreeOak1Node.glb,matcap_silver_soft
+plttreeoak1snow_plastic_matte,단일 노드 오크 눈나무 (매트 플라스틱),25000,1.2,장식,assets/models/PltTreeOak1Snow.glb,plastic_matte
+plttreeoak1snow_plastic_gloss,단일 노드 오크 눈나무 (글로시 플라스틱),27500,1.15,장식,assets/models/PltTreeOak1Snow.glb,plastic_gloss
+plttreeoak1snow_rubber_soft,단일 노드 오크 눈나무 (소프트 러버),26300,1.2,장식,assets/models/PltTreeOak1Snow.glb,rubber_soft
+plttreeoak1snow_ceramic_clean,단일 노드 오크 눈나무 (클린 세라믹),30000,1.1,장식,assets/models/PltTreeOak1Snow.glb,ceramic_clean
+plttreeoak1snow_metal_brushed,단일 노드 오크 눈나무 (브러시드 메탈),33800,1,장식,assets/models/PltTreeOak1Snow.glb,metal_brushed
+plttreeoak1snow_metal_polished,단일 노드 오크 눈나무 (폴리시드 메탈),37500,0.9,장식,assets/models/PltTreeOak1Snow.glb,metal_polished
+plttreeoak1snow_paint_clearcoat,단일 노드 오크 눈나무 (클리어코트 페인트),32500,1.05,장식,assets/models/PltTreeOak1Snow.glb,paint_clearcoat
+plttreeoak1snow_fabric_sheen,단일 노드 오크 눈나무 (패브릭 쉰),28700,1.15,장식,assets/models/PltTreeOak1Snow.glb,fabric_sheen
+plttreeoak1snow_glass_clear,단일 노드 오크 눈나무 (클리어 글래스),40000,0.8,장식,assets/models/PltTreeOak1Snow.glb,glass_clear
+plttreeoak1snow_resin_tinted,단일 노드 오크 눈나무 (틴티드 레진),36300,0.95,장식,assets/models/PltTreeOak1Snow.glb,resin_tinted
+plttreeoak1snow_matcap_clay,단일 노드 오크 눈나무 (클레이),26300,1.2,장식,assets/models/PltTreeOak1Snow.glb,matcap_clay
+plttreeoak1snow_matcap_wax,단일 노드 오크 눈나무 (왁스),27500,1.15,장식,assets/models/PltTreeOak1Snow.glb,matcap_wax
+plttreeoak1snow_matcap_chrome,단일 노드 오크 눈나무 (크롬),38800,0.85,장식,assets/models/PltTreeOak1Snow.glb,matcap_chrome
+plttreeoak1snow_matcap_bronze,단일 노드 오크 눈나무 (브론즈),35000,1,장식,assets/models/PltTreeOak1Snow.glb,matcap_bronze
+plttreeoak1snow_matcap_black_rubber,단일 노드 오크 눈나무 (블랙 러버),27000,1.2,장식,assets/models/PltTreeOak1Snow.glb,matcap_black_rubber
+plttreeoak1snow_matcap_red_wax,단일 노드 오크 눈나무 (레드 왁스),28700,1.1,장식,assets/models/PltTreeOak1Snow.glb,matcap_red_wax
+plttreeoak1snow_matcap_white_ceramic,단일 노드 오크 눈나무 (화이트 세라믹),31300,1.05,장식,assets/models/PltTreeOak1Snow.glb,matcap_white_ceramic
+plttreeoak1snow_matcap_blue_gloss,단일 노드 오크 눈나무 (블루 글로시),30000,1.1,장식,assets/models/PltTreeOak1Snow.glb,matcap_blue_gloss
+plttreeoak1snow_matcap_gold,단일 노드 오크 눈나무 (골드),42500,0.7,장식,assets/models/PltTreeOak1Snow.glb,matcap_gold
+plttreeoak1snow_matcap_silver_soft,단일 노드 오크 눈나무 (소프트 실버),33800,1,장식,assets/models/PltTreeOak1Snow.glb,matcap_silver_soft
+plttreeoak1stump_plastic_matte,오크 나무 뿌리 (매트 플라스틱),10000,1.8,장식,assets/models/PltTreeOak1Stump.glb,plastic_matte
+plttreeoak1stump_plastic_gloss,오크 나무 뿌리 (글로시 플라스틱),11000,1.75,장식,assets/models/PltTreeOak1Stump.glb,plastic_gloss
+plttreeoak1stump_rubber_soft,오크 나무 뿌리 (소프트 러버),10500,1.8,장식,assets/models/PltTreeOak1Stump.glb,rubber_soft
+plttreeoak1stump_ceramic_clean,오크 나무 뿌리 (클린 세라믹),12000,1.7,장식,assets/models/PltTreeOak1Stump.glb,ceramic_clean
+plttreeoak1stump_metal_brushed,오크 나무 뿌리 (브러시드 메탈),13500,1.6,장식,assets/models/PltTreeOak1Stump.glb,metal_brushed
+plttreeoak1stump_metal_polished,오크 나무 뿌리 (폴리시드 메탈),15000,1.5,장식,assets/models/PltTreeOak1Stump.glb,metal_polished
+plttreeoak1stump_paint_clearcoat,오크 나무 뿌리 (클리어코트 페인트),13000,1.65,장식,assets/models/PltTreeOak1Stump.glb,paint_clearcoat
+plttreeoak1stump_fabric_sheen,오크 나무 뿌리 (패브릭 쉰),11500,1.75,장식,assets/models/PltTreeOak1Stump.glb,fabric_sheen
+plttreeoak1stump_glass_clear,오크 나무 뿌리 (클리어 글래스),16000,1.4,장식,assets/models/PltTreeOak1Stump.glb,glass_clear
+plttreeoak1stump_resin_tinted,오크 나무 뿌리 (틴티드 레진),14500,1.55,장식,assets/models/PltTreeOak1Stump.glb,resin_tinted
+plttreeoak1stump_matcap_clay,오크 나무 뿌리 (클레이),10500,1.8,장식,assets/models/PltTreeOak1Stump.glb,matcap_clay
+plttreeoak1stump_matcap_wax,오크 나무 뿌리 (왁스),11000,1.75,장식,assets/models/PltTreeOak1Stump.glb,matcap_wax
+plttreeoak1stump_matcap_chrome,오크 나무 뿌리 (크롬),15500,1.45,장식,assets/models/PltTreeOak1Stump.glb,matcap_chrome
+plttreeoak1stump_matcap_bronze,오크 나무 뿌리 (브론즈),14000,1.6,장식,assets/models/PltTreeOak1Stump.glb,matcap_bronze
+plttreeoak1stump_matcap_black_rubber,오크 나무 뿌리 (블랙 러버),10800,1.8,장식,assets/models/PltTreeOak1Stump.glb,matcap_black_rubber
+plttreeoak1stump_matcap_red_wax,오크 나무 뿌리 (레드 왁스),11500,1.7,장식,assets/models/PltTreeOak1Stump.glb,matcap_red_wax
+plttreeoak1stump_matcap_white_ceramic,오크 나무 뿌리 (화이트 세라믹),12500,1.65,장식,assets/models/PltTreeOak1Stump.glb,matcap_white_ceramic
+plttreeoak1stump_matcap_blue_gloss,오크 나무 뿌리 (블루 글로시),12000,1.7,장식,assets/models/PltTreeOak1Stump.glb,matcap_blue_gloss
+plttreeoak1stump_matcap_gold,오크 나무 뿌리 (골드),17000,1.3,장식,assets/models/PltTreeOak1Stump.glb,matcap_gold
+plttreeoak1stump_matcap_silver_soft,오크 나무 뿌리 (소프트 실버),13500,1.6,장식,assets/models/PltTreeOak1Stump.glb,matcap_silver_soft
+plttreeoak2node_plastic_matte,더블 노드 오크 나무 (매트 플라스틱),20000,1.4,장식,assets/models/PltTreeOak2Node.glb,plastic_matte
+plttreeoak2node_plastic_gloss,더블 노드 오크 나무 (글로시 플라스틱),22000,1.35,장식,assets/models/PltTreeOak2Node.glb,plastic_gloss
+plttreeoak2node_rubber_soft,더블 노드 오크 나무 (소프트 러버),21000,1.4,장식,assets/models/PltTreeOak2Node.glb,rubber_soft
+plttreeoak2node_ceramic_clean,더블 노드 오크 나무 (클린 세라믹),24000,1.3,장식,assets/models/PltTreeOak2Node.glb,ceramic_clean
+plttreeoak2node_metal_brushed,더블 노드 오크 나무 (브러시드 메탈),27000,1.2,장식,assets/models/PltTreeOak2Node.glb,metal_brushed
+plttreeoak2node_metal_polished,더블 노드 오크 나무 (폴리시드 메탈),30000,1.1,장식,assets/models/PltTreeOak2Node.glb,metal_polished
+plttreeoak2node_paint_clearcoat,더블 노드 오크 나무 (클리어코트 페인트),26000,1.25,장식,assets/models/PltTreeOak2Node.glb,paint_clearcoat
+plttreeoak2node_fabric_sheen,더블 노드 오크 나무 (패브릭 쉰),23000,1.35,장식,assets/models/PltTreeOak2Node.glb,fabric_sheen
+plttreeoak2node_glass_clear,더블 노드 오크 나무 (클리어 글래스),32000,1,장식,assets/models/PltTreeOak2Node.glb,glass_clear
+plttreeoak2node_resin_tinted,더블 노드 오크 나무 (틴티드 레진),29000,1.15,장식,assets/models/PltTreeOak2Node.glb,resin_tinted
+plttreeoak2node_matcap_clay,더블 노드 오크 나무 (클레이),21000,1.4,장식,assets/models/PltTreeOak2Node.glb,matcap_clay
+plttreeoak2node_matcap_wax,더블 노드 오크 나무 (왁스),22000,1.35,장식,assets/models/PltTreeOak2Node.glb,matcap_wax
+plttreeoak2node_matcap_chrome,더블 노드 오크 나무 (크롬),31000,1.05,장식,assets/models/PltTreeOak2Node.glb,matcap_chrome
+plttreeoak2node_matcap_bronze,더블 노드 오크 나무 (브론즈),28000,1.2,장식,assets/models/PltTreeOak2Node.glb,matcap_bronze
+plttreeoak2node_matcap_black_rubber,더블 노드 오크 나무 (블랙 러버),21600,1.4,장식,assets/models/PltTreeOak2Node.glb,matcap_black_rubber
+plttreeoak2node_matcap_red_wax,더블 노드 오크 나무 (레드 왁스),23000,1.3,장식,assets/models/PltTreeOak2Node.glb,matcap_red_wax
+plttreeoak2node_matcap_white_ceramic,더블 노드 오크 나무 (화이트 세라믹),25000,1.25,장식,assets/models/PltTreeOak2Node.glb,matcap_white_ceramic
+plttreeoak2node_matcap_blue_gloss,더블 노드 오크 나무 (블루 글로시),24000,1.3,장식,assets/models/PltTreeOak2Node.glb,matcap_blue_gloss
+plttreeoak2node_matcap_gold,더블 노드 오크 나무 (골드),34000,0.9,장식,assets/models/PltTreeOak2Node.glb,matcap_gold
+plttreeoak2node_matcap_silver_soft,더블 노드 오크 나무 (소프트 실버),27000,1.2,장식,assets/models/PltTreeOak2Node.glb,matcap_silver_soft
+plttreeoak2snow_plastic_matte,더블 노드 오크 눈나무 (매트 플라스틱),30000,1.1,장식,assets/models/PltTreeOak2Snow.glb,plastic_matte
+plttreeoak2snow_plastic_gloss,더블 노드 오크 눈나무 (글로시 플라스틱),33000,1.05,장식,assets/models/PltTreeOak2Snow.glb,plastic_gloss
+plttreeoak2snow_rubber_soft,더블 노드 오크 눈나무 (소프트 러버),31500,1.1,장식,assets/models/PltTreeOak2Snow.glb,rubber_soft
+plttreeoak2snow_ceramic_clean,더블 노드 오크 눈나무 (클린 세라믹),36000,1,장식,assets/models/PltTreeOak2Snow.glb,ceramic_clean
+plttreeoak2snow_metal_brushed,더블 노드 오크 눈나무 (브러시드 메탈),40500,0.9,장식,assets/models/PltTreeOak2Snow.glb,metal_brushed
+plttreeoak2snow_metal_polished,더블 노드 오크 눈나무 (폴리시드 메탈),45000,0.8,장식,assets/models/PltTreeOak2Snow.glb,metal_polished
+plttreeoak2snow_paint_clearcoat,더블 노드 오크 눈나무 (클리어코트 페인트),39000,0.95,장식,assets/models/PltTreeOak2Snow.glb,paint_clearcoat
+plttreeoak2snow_fabric_sheen,더블 노드 오크 눈나무 (패브릭 쉰),34500,1.05,장식,assets/models/PltTreeOak2Snow.glb,fabric_sheen
+plttreeoak2snow_glass_clear,더블 노드 오크 눈나무 (클리어 글래스),48000,0.7,장식,assets/models/PltTreeOak2Snow.glb,glass_clear
+plttreeoak2snow_resin_tinted,더블 노드 오크 눈나무 (틴티드 레진),43500,0.85,장식,assets/models/PltTreeOak2Snow.glb,resin_tinted
+plttreeoak2snow_matcap_clay,더블 노드 오크 눈나무 (클레이),31500,1.1,장식,assets/models/PltTreeOak2Snow.glb,matcap_clay
+plttreeoak2snow_matcap_wax,더블 노드 오크 눈나무 (왁스),33000,1.05,장식,assets/models/PltTreeOak2Snow.glb,matcap_wax
+plttreeoak2snow_matcap_chrome,더블 노드 오크 눈나무 (크롬),46500,0.75,장식,assets/models/PltTreeOak2Snow.glb,matcap_chrome
+plttreeoak2snow_matcap_bronze,더블 노드 오크 눈나무 (브론즈),42000,0.9,장식,assets/models/PltTreeOak2Snow.glb,matcap_bronze
+plttreeoak2snow_matcap_black_rubber,더블 노드 오크 눈나무 (블랙 러버),32400,1.1,장식,assets/models/PltTreeOak2Snow.glb,matcap_black_rubber
+plttreeoak2snow_matcap_red_wax,더블 노드 오크 눈나무 (레드 왁스),34500,1,장식,assets/models/PltTreeOak2Snow.glb,matcap_red_wax
+plttreeoak2snow_matcap_white_ceramic,더블 노드 오크 눈나무 (화이트 세라믹),37500,0.95,장식,assets/models/PltTreeOak2Snow.glb,matcap_white_ceramic
+plttreeoak2snow_matcap_blue_gloss,더블 노드 오크 눈나무 (블루 글로시),36000,1,장식,assets/models/PltTreeOak2Snow.glb,matcap_blue_gloss
+plttreeoak2snow_matcap_gold,더블 노드 오크 눈나무 (골드),51000,0.6,장식,assets/models/PltTreeOak2Snow.glb,matcap_gold
+plttreeoak2snow_matcap_silver_soft,더블 노드 오크 눈나무 (소프트 실버),40500,0.9,장식,assets/models/PltTreeOak2Snow.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+umbrellabeach0_plastic_matte,해변 우산 (매트 플라스틱),50000,1.8,액세서리,assets/models/UmbrellaBeach0.glb,plastic_matte
+umbrellabeach0_plastic_gloss,해변 우산 (글로시 플라스틱),55000,1.75,액세서리,assets/models/UmbrellaBeach0.glb,plastic_gloss
+umbrellabeach0_rubber_soft,해변 우산 (소프트 러버),52500,1.8,액세서리,assets/models/UmbrellaBeach0.glb,rubber_soft
+umbrellabeach0_ceramic_clean,해변 우산 (클린 세라믹),60000,1.7,액세서리,assets/models/UmbrellaBeach0.glb,ceramic_clean
+umbrellabeach0_metal_brushed,해변 우산 (브러시드 메탈),67500,1.6,액세서리,assets/models/UmbrellaBeach0.glb,metal_brushed
+umbrellabeach0_metal_polished,해변 우산 (폴리시드 메탈),75000,1.5,액세서리,assets/models/UmbrellaBeach0.glb,metal_polished
+umbrellabeach0_paint_clearcoat,해변 우산 (클리어코트 페인트),65000,1.65,액세서리,assets/models/UmbrellaBeach0.glb,paint_clearcoat
+umbrellabeach0_fabric_sheen,해변 우산 (패브릭 쉰),57500,1.75,액세서리,assets/models/UmbrellaBeach0.glb,fabric_sheen
+umbrellabeach0_glass_clear,해변 우산 (클리어 글래스),80000,1.4,액세서리,assets/models/UmbrellaBeach0.glb,glass_clear
+umbrellabeach0_resin_tinted,해변 우산 (틴티드 레진),72500,1.55,액세서리,assets/models/UmbrellaBeach0.glb,resin_tinted
+umbrellabeach0_matcap_clay,해변 우산 (클레이),52500,1.8,액세서리,assets/models/UmbrellaBeach0.glb,matcap_clay
+umbrellabeach0_matcap_wax,해변 우산 (왁스),55000,1.75,액세서리,assets/models/UmbrellaBeach0.glb,matcap_wax
+umbrellabeach0_matcap_chrome,해변 우산 (크롬),77500,1.45,액세서리,assets/models/UmbrellaBeach0.glb,matcap_chrome
+umbrellabeach0_matcap_bronze,해변 우산 (브론즈),70000,1.6,액세서리,assets/models/UmbrellaBeach0.glb,matcap_bronze
+umbrellabeach0_matcap_black_rubber,해변 우산 (블랙 러버),54000,1.8,액세서리,assets/models/UmbrellaBeach0.glb,matcap_black_rubber
+umbrellabeach0_matcap_red_wax,해변 우산 (레드 왁스),57500,1.7,액세서리,assets/models/UmbrellaBeach0.glb,matcap_red_wax
+umbrellabeach0_matcap_white_ceramic,해변 우산 (화이트 세라믹),62500,1.65,액세서리,assets/models/UmbrellaBeach0.glb,matcap_white_ceramic
+umbrellabeach0_matcap_blue_gloss,해변 우산 (블루 글로시),60000,1.7,액세서리,assets/models/UmbrellaBeach0.glb,matcap_blue_gloss
+umbrellabeach0_matcap_gold,해변 우산 (골드),85000,1.3,액세서리,assets/models/UmbrellaBeach0.glb,matcap_gold
+umbrellabeach0_matcap_silver_soft,해변 우산 (소프트 실버),67500,1.6,액세서리,assets/models/UmbrellaBeach0.glb,matcap_silver_soft
+umbrellabear0_plastic_matte,곰 우산 (매트 플라스틱),180000,0.4,액세서리,assets/models/UmbrellaBear0.glb,plastic_matte
+umbrellabear0_plastic_gloss,곰 우산 (글로시 플라스틱),198000,0.35,액세서리,assets/models/UmbrellaBear0.glb,plastic_gloss
+umbrellabear0_rubber_soft,곰 우산 (소프트 러버),189000,0.4,액세서리,assets/models/UmbrellaBear0.glb,rubber_soft
+umbrellabear0_ceramic_clean,곰 우산 (클린 세라믹),216000,0.3,액세서리,assets/models/UmbrellaBear0.glb,ceramic_clean
+umbrellabear0_metal_brushed,곰 우산 (브러시드 메탈),243000,0.2,액세서리,assets/models/UmbrellaBear0.glb,metal_brushed
+umbrellabear0_metal_polished,곰 우산 (폴리시드 메탈),270000,0.1,액세서리,assets/models/UmbrellaBear0.glb,metal_polished
+umbrellabear0_paint_clearcoat,곰 우산 (클리어코트 페인트),234000,0.25,액세서리,assets/models/UmbrellaBear0.glb,paint_clearcoat
+umbrellabear0_fabric_sheen,곰 우산 (패브릭 쉰),207000,0.35,액세서리,assets/models/UmbrellaBear0.glb,fabric_sheen
+umbrellabear0_glass_clear,곰 우산 (클리어 글래스),288000,0.1,액세서리,assets/models/UmbrellaBear0.glb,glass_clear
+umbrellabear0_resin_tinted,곰 우산 (틴티드 레진),261000,0.15,액세서리,assets/models/UmbrellaBear0.glb,resin_tinted
+umbrellabear0_matcap_clay,곰 우산 (클레이),189000,0.4,액세서리,assets/models/UmbrellaBear0.glb,matcap_clay
+umbrellabear0_matcap_wax,곰 우산 (왁스),198000,0.35,액세서리,assets/models/UmbrellaBear0.glb,matcap_wax
+umbrellabear0_matcap_chrome,곰 우산 (크롬),279000,0.1,액세서리,assets/models/UmbrellaBear0.glb,matcap_chrome
+umbrellabear0_matcap_bronze,곰 우산 (브론즈),252000,0.2,액세서리,assets/models/UmbrellaBear0.glb,matcap_bronze
+umbrellabear0_matcap_black_rubber,곰 우산 (블랙 러버),194400,0.4,액세서리,assets/models/UmbrellaBear0.glb,matcap_black_rubber
+umbrellabear0_matcap_red_wax,곰 우산 (레드 왁스),207000,0.3,액세서리,assets/models/UmbrellaBear0.glb,matcap_red_wax
+umbrellabear0_matcap_white_ceramic,곰 우산 (화이트 세라믹),225000,0.25,액세서리,assets/models/UmbrellaBear0.glb,matcap_white_ceramic
+umbrellabear0_matcap_blue_gloss,곰 우산 (블루 글로시),216000,0.3,액세서리,assets/models/UmbrellaBear0.glb,matcap_blue_gloss
+umbrellabear0_matcap_gold,곰 우산 (골드),306000,0.1,액세서리,assets/models/UmbrellaBear0.glb,matcap_gold
+umbrellabear0_matcap_silver_soft,곰 우산 (소프트 실버),243000,0.2,액세서리,assets/models/UmbrellaBear0.glb,matcap_silver_soft
+umbrellacherryblossom0_plastic_matte,벚꽃 우산 (매트 플라스틱),70000,1.5,액세서리,assets/models/UmbrellaCherryblossom0.glb,plastic_matte
+umbrellacherryblossom0_plastic_gloss,벚꽃 우산 (글로시 플라스틱),77000,1.45,액세서리,assets/models/UmbrellaCherryblossom0.glb,plastic_gloss
+umbrellacherryblossom0_rubber_soft,벚꽃 우산 (소프트 러버),73500,1.5,액세서리,assets/models/UmbrellaCherryblossom0.glb,rubber_soft
+umbrellacherryblossom0_ceramic_clean,벚꽃 우산 (클린 세라믹),84000,1.4,액세서리,assets/models/UmbrellaCherryblossom0.glb,ceramic_clean
+umbrellacherryblossom0_metal_brushed,벚꽃 우산 (브러시드 메탈),94500,1.3,액세서리,assets/models/UmbrellaCherryblossom0.glb,metal_brushed
+umbrellacherryblossom0_metal_polished,벚꽃 우산 (폴리시드 메탈),105000,1.2,액세서리,assets/models/UmbrellaCherryblossom0.glb,metal_polished
+umbrellacherryblossom0_paint_clearcoat,벚꽃 우산 (클리어코트 페인트),91000,1.35,액세서리,assets/models/UmbrellaCherryblossom0.glb,paint_clearcoat
+umbrellacherryblossom0_fabric_sheen,벚꽃 우산 (패브릭 쉰),80500,1.45,액세서리,assets/models/UmbrellaCherryblossom0.glb,fabric_sheen
+umbrellacherryblossom0_glass_clear,벚꽃 우산 (클리어 글래스),112000,1.1,액세서리,assets/models/UmbrellaCherryblossom0.glb,glass_clear
+umbrellacherryblossom0_resin_tinted,벚꽃 우산 (틴티드 레진),101500,1.25,액세서리,assets/models/UmbrellaCherryblossom0.glb,resin_tinted
+umbrellacherryblossom0_matcap_clay,벚꽃 우산 (클레이),73500,1.5,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_clay
+umbrellacherryblossom0_matcap_wax,벚꽃 우산 (왁스),77000,1.45,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_wax
+umbrellacherryblossom0_matcap_chrome,벚꽃 우산 (크롬),108500,1.15,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_chrome
+umbrellacherryblossom0_matcap_bronze,벚꽃 우산 (브론즈),98000,1.3,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_bronze
+umbrellacherryblossom0_matcap_black_rubber,벚꽃 우산 (블랙 러버),75600,1.5,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_black_rubber
+umbrellacherryblossom0_matcap_red_wax,벚꽃 우산 (레드 왁스),80500,1.4,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_red_wax
+umbrellacherryblossom0_matcap_white_ceramic,벚꽃 우산 (화이트 세라믹),87500,1.35,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_white_ceramic
+umbrellacherryblossom0_matcap_blue_gloss,벚꽃 우산 (블루 글로시),84000,1.4,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_blue_gloss
+umbrellacherryblossom0_matcap_gold,벚꽃 우산 (골드),119000,1,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_gold
+umbrellacherryblossom0_matcap_silver_soft,벚꽃 우산 (소프트 실버),94500,1.3,액세서리,assets/models/UmbrellaCherryblossom0.glb,matcap_silver_soft
+umbrellafrog0_plastic_matte,개구리 우산 (매트 플라스틱),130000,0.6,액세서리,assets/models/UmbrellaFrog0.glb,plastic_matte
+umbrellafrog0_plastic_gloss,개구리 우산 (글로시 플라스틱),143000,0.55,액세서리,assets/models/UmbrellaFrog0.glb,plastic_gloss
+umbrellafrog0_rubber_soft,개구리 우산 (소프트 러버),136500,0.6,액세서리,assets/models/UmbrellaFrog0.glb,rubber_soft
+umbrellafrog0_ceramic_clean,개구리 우산 (클린 세라믹),156000,0.5,액세서리,assets/models/UmbrellaFrog0.glb,ceramic_clean
+umbrellafrog0_metal_brushed,개구리 우산 (브러시드 메탈),175500,0.4,액세서리,assets/models/UmbrellaFrog0.glb,metal_brushed
+umbrellafrog0_metal_polished,개구리 우산 (폴리시드 메탈),195000,0.3,액세서리,assets/models/UmbrellaFrog0.glb,metal_polished
+umbrellafrog0_paint_clearcoat,개구리 우산 (클리어코트 페인트),169000,0.45,액세서리,assets/models/UmbrellaFrog0.glb,paint_clearcoat
+umbrellafrog0_fabric_sheen,개구리 우산 (패브릭 쉰),149500,0.55,액세서리,assets/models/UmbrellaFrog0.glb,fabric_sheen
+umbrellafrog0_glass_clear,개구리 우산 (클리어 글래스),208000,0.2,액세서리,assets/models/UmbrellaFrog0.glb,glass_clear
+umbrellafrog0_resin_tinted,개구리 우산 (틴티드 레진),188500,0.35,액세서리,assets/models/UmbrellaFrog0.glb,resin_tinted
+umbrellafrog0_matcap_clay,개구리 우산 (클레이),136500,0.6,액세서리,assets/models/UmbrellaFrog0.glb,matcap_clay
+umbrellafrog0_matcap_wax,개구리 우산 (왁스),143000,0.55,액세서리,assets/models/UmbrellaFrog0.glb,matcap_wax
+umbrellafrog0_matcap_chrome,개구리 우산 (크롬),201500,0.25,액세서리,assets/models/UmbrellaFrog0.glb,matcap_chrome
+umbrellafrog0_matcap_bronze,개구리 우산 (브론즈),182000,0.4,액세서리,assets/models/UmbrellaFrog0.glb,matcap_bronze
+umbrellafrog0_matcap_black_rubber,개구리 우산 (블랙 러버),140400,0.6,액세서리,assets/models/UmbrellaFrog0.glb,matcap_black_rubber
+umbrellafrog0_matcap_red_wax,개구리 우산 (레드 왁스),149500,0.5,액세서리,assets/models/UmbrellaFrog0.glb,matcap_red_wax
+umbrellafrog0_matcap_white_ceramic,개구리 우산 (화이트 세라믹),162500,0.45,액세서리,assets/models/UmbrellaFrog0.glb,matcap_white_ceramic
+umbrellafrog0_matcap_blue_gloss,개구리 우산 (블루 글로시),156000,0.5,액세서리,assets/models/UmbrellaFrog0.glb,matcap_blue_gloss
+umbrellafrog0_matcap_gold,개구리 우산 (골드),221000,0.1,액세서리,assets/models/UmbrellaFrog0.glb,matcap_gold
+umbrellafrog0_matcap_silver_soft,개구리 우산 (소프트 실버),175500,0.4,액세서리,assets/models/UmbrellaFrog0.glb,matcap_silver_soft
+umbrellahydrangea0_plastic_matte,화살나무 우산 (매트 플라스틱),60000,1.6,액세서리,assets/models/UmbrellaHydrangea0.glb,plastic_matte
+umbrellahydrangea0_plastic_gloss,화살나무 우산 (글로시 플라스틱),66000,1.55,액세서리,assets/models/UmbrellaHydrangea0.glb,plastic_gloss
+umbrellahydrangea0_rubber_soft,화살나무 우산 (소프트 러버),63000,1.6,액세서리,assets/models/UmbrellaHydrangea0.glb,rubber_soft
+umbrellahydrangea0_ceramic_clean,화살나무 우산 (클린 세라믹),72000,1.5,액세서리,assets/models/UmbrellaHydrangea0.glb,ceramic_clean
+umbrellahydrangea0_metal_brushed,화살나무 우산 (브러시드 메탈),81000,1.4,액세서리,assets/models/UmbrellaHydrangea0.glb,metal_brushed
+umbrellahydrangea0_metal_polished,화살나무 우산 (폴리시드 메탈),90000,1.3,액세서리,assets/models/UmbrellaHydrangea0.glb,metal_polished
+umbrellahydrangea0_paint_clearcoat,화살나무 우산 (클리어코트 페인트),78000,1.45,액세서리,assets/models/UmbrellaHydrangea0.glb,paint_clearcoat
+umbrellahydrangea0_fabric_sheen,화살나무 우산 (패브릭 쉰),69000,1.55,액세서리,assets/models/UmbrellaHydrangea0.glb,fabric_sheen
+umbrellahydrangea0_glass_clear,화살나무 우산 (클리어 글래스),96000,1.2,액세서리,assets/models/UmbrellaHydrangea0.glb,glass_clear
+umbrellahydrangea0_resin_tinted,화살나무 우산 (틴티드 레진),87000,1.35,액세서리,assets/models/UmbrellaHydrangea0.glb,resin_tinted
+umbrellahydrangea0_matcap_clay,화살나무 우산 (클레이),63000,1.6,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_clay
+umbrellahydrangea0_matcap_wax,화살나무 우산 (왁스),66000,1.55,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_wax
+umbrellahydrangea0_matcap_chrome,화살나무 우산 (크롬),93000,1.25,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_chrome
+umbrellahydrangea0_matcap_bronze,화살나무 우산 (브론즈),84000,1.4,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_bronze
+umbrellahydrangea0_matcap_black_rubber,화살나무 우산 (블랙 러버),64800,1.6,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_black_rubber
+umbrellahydrangea0_matcap_red_wax,화살나무 우산 (레드 왁스),69000,1.5,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_red_wax
+umbrellahydrangea0_matcap_white_ceramic,화살나무 우산 (화이트 세라믹),75000,1.45,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_white_ceramic
+umbrellahydrangea0_matcap_blue_gloss,화살나무 우산 (블루 글로시),72000,1.5,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_blue_gloss
+umbrellahydrangea0_matcap_gold,화살나무 우산 (골드),102000,1.1,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_gold
+umbrellahydrangea0_matcap_silver_soft,화살나무 우산 (소프트 실버),81000,1.4,액세서리,assets/models/UmbrellaHydrangea0.glb,matcap_silver_soft
+umbrellalace0_plastic_matte,레이스 우산 (매트 플라스틱),50000,1.9,액세서리,assets/models/UmbrellaLace0.glb,plastic_matte
+umbrellalace0_plastic_gloss,레이스 우산 (글로시 플라스틱),55000,1.85,액세서리,assets/models/UmbrellaLace0.glb,plastic_gloss
+umbrellalace0_rubber_soft,레이스 우산 (소프트 러버),52500,1.9,액세서리,assets/models/UmbrellaLace0.glb,rubber_soft
+umbrellalace0_ceramic_clean,레이스 우산 (클린 세라믹),60000,1.8,액세서리,assets/models/UmbrellaLace0.glb,ceramic_clean
+umbrellalace0_metal_brushed,레이스 우산 (브러시드 메탈),67500,1.7,액세서리,assets/models/UmbrellaLace0.glb,metal_brushed
+umbrellalace0_metal_polished,레이스 우산 (폴리시드 메탈),75000,1.6,액세서리,assets/models/UmbrellaLace0.glb,metal_polished
+umbrellalace0_paint_clearcoat,레이스 우산 (클리어코트 페인트),65000,1.75,액세서리,assets/models/UmbrellaLace0.glb,paint_clearcoat
+umbrellalace0_fabric_sheen,레이스 우산 (패브릭 쉰),57500,1.85,액세서리,assets/models/UmbrellaLace0.glb,fabric_sheen
+umbrellalace0_glass_clear,레이스 우산 (클리어 글래스),80000,1.5,액세서리,assets/models/UmbrellaLace0.glb,glass_clear
+umbrellalace0_resin_tinted,레이스 우산 (틴티드 레진),72500,1.65,액세서리,assets/models/UmbrellaLace0.glb,resin_tinted
+umbrellalace0_matcap_clay,레이스 우산 (클레이),52500,1.9,액세서리,assets/models/UmbrellaLace0.glb,matcap_clay
+umbrellalace0_matcap_wax,레이스 우산 (왁스),55000,1.85,액세서리,assets/models/UmbrellaLace0.glb,matcap_wax
+umbrellalace0_matcap_chrome,레이스 우산 (크롬),77500,1.55,액세서리,assets/models/UmbrellaLace0.glb,matcap_chrome
+umbrellalace0_matcap_bronze,레이스 우산 (브론즈),70000,1.7,액세서리,assets/models/UmbrellaLace0.glb,matcap_bronze
+umbrellalace0_matcap_black_rubber,레이스 우산 (블랙 러버),54000,1.9,액세서리,assets/models/UmbrellaLace0.glb,matcap_black_rubber
+umbrellalace0_matcap_red_wax,레이스 우산 (레드 왁스),57500,1.8,액세서리,assets/models/UmbrellaLace0.glb,matcap_red_wax
+umbrellalace0_matcap_white_ceramic,레이스 우산 (화이트 세라믹),62500,1.75,액세서리,assets/models/UmbrellaLace0.glb,matcap_white_ceramic
+umbrellalace0_matcap_blue_gloss,레이스 우산 (블루 글로시),60000,1.8,액세서리,assets/models/UmbrellaLace0.glb,matcap_blue_gloss
+umbrellalace0_matcap_gold,레이스 우산 (골드),85000,1.4,액세서리,assets/models/UmbrellaLace0.glb,matcap_gold
+umbrellalace0_matcap_silver_soft,레이스 우산 (소프트 실버),67500,1.7,액세서리,assets/models/UmbrellaLace0.glb,matcap_silver_soft
+umbrellaladybug0_plastic_matte,장미벌레 우산 (매트 플라스틱),100000,1.2,액세서리,assets/models/UmbrellaLadybug0.glb,plastic_matte
+umbrellaladybug0_plastic_gloss,장미벌레 우산 (글로시 플라스틱),110000,1.15,액세서리,assets/models/UmbrellaLadybug0.glb,plastic_gloss
+umbrellaladybug0_rubber_soft,장미벌레 우산 (소프트 러버),105000,1.2,액세서리,assets/models/UmbrellaLadybug0.glb,rubber_soft
+umbrellaladybug0_ceramic_clean,장미벌레 우산 (클린 세라믹),120000,1.1,액세서리,assets/models/UmbrellaLadybug0.glb,ceramic_clean
+umbrellaladybug0_metal_brushed,장미벌레 우산 (브러시드 메탈),135000,1,액세서리,assets/models/UmbrellaLadybug0.glb,metal_brushed
+umbrellaladybug0_metal_polished,장미벌레 우산 (폴리시드 메탈),150000,0.9,액세서리,assets/models/UmbrellaLadybug0.glb,metal_polished
+umbrellaladybug0_paint_clearcoat,장미벌레 우산 (클리어코트 페인트),130000,1.05,액세서리,assets/models/UmbrellaLadybug0.glb,paint_clearcoat
+umbrellaladybug0_fabric_sheen,장미벌레 우산 (패브릭 쉰),115000,1.15,액세서리,assets/models/UmbrellaLadybug0.glb,fabric_sheen
+umbrellaladybug0_glass_clear,장미벌레 우산 (클리어 글래스),160000,0.8,액세서리,assets/models/UmbrellaLadybug0.glb,glass_clear
+umbrellaladybug0_resin_tinted,장미벌레 우산 (틴티드 레진),145000,0.95,액세서리,assets/models/UmbrellaLadybug0.glb,resin_tinted
+umbrellaladybug0_matcap_clay,장미벌레 우산 (클레이),105000,1.2,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_clay
+umbrellaladybug0_matcap_wax,장미벌레 우산 (왁스),110000,1.15,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_wax
+umbrellaladybug0_matcap_chrome,장미벌레 우산 (크롬),155000,0.85,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_chrome
+umbrellaladybug0_matcap_bronze,장미벌레 우산 (브론즈),140000,1,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_bronze
+umbrellaladybug0_matcap_black_rubber,장미벌레 우산 (블랙 러버),108000,1.2,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_black_rubber
+umbrellaladybug0_matcap_red_wax,장미벌레 우산 (레드 왁스),115000,1.1,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_red_wax
+umbrellaladybug0_matcap_white_ceramic,장미벌레 우산 (화이트 세라믹),125000,1.05,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_white_ceramic
+umbrellaladybug0_matcap_blue_gloss,장미벌레 우산 (블루 글로시),120000,1.1,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_blue_gloss
+umbrellaladybug0_matcap_gold,장미벌레 우산 (골드),170000,0.7,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_gold
+umbrellaladybug0_matcap_silver_soft,장미벌레 우산 (소프트 실버),135000,1,액세서리,assets/models/UmbrellaLadybug0.glb,matcap_silver_soft
+umbrellaleaf0_plastic_matte,잎 우산 (매트 플라스틱),120000,1,액세서리,assets/models/UmbrellaLeaf0.glb,plastic_matte
+umbrellaleaf0_plastic_gloss,잎 우산 (글로시 플라스틱),132000,0.95,액세서리,assets/models/UmbrellaLeaf0.glb,plastic_gloss
+umbrellaleaf0_rubber_soft,잎 우산 (소프트 러버),126000,1,액세서리,assets/models/UmbrellaLeaf0.glb,rubber_soft
+umbrellaleaf0_ceramic_clean,잎 우산 (클린 세라믹),144000,0.9,액세서리,assets/models/UmbrellaLeaf0.glb,ceramic_clean
+umbrellaleaf0_metal_brushed,잎 우산 (브러시드 메탈),162000,0.8,액세서리,assets/models/UmbrellaLeaf0.glb,metal_brushed
+umbrellaleaf0_metal_polished,잎 우산 (폴리시드 메탈),180000,0.7,액세서리,assets/models/UmbrellaLeaf0.glb,metal_polished
+umbrellaleaf0_paint_clearcoat,잎 우산 (클리어코트 페인트),156000,0.85,액세서리,assets/models/UmbrellaLeaf0.glb,paint_clearcoat
+umbrellaleaf0_fabric_sheen,잎 우산 (패브릭 쉰),138000,0.95,액세서리,assets/models/UmbrellaLeaf0.glb,fabric_sheen
+umbrellaleaf0_glass_clear,잎 우산 (클리어 글래스),192000,0.6,액세서리,assets/models/UmbrellaLeaf0.glb,glass_clear
+umbrellaleaf0_resin_tinted,잎 우산 (틴티드 레진),174000,0.75,액세서리,assets/models/UmbrellaLeaf0.glb,resin_tinted
+umbrellaleaf0_matcap_clay,잎 우산 (클레이),126000,1,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_clay
+umbrellaleaf0_matcap_wax,잎 우산 (왁스),132000,0.95,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_wax
+umbrellaleaf0_matcap_chrome,잎 우산 (크롬),186000,0.65,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_chrome
+umbrellaleaf0_matcap_bronze,잎 우산 (브론즈),168000,0.8,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_bronze
+umbrellaleaf0_matcap_black_rubber,잎 우산 (블랙 러버),129600,1,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_black_rubber
+umbrellaleaf0_matcap_red_wax,잎 우산 (레드 왁스),138000,0.9,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_red_wax
+umbrellaleaf0_matcap_white_ceramic,잎 우산 (화이트 세라믹),150000,0.85,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_white_ceramic
+umbrellaleaf0_matcap_blue_gloss,잎 우산 (블루 글로시),144000,0.9,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_blue_gloss
+umbrellaleaf0_matcap_gold,잎 우산 (골드),204000,0.5,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_gold
+umbrellaleaf0_matcap_silver_soft,잎 우산 (소프트 실버),162000,0.8,액세서리,assets/models/UmbrellaLeaf0.glb,matcap_silver_soft
+umbrellamushroom0_plastic_matte,버섯 우산 (매트 플라스틱),150000,0.8,액세서리,assets/models/UmbrellaMushroom0.glb,plastic_matte
+umbrellamushroom0_plastic_gloss,버섯 우산 (글로시 플라스틱),165000,0.75,액세서리,assets/models/UmbrellaMushroom0.glb,plastic_gloss
+umbrellamushroom0_rubber_soft,버섯 우산 (소프트 러버),157500,0.8,액세서리,assets/models/UmbrellaMushroom0.glb,rubber_soft
+umbrellamushroom0_ceramic_clean,버섯 우산 (클린 세라믹),180000,0.7,액세서리,assets/models/UmbrellaMushroom0.glb,ceramic_clean
+umbrellamushroom0_metal_brushed,버섯 우산 (브러시드 메탈),202500,0.6,액세서리,assets/models/UmbrellaMushroom0.glb,metal_brushed
+umbrellamushroom0_metal_polished,버섯 우산 (폴리시드 메탈),225000,0.5,액세서리,assets/models/UmbrellaMushroom0.glb,metal_polished
+umbrellamushroom0_paint_clearcoat,버섯 우산 (클리어코트 페인트),195000,0.65,액세서리,assets/models/UmbrellaMushroom0.glb,paint_clearcoat
+umbrellamushroom0_fabric_sheen,버섯 우산 (패브릭 쉰),172500,0.75,액세서리,assets/models/UmbrellaMushroom0.glb,fabric_sheen
+umbrellamushroom0_glass_clear,버섯 우산 (클리어 글래스),240000,0.4,액세서리,assets/models/UmbrellaMushroom0.glb,glass_clear
+umbrellamushroom0_resin_tinted,버섯 우산 (틴티드 레진),217500,0.55,액세서리,assets/models/UmbrellaMushroom0.glb,resin_tinted
+umbrellamushroom0_matcap_clay,버섯 우산 (클레이),157500,0.8,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_clay
+umbrellamushroom0_matcap_wax,버섯 우산 (왁스),165000,0.75,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_wax
+umbrellamushroom0_matcap_chrome,버섯 우산 (크롬),232500,0.45,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_chrome
+umbrellamushroom0_matcap_bronze,버섯 우산 (브론즈),210000,0.6,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_bronze
+umbrellamushroom0_matcap_black_rubber,버섯 우산 (블랙 러버),162000,0.8,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_black_rubber
+umbrellamushroom0_matcap_red_wax,버섯 우산 (레드 왁스),172500,0.7,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_red_wax
+umbrellamushroom0_matcap_white_ceramic,버섯 우산 (화이트 세라믹),187500,0.65,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_white_ceramic
+umbrellamushroom0_matcap_blue_gloss,버섯 우산 (블루 글로시),180000,0.7,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_blue_gloss
+umbrellamushroom0_matcap_gold,버섯 우산 (골드),255000,0.3,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_gold
+umbrellamushroom0_matcap_silver_soft,버섯 우산 (소프트 실버),202500,0.6,액세서리,assets/models/UmbrellaMushroom0.glb,matcap_silver_soft
+umbrellaorange0_plastic_matte,오렌지 우산 (매트 플라스틱),200000,0.5,액세서리,assets/models/UmbrellaOrange0.glb,plastic_matte
+umbrellaorange0_plastic_gloss,오렌지 우산 (글로시 플라스틱),220000,0.45,액세서리,assets/models/UmbrellaOrange0.glb,plastic_gloss
+umbrellaorange0_rubber_soft,오렌지 우산 (소프트 러버),210000,0.5,액세서리,assets/models/UmbrellaOrange0.glb,rubber_soft
+umbrellaorange0_ceramic_clean,오렌지 우산 (클린 세라믹),240000,0.4,액세서리,assets/models/UmbrellaOrange0.glb,ceramic_clean
+umbrellaorange0_metal_brushed,오렌지 우산 (브러시드 메탈),270000,0.3,액세서리,assets/models/UmbrellaOrange0.glb,metal_brushed
+umbrellaorange0_metal_polished,오렌지 우산 (폴리시드 메탈),300000,0.2,액세서리,assets/models/UmbrellaOrange0.glb,metal_polished
+umbrellaorange0_paint_clearcoat,오렌지 우산 (클리어코트 페인트),260000,0.35,액세서리,assets/models/UmbrellaOrange0.glb,paint_clearcoat
+umbrellaorange0_fabric_sheen,오렌지 우산 (패브릭 쉰),230000,0.45,액세서리,assets/models/UmbrellaOrange0.glb,fabric_sheen
+umbrellaorange0_glass_clear,오렌지 우산 (클리어 글래스),320000,0.1,액세서리,assets/models/UmbrellaOrange0.glb,glass_clear
+umbrellaorange0_resin_tinted,오렌지 우산 (틴티드 레진),290000,0.25,액세서리,assets/models/UmbrellaOrange0.glb,resin_tinted
+umbrellaorange0_matcap_clay,오렌지 우산 (클레이),210000,0.5,액세서리,assets/models/UmbrellaOrange0.glb,matcap_clay
+umbrellaorange0_matcap_wax,오렌지 우산 (왁스),220000,0.45,액세서리,assets/models/UmbrellaOrange0.glb,matcap_wax
+umbrellaorange0_matcap_chrome,오렌지 우산 (크롬),310000,0.15,액세서리,assets/models/UmbrellaOrange0.glb,matcap_chrome
+umbrellaorange0_matcap_bronze,오렌지 우산 (브론즈),280000,0.3,액세서리,assets/models/UmbrellaOrange0.glb,matcap_bronze
+umbrellaorange0_matcap_black_rubber,오렌지 우산 (블랙 러버),216000,0.5,액세서리,assets/models/UmbrellaOrange0.glb,matcap_black_rubber
+umbrellaorange0_matcap_red_wax,오렌지 우산 (레드 왁스),230000,0.4,액세서리,assets/models/UmbrellaOrange0.glb,matcap_red_wax
+umbrellaorange0_matcap_white_ceramic,오렌지 우산 (화이트 세라믹),250000,0.35,액세서리,assets/models/UmbrellaOrange0.glb,matcap_white_ceramic
+umbrellaorange0_matcap_blue_gloss,오렌지 우산 (블루 글로시),240000,0.4,액세서리,assets/models/UmbrellaOrange0.glb,matcap_blue_gloss
+umbrellaorange0_matcap_gold,오렌지 우산 (골드),340000,0.1,액세서리,assets/models/UmbrellaOrange0.glb,matcap_gold
+umbrellaorange0_matcap_silver_soft,오렌지 우산 (소프트 실버),270000,0.3,액세서리,assets/models/UmbrellaOrange0.glb,matcap_silver_soft

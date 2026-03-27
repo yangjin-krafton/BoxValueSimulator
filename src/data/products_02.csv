@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+accessoryglassmouthcatrina0_plastic_matte,설탕두개 스타일 고양이 입술 마스크 (매트 플라스틱),25000,0.8,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,plastic_matte
+accessoryglassmouthcatrina0_plastic_gloss,설탕두개 스타일 고양이 입술 마스크 (글로시 플라스틱),27500,0.75,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,plastic_gloss
+accessoryglassmouthcatrina0_rubber_soft,설탕두개 스타일 고양이 입술 마스크 (소프트 러버),26300,0.8,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,rubber_soft
+accessoryglassmouthcatrina0_ceramic_clean,설탕두개 스타일 고양이 입술 마스크 (클린 세라믹),30000,0.7,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,ceramic_clean
+accessoryglassmouthcatrina0_metal_brushed,설탕두개 스타일 고양이 입술 마스크 (브러시드 메탈),33800,0.6,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,metal_brushed
+accessoryglassmouthcatrina0_metal_polished,설탕두개 스타일 고양이 입술 마스크 (폴리시드 메탈),37500,0.5,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,metal_polished
+accessoryglassmouthcatrina0_paint_clearcoat,설탕두개 스타일 고양이 입술 마스크 (클리어코트 페인트),32500,0.65,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,paint_clearcoat
+accessoryglassmouthcatrina0_fabric_sheen,설탕두개 스타일 고양이 입술 마스크 (패브릭 쉰),28700,0.75,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,fabric_sheen
+accessoryglassmouthcatrina0_glass_clear,설탕두개 스타일 고양이 입술 마스크 (클리어 글래스),40000,0.4,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,glass_clear
+accessoryglassmouthcatrina0_resin_tinted,설탕두개 스타일 고양이 입술 마스크 (틴티드 레진),36300,0.55,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,resin_tinted
+accessoryglassmouthcatrina0_matcap_clay,설탕두개 스타일 고양이 입술 마스크 (클레이),26300,0.8,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_clay
+accessoryglassmouthcatrina0_matcap_wax,설탕두개 스타일 고양이 입술 마스크 (왁스),27500,0.75,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_wax
+accessoryglassmouthcatrina0_matcap_chrome,설탕두개 스타일 고양이 입술 마스크 (크롬),38800,0.45,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_chrome
+accessoryglassmouthcatrina0_matcap_bronze,설탕두개 스타일 고양이 입술 마스크 (브론즈),35000,0.6,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_bronze
+accessoryglassmouthcatrina0_matcap_black_rubber,설탕두개 스타일 고양이 입술 마스크 (블랙 러버),27000,0.8,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_black_rubber
+accessoryglassmouthcatrina0_matcap_red_wax,설탕두개 스타일 고양이 입술 마스크 (레드 왁스),28700,0.7,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_red_wax
+accessoryglassmouthcatrina0_matcap_white_ceramic,설탕두개 스타일 고양이 입술 마스크 (화이트 세라믹),31300,0.65,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_white_ceramic
+accessoryglassmouthcatrina0_matcap_blue_gloss,설탕두개 스타일 고양이 입술 마스크 (블루 글로시),30000,0.7,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_blue_gloss
+accessoryglassmouthcatrina0_matcap_gold,설탕두개 스타일 고양이 입술 마스크 (골드),42500,0.3,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_gold
+accessoryglassmouthcatrina0_matcap_silver_soft,설탕두개 스타일 고양이 입술 마스크 (소프트 실버),33800,0.6,마스크,assets/models/AccessoryGlassmouthCatrina0.glb,matcap_silver_soft
+accessoryglassmouthgasmask0_plastic_matte,산업용 가스마스크 (매트 플라스틱),35000,0.6,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,plastic_matte
+accessoryglassmouthgasmask0_plastic_gloss,산업용 가스마스크 (글로시 플라스틱),38500,0.55,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,plastic_gloss
+accessoryglassmouthgasmask0_rubber_soft,산업용 가스마스크 (소프트 러버),36800,0.6,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,rubber_soft
+accessoryglassmouthgasmask0_ceramic_clean,산업용 가스마스크 (클린 세라믹),42000,0.5,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,ceramic_clean
+accessoryglassmouthgasmask0_metal_brushed,산업용 가스마스크 (브러시드 메탈),47300,0.4,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,metal_brushed
+accessoryglassmouthgasmask0_metal_polished,산업용 가스마스크 (폴리시드 메탈),52500,0.3,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,metal_polished
+accessoryglassmouthgasmask0_paint_clearcoat,산업용 가스마스크 (클리어코트 페인트),45500,0.45,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,paint_clearcoat
+accessoryglassmouthgasmask0_fabric_sheen,산업용 가스마스크 (패브릭 쉰),40300,0.55,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,fabric_sheen
+accessoryglassmouthgasmask0_glass_clear,산업용 가스마스크 (클리어 글래스),56000,0.2,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,glass_clear
+accessoryglassmouthgasmask0_resin_tinted,산업용 가스마스크 (틴티드 레진),50800,0.35,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,resin_tinted
+accessoryglassmouthgasmask0_matcap_clay,산업용 가스마스크 (클레이),36800,0.6,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_clay
+accessoryglassmouthgasmask0_matcap_wax,산업용 가스마스크 (왁스),38500,0.55,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_wax
+accessoryglassmouthgasmask0_matcap_chrome,산업용 가스마스크 (크롬),54300,0.25,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_chrome
+accessoryglassmouthgasmask0_matcap_bronze,산업용 가스마스크 (브론즈),49000,0.4,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_bronze
+accessoryglassmouthgasmask0_matcap_black_rubber,산업용 가스마스크 (블랙 러버),37800,0.6,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_black_rubber
+accessoryglassmouthgasmask0_matcap_red_wax,산업용 가스마스크 (레드 왁스),40300,0.5,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_red_wax
+accessoryglassmouthgasmask0_matcap_white_ceramic,산업용 가스마스크 (화이트 세라믹),43800,0.45,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_white_ceramic
+accessoryglassmouthgasmask0_matcap_blue_gloss,산업용 가스마스크 (블루 글로시),42000,0.5,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_blue_gloss
+accessoryglassmouthgasmask0_matcap_gold,산업용 가스마스크 (골드),59500,0.1,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_gold
+accessoryglassmouthgasmask0_matcap_silver_soft,산업용 가스마스크 (소프트 실버),47300,0.4,마스크,assets/models/AccessoryGlassmouthGasmask0.glb,matcap_silver_soft
+accessoryglassmouthnosered_plastic_matte,빨간색 구체형 코 액세서리 (매트 플라스틱),10000,1.5,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,plastic_matte
+accessoryglassmouthnosered_plastic_gloss,빨간색 구체형 코 액세서리 (글로시 플라스틱),11000,1.45,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,plastic_gloss
+accessoryglassmouthnosered_rubber_soft,빨간색 구체형 코 액세서리 (소프트 러버),10500,1.5,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,rubber_soft
+accessoryglassmouthnosered_ceramic_clean,빨간색 구체형 코 액세서리 (클린 세라믹),12000,1.4,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,ceramic_clean
+accessoryglassmouthnosered_metal_brushed,빨간색 구체형 코 액세서리 (브러시드 메탈),13500,1.3,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,metal_brushed
+accessoryglassmouthnosered_metal_polished,빨간색 구체형 코 액세서리 (폴리시드 메탈),15000,1.2,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,metal_polished
+accessoryglassmouthnosered_paint_clearcoat,빨간색 구체형 코 액세서리 (클리어코트 페인트),13000,1.35,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,paint_clearcoat
+accessoryglassmouthnosered_fabric_sheen,빨간색 구체형 코 액세서리 (패브릭 쉰),11500,1.45,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,fabric_sheen
+accessoryglassmouthnosered_glass_clear,빨간색 구체형 코 액세서리 (클리어 글래스),16000,1.1,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,glass_clear
+accessoryglassmouthnosered_resin_tinted,빨간색 구체형 코 액세서리 (틴티드 레진),14500,1.25,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,resin_tinted
+accessoryglassmouthnosered_matcap_clay,빨간색 구체형 코 액세서리 (클레이),10500,1.5,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_clay
+accessoryglassmouthnosered_matcap_wax,빨간색 구체형 코 액세서리 (왁스),11000,1.45,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_wax
+accessoryglassmouthnosered_matcap_chrome,빨간색 구체형 코 액세서리 (크롬),15500,1.15,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_chrome
+accessoryglassmouthnosered_matcap_bronze,빨간색 구체형 코 액세서리 (브론즈),14000,1.3,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_bronze
+accessoryglassmouthnosered_matcap_black_rubber,빨간색 구체형 코 액세서리 (블랙 러버),10800,1.5,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_black_rubber
+accessoryglassmouthnosered_matcap_red_wax,빨간색 구체형 코 액세서리 (레드 왁스),11500,1.4,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_red_wax
+accessoryglassmouthnosered_matcap_white_ceramic,빨간색 구체형 코 액세서리 (화이트 세라믹),12500,1.35,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_white_ceramic
+accessoryglassmouthnosered_matcap_blue_gloss,빨간색 구체형 코 액세서리 (블루 글로시),12000,1.4,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_blue_gloss
+accessoryglassmouthnosered_matcap_gold,빨간색 구체형 코 액세서리 (골드),17000,1,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_gold
+accessoryglassmouthnosered_matcap_silver_soft,빨간색 구체형 코 액세서리 (소프트 실버),13500,1.3,액세서리,assets/models/AccessoryGlassmouthNoseRed.glb,matcap_silver_soft
+accessoryglassmouthpackwhite_plastic_matte,미니멀 화이트 팩 마스크 (매트 플라스틱),15000,1.2,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,plastic_matte
+accessoryglassmouthpackwhite_plastic_gloss,미니멀 화이트 팩 마스크 (글로시 플라스틱),16500,1.15,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,plastic_gloss
+accessoryglassmouthpackwhite_rubber_soft,미니멀 화이트 팩 마스크 (소프트 러버),15800,1.2,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,rubber_soft
+accessoryglassmouthpackwhite_ceramic_clean,미니멀 화이트 팩 마스크 (클린 세라믹),18000,1.1,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,ceramic_clean
+accessoryglassmouthpackwhite_metal_brushed,미니멀 화이트 팩 마스크 (브러시드 메탈),20300,1,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,metal_brushed
+accessoryglassmouthpackwhite_metal_polished,미니멀 화이트 팩 마스크 (폴리시드 메탈),22500,0.9,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,metal_polished
+accessoryglassmouthpackwhite_paint_clearcoat,미니멀 화이트 팩 마스크 (클리어코트 페인트),19500,1.05,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,paint_clearcoat
+accessoryglassmouthpackwhite_fabric_sheen,미니멀 화이트 팩 마스크 (패브릭 쉰),17300,1.15,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,fabric_sheen
+accessoryglassmouthpackwhite_glass_clear,미니멀 화이트 팩 마스크 (클리어 글래스),24000,0.8,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,glass_clear
+accessoryglassmouthpackwhite_resin_tinted,미니멀 화이트 팩 마스크 (틴티드 레진),21800,0.95,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,resin_tinted
+accessoryglassmouthpackwhite_matcap_clay,미니멀 화이트 팩 마스크 (클레이),15800,1.2,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_clay
+accessoryglassmouthpackwhite_matcap_wax,미니멀 화이트 팩 마스크 (왁스),16500,1.15,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_wax
+accessoryglassmouthpackwhite_matcap_chrome,미니멀 화이트 팩 마스크 (크롬),23300,0.85,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_chrome
+accessoryglassmouthpackwhite_matcap_bronze,미니멀 화이트 팩 마스크 (브론즈),21000,1,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_bronze
+accessoryglassmouthpackwhite_matcap_black_rubber,미니멀 화이트 팩 마스크 (블랙 러버),16200,1.2,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_black_rubber
+accessoryglassmouthpackwhite_matcap_red_wax,미니멀 화이트 팩 마스크 (레드 왁스),17300,1.1,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_red_wax
+accessoryglassmouthpackwhite_matcap_white_ceramic,미니멀 화이트 팩 마스크 (화이트 세라믹),18800,1.05,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_white_ceramic
+accessoryglassmouthpackwhite_matcap_blue_gloss,미니멀 화이트 팩 마스크 (블루 글로시),18000,1.1,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_blue_gloss
+accessoryglassmouthpackwhite_matcap_gold,미니멀 화이트 팩 마스크 (골드),25500,0.7,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_gold
+accessoryglassmouthpackwhite_matcap_silver_soft,미니멀 화이트 팩 마스크 (소프트 실버),20300,1,마스크,assets/models/AccessoryGlassmouthPackWhite.glb,matcap_silver_soft
+accessoryglassmouthpierrot0_plastic_matte,피에로 반쪽 얼굴 마스크 (매트 플라스틱),22000,0.9,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,plastic_matte
+accessoryglassmouthpierrot0_plastic_gloss,피에로 반쪽 얼굴 마스크 (글로시 플라스틱),24200,0.85,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,plastic_gloss
+accessoryglassmouthpierrot0_rubber_soft,피에로 반쪽 얼굴 마스크 (소프트 러버),23100,0.9,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,rubber_soft
+accessoryglassmouthpierrot0_ceramic_clean,피에로 반쪽 얼굴 마스크 (클린 세라믹),26400,0.8,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,ceramic_clean
+accessoryglassmouthpierrot0_metal_brushed,피에로 반쪽 얼굴 마스크 (브러시드 메탈),29700,0.7,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,metal_brushed
+accessoryglassmouthpierrot0_metal_polished,피에로 반쪽 얼굴 마스크 (폴리시드 메탈),33000,0.6,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,metal_polished
+accessoryglassmouthpierrot0_paint_clearcoat,피에로 반쪽 얼굴 마스크 (클리어코트 페인트),28600,0.75,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,paint_clearcoat
+accessoryglassmouthpierrot0_fabric_sheen,피에로 반쪽 얼굴 마스크 (패브릭 쉰),25300,0.85,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,fabric_sheen
+accessoryglassmouthpierrot0_glass_clear,피에로 반쪽 얼굴 마스크 (클리어 글래스),35200,0.5,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,glass_clear
+accessoryglassmouthpierrot0_resin_tinted,피에로 반쪽 얼굴 마스크 (틴티드 레진),31900,0.65,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,resin_tinted
+accessoryglassmouthpierrot0_matcap_clay,피에로 반쪽 얼굴 마스크 (클레이),23100,0.9,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_clay
+accessoryglassmouthpierrot0_matcap_wax,피에로 반쪽 얼굴 마스크 (왁스),24200,0.85,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_wax
+accessoryglassmouthpierrot0_matcap_chrome,피에로 반쪽 얼굴 마스크 (크롬),34100,0.55,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_chrome
+accessoryglassmouthpierrot0_matcap_bronze,피에로 반쪽 얼굴 마스크 (브론즈),30800,0.7,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_bronze
+accessoryglassmouthpierrot0_matcap_black_rubber,피에로 반쪽 얼굴 마스크 (블랙 러버),23800,0.9,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_black_rubber
+accessoryglassmouthpierrot0_matcap_red_wax,피에로 반쪽 얼굴 마스크 (레드 왁스),25300,0.8,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_red_wax
+accessoryglassmouthpierrot0_matcap_white_ceramic,피에로 반쪽 얼굴 마스크 (화이트 세라믹),27500,0.75,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_white_ceramic
+accessoryglassmouthpierrot0_matcap_blue_gloss,피에로 반쪽 얼굴 마스크 (블루 글로시),26400,0.8,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_blue_gloss
+accessoryglassmouthpierrot0_matcap_gold,피에로 반쪽 얼굴 마스크 (골드),37400,0.4,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_gold
+accessoryglassmouthpierrot0_matcap_silver_soft,피에로 반쪽 얼굴 마스크 (소프트 실버),29700,0.7,마스크,assets/models/AccessoryGlassmouthPierrot0.glb,matcap_silver_soft
+accessoryglassmouthstraw0_plastic_matte,Accessory Glassmouth Straw 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,plastic_matte
+accessoryglassmouthstraw0_plastic_gloss,Accessory Glassmouth Straw 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,plastic_gloss
+accessoryglassmouthstraw0_rubber_soft,Accessory Glassmouth Straw 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,rubber_soft
+accessoryglassmouthstraw0_ceramic_clean,Accessory Glassmouth Straw 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,ceramic_clean
+accessoryglassmouthstraw0_metal_brushed,Accessory Glassmouth Straw 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,metal_brushed
+accessoryglassmouthstraw0_metal_polished,Accessory Glassmouth Straw 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,metal_polished
+accessoryglassmouthstraw0_paint_clearcoat,Accessory Glassmouth Straw 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,paint_clearcoat
+accessoryglassmouthstraw0_fabric_sheen,Accessory Glassmouth Straw 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,fabric_sheen
+accessoryglassmouthstraw0_glass_clear,Accessory Glassmouth Straw 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,glass_clear
+accessoryglassmouthstraw0_resin_tinted,Accessory Glassmouth Straw 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,resin_tinted
+accessoryglassmouthstraw0_matcap_clay,Accessory Glassmouth Straw 0 (클레이),15800,1,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_clay
+accessoryglassmouthstraw0_matcap_wax,Accessory Glassmouth Straw 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_wax
+accessoryglassmouthstraw0_matcap_chrome,Accessory Glassmouth Straw 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_chrome
+accessoryglassmouthstraw0_matcap_bronze,Accessory Glassmouth Straw 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_bronze
+accessoryglassmouthstraw0_matcap_black_rubber,Accessory Glassmouth Straw 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_black_rubber
+accessoryglassmouthstraw0_matcap_red_wax,Accessory Glassmouth Straw 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_red_wax
+accessoryglassmouthstraw0_matcap_white_ceramic,Accessory Glassmouth Straw 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_white_ceramic
+accessoryglassmouthstraw0_matcap_blue_gloss,Accessory Glassmouth Straw 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_blue_gloss
+accessoryglassmouthstraw0_matcap_gold,Accessory Glassmouth Straw 0 (골드),25500,0.5,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_gold
+accessoryglassmouthstraw0_matcap_silver_soft,Accessory Glassmouth Straw 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryGlassmouthStraw0.glb,matcap_silver_soft
+accessorymouthcat0_plastic_matte,Accessory Mouth Cat 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryMouthCat0.glb,plastic_matte
+accessorymouthcat0_plastic_gloss,Accessory Mouth Cat 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryMouthCat0.glb,plastic_gloss
+accessorymouthcat0_rubber_soft,Accessory Mouth Cat 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryMouthCat0.glb,rubber_soft
+accessorymouthcat0_ceramic_clean,Accessory Mouth Cat 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryMouthCat0.glb,ceramic_clean
+accessorymouthcat0_metal_brushed,Accessory Mouth Cat 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryMouthCat0.glb,metal_brushed
+accessorymouthcat0_metal_polished,Accessory Mouth Cat 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryMouthCat0.glb,metal_polished
+accessorymouthcat0_paint_clearcoat,Accessory Mouth Cat 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryMouthCat0.glb,paint_clearcoat
+accessorymouthcat0_fabric_sheen,Accessory Mouth Cat 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryMouthCat0.glb,fabric_sheen
+accessorymouthcat0_glass_clear,Accessory Mouth Cat 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryMouthCat0.glb,glass_clear
+accessorymouthcat0_resin_tinted,Accessory Mouth Cat 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryMouthCat0.glb,resin_tinted
+accessorymouthcat0_matcap_clay,Accessory Mouth Cat 0 (클레이),15800,1,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_clay
+accessorymouthcat0_matcap_wax,Accessory Mouth Cat 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_wax
+accessorymouthcat0_matcap_chrome,Accessory Mouth Cat 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_chrome
+accessorymouthcat0_matcap_bronze,Accessory Mouth Cat 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_bronze
+accessorymouthcat0_matcap_black_rubber,Accessory Mouth Cat 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_black_rubber
+accessorymouthcat0_matcap_red_wax,Accessory Mouth Cat 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_red_wax
+accessorymouthcat0_matcap_white_ceramic,Accessory Mouth Cat 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_white_ceramic
+accessorymouthcat0_matcap_blue_gloss,Accessory Mouth Cat 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_blue_gloss
+accessorymouthcat0_matcap_gold,Accessory Mouth Cat 0 (골드),25500,0.5,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_gold
+accessorymouthcat0_matcap_silver_soft,Accessory Mouth Cat 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryMouthCat0.glb,matcap_silver_soft
+accessorymouthcrowblack_plastic_matte,Accessory Mouth Crow Black (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryMouthCrowBlack.glb,plastic_matte
+accessorymouthcrowblack_plastic_gloss,Accessory Mouth Crow Black (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryMouthCrowBlack.glb,plastic_gloss
+accessorymouthcrowblack_rubber_soft,Accessory Mouth Crow Black (소프트 러버),15800,1,액세서리,assets/models/AccessoryMouthCrowBlack.glb,rubber_soft
+accessorymouthcrowblack_ceramic_clean,Accessory Mouth Crow Black (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryMouthCrowBlack.glb,ceramic_clean
+accessorymouthcrowblack_metal_brushed,Accessory Mouth Crow Black (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryMouthCrowBlack.glb,metal_brushed
+accessorymouthcrowblack_metal_polished,Accessory Mouth Crow Black (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryMouthCrowBlack.glb,metal_polished
+accessorymouthcrowblack_paint_clearcoat,Accessory Mouth Crow Black (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryMouthCrowBlack.glb,paint_clearcoat
+accessorymouthcrowblack_fabric_sheen,Accessory Mouth Crow Black (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryMouthCrowBlack.glb,fabric_sheen
+accessorymouthcrowblack_glass_clear,Accessory Mouth Crow Black (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryMouthCrowBlack.glb,glass_clear
+accessorymouthcrowblack_resin_tinted,Accessory Mouth Crow Black (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryMouthCrowBlack.glb,resin_tinted
+accessorymouthcrowblack_matcap_clay,Accessory Mouth Crow Black (클레이),15800,1,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_clay
+accessorymouthcrowblack_matcap_wax,Accessory Mouth Crow Black (왁스),16500,0.95,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_wax
+accessorymouthcrowblack_matcap_chrome,Accessory Mouth Crow Black (크롬),23300,0.65,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_chrome
+accessorymouthcrowblack_matcap_bronze,Accessory Mouth Crow Black (브론즈),21000,0.8,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_bronze
+accessorymouthcrowblack_matcap_black_rubber,Accessory Mouth Crow Black (블랙 러버),16200,1,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_black_rubber
+accessorymouthcrowblack_matcap_red_wax,Accessory Mouth Crow Black (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_red_wax
+accessorymouthcrowblack_matcap_white_ceramic,Accessory Mouth Crow Black (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_white_ceramic
+accessorymouthcrowblack_matcap_blue_gloss,Accessory Mouth Crow Black (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_blue_gloss
+accessorymouthcrowblack_matcap_gold,Accessory Mouth Crow Black (골드),25500,0.5,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_gold
+accessorymouthcrowblack_matcap_silver_soft,Accessory Mouth Crow Black (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryMouthCrowBlack.glb,matcap_silver_soft
+accessorymouthcucumber_plastic_matte,Accessory Mouth Cucumber (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryMouthCucumber.glb,plastic_matte
+accessorymouthcucumber_plastic_gloss,Accessory Mouth Cucumber (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryMouthCucumber.glb,plastic_gloss
+accessorymouthcucumber_rubber_soft,Accessory Mouth Cucumber (소프트 러버),15800,1,액세서리,assets/models/AccessoryMouthCucumber.glb,rubber_soft
+accessorymouthcucumber_ceramic_clean,Accessory Mouth Cucumber (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryMouthCucumber.glb,ceramic_clean
+accessorymouthcucumber_metal_brushed,Accessory Mouth Cucumber (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryMouthCucumber.glb,metal_brushed
+accessorymouthcucumber_metal_polished,Accessory Mouth Cucumber (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryMouthCucumber.glb,metal_polished
+accessorymouthcucumber_paint_clearcoat,Accessory Mouth Cucumber (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryMouthCucumber.glb,paint_clearcoat
+accessorymouthcucumber_fabric_sheen,Accessory Mouth Cucumber (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryMouthCucumber.glb,fabric_sheen
+accessorymouthcucumber_glass_clear,Accessory Mouth Cucumber (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryMouthCucumber.glb,glass_clear
+accessorymouthcucumber_resin_tinted,Accessory Mouth Cucumber (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryMouthCucumber.glb,resin_tinted
+accessorymouthcucumber_matcap_clay,Accessory Mouth Cucumber (클레이),15800,1,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_clay
+accessorymouthcucumber_matcap_wax,Accessory Mouth Cucumber (왁스),16500,0.95,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_wax
+accessorymouthcucumber_matcap_chrome,Accessory Mouth Cucumber (크롬),23300,0.65,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_chrome
+accessorymouthcucumber_matcap_bronze,Accessory Mouth Cucumber (브론즈),21000,0.8,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_bronze
+accessorymouthcucumber_matcap_black_rubber,Accessory Mouth Cucumber (블랙 러버),16200,1,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_black_rubber
+accessorymouthcucumber_matcap_red_wax,Accessory Mouth Cucumber (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_red_wax
+accessorymouthcucumber_matcap_white_ceramic,Accessory Mouth Cucumber (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_white_ceramic
+accessorymouthcucumber_matcap_blue_gloss,Accessory Mouth Cucumber (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_blue_gloss
+accessorymouthcucumber_matcap_gold,Accessory Mouth Cucumber (골드),25500,0.5,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_gold
+accessorymouthcucumber_matcap_silver_soft,Accessory Mouth Cucumber (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryMouthCucumber.glb,matcap_silver_soft
+accessorymouthdog0_plastic_matte,Accessory Mouth Dog 0 (매트 플라스틱),15000,1,액세서리,assets/models/AccessoryMouthDog0.glb,plastic_matte
+accessorymouthdog0_plastic_gloss,Accessory Mouth Dog 0 (글로시 플라스틱),16500,0.95,액세서리,assets/models/AccessoryMouthDog0.glb,plastic_gloss
+accessorymouthdog0_rubber_soft,Accessory Mouth Dog 0 (소프트 러버),15800,1,액세서리,assets/models/AccessoryMouthDog0.glb,rubber_soft
+accessorymouthdog0_ceramic_clean,Accessory Mouth Dog 0 (클린 세라믹),18000,0.9,액세서리,assets/models/AccessoryMouthDog0.glb,ceramic_clean
+accessorymouthdog0_metal_brushed,Accessory Mouth Dog 0 (브러시드 메탈),20300,0.8,액세서리,assets/models/AccessoryMouthDog0.glb,metal_brushed
+accessorymouthdog0_metal_polished,Accessory Mouth Dog 0 (폴리시드 메탈),22500,0.7,액세서리,assets/models/AccessoryMouthDog0.glb,metal_polished
+accessorymouthdog0_paint_clearcoat,Accessory Mouth Dog 0 (클리어코트 페인트),19500,0.85,액세서리,assets/models/AccessoryMouthDog0.glb,paint_clearcoat
+accessorymouthdog0_fabric_sheen,Accessory Mouth Dog 0 (패브릭 쉰),17300,0.95,액세서리,assets/models/AccessoryMouthDog0.glb,fabric_sheen
+accessorymouthdog0_glass_clear,Accessory Mouth Dog 0 (클리어 글래스),24000,0.6,액세서리,assets/models/AccessoryMouthDog0.glb,glass_clear
+accessorymouthdog0_resin_tinted,Accessory Mouth Dog 0 (틴티드 레진),21800,0.75,액세서리,assets/models/AccessoryMouthDog0.glb,resin_tinted
+accessorymouthdog0_matcap_clay,Accessory Mouth Dog 0 (클레이),15800,1,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_clay
+accessorymouthdog0_matcap_wax,Accessory Mouth Dog 0 (왁스),16500,0.95,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_wax
+accessorymouthdog0_matcap_chrome,Accessory Mouth Dog 0 (크롬),23300,0.65,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_chrome
+accessorymouthdog0_matcap_bronze,Accessory Mouth Dog 0 (브론즈),21000,0.8,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_bronze
+accessorymouthdog0_matcap_black_rubber,Accessory Mouth Dog 0 (블랙 러버),16200,1,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_black_rubber
+accessorymouthdog0_matcap_red_wax,Accessory Mouth Dog 0 (레드 왁스),17300,0.9,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_red_wax
+accessorymouthdog0_matcap_white_ceramic,Accessory Mouth Dog 0 (화이트 세라믹),18800,0.85,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_white_ceramic
+accessorymouthdog0_matcap_blue_gloss,Accessory Mouth Dog 0 (블루 글로시),18000,0.9,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_blue_gloss
+accessorymouthdog0_matcap_gold,Accessory Mouth Dog 0 (골드),25500,0.5,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_gold
+accessorymouthdog0_matcap_silver_soft,Accessory Mouth Dog 0 (소프트 실버),20300,0.8,액세서리,assets/models/AccessoryMouthDog0.glb,matcap_silver_soft

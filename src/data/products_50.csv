@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+uniticonwig_plastic_matte,레드 헬멧 고글 (매트 플라스틱),85000,0.9,고글,assets/models/UnitIconWig.glb,plastic_matte
+uniticonwig_plastic_gloss,레드 헬멧 고글 (글로시 플라스틱),93500,0.85,고글,assets/models/UnitIconWig.glb,plastic_gloss
+uniticonwig_rubber_soft,레드 헬멧 고글 (소프트 러버),89300,0.9,고글,assets/models/UnitIconWig.glb,rubber_soft
+uniticonwig_ceramic_clean,레드 헬멧 고글 (클린 세라믹),102000,0.8,고글,assets/models/UnitIconWig.glb,ceramic_clean
+uniticonwig_metal_brushed,레드 헬멧 고글 (브러시드 메탈),114800,0.7,고글,assets/models/UnitIconWig.glb,metal_brushed
+uniticonwig_metal_polished,레드 헬멧 고글 (폴리시드 메탈),127500,0.6,고글,assets/models/UnitIconWig.glb,metal_polished
+uniticonwig_paint_clearcoat,레드 헬멧 고글 (클리어코트 페인트),110500,0.75,고글,assets/models/UnitIconWig.glb,paint_clearcoat
+uniticonwig_fabric_sheen,레드 헬멧 고글 (패브릭 쉰),97700,0.85,고글,assets/models/UnitIconWig.glb,fabric_sheen
+uniticonwig_glass_clear,레드 헬멧 고글 (클리어 글래스),136000,0.5,고글,assets/models/UnitIconWig.glb,glass_clear
+uniticonwig_resin_tinted,레드 헬멧 고글 (틴티드 레진),123300,0.65,고글,assets/models/UnitIconWig.glb,resin_tinted
+uniticonwig_matcap_clay,레드 헬멧 고글 (클레이),89300,0.9,고글,assets/models/UnitIconWig.glb,matcap_clay
+uniticonwig_matcap_wax,레드 헬멧 고글 (왁스),93500,0.85,고글,assets/models/UnitIconWig.glb,matcap_wax
+uniticonwig_matcap_chrome,레드 헬멧 고글 (크롬),131800,0.55,고글,assets/models/UnitIconWig.glb,matcap_chrome
+uniticonwig_matcap_bronze,레드 헬멧 고글 (브론즈),119000,0.7,고글,assets/models/UnitIconWig.glb,matcap_bronze
+uniticonwig_matcap_black_rubber,레드 헬멧 고글 (블랙 러버),91800,0.9,고글,assets/models/UnitIconWig.glb,matcap_black_rubber
+uniticonwig_matcap_red_wax,레드 헬멧 고글 (레드 왁스),97700,0.8,고글,assets/models/UnitIconWig.glb,matcap_red_wax
+uniticonwig_matcap_white_ceramic,레드 헬멧 고글 (화이트 세라믹),106300,0.75,고글,assets/models/UnitIconWig.glb,matcap_white_ceramic
+uniticonwig_matcap_blue_gloss,레드 헬멧 고글 (블루 글로시),102000,0.8,고글,assets/models/UnitIconWig.glb,matcap_blue_gloss
+uniticonwig_matcap_gold,레드 헬멧 고글 (골드),144500,0.4,고글,assets/models/UnitIconWig.glb,matcap_gold
+uniticonwig_matcap_silver_soft,레드 헬멧 고글 (소프트 실버),114800,0.7,고글,assets/models/UnitIconWig.glb,matcap_silver_soft
+vrmoon_plastic_matte,블루 렌즈 (매트 플라스틱),30000,1.8,고글,assets/models/VRMoon.glb,plastic_matte
+vrmoon_plastic_gloss,블루 렌즈 (글로시 플라스틱),33000,1.75,고글,assets/models/VRMoon.glb,plastic_gloss
+vrmoon_rubber_soft,블루 렌즈 (소프트 러버),31500,1.8,고글,assets/models/VRMoon.glb,rubber_soft
+vrmoon_ceramic_clean,블루 렌즈 (클린 세라믹),36000,1.7,고글,assets/models/VRMoon.glb,ceramic_clean
+vrmoon_metal_brushed,블루 렌즈 (브러시드 메탈),40500,1.6,고글,assets/models/VRMoon.glb,metal_brushed
+vrmoon_metal_polished,블루 렌즈 (폴리시드 메탈),45000,1.5,고글,assets/models/VRMoon.glb,metal_polished
+vrmoon_paint_clearcoat,블루 렌즈 (클리어코트 페인트),39000,1.65,고글,assets/models/VRMoon.glb,paint_clearcoat
+vrmoon_fabric_sheen,블루 렌즈 (패브릭 쉰),34500,1.75,고글,assets/models/VRMoon.glb,fabric_sheen
+vrmoon_glass_clear,블루 렌즈 (클리어 글래스),48000,1.4,고글,assets/models/VRMoon.glb,glass_clear
+vrmoon_resin_tinted,블루 렌즈 (틴티드 레진),43500,1.55,고글,assets/models/VRMoon.glb,resin_tinted
+vrmoon_matcap_clay,블루 렌즈 (클레이),31500,1.8,고글,assets/models/VRMoon.glb,matcap_clay
+vrmoon_matcap_wax,블루 렌즈 (왁스),33000,1.75,고글,assets/models/VRMoon.glb,matcap_wax
+vrmoon_matcap_chrome,블루 렌즈 (크롬),46500,1.45,고글,assets/models/VRMoon.glb,matcap_chrome
+vrmoon_matcap_bronze,블루 렌즈 (브론즈),42000,1.6,고글,assets/models/VRMoon.glb,matcap_bronze
+vrmoon_matcap_black_rubber,블루 렌즈 (블랙 러버),32400,1.8,고글,assets/models/VRMoon.glb,matcap_black_rubber
+vrmoon_matcap_red_wax,블루 렌즈 (레드 왁스),34500,1.7,고글,assets/models/VRMoon.glb,matcap_red_wax
+vrmoon_matcap_white_ceramic,블루 렌즈 (화이트 세라믹),37500,1.65,고글,assets/models/VRMoon.glb,matcap_white_ceramic
+vrmoon_matcap_blue_gloss,블루 렌즈 (블루 글로시),36000,1.7,고글,assets/models/VRMoon.glb,matcap_blue_gloss
+vrmoon_matcap_gold,블루 렌즈 (골드),51000,1.3,고글,assets/models/VRMoon.glb,matcap_gold
+vrmoon_matcap_silver_soft,블루 렌즈 (소프트 실버),40500,1.6,고글,assets/models/VRMoon.glb,matcap_silver_soft
+black_vr_plastic_matte,화이트 그리드 비저 (매트 플라스틱),35000,1.7,고글,assets/models/black_vr.glb,plastic_matte
+black_vr_plastic_gloss,화이트 그리드 비저 (글로시 플라스틱),38500,1.65,고글,assets/models/black_vr.glb,plastic_gloss
+black_vr_rubber_soft,화이트 그리드 비저 (소프트 러버),36800,1.7,고글,assets/models/black_vr.glb,rubber_soft
+black_vr_ceramic_clean,화이트 그리드 비저 (클린 세라믹),42000,1.6,고글,assets/models/black_vr.glb,ceramic_clean
+black_vr_metal_brushed,화이트 그리드 비저 (브러시드 메탈),47300,1.5,고글,assets/models/black_vr.glb,metal_brushed
+black_vr_metal_polished,화이트 그리드 비저 (폴리시드 메탈),52500,1.4,고글,assets/models/black_vr.glb,metal_polished
+black_vr_paint_clearcoat,화이트 그리드 비저 (클리어코트 페인트),45500,1.55,고글,assets/models/black_vr.glb,paint_clearcoat
+black_vr_fabric_sheen,화이트 그리드 비저 (패브릭 쉰),40300,1.65,고글,assets/models/black_vr.glb,fabric_sheen
+black_vr_glass_clear,화이트 그리드 비저 (클리어 글래스),56000,1.3,고글,assets/models/black_vr.glb,glass_clear
+black_vr_resin_tinted,화이트 그리드 비저 (틴티드 레진),50800,1.45,고글,assets/models/black_vr.glb,resin_tinted
+black_vr_matcap_clay,화이트 그리드 비저 (클레이),36800,1.7,고글,assets/models/black_vr.glb,matcap_clay
+black_vr_matcap_wax,화이트 그리드 비저 (왁스),38500,1.65,고글,assets/models/black_vr.glb,matcap_wax
+black_vr_matcap_chrome,화이트 그리드 비저 (크롬),54300,1.35,고글,assets/models/black_vr.glb,matcap_chrome
+black_vr_matcap_bronze,화이트 그리드 비저 (브론즈),49000,1.5,고글,assets/models/black_vr.glb,matcap_bronze
+black_vr_matcap_black_rubber,화이트 그리드 비저 (블랙 러버),37800,1.7,고글,assets/models/black_vr.glb,matcap_black_rubber
+black_vr_matcap_red_wax,화이트 그리드 비저 (레드 왁스),40300,1.6,고글,assets/models/black_vr.glb,matcap_red_wax
+black_vr_matcap_white_ceramic,화이트 그리드 비저 (화이트 세라믹),43800,1.55,고글,assets/models/black_vr.glb,matcap_white_ceramic
+black_vr_matcap_blue_gloss,화이트 그리드 비저 (블루 글로시),42000,1.6,고글,assets/models/black_vr.glb,matcap_blue_gloss
+black_vr_matcap_gold,화이트 그리드 비저 (골드),59500,1.2,고글,assets/models/black_vr.glb,matcap_gold
+black_vr_matcap_silver_soft,화이트 그리드 비저 (소프트 실버),47300,1.5,고글,assets/models/black_vr.glb,matcap_silver_soft
+cloudsummer_vr_plastic_matte,퍼플 그라데이션 렌즈 (매트 플라스틱),75000,1.1,고글,assets/models/cloudSummer_vr.glb,plastic_matte
+cloudsummer_vr_plastic_gloss,퍼플 그라데이션 렌즈 (글로시 플라스틱),82500,1.05,고글,assets/models/cloudSummer_vr.glb,plastic_gloss
+cloudsummer_vr_rubber_soft,퍼플 그라데이션 렌즈 (소프트 러버),78800,1.1,고글,assets/models/cloudSummer_vr.glb,rubber_soft
+cloudsummer_vr_ceramic_clean,퍼플 그라데이션 렌즈 (클린 세라믹),90000,1,고글,assets/models/cloudSummer_vr.glb,ceramic_clean
+cloudsummer_vr_metal_brushed,퍼플 그라데이션 렌즈 (브러시드 메탈),101300,0.9,고글,assets/models/cloudSummer_vr.glb,metal_brushed
+cloudsummer_vr_metal_polished,퍼플 그라데이션 렌즈 (폴리시드 메탈),112500,0.8,고글,assets/models/cloudSummer_vr.glb,metal_polished
+cloudsummer_vr_paint_clearcoat,퍼플 그라데이션 렌즈 (클리어코트 페인트),97500,0.95,고글,assets/models/cloudSummer_vr.glb,paint_clearcoat
+cloudsummer_vr_fabric_sheen,퍼플 그라데이션 렌즈 (패브릭 쉰),86300,1.05,고글,assets/models/cloudSummer_vr.glb,fabric_sheen
+cloudsummer_vr_glass_clear,퍼플 그라데이션 렌즈 (클리어 글래스),120000,0.7,고글,assets/models/cloudSummer_vr.glb,glass_clear
+cloudsummer_vr_resin_tinted,퍼플 그라데이션 렌즈 (틴티드 레진),108800,0.85,고글,assets/models/cloudSummer_vr.glb,resin_tinted
+cloudsummer_vr_matcap_clay,퍼플 그라데이션 렌즈 (클레이),78800,1.1,고글,assets/models/cloudSummer_vr.glb,matcap_clay
+cloudsummer_vr_matcap_wax,퍼플 그라데이션 렌즈 (왁스),82500,1.05,고글,assets/models/cloudSummer_vr.glb,matcap_wax
+cloudsummer_vr_matcap_chrome,퍼플 그라데이션 렌즈 (크롬),116300,0.75,고글,assets/models/cloudSummer_vr.glb,matcap_chrome
+cloudsummer_vr_matcap_bronze,퍼플 그라데이션 렌즈 (브론즈),105000,0.9,고글,assets/models/cloudSummer_vr.glb,matcap_bronze
+cloudsummer_vr_matcap_black_rubber,퍼플 그라데이션 렌즈 (블랙 러버),81000,1.1,고글,assets/models/cloudSummer_vr.glb,matcap_black_rubber
+cloudsummer_vr_matcap_red_wax,퍼플 그라데이션 렌즈 (레드 왁스),86300,1,고글,assets/models/cloudSummer_vr.glb,matcap_red_wax
+cloudsummer_vr_matcap_white_ceramic,퍼플 그라데이션 렌즈 (화이트 세라믹),93800,0.95,고글,assets/models/cloudSummer_vr.glb,matcap_white_ceramic
+cloudsummer_vr_matcap_blue_gloss,퍼플 그라데이션 렌즈 (블루 글로시),90000,1,고글,assets/models/cloudSummer_vr.glb,matcap_blue_gloss
+cloudsummer_vr_matcap_gold,퍼플 그라데이션 렌즈 (골드),127500,0.6,고글,assets/models/cloudSummer_vr.glb,matcap_gold
+cloudsummer_vr_matcap_silver_soft,퍼플 그라데이션 렌즈 (소프트 실버),101300,0.9,고글,assets/models/cloudSummer_vr.glb,matcap_silver_soft
+park_vr_plastic_matte,그레이 그리드 비저 (매트 플라스틱),35000,1.7,고글,assets/models/park_vr.glb,plastic_matte
+park_vr_plastic_gloss,그레이 그리드 비저 (글로시 플라스틱),38500,1.65,고글,assets/models/park_vr.glb,plastic_gloss
+park_vr_rubber_soft,그레이 그리드 비저 (소프트 러버),36800,1.7,고글,assets/models/park_vr.glb,rubber_soft
+park_vr_ceramic_clean,그레이 그리드 비저 (클린 세라믹),42000,1.6,고글,assets/models/park_vr.glb,ceramic_clean
+park_vr_metal_brushed,그레이 그리드 비저 (브러시드 메탈),47300,1.5,고글,assets/models/park_vr.glb,metal_brushed
+park_vr_metal_polished,그레이 그리드 비저 (폴리시드 메탈),52500,1.4,고글,assets/models/park_vr.glb,metal_polished
+park_vr_paint_clearcoat,그레이 그리드 비저 (클리어코트 페인트),45500,1.55,고글,assets/models/park_vr.glb,paint_clearcoat
+park_vr_fabric_sheen,그레이 그리드 비저 (패브릭 쉰),40300,1.65,고글,assets/models/park_vr.glb,fabric_sheen
+park_vr_glass_clear,그레이 그리드 비저 (클리어 글래스),56000,1.3,고글,assets/models/park_vr.glb,glass_clear
+park_vr_resin_tinted,그레이 그리드 비저 (틴티드 레진),50800,1.45,고글,assets/models/park_vr.glb,resin_tinted
+park_vr_matcap_clay,그레이 그리드 비저 (클레이),36800,1.7,고글,assets/models/park_vr.glb,matcap_clay
+park_vr_matcap_wax,그레이 그리드 비저 (왁스),38500,1.65,고글,assets/models/park_vr.glb,matcap_wax
+park_vr_matcap_chrome,그레이 그리드 비저 (크롬),54300,1.35,고글,assets/models/park_vr.glb,matcap_chrome
+park_vr_matcap_bronze,그레이 그리드 비저 (브론즈),49000,1.5,고글,assets/models/park_vr.glb,matcap_bronze
+park_vr_matcap_black_rubber,그레이 그리드 비저 (블랙 러버),37800,1.7,고글,assets/models/park_vr.glb,matcap_black_rubber
+park_vr_matcap_red_wax,그레이 그리드 비저 (레드 왁스),40300,1.6,고글,assets/models/park_vr.glb,matcap_red_wax
+park_vr_matcap_white_ceramic,그레이 그리드 비저 (화이트 세라믹),43800,1.55,고글,assets/models/park_vr.glb,matcap_white_ceramic
+park_vr_matcap_blue_gloss,그레이 그리드 비저 (블루 글로시),42000,1.6,고글,assets/models/park_vr.glb,matcap_blue_gloss
+park_vr_matcap_gold,그레이 그리드 비저 (골드),59500,1.2,고글,assets/models/park_vr.glb,matcap_gold
+park_vr_matcap_silver_soft,그레이 그리드 비저 (소프트 실버),47300,1.5,고글,assets/models/park_vr.glb,matcap_silver_soft
+stonea_plastic_matte,매끄러운 흰 돌 (매트 플라스틱),15000,1.8,액세서리,assets/models/stoneA.glb,plastic_matte
+stonea_plastic_gloss,매끄러운 흰 돌 (글로시 플라스틱),16500,1.75,액세서리,assets/models/stoneA.glb,plastic_gloss
+stonea_rubber_soft,매끄러운 흰 돌 (소프트 러버),15800,1.8,액세서리,assets/models/stoneA.glb,rubber_soft
+stonea_ceramic_clean,매끄러운 흰 돌 (클린 세라믹),18000,1.7,액세서리,assets/models/stoneA.glb,ceramic_clean
+stonea_metal_brushed,매끄러운 흰 돌 (브러시드 메탈),20300,1.6,액세서리,assets/models/stoneA.glb,metal_brushed
+stonea_metal_polished,매끄러운 흰 돌 (폴리시드 메탈),22500,1.5,액세서리,assets/models/stoneA.glb,metal_polished
+stonea_paint_clearcoat,매끄러운 흰 돌 (클리어코트 페인트),19500,1.65,액세서리,assets/models/stoneA.glb,paint_clearcoat
+stonea_fabric_sheen,매끄러운 흰 돌 (패브릭 쉰),17300,1.75,액세서리,assets/models/stoneA.glb,fabric_sheen
+stonea_glass_clear,매끄러운 흰 돌 (클리어 글래스),24000,1.4,액세서리,assets/models/stoneA.glb,glass_clear
+stonea_resin_tinted,매끄러운 흰 돌 (틴티드 레진),21800,1.55,액세서리,assets/models/stoneA.glb,resin_tinted
+stonea_matcap_clay,매끄러운 흰 돌 (클레이),15800,1.8,액세서리,assets/models/stoneA.glb,matcap_clay
+stonea_matcap_wax,매끄러운 흰 돌 (왁스),16500,1.75,액세서리,assets/models/stoneA.glb,matcap_wax
+stonea_matcap_chrome,매끄러운 흰 돌 (크롬),23300,1.45,액세서리,assets/models/stoneA.glb,matcap_chrome
+stonea_matcap_bronze,매끄러운 흰 돌 (브론즈),21000,1.6,액세서리,assets/models/stoneA.glb,matcap_bronze
+stonea_matcap_black_rubber,매끄러운 흰 돌 (블랙 러버),16200,1.8,액세서리,assets/models/stoneA.glb,matcap_black_rubber
+stonea_matcap_red_wax,매끄러운 흰 돌 (레드 왁스),17300,1.7,액세서리,assets/models/stoneA.glb,matcap_red_wax
+stonea_matcap_white_ceramic,매끄러운 흰 돌 (화이트 세라믹),18800,1.65,액세서리,assets/models/stoneA.glb,matcap_white_ceramic
+stonea_matcap_blue_gloss,매끄러운 흰 돌 (블루 글로시),18000,1.7,액세서리,assets/models/stoneA.glb,matcap_blue_gloss
+stonea_matcap_gold,매끄러운 흰 돌 (골드),25500,1.3,액세서리,assets/models/stoneA.glb,matcap_gold
+stonea_matcap_silver_soft,매끄러운 흰 돌 (소프트 실버),20300,1.6,액세서리,assets/models/stoneA.glb,matcap_silver_soft
+stoneb_plastic_matte,블록형 회색 돌 (매트 플라스틱),12000,1.9,액세서리,assets/models/stoneB.glb,plastic_matte
+stoneb_plastic_gloss,블록형 회색 돌 (글로시 플라스틱),13200,1.85,액세서리,assets/models/stoneB.glb,plastic_gloss
+stoneb_rubber_soft,블록형 회색 돌 (소프트 러버),12600,1.9,액세서리,assets/models/stoneB.glb,rubber_soft
+stoneb_ceramic_clean,블록형 회색 돌 (클린 세라믹),14400,1.8,액세서리,assets/models/stoneB.glb,ceramic_clean
+stoneb_metal_brushed,블록형 회색 돌 (브러시드 메탈),16200,1.7,액세서리,assets/models/stoneB.glb,metal_brushed
+stoneb_metal_polished,블록형 회색 돌 (폴리시드 메탈),18000,1.6,액세서리,assets/models/stoneB.glb,metal_polished
+stoneb_paint_clearcoat,블록형 회색 돌 (클리어코트 페인트),15600,1.75,액세서리,assets/models/stoneB.glb,paint_clearcoat
+stoneb_fabric_sheen,블록형 회색 돌 (패브릭 쉰),13800,1.85,액세서리,assets/models/stoneB.glb,fabric_sheen
+stoneb_glass_clear,블록형 회색 돌 (클리어 글래스),19200,1.5,액세서리,assets/models/stoneB.glb,glass_clear
+stoneb_resin_tinted,블록형 회색 돌 (틴티드 레진),17400,1.65,액세서리,assets/models/stoneB.glb,resin_tinted
+stoneb_matcap_clay,블록형 회색 돌 (클레이),12600,1.9,액세서리,assets/models/stoneB.glb,matcap_clay
+stoneb_matcap_wax,블록형 회색 돌 (왁스),13200,1.85,액세서리,assets/models/stoneB.glb,matcap_wax
+stoneb_matcap_chrome,블록형 회색 돌 (크롬),18600,1.55,액세서리,assets/models/stoneB.glb,matcap_chrome
+stoneb_matcap_bronze,블록형 회색 돌 (브론즈),16800,1.7,액세서리,assets/models/stoneB.glb,matcap_bronze
+stoneb_matcap_black_rubber,블록형 회색 돌 (블랙 러버),13000,1.9,액세서리,assets/models/stoneB.glb,matcap_black_rubber
+stoneb_matcap_red_wax,블록형 회색 돌 (레드 왁스),13800,1.8,액세서리,assets/models/stoneB.glb,matcap_red_wax
+stoneb_matcap_white_ceramic,블록형 회색 돌 (화이트 세라믹),15000,1.75,액세서리,assets/models/stoneB.glb,matcap_white_ceramic
+stoneb_matcap_blue_gloss,블록형 회색 돌 (블루 글로시),14400,1.8,액세서리,assets/models/stoneB.glb,matcap_blue_gloss
+stoneb_matcap_gold,블록형 회색 돌 (골드),20400,1.4,액세서리,assets/models/stoneB.glb,matcap_gold
+stoneb_matcap_silver_soft,블록형 회색 돌 (소프트 실버),16200,1.7,액세서리,assets/models/stoneB.glb,matcap_silver_soft
+stonec_plastic_matte,둥근 연록색 돌 (매트 플라스틱),18000,1.7,액세서리,assets/models/stoneC.glb,plastic_matte
+stonec_plastic_gloss,둥근 연록색 돌 (글로시 플라스틱),19800,1.65,액세서리,assets/models/stoneC.glb,plastic_gloss
+stonec_rubber_soft,둥근 연록색 돌 (소프트 러버),18900,1.7,액세서리,assets/models/stoneC.glb,rubber_soft
+stonec_ceramic_clean,둥근 연록색 돌 (클린 세라믹),21600,1.6,액세서리,assets/models/stoneC.glb,ceramic_clean
+stonec_metal_brushed,둥근 연록색 돌 (브러시드 메탈),24300,1.5,액세서리,assets/models/stoneC.glb,metal_brushed
+stonec_metal_polished,둥근 연록색 돌 (폴리시드 메탈),27000,1.4,액세서리,assets/models/stoneC.glb,metal_polished
+stonec_paint_clearcoat,둥근 연록색 돌 (클리어코트 페인트),23400,1.55,액세서리,assets/models/stoneC.glb,paint_clearcoat
+stonec_fabric_sheen,둥근 연록색 돌 (패브릭 쉰),20700,1.65,액세서리,assets/models/stoneC.glb,fabric_sheen
+stonec_glass_clear,둥근 연록색 돌 (클리어 글래스),28800,1.3,액세서리,assets/models/stoneC.glb,glass_clear
+stonec_resin_tinted,둥근 연록색 돌 (틴티드 레진),26100,1.45,액세서리,assets/models/stoneC.glb,resin_tinted
+stonec_matcap_clay,둥근 연록색 돌 (클레이),18900,1.7,액세서리,assets/models/stoneC.glb,matcap_clay
+stonec_matcap_wax,둥근 연록색 돌 (왁스),19800,1.65,액세서리,assets/models/stoneC.glb,matcap_wax
+stonec_matcap_chrome,둥근 연록색 돌 (크롬),27900,1.35,액세서리,assets/models/stoneC.glb,matcap_chrome
+stonec_matcap_bronze,둥근 연록색 돌 (브론즈),25200,1.5,액세서리,assets/models/stoneC.glb,matcap_bronze
+stonec_matcap_black_rubber,둥근 연록색 돌 (블랙 러버),19400,1.7,액세서리,assets/models/stoneC.glb,matcap_black_rubber
+stonec_matcap_red_wax,둥근 연록색 돌 (레드 왁스),20700,1.6,액세서리,assets/models/stoneC.glb,matcap_red_wax
+stonec_matcap_white_ceramic,둥근 연록색 돌 (화이트 세라믹),22500,1.55,액세서리,assets/models/stoneC.glb,matcap_white_ceramic
+stonec_matcap_blue_gloss,둥근 연록색 돌 (블루 글로시),21600,1.6,액세서리,assets/models/stoneC.glb,matcap_blue_gloss
+stonec_matcap_gold,둥근 연록색 돌 (골드),30600,1.2,액세서리,assets/models/stoneC.glb,matcap_gold
+stonec_matcap_silver_soft,둥근 연록색 돌 (소프트 실버),24300,1.5,액세서리,assets/models/stoneC.glb,matcap_silver_soft
+stoned_plastic_matte,거대한 원석 (매트 플라스틱),85000,0.6,액세서리,assets/models/stoneD.glb,plastic_matte
+stoned_plastic_gloss,거대한 원석 (글로시 플라스틱),93500,0.55,액세서리,assets/models/stoneD.glb,plastic_gloss
+stoned_rubber_soft,거대한 원석 (소프트 러버),89300,0.6,액세서리,assets/models/stoneD.glb,rubber_soft
+stoned_ceramic_clean,거대한 원석 (클린 세라믹),102000,0.5,액세서리,assets/models/stoneD.glb,ceramic_clean
+stoned_metal_brushed,거대한 원석 (브러시드 메탈),114800,0.4,액세서리,assets/models/stoneD.glb,metal_brushed
+stoned_metal_polished,거대한 원석 (폴리시드 메탈),127500,0.3,액세서리,assets/models/stoneD.glb,metal_polished
+stoned_paint_clearcoat,거대한 원석 (클리어코트 페인트),110500,0.45,액세서리,assets/models/stoneD.glb,paint_clearcoat
+stoned_fabric_sheen,거대한 원석 (패브릭 쉰),97700,0.55,액세서리,assets/models/stoneD.glb,fabric_sheen
+stoned_glass_clear,거대한 원석 (클리어 글래스),136000,0.2,액세서리,assets/models/stoneD.glb,glass_clear
+stoned_resin_tinted,거대한 원석 (틴티드 레진),123300,0.35,액세서리,assets/models/stoneD.glb,resin_tinted
+stoned_matcap_clay,거대한 원석 (클레이),89300,0.6,액세서리,assets/models/stoneD.glb,matcap_clay
+stoned_matcap_wax,거대한 원석 (왁스),93500,0.55,액세서리,assets/models/stoneD.glb,matcap_wax
+stoned_matcap_chrome,거대한 원석 (크롬),131800,0.25,액세서리,assets/models/stoneD.glb,matcap_chrome
+stoned_matcap_bronze,거대한 원석 (브론즈),119000,0.4,액세서리,assets/models/stoneD.glb,matcap_bronze
+stoned_matcap_black_rubber,거대한 원석 (블랙 러버),91800,0.6,액세서리,assets/models/stoneD.glb,matcap_black_rubber
+stoned_matcap_red_wax,거대한 원석 (레드 왁스),97700,0.5,액세서리,assets/models/stoneD.glb,matcap_red_wax
+stoned_matcap_white_ceramic,거대한 원석 (화이트 세라믹),106300,0.45,액세서리,assets/models/stoneD.glb,matcap_white_ceramic
+stoned_matcap_blue_gloss,거대한 원석 (블루 글로시),102000,0.5,액세서리,assets/models/stoneD.glb,matcap_blue_gloss
+stoned_matcap_gold,거대한 원석 (골드),144500,0.1,액세서리,assets/models/stoneD.glb,matcap_gold
+stoned_matcap_silver_soft,거대한 원석 (소프트 실버),114800,0.4,액세서리,assets/models/stoneD.glb,matcap_silver_soft
+stonee_plastic_matte,분리된 크리스탈 (매트 플라스틱),150000,0.3,액세서리,assets/models/stoneE.glb,plastic_matte
+stonee_plastic_gloss,분리된 크리스탈 (글로시 플라스틱),165000,0.25,액세서리,assets/models/stoneE.glb,plastic_gloss
+stonee_rubber_soft,분리된 크리스탈 (소프트 러버),157500,0.3,액세서리,assets/models/stoneE.glb,rubber_soft
+stonee_ceramic_clean,분리된 크리스탈 (클린 세라믹),180000,0.2,액세서리,assets/models/stoneE.glb,ceramic_clean
+stonee_metal_brushed,분리된 크리스탈 (브러시드 메탈),202500,0.1,액세서리,assets/models/stoneE.glb,metal_brushed
+stonee_metal_polished,분리된 크리스탈 (폴리시드 메탈),225000,0.1,액세서리,assets/models/stoneE.glb,metal_polished
+stonee_paint_clearcoat,분리된 크리스탈 (클리어코트 페인트),195000,0.15,액세서리,assets/models/stoneE.glb,paint_clearcoat
+stonee_fabric_sheen,분리된 크리스탈 (패브릭 쉰),172500,0.25,액세서리,assets/models/stoneE.glb,fabric_sheen
+stonee_glass_clear,분리된 크리스탈 (클리어 글래스),240000,0.1,액세서리,assets/models/stoneE.glb,glass_clear
+stonee_resin_tinted,분리된 크리스탈 (틴티드 레진),217500,0.1,액세서리,assets/models/stoneE.glb,resin_tinted
+stonee_matcap_clay,분리된 크리스탈 (클레이),157500,0.3,액세서리,assets/models/stoneE.glb,matcap_clay
+stonee_matcap_wax,분리된 크리스탈 (왁스),165000,0.25,액세서리,assets/models/stoneE.glb,matcap_wax
+stonee_matcap_chrome,분리된 크리스탈 (크롬),232500,0.1,액세서리,assets/models/stoneE.glb,matcap_chrome
+stonee_matcap_bronze,분리된 크리스탈 (브론즈),210000,0.1,액세서리,assets/models/stoneE.glb,matcap_bronze
+stonee_matcap_black_rubber,분리된 크리스탈 (블랙 러버),162000,0.3,액세서리,assets/models/stoneE.glb,matcap_black_rubber
+stonee_matcap_red_wax,분리된 크리스탈 (레드 왁스),172500,0.2,액세서리,assets/models/stoneE.glb,matcap_red_wax
+stonee_matcap_white_ceramic,분리된 크리스탈 (화이트 세라믹),187500,0.15,액세서리,assets/models/stoneE.glb,matcap_white_ceramic
+stonee_matcap_blue_gloss,분리된 크리스탈 (블루 글로시),180000,0.2,액세서리,assets/models/stoneE.glb,matcap_blue_gloss
+stonee_matcap_gold,분리된 크리스탈 (골드),255000,0.1,액세서리,assets/models/stoneE.glb,matcap_gold
+stonee_matcap_silver_soft,분리된 크리스탈 (소프트 실버),202500,0.1,액세서리,assets/models/stoneE.glb,matcap_silver_soft

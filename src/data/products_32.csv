@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+insectoniyanma_plastic_matte,오니야마 곤충 (매트 플라스틱),5000,1.8,액세서리,assets/models/InsectOniyanma.glb,plastic_matte
+insectoniyanma_plastic_gloss,오니야마 곤충 (글로시 플라스틱),5500,1.75,액세서리,assets/models/InsectOniyanma.glb,plastic_gloss
+insectoniyanma_rubber_soft,오니야마 곤충 (소프트 러버),5300,1.8,액세서리,assets/models/InsectOniyanma.glb,rubber_soft
+insectoniyanma_ceramic_clean,오니야마 곤충 (클린 세라믹),6000,1.7,액세서리,assets/models/InsectOniyanma.glb,ceramic_clean
+insectoniyanma_metal_brushed,오니야마 곤충 (브러시드 메탈),6800,1.6,액세서리,assets/models/InsectOniyanma.glb,metal_brushed
+insectoniyanma_metal_polished,오니야마 곤충 (폴리시드 메탈),7500,1.5,액세서리,assets/models/InsectOniyanma.glb,metal_polished
+insectoniyanma_paint_clearcoat,오니야마 곤충 (클리어코트 페인트),6500,1.65,액세서리,assets/models/InsectOniyanma.glb,paint_clearcoat
+insectoniyanma_fabric_sheen,오니야마 곤충 (패브릭 쉰),5800,1.75,액세서리,assets/models/InsectOniyanma.glb,fabric_sheen
+insectoniyanma_glass_clear,오니야마 곤충 (클리어 글래스),8000,1.4,액세서리,assets/models/InsectOniyanma.glb,glass_clear
+insectoniyanma_resin_tinted,오니야마 곤충 (틴티드 레진),7300,1.55,액세서리,assets/models/InsectOniyanma.glb,resin_tinted
+insectoniyanma_matcap_clay,오니야마 곤충 (클레이),5300,1.8,액세서리,assets/models/InsectOniyanma.glb,matcap_clay
+insectoniyanma_matcap_wax,오니야마 곤충 (왁스),5500,1.75,액세서리,assets/models/InsectOniyanma.glb,matcap_wax
+insectoniyanma_matcap_chrome,오니야마 곤충 (크롬),7800,1.45,액세서리,assets/models/InsectOniyanma.glb,matcap_chrome
+insectoniyanma_matcap_bronze,오니야마 곤충 (브론즈),7000,1.6,액세서리,assets/models/InsectOniyanma.glb,matcap_bronze
+insectoniyanma_matcap_black_rubber,오니야마 곤충 (블랙 러버),5400,1.8,액세서리,assets/models/InsectOniyanma.glb,matcap_black_rubber
+insectoniyanma_matcap_red_wax,오니야마 곤충 (레드 왁스),5800,1.7,액세서리,assets/models/InsectOniyanma.glb,matcap_red_wax
+insectoniyanma_matcap_white_ceramic,오니야마 곤충 (화이트 세라믹),6300,1.65,액세서리,assets/models/InsectOniyanma.glb,matcap_white_ceramic
+insectoniyanma_matcap_blue_gloss,오니야마 곤충 (블루 글로시),6000,1.7,액세서리,assets/models/InsectOniyanma.glb,matcap_blue_gloss
+insectoniyanma_matcap_gold,오니야마 곤충 (골드),8500,1.3,액세서리,assets/models/InsectOniyanma.glb,matcap_gold
+insectoniyanma_matcap_silver_soft,오니야마 곤충 (소프트 실버),6800,1.6,액세서리,assets/models/InsectOniyanma.glb,matcap_silver_soft
+insectougononikuwagata_plastic_matte,오우곤노니쿠와가타 곤충 (매트 플라스틱),10000,1.4,액세서리,assets/models/InsectOugononikuwagata.glb,plastic_matte
+insectougononikuwagata_plastic_gloss,오우곤노니쿠와가타 곤충 (글로시 플라스틱),11000,1.35,액세서리,assets/models/InsectOugononikuwagata.glb,plastic_gloss
+insectougononikuwagata_rubber_soft,오우곤노니쿠와가타 곤충 (소프트 러버),10500,1.4,액세서리,assets/models/InsectOugononikuwagata.glb,rubber_soft
+insectougononikuwagata_ceramic_clean,오우곤노니쿠와가타 곤충 (클린 세라믹),12000,1.3,액세서리,assets/models/InsectOugononikuwagata.glb,ceramic_clean
+insectougononikuwagata_metal_brushed,오우곤노니쿠와가타 곤충 (브러시드 메탈),13500,1.2,액세서리,assets/models/InsectOugononikuwagata.glb,metal_brushed
+insectougononikuwagata_metal_polished,오우곤노니쿠와가타 곤충 (폴리시드 메탈),15000,1.1,액세서리,assets/models/InsectOugononikuwagata.glb,metal_polished
+insectougononikuwagata_paint_clearcoat,오우곤노니쿠와가타 곤충 (클리어코트 페인트),13000,1.25,액세서리,assets/models/InsectOugononikuwagata.glb,paint_clearcoat
+insectougononikuwagata_fabric_sheen,오우곤노니쿠와가타 곤충 (패브릭 쉰),11500,1.35,액세서리,assets/models/InsectOugononikuwagata.glb,fabric_sheen
+insectougononikuwagata_glass_clear,오우곤노니쿠와가타 곤충 (클리어 글래스),16000,1,액세서리,assets/models/InsectOugononikuwagata.glb,glass_clear
+insectougononikuwagata_resin_tinted,오우곤노니쿠와가타 곤충 (틴티드 레진),14500,1.15,액세서리,assets/models/InsectOugononikuwagata.glb,resin_tinted
+insectougononikuwagata_matcap_clay,오우곤노니쿠와가타 곤충 (클레이),10500,1.4,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_clay
+insectougononikuwagata_matcap_wax,오우곤노니쿠와가타 곤충 (왁스),11000,1.35,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_wax
+insectougononikuwagata_matcap_chrome,오우곤노니쿠와가타 곤충 (크롬),15500,1.05,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_chrome
+insectougononikuwagata_matcap_bronze,오우곤노니쿠와가타 곤충 (브론즈),14000,1.2,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_bronze
+insectougononikuwagata_matcap_black_rubber,오우곤노니쿠와가타 곤충 (블랙 러버),10800,1.4,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_black_rubber
+insectougononikuwagata_matcap_red_wax,오우곤노니쿠와가타 곤충 (레드 왁스),11500,1.3,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_red_wax
+insectougononikuwagata_matcap_white_ceramic,오우곤노니쿠와가타 곤충 (화이트 세라믹),12500,1.25,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_white_ceramic
+insectougononikuwagata_matcap_blue_gloss,오우곤노니쿠와가타 곤충 (블루 글로시),12000,1.3,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_blue_gloss
+insectougononikuwagata_matcap_gold,오우곤노니쿠와가타 곤충 (골드),17000,0.9,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_gold
+insectougononikuwagata_matcap_silver_soft,오우곤노니쿠와가타 곤충 (소프트 실버),13500,1.2,액세서리,assets/models/InsectOugononikuwagata.glb,matcap_silver_soft
+insectruriboshikamikiri_plastic_matte,루리보시키카미키리 곤충 (매트 플라스틱),15000,0.8,액세서리,assets/models/InsectRuriboshikamikiri.glb,plastic_matte
+insectruriboshikamikiri_plastic_gloss,루리보시키카미키리 곤충 (글로시 플라스틱),16500,0.75,액세서리,assets/models/InsectRuriboshikamikiri.glb,plastic_gloss
+insectruriboshikamikiri_rubber_soft,루리보시키카미키리 곤충 (소프트 러버),15800,0.8,액세서리,assets/models/InsectRuriboshikamikiri.glb,rubber_soft
+insectruriboshikamikiri_ceramic_clean,루리보시키카미키리 곤충 (클린 세라믹),18000,0.7,액세서리,assets/models/InsectRuriboshikamikiri.glb,ceramic_clean
+insectruriboshikamikiri_metal_brushed,루리보시키카미키리 곤충 (브러시드 메탈),20300,0.6,액세서리,assets/models/InsectRuriboshikamikiri.glb,metal_brushed
+insectruriboshikamikiri_metal_polished,루리보시키카미키리 곤충 (폴리시드 메탈),22500,0.5,액세서리,assets/models/InsectRuriboshikamikiri.glb,metal_polished
+insectruriboshikamikiri_paint_clearcoat,루리보시키카미키리 곤충 (클리어코트 페인트),19500,0.65,액세서리,assets/models/InsectRuriboshikamikiri.glb,paint_clearcoat
+insectruriboshikamikiri_fabric_sheen,루리보시키카미키리 곤충 (패브릭 쉰),17300,0.75,액세서리,assets/models/InsectRuriboshikamikiri.glb,fabric_sheen
+insectruriboshikamikiri_glass_clear,루리보시키카미키리 곤충 (클리어 글래스),24000,0.4,액세서리,assets/models/InsectRuriboshikamikiri.glb,glass_clear
+insectruriboshikamikiri_resin_tinted,루리보시키카미키리 곤충 (틴티드 레진),21800,0.55,액세서리,assets/models/InsectRuriboshikamikiri.glb,resin_tinted
+insectruriboshikamikiri_matcap_clay,루리보시키카미키리 곤충 (클레이),15800,0.8,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_clay
+insectruriboshikamikiri_matcap_wax,루리보시키카미키리 곤충 (왁스),16500,0.75,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_wax
+insectruriboshikamikiri_matcap_chrome,루리보시키카미키리 곤충 (크롬),23300,0.45,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_chrome
+insectruriboshikamikiri_matcap_bronze,루리보시키카미키리 곤충 (브론즈),21000,0.6,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_bronze
+insectruriboshikamikiri_matcap_black_rubber,루리보시키카미키리 곤충 (블랙 러버),16200,0.8,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_black_rubber
+insectruriboshikamikiri_matcap_red_wax,루리보시키카미키리 곤충 (레드 왁스),17300,0.7,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_red_wax
+insectruriboshikamikiri_matcap_white_ceramic,루리보시키카미키리 곤충 (화이트 세라믹),18800,0.65,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_white_ceramic
+insectruriboshikamikiri_matcap_blue_gloss,루리보시키카미키리 곤충 (블루 글로시),18000,0.7,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_blue_gloss
+insectruriboshikamikiri_matcap_gold,루리보시키카미키리 곤충 (골드),25500,0.3,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_gold
+insectruriboshikamikiri_matcap_silver_soft,루리보시키카미키리 곤충 (소프트 실버),20300,0.6,액세서리,assets/models/InsectRuriboshikamikiri.glb,matcap_silver_soft
+insectsasori_plastic_matte,사스오리 곤충 (매트 플라스틱),20000,0.4,액세서리,assets/models/InsectSasori.glb,plastic_matte
+insectsasori_plastic_gloss,사스오리 곤충 (글로시 플라스틱),22000,0.35,액세서리,assets/models/InsectSasori.glb,plastic_gloss
+insectsasori_rubber_soft,사스오리 곤충 (소프트 러버),21000,0.4,액세서리,assets/models/InsectSasori.glb,rubber_soft
+insectsasori_ceramic_clean,사스오리 곤충 (클린 세라믹),24000,0.3,액세서리,assets/models/InsectSasori.glb,ceramic_clean
+insectsasori_metal_brushed,사스오리 곤충 (브러시드 메탈),27000,0.2,액세서리,assets/models/InsectSasori.glb,metal_brushed
+insectsasori_metal_polished,사스오리 곤충 (폴리시드 메탈),30000,0.1,액세서리,assets/models/InsectSasori.glb,metal_polished
+insectsasori_paint_clearcoat,사스오리 곤충 (클리어코트 페인트),26000,0.25,액세서리,assets/models/InsectSasori.glb,paint_clearcoat
+insectsasori_fabric_sheen,사스오리 곤충 (패브릭 쉰),23000,0.35,액세서리,assets/models/InsectSasori.glb,fabric_sheen
+insectsasori_glass_clear,사스오리 곤충 (클리어 글래스),32000,0.1,액세서리,assets/models/InsectSasori.glb,glass_clear
+insectsasori_resin_tinted,사스오리 곤충 (틴티드 레진),29000,0.15,액세서리,assets/models/InsectSasori.glb,resin_tinted
+insectsasori_matcap_clay,사스오리 곤충 (클레이),21000,0.4,액세서리,assets/models/InsectSasori.glb,matcap_clay
+insectsasori_matcap_wax,사스오리 곤충 (왁스),22000,0.35,액세서리,assets/models/InsectSasori.glb,matcap_wax
+insectsasori_matcap_chrome,사스오리 곤충 (크롬),31000,0.1,액세서리,assets/models/InsectSasori.glb,matcap_chrome
+insectsasori_matcap_bronze,사스오리 곤충 (브론즈),28000,0.2,액세서리,assets/models/InsectSasori.glb,matcap_bronze
+insectsasori_matcap_black_rubber,사스오리 곤충 (블랙 러버),21600,0.4,액세서리,assets/models/InsectSasori.glb,matcap_black_rubber
+insectsasori_matcap_red_wax,사스오리 곤충 (레드 왁스),23000,0.3,액세서리,assets/models/InsectSasori.glb,matcap_red_wax
+insectsasori_matcap_white_ceramic,사스오리 곤충 (화이트 세라믹),25000,0.25,액세서리,assets/models/InsectSasori.glb,matcap_white_ceramic
+insectsasori_matcap_blue_gloss,사스오리 곤충 (블루 글로시),24000,0.3,액세서리,assets/models/InsectSasori.glb,matcap_blue_gloss
+insectsasori_matcap_gold,사스오리 곤충 (골드),34000,0.1,액세서리,assets/models/InsectSasori.glb,matcap_gold
+insectsasori_matcap_silver_soft,사스오리 곤충 (소프트 실버),27000,0.2,액세서리,assets/models/InsectSasori.glb,matcap_silver_soft
+insectseminonukegara_plastic_matte,세미논우케가라 곤충 (매트 플라스틱),8000,1.6,액세서리,assets/models/InsectSeminonukegara.glb,plastic_matte
+insectseminonukegara_plastic_gloss,세미논우케가라 곤충 (글로시 플라스틱),8800,1.55,액세서리,assets/models/InsectSeminonukegara.glb,plastic_gloss
+insectseminonukegara_rubber_soft,세미논우케가라 곤충 (소프트 러버),8400,1.6,액세서리,assets/models/InsectSeminonukegara.glb,rubber_soft
+insectseminonukegara_ceramic_clean,세미논우케가라 곤충 (클린 세라믹),9600,1.5,액세서리,assets/models/InsectSeminonukegara.glb,ceramic_clean
+insectseminonukegara_metal_brushed,세미논우케가라 곤충 (브러시드 메탈),10800,1.4,액세서리,assets/models/InsectSeminonukegara.glb,metal_brushed
+insectseminonukegara_metal_polished,세미논우케가라 곤충 (폴리시드 메탈),12000,1.3,액세서리,assets/models/InsectSeminonukegara.glb,metal_polished
+insectseminonukegara_paint_clearcoat,세미논우케가라 곤충 (클리어코트 페인트),10400,1.45,액세서리,assets/models/InsectSeminonukegara.glb,paint_clearcoat
+insectseminonukegara_fabric_sheen,세미논우케가라 곤충 (패브릭 쉰),9200,1.55,액세서리,assets/models/InsectSeminonukegara.glb,fabric_sheen
+insectseminonukegara_glass_clear,세미논우케가라 곤충 (클리어 글래스),12800,1.2,액세서리,assets/models/InsectSeminonukegara.glb,glass_clear
+insectseminonukegara_resin_tinted,세미논우케가라 곤충 (틴티드 레진),11600,1.35,액세서리,assets/models/InsectSeminonukegara.glb,resin_tinted
+insectseminonukegara_matcap_clay,세미논우케가라 곤충 (클레이),8400,1.6,액세서리,assets/models/InsectSeminonukegara.glb,matcap_clay
+insectseminonukegara_matcap_wax,세미논우케가라 곤충 (왁스),8800,1.55,액세서리,assets/models/InsectSeminonukegara.glb,matcap_wax
+insectseminonukegara_matcap_chrome,세미논우케가라 곤충 (크롬),12400,1.25,액세서리,assets/models/InsectSeminonukegara.glb,matcap_chrome
+insectseminonukegara_matcap_bronze,세미논우케가라 곤충 (브론즈),11200,1.4,액세서리,assets/models/InsectSeminonukegara.glb,matcap_bronze
+insectseminonukegara_matcap_black_rubber,세미논우케가라 곤충 (블랙 러버),8600,1.6,액세서리,assets/models/InsectSeminonukegara.glb,matcap_black_rubber
+insectseminonukegara_matcap_red_wax,세미논우케가라 곤충 (레드 왁스),9200,1.5,액세서리,assets/models/InsectSeminonukegara.glb,matcap_red_wax
+insectseminonukegara_matcap_white_ceramic,세미논우케가라 곤충 (화이트 세라믹),10000,1.45,액세서리,assets/models/InsectSeminonukegara.glb,matcap_white_ceramic
+insectseminonukegara_matcap_blue_gloss,세미논우케가라 곤충 (블루 글로시),9600,1.5,액세서리,assets/models/InsectSeminonukegara.glb,matcap_blue_gloss
+insectseminonukegara_matcap_gold,세미논우케가라 곤충 (골드),13600,1.1,액세서리,assets/models/InsectSeminonukegara.glb,matcap_gold
+insectseminonukegara_matcap_silver_soft,세미논우케가라 곤충 (소프트 실버),10800,1.4,액세서리,assets/models/InsectSeminonukegara.glb,matcap_silver_soft
+insecttentoumushi_plastic_matte,곤충 텐토우무시 (매트 플라스틱),15000,0.8,액세서리,assets/models/InsectTentoumushi.glb,plastic_matte
+insecttentoumushi_plastic_gloss,곤충 텐토우무시 (글로시 플라스틱),16500,0.75,액세서리,assets/models/InsectTentoumushi.glb,plastic_gloss
+insecttentoumushi_rubber_soft,곤충 텐토우무시 (소프트 러버),15800,0.8,액세서리,assets/models/InsectTentoumushi.glb,rubber_soft
+insecttentoumushi_ceramic_clean,곤충 텐토우무시 (클린 세라믹),18000,0.7,액세서리,assets/models/InsectTentoumushi.glb,ceramic_clean
+insecttentoumushi_metal_brushed,곤충 텐토우무시 (브러시드 메탈),20300,0.6,액세서리,assets/models/InsectTentoumushi.glb,metal_brushed
+insecttentoumushi_metal_polished,곤충 텐토우무시 (폴리시드 메탈),22500,0.5,액세서리,assets/models/InsectTentoumushi.glb,metal_polished
+insecttentoumushi_paint_clearcoat,곤충 텐토우무시 (클리어코트 페인트),19500,0.65,액세서리,assets/models/InsectTentoumushi.glb,paint_clearcoat
+insecttentoumushi_fabric_sheen,곤충 텐토우무시 (패브릭 쉰),17300,0.75,액세서리,assets/models/InsectTentoumushi.glb,fabric_sheen
+insecttentoumushi_glass_clear,곤충 텐토우무시 (클리어 글래스),24000,0.4,액세서리,assets/models/InsectTentoumushi.glb,glass_clear
+insecttentoumushi_resin_tinted,곤충 텐토우무시 (틴티드 레진),21800,0.55,액세서리,assets/models/InsectTentoumushi.glb,resin_tinted
+insecttentoumushi_matcap_clay,곤충 텐토우무시 (클레이),15800,0.8,액세서리,assets/models/InsectTentoumushi.glb,matcap_clay
+insecttentoumushi_matcap_wax,곤충 텐토우무시 (왁스),16500,0.75,액세서리,assets/models/InsectTentoumushi.glb,matcap_wax
+insecttentoumushi_matcap_chrome,곤충 텐토우무시 (크롬),23300,0.45,액세서리,assets/models/InsectTentoumushi.glb,matcap_chrome
+insecttentoumushi_matcap_bronze,곤충 텐토우무시 (브론즈),21000,0.6,액세서리,assets/models/InsectTentoumushi.glb,matcap_bronze
+insecttentoumushi_matcap_black_rubber,곤충 텐토우무시 (블랙 러버),16200,0.8,액세서리,assets/models/InsectTentoumushi.glb,matcap_black_rubber
+insecttentoumushi_matcap_red_wax,곤충 텐토우무시 (레드 왁스),17300,0.7,액세서리,assets/models/InsectTentoumushi.glb,matcap_red_wax
+insecttentoumushi_matcap_white_ceramic,곤충 텐토우무시 (화이트 세라믹),18800,0.65,액세서리,assets/models/InsectTentoumushi.glb,matcap_white_ceramic
+insecttentoumushi_matcap_blue_gloss,곤충 텐토우무시 (블루 글로시),18000,0.7,액세서리,assets/models/InsectTentoumushi.glb,matcap_blue_gloss
+insecttentoumushi_matcap_gold,곤충 텐토우무시 (골드),25500,0.3,액세서리,assets/models/InsectTentoumushi.glb,matcap_gold
+insecttentoumushi_matcap_silver_soft,곤충 텐토우무시 (소프트 실버),20300,0.6,액세서리,assets/models/InsectTentoumushi.glb,matcap_silver_soft
+insectyutarowisp_plastic_matte,유타로 위스프 (매트 플라스틱),8000,1.5,액세서리,assets/models/InsectYutaroWisp.glb,plastic_matte
+insectyutarowisp_plastic_gloss,유타로 위스프 (글로시 플라스틱),8800,1.45,액세서리,assets/models/InsectYutaroWisp.glb,plastic_gloss
+insectyutarowisp_rubber_soft,유타로 위스프 (소프트 러버),8400,1.5,액세서리,assets/models/InsectYutaroWisp.glb,rubber_soft
+insectyutarowisp_ceramic_clean,유타로 위스프 (클린 세라믹),9600,1.4,액세서리,assets/models/InsectYutaroWisp.glb,ceramic_clean
+insectyutarowisp_metal_brushed,유타로 위스프 (브러시드 메탈),10800,1.3,액세서리,assets/models/InsectYutaroWisp.glb,metal_brushed
+insectyutarowisp_metal_polished,유타로 위스프 (폴리시드 메탈),12000,1.2,액세서리,assets/models/InsectYutaroWisp.glb,metal_polished
+insectyutarowisp_paint_clearcoat,유타로 위스프 (클리어코트 페인트),10400,1.35,액세서리,assets/models/InsectYutaroWisp.glb,paint_clearcoat
+insectyutarowisp_fabric_sheen,유타로 위스프 (패브릭 쉰),9200,1.45,액세서리,assets/models/InsectYutaroWisp.glb,fabric_sheen
+insectyutarowisp_glass_clear,유타로 위스프 (클리어 글래스),12800,1.1,액세서리,assets/models/InsectYutaroWisp.glb,glass_clear
+insectyutarowisp_resin_tinted,유타로 위스프 (틴티드 레진),11600,1.25,액세서리,assets/models/InsectYutaroWisp.glb,resin_tinted
+insectyutarowisp_matcap_clay,유타로 위스프 (클레이),8400,1.5,액세서리,assets/models/InsectYutaroWisp.glb,matcap_clay
+insectyutarowisp_matcap_wax,유타로 위스프 (왁스),8800,1.45,액세서리,assets/models/InsectYutaroWisp.glb,matcap_wax
+insectyutarowisp_matcap_chrome,유타로 위스프 (크롬),12400,1.15,액세서리,assets/models/InsectYutaroWisp.glb,matcap_chrome
+insectyutarowisp_matcap_bronze,유타로 위스프 (브론즈),11200,1.3,액세서리,assets/models/InsectYutaroWisp.glb,matcap_bronze
+insectyutarowisp_matcap_black_rubber,유타로 위스프 (블랙 러버),8600,1.5,액세서리,assets/models/InsectYutaroWisp.glb,matcap_black_rubber
+insectyutarowisp_matcap_red_wax,유타로 위스프 (레드 왁스),9200,1.4,액세서리,assets/models/InsectYutaroWisp.glb,matcap_red_wax
+insectyutarowisp_matcap_white_ceramic,유타로 위스프 (화이트 세라믹),10000,1.35,액세서리,assets/models/InsectYutaroWisp.glb,matcap_white_ceramic
+insectyutarowisp_matcap_blue_gloss,유타로 위스프 (블루 글로시),9600,1.4,액세서리,assets/models/InsectYutaroWisp.glb,matcap_blue_gloss
+insectyutarowisp_matcap_gold,유타로 위스프 (골드),13600,1,액세서리,assets/models/InsectYutaroWisp.glb,matcap_gold
+insectyutarowisp_matcap_silver_soft,유타로 위스프 (소프트 실버),10800,1.3,액세서리,assets/models/InsectYutaroWisp.glb,matcap_silver_soft
+pillar00_plastic_matte,기둥 00 (매트 플라스틱),10000,1.4,액세서리,assets/models/Pillar00.glb,plastic_matte
+pillar00_plastic_gloss,기둥 00 (글로시 플라스틱),11000,1.35,액세서리,assets/models/Pillar00.glb,plastic_gloss
+pillar00_rubber_soft,기둥 00 (소프트 러버),10500,1.4,액세서리,assets/models/Pillar00.glb,rubber_soft
+pillar00_ceramic_clean,기둥 00 (클린 세라믹),12000,1.3,액세서리,assets/models/Pillar00.glb,ceramic_clean
+pillar00_metal_brushed,기둥 00 (브러시드 메탈),13500,1.2,액세서리,assets/models/Pillar00.glb,metal_brushed
+pillar00_metal_polished,기둥 00 (폴리시드 메탈),15000,1.1,액세서리,assets/models/Pillar00.glb,metal_polished
+pillar00_paint_clearcoat,기둥 00 (클리어코트 페인트),13000,1.25,액세서리,assets/models/Pillar00.glb,paint_clearcoat
+pillar00_fabric_sheen,기둥 00 (패브릭 쉰),11500,1.35,액세서리,assets/models/Pillar00.glb,fabric_sheen
+pillar00_glass_clear,기둥 00 (클리어 글래스),16000,1,액세서리,assets/models/Pillar00.glb,glass_clear
+pillar00_resin_tinted,기둥 00 (틴티드 레진),14500,1.15,액세서리,assets/models/Pillar00.glb,resin_tinted
+pillar00_matcap_clay,기둥 00 (클레이),10500,1.4,액세서리,assets/models/Pillar00.glb,matcap_clay
+pillar00_matcap_wax,기둥 00 (왁스),11000,1.35,액세서리,assets/models/Pillar00.glb,matcap_wax
+pillar00_matcap_chrome,기둥 00 (크롬),15500,1.05,액세서리,assets/models/Pillar00.glb,matcap_chrome
+pillar00_matcap_bronze,기둥 00 (브론즈),14000,1.2,액세서리,assets/models/Pillar00.glb,matcap_bronze
+pillar00_matcap_black_rubber,기둥 00 (블랙 러버),10800,1.4,액세서리,assets/models/Pillar00.glb,matcap_black_rubber
+pillar00_matcap_red_wax,기둥 00 (레드 왁스),11500,1.3,액세서리,assets/models/Pillar00.glb,matcap_red_wax
+pillar00_matcap_white_ceramic,기둥 00 (화이트 세라믹),12500,1.25,액세서리,assets/models/Pillar00.glb,matcap_white_ceramic
+pillar00_matcap_blue_gloss,기둥 00 (블루 글로시),12000,1.3,액세서리,assets/models/Pillar00.glb,matcap_blue_gloss
+pillar00_matcap_gold,기둥 00 (골드),17000,0.9,액세서리,assets/models/Pillar00.glb,matcap_gold
+pillar00_matcap_silver_soft,기둥 00 (소프트 실버),13500,1.2,액세서리,assets/models/Pillar00.glb,matcap_silver_soft
+pinata00_plastic_matte,피나타 00 (매트 플라스틱),25000,0.6,액세서리,assets/models/Pinata00.glb,plastic_matte
+pinata00_plastic_gloss,피나타 00 (글로시 플라스틱),27500,0.55,액세서리,assets/models/Pinata00.glb,plastic_gloss
+pinata00_rubber_soft,피나타 00 (소프트 러버),26300,0.6,액세서리,assets/models/Pinata00.glb,rubber_soft
+pinata00_ceramic_clean,피나타 00 (클린 세라믹),30000,0.5,액세서리,assets/models/Pinata00.glb,ceramic_clean
+pinata00_metal_brushed,피나타 00 (브러시드 메탈),33800,0.4,액세서리,assets/models/Pinata00.glb,metal_brushed
+pinata00_metal_polished,피나타 00 (폴리시드 메탈),37500,0.3,액세서리,assets/models/Pinata00.glb,metal_polished
+pinata00_paint_clearcoat,피나타 00 (클리어코트 페인트),32500,0.45,액세서리,assets/models/Pinata00.glb,paint_clearcoat
+pinata00_fabric_sheen,피나타 00 (패브릭 쉰),28700,0.55,액세서리,assets/models/Pinata00.glb,fabric_sheen
+pinata00_glass_clear,피나타 00 (클리어 글래스),40000,0.2,액세서리,assets/models/Pinata00.glb,glass_clear
+pinata00_resin_tinted,피나타 00 (틴티드 레진),36300,0.35,액세서리,assets/models/Pinata00.glb,resin_tinted
+pinata00_matcap_clay,피나타 00 (클레이),26300,0.6,액세서리,assets/models/Pinata00.glb,matcap_clay
+pinata00_matcap_wax,피나타 00 (왁스),27500,0.55,액세서리,assets/models/Pinata00.glb,matcap_wax
+pinata00_matcap_chrome,피나타 00 (크롬),38800,0.25,액세서리,assets/models/Pinata00.glb,matcap_chrome
+pinata00_matcap_bronze,피나타 00 (브론즈),35000,0.4,액세서리,assets/models/Pinata00.glb,matcap_bronze
+pinata00_matcap_black_rubber,피나타 00 (블랙 러버),27000,0.6,액세서리,assets/models/Pinata00.glb,matcap_black_rubber
+pinata00_matcap_red_wax,피나타 00 (레드 왁스),28700,0.5,액세서리,assets/models/Pinata00.glb,matcap_red_wax
+pinata00_matcap_white_ceramic,피나타 00 (화이트 세라믹),31300,0.45,액세서리,assets/models/Pinata00.glb,matcap_white_ceramic
+pinata00_matcap_blue_gloss,피나타 00 (블루 글로시),30000,0.5,액세서리,assets/models/Pinata00.glb,matcap_blue_gloss
+pinata00_matcap_gold,피나타 00 (골드),42500,0.1,액세서리,assets/models/Pinata00.glb,matcap_gold
+pinata00_matcap_silver_soft,피나타 00 (소프트 실버),33800,0.4,액세서리,assets/models/Pinata00.glb,matcap_silver_soft
+pltflwanemone0_plastic_matte,해산수 0 (매트 플라스틱),12000,1.2,액세서리,assets/models/PltFlwAnemone0.glb,plastic_matte
+pltflwanemone0_plastic_gloss,해산수 0 (글로시 플라스틱),13200,1.15,액세서리,assets/models/PltFlwAnemone0.glb,plastic_gloss
+pltflwanemone0_rubber_soft,해산수 0 (소프트 러버),12600,1.2,액세서리,assets/models/PltFlwAnemone0.glb,rubber_soft
+pltflwanemone0_ceramic_clean,해산수 0 (클린 세라믹),14400,1.1,액세서리,assets/models/PltFlwAnemone0.glb,ceramic_clean
+pltflwanemone0_metal_brushed,해산수 0 (브러시드 메탈),16200,1,액세서리,assets/models/PltFlwAnemone0.glb,metal_brushed
+pltflwanemone0_metal_polished,해산수 0 (폴리시드 메탈),18000,0.9,액세서리,assets/models/PltFlwAnemone0.glb,metal_polished
+pltflwanemone0_paint_clearcoat,해산수 0 (클리어코트 페인트),15600,1.05,액세서리,assets/models/PltFlwAnemone0.glb,paint_clearcoat
+pltflwanemone0_fabric_sheen,해산수 0 (패브릭 쉰),13800,1.15,액세서리,assets/models/PltFlwAnemone0.glb,fabric_sheen
+pltflwanemone0_glass_clear,해산수 0 (클리어 글래스),19200,0.8,액세서리,assets/models/PltFlwAnemone0.glb,glass_clear
+pltflwanemone0_resin_tinted,해산수 0 (틴티드 레진),17400,0.95,액세서리,assets/models/PltFlwAnemone0.glb,resin_tinted
+pltflwanemone0_matcap_clay,해산수 0 (클레이),12600,1.2,액세서리,assets/models/PltFlwAnemone0.glb,matcap_clay
+pltflwanemone0_matcap_wax,해산수 0 (왁스),13200,1.15,액세서리,assets/models/PltFlwAnemone0.glb,matcap_wax
+pltflwanemone0_matcap_chrome,해산수 0 (크롬),18600,0.85,액세서리,assets/models/PltFlwAnemone0.glb,matcap_chrome
+pltflwanemone0_matcap_bronze,해산수 0 (브론즈),16800,1,액세서리,assets/models/PltFlwAnemone0.glb,matcap_bronze
+pltflwanemone0_matcap_black_rubber,해산수 0 (블랙 러버),13000,1.2,액세서리,assets/models/PltFlwAnemone0.glb,matcap_black_rubber
+pltflwanemone0_matcap_red_wax,해산수 0 (레드 왁스),13800,1.1,액세서리,assets/models/PltFlwAnemone0.glb,matcap_red_wax
+pltflwanemone0_matcap_white_ceramic,해산수 0 (화이트 세라믹),15000,1.05,액세서리,assets/models/PltFlwAnemone0.glb,matcap_white_ceramic
+pltflwanemone0_matcap_blue_gloss,해산수 0 (블루 글로시),14400,1.1,액세서리,assets/models/PltFlwAnemone0.glb,matcap_blue_gloss
+pltflwanemone0_matcap_gold,해산수 0 (골드),20400,0.7,액세서리,assets/models/PltFlwAnemone0.glb,matcap_gold
+pltflwanemone0_matcap_silver_soft,해산수 0 (소프트 실버),16200,1,액세서리,assets/models/PltFlwAnemone0.glb,matcap_silver_soft

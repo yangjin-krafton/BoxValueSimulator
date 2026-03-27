@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+evtobjpartshata_plastic_matte,새해 톱햇 (블루) (매트 플라스틱),8000,1,액세서리,assets/models/EvtobjPartsHatA.glb,plastic_matte
+evtobjpartshata_plastic_gloss,새해 톱햇 (블루) (글로시 플라스틱),8800,0.95,액세서리,assets/models/EvtobjPartsHatA.glb,plastic_gloss
+evtobjpartshata_rubber_soft,새해 톱햇 (블루) (소프트 러버),8400,1,액세서리,assets/models/EvtobjPartsHatA.glb,rubber_soft
+evtobjpartshata_ceramic_clean,새해 톱햇 (블루) (클린 세라믹),9600,0.9,액세서리,assets/models/EvtobjPartsHatA.glb,ceramic_clean
+evtobjpartshata_metal_brushed,새해 톱햇 (블루) (브러시드 메탈),10800,0.8,액세서리,assets/models/EvtobjPartsHatA.glb,metal_brushed
+evtobjpartshata_metal_polished,새해 톱햇 (블루) (폴리시드 메탈),12000,0.7,액세서리,assets/models/EvtobjPartsHatA.glb,metal_polished
+evtobjpartshata_paint_clearcoat,새해 톱햇 (블루) (클리어코트 페인트),10400,0.85,액세서리,assets/models/EvtobjPartsHatA.glb,paint_clearcoat
+evtobjpartshata_fabric_sheen,새해 톱햇 (블루) (패브릭 쉰),9200,0.95,액세서리,assets/models/EvtobjPartsHatA.glb,fabric_sheen
+evtobjpartshata_glass_clear,새해 톱햇 (블루) (클리어 글래스),12800,0.6,액세서리,assets/models/EvtobjPartsHatA.glb,glass_clear
+evtobjpartshata_resin_tinted,새해 톱햇 (블루) (틴티드 레진),11600,0.75,액세서리,assets/models/EvtobjPartsHatA.glb,resin_tinted
+evtobjpartshata_matcap_clay,새해 톱햇 (블루) (클레이),8400,1,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_clay
+evtobjpartshata_matcap_wax,새해 톱햇 (블루) (왁스),8800,0.95,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_wax
+evtobjpartshata_matcap_chrome,새해 톱햇 (블루) (크롬),12400,0.65,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_chrome
+evtobjpartshata_matcap_bronze,새해 톱햇 (블루) (브론즈),11200,0.8,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_bronze
+evtobjpartshata_matcap_black_rubber,새해 톱햇 (블루) (블랙 러버),8600,1,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_black_rubber
+evtobjpartshata_matcap_red_wax,새해 톱햇 (블루) (레드 왁스),9200,0.9,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_red_wax
+evtobjpartshata_matcap_white_ceramic,새해 톱햇 (블루) (화이트 세라믹),10000,0.85,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_white_ceramic
+evtobjpartshata_matcap_blue_gloss,새해 톱햇 (블루) (블루 글로시),9600,0.9,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_blue_gloss
+evtobjpartshata_matcap_gold,새해 톱햇 (블루) (골드),13600,0.5,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_gold
+evtobjpartshata_matcap_silver_soft,새해 톱햇 (블루) (소프트 실버),10800,0.8,액세서리,assets/models/EvtobjPartsHatA.glb,matcap_silver_soft
+evtobjpartshatb_plastic_matte,새해 톱햇 (그린) (매트 플라스틱),8000,1,액세서리,assets/models/EvtobjPartsHatB.glb,plastic_matte
+evtobjpartshatb_plastic_gloss,새해 톱햇 (그린) (글로시 플라스틱),8800,0.95,액세서리,assets/models/EvtobjPartsHatB.glb,plastic_gloss
+evtobjpartshatb_rubber_soft,새해 톱햇 (그린) (소프트 러버),8400,1,액세서리,assets/models/EvtobjPartsHatB.glb,rubber_soft
+evtobjpartshatb_ceramic_clean,새해 톱햇 (그린) (클린 세라믹),9600,0.9,액세서리,assets/models/EvtobjPartsHatB.glb,ceramic_clean
+evtobjpartshatb_metal_brushed,새해 톱햇 (그린) (브러시드 메탈),10800,0.8,액세서리,assets/models/EvtobjPartsHatB.glb,metal_brushed
+evtobjpartshatb_metal_polished,새해 톱햇 (그린) (폴리시드 메탈),12000,0.7,액세서리,assets/models/EvtobjPartsHatB.glb,metal_polished
+evtobjpartshatb_paint_clearcoat,새해 톱햇 (그린) (클리어코트 페인트),10400,0.85,액세서리,assets/models/EvtobjPartsHatB.glb,paint_clearcoat
+evtobjpartshatb_fabric_sheen,새해 톱햇 (그린) (패브릭 쉰),9200,0.95,액세서리,assets/models/EvtobjPartsHatB.glb,fabric_sheen
+evtobjpartshatb_glass_clear,새해 톱햇 (그린) (클리어 글래스),12800,0.6,액세서리,assets/models/EvtobjPartsHatB.glb,glass_clear
+evtobjpartshatb_resin_tinted,새해 톱햇 (그린) (틴티드 레진),11600,0.75,액세서리,assets/models/EvtobjPartsHatB.glb,resin_tinted
+evtobjpartshatb_matcap_clay,새해 톱햇 (그린) (클레이),8400,1,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_clay
+evtobjpartshatb_matcap_wax,새해 톱햇 (그린) (왁스),8800,0.95,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_wax
+evtobjpartshatb_matcap_chrome,새해 톱햇 (그린) (크롬),12400,0.65,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_chrome
+evtobjpartshatb_matcap_bronze,새해 톱햇 (그린) (브론즈),11200,0.8,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_bronze
+evtobjpartshatb_matcap_black_rubber,새해 톱햇 (그린) (블랙 러버),8600,1,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_black_rubber
+evtobjpartshatb_matcap_red_wax,새해 톱햇 (그린) (레드 왁스),9200,0.9,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_red_wax
+evtobjpartshatb_matcap_white_ceramic,새해 톱햇 (그린) (화이트 세라믹),10000,0.85,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_white_ceramic
+evtobjpartshatb_matcap_blue_gloss,새해 톱햇 (그린) (블루 글로시),9600,0.9,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_blue_gloss
+evtobjpartshatb_matcap_gold,새해 톱햇 (그린) (골드),13600,0.5,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_gold
+evtobjpartshatb_matcap_silver_soft,새해 톱햇 (그린) (소프트 실버),10800,0.8,액세서리,assets/models/EvtobjPartsHatB.glb,matcap_silver_soft
+evtobjpartshatc_plastic_matte,새해 톱햇 (핑크) (매트 플라스틱),8000,1,액세서리,assets/models/EvtobjPartsHatC.glb,plastic_matte
+evtobjpartshatc_plastic_gloss,새해 톱햇 (핑크) (글로시 플라스틱),8800,0.95,액세서리,assets/models/EvtobjPartsHatC.glb,plastic_gloss
+evtobjpartshatc_rubber_soft,새해 톱햇 (핑크) (소프트 러버),8400,1,액세서리,assets/models/EvtobjPartsHatC.glb,rubber_soft
+evtobjpartshatc_ceramic_clean,새해 톱햇 (핑크) (클린 세라믹),9600,0.9,액세서리,assets/models/EvtobjPartsHatC.glb,ceramic_clean
+evtobjpartshatc_metal_brushed,새해 톱햇 (핑크) (브러시드 메탈),10800,0.8,액세서리,assets/models/EvtobjPartsHatC.glb,metal_brushed
+evtobjpartshatc_metal_polished,새해 톱햇 (핑크) (폴리시드 메탈),12000,0.7,액세서리,assets/models/EvtobjPartsHatC.glb,metal_polished
+evtobjpartshatc_paint_clearcoat,새해 톱햇 (핑크) (클리어코트 페인트),10400,0.85,액세서리,assets/models/EvtobjPartsHatC.glb,paint_clearcoat
+evtobjpartshatc_fabric_sheen,새해 톱햇 (핑크) (패브릭 쉰),9200,0.95,액세서리,assets/models/EvtobjPartsHatC.glb,fabric_sheen
+evtobjpartshatc_glass_clear,새해 톱햇 (핑크) (클리어 글래스),12800,0.6,액세서리,assets/models/EvtobjPartsHatC.glb,glass_clear
+evtobjpartshatc_resin_tinted,새해 톱햇 (핑크) (틴티드 레진),11600,0.75,액세서리,assets/models/EvtobjPartsHatC.glb,resin_tinted
+evtobjpartshatc_matcap_clay,새해 톱햇 (핑크) (클레이),8400,1,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_clay
+evtobjpartshatc_matcap_wax,새해 톱햇 (핑크) (왁스),8800,0.95,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_wax
+evtobjpartshatc_matcap_chrome,새해 톱햇 (핑크) (크롬),12400,0.65,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_chrome
+evtobjpartshatc_matcap_bronze,새해 톱햇 (핑크) (브론즈),11200,0.8,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_bronze
+evtobjpartshatc_matcap_black_rubber,새해 톱햇 (핑크) (블랙 러버),8600,1,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_black_rubber
+evtobjpartshatc_matcap_red_wax,새해 톱햇 (핑크) (레드 왁스),9200,0.9,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_red_wax
+evtobjpartshatc_matcap_white_ceramic,새해 톱햇 (핑크) (화이트 세라믹),10000,0.85,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_white_ceramic
+evtobjpartshatc_matcap_blue_gloss,새해 톱햇 (핑크) (블루 글로시),9600,0.9,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_blue_gloss
+evtobjpartshatc_matcap_gold,새해 톱햇 (핑크) (골드),13600,0.5,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_gold
+evtobjpartshatc_matcap_silver_soft,새해 톱햇 (핑크) (소프트 실버),10800,0.8,액세서리,assets/models/EvtobjPartsHatC.glb,matcap_silver_soft
+evtobjstallhgh_plastic_matte,해변 휴게소 (매트 플라스틱),80000,0.9,가구,assets/models/EvtobjStallHgh.glb,plastic_matte
+evtobjstallhgh_plastic_gloss,해변 휴게소 (글로시 플라스틱),88000,0.85,가구,assets/models/EvtobjStallHgh.glb,plastic_gloss
+evtobjstallhgh_rubber_soft,해변 휴게소 (소프트 러버),84000,0.9,가구,assets/models/EvtobjStallHgh.glb,rubber_soft
+evtobjstallhgh_ceramic_clean,해변 휴게소 (클린 세라믹),96000,0.8,가구,assets/models/EvtobjStallHgh.glb,ceramic_clean
+evtobjstallhgh_metal_brushed,해변 휴게소 (브러시드 메탈),108000,0.7,가구,assets/models/EvtobjStallHgh.glb,metal_brushed
+evtobjstallhgh_metal_polished,해변 휴게소 (폴리시드 메탈),120000,0.6,가구,assets/models/EvtobjStallHgh.glb,metal_polished
+evtobjstallhgh_paint_clearcoat,해변 휴게소 (클리어코트 페인트),104000,0.75,가구,assets/models/EvtobjStallHgh.glb,paint_clearcoat
+evtobjstallhgh_fabric_sheen,해변 휴게소 (패브릭 쉰),92000,0.85,가구,assets/models/EvtobjStallHgh.glb,fabric_sheen
+evtobjstallhgh_glass_clear,해변 휴게소 (클리어 글래스),128000,0.5,가구,assets/models/EvtobjStallHgh.glb,glass_clear
+evtobjstallhgh_resin_tinted,해변 휴게소 (틴티드 레진),116000,0.65,가구,assets/models/EvtobjStallHgh.glb,resin_tinted
+evtobjstallhgh_matcap_clay,해변 휴게소 (클레이),84000,0.9,가구,assets/models/EvtobjStallHgh.glb,matcap_clay
+evtobjstallhgh_matcap_wax,해변 휴게소 (왁스),88000,0.85,가구,assets/models/EvtobjStallHgh.glb,matcap_wax
+evtobjstallhgh_matcap_chrome,해변 휴게소 (크롬),124000,0.55,가구,assets/models/EvtobjStallHgh.glb,matcap_chrome
+evtobjstallhgh_matcap_bronze,해변 휴게소 (브론즈),112000,0.7,가구,assets/models/EvtobjStallHgh.glb,matcap_bronze
+evtobjstallhgh_matcap_black_rubber,해변 휴게소 (블랙 러버),86400,0.9,가구,assets/models/EvtobjStallHgh.glb,matcap_black_rubber
+evtobjstallhgh_matcap_red_wax,해변 휴게소 (레드 왁스),92000,0.8,가구,assets/models/EvtobjStallHgh.glb,matcap_red_wax
+evtobjstallhgh_matcap_white_ceramic,해변 휴게소 (화이트 세라믹),100000,0.75,가구,assets/models/EvtobjStallHgh.glb,matcap_white_ceramic
+evtobjstallhgh_matcap_blue_gloss,해변 휴게소 (블루 글로시),96000,0.8,가구,assets/models/EvtobjStallHgh.glb,matcap_blue_gloss
+evtobjstallhgh_matcap_gold,해변 휴게소 (골드),136000,0.4,가구,assets/models/EvtobjStallHgh.glb,matcap_gold
+evtobjstallhgh_matcap_silver_soft,해변 휴게소 (소프트 실버),108000,0.7,가구,assets/models/EvtobjStallHgh.glb,matcap_silver_soft
+evtobjstallskk_plastic_matte,시장 부스 (매트 플라스틱),80000,0.9,가구,assets/models/EvtobjStallSkk.glb,plastic_matte
+evtobjstallskk_plastic_gloss,시장 부스 (글로시 플라스틱),88000,0.85,가구,assets/models/EvtobjStallSkk.glb,plastic_gloss
+evtobjstallskk_rubber_soft,시장 부스 (소프트 러버),84000,0.9,가구,assets/models/EvtobjStallSkk.glb,rubber_soft
+evtobjstallskk_ceramic_clean,시장 부스 (클린 세라믹),96000,0.8,가구,assets/models/EvtobjStallSkk.glb,ceramic_clean
+evtobjstallskk_metal_brushed,시장 부스 (브러시드 메탈),108000,0.7,가구,assets/models/EvtobjStallSkk.glb,metal_brushed
+evtobjstallskk_metal_polished,시장 부스 (폴리시드 메탈),120000,0.6,가구,assets/models/EvtobjStallSkk.glb,metal_polished
+evtobjstallskk_paint_clearcoat,시장 부스 (클리어코트 페인트),104000,0.75,가구,assets/models/EvtobjStallSkk.glb,paint_clearcoat
+evtobjstallskk_fabric_sheen,시장 부스 (패브릭 쉰),92000,0.85,가구,assets/models/EvtobjStallSkk.glb,fabric_sheen
+evtobjstallskk_glass_clear,시장 부스 (클리어 글래스),128000,0.5,가구,assets/models/EvtobjStallSkk.glb,glass_clear
+evtobjstallskk_resin_tinted,시장 부스 (틴티드 레진),116000,0.65,가구,assets/models/EvtobjStallSkk.glb,resin_tinted
+evtobjstallskk_matcap_clay,시장 부스 (클레이),84000,0.9,가구,assets/models/EvtobjStallSkk.glb,matcap_clay
+evtobjstallskk_matcap_wax,시장 부스 (왁스),88000,0.85,가구,assets/models/EvtobjStallSkk.glb,matcap_wax
+evtobjstallskk_matcap_chrome,시장 부스 (크롬),124000,0.55,가구,assets/models/EvtobjStallSkk.glb,matcap_chrome
+evtobjstallskk_matcap_bronze,시장 부스 (브론즈),112000,0.7,가구,assets/models/EvtobjStallSkk.glb,matcap_bronze
+evtobjstallskk_matcap_black_rubber,시장 부스 (블랙 러버),86400,0.9,가구,assets/models/EvtobjStallSkk.glb,matcap_black_rubber
+evtobjstallskk_matcap_red_wax,시장 부스 (레드 왁스),92000,0.8,가구,assets/models/EvtobjStallSkk.glb,matcap_red_wax
+evtobjstallskk_matcap_white_ceramic,시장 부스 (화이트 세라믹),100000,0.75,가구,assets/models/EvtobjStallSkk.glb,matcap_white_ceramic
+evtobjstallskk_matcap_blue_gloss,시장 부스 (블루 글로시),96000,0.8,가구,assets/models/EvtobjStallSkk.glb,matcap_blue_gloss
+evtobjstallskk_matcap_gold,시장 부스 (골드),136000,0.4,가구,assets/models/EvtobjStallSkk.glb,matcap_gold
+evtobjstallskk_matcap_silver_soft,시장 부스 (소프트 실버),108000,0.7,가구,assets/models/EvtobjStallSkk.glb,matcap_silver_soft
+fishangelfish_plastic_matte,앵그리피쉬 (매트 플라스틱),80000,0.8,장식물,assets/models/FishAngelfish.glb,plastic_matte
+fishangelfish_plastic_gloss,앵그리피쉬 (글로시 플라스틱),88000,0.75,장식물,assets/models/FishAngelfish.glb,plastic_gloss
+fishangelfish_rubber_soft,앵그리피쉬 (소프트 러버),84000,0.8,장식물,assets/models/FishAngelfish.glb,rubber_soft
+fishangelfish_ceramic_clean,앵그리피쉬 (클린 세라믹),96000,0.7,장식물,assets/models/FishAngelfish.glb,ceramic_clean
+fishangelfish_metal_brushed,앵그리피쉬 (브러시드 메탈),108000,0.6,장식물,assets/models/FishAngelfish.glb,metal_brushed
+fishangelfish_metal_polished,앵그리피쉬 (폴리시드 메탈),120000,0.5,장식물,assets/models/FishAngelfish.glb,metal_polished
+fishangelfish_paint_clearcoat,앵그리피쉬 (클리어코트 페인트),104000,0.65,장식물,assets/models/FishAngelfish.glb,paint_clearcoat
+fishangelfish_fabric_sheen,앵그리피쉬 (패브릭 쉰),92000,0.75,장식물,assets/models/FishAngelfish.glb,fabric_sheen
+fishangelfish_glass_clear,앵그리피쉬 (클리어 글래스),128000,0.4,장식물,assets/models/FishAngelfish.glb,glass_clear
+fishangelfish_resin_tinted,앵그리피쉬 (틴티드 레진),116000,0.55,장식물,assets/models/FishAngelfish.glb,resin_tinted
+fishangelfish_matcap_clay,앵그리피쉬 (클레이),84000,0.8,장식물,assets/models/FishAngelfish.glb,matcap_clay
+fishangelfish_matcap_wax,앵그리피쉬 (왁스),88000,0.75,장식물,assets/models/FishAngelfish.glb,matcap_wax
+fishangelfish_matcap_chrome,앵그리피쉬 (크롬),124000,0.45,장식물,assets/models/FishAngelfish.glb,matcap_chrome
+fishangelfish_matcap_bronze,앵그리피쉬 (브론즈),112000,0.6,장식물,assets/models/FishAngelfish.glb,matcap_bronze
+fishangelfish_matcap_black_rubber,앵그리피쉬 (블랙 러버),86400,0.8,장식물,assets/models/FishAngelfish.glb,matcap_black_rubber
+fishangelfish_matcap_red_wax,앵그리피쉬 (레드 왁스),92000,0.7,장식물,assets/models/FishAngelfish.glb,matcap_red_wax
+fishangelfish_matcap_white_ceramic,앵그리피쉬 (화이트 세라믹),100000,0.65,장식물,assets/models/FishAngelfish.glb,matcap_white_ceramic
+fishangelfish_matcap_blue_gloss,앵그리피쉬 (블루 글로시),96000,0.7,장식물,assets/models/FishAngelfish.glb,matcap_blue_gloss
+fishangelfish_matcap_gold,앵그리피쉬 (골드),136000,0.3,장식물,assets/models/FishAngelfish.glb,matcap_gold
+fishangelfish_matcap_silver_soft,앵그리피쉬 (소프트 실버),108000,0.6,장식물,assets/models/FishAngelfish.glb,matcap_silver_soft
+fishantyobi_plastic_matte,블루피쉬 (매트 플라스틱),40000,1.2,장식물,assets/models/FishAntyobi.glb,plastic_matte
+fishantyobi_plastic_gloss,블루피쉬 (글로시 플라스틱),44000,1.15,장식물,assets/models/FishAntyobi.glb,plastic_gloss
+fishantyobi_rubber_soft,블루피쉬 (소프트 러버),42000,1.2,장식물,assets/models/FishAntyobi.glb,rubber_soft
+fishantyobi_ceramic_clean,블루피쉬 (클린 세라믹),48000,1.1,장식물,assets/models/FishAntyobi.glb,ceramic_clean
+fishantyobi_metal_brushed,블루피쉬 (브러시드 메탈),54000,1,장식물,assets/models/FishAntyobi.glb,metal_brushed
+fishantyobi_metal_polished,블루피쉬 (폴리시드 메탈),60000,0.9,장식물,assets/models/FishAntyobi.glb,metal_polished
+fishantyobi_paint_clearcoat,블루피쉬 (클리어코트 페인트),52000,1.05,장식물,assets/models/FishAntyobi.glb,paint_clearcoat
+fishantyobi_fabric_sheen,블루피쉬 (패브릭 쉰),46000,1.15,장식물,assets/models/FishAntyobi.glb,fabric_sheen
+fishantyobi_glass_clear,블루피쉬 (클리어 글래스),64000,0.8,장식물,assets/models/FishAntyobi.glb,glass_clear
+fishantyobi_resin_tinted,블루피쉬 (틴티드 레진),58000,0.95,장식물,assets/models/FishAntyobi.glb,resin_tinted
+fishantyobi_matcap_clay,블루피쉬 (클레이),42000,1.2,장식물,assets/models/FishAntyobi.glb,matcap_clay
+fishantyobi_matcap_wax,블루피쉬 (왁스),44000,1.15,장식물,assets/models/FishAntyobi.glb,matcap_wax
+fishantyobi_matcap_chrome,블루피쉬 (크롬),62000,0.85,장식물,assets/models/FishAntyobi.glb,matcap_chrome
+fishantyobi_matcap_bronze,블루피쉬 (브론즈),56000,1,장식물,assets/models/FishAntyobi.glb,matcap_bronze
+fishantyobi_matcap_black_rubber,블루피쉬 (블랙 러버),43200,1.2,장식물,assets/models/FishAntyobi.glb,matcap_black_rubber
+fishantyobi_matcap_red_wax,블루피쉬 (레드 왁스),46000,1.1,장식물,assets/models/FishAntyobi.glb,matcap_red_wax
+fishantyobi_matcap_white_ceramic,블루피쉬 (화이트 세라믹),50000,1.05,장식물,assets/models/FishAntyobi.glb,matcap_white_ceramic
+fishantyobi_matcap_blue_gloss,블루피쉬 (블루 글로시),48000,1.1,장식물,assets/models/FishAntyobi.glb,matcap_blue_gloss
+fishantyobi_matcap_gold,블루피쉬 (골드),68000,0.7,장식물,assets/models/FishAntyobi.glb,matcap_gold
+fishantyobi_matcap_silver_soft,블루피쉬 (소프트 실버),54000,1,장식물,assets/models/FishAntyobi.glb,matcap_silver_soft
+fisharowana_plastic_matte,레드아로와나 (매트 플라스틱),150000,0.5,장식물,assets/models/FishArowana.glb,plastic_matte
+fisharowana_plastic_gloss,레드아로와나 (글로시 플라스틱),165000,0.45,장식물,assets/models/FishArowana.glb,plastic_gloss
+fisharowana_rubber_soft,레드아로와나 (소프트 러버),157500,0.5,장식물,assets/models/FishArowana.glb,rubber_soft
+fisharowana_ceramic_clean,레드아로와나 (클린 세라믹),180000,0.4,장식물,assets/models/FishArowana.glb,ceramic_clean
+fisharowana_metal_brushed,레드아로와나 (브러시드 메탈),202500,0.3,장식물,assets/models/FishArowana.glb,metal_brushed
+fisharowana_metal_polished,레드아로와나 (폴리시드 메탈),225000,0.2,장식물,assets/models/FishArowana.glb,metal_polished
+fisharowana_paint_clearcoat,레드아로와나 (클리어코트 페인트),195000,0.35,장식물,assets/models/FishArowana.glb,paint_clearcoat
+fisharowana_fabric_sheen,레드아로와나 (패브릭 쉰),172500,0.45,장식물,assets/models/FishArowana.glb,fabric_sheen
+fisharowana_glass_clear,레드아로와나 (클리어 글래스),240000,0.1,장식물,assets/models/FishArowana.glb,glass_clear
+fisharowana_resin_tinted,레드아로와나 (틴티드 레진),217500,0.25,장식물,assets/models/FishArowana.glb,resin_tinted
+fisharowana_matcap_clay,레드아로와나 (클레이),157500,0.5,장식물,assets/models/FishArowana.glb,matcap_clay
+fisharowana_matcap_wax,레드아로와나 (왁스),165000,0.45,장식물,assets/models/FishArowana.glb,matcap_wax
+fisharowana_matcap_chrome,레드아로와나 (크롬),232500,0.15,장식물,assets/models/FishArowana.glb,matcap_chrome
+fisharowana_matcap_bronze,레드아로와나 (브론즈),210000,0.3,장식물,assets/models/FishArowana.glb,matcap_bronze
+fisharowana_matcap_black_rubber,레드아로와나 (블랙 러버),162000,0.5,장식물,assets/models/FishArowana.glb,matcap_black_rubber
+fisharowana_matcap_red_wax,레드아로와나 (레드 왁스),172500,0.4,장식물,assets/models/FishArowana.glb,matcap_red_wax
+fisharowana_matcap_white_ceramic,레드아로와나 (화이트 세라믹),187500,0.35,장식물,assets/models/FishArowana.glb,matcap_white_ceramic
+fisharowana_matcap_blue_gloss,레드아로와나 (블루 글로시),180000,0.4,장식물,assets/models/FishArowana.glb,matcap_blue_gloss
+fisharowana_matcap_gold,레드아로와나 (골드),255000,0.1,장식물,assets/models/FishArowana.glb,matcap_gold
+fisharowana_matcap_silver_soft,레드아로와나 (소프트 실버),202500,0.3,장식물,assets/models/FishArowana.glb,matcap_silver_soft
+fishayu_plastic_matte,그린ayu (매트 플라스틱),60000,1,장식물,assets/models/FishAyu.glb,plastic_matte
+fishayu_plastic_gloss,그린ayu (글로시 플라스틱),66000,0.95,장식물,assets/models/FishAyu.glb,plastic_gloss
+fishayu_rubber_soft,그린ayu (소프트 러버),63000,1,장식물,assets/models/FishAyu.glb,rubber_soft
+fishayu_ceramic_clean,그린ayu (클린 세라믹),72000,0.9,장식물,assets/models/FishAyu.glb,ceramic_clean
+fishayu_metal_brushed,그린ayu (브러시드 메탈),81000,0.8,장식물,assets/models/FishAyu.glb,metal_brushed
+fishayu_metal_polished,그린ayu (폴리시드 메탈),90000,0.7,장식물,assets/models/FishAyu.glb,metal_polished
+fishayu_paint_clearcoat,그린ayu (클리어코트 페인트),78000,0.85,장식물,assets/models/FishAyu.glb,paint_clearcoat
+fishayu_fabric_sheen,그린ayu (패브릭 쉰),69000,0.95,장식물,assets/models/FishAyu.glb,fabric_sheen
+fishayu_glass_clear,그린ayu (클리어 글래스),96000,0.6,장식물,assets/models/FishAyu.glb,glass_clear
+fishayu_resin_tinted,그린ayu (틴티드 레진),87000,0.75,장식물,assets/models/FishAyu.glb,resin_tinted
+fishayu_matcap_clay,그린ayu (클레이),63000,1,장식물,assets/models/FishAyu.glb,matcap_clay
+fishayu_matcap_wax,그린ayu (왁스),66000,0.95,장식물,assets/models/FishAyu.glb,matcap_wax
+fishayu_matcap_chrome,그린ayu (크롬),93000,0.65,장식물,assets/models/FishAyu.glb,matcap_chrome
+fishayu_matcap_bronze,그린ayu (브론즈),84000,0.8,장식물,assets/models/FishAyu.glb,matcap_bronze
+fishayu_matcap_black_rubber,그린ayu (블랙 러버),64800,1,장식물,assets/models/FishAyu.glb,matcap_black_rubber
+fishayu_matcap_red_wax,그린ayu (레드 왁스),69000,0.9,장식물,assets/models/FishAyu.glb,matcap_red_wax
+fishayu_matcap_white_ceramic,그린ayu (화이트 세라믹),75000,0.85,장식물,assets/models/FishAyu.glb,matcap_white_ceramic
+fishayu_matcap_blue_gloss,그린ayu (블루 글로시),72000,0.9,장식물,assets/models/FishAyu.glb,matcap_blue_gloss
+fishayu_matcap_gold,그린ayu (골드),102000,0.5,장식물,assets/models/FishAyu.glb,matcap_gold
+fishayu_matcap_silver_soft,그린ayu (소프트 실버),81000,0.8,장식물,assets/models/FishAyu.glb,matcap_silver_soft
+fishchouchinankou_plastic_matte,블랙피쉬 (매트 플라스틱),120000,0.6,장식물,assets/models/FishChouchinankou.glb,plastic_matte
+fishchouchinankou_plastic_gloss,블랙피쉬 (글로시 플라스틱),132000,0.55,장식물,assets/models/FishChouchinankou.glb,plastic_gloss
+fishchouchinankou_rubber_soft,블랙피쉬 (소프트 러버),126000,0.6,장식물,assets/models/FishChouchinankou.glb,rubber_soft
+fishchouchinankou_ceramic_clean,블랙피쉬 (클린 세라믹),144000,0.5,장식물,assets/models/FishChouchinankou.glb,ceramic_clean
+fishchouchinankou_metal_brushed,블랙피쉬 (브러시드 메탈),162000,0.4,장식물,assets/models/FishChouchinankou.glb,metal_brushed
+fishchouchinankou_metal_polished,블랙피쉬 (폴리시드 메탈),180000,0.3,장식물,assets/models/FishChouchinankou.glb,metal_polished
+fishchouchinankou_paint_clearcoat,블랙피쉬 (클리어코트 페인트),156000,0.45,장식물,assets/models/FishChouchinankou.glb,paint_clearcoat
+fishchouchinankou_fabric_sheen,블랙피쉬 (패브릭 쉰),138000,0.55,장식물,assets/models/FishChouchinankou.glb,fabric_sheen
+fishchouchinankou_glass_clear,블랙피쉬 (클리어 글래스),192000,0.2,장식물,assets/models/FishChouchinankou.glb,glass_clear
+fishchouchinankou_resin_tinted,블랙피쉬 (틴티드 레진),174000,0.35,장식물,assets/models/FishChouchinankou.glb,resin_tinted
+fishchouchinankou_matcap_clay,블랙피쉬 (클레이),126000,0.6,장식물,assets/models/FishChouchinankou.glb,matcap_clay
+fishchouchinankou_matcap_wax,블랙피쉬 (왁스),132000,0.55,장식물,assets/models/FishChouchinankou.glb,matcap_wax
+fishchouchinankou_matcap_chrome,블랙피쉬 (크롬),186000,0.25,장식물,assets/models/FishChouchinankou.glb,matcap_chrome
+fishchouchinankou_matcap_bronze,블랙피쉬 (브론즈),168000,0.4,장식물,assets/models/FishChouchinankou.glb,matcap_bronze
+fishchouchinankou_matcap_black_rubber,블랙피쉬 (블랙 러버),129600,0.6,장식물,assets/models/FishChouchinankou.glb,matcap_black_rubber
+fishchouchinankou_matcap_red_wax,블랙피쉬 (레드 왁스),138000,0.5,장식물,assets/models/FishChouchinankou.glb,matcap_red_wax
+fishchouchinankou_matcap_white_ceramic,블랙피쉬 (화이트 세라믹),150000,0.45,장식물,assets/models/FishChouchinankou.glb,matcap_white_ceramic
+fishchouchinankou_matcap_blue_gloss,블랙피쉬 (블루 글로시),144000,0.5,장식물,assets/models/FishChouchinankou.glb,matcap_blue_gloss
+fishchouchinankou_matcap_gold,블랙피쉬 (골드),204000,0.1,장식물,assets/models/FishChouchinankou.glb,matcap_gold
+fishchouchinankou_matcap_silver_soft,블랙피쉬 (소프트 실버),162000,0.4,장식물,assets/models/FishChouchinankou.glb,matcap_silver_soft

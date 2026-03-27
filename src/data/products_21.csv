@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+ftroutdoorgenerator_plastic_matte,야외 발전기 (매트 플라스틱),150000,1.8,액세서리,assets/models/FtrOutdoorgenerator.glb,plastic_matte
+ftroutdoorgenerator_plastic_gloss,야외 발전기 (글로시 플라스틱),165000,1.75,액세서리,assets/models/FtrOutdoorgenerator.glb,plastic_gloss
+ftroutdoorgenerator_rubber_soft,야외 발전기 (소프트 러버),157500,1.8,액세서리,assets/models/FtrOutdoorgenerator.glb,rubber_soft
+ftroutdoorgenerator_ceramic_clean,야외 발전기 (클린 세라믹),180000,1.7,액세서리,assets/models/FtrOutdoorgenerator.glb,ceramic_clean
+ftroutdoorgenerator_metal_brushed,야외 발전기 (브러시드 메탈),202500,1.6,액세서리,assets/models/FtrOutdoorgenerator.glb,metal_brushed
+ftroutdoorgenerator_metal_polished,야외 발전기 (폴리시드 메탈),225000,1.5,액세서리,assets/models/FtrOutdoorgenerator.glb,metal_polished
+ftroutdoorgenerator_paint_clearcoat,야외 발전기 (클리어코트 페인트),195000,1.65,액세서리,assets/models/FtrOutdoorgenerator.glb,paint_clearcoat
+ftroutdoorgenerator_fabric_sheen,야외 발전기 (패브릭 쉰),172500,1.75,액세서리,assets/models/FtrOutdoorgenerator.glb,fabric_sheen
+ftroutdoorgenerator_glass_clear,야외 발전기 (클리어 글래스),240000,1.4,액세서리,assets/models/FtrOutdoorgenerator.glb,glass_clear
+ftroutdoorgenerator_resin_tinted,야외 발전기 (틴티드 레진),217500,1.55,액세서리,assets/models/FtrOutdoorgenerator.glb,resin_tinted
+ftroutdoorgenerator_matcap_clay,야외 발전기 (클레이),157500,1.8,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_clay
+ftroutdoorgenerator_matcap_wax,야외 발전기 (왁스),165000,1.75,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_wax
+ftroutdoorgenerator_matcap_chrome,야외 발전기 (크롬),232500,1.45,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_chrome
+ftroutdoorgenerator_matcap_bronze,야외 발전기 (브론즈),210000,1.6,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_bronze
+ftroutdoorgenerator_matcap_black_rubber,야외 발전기 (블랙 러버),162000,1.8,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_black_rubber
+ftroutdoorgenerator_matcap_red_wax,야외 발전기 (레드 왁스),172500,1.7,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_red_wax
+ftroutdoorgenerator_matcap_white_ceramic,야외 발전기 (화이트 세라믹),187500,1.65,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_white_ceramic
+ftroutdoorgenerator_matcap_blue_gloss,야외 발전기 (블루 글로시),180000,1.7,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_blue_gloss
+ftroutdoorgenerator_matcap_gold,야외 발전기 (골드),255000,1.3,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_gold
+ftroutdoorgenerator_matcap_silver_soft,야외 발전기 (소프트 실버),202500,1.6,액세서리,assets/models/FtrOutdoorgenerator.glb,matcap_silver_soft
+ftroutdoorunit_plastic_matte,에어컨 외장기 (매트 플라스틱),80000,1.9,액세서리,assets/models/FtrOutdoorunit.glb,plastic_matte
+ftroutdoorunit_plastic_gloss,에어컨 외장기 (글로시 플라스틱),88000,1.85,액세서리,assets/models/FtrOutdoorunit.glb,plastic_gloss
+ftroutdoorunit_rubber_soft,에어컨 외장기 (소프트 러버),84000,1.9,액세서리,assets/models/FtrOutdoorunit.glb,rubber_soft
+ftroutdoorunit_ceramic_clean,에어컨 외장기 (클린 세라믹),96000,1.8,액세서리,assets/models/FtrOutdoorunit.glb,ceramic_clean
+ftroutdoorunit_metal_brushed,에어컨 외장기 (브러시드 메탈),108000,1.7,액세서리,assets/models/FtrOutdoorunit.glb,metal_brushed
+ftroutdoorunit_metal_polished,에어컨 외장기 (폴리시드 메탈),120000,1.6,액세서리,assets/models/FtrOutdoorunit.glb,metal_polished
+ftroutdoorunit_paint_clearcoat,에어컨 외장기 (클리어코트 페인트),104000,1.75,액세서리,assets/models/FtrOutdoorunit.glb,paint_clearcoat
+ftroutdoorunit_fabric_sheen,에어컨 외장기 (패브릭 쉰),92000,1.85,액세서리,assets/models/FtrOutdoorunit.glb,fabric_sheen
+ftroutdoorunit_glass_clear,에어컨 외장기 (클리어 글래스),128000,1.5,액세서리,assets/models/FtrOutdoorunit.glb,glass_clear
+ftroutdoorunit_resin_tinted,에어컨 외장기 (틴티드 레진),116000,1.65,액세서리,assets/models/FtrOutdoorunit.glb,resin_tinted
+ftroutdoorunit_matcap_clay,에어컨 외장기 (클레이),84000,1.9,액세서리,assets/models/FtrOutdoorunit.glb,matcap_clay
+ftroutdoorunit_matcap_wax,에어컨 외장기 (왁스),88000,1.85,액세서리,assets/models/FtrOutdoorunit.glb,matcap_wax
+ftroutdoorunit_matcap_chrome,에어컨 외장기 (크롬),124000,1.55,액세서리,assets/models/FtrOutdoorunit.glb,matcap_chrome
+ftroutdoorunit_matcap_bronze,에어컨 외장기 (브론즈),112000,1.7,액세서리,assets/models/FtrOutdoorunit.glb,matcap_bronze
+ftroutdoorunit_matcap_black_rubber,에어컨 외장기 (블랙 러버),86400,1.9,액세서리,assets/models/FtrOutdoorunit.glb,matcap_black_rubber
+ftroutdoorunit_matcap_red_wax,에어컨 외장기 (레드 왁스),92000,1.8,액세서리,assets/models/FtrOutdoorunit.glb,matcap_red_wax
+ftroutdoorunit_matcap_white_ceramic,에어컨 외장기 (화이트 세라믹),100000,1.75,액세서리,assets/models/FtrOutdoorunit.glb,matcap_white_ceramic
+ftroutdoorunit_matcap_blue_gloss,에어컨 외장기 (블루 글로시),96000,1.8,액세서리,assets/models/FtrOutdoorunit.glb,matcap_blue_gloss
+ftroutdoorunit_matcap_gold,에어컨 외장기 (골드),136000,1.4,액세서리,assets/models/FtrOutdoorunit.glb,matcap_gold
+ftroutdoorunit_matcap_silver_soft,에어컨 외장기 (소프트 실버),108000,1.7,액세서리,assets/models/FtrOutdoorunit.glb,matcap_silver_soft
+ftrpale_plastic_matte,쓰레기통 (매트 플라스틱),20000,2,액세서리,assets/models/FtrPale.glb,plastic_matte
+ftrpale_plastic_gloss,쓰레기통 (글로시 플라스틱),22000,1.95,액세서리,assets/models/FtrPale.glb,plastic_gloss
+ftrpale_rubber_soft,쓰레기통 (소프트 러버),21000,2,액세서리,assets/models/FtrPale.glb,rubber_soft
+ftrpale_ceramic_clean,쓰레기통 (클린 세라믹),24000,1.9,액세서리,assets/models/FtrPale.glb,ceramic_clean
+ftrpale_metal_brushed,쓰레기통 (브러시드 메탈),27000,1.8,액세서리,assets/models/FtrPale.glb,metal_brushed
+ftrpale_metal_polished,쓰레기통 (폴리시드 메탈),30000,1.7,액세서리,assets/models/FtrPale.glb,metal_polished
+ftrpale_paint_clearcoat,쓰레기통 (클리어코트 페인트),26000,1.85,액세서리,assets/models/FtrPale.glb,paint_clearcoat
+ftrpale_fabric_sheen,쓰레기통 (패브릭 쉰),23000,1.95,액세서리,assets/models/FtrPale.glb,fabric_sheen
+ftrpale_glass_clear,쓰레기통 (클리어 글래스),32000,1.6,액세서리,assets/models/FtrPale.glb,glass_clear
+ftrpale_resin_tinted,쓰레기통 (틴티드 레진),29000,1.75,액세서리,assets/models/FtrPale.glb,resin_tinted
+ftrpale_matcap_clay,쓰레기통 (클레이),21000,2,액세서리,assets/models/FtrPale.glb,matcap_clay
+ftrpale_matcap_wax,쓰레기통 (왁스),22000,1.95,액세서리,assets/models/FtrPale.glb,matcap_wax
+ftrpale_matcap_chrome,쓰레기통 (크롬),31000,1.65,액세서리,assets/models/FtrPale.glb,matcap_chrome
+ftrpale_matcap_bronze,쓰레기통 (브론즈),28000,1.8,액세서리,assets/models/FtrPale.glb,matcap_bronze
+ftrpale_matcap_black_rubber,쓰레기통 (블랙 러버),21600,2,액세서리,assets/models/FtrPale.glb,matcap_black_rubber
+ftrpale_matcap_red_wax,쓰레기통 (레드 왁스),23000,1.9,액세서리,assets/models/FtrPale.glb,matcap_red_wax
+ftrpale_matcap_white_ceramic,쓰레기통 (화이트 세라믹),25000,1.85,액세서리,assets/models/FtrPale.glb,matcap_white_ceramic
+ftrpale_matcap_blue_gloss,쓰레기통 (블루 글로시),24000,1.9,액세서리,assets/models/FtrPale.glb,matcap_blue_gloss
+ftrpale_matcap_gold,쓰레기통 (골드),34000,1.5,액세서리,assets/models/FtrPale.glb,matcap_gold
+ftrpale_matcap_silver_soft,쓰레기통 (소프트 실버),27000,1.8,액세서리,assets/models/FtrPale.glb,matcap_silver_soft
+ftrparabolicantenna_plastic_matte,위성 안테나 (매트 플라스틱),120000,1.7,액세서리,assets/models/FtrParabolicantenna.glb,plastic_matte
+ftrparabolicantenna_plastic_gloss,위성 안테나 (글로시 플라스틱),132000,1.65,액세서리,assets/models/FtrParabolicantenna.glb,plastic_gloss
+ftrparabolicantenna_rubber_soft,위성 안테나 (소프트 러버),126000,1.7,액세서리,assets/models/FtrParabolicantenna.glb,rubber_soft
+ftrparabolicantenna_ceramic_clean,위성 안테나 (클린 세라믹),144000,1.6,액세서리,assets/models/FtrParabolicantenna.glb,ceramic_clean
+ftrparabolicantenna_metal_brushed,위성 안테나 (브러시드 메탈),162000,1.5,액세서리,assets/models/FtrParabolicantenna.glb,metal_brushed
+ftrparabolicantenna_metal_polished,위성 안테나 (폴리시드 메탈),180000,1.4,액세서리,assets/models/FtrParabolicantenna.glb,metal_polished
+ftrparabolicantenna_paint_clearcoat,위성 안테나 (클리어코트 페인트),156000,1.55,액세서리,assets/models/FtrParabolicantenna.glb,paint_clearcoat
+ftrparabolicantenna_fabric_sheen,위성 안테나 (패브릭 쉰),138000,1.65,액세서리,assets/models/FtrParabolicantenna.glb,fabric_sheen
+ftrparabolicantenna_glass_clear,위성 안테나 (클리어 글래스),192000,1.3,액세서리,assets/models/FtrParabolicantenna.glb,glass_clear
+ftrparabolicantenna_resin_tinted,위성 안테나 (틴티드 레진),174000,1.45,액세서리,assets/models/FtrParabolicantenna.glb,resin_tinted
+ftrparabolicantenna_matcap_clay,위성 안테나 (클레이),126000,1.7,액세서리,assets/models/FtrParabolicantenna.glb,matcap_clay
+ftrparabolicantenna_matcap_wax,위성 안테나 (왁스),132000,1.65,액세서리,assets/models/FtrParabolicantenna.glb,matcap_wax
+ftrparabolicantenna_matcap_chrome,위성 안테나 (크롬),186000,1.35,액세서리,assets/models/FtrParabolicantenna.glb,matcap_chrome
+ftrparabolicantenna_matcap_bronze,위성 안테나 (브론즈),168000,1.5,액세서리,assets/models/FtrParabolicantenna.glb,matcap_bronze
+ftrparabolicantenna_matcap_black_rubber,위성 안테나 (블랙 러버),129600,1.7,액세서리,assets/models/FtrParabolicantenna.glb,matcap_black_rubber
+ftrparabolicantenna_matcap_red_wax,위성 안테나 (레드 왁스),138000,1.6,액세서리,assets/models/FtrParabolicantenna.glb,matcap_red_wax
+ftrparabolicantenna_matcap_white_ceramic,위성 안테나 (화이트 세라믹),150000,1.55,액세서리,assets/models/FtrParabolicantenna.glb,matcap_white_ceramic
+ftrparabolicantenna_matcap_blue_gloss,위성 안테나 (블루 글로시),144000,1.6,액세서리,assets/models/FtrParabolicantenna.glb,matcap_blue_gloss
+ftrparabolicantenna_matcap_gold,위성 안테나 (골드),204000,1.2,액세서리,assets/models/FtrParabolicantenna.glb,matcap_gold
+ftrparabolicantenna_matcap_silver_soft,위성 안테나 (소프트 실버),162000,1.5,액세서리,assets/models/FtrParabolicantenna.glb,matcap_silver_soft
+ftrpartydecorationwall_plastic_matte,파티 장식 깃발 (매트 플라스틱),10000,2,액세서리,assets/models/FtrPartydecorationWall.glb,plastic_matte
+ftrpartydecorationwall_plastic_gloss,파티 장식 깃발 (글로시 플라스틱),11000,1.95,액세서리,assets/models/FtrPartydecorationWall.glb,plastic_gloss
+ftrpartydecorationwall_rubber_soft,파티 장식 깃발 (소프트 러버),10500,2,액세서리,assets/models/FtrPartydecorationWall.glb,rubber_soft
+ftrpartydecorationwall_ceramic_clean,파티 장식 깃발 (클린 세라믹),12000,1.9,액세서리,assets/models/FtrPartydecorationWall.glb,ceramic_clean
+ftrpartydecorationwall_metal_brushed,파티 장식 깃발 (브러시드 메탈),13500,1.8,액세서리,assets/models/FtrPartydecorationWall.glb,metal_brushed
+ftrpartydecorationwall_metal_polished,파티 장식 깃발 (폴리시드 메탈),15000,1.7,액세서리,assets/models/FtrPartydecorationWall.glb,metal_polished
+ftrpartydecorationwall_paint_clearcoat,파티 장식 깃발 (클리어코트 페인트),13000,1.85,액세서리,assets/models/FtrPartydecorationWall.glb,paint_clearcoat
+ftrpartydecorationwall_fabric_sheen,파티 장식 깃발 (패브릭 쉰),11500,1.95,액세서리,assets/models/FtrPartydecorationWall.glb,fabric_sheen
+ftrpartydecorationwall_glass_clear,파티 장식 깃발 (클리어 글래스),16000,1.6,액세서리,assets/models/FtrPartydecorationWall.glb,glass_clear
+ftrpartydecorationwall_resin_tinted,파티 장식 깃발 (틴티드 레진),14500,1.75,액세서리,assets/models/FtrPartydecorationWall.glb,resin_tinted
+ftrpartydecorationwall_matcap_clay,파티 장식 깃발 (클레이),10500,2,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_clay
+ftrpartydecorationwall_matcap_wax,파티 장식 깃발 (왁스),11000,1.95,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_wax
+ftrpartydecorationwall_matcap_chrome,파티 장식 깃발 (크롬),15500,1.65,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_chrome
+ftrpartydecorationwall_matcap_bronze,파티 장식 깃발 (브론즈),14000,1.8,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_bronze
+ftrpartydecorationwall_matcap_black_rubber,파티 장식 깃발 (블랙 러버),10800,2,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_black_rubber
+ftrpartydecorationwall_matcap_red_wax,파티 장식 깃발 (레드 왁스),11500,1.9,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_red_wax
+ftrpartydecorationwall_matcap_white_ceramic,파티 장식 깃발 (화이트 세라믹),12500,1.85,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_white_ceramic
+ftrpartydecorationwall_matcap_blue_gloss,파티 장식 깃발 (블루 글로시),12000,1.9,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_blue_gloss
+ftrpartydecorationwall_matcap_gold,파티 장식 깃발 (골드),17000,1.5,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_gold
+ftrpartydecorationwall_matcap_silver_soft,파티 장식 깃발 (소프트 실버),13500,1.8,액세서리,assets/models/FtrPartydecorationWall.glb,matcap_silver_soft
+ftrpianostool_plastic_matte,피아노용 둥근 의자 (매트 플라스틱),15000,1.2,가구,assets/models/FtrPianoStool.glb,plastic_matte
+ftrpianostool_plastic_gloss,피아노용 둥근 의자 (글로시 플라스틱),16500,1.15,가구,assets/models/FtrPianoStool.glb,plastic_gloss
+ftrpianostool_rubber_soft,피아노용 둥근 의자 (소프트 러버),15800,1.2,가구,assets/models/FtrPianoStool.glb,rubber_soft
+ftrpianostool_ceramic_clean,피아노용 둥근 의자 (클린 세라믹),18000,1.1,가구,assets/models/FtrPianoStool.glb,ceramic_clean
+ftrpianostool_metal_brushed,피아노용 둥근 의자 (브러시드 메탈),20300,1,가구,assets/models/FtrPianoStool.glb,metal_brushed
+ftrpianostool_metal_polished,피아노용 둥근 의자 (폴리시드 메탈),22500,0.9,가구,assets/models/FtrPianoStool.glb,metal_polished
+ftrpianostool_paint_clearcoat,피아노용 둥근 의자 (클리어코트 페인트),19500,1.05,가구,assets/models/FtrPianoStool.glb,paint_clearcoat
+ftrpianostool_fabric_sheen,피아노용 둥근 의자 (패브릭 쉰),17300,1.15,가구,assets/models/FtrPianoStool.glb,fabric_sheen
+ftrpianostool_glass_clear,피아노용 둥근 의자 (클리어 글래스),24000,0.8,가구,assets/models/FtrPianoStool.glb,glass_clear
+ftrpianostool_resin_tinted,피아노용 둥근 의자 (틴티드 레진),21800,0.95,가구,assets/models/FtrPianoStool.glb,resin_tinted
+ftrpianostool_matcap_clay,피아노용 둥근 의자 (클레이),15800,1.2,가구,assets/models/FtrPianoStool.glb,matcap_clay
+ftrpianostool_matcap_wax,피아노용 둥근 의자 (왁스),16500,1.15,가구,assets/models/FtrPianoStool.glb,matcap_wax
+ftrpianostool_matcap_chrome,피아노용 둥근 의자 (크롬),23300,0.85,가구,assets/models/FtrPianoStool.glb,matcap_chrome
+ftrpianostool_matcap_bronze,피아노용 둥근 의자 (브론즈),21000,1,가구,assets/models/FtrPianoStool.glb,matcap_bronze
+ftrpianostool_matcap_black_rubber,피아노용 둥근 의자 (블랙 러버),16200,1.2,가구,assets/models/FtrPianoStool.glb,matcap_black_rubber
+ftrpianostool_matcap_red_wax,피아노용 둥근 의자 (레드 왁스),17300,1.1,가구,assets/models/FtrPianoStool.glb,matcap_red_wax
+ftrpianostool_matcap_white_ceramic,피아노용 둥근 의자 (화이트 세라믹),18800,1.05,가구,assets/models/FtrPianoStool.glb,matcap_white_ceramic
+ftrpianostool_matcap_blue_gloss,피아노용 둥근 의자 (블루 글로시),18000,1.1,가구,assets/models/FtrPianoStool.glb,matcap_blue_gloss
+ftrpianostool_matcap_gold,피아노용 둥근 의자 (골드),25500,0.7,가구,assets/models/FtrPianoStool.glb,matcap_gold
+ftrpianostool_matcap_silver_soft,피아노용 둥근 의자 (소프트 실버),20300,1,가구,assets/models/FtrPianoStool.glb,matcap_silver_soft
+ftrpianochair_plastic_matte,클래식 피아노 벤치 (매트 플라스틱),20000,1.1,가구,assets/models/FtrPianochair.glb,plastic_matte
+ftrpianochair_plastic_gloss,클래식 피아노 벤치 (글로시 플라스틱),22000,1.05,가구,assets/models/FtrPianochair.glb,plastic_gloss
+ftrpianochair_rubber_soft,클래식 피아노 벤치 (소프트 러버),21000,1.1,가구,assets/models/FtrPianochair.glb,rubber_soft
+ftrpianochair_ceramic_clean,클래식 피아노 벤치 (클린 세라믹),24000,1,가구,assets/models/FtrPianochair.glb,ceramic_clean
+ftrpianochair_metal_brushed,클래식 피아노 벤치 (브러시드 메탈),27000,0.9,가구,assets/models/FtrPianochair.glb,metal_brushed
+ftrpianochair_metal_polished,클래식 피아노 벤치 (폴리시드 메탈),30000,0.8,가구,assets/models/FtrPianochair.glb,metal_polished
+ftrpianochair_paint_clearcoat,클래식 피아노 벤치 (클리어코트 페인트),26000,0.95,가구,assets/models/FtrPianochair.glb,paint_clearcoat
+ftrpianochair_fabric_sheen,클래식 피아노 벤치 (패브릭 쉰),23000,1.05,가구,assets/models/FtrPianochair.glb,fabric_sheen
+ftrpianochair_glass_clear,클래식 피아노 벤치 (클리어 글래스),32000,0.7,가구,assets/models/FtrPianochair.glb,glass_clear
+ftrpianochair_resin_tinted,클래식 피아노 벤치 (틴티드 레진),29000,0.85,가구,assets/models/FtrPianochair.glb,resin_tinted
+ftrpianochair_matcap_clay,클래식 피아노 벤치 (클레이),21000,1.1,가구,assets/models/FtrPianochair.glb,matcap_clay
+ftrpianochair_matcap_wax,클래식 피아노 벤치 (왁스),22000,1.05,가구,assets/models/FtrPianochair.glb,matcap_wax
+ftrpianochair_matcap_chrome,클래식 피아노 벤치 (크롬),31000,0.75,가구,assets/models/FtrPianochair.glb,matcap_chrome
+ftrpianochair_matcap_bronze,클래식 피아노 벤치 (브론즈),28000,0.9,가구,assets/models/FtrPianochair.glb,matcap_bronze
+ftrpianochair_matcap_black_rubber,클래식 피아노 벤치 (블랙 러버),21600,1.1,가구,assets/models/FtrPianochair.glb,matcap_black_rubber
+ftrpianochair_matcap_red_wax,클래식 피아노 벤치 (레드 왁스),23000,1,가구,assets/models/FtrPianochair.glb,matcap_red_wax
+ftrpianochair_matcap_white_ceramic,클래식 피아노 벤치 (화이트 세라믹),25000,0.95,가구,assets/models/FtrPianochair.glb,matcap_white_ceramic
+ftrpianochair_matcap_blue_gloss,클래식 피아노 벤치 (블루 글로시),24000,1,가구,assets/models/FtrPianochair.glb,matcap_blue_gloss
+ftrpianochair_matcap_gold,클래식 피아노 벤치 (골드),34000,0.6,가구,assets/models/FtrPianochair.glb,matcap_gold
+ftrpianochair_matcap_silver_soft,클래식 피아노 벤치 (소프트 실버),27000,0.9,가구,assets/models/FtrPianochair.glb,matcap_silver_soft
+ftrpicnicbasket_plastic_matte,피크닉 바구니 (매트 플라스틱),10000,1.8,액세서리,assets/models/FtrPicnicbasket.glb,plastic_matte
+ftrpicnicbasket_plastic_gloss,피크닉 바구니 (글로시 플라스틱),11000,1.75,액세서리,assets/models/FtrPicnicbasket.glb,plastic_gloss
+ftrpicnicbasket_rubber_soft,피크닉 바구니 (소프트 러버),10500,1.8,액세서리,assets/models/FtrPicnicbasket.glb,rubber_soft
+ftrpicnicbasket_ceramic_clean,피크닉 바구니 (클린 세라믹),12000,1.7,액세서리,assets/models/FtrPicnicbasket.glb,ceramic_clean
+ftrpicnicbasket_metal_brushed,피크닉 바구니 (브러시드 메탈),13500,1.6,액세서리,assets/models/FtrPicnicbasket.glb,metal_brushed
+ftrpicnicbasket_metal_polished,피크닉 바구니 (폴리시드 메탈),15000,1.5,액세서리,assets/models/FtrPicnicbasket.glb,metal_polished
+ftrpicnicbasket_paint_clearcoat,피크닉 바구니 (클리어코트 페인트),13000,1.65,액세서리,assets/models/FtrPicnicbasket.glb,paint_clearcoat
+ftrpicnicbasket_fabric_sheen,피크닉 바구니 (패브릭 쉰),11500,1.75,액세서리,assets/models/FtrPicnicbasket.glb,fabric_sheen
+ftrpicnicbasket_glass_clear,피크닉 바구니 (클리어 글래스),16000,1.4,액세서리,assets/models/FtrPicnicbasket.glb,glass_clear
+ftrpicnicbasket_resin_tinted,피크닉 바구니 (틴티드 레진),14500,1.55,액세서리,assets/models/FtrPicnicbasket.glb,resin_tinted
+ftrpicnicbasket_matcap_clay,피크닉 바구니 (클레이),10500,1.8,액세서리,assets/models/FtrPicnicbasket.glb,matcap_clay
+ftrpicnicbasket_matcap_wax,피크닉 바구니 (왁스),11000,1.75,액세서리,assets/models/FtrPicnicbasket.glb,matcap_wax
+ftrpicnicbasket_matcap_chrome,피크닉 바구니 (크롬),15500,1.45,액세서리,assets/models/FtrPicnicbasket.glb,matcap_chrome
+ftrpicnicbasket_matcap_bronze,피크닉 바구니 (브론즈),14000,1.6,액세서리,assets/models/FtrPicnicbasket.glb,matcap_bronze
+ftrpicnicbasket_matcap_black_rubber,피크닉 바구니 (블랙 러버),10800,1.8,액세서리,assets/models/FtrPicnicbasket.glb,matcap_black_rubber
+ftrpicnicbasket_matcap_red_wax,피크닉 바구니 (레드 왁스),11500,1.7,액세서리,assets/models/FtrPicnicbasket.glb,matcap_red_wax
+ftrpicnicbasket_matcap_white_ceramic,피크닉 바구니 (화이트 세라믹),12500,1.65,액세서리,assets/models/FtrPicnicbasket.glb,matcap_white_ceramic
+ftrpicnicbasket_matcap_blue_gloss,피크닉 바구니 (블루 글로시),12000,1.7,액세서리,assets/models/FtrPicnicbasket.glb,matcap_blue_gloss
+ftrpicnicbasket_matcap_gold,피크닉 바구니 (골드),17000,1.3,액세서리,assets/models/FtrPicnicbasket.glb,matcap_gold
+ftrpicnicbasket_matcap_silver_soft,피크닉 바구니 (소프트 실버),13500,1.6,액세서리,assets/models/FtrPicnicbasket.glb,matcap_silver_soft
+ftrplantcacao_plastic_matte,카카오 나무 (매트 플라스틱),15000,1.3,액세서리,assets/models/FtrPlantCacao.glb,plastic_matte
+ftrplantcacao_plastic_gloss,카카오 나무 (글로시 플라스틱),16500,1.25,액세서리,assets/models/FtrPlantCacao.glb,plastic_gloss
+ftrplantcacao_rubber_soft,카카오 나무 (소프트 러버),15800,1.3,액세서리,assets/models/FtrPlantCacao.glb,rubber_soft
+ftrplantcacao_ceramic_clean,카카오 나무 (클린 세라믹),18000,1.2,액세서리,assets/models/FtrPlantCacao.glb,ceramic_clean
+ftrplantcacao_metal_brushed,카카오 나무 (브러시드 메탈),20300,1.1,액세서리,assets/models/FtrPlantCacao.glb,metal_brushed
+ftrplantcacao_metal_polished,카카오 나무 (폴리시드 메탈),22500,1,액세서리,assets/models/FtrPlantCacao.glb,metal_polished
+ftrplantcacao_paint_clearcoat,카카오 나무 (클리어코트 페인트),19500,1.15,액세서리,assets/models/FtrPlantCacao.glb,paint_clearcoat
+ftrplantcacao_fabric_sheen,카카오 나무 (패브릭 쉰),17300,1.25,액세서리,assets/models/FtrPlantCacao.glb,fabric_sheen
+ftrplantcacao_glass_clear,카카오 나무 (클리어 글래스),24000,0.9,액세서리,assets/models/FtrPlantCacao.glb,glass_clear
+ftrplantcacao_resin_tinted,카카오 나무 (틴티드 레진),21800,1.05,액세서리,assets/models/FtrPlantCacao.glb,resin_tinted
+ftrplantcacao_matcap_clay,카카오 나무 (클레이),15800,1.3,액세서리,assets/models/FtrPlantCacao.glb,matcap_clay
+ftrplantcacao_matcap_wax,카카오 나무 (왁스),16500,1.25,액세서리,assets/models/FtrPlantCacao.glb,matcap_wax
+ftrplantcacao_matcap_chrome,카카오 나무 (크롬),23300,0.95,액세서리,assets/models/FtrPlantCacao.glb,matcap_chrome
+ftrplantcacao_matcap_bronze,카카오 나무 (브론즈),21000,1.1,액세서리,assets/models/FtrPlantCacao.glb,matcap_bronze
+ftrplantcacao_matcap_black_rubber,카카오 나무 (블랙 러버),16200,1.3,액세서리,assets/models/FtrPlantCacao.glb,matcap_black_rubber
+ftrplantcacao_matcap_red_wax,카카오 나무 (레드 왁스),17300,1.2,액세서리,assets/models/FtrPlantCacao.glb,matcap_red_wax
+ftrplantcacao_matcap_white_ceramic,카카오 나무 (화이트 세라믹),18800,1.15,액세서리,assets/models/FtrPlantCacao.glb,matcap_white_ceramic
+ftrplantcacao_matcap_blue_gloss,카카오 나무 (블루 글로시),18000,1.2,액세서리,assets/models/FtrPlantCacao.glb,matcap_blue_gloss
+ftrplantcacao_matcap_gold,카카오 나무 (골드),25500,0.8,액세서리,assets/models/FtrPlantCacao.glb,matcap_gold
+ftrplantcacao_matcap_silver_soft,카카오 나무 (소프트 실버),20300,1.1,액세서리,assets/models/FtrPlantCacao.glb,matcap_silver_soft
+ftrplanterpalm_plastic_matte,매달린 야자 화분 (매트 플라스틱),25000,1,액세서리,assets/models/FtrPlanterPalm.glb,plastic_matte
+ftrplanterpalm_plastic_gloss,매달린 야자 화분 (글로시 플라스틱),27500,0.95,액세서리,assets/models/FtrPlanterPalm.glb,plastic_gloss
+ftrplanterpalm_rubber_soft,매달린 야자 화분 (소프트 러버),26300,1,액세서리,assets/models/FtrPlanterPalm.glb,rubber_soft
+ftrplanterpalm_ceramic_clean,매달린 야자 화분 (클린 세라믹),30000,0.9,액세서리,assets/models/FtrPlanterPalm.glb,ceramic_clean
+ftrplanterpalm_metal_brushed,매달린 야자 화분 (브러시드 메탈),33800,0.8,액세서리,assets/models/FtrPlanterPalm.glb,metal_brushed
+ftrplanterpalm_metal_polished,매달린 야자 화분 (폴리시드 메탈),37500,0.7,액세서리,assets/models/FtrPlanterPalm.glb,metal_polished
+ftrplanterpalm_paint_clearcoat,매달린 야자 화분 (클리어코트 페인트),32500,0.85,액세서리,assets/models/FtrPlanterPalm.glb,paint_clearcoat
+ftrplanterpalm_fabric_sheen,매달린 야자 화분 (패브릭 쉰),28700,0.95,액세서리,assets/models/FtrPlanterPalm.glb,fabric_sheen
+ftrplanterpalm_glass_clear,매달린 야자 화분 (클리어 글래스),40000,0.6,액세서리,assets/models/FtrPlanterPalm.glb,glass_clear
+ftrplanterpalm_resin_tinted,매달린 야자 화분 (틴티드 레진),36300,0.75,액세서리,assets/models/FtrPlanterPalm.glb,resin_tinted
+ftrplanterpalm_matcap_clay,매달린 야자 화분 (클레이),26300,1,액세서리,assets/models/FtrPlanterPalm.glb,matcap_clay
+ftrplanterpalm_matcap_wax,매달린 야자 화분 (왁스),27500,0.95,액세서리,assets/models/FtrPlanterPalm.glb,matcap_wax
+ftrplanterpalm_matcap_chrome,매달린 야자 화분 (크롬),38800,0.65,액세서리,assets/models/FtrPlanterPalm.glb,matcap_chrome
+ftrplanterpalm_matcap_bronze,매달린 야자 화분 (브론즈),35000,0.8,액세서리,assets/models/FtrPlanterPalm.glb,matcap_bronze
+ftrplanterpalm_matcap_black_rubber,매달린 야자 화분 (블랙 러버),27000,1,액세서리,assets/models/FtrPlanterPalm.glb,matcap_black_rubber
+ftrplanterpalm_matcap_red_wax,매달린 야자 화분 (레드 왁스),28700,0.9,액세서리,assets/models/FtrPlanterPalm.glb,matcap_red_wax
+ftrplanterpalm_matcap_white_ceramic,매달린 야자 화분 (화이트 세라믹),31300,0.85,액세서리,assets/models/FtrPlanterPalm.glb,matcap_white_ceramic
+ftrplanterpalm_matcap_blue_gloss,매달린 야자 화분 (블루 글로시),30000,0.9,액세서리,assets/models/FtrPlanterPalm.glb,matcap_blue_gloss
+ftrplanterpalm_matcap_gold,매달린 야자 화분 (골드),42500,0.5,액세서리,assets/models/FtrPlanterPalm.glb,matcap_gold
+ftrplanterpalm_matcap_silver_soft,매달린 야자 화분 (소프트 실버),33800,0.8,액세서리,assets/models/FtrPlanterPalm.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+bagbackpackdry0_plastic_matte,방수백 (매트 플라스틱),10000,1.8,액세서리,assets/models/BagBackpackDry0.glb,plastic_matte
+bagbackpackdry0_plastic_gloss,방수백 (글로시 플라스틱),11000,1.75,액세서리,assets/models/BagBackpackDry0.glb,plastic_gloss
+bagbackpackdry0_rubber_soft,방수백 (소프트 러버),10500,1.8,액세서리,assets/models/BagBackpackDry0.glb,rubber_soft
+bagbackpackdry0_ceramic_clean,방수백 (클린 세라믹),12000,1.7,액세서리,assets/models/BagBackpackDry0.glb,ceramic_clean
+bagbackpackdry0_metal_brushed,방수백 (브러시드 메탈),13500,1.6,액세서리,assets/models/BagBackpackDry0.glb,metal_brushed
+bagbackpackdry0_metal_polished,방수백 (폴리시드 메탈),15000,1.5,액세서리,assets/models/BagBackpackDry0.glb,metal_polished
+bagbackpackdry0_paint_clearcoat,방수백 (클리어코트 페인트),13000,1.65,액세서리,assets/models/BagBackpackDry0.glb,paint_clearcoat
+bagbackpackdry0_fabric_sheen,방수백 (패브릭 쉰),11500,1.75,액세서리,assets/models/BagBackpackDry0.glb,fabric_sheen
+bagbackpackdry0_glass_clear,방수백 (클리어 글래스),16000,1.4,액세서리,assets/models/BagBackpackDry0.glb,glass_clear
+bagbackpackdry0_resin_tinted,방수백 (틴티드 레진),14500,1.55,액세서리,assets/models/BagBackpackDry0.glb,resin_tinted
+bagbackpackdry0_matcap_clay,방수백 (클레이),10500,1.8,액세서리,assets/models/BagBackpackDry0.glb,matcap_clay
+bagbackpackdry0_matcap_wax,방수백 (왁스),11000,1.75,액세서리,assets/models/BagBackpackDry0.glb,matcap_wax
+bagbackpackdry0_matcap_chrome,방수백 (크롬),15500,1.45,액세서리,assets/models/BagBackpackDry0.glb,matcap_chrome
+bagbackpackdry0_matcap_bronze,방수백 (브론즈),14000,1.6,액세서리,assets/models/BagBackpackDry0.glb,matcap_bronze
+bagbackpackdry0_matcap_black_rubber,방수백 (블랙 러버),10800,1.8,액세서리,assets/models/BagBackpackDry0.glb,matcap_black_rubber
+bagbackpackdry0_matcap_red_wax,방수백 (레드 왁스),11500,1.7,액세서리,assets/models/BagBackpackDry0.glb,matcap_red_wax
+bagbackpackdry0_matcap_white_ceramic,방수백 (화이트 세라믹),12500,1.65,액세서리,assets/models/BagBackpackDry0.glb,matcap_white_ceramic
+bagbackpackdry0_matcap_blue_gloss,방수백 (블루 글로시),12000,1.7,액세서리,assets/models/BagBackpackDry0.glb,matcap_blue_gloss
+bagbackpackdry0_matcap_gold,방수백 (골드),17000,1.3,액세서리,assets/models/BagBackpackDry0.glb,matcap_gold
+bagbackpackdry0_matcap_silver_soft,방수백 (소프트 실버),13500,1.6,액세서리,assets/models/BagBackpackDry0.glb,matcap_silver_soft
+bagbackpackgrass0_plastic_matte,풀백 (매트 플라스틱),10000,1.7,액세서리,assets/models/BagBackpackGrass0.glb,plastic_matte
+bagbackpackgrass0_plastic_gloss,풀백 (글로시 플라스틱),11000,1.65,액세서리,assets/models/BagBackpackGrass0.glb,plastic_gloss
+bagbackpackgrass0_rubber_soft,풀백 (소프트 러버),10500,1.7,액세서리,assets/models/BagBackpackGrass0.glb,rubber_soft
+bagbackpackgrass0_ceramic_clean,풀백 (클린 세라믹),12000,1.6,액세서리,assets/models/BagBackpackGrass0.glb,ceramic_clean
+bagbackpackgrass0_metal_brushed,풀백 (브러시드 메탈),13500,1.5,액세서리,assets/models/BagBackpackGrass0.glb,metal_brushed
+bagbackpackgrass0_metal_polished,풀백 (폴리시드 메탈),15000,1.4,액세서리,assets/models/BagBackpackGrass0.glb,metal_polished
+bagbackpackgrass0_paint_clearcoat,풀백 (클리어코트 페인트),13000,1.55,액세서리,assets/models/BagBackpackGrass0.glb,paint_clearcoat
+bagbackpackgrass0_fabric_sheen,풀백 (패브릭 쉰),11500,1.65,액세서리,assets/models/BagBackpackGrass0.glb,fabric_sheen
+bagbackpackgrass0_glass_clear,풀백 (클리어 글래스),16000,1.3,액세서리,assets/models/BagBackpackGrass0.glb,glass_clear
+bagbackpackgrass0_resin_tinted,풀백 (틴티드 레진),14500,1.45,액세서리,assets/models/BagBackpackGrass0.glb,resin_tinted
+bagbackpackgrass0_matcap_clay,풀백 (클레이),10500,1.7,액세서리,assets/models/BagBackpackGrass0.glb,matcap_clay
+bagbackpackgrass0_matcap_wax,풀백 (왁스),11000,1.65,액세서리,assets/models/BagBackpackGrass0.glb,matcap_wax
+bagbackpackgrass0_matcap_chrome,풀백 (크롬),15500,1.35,액세서리,assets/models/BagBackpackGrass0.glb,matcap_chrome
+bagbackpackgrass0_matcap_bronze,풀백 (브론즈),14000,1.5,액세서리,assets/models/BagBackpackGrass0.glb,matcap_bronze
+bagbackpackgrass0_matcap_black_rubber,풀백 (블랙 러버),10800,1.7,액세서리,assets/models/BagBackpackGrass0.glb,matcap_black_rubber
+bagbackpackgrass0_matcap_red_wax,풀백 (레드 왁스),11500,1.6,액세서리,assets/models/BagBackpackGrass0.glb,matcap_red_wax
+bagbackpackgrass0_matcap_white_ceramic,풀백 (화이트 세라믹),12500,1.55,액세서리,assets/models/BagBackpackGrass0.glb,matcap_white_ceramic
+bagbackpackgrass0_matcap_blue_gloss,풀백 (블루 글로시),12000,1.6,액세서리,assets/models/BagBackpackGrass0.glb,matcap_blue_gloss
+bagbackpackgrass0_matcap_gold,풀백 (골드),17000,1.2,액세서리,assets/models/BagBackpackGrass0.glb,matcap_gold
+bagbackpackgrass0_matcap_silver_soft,풀백 (소프트 실버),13500,1.5,액세서리,assets/models/BagBackpackGrass0.glb,matcap_silver_soft
+bagbackpacklid0_plastic_matte,카모플라주백 (매트 플라스틱),12000,1.4,액세서리,assets/models/BagBackpackLid0.glb,plastic_matte
+bagbackpacklid0_plastic_gloss,카모플라주백 (글로시 플라스틱),13200,1.35,액세서리,assets/models/BagBackpackLid0.glb,plastic_gloss
+bagbackpacklid0_rubber_soft,카모플라주백 (소프트 러버),12600,1.4,액세서리,assets/models/BagBackpackLid0.glb,rubber_soft
+bagbackpacklid0_ceramic_clean,카모플라주백 (클린 세라믹),14400,1.3,액세서리,assets/models/BagBackpackLid0.glb,ceramic_clean
+bagbackpacklid0_metal_brushed,카모플라주백 (브러시드 메탈),16200,1.2,액세서리,assets/models/BagBackpackLid0.glb,metal_brushed
+bagbackpacklid0_metal_polished,카모플라주백 (폴리시드 메탈),18000,1.1,액세서리,assets/models/BagBackpackLid0.glb,metal_polished
+bagbackpacklid0_paint_clearcoat,카모플라주백 (클리어코트 페인트),15600,1.25,액세서리,assets/models/BagBackpackLid0.glb,paint_clearcoat
+bagbackpacklid0_fabric_sheen,카모플라주백 (패브릭 쉰),13800,1.35,액세서리,assets/models/BagBackpackLid0.glb,fabric_sheen
+bagbackpacklid0_glass_clear,카모플라주백 (클리어 글래스),19200,1,액세서리,assets/models/BagBackpackLid0.glb,glass_clear
+bagbackpacklid0_resin_tinted,카모플라주백 (틴티드 레진),17400,1.15,액세서리,assets/models/BagBackpackLid0.glb,resin_tinted
+bagbackpacklid0_matcap_clay,카모플라주백 (클레이),12600,1.4,액세서리,assets/models/BagBackpackLid0.glb,matcap_clay
+bagbackpacklid0_matcap_wax,카모플라주백 (왁스),13200,1.35,액세서리,assets/models/BagBackpackLid0.glb,matcap_wax
+bagbackpacklid0_matcap_chrome,카모플라주백 (크롬),18600,1.05,액세서리,assets/models/BagBackpackLid0.glb,matcap_chrome
+bagbackpacklid0_matcap_bronze,카모플라주백 (브론즈),16800,1.2,액세서리,assets/models/BagBackpackLid0.glb,matcap_bronze
+bagbackpacklid0_matcap_black_rubber,카모플라주백 (블랙 러버),13000,1.4,액세서리,assets/models/BagBackpackLid0.glb,matcap_black_rubber
+bagbackpacklid0_matcap_red_wax,카모플라주백 (레드 왁스),13800,1.3,액세서리,assets/models/BagBackpackLid0.glb,matcap_red_wax
+bagbackpacklid0_matcap_white_ceramic,카모플라주백 (화이트 세라믹),15000,1.25,액세서리,assets/models/BagBackpackLid0.glb,matcap_white_ceramic
+bagbackpacklid0_matcap_blue_gloss,카모플라주백 (블루 글로시),14400,1.3,액세서리,assets/models/BagBackpackLid0.glb,matcap_blue_gloss
+bagbackpacklid0_matcap_gold,카모플라주백 (골드),20400,0.9,액세서리,assets/models/BagBackpackLid0.glb,matcap_gold
+bagbackpacklid0_matcap_silver_soft,카모플라주백 (소프트 실버),16200,1.2,액세서리,assets/models/BagBackpackLid0.glb,matcap_silver_soft
+bagbackpacknook0_plastic_matte,나뭇잎백 (매트 플라스틱),15000,1.1,액세서리,assets/models/BagBackpackNook0.glb,plastic_matte
+bagbackpacknook0_plastic_gloss,나뭇잎백 (글로시 플라스틱),16500,1.05,액세서리,assets/models/BagBackpackNook0.glb,plastic_gloss
+bagbackpacknook0_rubber_soft,나뭇잎백 (소프트 러버),15800,1.1,액세서리,assets/models/BagBackpackNook0.glb,rubber_soft
+bagbackpacknook0_ceramic_clean,나뭇잎백 (클린 세라믹),18000,1,액세서리,assets/models/BagBackpackNook0.glb,ceramic_clean
+bagbackpacknook0_metal_brushed,나뭇잎백 (브러시드 메탈),20300,0.9,액세서리,assets/models/BagBackpackNook0.glb,metal_brushed
+bagbackpacknook0_metal_polished,나뭇잎백 (폴리시드 메탈),22500,0.8,액세서리,assets/models/BagBackpackNook0.glb,metal_polished
+bagbackpacknook0_paint_clearcoat,나뭇잎백 (클리어코트 페인트),19500,0.95,액세서리,assets/models/BagBackpackNook0.glb,paint_clearcoat
+bagbackpacknook0_fabric_sheen,나뭇잎백 (패브릭 쉰),17300,1.05,액세서리,assets/models/BagBackpackNook0.glb,fabric_sheen
+bagbackpacknook0_glass_clear,나뭇잎백 (클리어 글래스),24000,0.7,액세서리,assets/models/BagBackpackNook0.glb,glass_clear
+bagbackpacknook0_resin_tinted,나뭇잎백 (틴티드 레진),21800,0.85,액세서리,assets/models/BagBackpackNook0.glb,resin_tinted
+bagbackpacknook0_matcap_clay,나뭇잎백 (클레이),15800,1.1,액세서리,assets/models/BagBackpackNook0.glb,matcap_clay
+bagbackpacknook0_matcap_wax,나뭇잎백 (왁스),16500,1.05,액세서리,assets/models/BagBackpackNook0.glb,matcap_wax
+bagbackpacknook0_matcap_chrome,나뭇잎백 (크롬),23300,0.75,액세서리,assets/models/BagBackpackNook0.glb,matcap_chrome
+bagbackpacknook0_matcap_bronze,나뭇잎백 (브론즈),21000,0.9,액세서리,assets/models/BagBackpackNook0.glb,matcap_bronze
+bagbackpacknook0_matcap_black_rubber,나뭇잎백 (블랙 러버),16200,1.1,액세서리,assets/models/BagBackpackNook0.glb,matcap_black_rubber
+bagbackpacknook0_matcap_red_wax,나뭇잎백 (레드 왁스),17300,1,액세서리,assets/models/BagBackpackNook0.glb,matcap_red_wax
+bagbackpacknook0_matcap_white_ceramic,나뭇잎백 (화이트 세라믹),18800,0.95,액세서리,assets/models/BagBackpackNook0.glb,matcap_white_ceramic
+bagbackpacknook0_matcap_blue_gloss,나뭇잎백 (블루 글로시),18000,1,액세서리,assets/models/BagBackpackNook0.glb,matcap_blue_gloss
+bagbackpacknook0_matcap_gold,나뭇잎백 (골드),25500,0.6,액세서리,assets/models/BagBackpackNook0.glb,matcap_gold
+bagbackpacknook0_matcap_silver_soft,나뭇잎백 (소프트 실버),20300,0.9,액세서리,assets/models/BagBackpackNook0.glb,matcap_silver_soft
+bagbackpackquilt0_plastic_matte,퀼트백 (매트 플라스틱),18000,0.9,액세서리,assets/models/BagBackpackQuilt0.glb,plastic_matte
+bagbackpackquilt0_plastic_gloss,퀼트백 (글로시 플라스틱),19800,0.85,액세서리,assets/models/BagBackpackQuilt0.glb,plastic_gloss
+bagbackpackquilt0_rubber_soft,퀼트백 (소프트 러버),18900,0.9,액세서리,assets/models/BagBackpackQuilt0.glb,rubber_soft
+bagbackpackquilt0_ceramic_clean,퀼트백 (클린 세라믹),21600,0.8,액세서리,assets/models/BagBackpackQuilt0.glb,ceramic_clean
+bagbackpackquilt0_metal_brushed,퀼트백 (브러시드 메탈),24300,0.7,액세서리,assets/models/BagBackpackQuilt0.glb,metal_brushed
+bagbackpackquilt0_metal_polished,퀼트백 (폴리시드 메탈),27000,0.6,액세서리,assets/models/BagBackpackQuilt0.glb,metal_polished
+bagbackpackquilt0_paint_clearcoat,퀼트백 (클리어코트 페인트),23400,0.75,액세서리,assets/models/BagBackpackQuilt0.glb,paint_clearcoat
+bagbackpackquilt0_fabric_sheen,퀼트백 (패브릭 쉰),20700,0.85,액세서리,assets/models/BagBackpackQuilt0.glb,fabric_sheen
+bagbackpackquilt0_glass_clear,퀼트백 (클리어 글래스),28800,0.5,액세서리,assets/models/BagBackpackQuilt0.glb,glass_clear
+bagbackpackquilt0_resin_tinted,퀼트백 (틴티드 레진),26100,0.65,액세서리,assets/models/BagBackpackQuilt0.glb,resin_tinted
+bagbackpackquilt0_matcap_clay,퀼트백 (클레이),18900,0.9,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_clay
+bagbackpackquilt0_matcap_wax,퀼트백 (왁스),19800,0.85,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_wax
+bagbackpackquilt0_matcap_chrome,퀼트백 (크롬),27900,0.55,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_chrome
+bagbackpackquilt0_matcap_bronze,퀼트백 (브론즈),25200,0.7,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_bronze
+bagbackpackquilt0_matcap_black_rubber,퀼트백 (블랙 러버),19400,0.9,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_black_rubber
+bagbackpackquilt0_matcap_red_wax,퀼트백 (레드 왁스),20700,0.8,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_red_wax
+bagbackpackquilt0_matcap_white_ceramic,퀼트백 (화이트 세라믹),22500,0.75,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_white_ceramic
+bagbackpackquilt0_matcap_blue_gloss,퀼트백 (블루 글로시),21600,0.8,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_blue_gloss
+bagbackpackquilt0_matcap_gold,퀼트백 (골드),30600,0.4,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_gold
+bagbackpackquilt0_matcap_silver_soft,퀼트백 (소프트 실버),24300,0.7,액세서리,assets/models/BagBackpackQuilt0.glb,matcap_silver_soft
+bagbackpacktote0_plastic_matte,레더 토트백 (매트 플라스틱),22000,1.8,가방,assets/models/BagBackpackTote0.glb,plastic_matte
+bagbackpacktote0_plastic_gloss,레더 토트백 (글로시 플라스틱),24200,1.75,가방,assets/models/BagBackpackTote0.glb,plastic_gloss
+bagbackpacktote0_rubber_soft,레더 토트백 (소프트 러버),23100,1.8,가방,assets/models/BagBackpackTote0.glb,rubber_soft
+bagbackpacktote0_ceramic_clean,레더 토트백 (클린 세라믹),26400,1.7,가방,assets/models/BagBackpackTote0.glb,ceramic_clean
+bagbackpacktote0_metal_brushed,레더 토트백 (브러시드 메탈),29700,1.6,가방,assets/models/BagBackpackTote0.glb,metal_brushed
+bagbackpacktote0_metal_polished,레더 토트백 (폴리시드 메탈),33000,1.5,가방,assets/models/BagBackpackTote0.glb,metal_polished
+bagbackpacktote0_paint_clearcoat,레더 토트백 (클리어코트 페인트),28600,1.65,가방,assets/models/BagBackpackTote0.glb,paint_clearcoat
+bagbackpacktote0_fabric_sheen,레더 토트백 (패브릭 쉰),25300,1.75,가방,assets/models/BagBackpackTote0.glb,fabric_sheen
+bagbackpacktote0_glass_clear,레더 토트백 (클리어 글래스),35200,1.4,가방,assets/models/BagBackpackTote0.glb,glass_clear
+bagbackpacktote0_resin_tinted,레더 토트백 (틴티드 레진),31900,1.55,가방,assets/models/BagBackpackTote0.glb,resin_tinted
+bagbackpacktote0_matcap_clay,레더 토트백 (클레이),23100,1.8,가방,assets/models/BagBackpackTote0.glb,matcap_clay
+bagbackpacktote0_matcap_wax,레더 토트백 (왁스),24200,1.75,가방,assets/models/BagBackpackTote0.glb,matcap_wax
+bagbackpacktote0_matcap_chrome,레더 토트백 (크롬),34100,1.45,가방,assets/models/BagBackpackTote0.glb,matcap_chrome
+bagbackpacktote0_matcap_bronze,레더 토트백 (브론즈),30800,1.6,가방,assets/models/BagBackpackTote0.glb,matcap_bronze
+bagbackpacktote0_matcap_black_rubber,레더 토트백 (블랙 러버),23800,1.8,가방,assets/models/BagBackpackTote0.glb,matcap_black_rubber
+bagbackpacktote0_matcap_red_wax,레더 토트백 (레드 왁스),25300,1.7,가방,assets/models/BagBackpackTote0.glb,matcap_red_wax
+bagbackpacktote0_matcap_white_ceramic,레더 토트백 (화이트 세라믹),27500,1.65,가방,assets/models/BagBackpackTote0.glb,matcap_white_ceramic
+bagbackpacktote0_matcap_blue_gloss,레더 토트백 (블루 글로시),26400,1.7,가방,assets/models/BagBackpackTote0.glb,matcap_blue_gloss
+bagbackpacktote0_matcap_gold,레더 토트백 (골드),37400,1.3,가방,assets/models/BagBackpackTote0.glb,matcap_gold
+bagbackpacktote0_matcap_silver_soft,레더 토트백 (소프트 실버),29700,1.6,가방,assets/models/BagBackpackTote0.glb,matcap_silver_soft
+bagbackpacktown0_plastic_matte,타운 스타일 백팩 (매트 플라스틱),18000,1.9,가방,assets/models/BagBackpackTown0.glb,plastic_matte
+bagbackpacktown0_plastic_gloss,타운 스타일 백팩 (글로시 플라스틱),19800,1.85,가방,assets/models/BagBackpackTown0.glb,plastic_gloss
+bagbackpacktown0_rubber_soft,타운 스타일 백팩 (소프트 러버),18900,1.9,가방,assets/models/BagBackpackTown0.glb,rubber_soft
+bagbackpacktown0_ceramic_clean,타운 스타일 백팩 (클린 세라믹),21600,1.8,가방,assets/models/BagBackpackTown0.glb,ceramic_clean
+bagbackpacktown0_metal_brushed,타운 스타일 백팩 (브러시드 메탈),24300,1.7,가방,assets/models/BagBackpackTown0.glb,metal_brushed
+bagbackpacktown0_metal_polished,타운 스타일 백팩 (폴리시드 메탈),27000,1.6,가방,assets/models/BagBackpackTown0.glb,metal_polished
+bagbackpacktown0_paint_clearcoat,타운 스타일 백팩 (클리어코트 페인트),23400,1.75,가방,assets/models/BagBackpackTown0.glb,paint_clearcoat
+bagbackpacktown0_fabric_sheen,타운 스타일 백팩 (패브릭 쉰),20700,1.85,가방,assets/models/BagBackpackTown0.glb,fabric_sheen
+bagbackpacktown0_glass_clear,타운 스타일 백팩 (클리어 글래스),28800,1.5,가방,assets/models/BagBackpackTown0.glb,glass_clear
+bagbackpacktown0_resin_tinted,타운 스타일 백팩 (틴티드 레진),26100,1.65,가방,assets/models/BagBackpackTown0.glb,resin_tinted
+bagbackpacktown0_matcap_clay,타운 스타일 백팩 (클레이),18900,1.9,가방,assets/models/BagBackpackTown0.glb,matcap_clay
+bagbackpacktown0_matcap_wax,타운 스타일 백팩 (왁스),19800,1.85,가방,assets/models/BagBackpackTown0.glb,matcap_wax
+bagbackpacktown0_matcap_chrome,타운 스타일 백팩 (크롬),27900,1.55,가방,assets/models/BagBackpackTown0.glb,matcap_chrome
+bagbackpacktown0_matcap_bronze,타운 스타일 백팩 (브론즈),25200,1.7,가방,assets/models/BagBackpackTown0.glb,matcap_bronze
+bagbackpacktown0_matcap_black_rubber,타운 스타일 백팩 (블랙 러버),19400,1.9,가방,assets/models/BagBackpackTown0.glb,matcap_black_rubber
+bagbackpacktown0_matcap_red_wax,타운 스타일 백팩 (레드 왁스),20700,1.8,가방,assets/models/BagBackpackTown0.glb,matcap_red_wax
+bagbackpacktown0_matcap_white_ceramic,타운 스타일 백팩 (화이트 세라믹),22500,1.75,가방,assets/models/BagBackpackTown0.glb,matcap_white_ceramic
+bagbackpacktown0_matcap_blue_gloss,타운 스타일 백팩 (블루 글로시),21600,1.8,가방,assets/models/BagBackpackTown0.glb,matcap_blue_gloss
+bagbackpacktown0_matcap_gold,타운 스타일 백팩 (골드),30600,1.4,가방,assets/models/BagBackpackTown0.glb,matcap_gold
+bagbackpacktown0_matcap_silver_soft,타운 스타일 백팩 (소프트 실버),24300,1.7,가방,assets/models/BagBackpackTown0.glb,matcap_silver_soft
+bagbackpackwood0_plastic_matte,목재 로프 백팩 (매트 플라스틱),110000,0.3,가방,assets/models/BagBackpackWood0.glb,plastic_matte
+bagbackpackwood0_plastic_gloss,목재 로프 백팩 (글로시 플라스틱),121000,0.25,가방,assets/models/BagBackpackWood0.glb,plastic_gloss
+bagbackpackwood0_rubber_soft,목재 로프 백팩 (소프트 러버),115500,0.3,가방,assets/models/BagBackpackWood0.glb,rubber_soft
+bagbackpackwood0_ceramic_clean,목재 로프 백팩 (클린 세라믹),132000,0.2,가방,assets/models/BagBackpackWood0.glb,ceramic_clean
+bagbackpackwood0_metal_brushed,목재 로프 백팩 (브러시드 메탈),148500,0.1,가방,assets/models/BagBackpackWood0.glb,metal_brushed
+bagbackpackwood0_metal_polished,목재 로프 백팩 (폴리시드 메탈),165000,0.1,가방,assets/models/BagBackpackWood0.glb,metal_polished
+bagbackpackwood0_paint_clearcoat,목재 로프 백팩 (클리어코트 페인트),143000,0.15,가방,assets/models/BagBackpackWood0.glb,paint_clearcoat
+bagbackpackwood0_fabric_sheen,목재 로프 백팩 (패브릭 쉰),126500,0.25,가방,assets/models/BagBackpackWood0.glb,fabric_sheen
+bagbackpackwood0_glass_clear,목재 로프 백팩 (클리어 글래스),176000,0.1,가방,assets/models/BagBackpackWood0.glb,glass_clear
+bagbackpackwood0_resin_tinted,목재 로프 백팩 (틴티드 레진),159500,0.1,가방,assets/models/BagBackpackWood0.glb,resin_tinted
+bagbackpackwood0_matcap_clay,목재 로프 백팩 (클레이),115500,0.3,가방,assets/models/BagBackpackWood0.glb,matcap_clay
+bagbackpackwood0_matcap_wax,목재 로프 백팩 (왁스),121000,0.25,가방,assets/models/BagBackpackWood0.glb,matcap_wax
+bagbackpackwood0_matcap_chrome,목재 로프 백팩 (크롬),170500,0.1,가방,assets/models/BagBackpackWood0.glb,matcap_chrome
+bagbackpackwood0_matcap_bronze,목재 로프 백팩 (브론즈),154000,0.1,가방,assets/models/BagBackpackWood0.glb,matcap_bronze
+bagbackpackwood0_matcap_black_rubber,목재 로프 백팩 (블랙 러버),118800,0.3,가방,assets/models/BagBackpackWood0.glb,matcap_black_rubber
+bagbackpackwood0_matcap_red_wax,목재 로프 백팩 (레드 왁스),126500,0.2,가방,assets/models/BagBackpackWood0.glb,matcap_red_wax
+bagbackpackwood0_matcap_white_ceramic,목재 로프 백팩 (화이트 세라믹),137500,0.15,가방,assets/models/BagBackpackWood0.glb,matcap_white_ceramic
+bagbackpackwood0_matcap_blue_gloss,목재 로프 백팩 (블루 글로시),132000,0.2,가방,assets/models/BagBackpackWood0.glb,matcap_blue_gloss
+bagbackpackwood0_matcap_gold,목재 로프 백팩 (골드),187000,0.1,가방,assets/models/BagBackpackWood0.glb,matcap_gold
+bagbackpackwood0_matcap_silver_soft,목재 로프 백팩 (소프트 실버),148500,0.1,가방,assets/models/BagBackpackWood0.glb,matcap_silver_soft
+bagshoulderacorn0_plastic_matte,아카시아 너트 숄더백 (매트 플라스틱),85000,0.5,가방,assets/models/BagShoulderAcorn0.glb,plastic_matte
+bagshoulderacorn0_plastic_gloss,아카시아 너트 숄더백 (글로시 플라스틱),93500,0.45,가방,assets/models/BagShoulderAcorn0.glb,plastic_gloss
+bagshoulderacorn0_rubber_soft,아카시아 너트 숄더백 (소프트 러버),89300,0.5,가방,assets/models/BagShoulderAcorn0.glb,rubber_soft
+bagshoulderacorn0_ceramic_clean,아카시아 너트 숄더백 (클린 세라믹),102000,0.4,가방,assets/models/BagShoulderAcorn0.glb,ceramic_clean
+bagshoulderacorn0_metal_brushed,아카시아 너트 숄더백 (브러시드 메탈),114800,0.3,가방,assets/models/BagShoulderAcorn0.glb,metal_brushed
+bagshoulderacorn0_metal_polished,아카시아 너트 숄더백 (폴리시드 메탈),127500,0.2,가방,assets/models/BagShoulderAcorn0.glb,metal_polished
+bagshoulderacorn0_paint_clearcoat,아카시아 너트 숄더백 (클리어코트 페인트),110500,0.35,가방,assets/models/BagShoulderAcorn0.glb,paint_clearcoat
+bagshoulderacorn0_fabric_sheen,아카시아 너트 숄더백 (패브릭 쉰),97700,0.45,가방,assets/models/BagShoulderAcorn0.glb,fabric_sheen
+bagshoulderacorn0_glass_clear,아카시아 너트 숄더백 (클리어 글래스),136000,0.1,가방,assets/models/BagShoulderAcorn0.glb,glass_clear
+bagshoulderacorn0_resin_tinted,아카시아 너트 숄더백 (틴티드 레진),123300,0.25,가방,assets/models/BagShoulderAcorn0.glb,resin_tinted
+bagshoulderacorn0_matcap_clay,아카시아 너트 숄더백 (클레이),89300,0.5,가방,assets/models/BagShoulderAcorn0.glb,matcap_clay
+bagshoulderacorn0_matcap_wax,아카시아 너트 숄더백 (왁스),93500,0.45,가방,assets/models/BagShoulderAcorn0.glb,matcap_wax
+bagshoulderacorn0_matcap_chrome,아카시아 너트 숄더백 (크롬),131800,0.15,가방,assets/models/BagShoulderAcorn0.glb,matcap_chrome
+bagshoulderacorn0_matcap_bronze,아카시아 너트 숄더백 (브론즈),119000,0.3,가방,assets/models/BagShoulderAcorn0.glb,matcap_bronze
+bagshoulderacorn0_matcap_black_rubber,아카시아 너트 숄더백 (블랙 러버),91800,0.5,가방,assets/models/BagShoulderAcorn0.glb,matcap_black_rubber
+bagshoulderacorn0_matcap_red_wax,아카시아 너트 숄더백 (레드 왁스),97700,0.4,가방,assets/models/BagShoulderAcorn0.glb,matcap_red_wax
+bagshoulderacorn0_matcap_white_ceramic,아카시아 너트 숄더백 (화이트 세라믹),106300,0.35,가방,assets/models/BagShoulderAcorn0.glb,matcap_white_ceramic
+bagshoulderacorn0_matcap_blue_gloss,아카시아 너트 숄더백 (블루 글로시),102000,0.4,가방,assets/models/BagShoulderAcorn0.glb,matcap_blue_gloss
+bagshoulderacorn0_matcap_gold,아카시아 너트 숄더백 (골드),144500,0.1,가방,assets/models/BagShoulderAcorn0.glb,matcap_gold
+bagshoulderacorn0_matcap_silver_soft,아카시아 너트 숄더백 (소프트 실버),114800,0.3,가방,assets/models/BagShoulderAcorn0.glb,matcap_silver_soft
+bagshouldercage0_plastic_matte,케이지 구조물 숄더백 (매트 플라스틱),95000,0.4,가방,assets/models/BagShoulderCage0.glb,plastic_matte
+bagshouldercage0_plastic_gloss,케이지 구조물 숄더백 (글로시 플라스틱),104500,0.35,가방,assets/models/BagShoulderCage0.glb,plastic_gloss
+bagshouldercage0_rubber_soft,케이지 구조물 숄더백 (소프트 러버),99800,0.4,가방,assets/models/BagShoulderCage0.glb,rubber_soft
+bagshouldercage0_ceramic_clean,케이지 구조물 숄더백 (클린 세라믹),114000,0.3,가방,assets/models/BagShoulderCage0.glb,ceramic_clean
+bagshouldercage0_metal_brushed,케이지 구조물 숄더백 (브러시드 메탈),128300,0.2,가방,assets/models/BagShoulderCage0.glb,metal_brushed
+bagshouldercage0_metal_polished,케이지 구조물 숄더백 (폴리시드 메탈),142500,0.1,가방,assets/models/BagShoulderCage0.glb,metal_polished
+bagshouldercage0_paint_clearcoat,케이지 구조물 숄더백 (클리어코트 페인트),123500,0.25,가방,assets/models/BagShoulderCage0.glb,paint_clearcoat
+bagshouldercage0_fabric_sheen,케이지 구조물 숄더백 (패브릭 쉰),109200,0.35,가방,assets/models/BagShoulderCage0.glb,fabric_sheen
+bagshouldercage0_glass_clear,케이지 구조물 숄더백 (클리어 글래스),152000,0.1,가방,assets/models/BagShoulderCage0.glb,glass_clear
+bagshouldercage0_resin_tinted,케이지 구조물 숄더백 (틴티드 레진),137800,0.15,가방,assets/models/BagShoulderCage0.glb,resin_tinted
+bagshouldercage0_matcap_clay,케이지 구조물 숄더백 (클레이),99800,0.4,가방,assets/models/BagShoulderCage0.glb,matcap_clay
+bagshouldercage0_matcap_wax,케이지 구조물 숄더백 (왁스),104500,0.35,가방,assets/models/BagShoulderCage0.glb,matcap_wax
+bagshouldercage0_matcap_chrome,케이지 구조물 숄더백 (크롬),147300,0.1,가방,assets/models/BagShoulderCage0.glb,matcap_chrome
+bagshouldercage0_matcap_bronze,케이지 구조물 숄더백 (브론즈),133000,0.2,가방,assets/models/BagShoulderCage0.glb,matcap_bronze
+bagshouldercage0_matcap_black_rubber,케이지 구조물 숄더백 (블랙 러버),102600,0.4,가방,assets/models/BagShoulderCage0.glb,matcap_black_rubber
+bagshouldercage0_matcap_red_wax,케이지 구조물 숄더백 (레드 왁스),109200,0.3,가방,assets/models/BagShoulderCage0.glb,matcap_red_wax
+bagshouldercage0_matcap_white_ceramic,케이지 구조물 숄더백 (화이트 세라믹),118800,0.25,가방,assets/models/BagShoulderCage0.glb,matcap_white_ceramic
+bagshouldercage0_matcap_blue_gloss,케이지 구조물 숄더백 (블루 글로시),114000,0.3,가방,assets/models/BagShoulderCage0.glb,matcap_blue_gloss
+bagshouldercage0_matcap_gold,케이지 구조물 숄더백 (골드),161500,0.1,가방,assets/models/BagShoulderCage0.glb,matcap_gold
+bagshouldercage0_matcap_silver_soft,케이지 구조물 숄더백 (소프트 실버),128300,0.2,가방,assets/models/BagShoulderCage0.glb,matcap_silver_soft

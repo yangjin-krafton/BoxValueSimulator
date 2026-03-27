@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+ftrbucket_plastic_matte,버킷 (매트 플라스틱),25000,1.8,장식,assets/models/FtrBucket.glb,plastic_matte
+ftrbucket_plastic_gloss,버킷 (글로시 플라스틱),27500,1.75,장식,assets/models/FtrBucket.glb,plastic_gloss
+ftrbucket_rubber_soft,버킷 (소프트 러버),26300,1.8,장식,assets/models/FtrBucket.glb,rubber_soft
+ftrbucket_ceramic_clean,버킷 (클린 세라믹),30000,1.7,장식,assets/models/FtrBucket.glb,ceramic_clean
+ftrbucket_metal_brushed,버킷 (브러시드 메탈),33800,1.6,장식,assets/models/FtrBucket.glb,metal_brushed
+ftrbucket_metal_polished,버킷 (폴리시드 메탈),37500,1.5,장식,assets/models/FtrBucket.glb,metal_polished
+ftrbucket_paint_clearcoat,버킷 (클리어코트 페인트),32500,1.65,장식,assets/models/FtrBucket.glb,paint_clearcoat
+ftrbucket_fabric_sheen,버킷 (패브릭 쉰),28700,1.75,장식,assets/models/FtrBucket.glb,fabric_sheen
+ftrbucket_glass_clear,버킷 (클리어 글래스),40000,1.4,장식,assets/models/FtrBucket.glb,glass_clear
+ftrbucket_resin_tinted,버킷 (틴티드 레진),36300,1.55,장식,assets/models/FtrBucket.glb,resin_tinted
+ftrbucket_matcap_clay,버킷 (클레이),26300,1.8,장식,assets/models/FtrBucket.glb,matcap_clay
+ftrbucket_matcap_wax,버킷 (왁스),27500,1.75,장식,assets/models/FtrBucket.glb,matcap_wax
+ftrbucket_matcap_chrome,버킷 (크롬),38800,1.45,장식,assets/models/FtrBucket.glb,matcap_chrome
+ftrbucket_matcap_bronze,버킷 (브론즈),35000,1.6,장식,assets/models/FtrBucket.glb,matcap_bronze
+ftrbucket_matcap_black_rubber,버킷 (블랙 러버),27000,1.8,장식,assets/models/FtrBucket.glb,matcap_black_rubber
+ftrbucket_matcap_red_wax,버킷 (레드 왁스),28700,1.7,장식,assets/models/FtrBucket.glb,matcap_red_wax
+ftrbucket_matcap_white_ceramic,버킷 (화이트 세라믹),31300,1.65,장식,assets/models/FtrBucket.glb,matcap_white_ceramic
+ftrbucket_matcap_blue_gloss,버킷 (블루 글로시),30000,1.7,장식,assets/models/FtrBucket.glb,matcap_blue_gloss
+ftrbucket_matcap_gold,버킷 (골드),42500,1.3,장식,assets/models/FtrBucket.glb,matcap_gold
+ftrbucket_matcap_silver_soft,버킷 (소프트 실버),33800,1.6,장식,assets/models/FtrBucket.glb,matcap_silver_soft
+ftrcactusesmini_plastic_matte,미니 선인장 (매트 플라스틱),85000,0.5,장식,assets/models/FtrCactusesMini.glb,plastic_matte
+ftrcactusesmini_plastic_gloss,미니 선인장 (글로시 플라스틱),93500,0.45,장식,assets/models/FtrCactusesMini.glb,plastic_gloss
+ftrcactusesmini_rubber_soft,미니 선인장 (소프트 러버),89300,0.5,장식,assets/models/FtrCactusesMini.glb,rubber_soft
+ftrcactusesmini_ceramic_clean,미니 선인장 (클린 세라믹),102000,0.4,장식,assets/models/FtrCactusesMini.glb,ceramic_clean
+ftrcactusesmini_metal_brushed,미니 선인장 (브러시드 메탈),114800,0.3,장식,assets/models/FtrCactusesMini.glb,metal_brushed
+ftrcactusesmini_metal_polished,미니 선인장 (폴리시드 메탈),127500,0.2,장식,assets/models/FtrCactusesMini.glb,metal_polished
+ftrcactusesmini_paint_clearcoat,미니 선인장 (클리어코트 페인트),110500,0.35,장식,assets/models/FtrCactusesMini.glb,paint_clearcoat
+ftrcactusesmini_fabric_sheen,미니 선인장 (패브릭 쉰),97700,0.45,장식,assets/models/FtrCactusesMini.glb,fabric_sheen
+ftrcactusesmini_glass_clear,미니 선인장 (클리어 글래스),136000,0.1,장식,assets/models/FtrCactusesMini.glb,glass_clear
+ftrcactusesmini_resin_tinted,미니 선인장 (틴티드 레진),123300,0.25,장식,assets/models/FtrCactusesMini.glb,resin_tinted
+ftrcactusesmini_matcap_clay,미니 선인장 (클레이),89300,0.5,장식,assets/models/FtrCactusesMini.glb,matcap_clay
+ftrcactusesmini_matcap_wax,미니 선인장 (왁스),93500,0.45,장식,assets/models/FtrCactusesMini.glb,matcap_wax
+ftrcactusesmini_matcap_chrome,미니 선인장 (크롬),131800,0.15,장식,assets/models/FtrCactusesMini.glb,matcap_chrome
+ftrcactusesmini_matcap_bronze,미니 선인장 (브론즈),119000,0.3,장식,assets/models/FtrCactusesMini.glb,matcap_bronze
+ftrcactusesmini_matcap_black_rubber,미니 선인장 (블랙 러버),91800,0.5,장식,assets/models/FtrCactusesMini.glb,matcap_black_rubber
+ftrcactusesmini_matcap_red_wax,미니 선인장 (레드 왁스),97700,0.4,장식,assets/models/FtrCactusesMini.glb,matcap_red_wax
+ftrcactusesmini_matcap_white_ceramic,미니 선인장 (화이트 세라믹),106300,0.35,장식,assets/models/FtrCactusesMini.glb,matcap_white_ceramic
+ftrcactusesmini_matcap_blue_gloss,미니 선인장 (블루 글로시),102000,0.4,장식,assets/models/FtrCactusesMini.glb,matcap_blue_gloss
+ftrcactusesmini_matcap_gold,미니 선인장 (골드),144500,0.1,장식,assets/models/FtrCactusesMini.glb,matcap_gold
+ftrcactusesmini_matcap_silver_soft,미니 선인장 (소프트 실버),114800,0.3,장식,assets/models/FtrCactusesMini.glb,matcap_silver_soft
+ftrcandle_plastic_matte,캔들 (매트 플라스틱),15000,1.9,장식,assets/models/FtrCandle.glb,plastic_matte
+ftrcandle_plastic_gloss,캔들 (글로시 플라스틱),16500,1.85,장식,assets/models/FtrCandle.glb,plastic_gloss
+ftrcandle_rubber_soft,캔들 (소프트 러버),15800,1.9,장식,assets/models/FtrCandle.glb,rubber_soft
+ftrcandle_ceramic_clean,캔들 (클린 세라믹),18000,1.8,장식,assets/models/FtrCandle.glb,ceramic_clean
+ftrcandle_metal_brushed,캔들 (브러시드 메탈),20300,1.7,장식,assets/models/FtrCandle.glb,metal_brushed
+ftrcandle_metal_polished,캔들 (폴리시드 메탈),22500,1.6,장식,assets/models/FtrCandle.glb,metal_polished
+ftrcandle_paint_clearcoat,캔들 (클리어코트 페인트),19500,1.75,장식,assets/models/FtrCandle.glb,paint_clearcoat
+ftrcandle_fabric_sheen,캔들 (패브릭 쉰),17300,1.85,장식,assets/models/FtrCandle.glb,fabric_sheen
+ftrcandle_glass_clear,캔들 (클리어 글래스),24000,1.5,장식,assets/models/FtrCandle.glb,glass_clear
+ftrcandle_resin_tinted,캔들 (틴티드 레진),21800,1.65,장식,assets/models/FtrCandle.glb,resin_tinted
+ftrcandle_matcap_clay,캔들 (클레이),15800,1.9,장식,assets/models/FtrCandle.glb,matcap_clay
+ftrcandle_matcap_wax,캔들 (왁스),16500,1.85,장식,assets/models/FtrCandle.glb,matcap_wax
+ftrcandle_matcap_chrome,캔들 (크롬),23300,1.55,장식,assets/models/FtrCandle.glb,matcap_chrome
+ftrcandle_matcap_bronze,캔들 (브론즈),21000,1.7,장식,assets/models/FtrCandle.glb,matcap_bronze
+ftrcandle_matcap_black_rubber,캔들 (블랙 러버),16200,1.9,장식,assets/models/FtrCandle.glb,matcap_black_rubber
+ftrcandle_matcap_red_wax,캔들 (레드 왁스),17300,1.8,장식,assets/models/FtrCandle.glb,matcap_red_wax
+ftrcandle_matcap_white_ceramic,캔들 (화이트 세라믹),18800,1.75,장식,assets/models/FtrCandle.glb,matcap_white_ceramic
+ftrcandle_matcap_blue_gloss,캔들 (블루 글로시),18000,1.8,장식,assets/models/FtrCandle.glb,matcap_blue_gloss
+ftrcandle_matcap_gold,캔들 (골드),25500,1.4,장식,assets/models/FtrCandle.glb,matcap_gold
+ftrcandle_matcap_silver_soft,캔들 (소프트 실버),20300,1.7,장식,assets/models/FtrCandle.glb,matcap_silver_soft
+ftrcardboard_plastic_matte,카드보드 박스 (매트 플라스틱),5000,2,장식,assets/models/FtrCardboard.glb,plastic_matte
+ftrcardboard_plastic_gloss,카드보드 박스 (글로시 플라스틱),5500,1.95,장식,assets/models/FtrCardboard.glb,plastic_gloss
+ftrcardboard_rubber_soft,카드보드 박스 (소프트 러버),5300,2,장식,assets/models/FtrCardboard.glb,rubber_soft
+ftrcardboard_ceramic_clean,카드보드 박스 (클린 세라믹),6000,1.9,장식,assets/models/FtrCardboard.glb,ceramic_clean
+ftrcardboard_metal_brushed,카드보드 박스 (브러시드 메탈),6800,1.8,장식,assets/models/FtrCardboard.glb,metal_brushed
+ftrcardboard_metal_polished,카드보드 박스 (폴리시드 메탈),7500,1.7,장식,assets/models/FtrCardboard.glb,metal_polished
+ftrcardboard_paint_clearcoat,카드보드 박스 (클리어코트 페인트),6500,1.85,장식,assets/models/FtrCardboard.glb,paint_clearcoat
+ftrcardboard_fabric_sheen,카드보드 박스 (패브릭 쉰),5800,1.95,장식,assets/models/FtrCardboard.glb,fabric_sheen
+ftrcardboard_glass_clear,카드보드 박스 (클리어 글래스),8000,1.6,장식,assets/models/FtrCardboard.glb,glass_clear
+ftrcardboard_resin_tinted,카드보드 박스 (틴티드 레진),7300,1.75,장식,assets/models/FtrCardboard.glb,resin_tinted
+ftrcardboard_matcap_clay,카드보드 박스 (클레이),5300,2,장식,assets/models/FtrCardboard.glb,matcap_clay
+ftrcardboard_matcap_wax,카드보드 박스 (왁스),5500,1.95,장식,assets/models/FtrCardboard.glb,matcap_wax
+ftrcardboard_matcap_chrome,카드보드 박스 (크롬),7800,1.65,장식,assets/models/FtrCardboard.glb,matcap_chrome
+ftrcardboard_matcap_bronze,카드보드 박스 (브론즈),7000,1.8,장식,assets/models/FtrCardboard.glb,matcap_bronze
+ftrcardboard_matcap_black_rubber,카드보드 박스 (블랙 러버),5400,2,장식,assets/models/FtrCardboard.glb,matcap_black_rubber
+ftrcardboard_matcap_red_wax,카드보드 박스 (레드 왁스),5800,1.9,장식,assets/models/FtrCardboard.glb,matcap_red_wax
+ftrcardboard_matcap_white_ceramic,카드보드 박스 (화이트 세라믹),6300,1.85,장식,assets/models/FtrCardboard.glb,matcap_white_ceramic
+ftrcardboard_matcap_blue_gloss,카드보드 박스 (블루 글로시),6000,1.9,장식,assets/models/FtrCardboard.glb,matcap_blue_gloss
+ftrcardboard_matcap_gold,카드보드 박스 (골드),8500,1.5,장식,assets/models/FtrCardboard.glb,matcap_gold
+ftrcardboard_matcap_silver_soft,카드보드 박스 (소프트 실버),6800,1.8,장식,assets/models/FtrCardboard.glb,matcap_silver_soft
+ftrcatgrass_plastic_matte,고양이 풀 (매트 플라스틱),12000,1.9,장식,assets/models/FtrCatgrass.glb,plastic_matte
+ftrcatgrass_plastic_gloss,고양이 풀 (글로시 플라스틱),13200,1.85,장식,assets/models/FtrCatgrass.glb,plastic_gloss
+ftrcatgrass_rubber_soft,고양이 풀 (소프트 러버),12600,1.9,장식,assets/models/FtrCatgrass.glb,rubber_soft
+ftrcatgrass_ceramic_clean,고양이 풀 (클린 세라믹),14400,1.8,장식,assets/models/FtrCatgrass.glb,ceramic_clean
+ftrcatgrass_metal_brushed,고양이 풀 (브러시드 메탈),16200,1.7,장식,assets/models/FtrCatgrass.glb,metal_brushed
+ftrcatgrass_metal_polished,고양이 풀 (폴리시드 메탈),18000,1.6,장식,assets/models/FtrCatgrass.glb,metal_polished
+ftrcatgrass_paint_clearcoat,고양이 풀 (클리어코트 페인트),15600,1.75,장식,assets/models/FtrCatgrass.glb,paint_clearcoat
+ftrcatgrass_fabric_sheen,고양이 풀 (패브릭 쉰),13800,1.85,장식,assets/models/FtrCatgrass.glb,fabric_sheen
+ftrcatgrass_glass_clear,고양이 풀 (클리어 글래스),19200,1.5,장식,assets/models/FtrCatgrass.glb,glass_clear
+ftrcatgrass_resin_tinted,고양이 풀 (틴티드 레진),17400,1.65,장식,assets/models/FtrCatgrass.glb,resin_tinted
+ftrcatgrass_matcap_clay,고양이 풀 (클레이),12600,1.9,장식,assets/models/FtrCatgrass.glb,matcap_clay
+ftrcatgrass_matcap_wax,고양이 풀 (왁스),13200,1.85,장식,assets/models/FtrCatgrass.glb,matcap_wax
+ftrcatgrass_matcap_chrome,고양이 풀 (크롬),18600,1.55,장식,assets/models/FtrCatgrass.glb,matcap_chrome
+ftrcatgrass_matcap_bronze,고양이 풀 (브론즈),16800,1.7,장식,assets/models/FtrCatgrass.glb,matcap_bronze
+ftrcatgrass_matcap_black_rubber,고양이 풀 (블랙 러버),13000,1.9,장식,assets/models/FtrCatgrass.glb,matcap_black_rubber
+ftrcatgrass_matcap_red_wax,고양이 풀 (레드 왁스),13800,1.8,장식,assets/models/FtrCatgrass.glb,matcap_red_wax
+ftrcatgrass_matcap_white_ceramic,고양이 풀 (화이트 세라믹),15000,1.75,장식,assets/models/FtrCatgrass.glb,matcap_white_ceramic
+ftrcatgrass_matcap_blue_gloss,고양이 풀 (블루 글로시),14400,1.8,장식,assets/models/FtrCatgrass.glb,matcap_blue_gloss
+ftrcatgrass_matcap_gold,고양이 풀 (골드),20400,1.4,장식,assets/models/FtrCatgrass.glb,matcap_gold
+ftrcatgrass_matcap_silver_soft,고양이 풀 (소프트 실버),16200,1.7,장식,assets/models/FtrCatgrass.glb,matcap_silver_soft
+ftrchinesechair_plastic_matte,중국식 의자 (매트 플라스틱),25000,1.5,가구,assets/models/FtrChineseChair.glb,plastic_matte
+ftrchinesechair_plastic_gloss,중국식 의자 (글로시 플라스틱),27500,1.45,가구,assets/models/FtrChineseChair.glb,plastic_gloss
+ftrchinesechair_rubber_soft,중국식 의자 (소프트 러버),26300,1.5,가구,assets/models/FtrChineseChair.glb,rubber_soft
+ftrchinesechair_ceramic_clean,중국식 의자 (클린 세라믹),30000,1.4,가구,assets/models/FtrChineseChair.glb,ceramic_clean
+ftrchinesechair_metal_brushed,중국식 의자 (브러시드 메탈),33800,1.3,가구,assets/models/FtrChineseChair.glb,metal_brushed
+ftrchinesechair_metal_polished,중국식 의자 (폴리시드 메탈),37500,1.2,가구,assets/models/FtrChineseChair.glb,metal_polished
+ftrchinesechair_paint_clearcoat,중국식 의자 (클리어코트 페인트),32500,1.35,가구,assets/models/FtrChineseChair.glb,paint_clearcoat
+ftrchinesechair_fabric_sheen,중국식 의자 (패브릭 쉰),28700,1.45,가구,assets/models/FtrChineseChair.glb,fabric_sheen
+ftrchinesechair_glass_clear,중국식 의자 (클리어 글래스),40000,1.1,가구,assets/models/FtrChineseChair.glb,glass_clear
+ftrchinesechair_resin_tinted,중국식 의자 (틴티드 레진),36300,1.25,가구,assets/models/FtrChineseChair.glb,resin_tinted
+ftrchinesechair_matcap_clay,중국식 의자 (클레이),26300,1.5,가구,assets/models/FtrChineseChair.glb,matcap_clay
+ftrchinesechair_matcap_wax,중국식 의자 (왁스),27500,1.45,가구,assets/models/FtrChineseChair.glb,matcap_wax
+ftrchinesechair_matcap_chrome,중국식 의자 (크롬),38800,1.15,가구,assets/models/FtrChineseChair.glb,matcap_chrome
+ftrchinesechair_matcap_bronze,중국식 의자 (브론즈),35000,1.3,가구,assets/models/FtrChineseChair.glb,matcap_bronze
+ftrchinesechair_matcap_black_rubber,중국식 의자 (블랙 러버),27000,1.5,가구,assets/models/FtrChineseChair.glb,matcap_black_rubber
+ftrchinesechair_matcap_red_wax,중국식 의자 (레드 왁스),28700,1.4,가구,assets/models/FtrChineseChair.glb,matcap_red_wax
+ftrchinesechair_matcap_white_ceramic,중국식 의자 (화이트 세라믹),31300,1.35,가구,assets/models/FtrChineseChair.glb,matcap_white_ceramic
+ftrchinesechair_matcap_blue_gloss,중국식 의자 (블루 글로시),30000,1.4,가구,assets/models/FtrChineseChair.glb,matcap_blue_gloss
+ftrchinesechair_matcap_gold,중국식 의자 (골드),42500,1,가구,assets/models/FtrChineseChair.glb,matcap_gold
+ftrchinesechair_matcap_silver_soft,중국식 의자 (소프트 실버),33800,1.3,가구,assets/models/FtrChineseChair.glb,matcap_silver_soft
+ftrcirculator_plastic_matte,원형 램프 (매트 플라스틱),35000,1.3,조명,assets/models/FtrCirculator.glb,plastic_matte
+ftrcirculator_plastic_gloss,원형 램프 (글로시 플라스틱),38500,1.25,조명,assets/models/FtrCirculator.glb,plastic_gloss
+ftrcirculator_rubber_soft,원형 램프 (소프트 러버),36800,1.3,조명,assets/models/FtrCirculator.glb,rubber_soft
+ftrcirculator_ceramic_clean,원형 램프 (클린 세라믹),42000,1.2,조명,assets/models/FtrCirculator.glb,ceramic_clean
+ftrcirculator_metal_brushed,원형 램프 (브러시드 메탈),47300,1.1,조명,assets/models/FtrCirculator.glb,metal_brushed
+ftrcirculator_metal_polished,원형 램프 (폴리시드 메탈),52500,1,조명,assets/models/FtrCirculator.glb,metal_polished
+ftrcirculator_paint_clearcoat,원형 램프 (클리어코트 페인트),45500,1.15,조명,assets/models/FtrCirculator.glb,paint_clearcoat
+ftrcirculator_fabric_sheen,원형 램프 (패브릭 쉰),40300,1.25,조명,assets/models/FtrCirculator.glb,fabric_sheen
+ftrcirculator_glass_clear,원형 램프 (클리어 글래스),56000,0.9,조명,assets/models/FtrCirculator.glb,glass_clear
+ftrcirculator_resin_tinted,원형 램프 (틴티드 레진),50800,1.05,조명,assets/models/FtrCirculator.glb,resin_tinted
+ftrcirculator_matcap_clay,원형 램프 (클레이),36800,1.3,조명,assets/models/FtrCirculator.glb,matcap_clay
+ftrcirculator_matcap_wax,원형 램프 (왁스),38500,1.25,조명,assets/models/FtrCirculator.glb,matcap_wax
+ftrcirculator_matcap_chrome,원형 램프 (크롬),54300,0.95,조명,assets/models/FtrCirculator.glb,matcap_chrome
+ftrcirculator_matcap_bronze,원형 램프 (브론즈),49000,1.1,조명,assets/models/FtrCirculator.glb,matcap_bronze
+ftrcirculator_matcap_black_rubber,원형 램프 (블랙 러버),37800,1.3,조명,assets/models/FtrCirculator.glb,matcap_black_rubber
+ftrcirculator_matcap_red_wax,원형 램프 (레드 왁스),40300,1.2,조명,assets/models/FtrCirculator.glb,matcap_red_wax
+ftrcirculator_matcap_white_ceramic,원형 램프 (화이트 세라믹),43800,1.15,조명,assets/models/FtrCirculator.glb,matcap_white_ceramic
+ftrcirculator_matcap_blue_gloss,원형 램프 (블루 글로시),42000,1.2,조명,assets/models/FtrCirculator.glb,matcap_blue_gloss
+ftrcirculator_matcap_gold,원형 램프 (골드),59500,0.8,조명,assets/models/FtrCirculator.glb,matcap_gold
+ftrcirculator_matcap_silver_soft,원형 램프 (소프트 실버),47300,1.1,조명,assets/models/FtrCirculator.glb,matcap_silver_soft
+ftrcleaner_plastic_matte,휴대용 청소기 (매트 플라스틱),45000,1.1,가전,assets/models/FtrCleaner.glb,plastic_matte
+ftrcleaner_plastic_gloss,휴대용 청소기 (글로시 플라스틱),49500,1.05,가전,assets/models/FtrCleaner.glb,plastic_gloss
+ftrcleaner_rubber_soft,휴대용 청소기 (소프트 러버),47300,1.1,가전,assets/models/FtrCleaner.glb,rubber_soft
+ftrcleaner_ceramic_clean,휴대용 청소기 (클린 세라믹),54000,1,가전,assets/models/FtrCleaner.glb,ceramic_clean
+ftrcleaner_metal_brushed,휴대용 청소기 (브러시드 메탈),60800,0.9,가전,assets/models/FtrCleaner.glb,metal_brushed
+ftrcleaner_metal_polished,휴대용 청소기 (폴리시드 메탈),67500,0.8,가전,assets/models/FtrCleaner.glb,metal_polished
+ftrcleaner_paint_clearcoat,휴대용 청소기 (클리어코트 페인트),58500,0.95,가전,assets/models/FtrCleaner.glb,paint_clearcoat
+ftrcleaner_fabric_sheen,휴대용 청소기 (패브릭 쉰),51700,1.05,가전,assets/models/FtrCleaner.glb,fabric_sheen
+ftrcleaner_glass_clear,휴대용 청소기 (클리어 글래스),72000,0.7,가전,assets/models/FtrCleaner.glb,glass_clear
+ftrcleaner_resin_tinted,휴대용 청소기 (틴티드 레진),65300,0.85,가전,assets/models/FtrCleaner.glb,resin_tinted
+ftrcleaner_matcap_clay,휴대용 청소기 (클레이),47300,1.1,가전,assets/models/FtrCleaner.glb,matcap_clay
+ftrcleaner_matcap_wax,휴대용 청소기 (왁스),49500,1.05,가전,assets/models/FtrCleaner.glb,matcap_wax
+ftrcleaner_matcap_chrome,휴대용 청소기 (크롬),69800,0.75,가전,assets/models/FtrCleaner.glb,matcap_chrome
+ftrcleaner_matcap_bronze,휴대용 청소기 (브론즈),63000,0.9,가전,assets/models/FtrCleaner.glb,matcap_bronze
+ftrcleaner_matcap_black_rubber,휴대용 청소기 (블랙 러버),48600,1.1,가전,assets/models/FtrCleaner.glb,matcap_black_rubber
+ftrcleaner_matcap_red_wax,휴대용 청소기 (레드 왁스),51700,1,가전,assets/models/FtrCleaner.glb,matcap_red_wax
+ftrcleaner_matcap_white_ceramic,휴대용 청소기 (화이트 세라믹),56300,0.95,가전,assets/models/FtrCleaner.glb,matcap_white_ceramic
+ftrcleaner_matcap_blue_gloss,휴대용 청소기 (블루 글로시),54000,1,가전,assets/models/FtrCleaner.glb,matcap_blue_gloss
+ftrcleaner_matcap_gold,휴대용 청소기 (골드),76500,0.6,가전,assets/models/FtrCleaner.glb,matcap_gold
+ftrcleaner_matcap_silver_soft,휴대용 청소기 (소프트 실버),60800,0.9,가전,assets/models/FtrCleaner.glb,matcap_silver_soft
+ftrcleaningset_plastic_matte,청소 도구 세트 (매트 플라스틱),18000,1.8,청소용품,assets/models/FtrCleaningset.glb,plastic_matte
+ftrcleaningset_plastic_gloss,청소 도구 세트 (글로시 플라스틱),19800,1.75,청소용품,assets/models/FtrCleaningset.glb,plastic_gloss
+ftrcleaningset_rubber_soft,청소 도구 세트 (소프트 러버),18900,1.8,청소용품,assets/models/FtrCleaningset.glb,rubber_soft
+ftrcleaningset_ceramic_clean,청소 도구 세트 (클린 세라믹),21600,1.7,청소용품,assets/models/FtrCleaningset.glb,ceramic_clean
+ftrcleaningset_metal_brushed,청소 도구 세트 (브러시드 메탈),24300,1.6,청소용품,assets/models/FtrCleaningset.glb,metal_brushed
+ftrcleaningset_metal_polished,청소 도구 세트 (폴리시드 메탈),27000,1.5,청소용품,assets/models/FtrCleaningset.glb,metal_polished
+ftrcleaningset_paint_clearcoat,청소 도구 세트 (클리어코트 페인트),23400,1.65,청소용품,assets/models/FtrCleaningset.glb,paint_clearcoat
+ftrcleaningset_fabric_sheen,청소 도구 세트 (패브릭 쉰),20700,1.75,청소용품,assets/models/FtrCleaningset.glb,fabric_sheen
+ftrcleaningset_glass_clear,청소 도구 세트 (클리어 글래스),28800,1.4,청소용품,assets/models/FtrCleaningset.glb,glass_clear
+ftrcleaningset_resin_tinted,청소 도구 세트 (틴티드 레진),26100,1.55,청소용품,assets/models/FtrCleaningset.glb,resin_tinted
+ftrcleaningset_matcap_clay,청소 도구 세트 (클레이),18900,1.8,청소용품,assets/models/FtrCleaningset.glb,matcap_clay
+ftrcleaningset_matcap_wax,청소 도구 세트 (왁스),19800,1.75,청소용품,assets/models/FtrCleaningset.glb,matcap_wax
+ftrcleaningset_matcap_chrome,청소 도구 세트 (크롬),27900,1.45,청소용품,assets/models/FtrCleaningset.glb,matcap_chrome
+ftrcleaningset_matcap_bronze,청소 도구 세트 (브론즈),25200,1.6,청소용품,assets/models/FtrCleaningset.glb,matcap_bronze
+ftrcleaningset_matcap_black_rubber,청소 도구 세트 (블랙 러버),19400,1.8,청소용품,assets/models/FtrCleaningset.glb,matcap_black_rubber
+ftrcleaningset_matcap_red_wax,청소 도구 세트 (레드 왁스),20700,1.7,청소용품,assets/models/FtrCleaningset.glb,matcap_red_wax
+ftrcleaningset_matcap_white_ceramic,청소 도구 세트 (화이트 세라믹),22500,1.65,청소용품,assets/models/FtrCleaningset.glb,matcap_white_ceramic
+ftrcleaningset_matcap_blue_gloss,청소 도구 세트 (블루 글로시),21600,1.7,청소용품,assets/models/FtrCleaningset.glb,matcap_blue_gloss
+ftrcleaningset_matcap_gold,청소 도구 세트 (골드),30600,1.3,청소용품,assets/models/FtrCleaningset.glb,matcap_gold
+ftrcleaningset_matcap_silver_soft,청소 도구 세트 (소프트 실버),24300,1.6,청소용품,assets/models/FtrCleaningset.glb,matcap_silver_soft
+ftrclimbingwall_plastic_matte,등반 벽 (매트 플라스틱),120000,0.6,스포츠용품,assets/models/FtrClimbingwall.glb,plastic_matte
+ftrclimbingwall_plastic_gloss,등반 벽 (글로시 플라스틱),132000,0.55,스포츠용품,assets/models/FtrClimbingwall.glb,plastic_gloss
+ftrclimbingwall_rubber_soft,등반 벽 (소프트 러버),126000,0.6,스포츠용품,assets/models/FtrClimbingwall.glb,rubber_soft
+ftrclimbingwall_ceramic_clean,등반 벽 (클린 세라믹),144000,0.5,스포츠용품,assets/models/FtrClimbingwall.glb,ceramic_clean
+ftrclimbingwall_metal_brushed,등반 벽 (브러시드 메탈),162000,0.4,스포츠용품,assets/models/FtrClimbingwall.glb,metal_brushed
+ftrclimbingwall_metal_polished,등반 벽 (폴리시드 메탈),180000,0.3,스포츠용품,assets/models/FtrClimbingwall.glb,metal_polished
+ftrclimbingwall_paint_clearcoat,등반 벽 (클리어코트 페인트),156000,0.45,스포츠용품,assets/models/FtrClimbingwall.glb,paint_clearcoat
+ftrclimbingwall_fabric_sheen,등반 벽 (패브릭 쉰),138000,0.55,스포츠용품,assets/models/FtrClimbingwall.glb,fabric_sheen
+ftrclimbingwall_glass_clear,등반 벽 (클리어 글래스),192000,0.2,스포츠용품,assets/models/FtrClimbingwall.glb,glass_clear
+ftrclimbingwall_resin_tinted,등반 벽 (틴티드 레진),174000,0.35,스포츠용품,assets/models/FtrClimbingwall.glb,resin_tinted
+ftrclimbingwall_matcap_clay,등반 벽 (클레이),126000,0.6,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_clay
+ftrclimbingwall_matcap_wax,등반 벽 (왁스),132000,0.55,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_wax
+ftrclimbingwall_matcap_chrome,등반 벽 (크롬),186000,0.25,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_chrome
+ftrclimbingwall_matcap_bronze,등반 벽 (브론즈),168000,0.4,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_bronze
+ftrclimbingwall_matcap_black_rubber,등반 벽 (블랙 러버),129600,0.6,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_black_rubber
+ftrclimbingwall_matcap_red_wax,등반 벽 (레드 왁스),138000,0.5,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_red_wax
+ftrclimbingwall_matcap_white_ceramic,등반 벽 (화이트 세라믹),150000,0.45,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_white_ceramic
+ftrclimbingwall_matcap_blue_gloss,등반 벽 (블루 글로시),144000,0.5,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_blue_gloss
+ftrclimbingwall_matcap_gold,등반 벽 (골드),204000,0.1,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_gold
+ftrclimbingwall_matcap_silver_soft,등반 벽 (소프트 실버),162000,0.4,스포츠용품,assets/models/FtrClimbingwall.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+furnituretopsonepieceboxl_plastic_matte,가구 탑 원피스 박스 L (매트 플라스틱),15000,1.2,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,plastic_matte
+furnituretopsonepieceboxl_plastic_gloss,가구 탑 원피스 박스 L (글로시 플라스틱),16500,1.15,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,plastic_gloss
+furnituretopsonepieceboxl_rubber_soft,가구 탑 원피스 박스 L (소프트 러버),15800,1.2,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,rubber_soft
+furnituretopsonepieceboxl_ceramic_clean,가구 탑 원피스 박스 L (클린 세라믹),18000,1.1,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,ceramic_clean
+furnituretopsonepieceboxl_metal_brushed,가구 탑 원피스 박스 L (브러시드 메탈),20300,1,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,metal_brushed
+furnituretopsonepieceboxl_metal_polished,가구 탑 원피스 박스 L (폴리시드 메탈),22500,0.9,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,metal_polished
+furnituretopsonepieceboxl_paint_clearcoat,가구 탑 원피스 박스 L (클리어코트 페인트),19500,1.05,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,paint_clearcoat
+furnituretopsonepieceboxl_fabric_sheen,가구 탑 원피스 박스 L (패브릭 쉰),17300,1.15,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,fabric_sheen
+furnituretopsonepieceboxl_glass_clear,가구 탑 원피스 박스 L (클리어 글래스),24000,0.8,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,glass_clear
+furnituretopsonepieceboxl_resin_tinted,가구 탑 원피스 박스 L (틴티드 레진),21800,0.95,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,resin_tinted
+furnituretopsonepieceboxl_matcap_clay,가구 탑 원피스 박스 L (클레이),15800,1.2,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_clay
+furnituretopsonepieceboxl_matcap_wax,가구 탑 원피스 박스 L (왁스),16500,1.15,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_wax
+furnituretopsonepieceboxl_matcap_chrome,가구 탑 원피스 박스 L (크롬),23300,0.85,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_chrome
+furnituretopsonepieceboxl_matcap_bronze,가구 탑 원피스 박스 L (브론즈),21000,1,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_bronze
+furnituretopsonepieceboxl_matcap_black_rubber,가구 탑 원피스 박스 L (블랙 러버),16200,1.2,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_black_rubber
+furnituretopsonepieceboxl_matcap_red_wax,가구 탑 원피스 박스 L (레드 왁스),17300,1.1,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_red_wax
+furnituretopsonepieceboxl_matcap_white_ceramic,가구 탑 원피스 박스 L (화이트 세라믹),18800,1.05,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_white_ceramic
+furnituretopsonepieceboxl_matcap_blue_gloss,가구 탑 원피스 박스 L (블루 글로시),18000,1.1,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_blue_gloss
+furnituretopsonepieceboxl_matcap_gold,가구 탑 원피스 박스 L (골드),25500,0.7,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_gold
+furnituretopsonepieceboxl_matcap_silver_soft,가구 탑 원피스 박스 L (소프트 실버),20300,1,의상,assets/models/FurnitureTopsOnepieceBoxL.glb,matcap_silver_soft
+furnituretopsonepieceboxn_plastic_matte,가구 탑 원피스 박스 N (매트 플라스틱),15000,1.2,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,plastic_matte
+furnituretopsonepieceboxn_plastic_gloss,가구 탑 원피스 박스 N (글로시 플라스틱),16500,1.15,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,plastic_gloss
+furnituretopsonepieceboxn_rubber_soft,가구 탑 원피스 박스 N (소프트 러버),15800,1.2,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,rubber_soft
+furnituretopsonepieceboxn_ceramic_clean,가구 탑 원피스 박스 N (클린 세라믹),18000,1.1,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,ceramic_clean
+furnituretopsonepieceboxn_metal_brushed,가구 탑 원피스 박스 N (브러시드 메탈),20300,1,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,metal_brushed
+furnituretopsonepieceboxn_metal_polished,가구 탑 원피스 박스 N (폴리시드 메탈),22500,0.9,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,metal_polished
+furnituretopsonepieceboxn_paint_clearcoat,가구 탑 원피스 박스 N (클리어코트 페인트),19500,1.05,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,paint_clearcoat
+furnituretopsonepieceboxn_fabric_sheen,가구 탑 원피스 박스 N (패브릭 쉰),17300,1.15,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,fabric_sheen
+furnituretopsonepieceboxn_glass_clear,가구 탑 원피스 박스 N (클리어 글래스),24000,0.8,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,glass_clear
+furnituretopsonepieceboxn_resin_tinted,가구 탑 원피스 박스 N (틴티드 레진),21800,0.95,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,resin_tinted
+furnituretopsonepieceboxn_matcap_clay,가구 탑 원피스 박스 N (클레이),15800,1.2,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_clay
+furnituretopsonepieceboxn_matcap_wax,가구 탑 원피스 박스 N (왁스),16500,1.15,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_wax
+furnituretopsonepieceboxn_matcap_chrome,가구 탑 원피스 박스 N (크롬),23300,0.85,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_chrome
+furnituretopsonepieceboxn_matcap_bronze,가구 탑 원피스 박스 N (브론즈),21000,1,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_bronze
+furnituretopsonepieceboxn_matcap_black_rubber,가구 탑 원피스 박스 N (블랙 러버),16200,1.2,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_black_rubber
+furnituretopsonepieceboxn_matcap_red_wax,가구 탑 원피스 박스 N (레드 왁스),17300,1.1,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_red_wax
+furnituretopsonepieceboxn_matcap_white_ceramic,가구 탑 원피스 박스 N (화이트 세라믹),18800,1.05,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_white_ceramic
+furnituretopsonepieceboxn_matcap_blue_gloss,가구 탑 원피스 박스 N (블루 글로시),18000,1.1,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_blue_gloss
+furnituretopsonepieceboxn_matcap_gold,가구 탑 원피스 박스 N (골드),25500,0.7,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_gold
+furnituretopsonepieceboxn_matcap_silver_soft,가구 탑 원피스 박스 N (소프트 실버),20300,1,의상,assets/models/FurnitureTopsOnepieceBoxN.glb,matcap_silver_soft
+furnituretopsonepieceribl_plastic_matte,가구 탑 원피스 리브 L (매트 플라스틱),18000,1.1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,plastic_matte
+furnituretopsonepieceribl_plastic_gloss,가구 탑 원피스 리브 L (글로시 플라스틱),19800,1.05,의상,assets/models/FurnitureTopsOnepieceRibL.glb,plastic_gloss
+furnituretopsonepieceribl_rubber_soft,가구 탑 원피스 리브 L (소프트 러버),18900,1.1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,rubber_soft
+furnituretopsonepieceribl_ceramic_clean,가구 탑 원피스 리브 L (클린 세라믹),21600,1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,ceramic_clean
+furnituretopsonepieceribl_metal_brushed,가구 탑 원피스 리브 L (브러시드 메탈),24300,0.9,의상,assets/models/FurnitureTopsOnepieceRibL.glb,metal_brushed
+furnituretopsonepieceribl_metal_polished,가구 탑 원피스 리브 L (폴리시드 메탈),27000,0.8,의상,assets/models/FurnitureTopsOnepieceRibL.glb,metal_polished
+furnituretopsonepieceribl_paint_clearcoat,가구 탑 원피스 리브 L (클리어코트 페인트),23400,0.95,의상,assets/models/FurnitureTopsOnepieceRibL.glb,paint_clearcoat
+furnituretopsonepieceribl_fabric_sheen,가구 탑 원피스 리브 L (패브릭 쉰),20700,1.05,의상,assets/models/FurnitureTopsOnepieceRibL.glb,fabric_sheen
+furnituretopsonepieceribl_glass_clear,가구 탑 원피스 리브 L (클리어 글래스),28800,0.7,의상,assets/models/FurnitureTopsOnepieceRibL.glb,glass_clear
+furnituretopsonepieceribl_resin_tinted,가구 탑 원피스 리브 L (틴티드 레진),26100,0.85,의상,assets/models/FurnitureTopsOnepieceRibL.glb,resin_tinted
+furnituretopsonepieceribl_matcap_clay,가구 탑 원피스 리브 L (클레이),18900,1.1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_clay
+furnituretopsonepieceribl_matcap_wax,가구 탑 원피스 리브 L (왁스),19800,1.05,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_wax
+furnituretopsonepieceribl_matcap_chrome,가구 탑 원피스 리브 L (크롬),27900,0.75,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_chrome
+furnituretopsonepieceribl_matcap_bronze,가구 탑 원피스 리브 L (브론즈),25200,0.9,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_bronze
+furnituretopsonepieceribl_matcap_black_rubber,가구 탑 원피스 리브 L (블랙 러버),19400,1.1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_black_rubber
+furnituretopsonepieceribl_matcap_red_wax,가구 탑 원피스 리브 L (레드 왁스),20700,1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_red_wax
+furnituretopsonepieceribl_matcap_white_ceramic,가구 탑 원피스 리브 L (화이트 세라믹),22500,0.95,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_white_ceramic
+furnituretopsonepieceribl_matcap_blue_gloss,가구 탑 원피스 리브 L (블루 글로시),21600,1,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_blue_gloss
+furnituretopsonepieceribl_matcap_gold,가구 탑 원피스 리브 L (골드),30600,0.6,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_gold
+furnituretopsonepieceribl_matcap_silver_soft,가구 탑 원피스 리브 L (소프트 실버),24300,0.9,의상,assets/models/FurnitureTopsOnepieceRibL.glb,matcap_silver_soft
+furnituretopsonepieceribn_plastic_matte,가구 탑 원피스 리브 N (매트 플라스틱),18000,1.1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,plastic_matte
+furnituretopsonepieceribn_plastic_gloss,가구 탑 원피스 리브 N (글로시 플라스틱),19800,1.05,의상,assets/models/FurnitureTopsOnepieceRibN.glb,plastic_gloss
+furnituretopsonepieceribn_rubber_soft,가구 탑 원피스 리브 N (소프트 러버),18900,1.1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,rubber_soft
+furnituretopsonepieceribn_ceramic_clean,가구 탑 원피스 리브 N (클린 세라믹),21600,1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,ceramic_clean
+furnituretopsonepieceribn_metal_brushed,가구 탑 원피스 리브 N (브러시드 메탈),24300,0.9,의상,assets/models/FurnitureTopsOnepieceRibN.glb,metal_brushed
+furnituretopsonepieceribn_metal_polished,가구 탑 원피스 리브 N (폴리시드 메탈),27000,0.8,의상,assets/models/FurnitureTopsOnepieceRibN.glb,metal_polished
+furnituretopsonepieceribn_paint_clearcoat,가구 탑 원피스 리브 N (클리어코트 페인트),23400,0.95,의상,assets/models/FurnitureTopsOnepieceRibN.glb,paint_clearcoat
+furnituretopsonepieceribn_fabric_sheen,가구 탑 원피스 리브 N (패브릭 쉰),20700,1.05,의상,assets/models/FurnitureTopsOnepieceRibN.glb,fabric_sheen
+furnituretopsonepieceribn_glass_clear,가구 탑 원피스 리브 N (클리어 글래스),28800,0.7,의상,assets/models/FurnitureTopsOnepieceRibN.glb,glass_clear
+furnituretopsonepieceribn_resin_tinted,가구 탑 원피스 리브 N (틴티드 레진),26100,0.85,의상,assets/models/FurnitureTopsOnepieceRibN.glb,resin_tinted
+furnituretopsonepieceribn_matcap_clay,가구 탑 원피스 리브 N (클레이),18900,1.1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_clay
+furnituretopsonepieceribn_matcap_wax,가구 탑 원피스 리브 N (왁스),19800,1.05,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_wax
+furnituretopsonepieceribn_matcap_chrome,가구 탑 원피스 리브 N (크롬),27900,0.75,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_chrome
+furnituretopsonepieceribn_matcap_bronze,가구 탑 원피스 리브 N (브론즈),25200,0.9,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_bronze
+furnituretopsonepieceribn_matcap_black_rubber,가구 탑 원피스 리브 N (블랙 러버),19400,1.1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_black_rubber
+furnituretopsonepieceribn_matcap_red_wax,가구 탑 원피스 리브 N (레드 왁스),20700,1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_red_wax
+furnituretopsonepieceribn_matcap_white_ceramic,가구 탑 원피스 리브 N (화이트 세라믹),22500,0.95,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_white_ceramic
+furnituretopsonepieceribn_matcap_blue_gloss,가구 탑 원피스 리브 N (블루 글로시),21600,1,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_blue_gloss
+furnituretopsonepieceribn_matcap_gold,가구 탑 원피스 리브 N (골드),30600,0.6,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_gold
+furnituretopsonepieceribn_matcap_silver_soft,가구 탑 원피스 리브 N (소프트 실버),24300,0.9,의상,assets/models/FurnitureTopsOnepieceRibN.glb,matcap_silver_soft
+furnituretopsonepiecerobel_plastic_matte,가구 탑 원피스 로브 L (매트 플라스틱),25000,0.8,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,plastic_matte
+furnituretopsonepiecerobel_plastic_gloss,가구 탑 원피스 로브 L (글로시 플라스틱),27500,0.75,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,plastic_gloss
+furnituretopsonepiecerobel_rubber_soft,가구 탑 원피스 로브 L (소프트 러버),26300,0.8,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,rubber_soft
+furnituretopsonepiecerobel_ceramic_clean,가구 탑 원피스 로브 L (클린 세라믹),30000,0.7,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,ceramic_clean
+furnituretopsonepiecerobel_metal_brushed,가구 탑 원피스 로브 L (브러시드 메탈),33800,0.6,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,metal_brushed
+furnituretopsonepiecerobel_metal_polished,가구 탑 원피스 로브 L (폴리시드 메탈),37500,0.5,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,metal_polished
+furnituretopsonepiecerobel_paint_clearcoat,가구 탑 원피스 로브 L (클리어코트 페인트),32500,0.65,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,paint_clearcoat
+furnituretopsonepiecerobel_fabric_sheen,가구 탑 원피스 로브 L (패브릭 쉰),28700,0.75,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,fabric_sheen
+furnituretopsonepiecerobel_glass_clear,가구 탑 원피스 로브 L (클리어 글래스),40000,0.4,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,glass_clear
+furnituretopsonepiecerobel_resin_tinted,가구 탑 원피스 로브 L (틴티드 레진),36300,0.55,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,resin_tinted
+furnituretopsonepiecerobel_matcap_clay,가구 탑 원피스 로브 L (클레이),26300,0.8,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_clay
+furnituretopsonepiecerobel_matcap_wax,가구 탑 원피스 로브 L (왁스),27500,0.75,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_wax
+furnituretopsonepiecerobel_matcap_chrome,가구 탑 원피스 로브 L (크롬),38800,0.45,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_chrome
+furnituretopsonepiecerobel_matcap_bronze,가구 탑 원피스 로브 L (브론즈),35000,0.6,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_bronze
+furnituretopsonepiecerobel_matcap_black_rubber,가구 탑 원피스 로브 L (블랙 러버),27000,0.8,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_black_rubber
+furnituretopsonepiecerobel_matcap_red_wax,가구 탑 원피스 로브 L (레드 왁스),28700,0.7,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_red_wax
+furnituretopsonepiecerobel_matcap_white_ceramic,가구 탑 원피스 로브 L (화이트 세라믹),31300,0.65,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_white_ceramic
+furnituretopsonepiecerobel_matcap_blue_gloss,가구 탑 원피스 로브 L (블루 글로시),30000,0.7,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_blue_gloss
+furnituretopsonepiecerobel_matcap_gold,가구 탑 원피스 로브 L (골드),42500,0.3,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_gold
+furnituretopsonepiecerobel_matcap_silver_soft,가구 탑 원피스 로브 L (소프트 실버),33800,0.6,의상,assets/models/FurnitureTopsOnepieceRobeL.glb,matcap_silver_soft
+furnituretopstopcoath_plastic_matte,Furniture Tops Top Coat H (매트 플라스틱),15000,1,액세서리,assets/models/FurnitureTopsTopCoatH.glb,plastic_matte
+furnituretopstopcoath_plastic_gloss,Furniture Tops Top Coat H (글로시 플라스틱),16500,0.95,액세서리,assets/models/FurnitureTopsTopCoatH.glb,plastic_gloss
+furnituretopstopcoath_rubber_soft,Furniture Tops Top Coat H (소프트 러버),15800,1,액세서리,assets/models/FurnitureTopsTopCoatH.glb,rubber_soft
+furnituretopstopcoath_ceramic_clean,Furniture Tops Top Coat H (클린 세라믹),18000,0.9,액세서리,assets/models/FurnitureTopsTopCoatH.glb,ceramic_clean
+furnituretopstopcoath_metal_brushed,Furniture Tops Top Coat H (브러시드 메탈),20300,0.8,액세서리,assets/models/FurnitureTopsTopCoatH.glb,metal_brushed
+furnituretopstopcoath_metal_polished,Furniture Tops Top Coat H (폴리시드 메탈),22500,0.7,액세서리,assets/models/FurnitureTopsTopCoatH.glb,metal_polished
+furnituretopstopcoath_paint_clearcoat,Furniture Tops Top Coat H (클리어코트 페인트),19500,0.85,액세서리,assets/models/FurnitureTopsTopCoatH.glb,paint_clearcoat
+furnituretopstopcoath_fabric_sheen,Furniture Tops Top Coat H (패브릭 쉰),17300,0.95,액세서리,assets/models/FurnitureTopsTopCoatH.glb,fabric_sheen
+furnituretopstopcoath_glass_clear,Furniture Tops Top Coat H (클리어 글래스),24000,0.6,액세서리,assets/models/FurnitureTopsTopCoatH.glb,glass_clear
+furnituretopstopcoath_resin_tinted,Furniture Tops Top Coat H (틴티드 레진),21800,0.75,액세서리,assets/models/FurnitureTopsTopCoatH.glb,resin_tinted
+furnituretopstopcoath_matcap_clay,Furniture Tops Top Coat H (클레이),15800,1,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_clay
+furnituretopstopcoath_matcap_wax,Furniture Tops Top Coat H (왁스),16500,0.95,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_wax
+furnituretopstopcoath_matcap_chrome,Furniture Tops Top Coat H (크롬),23300,0.65,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_chrome
+furnituretopstopcoath_matcap_bronze,Furniture Tops Top Coat H (브론즈),21000,0.8,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_bronze
+furnituretopstopcoath_matcap_black_rubber,Furniture Tops Top Coat H (블랙 러버),16200,1,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_black_rubber
+furnituretopstopcoath_matcap_red_wax,Furniture Tops Top Coat H (레드 왁스),17300,0.9,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_red_wax
+furnituretopstopcoath_matcap_white_ceramic,Furniture Tops Top Coat H (화이트 세라믹),18800,0.85,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_white_ceramic
+furnituretopstopcoath_matcap_blue_gloss,Furniture Tops Top Coat H (블루 글로시),18000,0.9,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_blue_gloss
+furnituretopstopcoath_matcap_gold,Furniture Tops Top Coat H (골드),25500,0.5,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_gold
+furnituretopstopcoath_matcap_silver_soft,Furniture Tops Top Coat H (소프트 실버),20300,0.8,액세서리,assets/models/FurnitureTopsTopCoatH.glb,matcap_silver_soft
+furnituretopstopcoatl_plastic_matte,Furniture Tops Top Coat L (매트 플라스틱),15000,1,액세서리,assets/models/FurnitureTopsTopCoatL.glb,plastic_matte
+furnituretopstopcoatl_plastic_gloss,Furniture Tops Top Coat L (글로시 플라스틱),16500,0.95,액세서리,assets/models/FurnitureTopsTopCoatL.glb,plastic_gloss
+furnituretopstopcoatl_rubber_soft,Furniture Tops Top Coat L (소프트 러버),15800,1,액세서리,assets/models/FurnitureTopsTopCoatL.glb,rubber_soft
+furnituretopstopcoatl_ceramic_clean,Furniture Tops Top Coat L (클린 세라믹),18000,0.9,액세서리,assets/models/FurnitureTopsTopCoatL.glb,ceramic_clean
+furnituretopstopcoatl_metal_brushed,Furniture Tops Top Coat L (브러시드 메탈),20300,0.8,액세서리,assets/models/FurnitureTopsTopCoatL.glb,metal_brushed
+furnituretopstopcoatl_metal_polished,Furniture Tops Top Coat L (폴리시드 메탈),22500,0.7,액세서리,assets/models/FurnitureTopsTopCoatL.glb,metal_polished
+furnituretopstopcoatl_paint_clearcoat,Furniture Tops Top Coat L (클리어코트 페인트),19500,0.85,액세서리,assets/models/FurnitureTopsTopCoatL.glb,paint_clearcoat
+furnituretopstopcoatl_fabric_sheen,Furniture Tops Top Coat L (패브릭 쉰),17300,0.95,액세서리,assets/models/FurnitureTopsTopCoatL.glb,fabric_sheen
+furnituretopstopcoatl_glass_clear,Furniture Tops Top Coat L (클리어 글래스),24000,0.6,액세서리,assets/models/FurnitureTopsTopCoatL.glb,glass_clear
+furnituretopstopcoatl_resin_tinted,Furniture Tops Top Coat L (틴티드 레진),21800,0.75,액세서리,assets/models/FurnitureTopsTopCoatL.glb,resin_tinted
+furnituretopstopcoatl_matcap_clay,Furniture Tops Top Coat L (클레이),15800,1,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_clay
+furnituretopstopcoatl_matcap_wax,Furniture Tops Top Coat L (왁스),16500,0.95,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_wax
+furnituretopstopcoatl_matcap_chrome,Furniture Tops Top Coat L (크롬),23300,0.65,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_chrome
+furnituretopstopcoatl_matcap_bronze,Furniture Tops Top Coat L (브론즈),21000,0.8,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_bronze
+furnituretopstopcoatl_matcap_black_rubber,Furniture Tops Top Coat L (블랙 러버),16200,1,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_black_rubber
+furnituretopstopcoatl_matcap_red_wax,Furniture Tops Top Coat L (레드 왁스),17300,0.9,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_red_wax
+furnituretopstopcoatl_matcap_white_ceramic,Furniture Tops Top Coat L (화이트 세라믹),18800,0.85,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_white_ceramic
+furnituretopstopcoatl_matcap_blue_gloss,Furniture Tops Top Coat L (블루 글로시),18000,0.9,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_blue_gloss
+furnituretopstopcoatl_matcap_gold,Furniture Tops Top Coat L (골드),25500,0.5,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_gold
+furnituretopstopcoatl_matcap_silver_soft,Furniture Tops Top Coat L (소프트 실버),20300,0.8,액세서리,assets/models/FurnitureTopsTopCoatL.glb,matcap_silver_soft
+furnituretopstopcoatn_plastic_matte,Furniture Tops Top Coat N (매트 플라스틱),15000,1,액세서리,assets/models/FurnitureTopsTopCoatN.glb,plastic_matte
+furnituretopstopcoatn_plastic_gloss,Furniture Tops Top Coat N (글로시 플라스틱),16500,0.95,액세서리,assets/models/FurnitureTopsTopCoatN.glb,plastic_gloss
+furnituretopstopcoatn_rubber_soft,Furniture Tops Top Coat N (소프트 러버),15800,1,액세서리,assets/models/FurnitureTopsTopCoatN.glb,rubber_soft
+furnituretopstopcoatn_ceramic_clean,Furniture Tops Top Coat N (클린 세라믹),18000,0.9,액세서리,assets/models/FurnitureTopsTopCoatN.glb,ceramic_clean
+furnituretopstopcoatn_metal_brushed,Furniture Tops Top Coat N (브러시드 메탈),20300,0.8,액세서리,assets/models/FurnitureTopsTopCoatN.glb,metal_brushed
+furnituretopstopcoatn_metal_polished,Furniture Tops Top Coat N (폴리시드 메탈),22500,0.7,액세서리,assets/models/FurnitureTopsTopCoatN.glb,metal_polished
+furnituretopstopcoatn_paint_clearcoat,Furniture Tops Top Coat N (클리어코트 페인트),19500,0.85,액세서리,assets/models/FurnitureTopsTopCoatN.glb,paint_clearcoat
+furnituretopstopcoatn_fabric_sheen,Furniture Tops Top Coat N (패브릭 쉰),17300,0.95,액세서리,assets/models/FurnitureTopsTopCoatN.glb,fabric_sheen
+furnituretopstopcoatn_glass_clear,Furniture Tops Top Coat N (클리어 글래스),24000,0.6,액세서리,assets/models/FurnitureTopsTopCoatN.glb,glass_clear
+furnituretopstopcoatn_resin_tinted,Furniture Tops Top Coat N (틴티드 레진),21800,0.75,액세서리,assets/models/FurnitureTopsTopCoatN.glb,resin_tinted
+furnituretopstopcoatn_matcap_clay,Furniture Tops Top Coat N (클레이),15800,1,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_clay
+furnituretopstopcoatn_matcap_wax,Furniture Tops Top Coat N (왁스),16500,0.95,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_wax
+furnituretopstopcoatn_matcap_chrome,Furniture Tops Top Coat N (크롬),23300,0.65,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_chrome
+furnituretopstopcoatn_matcap_bronze,Furniture Tops Top Coat N (브론즈),21000,0.8,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_bronze
+furnituretopstopcoatn_matcap_black_rubber,Furniture Tops Top Coat N (블랙 러버),16200,1,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_black_rubber
+furnituretopstopcoatn_matcap_red_wax,Furniture Tops Top Coat N (레드 왁스),17300,0.9,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_red_wax
+furnituretopstopcoatn_matcap_white_ceramic,Furniture Tops Top Coat N (화이트 세라믹),18800,0.85,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_white_ceramic
+furnituretopstopcoatn_matcap_blue_gloss,Furniture Tops Top Coat N (블루 글로시),18000,0.9,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_blue_gloss
+furnituretopstopcoatn_matcap_gold,Furniture Tops Top Coat N (골드),25500,0.5,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_gold
+furnituretopstopcoatn_matcap_silver_soft,Furniture Tops Top Coat N (소프트 실버),20300,0.8,액세서리,assets/models/FurnitureTopsTopCoatN.glb,matcap_silver_soft
+furnituretopstopouterl_plastic_matte,Furniture Tops Top Outer L (매트 플라스틱),15000,1,액세서리,assets/models/FurnitureTopsTopOuterL.glb,plastic_matte
+furnituretopstopouterl_plastic_gloss,Furniture Tops Top Outer L (글로시 플라스틱),16500,0.95,액세서리,assets/models/FurnitureTopsTopOuterL.glb,plastic_gloss
+furnituretopstopouterl_rubber_soft,Furniture Tops Top Outer L (소프트 러버),15800,1,액세서리,assets/models/FurnitureTopsTopOuterL.glb,rubber_soft
+furnituretopstopouterl_ceramic_clean,Furniture Tops Top Outer L (클린 세라믹),18000,0.9,액세서리,assets/models/FurnitureTopsTopOuterL.glb,ceramic_clean
+furnituretopstopouterl_metal_brushed,Furniture Tops Top Outer L (브러시드 메탈),20300,0.8,액세서리,assets/models/FurnitureTopsTopOuterL.glb,metal_brushed
+furnituretopstopouterl_metal_polished,Furniture Tops Top Outer L (폴리시드 메탈),22500,0.7,액세서리,assets/models/FurnitureTopsTopOuterL.glb,metal_polished
+furnituretopstopouterl_paint_clearcoat,Furniture Tops Top Outer L (클리어코트 페인트),19500,0.85,액세서리,assets/models/FurnitureTopsTopOuterL.glb,paint_clearcoat
+furnituretopstopouterl_fabric_sheen,Furniture Tops Top Outer L (패브릭 쉰),17300,0.95,액세서리,assets/models/FurnitureTopsTopOuterL.glb,fabric_sheen
+furnituretopstopouterl_glass_clear,Furniture Tops Top Outer L (클리어 글래스),24000,0.6,액세서리,assets/models/FurnitureTopsTopOuterL.glb,glass_clear
+furnituretopstopouterl_resin_tinted,Furniture Tops Top Outer L (틴티드 레진),21800,0.75,액세서리,assets/models/FurnitureTopsTopOuterL.glb,resin_tinted
+furnituretopstopouterl_matcap_clay,Furniture Tops Top Outer L (클레이),15800,1,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_clay
+furnituretopstopouterl_matcap_wax,Furniture Tops Top Outer L (왁스),16500,0.95,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_wax
+furnituretopstopouterl_matcap_chrome,Furniture Tops Top Outer L (크롬),23300,0.65,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_chrome
+furnituretopstopouterl_matcap_bronze,Furniture Tops Top Outer L (브론즈),21000,0.8,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_bronze
+furnituretopstopouterl_matcap_black_rubber,Furniture Tops Top Outer L (블랙 러버),16200,1,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_black_rubber
+furnituretopstopouterl_matcap_red_wax,Furniture Tops Top Outer L (레드 왁스),17300,0.9,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_red_wax
+furnituretopstopouterl_matcap_white_ceramic,Furniture Tops Top Outer L (화이트 세라믹),18800,0.85,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_white_ceramic
+furnituretopstopouterl_matcap_blue_gloss,Furniture Tops Top Outer L (블루 글로시),18000,0.9,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_blue_gloss
+furnituretopstopouterl_matcap_gold,Furniture Tops Top Outer L (골드),25500,0.5,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_gold
+furnituretopstopouterl_matcap_silver_soft,Furniture Tops Top Outer L (소프트 실버),20300,0.8,액세서리,assets/models/FurnitureTopsTopOuterL.glb,matcap_silver_soft
+furnituretopstopoutern_plastic_matte,Furniture Tops Top Outer N (매트 플라스틱),15000,1,액세서리,assets/models/FurnitureTopsTopOuterN.glb,plastic_matte
+furnituretopstopoutern_plastic_gloss,Furniture Tops Top Outer N (글로시 플라스틱),16500,0.95,액세서리,assets/models/FurnitureTopsTopOuterN.glb,plastic_gloss
+furnituretopstopoutern_rubber_soft,Furniture Tops Top Outer N (소프트 러버),15800,1,액세서리,assets/models/FurnitureTopsTopOuterN.glb,rubber_soft
+furnituretopstopoutern_ceramic_clean,Furniture Tops Top Outer N (클린 세라믹),18000,0.9,액세서리,assets/models/FurnitureTopsTopOuterN.glb,ceramic_clean
+furnituretopstopoutern_metal_brushed,Furniture Tops Top Outer N (브러시드 메탈),20300,0.8,액세서리,assets/models/FurnitureTopsTopOuterN.glb,metal_brushed
+furnituretopstopoutern_metal_polished,Furniture Tops Top Outer N (폴리시드 메탈),22500,0.7,액세서리,assets/models/FurnitureTopsTopOuterN.glb,metal_polished
+furnituretopstopoutern_paint_clearcoat,Furniture Tops Top Outer N (클리어코트 페인트),19500,0.85,액세서리,assets/models/FurnitureTopsTopOuterN.glb,paint_clearcoat
+furnituretopstopoutern_fabric_sheen,Furniture Tops Top Outer N (패브릭 쉰),17300,0.95,액세서리,assets/models/FurnitureTopsTopOuterN.glb,fabric_sheen
+furnituretopstopoutern_glass_clear,Furniture Tops Top Outer N (클리어 글래스),24000,0.6,액세서리,assets/models/FurnitureTopsTopOuterN.glb,glass_clear
+furnituretopstopoutern_resin_tinted,Furniture Tops Top Outer N (틴티드 레진),21800,0.75,액세서리,assets/models/FurnitureTopsTopOuterN.glb,resin_tinted
+furnituretopstopoutern_matcap_clay,Furniture Tops Top Outer N (클레이),15800,1,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_clay
+furnituretopstopoutern_matcap_wax,Furniture Tops Top Outer N (왁스),16500,0.95,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_wax
+furnituretopstopoutern_matcap_chrome,Furniture Tops Top Outer N (크롬),23300,0.65,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_chrome
+furnituretopstopoutern_matcap_bronze,Furniture Tops Top Outer N (브론즈),21000,0.8,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_bronze
+furnituretopstopoutern_matcap_black_rubber,Furniture Tops Top Outer N (블랙 러버),16200,1,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_black_rubber
+furnituretopstopoutern_matcap_red_wax,Furniture Tops Top Outer N (레드 왁스),17300,0.9,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_red_wax
+furnituretopstopoutern_matcap_white_ceramic,Furniture Tops Top Outer N (화이트 세라믹),18800,0.85,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_white_ceramic
+furnituretopstopoutern_matcap_blue_gloss,Furniture Tops Top Outer N (블루 글로시),18000,0.9,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_blue_gloss
+furnituretopstopoutern_matcap_gold,Furniture Tops Top Outer N (골드),25500,0.5,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_gold
+furnituretopstopoutern_matcap_silver_soft,Furniture Tops Top Outer N (소프트 실버),20300,0.8,액세서리,assets/models/FurnitureTopsTopOuterN.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+shoeskneelaceup0_plastic_matte,검은색 lace-up 부츠 (매트 플라스틱),80000,0.8,신발,assets/models/ShoesKneeLaceup0.glb,plastic_matte
+shoeskneelaceup0_plastic_gloss,검은색 lace-up 부츠 (글로시 플라스틱),88000,0.75,신발,assets/models/ShoesKneeLaceup0.glb,plastic_gloss
+shoeskneelaceup0_rubber_soft,검은색 lace-up 부츠 (소프트 러버),84000,0.8,신발,assets/models/ShoesKneeLaceup0.glb,rubber_soft
+shoeskneelaceup0_ceramic_clean,검은색 lace-up 부츠 (클린 세라믹),96000,0.7,신발,assets/models/ShoesKneeLaceup0.glb,ceramic_clean
+shoeskneelaceup0_metal_brushed,검은색 lace-up 부츠 (브러시드 메탈),108000,0.6,신발,assets/models/ShoesKneeLaceup0.glb,metal_brushed
+shoeskneelaceup0_metal_polished,검은색 lace-up 부츠 (폴리시드 메탈),120000,0.5,신발,assets/models/ShoesKneeLaceup0.glb,metal_polished
+shoeskneelaceup0_paint_clearcoat,검은색 lace-up 부츠 (클리어코트 페인트),104000,0.65,신발,assets/models/ShoesKneeLaceup0.glb,paint_clearcoat
+shoeskneelaceup0_fabric_sheen,검은색 lace-up 부츠 (패브릭 쉰),92000,0.75,신발,assets/models/ShoesKneeLaceup0.glb,fabric_sheen
+shoeskneelaceup0_glass_clear,검은색 lace-up 부츠 (클리어 글래스),128000,0.4,신발,assets/models/ShoesKneeLaceup0.glb,glass_clear
+shoeskneelaceup0_resin_tinted,검은색 lace-up 부츠 (틴티드 레진),116000,0.55,신발,assets/models/ShoesKneeLaceup0.glb,resin_tinted
+shoeskneelaceup0_matcap_clay,검은색 lace-up 부츠 (클레이),84000,0.8,신발,assets/models/ShoesKneeLaceup0.glb,matcap_clay
+shoeskneelaceup0_matcap_wax,검은색 lace-up 부츠 (왁스),88000,0.75,신발,assets/models/ShoesKneeLaceup0.glb,matcap_wax
+shoeskneelaceup0_matcap_chrome,검은색 lace-up 부츠 (크롬),124000,0.45,신발,assets/models/ShoesKneeLaceup0.glb,matcap_chrome
+shoeskneelaceup0_matcap_bronze,검은색 lace-up 부츠 (브론즈),112000,0.6,신발,assets/models/ShoesKneeLaceup0.glb,matcap_bronze
+shoeskneelaceup0_matcap_black_rubber,검은색 lace-up 부츠 (블랙 러버),86400,0.8,신발,assets/models/ShoesKneeLaceup0.glb,matcap_black_rubber
+shoeskneelaceup0_matcap_red_wax,검은색 lace-up 부츠 (레드 왁스),92000,0.7,신발,assets/models/ShoesKneeLaceup0.glb,matcap_red_wax
+shoeskneelaceup0_matcap_white_ceramic,검은색 lace-up 부츠 (화이트 세라믹),100000,0.65,신발,assets/models/ShoesKneeLaceup0.glb,matcap_white_ceramic
+shoeskneelaceup0_matcap_blue_gloss,검은색 lace-up 부츠 (블루 글로시),96000,0.7,신발,assets/models/ShoesKneeLaceup0.glb,matcap_blue_gloss
+shoeskneelaceup0_matcap_gold,검은색 lace-up 부츠 (골드),136000,0.3,신발,assets/models/ShoesKneeLaceup0.glb,matcap_gold
+shoeskneelaceup0_matcap_silver_soft,검은색 lace-up 부츠 (소프트 실버),108000,0.6,신발,assets/models/ShoesKneeLaceup0.glb,matcap_silver_soft
+shoeskneering0_plastic_matte,붉은색 패턴 부츠 (매트 플라스틱),120000,0.6,신발,assets/models/ShoesKneeRing0.glb,plastic_matte
+shoeskneering0_plastic_gloss,붉은색 패턴 부츠 (글로시 플라스틱),132000,0.55,신발,assets/models/ShoesKneeRing0.glb,plastic_gloss
+shoeskneering0_rubber_soft,붉은색 패턴 부츠 (소프트 러버),126000,0.6,신발,assets/models/ShoesKneeRing0.glb,rubber_soft
+shoeskneering0_ceramic_clean,붉은색 패턴 부츠 (클린 세라믹),144000,0.5,신발,assets/models/ShoesKneeRing0.glb,ceramic_clean
+shoeskneering0_metal_brushed,붉은색 패턴 부츠 (브러시드 메탈),162000,0.4,신발,assets/models/ShoesKneeRing0.glb,metal_brushed
+shoeskneering0_metal_polished,붉은색 패턴 부츠 (폴리시드 메탈),180000,0.3,신발,assets/models/ShoesKneeRing0.glb,metal_polished
+shoeskneering0_paint_clearcoat,붉은색 패턴 부츠 (클리어코트 페인트),156000,0.45,신발,assets/models/ShoesKneeRing0.glb,paint_clearcoat
+shoeskneering0_fabric_sheen,붉은색 패턴 부츠 (패브릭 쉰),138000,0.55,신발,assets/models/ShoesKneeRing0.glb,fabric_sheen
+shoeskneering0_glass_clear,붉은색 패턴 부츠 (클리어 글래스),192000,0.2,신발,assets/models/ShoesKneeRing0.glb,glass_clear
+shoeskneering0_resin_tinted,붉은색 패턴 부츠 (틴티드 레진),174000,0.35,신발,assets/models/ShoesKneeRing0.glb,resin_tinted
+shoeskneering0_matcap_clay,붉은색 패턴 부츠 (클레이),126000,0.6,신발,assets/models/ShoesKneeRing0.glb,matcap_clay
+shoeskneering0_matcap_wax,붉은색 패턴 부츠 (왁스),132000,0.55,신발,assets/models/ShoesKneeRing0.glb,matcap_wax
+shoeskneering0_matcap_chrome,붉은색 패턴 부츠 (크롬),186000,0.25,신발,assets/models/ShoesKneeRing0.glb,matcap_chrome
+shoeskneering0_matcap_bronze,붉은색 패턴 부츠 (브론즈),168000,0.4,신발,assets/models/ShoesKneeRing0.glb,matcap_bronze
+shoeskneering0_matcap_black_rubber,붉은색 패턴 부츠 (블랙 러버),129600,0.6,신발,assets/models/ShoesKneeRing0.glb,matcap_black_rubber
+shoeskneering0_matcap_red_wax,붉은색 패턴 부츠 (레드 왁스),138000,0.5,신발,assets/models/ShoesKneeRing0.glb,matcap_red_wax
+shoeskneering0_matcap_white_ceramic,붉은색 패턴 부츠 (화이트 세라믹),150000,0.45,신발,assets/models/ShoesKneeRing0.glb,matcap_white_ceramic
+shoeskneering0_matcap_blue_gloss,붉은색 패턴 부츠 (블루 글로시),144000,0.5,신발,assets/models/ShoesKneeRing0.glb,matcap_blue_gloss
+shoeskneering0_matcap_gold,붉은색 패턴 부츠 (골드),204000,0.1,신발,assets/models/ShoesKneeRing0.glb,matcap_gold
+shoeskneering0_matcap_silver_soft,붉은색 패턴 부츠 (소프트 실버),162000,0.4,신발,assets/models/ShoesKneeRing0.glb,matcap_silver_soft
+shoeskneeski0_plastic_matte,화이트 스키 부츠 (매트 플라스틱),150000,0.5,신발,assets/models/ShoesKneeSki0.glb,plastic_matte
+shoeskneeski0_plastic_gloss,화이트 스키 부츠 (글로시 플라스틱),165000,0.45,신발,assets/models/ShoesKneeSki0.glb,plastic_gloss
+shoeskneeski0_rubber_soft,화이트 스키 부츠 (소프트 러버),157500,0.5,신발,assets/models/ShoesKneeSki0.glb,rubber_soft
+shoeskneeski0_ceramic_clean,화이트 스키 부츠 (클린 세라믹),180000,0.4,신발,assets/models/ShoesKneeSki0.glb,ceramic_clean
+shoeskneeski0_metal_brushed,화이트 스키 부츠 (브러시드 메탈),202500,0.3,신발,assets/models/ShoesKneeSki0.glb,metal_brushed
+shoeskneeski0_metal_polished,화이트 스키 부츠 (폴리시드 메탈),225000,0.2,신발,assets/models/ShoesKneeSki0.glb,metal_polished
+shoeskneeski0_paint_clearcoat,화이트 스키 부츠 (클리어코트 페인트),195000,0.35,신발,assets/models/ShoesKneeSki0.glb,paint_clearcoat
+shoeskneeski0_fabric_sheen,화이트 스키 부츠 (패브릭 쉰),172500,0.45,신발,assets/models/ShoesKneeSki0.glb,fabric_sheen
+shoeskneeski0_glass_clear,화이트 스키 부츠 (클리어 글래스),240000,0.1,신발,assets/models/ShoesKneeSki0.glb,glass_clear
+shoeskneeski0_resin_tinted,화이트 스키 부츠 (틴티드 레진),217500,0.25,신발,assets/models/ShoesKneeSki0.glb,resin_tinted
+shoeskneeski0_matcap_clay,화이트 스키 부츠 (클레이),157500,0.5,신발,assets/models/ShoesKneeSki0.glb,matcap_clay
+shoeskneeski0_matcap_wax,화이트 스키 부츠 (왁스),165000,0.45,신발,assets/models/ShoesKneeSki0.glb,matcap_wax
+shoeskneeski0_matcap_chrome,화이트 스키 부츠 (크롬),232500,0.15,신발,assets/models/ShoesKneeSki0.glb,matcap_chrome
+shoeskneeski0_matcap_bronze,화이트 스키 부츠 (브론즈),210000,0.3,신발,assets/models/ShoesKneeSki0.glb,matcap_bronze
+shoeskneeski0_matcap_black_rubber,화이트 스키 부츠 (블랙 러버),162000,0.5,신발,assets/models/ShoesKneeSki0.glb,matcap_black_rubber
+shoeskneeski0_matcap_red_wax,화이트 스키 부츠 (레드 왁스),172500,0.4,신발,assets/models/ShoesKneeSki0.glb,matcap_red_wax
+shoeskneeski0_matcap_white_ceramic,화이트 스키 부츠 (화이트 세라믹),187500,0.35,신발,assets/models/ShoesKneeSki0.glb,matcap_white_ceramic
+shoeskneeski0_matcap_blue_gloss,화이트 스키 부츠 (블루 글로시),180000,0.4,신발,assets/models/ShoesKneeSki0.glb,matcap_blue_gloss
+shoeskneeski0_matcap_gold,화이트 스키 부츠 (골드),255000,0.1,신발,assets/models/ShoesKneeSki0.glb,matcap_gold
+shoeskneeski0_matcap_silver_soft,화이트 스키 부츠 (소프트 실버),202500,0.3,신발,assets/models/ShoesKneeSki0.glb,matcap_silver_soft
+shoeskneevelour0_plastic_matte,보라색 벨벳 부츠 (매트 플라스틱),60000,0.9,신발,assets/models/ShoesKneeVelour0.glb,plastic_matte
+shoeskneevelour0_plastic_gloss,보라색 벨벳 부츠 (글로시 플라스틱),66000,0.85,신발,assets/models/ShoesKneeVelour0.glb,plastic_gloss
+shoeskneevelour0_rubber_soft,보라색 벨벳 부츠 (소프트 러버),63000,0.9,신발,assets/models/ShoesKneeVelour0.glb,rubber_soft
+shoeskneevelour0_ceramic_clean,보라색 벨벳 부츠 (클린 세라믹),72000,0.8,신발,assets/models/ShoesKneeVelour0.glb,ceramic_clean
+shoeskneevelour0_metal_brushed,보라색 벨벳 부츠 (브러시드 메탈),81000,0.7,신발,assets/models/ShoesKneeVelour0.glb,metal_brushed
+shoeskneevelour0_metal_polished,보라색 벨벳 부츠 (폴리시드 메탈),90000,0.6,신발,assets/models/ShoesKneeVelour0.glb,metal_polished
+shoeskneevelour0_paint_clearcoat,보라색 벨벳 부츠 (클리어코트 페인트),78000,0.75,신발,assets/models/ShoesKneeVelour0.glb,paint_clearcoat
+shoeskneevelour0_fabric_sheen,보라색 벨벳 부츠 (패브릭 쉰),69000,0.85,신발,assets/models/ShoesKneeVelour0.glb,fabric_sheen
+shoeskneevelour0_glass_clear,보라색 벨벳 부츠 (클리어 글래스),96000,0.5,신발,assets/models/ShoesKneeVelour0.glb,glass_clear
+shoeskneevelour0_resin_tinted,보라색 벨벳 부츠 (틴티드 레진),87000,0.65,신발,assets/models/ShoesKneeVelour0.glb,resin_tinted
+shoeskneevelour0_matcap_clay,보라색 벨벳 부츠 (클레이),63000,0.9,신발,assets/models/ShoesKneeVelour0.glb,matcap_clay
+shoeskneevelour0_matcap_wax,보라색 벨벳 부츠 (왁스),66000,0.85,신발,assets/models/ShoesKneeVelour0.glb,matcap_wax
+shoeskneevelour0_matcap_chrome,보라색 벨벳 부츠 (크롬),93000,0.55,신발,assets/models/ShoesKneeVelour0.glb,matcap_chrome
+shoeskneevelour0_matcap_bronze,보라색 벨벳 부츠 (브론즈),84000,0.7,신발,assets/models/ShoesKneeVelour0.glb,matcap_bronze
+shoeskneevelour0_matcap_black_rubber,보라색 벨벳 부츠 (블랙 러버),64800,0.9,신발,assets/models/ShoesKneeVelour0.glb,matcap_black_rubber
+shoeskneevelour0_matcap_red_wax,보라색 벨벳 부츠 (레드 왁스),69000,0.8,신발,assets/models/ShoesKneeVelour0.glb,matcap_red_wax
+shoeskneevelour0_matcap_white_ceramic,보라색 벨벳 부츠 (화이트 세라믹),75000,0.75,신발,assets/models/ShoesKneeVelour0.glb,matcap_white_ceramic
+shoeskneevelour0_matcap_blue_gloss,보라색 벨벳 부츠 (블루 글로시),72000,0.8,신발,assets/models/ShoesKneeVelour0.glb,matcap_blue_gloss
+shoeskneevelour0_matcap_gold,보라색 벨벳 부츠 (골드),102000,0.4,신발,assets/models/ShoesKneeVelour0.glb,matcap_gold
+shoeskneevelour0_matcap_silver_soft,보라색 벨벳 부츠 (소프트 실버),81000,0.7,신발,assets/models/ShoesKneeVelour0.glb,matcap_silver_soft
+shoeskneewitch0_plastic_matte,블랙 유휴 부츠 (매트 플라스틱),180000,0.4,신발,assets/models/ShoesKneeWitch0.glb,plastic_matte
+shoeskneewitch0_plastic_gloss,블랙 유휴 부츠 (글로시 플라스틱),198000,0.35,신발,assets/models/ShoesKneeWitch0.glb,plastic_gloss
+shoeskneewitch0_rubber_soft,블랙 유휴 부츠 (소프트 러버),189000,0.4,신발,assets/models/ShoesKneeWitch0.glb,rubber_soft
+shoeskneewitch0_ceramic_clean,블랙 유휴 부츠 (클린 세라믹),216000,0.3,신발,assets/models/ShoesKneeWitch0.glb,ceramic_clean
+shoeskneewitch0_metal_brushed,블랙 유휴 부츠 (브러시드 메탈),243000,0.2,신발,assets/models/ShoesKneeWitch0.glb,metal_brushed
+shoeskneewitch0_metal_polished,블랙 유휴 부츠 (폴리시드 메탈),270000,0.1,신발,assets/models/ShoesKneeWitch0.glb,metal_polished
+shoeskneewitch0_paint_clearcoat,블랙 유휴 부츠 (클리어코트 페인트),234000,0.25,신발,assets/models/ShoesKneeWitch0.glb,paint_clearcoat
+shoeskneewitch0_fabric_sheen,블랙 유휴 부츠 (패브릭 쉰),207000,0.35,신발,assets/models/ShoesKneeWitch0.glb,fabric_sheen
+shoeskneewitch0_glass_clear,블랙 유휴 부츠 (클리어 글래스),288000,0.1,신발,assets/models/ShoesKneeWitch0.glb,glass_clear
+shoeskneewitch0_resin_tinted,블랙 유휴 부츠 (틴티드 레진),261000,0.15,신발,assets/models/ShoesKneeWitch0.glb,resin_tinted
+shoeskneewitch0_matcap_clay,블랙 유휴 부츠 (클레이),189000,0.4,신발,assets/models/ShoesKneeWitch0.glb,matcap_clay
+shoeskneewitch0_matcap_wax,블랙 유휴 부츠 (왁스),198000,0.35,신발,assets/models/ShoesKneeWitch0.glb,matcap_wax
+shoeskneewitch0_matcap_chrome,블랙 유휴 부츠 (크롬),279000,0.1,신발,assets/models/ShoesKneeWitch0.glb,matcap_chrome
+shoeskneewitch0_matcap_bronze,블랙 유휴 부츠 (브론즈),252000,0.2,신발,assets/models/ShoesKneeWitch0.glb,matcap_bronze
+shoeskneewitch0_matcap_black_rubber,블랙 유휴 부츠 (블랙 러버),194400,0.4,신발,assets/models/ShoesKneeWitch0.glb,matcap_black_rubber
+shoeskneewitch0_matcap_red_wax,블랙 유휴 부츠 (레드 왁스),207000,0.3,신발,assets/models/ShoesKneeWitch0.glb,matcap_red_wax
+shoeskneewitch0_matcap_white_ceramic,블랙 유휴 부츠 (화이트 세라믹),225000,0.25,신발,assets/models/ShoesKneeWitch0.glb,matcap_white_ceramic
+shoeskneewitch0_matcap_blue_gloss,블랙 유휴 부츠 (블루 글로시),216000,0.3,신발,assets/models/ShoesKneeWitch0.glb,matcap_blue_gloss
+shoeskneewitch0_matcap_gold,블랙 유휴 부츠 (골드),306000,0.1,신발,assets/models/ShoesKneeWitch0.glb,matcap_gold
+shoeskneewitch0_matcap_silver_soft,블랙 유휴 부츠 (소프트 실버),243000,0.2,신발,assets/models/ShoesKneeWitch0.glb,matcap_silver_soft
+shoeslowcutanimal0_plastic_matte,동물 테마 로우컷 신발 (매트 플라스틱),65000,0.9,신발,assets/models/ShoesLowcutAnimal0.glb,plastic_matte
+shoeslowcutanimal0_plastic_gloss,동물 테마 로우컷 신발 (글로시 플라스틱),71500,0.85,신발,assets/models/ShoesLowcutAnimal0.glb,plastic_gloss
+shoeslowcutanimal0_rubber_soft,동물 테마 로우컷 신발 (소프트 러버),68300,0.9,신발,assets/models/ShoesLowcutAnimal0.glb,rubber_soft
+shoeslowcutanimal0_ceramic_clean,동물 테마 로우컷 신발 (클린 세라믹),78000,0.8,신발,assets/models/ShoesLowcutAnimal0.glb,ceramic_clean
+shoeslowcutanimal0_metal_brushed,동물 테마 로우컷 신발 (브러시드 메탈),87800,0.7,신발,assets/models/ShoesLowcutAnimal0.glb,metal_brushed
+shoeslowcutanimal0_metal_polished,동물 테마 로우컷 신발 (폴리시드 메탈),97500,0.6,신발,assets/models/ShoesLowcutAnimal0.glb,metal_polished
+shoeslowcutanimal0_paint_clearcoat,동물 테마 로우컷 신발 (클리어코트 페인트),84500,0.75,신발,assets/models/ShoesLowcutAnimal0.glb,paint_clearcoat
+shoeslowcutanimal0_fabric_sheen,동물 테마 로우컷 신발 (패브릭 쉰),74800,0.85,신발,assets/models/ShoesLowcutAnimal0.glb,fabric_sheen
+shoeslowcutanimal0_glass_clear,동물 테마 로우컷 신발 (클리어 글래스),104000,0.5,신발,assets/models/ShoesLowcutAnimal0.glb,glass_clear
+shoeslowcutanimal0_resin_tinted,동물 테마 로우컷 신발 (틴티드 레진),94300,0.65,신발,assets/models/ShoesLowcutAnimal0.glb,resin_tinted
+shoeslowcutanimal0_matcap_clay,동물 테마 로우컷 신발 (클레이),68300,0.9,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_clay
+shoeslowcutanimal0_matcap_wax,동물 테마 로우컷 신발 (왁스),71500,0.85,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_wax
+shoeslowcutanimal0_matcap_chrome,동물 테마 로우컷 신발 (크롬),100800,0.55,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_chrome
+shoeslowcutanimal0_matcap_bronze,동물 테마 로우컷 신발 (브론즈),91000,0.7,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_bronze
+shoeslowcutanimal0_matcap_black_rubber,동물 테마 로우컷 신발 (블랙 러버),70200,0.9,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_black_rubber
+shoeslowcutanimal0_matcap_red_wax,동물 테마 로우컷 신발 (레드 왁스),74800,0.8,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_red_wax
+shoeslowcutanimal0_matcap_white_ceramic,동물 테마 로우컷 신발 (화이트 세라믹),81300,0.75,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_white_ceramic
+shoeslowcutanimal0_matcap_blue_gloss,동물 테마 로우컷 신발 (블루 글로시),78000,0.8,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_blue_gloss
+shoeslowcutanimal0_matcap_gold,동물 테마 로우컷 신발 (골드),110500,0.4,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_gold
+shoeslowcutanimal0_matcap_silver_soft,동물 테마 로우컷 신발 (소프트 실버),87800,0.7,신발,assets/models/ShoesLowcutAnimal0.glb,matcap_silver_soft
+shoeslowcutballet0_plastic_matte,발레 슬리퍼 (매트 플라스틱),45000,1.8,신발,assets/models/ShoesLowcutBallet0.glb,plastic_matte
+shoeslowcutballet0_plastic_gloss,발레 슬리퍼 (글로시 플라스틱),49500,1.75,신발,assets/models/ShoesLowcutBallet0.glb,plastic_gloss
+shoeslowcutballet0_rubber_soft,발레 슬리퍼 (소프트 러버),47300,1.8,신발,assets/models/ShoesLowcutBallet0.glb,rubber_soft
+shoeslowcutballet0_ceramic_clean,발레 슬리퍼 (클린 세라믹),54000,1.7,신발,assets/models/ShoesLowcutBallet0.glb,ceramic_clean
+shoeslowcutballet0_metal_brushed,발레 슬리퍼 (브러시드 메탈),60800,1.6,신발,assets/models/ShoesLowcutBallet0.glb,metal_brushed
+shoeslowcutballet0_metal_polished,발레 슬리퍼 (폴리시드 메탈),67500,1.5,신발,assets/models/ShoesLowcutBallet0.glb,metal_polished
+shoeslowcutballet0_paint_clearcoat,발레 슬리퍼 (클리어코트 페인트),58500,1.65,신발,assets/models/ShoesLowcutBallet0.glb,paint_clearcoat
+shoeslowcutballet0_fabric_sheen,발레 슬리퍼 (패브릭 쉰),51700,1.75,신발,assets/models/ShoesLowcutBallet0.glb,fabric_sheen
+shoeslowcutballet0_glass_clear,발레 슬리퍼 (클리어 글래스),72000,1.4,신발,assets/models/ShoesLowcutBallet0.glb,glass_clear
+shoeslowcutballet0_resin_tinted,발레 슬리퍼 (틴티드 레진),65300,1.55,신발,assets/models/ShoesLowcutBallet0.glb,resin_tinted
+shoeslowcutballet0_matcap_clay,발레 슬리퍼 (클레이),47300,1.8,신발,assets/models/ShoesLowcutBallet0.glb,matcap_clay
+shoeslowcutballet0_matcap_wax,발레 슬리퍼 (왁스),49500,1.75,신발,assets/models/ShoesLowcutBallet0.glb,matcap_wax
+shoeslowcutballet0_matcap_chrome,발레 슬리퍼 (크롬),69800,1.45,신발,assets/models/ShoesLowcutBallet0.glb,matcap_chrome
+shoeslowcutballet0_matcap_bronze,발레 슬리퍼 (브론즈),63000,1.6,신발,assets/models/ShoesLowcutBallet0.glb,matcap_bronze
+shoeslowcutballet0_matcap_black_rubber,발레 슬리퍼 (블랙 러버),48600,1.8,신발,assets/models/ShoesLowcutBallet0.glb,matcap_black_rubber
+shoeslowcutballet0_matcap_red_wax,발레 슬리퍼 (레드 왁스),51700,1.7,신발,assets/models/ShoesLowcutBallet0.glb,matcap_red_wax
+shoeslowcutballet0_matcap_white_ceramic,발레 슬리퍼 (화이트 세라믹),56300,1.65,신발,assets/models/ShoesLowcutBallet0.glb,matcap_white_ceramic
+shoeslowcutballet0_matcap_blue_gloss,발레 슬리퍼 (블루 글로시),54000,1.7,신발,assets/models/ShoesLowcutBallet0.glb,matcap_blue_gloss
+shoeslowcutballet0_matcap_gold,발레 슬리퍼 (골드),76500,1.3,신발,assets/models/ShoesLowcutBallet0.glb,matcap_gold
+shoeslowcutballet0_matcap_silver_soft,발레 슬리퍼 (소프트 실버),60800,1.6,신발,assets/models/ShoesLowcutBallet0.glb,matcap_silver_soft
+shoeslowcutclog0_plastic_matte,꽃무늬 클로크 (매트 플라스틱),110000,0.6,신발,assets/models/ShoesLowcutClog0.glb,plastic_matte
+shoeslowcutclog0_plastic_gloss,꽃무늬 클로크 (글로시 플라스틱),121000,0.55,신발,assets/models/ShoesLowcutClog0.glb,plastic_gloss
+shoeslowcutclog0_rubber_soft,꽃무늬 클로크 (소프트 러버),115500,0.6,신발,assets/models/ShoesLowcutClog0.glb,rubber_soft
+shoeslowcutclog0_ceramic_clean,꽃무늬 클로크 (클린 세라믹),132000,0.5,신발,assets/models/ShoesLowcutClog0.glb,ceramic_clean
+shoeslowcutclog0_metal_brushed,꽃무늬 클로크 (브러시드 메탈),148500,0.4,신발,assets/models/ShoesLowcutClog0.glb,metal_brushed
+shoeslowcutclog0_metal_polished,꽃무늬 클로크 (폴리시드 메탈),165000,0.3,신발,assets/models/ShoesLowcutClog0.glb,metal_polished
+shoeslowcutclog0_paint_clearcoat,꽃무늬 클로크 (클리어코트 페인트),143000,0.45,신발,assets/models/ShoesLowcutClog0.glb,paint_clearcoat
+shoeslowcutclog0_fabric_sheen,꽃무늬 클로크 (패브릭 쉰),126500,0.55,신발,assets/models/ShoesLowcutClog0.glb,fabric_sheen
+shoeslowcutclog0_glass_clear,꽃무늬 클로크 (클리어 글래스),176000,0.2,신발,assets/models/ShoesLowcutClog0.glb,glass_clear
+shoeslowcutclog0_resin_tinted,꽃무늬 클로크 (틴티드 레진),159500,0.35,신발,assets/models/ShoesLowcutClog0.glb,resin_tinted
+shoeslowcutclog0_matcap_clay,꽃무늬 클로크 (클레이),115500,0.6,신발,assets/models/ShoesLowcutClog0.glb,matcap_clay
+shoeslowcutclog0_matcap_wax,꽃무늬 클로크 (왁스),121000,0.55,신발,assets/models/ShoesLowcutClog0.glb,matcap_wax
+shoeslowcutclog0_matcap_chrome,꽃무늬 클로크 (크롬),170500,0.25,신발,assets/models/ShoesLowcutClog0.glb,matcap_chrome
+shoeslowcutclog0_matcap_bronze,꽃무늬 클로크 (브론즈),154000,0.4,신발,assets/models/ShoesLowcutClog0.glb,matcap_bronze
+shoeslowcutclog0_matcap_black_rubber,꽃무늬 클로크 (블랙 러버),118800,0.6,신발,assets/models/ShoesLowcutClog0.glb,matcap_black_rubber
+shoeslowcutclog0_matcap_red_wax,꽃무늬 클로크 (레드 왁스),126500,0.5,신발,assets/models/ShoesLowcutClog0.glb,matcap_red_wax
+shoeslowcutclog0_matcap_white_ceramic,꽃무늬 클로크 (화이트 세라믹),137500,0.45,신발,assets/models/ShoesLowcutClog0.glb,matcap_white_ceramic
+shoeslowcutclog0_matcap_blue_gloss,꽃무늬 클로크 (블루 글로시),132000,0.5,신발,assets/models/ShoesLowcutClog0.glb,matcap_blue_gloss
+shoeslowcutclog0_matcap_gold,꽃무늬 클로크 (골드),187000,0.1,신발,assets/models/ShoesLowcutClog0.glb,matcap_gold
+shoeslowcutclog0_matcap_silver_soft,꽃무늬 클로크 (소프트 실버),148500,0.4,신발,assets/models/ShoesLowcutClog0.glb,matcap_silver_soft
+shoeslowcutspike0_plastic_matte,스파이크 축구화 (매트 플라스틱),75000,1,신발,assets/models/ShoesLowcutSpike0.glb,plastic_matte
+shoeslowcutspike0_plastic_gloss,스파이크 축구화 (글로시 플라스틱),82500,0.95,신발,assets/models/ShoesLowcutSpike0.glb,plastic_gloss
+shoeslowcutspike0_rubber_soft,스파이크 축구화 (소프트 러버),78800,1,신발,assets/models/ShoesLowcutSpike0.glb,rubber_soft
+shoeslowcutspike0_ceramic_clean,스파이크 축구화 (클린 세라믹),90000,0.9,신발,assets/models/ShoesLowcutSpike0.glb,ceramic_clean
+shoeslowcutspike0_metal_brushed,스파이크 축구화 (브러시드 메탈),101300,0.8,신발,assets/models/ShoesLowcutSpike0.glb,metal_brushed
+shoeslowcutspike0_metal_polished,스파이크 축구화 (폴리시드 메탈),112500,0.7,신발,assets/models/ShoesLowcutSpike0.glb,metal_polished
+shoeslowcutspike0_paint_clearcoat,스파이크 축구화 (클리어코트 페인트),97500,0.85,신발,assets/models/ShoesLowcutSpike0.glb,paint_clearcoat
+shoeslowcutspike0_fabric_sheen,스파이크 축구화 (패브릭 쉰),86300,0.95,신발,assets/models/ShoesLowcutSpike0.glb,fabric_sheen
+shoeslowcutspike0_glass_clear,스파이크 축구화 (클리어 글래스),120000,0.6,신발,assets/models/ShoesLowcutSpike0.glb,glass_clear
+shoeslowcutspike0_resin_tinted,스파이크 축구화 (틴티드 레진),108800,0.75,신발,assets/models/ShoesLowcutSpike0.glb,resin_tinted
+shoeslowcutspike0_matcap_clay,스파이크 축구화 (클레이),78800,1,신발,assets/models/ShoesLowcutSpike0.glb,matcap_clay
+shoeslowcutspike0_matcap_wax,스파이크 축구화 (왁스),82500,0.95,신발,assets/models/ShoesLowcutSpike0.glb,matcap_wax
+shoeslowcutspike0_matcap_chrome,스파이크 축구화 (크롬),116300,0.65,신발,assets/models/ShoesLowcutSpike0.glb,matcap_chrome
+shoeslowcutspike0_matcap_bronze,스파이크 축구화 (브론즈),105000,0.8,신발,assets/models/ShoesLowcutSpike0.glb,matcap_bronze
+shoeslowcutspike0_matcap_black_rubber,스파이크 축구화 (블랙 러버),81000,1,신발,assets/models/ShoesLowcutSpike0.glb,matcap_black_rubber
+shoeslowcutspike0_matcap_red_wax,스파이크 축구화 (레드 왁스),86300,0.9,신발,assets/models/ShoesLowcutSpike0.glb,matcap_red_wax
+shoeslowcutspike0_matcap_white_ceramic,스파이크 축구화 (화이트 세라믹),93800,0.85,신발,assets/models/ShoesLowcutSpike0.glb,matcap_white_ceramic
+shoeslowcutspike0_matcap_blue_gloss,스파이크 축구화 (블루 글로시),90000,0.9,신발,assets/models/ShoesLowcutSpike0.glb,matcap_blue_gloss
+shoeslowcutspike0_matcap_gold,스파이크 축구화 (골드),127500,0.5,신발,assets/models/ShoesLowcutSpike0.glb,matcap_gold
+shoeslowcutspike0_matcap_silver_soft,스파이크 축구화 (소프트 실버),101300,0.8,신발,assets/models/ShoesLowcutSpike0.glb,matcap_silver_soft
+shoeslowcutstrap0_plastic_matte,스트랩 메리제인 (매트 플라스틱),55000,1.5,신발,assets/models/ShoesLowcutStrap0.glb,plastic_matte
+shoeslowcutstrap0_plastic_gloss,스트랩 메리제인 (글로시 플라스틱),60500,1.45,신발,assets/models/ShoesLowcutStrap0.glb,plastic_gloss
+shoeslowcutstrap0_rubber_soft,스트랩 메리제인 (소프트 러버),57800,1.5,신발,assets/models/ShoesLowcutStrap0.glb,rubber_soft
+shoeslowcutstrap0_ceramic_clean,스트랩 메리제인 (클린 세라믹),66000,1.4,신발,assets/models/ShoesLowcutStrap0.glb,ceramic_clean
+shoeslowcutstrap0_metal_brushed,스트랩 메리제인 (브러시드 메탈),74300,1.3,신발,assets/models/ShoesLowcutStrap0.glb,metal_brushed
+shoeslowcutstrap0_metal_polished,스트랩 메리제인 (폴리시드 메탈),82500,1.2,신발,assets/models/ShoesLowcutStrap0.glb,metal_polished
+shoeslowcutstrap0_paint_clearcoat,스트랩 메리제인 (클리어코트 페인트),71500,1.35,신발,assets/models/ShoesLowcutStrap0.glb,paint_clearcoat
+shoeslowcutstrap0_fabric_sheen,스트랩 메리제인 (패브릭 쉰),63200,1.45,신발,assets/models/ShoesLowcutStrap0.glb,fabric_sheen
+shoeslowcutstrap0_glass_clear,스트랩 메리제인 (클리어 글래스),88000,1.1,신발,assets/models/ShoesLowcutStrap0.glb,glass_clear
+shoeslowcutstrap0_resin_tinted,스트랩 메리제인 (틴티드 레진),79800,1.25,신발,assets/models/ShoesLowcutStrap0.glb,resin_tinted
+shoeslowcutstrap0_matcap_clay,스트랩 메리제인 (클레이),57800,1.5,신발,assets/models/ShoesLowcutStrap0.glb,matcap_clay
+shoeslowcutstrap0_matcap_wax,스트랩 메리제인 (왁스),60500,1.45,신발,assets/models/ShoesLowcutStrap0.glb,matcap_wax
+shoeslowcutstrap0_matcap_chrome,스트랩 메리제인 (크롬),85300,1.15,신발,assets/models/ShoesLowcutStrap0.glb,matcap_chrome
+shoeslowcutstrap0_matcap_bronze,스트랩 메리제인 (브론즈),77000,1.3,신발,assets/models/ShoesLowcutStrap0.glb,matcap_bronze
+shoeslowcutstrap0_matcap_black_rubber,스트랩 메리제인 (블랙 러버),59400,1.5,신발,assets/models/ShoesLowcutStrap0.glb,matcap_black_rubber
+shoeslowcutstrap0_matcap_red_wax,스트랩 메리제인 (레드 왁스),63200,1.4,신발,assets/models/ShoesLowcutStrap0.glb,matcap_red_wax
+shoeslowcutstrap0_matcap_white_ceramic,스트랩 메리제인 (화이트 세라믹),68800,1.35,신발,assets/models/ShoesLowcutStrap0.glb,matcap_white_ceramic
+shoeslowcutstrap0_matcap_blue_gloss,스트랩 메리제인 (블루 글로시),66000,1.4,신발,assets/models/ShoesLowcutStrap0.glb,matcap_blue_gloss
+shoeslowcutstrap0_matcap_gold,스트랩 메리제인 (골드),93500,1,신발,assets/models/ShoesLowcutStrap0.glb,matcap_gold
+shoeslowcutstrap0_matcap_silver_soft,스트랩 메리제인 (소프트 실버),74300,1.3,신발,assets/models/ShoesLowcutStrap0.glb,matcap_silver_soft

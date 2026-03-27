@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+ftrplayingtire_plastic_matte,플레이팅 타이어 (매트 플라스틱),50000,1.5,소품,assets/models/FtrPlayingtire.glb,plastic_matte
+ftrplayingtire_plastic_gloss,플레이팅 타이어 (글로시 플라스틱),55000,1.45,소품,assets/models/FtrPlayingtire.glb,plastic_gloss
+ftrplayingtire_rubber_soft,플레이팅 타이어 (소프트 러버),52500,1.5,소품,assets/models/FtrPlayingtire.glb,rubber_soft
+ftrplayingtire_ceramic_clean,플레이팅 타이어 (클린 세라믹),60000,1.4,소품,assets/models/FtrPlayingtire.glb,ceramic_clean
+ftrplayingtire_metal_brushed,플레이팅 타이어 (브러시드 메탈),67500,1.3,소품,assets/models/FtrPlayingtire.glb,metal_brushed
+ftrplayingtire_metal_polished,플레이팅 타이어 (폴리시드 메탈),75000,1.2,소품,assets/models/FtrPlayingtire.glb,metal_polished
+ftrplayingtire_paint_clearcoat,플레이팅 타이어 (클리어코트 페인트),65000,1.35,소품,assets/models/FtrPlayingtire.glb,paint_clearcoat
+ftrplayingtire_fabric_sheen,플레이팅 타이어 (패브릭 쉰),57500,1.45,소품,assets/models/FtrPlayingtire.glb,fabric_sheen
+ftrplayingtire_glass_clear,플레이팅 타이어 (클리어 글래스),80000,1.1,소품,assets/models/FtrPlayingtire.glb,glass_clear
+ftrplayingtire_resin_tinted,플레이팅 타이어 (틴티드 레진),72500,1.25,소품,assets/models/FtrPlayingtire.glb,resin_tinted
+ftrplayingtire_matcap_clay,플레이팅 타이어 (클레이),52500,1.5,소품,assets/models/FtrPlayingtire.glb,matcap_clay
+ftrplayingtire_matcap_wax,플레이팅 타이어 (왁스),55000,1.45,소품,assets/models/FtrPlayingtire.glb,matcap_wax
+ftrplayingtire_matcap_chrome,플레이팅 타이어 (크롬),77500,1.15,소품,assets/models/FtrPlayingtire.glb,matcap_chrome
+ftrplayingtire_matcap_bronze,플레이팅 타이어 (브론즈),70000,1.3,소품,assets/models/FtrPlayingtire.glb,matcap_bronze
+ftrplayingtire_matcap_black_rubber,플레이팅 타이어 (블랙 러버),54000,1.5,소품,assets/models/FtrPlayingtire.glb,matcap_black_rubber
+ftrplayingtire_matcap_red_wax,플레이팅 타이어 (레드 왁스),57500,1.4,소품,assets/models/FtrPlayingtire.glb,matcap_red_wax
+ftrplayingtire_matcap_white_ceramic,플레이팅 타이어 (화이트 세라믹),62500,1.35,소품,assets/models/FtrPlayingtire.glb,matcap_white_ceramic
+ftrplayingtire_matcap_blue_gloss,플레이팅 타이어 (블루 글로시),60000,1.4,소품,assets/models/FtrPlayingtire.glb,matcap_blue_gloss
+ftrplayingtire_matcap_gold,플레이팅 타이어 (골드),85000,1,소품,assets/models/FtrPlayingtire.glb,matcap_gold
+ftrplayingtire_matcap_silver_soft,플레이팅 타이어 (소프트 실버),67500,1.3,소품,assets/models/FtrPlayingtire.glb,matcap_silver_soft
+ftrpolytank_plastic_matte,폴리 탱크 (매트 플라스틱),40000,1.8,소품,assets/models/FtrPolytank.glb,plastic_matte
+ftrpolytank_plastic_gloss,폴리 탱크 (글로시 플라스틱),44000,1.75,소품,assets/models/FtrPolytank.glb,plastic_gloss
+ftrpolytank_rubber_soft,폴리 탱크 (소프트 러버),42000,1.8,소품,assets/models/FtrPolytank.glb,rubber_soft
+ftrpolytank_ceramic_clean,폴리 탱크 (클린 세라믹),48000,1.7,소품,assets/models/FtrPolytank.glb,ceramic_clean
+ftrpolytank_metal_brushed,폴리 탱크 (브러시드 메탈),54000,1.6,소품,assets/models/FtrPolytank.glb,metal_brushed
+ftrpolytank_metal_polished,폴리 탱크 (폴리시드 메탈),60000,1.5,소품,assets/models/FtrPolytank.glb,metal_polished
+ftrpolytank_paint_clearcoat,폴리 탱크 (클리어코트 페인트),52000,1.65,소품,assets/models/FtrPolytank.glb,paint_clearcoat
+ftrpolytank_fabric_sheen,폴리 탱크 (패브릭 쉰),46000,1.75,소품,assets/models/FtrPolytank.glb,fabric_sheen
+ftrpolytank_glass_clear,폴리 탱크 (클리어 글래스),64000,1.4,소품,assets/models/FtrPolytank.glb,glass_clear
+ftrpolytank_resin_tinted,폴리 탱크 (틴티드 레진),58000,1.55,소품,assets/models/FtrPolytank.glb,resin_tinted
+ftrpolytank_matcap_clay,폴리 탱크 (클레이),42000,1.8,소품,assets/models/FtrPolytank.glb,matcap_clay
+ftrpolytank_matcap_wax,폴리 탱크 (왁스),44000,1.75,소품,assets/models/FtrPolytank.glb,matcap_wax
+ftrpolytank_matcap_chrome,폴리 탱크 (크롬),62000,1.45,소품,assets/models/FtrPolytank.glb,matcap_chrome
+ftrpolytank_matcap_bronze,폴리 탱크 (브론즈),56000,1.6,소품,assets/models/FtrPolytank.glb,matcap_bronze
+ftrpolytank_matcap_black_rubber,폴리 탱크 (블랙 러버),43200,1.8,소품,assets/models/FtrPolytank.glb,matcap_black_rubber
+ftrpolytank_matcap_red_wax,폴리 탱크 (레드 왁스),46000,1.7,소품,assets/models/FtrPolytank.glb,matcap_red_wax
+ftrpolytank_matcap_white_ceramic,폴리 탱크 (화이트 세라믹),50000,1.65,소품,assets/models/FtrPolytank.glb,matcap_white_ceramic
+ftrpolytank_matcap_blue_gloss,폴리 탱크 (블루 글로시),48000,1.7,소품,assets/models/FtrPolytank.glb,matcap_blue_gloss
+ftrpolytank_matcap_gold,폴리 탱크 (골드),68000,1.3,소품,assets/models/FtrPolytank.glb,matcap_gold
+ftrpolytank_matcap_silver_soft,폴리 탱크 (소프트 실버),54000,1.6,소품,assets/models/FtrPolytank.glb,matcap_silver_soft
+ftrportableradio_plastic_matte,포터블 라디오 (매트 플라스틱),80000,1,소품,assets/models/FtrPortableradio.glb,plastic_matte
+ftrportableradio_plastic_gloss,포터블 라디오 (글로시 플라스틱),88000,0.95,소품,assets/models/FtrPortableradio.glb,plastic_gloss
+ftrportableradio_rubber_soft,포터블 라디오 (소프트 러버),84000,1,소품,assets/models/FtrPortableradio.glb,rubber_soft
+ftrportableradio_ceramic_clean,포터블 라디오 (클린 세라믹),96000,0.9,소품,assets/models/FtrPortableradio.glb,ceramic_clean
+ftrportableradio_metal_brushed,포터블 라디오 (브러시드 메탈),108000,0.8,소품,assets/models/FtrPortableradio.glb,metal_brushed
+ftrportableradio_metal_polished,포터블 라디오 (폴리시드 메탈),120000,0.7,소품,assets/models/FtrPortableradio.glb,metal_polished
+ftrportableradio_paint_clearcoat,포터블 라디오 (클리어코트 페인트),104000,0.85,소품,assets/models/FtrPortableradio.glb,paint_clearcoat
+ftrportableradio_fabric_sheen,포터블 라디오 (패브릭 쉰),92000,0.95,소품,assets/models/FtrPortableradio.glb,fabric_sheen
+ftrportableradio_glass_clear,포터블 라디오 (클리어 글래스),128000,0.6,소품,assets/models/FtrPortableradio.glb,glass_clear
+ftrportableradio_resin_tinted,포터블 라디오 (틴티드 레진),116000,0.75,소품,assets/models/FtrPortableradio.glb,resin_tinted
+ftrportableradio_matcap_clay,포터블 라디오 (클레이),84000,1,소품,assets/models/FtrPortableradio.glb,matcap_clay
+ftrportableradio_matcap_wax,포터블 라디오 (왁스),88000,0.95,소품,assets/models/FtrPortableradio.glb,matcap_wax
+ftrportableradio_matcap_chrome,포터블 라디오 (크롬),124000,0.65,소품,assets/models/FtrPortableradio.glb,matcap_chrome
+ftrportableradio_matcap_bronze,포터블 라디오 (브론즈),112000,0.8,소품,assets/models/FtrPortableradio.glb,matcap_bronze
+ftrportableradio_matcap_black_rubber,포터블 라디오 (블랙 러버),86400,1,소품,assets/models/FtrPortableradio.glb,matcap_black_rubber
+ftrportableradio_matcap_red_wax,포터블 라디오 (레드 왁스),92000,0.9,소품,assets/models/FtrPortableradio.glb,matcap_red_wax
+ftrportableradio_matcap_white_ceramic,포터블 라디오 (화이트 세라믹),100000,0.85,소품,assets/models/FtrPortableradio.glb,matcap_white_ceramic
+ftrportableradio_matcap_blue_gloss,포터블 라디오 (블루 글로시),96000,0.9,소품,assets/models/FtrPortableradio.glb,matcap_blue_gloss
+ftrportableradio_matcap_gold,포터블 라디오 (골드),136000,0.5,소품,assets/models/FtrPortableradio.glb,matcap_gold
+ftrportableradio_matcap_silver_soft,포터블 라디오 (소프트 실버),108000,0.8,소품,assets/models/FtrPortableradio.glb,matcap_silver_soft
+ftrportablerecordplayer_plastic_matte,포터블 레코드 플레이어 (매트 플라스틱),150000,0.5,소품,assets/models/FtrPortablerecordplayer.glb,plastic_matte
+ftrportablerecordplayer_plastic_gloss,포터블 레코드 플레이어 (글로시 플라스틱),165000,0.45,소품,assets/models/FtrPortablerecordplayer.glb,plastic_gloss
+ftrportablerecordplayer_rubber_soft,포터블 레코드 플레이어 (소프트 러버),157500,0.5,소품,assets/models/FtrPortablerecordplayer.glb,rubber_soft
+ftrportablerecordplayer_ceramic_clean,포터블 레코드 플레이어 (클린 세라믹),180000,0.4,소품,assets/models/FtrPortablerecordplayer.glb,ceramic_clean
+ftrportablerecordplayer_metal_brushed,포터블 레코드 플레이어 (브러시드 메탈),202500,0.3,소품,assets/models/FtrPortablerecordplayer.glb,metal_brushed
+ftrportablerecordplayer_metal_polished,포터블 레코드 플레이어 (폴리시드 메탈),225000,0.2,소품,assets/models/FtrPortablerecordplayer.glb,metal_polished
+ftrportablerecordplayer_paint_clearcoat,포터블 레코드 플레이어 (클리어코트 페인트),195000,0.35,소품,assets/models/FtrPortablerecordplayer.glb,paint_clearcoat
+ftrportablerecordplayer_fabric_sheen,포터블 레코드 플레이어 (패브릭 쉰),172500,0.45,소품,assets/models/FtrPortablerecordplayer.glb,fabric_sheen
+ftrportablerecordplayer_glass_clear,포터블 레코드 플레이어 (클리어 글래스),240000,0.1,소품,assets/models/FtrPortablerecordplayer.glb,glass_clear
+ftrportablerecordplayer_resin_tinted,포터블 레코드 플레이어 (틴티드 레진),217500,0.25,소품,assets/models/FtrPortablerecordplayer.glb,resin_tinted
+ftrportablerecordplayer_matcap_clay,포터블 레코드 플레이어 (클레이),157500,0.5,소품,assets/models/FtrPortablerecordplayer.glb,matcap_clay
+ftrportablerecordplayer_matcap_wax,포터블 레코드 플레이어 (왁스),165000,0.45,소품,assets/models/FtrPortablerecordplayer.glb,matcap_wax
+ftrportablerecordplayer_matcap_chrome,포터블 레코드 플레이어 (크롬),232500,0.15,소품,assets/models/FtrPortablerecordplayer.glb,matcap_chrome
+ftrportablerecordplayer_matcap_bronze,포터블 레코드 플레이어 (브론즈),210000,0.3,소품,assets/models/FtrPortablerecordplayer.glb,matcap_bronze
+ftrportablerecordplayer_matcap_black_rubber,포터블 레코드 플레이어 (블랙 러버),162000,0.5,소품,assets/models/FtrPortablerecordplayer.glb,matcap_black_rubber
+ftrportablerecordplayer_matcap_red_wax,포터블 레코드 플레이어 (레드 왁스),172500,0.4,소품,assets/models/FtrPortablerecordplayer.glb,matcap_red_wax
+ftrportablerecordplayer_matcap_white_ceramic,포터블 레코드 플레이어 (화이트 세라믹),187500,0.35,소품,assets/models/FtrPortablerecordplayer.glb,matcap_white_ceramic
+ftrportablerecordplayer_matcap_blue_gloss,포터블 레코드 플레이어 (블루 글로시),180000,0.4,소품,assets/models/FtrPortablerecordplayer.glb,matcap_blue_gloss
+ftrportablerecordplayer_matcap_gold,포터블 레코드 플레이어 (골드),255000,0.1,소품,assets/models/FtrPortablerecordplayer.glb,matcap_gold
+ftrportablerecordplayer_matcap_silver_soft,포터블 레코드 플레이어 (소프트 실버),202500,0.3,소품,assets/models/FtrPortablerecordplayer.glb,matcap_silver_soft
+ftrpostwood_plastic_matte,우편함 (매트 플라스틱),200000,0.3,가구,assets/models/FtrPostWood.glb,plastic_matte
+ftrpostwood_plastic_gloss,우편함 (글로시 플라스틱),220000,0.25,가구,assets/models/FtrPostWood.glb,plastic_gloss
+ftrpostwood_rubber_soft,우편함 (소프트 러버),210000,0.3,가구,assets/models/FtrPostWood.glb,rubber_soft
+ftrpostwood_ceramic_clean,우편함 (클린 세라믹),240000,0.2,가구,assets/models/FtrPostWood.glb,ceramic_clean
+ftrpostwood_metal_brushed,우편함 (브러시드 메탈),270000,0.1,가구,assets/models/FtrPostWood.glb,metal_brushed
+ftrpostwood_metal_polished,우편함 (폴리시드 메탈),300000,0.1,가구,assets/models/FtrPostWood.glb,metal_polished
+ftrpostwood_paint_clearcoat,우편함 (클리어코트 페인트),260000,0.15,가구,assets/models/FtrPostWood.glb,paint_clearcoat
+ftrpostwood_fabric_sheen,우편함 (패브릭 쉰),230000,0.25,가구,assets/models/FtrPostWood.glb,fabric_sheen
+ftrpostwood_glass_clear,우편함 (클리어 글래스),320000,0.1,가구,assets/models/FtrPostWood.glb,glass_clear
+ftrpostwood_resin_tinted,우편함 (틴티드 레진),290000,0.1,가구,assets/models/FtrPostWood.glb,resin_tinted
+ftrpostwood_matcap_clay,우편함 (클레이),210000,0.3,가구,assets/models/FtrPostWood.glb,matcap_clay
+ftrpostwood_matcap_wax,우편함 (왁스),220000,0.25,가구,assets/models/FtrPostWood.glb,matcap_wax
+ftrpostwood_matcap_chrome,우편함 (크롬),310000,0.1,가구,assets/models/FtrPostWood.glb,matcap_chrome
+ftrpostwood_matcap_bronze,우편함 (브론즈),280000,0.1,가구,assets/models/FtrPostWood.glb,matcap_bronze
+ftrpostwood_matcap_black_rubber,우편함 (블랙 러버),216000,0.3,가구,assets/models/FtrPostWood.glb,matcap_black_rubber
+ftrpostwood_matcap_red_wax,우편함 (레드 왁스),230000,0.2,가구,assets/models/FtrPostWood.glb,matcap_red_wax
+ftrpostwood_matcap_white_ceramic,우편함 (화이트 세라믹),250000,0.15,가구,assets/models/FtrPostWood.glb,matcap_white_ceramic
+ftrpostwood_matcap_blue_gloss,우편함 (블루 글로시),240000,0.2,가구,assets/models/FtrPostWood.glb,matcap_blue_gloss
+ftrpostwood_matcap_gold,우편함 (골드),340000,0.1,가구,assets/models/FtrPostWood.glb,matcap_gold
+ftrpostwood_matcap_silver_soft,우편함 (소프트 실버),270000,0.1,가구,assets/models/FtrPostWood.glb,matcap_silver_soft
+ftrpotrack_plastic_matte,주방용 냄비 선반 (매트 플라스틱),15000,1.5,액세서리,assets/models/FtrPotrack.glb,plastic_matte
+ftrpotrack_plastic_gloss,주방용 냄비 선반 (글로시 플라스틱),16500,1.45,액세서리,assets/models/FtrPotrack.glb,plastic_gloss
+ftrpotrack_rubber_soft,주방용 냄비 선반 (소프트 러버),15800,1.5,액세서리,assets/models/FtrPotrack.glb,rubber_soft
+ftrpotrack_ceramic_clean,주방용 냄비 선반 (클린 세라믹),18000,1.4,액세서리,assets/models/FtrPotrack.glb,ceramic_clean
+ftrpotrack_metal_brushed,주방용 냄비 선반 (브러시드 메탈),20300,1.3,액세서리,assets/models/FtrPotrack.glb,metal_brushed
+ftrpotrack_metal_polished,주방용 냄비 선반 (폴리시드 메탈),22500,1.2,액세서리,assets/models/FtrPotrack.glb,metal_polished
+ftrpotrack_paint_clearcoat,주방용 냄비 선반 (클리어코트 페인트),19500,1.35,액세서리,assets/models/FtrPotrack.glb,paint_clearcoat
+ftrpotrack_fabric_sheen,주방용 냄비 선반 (패브릭 쉰),17300,1.45,액세서리,assets/models/FtrPotrack.glb,fabric_sheen
+ftrpotrack_glass_clear,주방용 냄비 선반 (클리어 글래스),24000,1.1,액세서리,assets/models/FtrPotrack.glb,glass_clear
+ftrpotrack_resin_tinted,주방용 냄비 선반 (틴티드 레진),21800,1.25,액세서리,assets/models/FtrPotrack.glb,resin_tinted
+ftrpotrack_matcap_clay,주방용 냄비 선반 (클레이),15800,1.5,액세서리,assets/models/FtrPotrack.glb,matcap_clay
+ftrpotrack_matcap_wax,주방용 냄비 선반 (왁스),16500,1.45,액세서리,assets/models/FtrPotrack.glb,matcap_wax
+ftrpotrack_matcap_chrome,주방용 냄비 선반 (크롬),23300,1.15,액세서리,assets/models/FtrPotrack.glb,matcap_chrome
+ftrpotrack_matcap_bronze,주방용 냄비 선반 (브론즈),21000,1.3,액세서리,assets/models/FtrPotrack.glb,matcap_bronze
+ftrpotrack_matcap_black_rubber,주방용 냄비 선반 (블랙 러버),16200,1.5,액세서리,assets/models/FtrPotrack.glb,matcap_black_rubber
+ftrpotrack_matcap_red_wax,주방용 냄비 선반 (레드 왁스),17300,1.4,액세서리,assets/models/FtrPotrack.glb,matcap_red_wax
+ftrpotrack_matcap_white_ceramic,주방용 냄비 선반 (화이트 세라믹),18800,1.35,액세서리,assets/models/FtrPotrack.glb,matcap_white_ceramic
+ftrpotrack_matcap_blue_gloss,주방용 냄비 선반 (블루 글로시),18000,1.4,액세서리,assets/models/FtrPotrack.glb,matcap_blue_gloss
+ftrpotrack_matcap_gold,주방용 냄비 선반 (골드),25500,1,액세서리,assets/models/FtrPotrack.glb,matcap_gold
+ftrpotrack_matcap_silver_soft,주방용 냄비 선반 (소프트 실버),20300,1.3,액세서리,assets/models/FtrPotrack.glb,matcap_silver_soft
+ftrpublicbench_plastic_matte,공공 벤치 의자 (매트 플라스틱),25000,1.3,액세서리,assets/models/FtrPublicbench.glb,plastic_matte
+ftrpublicbench_plastic_gloss,공공 벤치 의자 (글로시 플라스틱),27500,1.25,액세서리,assets/models/FtrPublicbench.glb,plastic_gloss
+ftrpublicbench_rubber_soft,공공 벤치 의자 (소프트 러버),26300,1.3,액세서리,assets/models/FtrPublicbench.glb,rubber_soft
+ftrpublicbench_ceramic_clean,공공 벤치 의자 (클린 세라믹),30000,1.2,액세서리,assets/models/FtrPublicbench.glb,ceramic_clean
+ftrpublicbench_metal_brushed,공공 벤치 의자 (브러시드 메탈),33800,1.1,액세서리,assets/models/FtrPublicbench.glb,metal_brushed
+ftrpublicbench_metal_polished,공공 벤치 의자 (폴리시드 메탈),37500,1,액세서리,assets/models/FtrPublicbench.glb,metal_polished
+ftrpublicbench_paint_clearcoat,공공 벤치 의자 (클리어코트 페인트),32500,1.15,액세서리,assets/models/FtrPublicbench.glb,paint_clearcoat
+ftrpublicbench_fabric_sheen,공공 벤치 의자 (패브릭 쉰),28700,1.25,액세서리,assets/models/FtrPublicbench.glb,fabric_sheen
+ftrpublicbench_glass_clear,공공 벤치 의자 (클리어 글래스),40000,0.9,액세서리,assets/models/FtrPublicbench.glb,glass_clear
+ftrpublicbench_resin_tinted,공공 벤치 의자 (틴티드 레진),36300,1.05,액세서리,assets/models/FtrPublicbench.glb,resin_tinted
+ftrpublicbench_matcap_clay,공공 벤치 의자 (클레이),26300,1.3,액세서리,assets/models/FtrPublicbench.glb,matcap_clay
+ftrpublicbench_matcap_wax,공공 벤치 의자 (왁스),27500,1.25,액세서리,assets/models/FtrPublicbench.glb,matcap_wax
+ftrpublicbench_matcap_chrome,공공 벤치 의자 (크롬),38800,0.95,액세서리,assets/models/FtrPublicbench.glb,matcap_chrome
+ftrpublicbench_matcap_bronze,공공 벤치 의자 (브론즈),35000,1.1,액세서리,assets/models/FtrPublicbench.glb,matcap_bronze
+ftrpublicbench_matcap_black_rubber,공공 벤치 의자 (블랙 러버),27000,1.3,액세서리,assets/models/FtrPublicbench.glb,matcap_black_rubber
+ftrpublicbench_matcap_red_wax,공공 벤치 의자 (레드 왁스),28700,1.2,액세서리,assets/models/FtrPublicbench.glb,matcap_red_wax
+ftrpublicbench_matcap_white_ceramic,공공 벤치 의자 (화이트 세라믹),31300,1.15,액세서리,assets/models/FtrPublicbench.glb,matcap_white_ceramic
+ftrpublicbench_matcap_blue_gloss,공공 벤치 의자 (블루 글로시),30000,1.2,액세서리,assets/models/FtrPublicbench.glb,matcap_blue_gloss
+ftrpublicbench_matcap_gold,공공 벤치 의자 (골드),42500,0.8,액세서리,assets/models/FtrPublicbench.glb,matcap_gold
+ftrpublicbench_matcap_silver_soft,공공 벤치 의자 (소프트 실버),33800,1.1,액세서리,assets/models/FtrPublicbench.glb,matcap_silver_soft
+ftrpylon_plastic_matte,원뿔형 표지대 (매트 플라스틱),5000,1.9,액세서리,assets/models/FtrPylon.glb,plastic_matte
+ftrpylon_plastic_gloss,원뿔형 표지대 (글로시 플라스틱),5500,1.85,액세서리,assets/models/FtrPylon.glb,plastic_gloss
+ftrpylon_rubber_soft,원뿔형 표지대 (소프트 러버),5300,1.9,액세서리,assets/models/FtrPylon.glb,rubber_soft
+ftrpylon_ceramic_clean,원뿔형 표지대 (클린 세라믹),6000,1.8,액세서리,assets/models/FtrPylon.glb,ceramic_clean
+ftrpylon_metal_brushed,원뿔형 표지대 (브러시드 메탈),6800,1.7,액세서리,assets/models/FtrPylon.glb,metal_brushed
+ftrpylon_metal_polished,원뿔형 표지대 (폴리시드 메탈),7500,1.6,액세서리,assets/models/FtrPylon.glb,metal_polished
+ftrpylon_paint_clearcoat,원뿔형 표지대 (클리어코트 페인트),6500,1.75,액세서리,assets/models/FtrPylon.glb,paint_clearcoat
+ftrpylon_fabric_sheen,원뿔형 표지대 (패브릭 쉰),5800,1.85,액세서리,assets/models/FtrPylon.glb,fabric_sheen
+ftrpylon_glass_clear,원뿔형 표지대 (클리어 글래스),8000,1.5,액세서리,assets/models/FtrPylon.glb,glass_clear
+ftrpylon_resin_tinted,원뿔형 표지대 (틴티드 레진),7300,1.65,액세서리,assets/models/FtrPylon.glb,resin_tinted
+ftrpylon_matcap_clay,원뿔형 표지대 (클레이),5300,1.9,액세서리,assets/models/FtrPylon.glb,matcap_clay
+ftrpylon_matcap_wax,원뿔형 표지대 (왁스),5500,1.85,액세서리,assets/models/FtrPylon.glb,matcap_wax
+ftrpylon_matcap_chrome,원뿔형 표지대 (크롬),7800,1.55,액세서리,assets/models/FtrPylon.glb,matcap_chrome
+ftrpylon_matcap_bronze,원뿔형 표지대 (브론즈),7000,1.7,액세서리,assets/models/FtrPylon.glb,matcap_bronze
+ftrpylon_matcap_black_rubber,원뿔형 표지대 (블랙 러버),5400,1.9,액세서리,assets/models/FtrPylon.glb,matcap_black_rubber
+ftrpylon_matcap_red_wax,원뿔형 표지대 (레드 왁스),5800,1.8,액세서리,assets/models/FtrPylon.glb,matcap_red_wax
+ftrpylon_matcap_white_ceramic,원뿔형 표지대 (화이트 세라믹),6300,1.75,액세서리,assets/models/FtrPylon.glb,matcap_white_ceramic
+ftrpylon_matcap_blue_gloss,원뿔형 표지대 (블루 글로시),6000,1.8,액세서리,assets/models/FtrPylon.glb,matcap_blue_gloss
+ftrpylon_matcap_gold,원뿔형 표지대 (골드),8500,1.4,액세서리,assets/models/FtrPylon.glb,matcap_gold
+ftrpylon_matcap_silver_soft,원뿔형 표지대 (소프트 실버),6800,1.7,액세서리,assets/models/FtrPylon.glb,matcap_silver_soft
+ftrpyramid_plastic_matte,금색 피라미드 탑 (매트 플라스틱),50000,0.9,액세서리,assets/models/FtrPyramid.glb,plastic_matte
+ftrpyramid_plastic_gloss,금색 피라미드 탑 (글로시 플라스틱),55000,0.85,액세서리,assets/models/FtrPyramid.glb,plastic_gloss
+ftrpyramid_rubber_soft,금색 피라미드 탑 (소프트 러버),52500,0.9,액세서리,assets/models/FtrPyramid.glb,rubber_soft
+ftrpyramid_ceramic_clean,금색 피라미드 탑 (클린 세라믹),60000,0.8,액세서리,assets/models/FtrPyramid.glb,ceramic_clean
+ftrpyramid_metal_brushed,금색 피라미드 탑 (브러시드 메탈),67500,0.7,액세서리,assets/models/FtrPyramid.glb,metal_brushed
+ftrpyramid_metal_polished,금색 피라미드 탑 (폴리시드 메탈),75000,0.6,액세서리,assets/models/FtrPyramid.glb,metal_polished
+ftrpyramid_paint_clearcoat,금색 피라미드 탑 (클리어코트 페인트),65000,0.75,액세서리,assets/models/FtrPyramid.glb,paint_clearcoat
+ftrpyramid_fabric_sheen,금색 피라미드 탑 (패브릭 쉰),57500,0.85,액세서리,assets/models/FtrPyramid.glb,fabric_sheen
+ftrpyramid_glass_clear,금색 피라미드 탑 (클리어 글래스),80000,0.5,액세서리,assets/models/FtrPyramid.glb,glass_clear
+ftrpyramid_resin_tinted,금색 피라미드 탑 (틴티드 레진),72500,0.65,액세서리,assets/models/FtrPyramid.glb,resin_tinted
+ftrpyramid_matcap_clay,금색 피라미드 탑 (클레이),52500,0.9,액세서리,assets/models/FtrPyramid.glb,matcap_clay
+ftrpyramid_matcap_wax,금색 피라미드 탑 (왁스),55000,0.85,액세서리,assets/models/FtrPyramid.glb,matcap_wax
+ftrpyramid_matcap_chrome,금색 피라미드 탑 (크롬),77500,0.55,액세서리,assets/models/FtrPyramid.glb,matcap_chrome
+ftrpyramid_matcap_bronze,금색 피라미드 탑 (브론즈),70000,0.7,액세서리,assets/models/FtrPyramid.glb,matcap_bronze
+ftrpyramid_matcap_black_rubber,금색 피라미드 탑 (블랙 러버),54000,0.9,액세서리,assets/models/FtrPyramid.glb,matcap_black_rubber
+ftrpyramid_matcap_red_wax,금색 피라미드 탑 (레드 왁스),57500,0.8,액세서리,assets/models/FtrPyramid.glb,matcap_red_wax
+ftrpyramid_matcap_white_ceramic,금색 피라미드 탑 (화이트 세라믹),62500,0.75,액세서리,assets/models/FtrPyramid.glb,matcap_white_ceramic
+ftrpyramid_matcap_blue_gloss,금색 피라미드 탑 (블루 글로시),60000,0.8,액세서리,assets/models/FtrPyramid.glb,matcap_blue_gloss
+ftrpyramid_matcap_gold,금색 피라미드 탑 (골드),85000,0.4,액세서리,assets/models/FtrPyramid.glb,matcap_gold
+ftrpyramid_matcap_silver_soft,금색 피라미드 탑 (소프트 실버),67500,0.7,액세서리,assets/models/FtrPyramid.glb,matcap_silver_soft
+ftrradicase_plastic_matte,레트로 라디오 (매트 플라스틱),80000,0.6,액세서리,assets/models/FtrRadicase.glb,plastic_matte
+ftrradicase_plastic_gloss,레트로 라디오 (글로시 플라스틱),88000,0.55,액세서리,assets/models/FtrRadicase.glb,plastic_gloss
+ftrradicase_rubber_soft,레트로 라디오 (소프트 러버),84000,0.6,액세서리,assets/models/FtrRadicase.glb,rubber_soft
+ftrradicase_ceramic_clean,레트로 라디오 (클린 세라믹),96000,0.5,액세서리,assets/models/FtrRadicase.glb,ceramic_clean
+ftrradicase_metal_brushed,레트로 라디오 (브러시드 메탈),108000,0.4,액세서리,assets/models/FtrRadicase.glb,metal_brushed
+ftrradicase_metal_polished,레트로 라디오 (폴리시드 메탈),120000,0.3,액세서리,assets/models/FtrRadicase.glb,metal_polished
+ftrradicase_paint_clearcoat,레트로 라디오 (클리어코트 페인트),104000,0.45,액세서리,assets/models/FtrRadicase.glb,paint_clearcoat
+ftrradicase_fabric_sheen,레트로 라디오 (패브릭 쉰),92000,0.55,액세서리,assets/models/FtrRadicase.glb,fabric_sheen
+ftrradicase_glass_clear,레트로 라디오 (클리어 글래스),128000,0.2,액세서리,assets/models/FtrRadicase.glb,glass_clear
+ftrradicase_resin_tinted,레트로 라디오 (틴티드 레진),116000,0.35,액세서리,assets/models/FtrRadicase.glb,resin_tinted
+ftrradicase_matcap_clay,레트로 라디오 (클레이),84000,0.6,액세서리,assets/models/FtrRadicase.glb,matcap_clay
+ftrradicase_matcap_wax,레트로 라디오 (왁스),88000,0.55,액세서리,assets/models/FtrRadicase.glb,matcap_wax
+ftrradicase_matcap_chrome,레트로 라디오 (크롬),124000,0.25,액세서리,assets/models/FtrRadicase.glb,matcap_chrome
+ftrradicase_matcap_bronze,레트로 라디오 (브론즈),112000,0.4,액세서리,assets/models/FtrRadicase.glb,matcap_bronze
+ftrradicase_matcap_black_rubber,레트로 라디오 (블랙 러버),86400,0.6,액세서리,assets/models/FtrRadicase.glb,matcap_black_rubber
+ftrradicase_matcap_red_wax,레트로 라디오 (레드 왁스),92000,0.5,액세서리,assets/models/FtrRadicase.glb,matcap_red_wax
+ftrradicase_matcap_white_ceramic,레트로 라디오 (화이트 세라믹),100000,0.45,액세서리,assets/models/FtrRadicase.glb,matcap_white_ceramic
+ftrradicase_matcap_blue_gloss,레트로 라디오 (블루 글로시),96000,0.5,액세서리,assets/models/FtrRadicase.glb,matcap_blue_gloss
+ftrradicase_matcap_gold,레트로 라디오 (골드),136000,0.1,액세서리,assets/models/FtrRadicase.glb,matcap_gold
+ftrradicase_matcap_silver_soft,레트로 라디오 (소프트 실버),108000,0.4,액세서리,assets/models/FtrRadicase.glb,matcap_silver_soft

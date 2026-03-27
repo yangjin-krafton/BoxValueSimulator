@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+ftrexercisebike_plastic_matte,화이트 운동자전거 (매트 플라스틱),50000,1.5,가구,assets/models/FtrExercisebike.glb,plastic_matte
+ftrexercisebike_plastic_gloss,화이트 운동자전거 (글로시 플라스틱),55000,1.45,가구,assets/models/FtrExercisebike.glb,plastic_gloss
+ftrexercisebike_rubber_soft,화이트 운동자전거 (소프트 러버),52500,1.5,가구,assets/models/FtrExercisebike.glb,rubber_soft
+ftrexercisebike_ceramic_clean,화이트 운동자전거 (클린 세라믹),60000,1.4,가구,assets/models/FtrExercisebike.glb,ceramic_clean
+ftrexercisebike_metal_brushed,화이트 운동자전거 (브러시드 메탈),67500,1.3,가구,assets/models/FtrExercisebike.glb,metal_brushed
+ftrexercisebike_metal_polished,화이트 운동자전거 (폴리시드 메탈),75000,1.2,가구,assets/models/FtrExercisebike.glb,metal_polished
+ftrexercisebike_paint_clearcoat,화이트 운동자전거 (클리어코트 페인트),65000,1.35,가구,assets/models/FtrExercisebike.glb,paint_clearcoat
+ftrexercisebike_fabric_sheen,화이트 운동자전거 (패브릭 쉰),57500,1.45,가구,assets/models/FtrExercisebike.glb,fabric_sheen
+ftrexercisebike_glass_clear,화이트 운동자전거 (클리어 글래스),80000,1.1,가구,assets/models/FtrExercisebike.glb,glass_clear
+ftrexercisebike_resin_tinted,화이트 운동자전거 (틴티드 레진),72500,1.25,가구,assets/models/FtrExercisebike.glb,resin_tinted
+ftrexercisebike_matcap_clay,화이트 운동자전거 (클레이),52500,1.5,가구,assets/models/FtrExercisebike.glb,matcap_clay
+ftrexercisebike_matcap_wax,화이트 운동자전거 (왁스),55000,1.45,가구,assets/models/FtrExercisebike.glb,matcap_wax
+ftrexercisebike_matcap_chrome,화이트 운동자전거 (크롬),77500,1.15,가구,assets/models/FtrExercisebike.glb,matcap_chrome
+ftrexercisebike_matcap_bronze,화이트 운동자전거 (브론즈),70000,1.3,가구,assets/models/FtrExercisebike.glb,matcap_bronze
+ftrexercisebike_matcap_black_rubber,화이트 운동자전거 (블랙 러버),54000,1.5,가구,assets/models/FtrExercisebike.glb,matcap_black_rubber
+ftrexercisebike_matcap_red_wax,화이트 운동자전거 (레드 왁스),57500,1.4,가구,assets/models/FtrExercisebike.glb,matcap_red_wax
+ftrexercisebike_matcap_white_ceramic,화이트 운동자전거 (화이트 세라믹),62500,1.35,가구,assets/models/FtrExercisebike.glb,matcap_white_ceramic
+ftrexercisebike_matcap_blue_gloss,화이트 운동자전거 (블루 글로시),60000,1.4,가구,assets/models/FtrExercisebike.glb,matcap_blue_gloss
+ftrexercisebike_matcap_gold,화이트 운동자전거 (골드),85000,1,가구,assets/models/FtrExercisebike.glb,matcap_gold
+ftrexercisebike_matcap_silver_soft,화이트 운동자전거 (소프트 실버),67500,1.3,가구,assets/models/FtrExercisebike.glb,matcap_silver_soft
+ftrfallenleaves_plastic_matte,가을 낙엽 무더미 (매트 플라스틱),30000,1.8,장식,assets/models/FtrFallenleaves.glb,plastic_matte
+ftrfallenleaves_plastic_gloss,가을 낙엽 무더미 (글로시 플라스틱),33000,1.75,장식,assets/models/FtrFallenleaves.glb,plastic_gloss
+ftrfallenleaves_rubber_soft,가을 낙엽 무더미 (소프트 러버),31500,1.8,장식,assets/models/FtrFallenleaves.glb,rubber_soft
+ftrfallenleaves_ceramic_clean,가을 낙엽 무더미 (클린 세라믹),36000,1.7,장식,assets/models/FtrFallenleaves.glb,ceramic_clean
+ftrfallenleaves_metal_brushed,가을 낙엽 무더미 (브러시드 메탈),40500,1.6,장식,assets/models/FtrFallenleaves.glb,metal_brushed
+ftrfallenleaves_metal_polished,가을 낙엽 무더미 (폴리시드 메탈),45000,1.5,장식,assets/models/FtrFallenleaves.glb,metal_polished
+ftrfallenleaves_paint_clearcoat,가을 낙엽 무더미 (클리어코트 페인트),39000,1.65,장식,assets/models/FtrFallenleaves.glb,paint_clearcoat
+ftrfallenleaves_fabric_sheen,가을 낙엽 무더미 (패브릭 쉰),34500,1.75,장식,assets/models/FtrFallenleaves.glb,fabric_sheen
+ftrfallenleaves_glass_clear,가을 낙엽 무더미 (클리어 글래스),48000,1.4,장식,assets/models/FtrFallenleaves.glb,glass_clear
+ftrfallenleaves_resin_tinted,가을 낙엽 무더미 (틴티드 레진),43500,1.55,장식,assets/models/FtrFallenleaves.glb,resin_tinted
+ftrfallenleaves_matcap_clay,가을 낙엽 무더미 (클레이),31500,1.8,장식,assets/models/FtrFallenleaves.glb,matcap_clay
+ftrfallenleaves_matcap_wax,가을 낙엽 무더미 (왁스),33000,1.75,장식,assets/models/FtrFallenleaves.glb,matcap_wax
+ftrfallenleaves_matcap_chrome,가을 낙엽 무더미 (크롬),46500,1.45,장식,assets/models/FtrFallenleaves.glb,matcap_chrome
+ftrfallenleaves_matcap_bronze,가을 낙엽 무더미 (브론즈),42000,1.6,장식,assets/models/FtrFallenleaves.glb,matcap_bronze
+ftrfallenleaves_matcap_black_rubber,가을 낙엽 무더미 (블랙 러버),32400,1.8,장식,assets/models/FtrFallenleaves.glb,matcap_black_rubber
+ftrfallenleaves_matcap_red_wax,가을 낙엽 무더미 (레드 왁스),34500,1.7,장식,assets/models/FtrFallenleaves.glb,matcap_red_wax
+ftrfallenleaves_matcap_white_ceramic,가을 낙엽 무더미 (화이트 세라믹),37500,1.65,장식,assets/models/FtrFallenleaves.glb,matcap_white_ceramic
+ftrfallenleaves_matcap_blue_gloss,가을 낙엽 무더미 (블루 글로시),36000,1.7,장식,assets/models/FtrFallenleaves.glb,matcap_blue_gloss
+ftrfallenleaves_matcap_gold,가을 낙엽 무더미 (골드),51000,1.3,장식,assets/models/FtrFallenleaves.glb,matcap_gold
+ftrfallenleaves_matcap_silver_soft,가을 낙엽 무더미 (소프트 실버),40500,1.6,장식,assets/models/FtrFallenleaves.glb,matcap_silver_soft
+ftrfan_plastic_matte,화이트 선풍기 (매트 플라스틱),40000,1.9,가전,assets/models/FtrFan.glb,plastic_matte
+ftrfan_plastic_gloss,화이트 선풍기 (글로시 플라스틱),44000,1.85,가전,assets/models/FtrFan.glb,plastic_gloss
+ftrfan_rubber_soft,화이트 선풍기 (소프트 러버),42000,1.9,가전,assets/models/FtrFan.glb,rubber_soft
+ftrfan_ceramic_clean,화이트 선풍기 (클린 세라믹),48000,1.8,가전,assets/models/FtrFan.glb,ceramic_clean
+ftrfan_metal_brushed,화이트 선풍기 (브러시드 메탈),54000,1.7,가전,assets/models/FtrFan.glb,metal_brushed
+ftrfan_metal_polished,화이트 선풍기 (폴리시드 메탈),60000,1.6,가전,assets/models/FtrFan.glb,metal_polished
+ftrfan_paint_clearcoat,화이트 선풍기 (클리어코트 페인트),52000,1.75,가전,assets/models/FtrFan.glb,paint_clearcoat
+ftrfan_fabric_sheen,화이트 선풍기 (패브릭 쉰),46000,1.85,가전,assets/models/FtrFan.glb,fabric_sheen
+ftrfan_glass_clear,화이트 선풍기 (클리어 글래스),64000,1.5,가전,assets/models/FtrFan.glb,glass_clear
+ftrfan_resin_tinted,화이트 선풍기 (틴티드 레진),58000,1.65,가전,assets/models/FtrFan.glb,resin_tinted
+ftrfan_matcap_clay,화이트 선풍기 (클레이),42000,1.9,가전,assets/models/FtrFan.glb,matcap_clay
+ftrfan_matcap_wax,화이트 선풍기 (왁스),44000,1.85,가전,assets/models/FtrFan.glb,matcap_wax
+ftrfan_matcap_chrome,화이트 선풍기 (크롬),62000,1.55,가전,assets/models/FtrFan.glb,matcap_chrome
+ftrfan_matcap_bronze,화이트 선풍기 (브론즈),56000,1.7,가전,assets/models/FtrFan.glb,matcap_bronze
+ftrfan_matcap_black_rubber,화이트 선풍기 (블랙 러버),43200,1.9,가전,assets/models/FtrFan.glb,matcap_black_rubber
+ftrfan_matcap_red_wax,화이트 선풍기 (레드 왁스),46000,1.8,가전,assets/models/FtrFan.glb,matcap_red_wax
+ftrfan_matcap_white_ceramic,화이트 선풍기 (화이트 세라믹),50000,1.75,가전,assets/models/FtrFan.glb,matcap_white_ceramic
+ftrfan_matcap_blue_gloss,화이트 선풍기 (블루 글로시),48000,1.8,가전,assets/models/FtrFan.glb,matcap_blue_gloss
+ftrfan_matcap_gold,화이트 선풍기 (골드),68000,1.4,가전,assets/models/FtrFan.glb,matcap_gold
+ftrfan_matcap_silver_soft,화이트 선풍기 (소프트 실버),54000,1.7,가전,assets/models/FtrFan.glb,matcap_silver_soft
+ftrfashioncase_plastic_matte,화이트 캐비닛 (매트 플라스틱),60000,1.6,가구,assets/models/FtrFashioncase.glb,plastic_matte
+ftrfashioncase_plastic_gloss,화이트 캐비닛 (글로시 플라스틱),66000,1.55,가구,assets/models/FtrFashioncase.glb,plastic_gloss
+ftrfashioncase_rubber_soft,화이트 캐비닛 (소프트 러버),63000,1.6,가구,assets/models/FtrFashioncase.glb,rubber_soft
+ftrfashioncase_ceramic_clean,화이트 캐비닛 (클린 세라믹),72000,1.5,가구,assets/models/FtrFashioncase.glb,ceramic_clean
+ftrfashioncase_metal_brushed,화이트 캐비닛 (브러시드 메탈),81000,1.4,가구,assets/models/FtrFashioncase.glb,metal_brushed
+ftrfashioncase_metal_polished,화이트 캐비닛 (폴리시드 메탈),90000,1.3,가구,assets/models/FtrFashioncase.glb,metal_polished
+ftrfashioncase_paint_clearcoat,화이트 캐비닛 (클리어코트 페인트),78000,1.45,가구,assets/models/FtrFashioncase.glb,paint_clearcoat
+ftrfashioncase_fabric_sheen,화이트 캐비닛 (패브릭 쉰),69000,1.55,가구,assets/models/FtrFashioncase.glb,fabric_sheen
+ftrfashioncase_glass_clear,화이트 캐비닛 (클리어 글래스),96000,1.2,가구,assets/models/FtrFashioncase.glb,glass_clear
+ftrfashioncase_resin_tinted,화이트 캐비닛 (틴티드 레진),87000,1.35,가구,assets/models/FtrFashioncase.glb,resin_tinted
+ftrfashioncase_matcap_clay,화이트 캐비닛 (클레이),63000,1.6,가구,assets/models/FtrFashioncase.glb,matcap_clay
+ftrfashioncase_matcap_wax,화이트 캐비닛 (왁스),66000,1.55,가구,assets/models/FtrFashioncase.glb,matcap_wax
+ftrfashioncase_matcap_chrome,화이트 캐비닛 (크롬),93000,1.25,가구,assets/models/FtrFashioncase.glb,matcap_chrome
+ftrfashioncase_matcap_bronze,화이트 캐비닛 (브론즈),84000,1.4,가구,assets/models/FtrFashioncase.glb,matcap_bronze
+ftrfashioncase_matcap_black_rubber,화이트 캐비닛 (블랙 러버),64800,1.6,가구,assets/models/FtrFashioncase.glb,matcap_black_rubber
+ftrfashioncase_matcap_red_wax,화이트 캐비닛 (레드 왁스),69000,1.5,가구,assets/models/FtrFashioncase.glb,matcap_red_wax
+ftrfashioncase_matcap_white_ceramic,화이트 캐비닛 (화이트 세라믹),75000,1.45,가구,assets/models/FtrFashioncase.glb,matcap_white_ceramic
+ftrfashioncase_matcap_blue_gloss,화이트 캐비닛 (블루 글로시),72000,1.5,가구,assets/models/FtrFashioncase.glb,matcap_blue_gloss
+ftrfashioncase_matcap_gold,화이트 캐비닛 (골드),102000,1.1,가구,assets/models/FtrFashioncase.glb,matcap_gold
+ftrfashioncase_matcap_silver_soft,화이트 캐비닛 (소프트 실버),81000,1.4,가구,assets/models/FtrFashioncase.glb,matcap_silver_soft
+ftrfirepit_plastic_matte,블랙 화로 (매트 플라스틱),100000,0.8,가구,assets/models/FtrFirepit.glb,plastic_matte
+ftrfirepit_plastic_gloss,블랙 화로 (글로시 플라스틱),110000,0.75,가구,assets/models/FtrFirepit.glb,plastic_gloss
+ftrfirepit_rubber_soft,블랙 화로 (소프트 러버),105000,0.8,가구,assets/models/FtrFirepit.glb,rubber_soft
+ftrfirepit_ceramic_clean,블랙 화로 (클린 세라믹),120000,0.7,가구,assets/models/FtrFirepit.glb,ceramic_clean
+ftrfirepit_metal_brushed,블랙 화로 (브러시드 메탈),135000,0.6,가구,assets/models/FtrFirepit.glb,metal_brushed
+ftrfirepit_metal_polished,블랙 화로 (폴리시드 메탈),150000,0.5,가구,assets/models/FtrFirepit.glb,metal_polished
+ftrfirepit_paint_clearcoat,블랙 화로 (클리어코트 페인트),130000,0.65,가구,assets/models/FtrFirepit.glb,paint_clearcoat
+ftrfirepit_fabric_sheen,블랙 화로 (패브릭 쉰),115000,0.75,가구,assets/models/FtrFirepit.glb,fabric_sheen
+ftrfirepit_glass_clear,블랙 화로 (클리어 글래스),160000,0.4,가구,assets/models/FtrFirepit.glb,glass_clear
+ftrfirepit_resin_tinted,블랙 화로 (틴티드 레진),145000,0.55,가구,assets/models/FtrFirepit.glb,resin_tinted
+ftrfirepit_matcap_clay,블랙 화로 (클레이),105000,0.8,가구,assets/models/FtrFirepit.glb,matcap_clay
+ftrfirepit_matcap_wax,블랙 화로 (왁스),110000,0.75,가구,assets/models/FtrFirepit.glb,matcap_wax
+ftrfirepit_matcap_chrome,블랙 화로 (크롬),155000,0.45,가구,assets/models/FtrFirepit.glb,matcap_chrome
+ftrfirepit_matcap_bronze,블랙 화로 (브론즈),140000,0.6,가구,assets/models/FtrFirepit.glb,matcap_bronze
+ftrfirepit_matcap_black_rubber,블랙 화로 (블랙 러버),108000,0.8,가구,assets/models/FtrFirepit.glb,matcap_black_rubber
+ftrfirepit_matcap_red_wax,블랙 화로 (레드 왁스),115000,0.7,가구,assets/models/FtrFirepit.glb,matcap_red_wax
+ftrfirepit_matcap_white_ceramic,블랙 화로 (화이트 세라믹),125000,0.65,가구,assets/models/FtrFirepit.glb,matcap_white_ceramic
+ftrfirepit_matcap_blue_gloss,블랙 화로 (블루 글로시),120000,0.7,가구,assets/models/FtrFirepit.glb,matcap_blue_gloss
+ftrfirepit_matcap_gold,블랙 화로 (골드),170000,0.3,가구,assets/models/FtrFirepit.glb,matcap_gold
+ftrfirepit_matcap_silver_soft,블랙 화로 (소프트 실버),135000,0.6,가구,assets/models/FtrFirepit.glb,matcap_silver_soft
+ftrfireplace_plastic_matte,Ftr Fireplace (매트 플라스틱),15000,1,액세서리,assets/models/FtrFireplace.glb,plastic_matte
+ftrfireplace_plastic_gloss,Ftr Fireplace (글로시 플라스틱),16500,0.95,액세서리,assets/models/FtrFireplace.glb,plastic_gloss
+ftrfireplace_rubber_soft,Ftr Fireplace (소프트 러버),15800,1,액세서리,assets/models/FtrFireplace.glb,rubber_soft
+ftrfireplace_ceramic_clean,Ftr Fireplace (클린 세라믹),18000,0.9,액세서리,assets/models/FtrFireplace.glb,ceramic_clean
+ftrfireplace_metal_brushed,Ftr Fireplace (브러시드 메탈),20300,0.8,액세서리,assets/models/FtrFireplace.glb,metal_brushed
+ftrfireplace_metal_polished,Ftr Fireplace (폴리시드 메탈),22500,0.7,액세서리,assets/models/FtrFireplace.glb,metal_polished
+ftrfireplace_paint_clearcoat,Ftr Fireplace (클리어코트 페인트),19500,0.85,액세서리,assets/models/FtrFireplace.glb,paint_clearcoat
+ftrfireplace_fabric_sheen,Ftr Fireplace (패브릭 쉰),17300,0.95,액세서리,assets/models/FtrFireplace.glb,fabric_sheen
+ftrfireplace_glass_clear,Ftr Fireplace (클리어 글래스),24000,0.6,액세서리,assets/models/FtrFireplace.glb,glass_clear
+ftrfireplace_resin_tinted,Ftr Fireplace (틴티드 레진),21800,0.75,액세서리,assets/models/FtrFireplace.glb,resin_tinted
+ftrfireplace_matcap_clay,Ftr Fireplace (클레이),15800,1,액세서리,assets/models/FtrFireplace.glb,matcap_clay
+ftrfireplace_matcap_wax,Ftr Fireplace (왁스),16500,0.95,액세서리,assets/models/FtrFireplace.glb,matcap_wax
+ftrfireplace_matcap_chrome,Ftr Fireplace (크롬),23300,0.65,액세서리,assets/models/FtrFireplace.glb,matcap_chrome
+ftrfireplace_matcap_bronze,Ftr Fireplace (브론즈),21000,0.8,액세서리,assets/models/FtrFireplace.glb,matcap_bronze
+ftrfireplace_matcap_black_rubber,Ftr Fireplace (블랙 러버),16200,1,액세서리,assets/models/FtrFireplace.glb,matcap_black_rubber
+ftrfireplace_matcap_red_wax,Ftr Fireplace (레드 왁스),17300,0.9,액세서리,assets/models/FtrFireplace.glb,matcap_red_wax
+ftrfireplace_matcap_white_ceramic,Ftr Fireplace (화이트 세라믹),18800,0.85,액세서리,assets/models/FtrFireplace.glb,matcap_white_ceramic
+ftrfireplace_matcap_blue_gloss,Ftr Fireplace (블루 글로시),18000,0.9,액세서리,assets/models/FtrFireplace.glb,matcap_blue_gloss
+ftrfireplace_matcap_gold,Ftr Fireplace (골드),25500,0.5,액세서리,assets/models/FtrFireplace.glb,matcap_gold
+ftrfireplace_matcap_silver_soft,Ftr Fireplace (소프트 실버),20300,0.8,액세서리,assets/models/FtrFireplace.glb,matcap_silver_soft
+ftrfishei_plastic_matte,Ftr Fish Ei (매트 플라스틱),15000,1,액세서리,assets/models/FtrFishEi.glb,plastic_matte
+ftrfishei_plastic_gloss,Ftr Fish Ei (글로시 플라스틱),16500,0.95,액세서리,assets/models/FtrFishEi.glb,plastic_gloss
+ftrfishei_rubber_soft,Ftr Fish Ei (소프트 러버),15800,1,액세서리,assets/models/FtrFishEi.glb,rubber_soft
+ftrfishei_ceramic_clean,Ftr Fish Ei (클린 세라믹),18000,0.9,액세서리,assets/models/FtrFishEi.glb,ceramic_clean
+ftrfishei_metal_brushed,Ftr Fish Ei (브러시드 메탈),20300,0.8,액세서리,assets/models/FtrFishEi.glb,metal_brushed
+ftrfishei_metal_polished,Ftr Fish Ei (폴리시드 메탈),22500,0.7,액세서리,assets/models/FtrFishEi.glb,metal_polished
+ftrfishei_paint_clearcoat,Ftr Fish Ei (클리어코트 페인트),19500,0.85,액세서리,assets/models/FtrFishEi.glb,paint_clearcoat
+ftrfishei_fabric_sheen,Ftr Fish Ei (패브릭 쉰),17300,0.95,액세서리,assets/models/FtrFishEi.glb,fabric_sheen
+ftrfishei_glass_clear,Ftr Fish Ei (클리어 글래스),24000,0.6,액세서리,assets/models/FtrFishEi.glb,glass_clear
+ftrfishei_resin_tinted,Ftr Fish Ei (틴티드 레진),21800,0.75,액세서리,assets/models/FtrFishEi.glb,resin_tinted
+ftrfishei_matcap_clay,Ftr Fish Ei (클레이),15800,1,액세서리,assets/models/FtrFishEi.glb,matcap_clay
+ftrfishei_matcap_wax,Ftr Fish Ei (왁스),16500,0.95,액세서리,assets/models/FtrFishEi.glb,matcap_wax
+ftrfishei_matcap_chrome,Ftr Fish Ei (크롬),23300,0.65,액세서리,assets/models/FtrFishEi.glb,matcap_chrome
+ftrfishei_matcap_bronze,Ftr Fish Ei (브론즈),21000,0.8,액세서리,assets/models/FtrFishEi.glb,matcap_bronze
+ftrfishei_matcap_black_rubber,Ftr Fish Ei (블랙 러버),16200,1,액세서리,assets/models/FtrFishEi.glb,matcap_black_rubber
+ftrfishei_matcap_red_wax,Ftr Fish Ei (레드 왁스),17300,0.9,액세서리,assets/models/FtrFishEi.glb,matcap_red_wax
+ftrfishei_matcap_white_ceramic,Ftr Fish Ei (화이트 세라믹),18800,0.85,액세서리,assets/models/FtrFishEi.glb,matcap_white_ceramic
+ftrfishei_matcap_blue_gloss,Ftr Fish Ei (블루 글로시),18000,0.9,액세서리,assets/models/FtrFishEi.glb,matcap_blue_gloss
+ftrfishei_matcap_gold,Ftr Fish Ei (골드),25500,0.5,액세서리,assets/models/FtrFishEi.glb,matcap_gold
+ftrfishei_matcap_silver_soft,Ftr Fish Ei (소프트 실버),20300,0.8,액세서리,assets/models/FtrFishEi.glb,matcap_silver_soft
+ftrfreezer_plastic_matte,Ftr Freezer (매트 플라스틱),15000,1,액세서리,assets/models/FtrFreezer.glb,plastic_matte
+ftrfreezer_plastic_gloss,Ftr Freezer (글로시 플라스틱),16500,0.95,액세서리,assets/models/FtrFreezer.glb,plastic_gloss
+ftrfreezer_rubber_soft,Ftr Freezer (소프트 러버),15800,1,액세서리,assets/models/FtrFreezer.glb,rubber_soft
+ftrfreezer_ceramic_clean,Ftr Freezer (클린 세라믹),18000,0.9,액세서리,assets/models/FtrFreezer.glb,ceramic_clean
+ftrfreezer_metal_brushed,Ftr Freezer (브러시드 메탈),20300,0.8,액세서리,assets/models/FtrFreezer.glb,metal_brushed
+ftrfreezer_metal_polished,Ftr Freezer (폴리시드 메탈),22500,0.7,액세서리,assets/models/FtrFreezer.glb,metal_polished
+ftrfreezer_paint_clearcoat,Ftr Freezer (클리어코트 페인트),19500,0.85,액세서리,assets/models/FtrFreezer.glb,paint_clearcoat
+ftrfreezer_fabric_sheen,Ftr Freezer (패브릭 쉰),17300,0.95,액세서리,assets/models/FtrFreezer.glb,fabric_sheen
+ftrfreezer_glass_clear,Ftr Freezer (클리어 글래스),24000,0.6,액세서리,assets/models/FtrFreezer.glb,glass_clear
+ftrfreezer_resin_tinted,Ftr Freezer (틴티드 레진),21800,0.75,액세서리,assets/models/FtrFreezer.glb,resin_tinted
+ftrfreezer_matcap_clay,Ftr Freezer (클레이),15800,1,액세서리,assets/models/FtrFreezer.glb,matcap_clay
+ftrfreezer_matcap_wax,Ftr Freezer (왁스),16500,0.95,액세서리,assets/models/FtrFreezer.glb,matcap_wax
+ftrfreezer_matcap_chrome,Ftr Freezer (크롬),23300,0.65,액세서리,assets/models/FtrFreezer.glb,matcap_chrome
+ftrfreezer_matcap_bronze,Ftr Freezer (브론즈),21000,0.8,액세서리,assets/models/FtrFreezer.glb,matcap_bronze
+ftrfreezer_matcap_black_rubber,Ftr Freezer (블랙 러버),16200,1,액세서리,assets/models/FtrFreezer.glb,matcap_black_rubber
+ftrfreezer_matcap_red_wax,Ftr Freezer (레드 왁스),17300,0.9,액세서리,assets/models/FtrFreezer.glb,matcap_red_wax
+ftrfreezer_matcap_white_ceramic,Ftr Freezer (화이트 세라믹),18800,0.85,액세서리,assets/models/FtrFreezer.glb,matcap_white_ceramic
+ftrfreezer_matcap_blue_gloss,Ftr Freezer (블루 글로시),18000,0.9,액세서리,assets/models/FtrFreezer.glb,matcap_blue_gloss
+ftrfreezer_matcap_gold,Ftr Freezer (골드),25500,0.5,액세서리,assets/models/FtrFreezer.glb,matcap_gold
+ftrfreezer_matcap_silver_soft,Ftr Freezer (소프트 실버),20300,0.8,액세서리,assets/models/FtrFreezer.glb,matcap_silver_soft
+ftrfruitbasket_plastic_matte,Ftr Fruitbasket (매트 플라스틱),15000,1,액세서리,assets/models/FtrFruitbasket.glb,plastic_matte
+ftrfruitbasket_plastic_gloss,Ftr Fruitbasket (글로시 플라스틱),16500,0.95,액세서리,assets/models/FtrFruitbasket.glb,plastic_gloss
+ftrfruitbasket_rubber_soft,Ftr Fruitbasket (소프트 러버),15800,1,액세서리,assets/models/FtrFruitbasket.glb,rubber_soft
+ftrfruitbasket_ceramic_clean,Ftr Fruitbasket (클린 세라믹),18000,0.9,액세서리,assets/models/FtrFruitbasket.glb,ceramic_clean
+ftrfruitbasket_metal_brushed,Ftr Fruitbasket (브러시드 메탈),20300,0.8,액세서리,assets/models/FtrFruitbasket.glb,metal_brushed
+ftrfruitbasket_metal_polished,Ftr Fruitbasket (폴리시드 메탈),22500,0.7,액세서리,assets/models/FtrFruitbasket.glb,metal_polished
+ftrfruitbasket_paint_clearcoat,Ftr Fruitbasket (클리어코트 페인트),19500,0.85,액세서리,assets/models/FtrFruitbasket.glb,paint_clearcoat
+ftrfruitbasket_fabric_sheen,Ftr Fruitbasket (패브릭 쉰),17300,0.95,액세서리,assets/models/FtrFruitbasket.glb,fabric_sheen
+ftrfruitbasket_glass_clear,Ftr Fruitbasket (클리어 글래스),24000,0.6,액세서리,assets/models/FtrFruitbasket.glb,glass_clear
+ftrfruitbasket_resin_tinted,Ftr Fruitbasket (틴티드 레진),21800,0.75,액세서리,assets/models/FtrFruitbasket.glb,resin_tinted
+ftrfruitbasket_matcap_clay,Ftr Fruitbasket (클레이),15800,1,액세서리,assets/models/FtrFruitbasket.glb,matcap_clay
+ftrfruitbasket_matcap_wax,Ftr Fruitbasket (왁스),16500,0.95,액세서리,assets/models/FtrFruitbasket.glb,matcap_wax
+ftrfruitbasket_matcap_chrome,Ftr Fruitbasket (크롬),23300,0.65,액세서리,assets/models/FtrFruitbasket.glb,matcap_chrome
+ftrfruitbasket_matcap_bronze,Ftr Fruitbasket (브론즈),21000,0.8,액세서리,assets/models/FtrFruitbasket.glb,matcap_bronze
+ftrfruitbasket_matcap_black_rubber,Ftr Fruitbasket (블랙 러버),16200,1,액세서리,assets/models/FtrFruitbasket.glb,matcap_black_rubber
+ftrfruitbasket_matcap_red_wax,Ftr Fruitbasket (레드 왁스),17300,0.9,액세서리,assets/models/FtrFruitbasket.glb,matcap_red_wax
+ftrfruitbasket_matcap_white_ceramic,Ftr Fruitbasket (화이트 세라믹),18800,0.85,액세서리,assets/models/FtrFruitbasket.glb,matcap_white_ceramic
+ftrfruitbasket_matcap_blue_gloss,Ftr Fruitbasket (블루 글로시),18000,0.9,액세서리,assets/models/FtrFruitbasket.glb,matcap_blue_gloss
+ftrfruitbasket_matcap_gold,Ftr Fruitbasket (골드),25500,0.5,액세서리,assets/models/FtrFruitbasket.glb,matcap_gold
+ftrfruitbasket_matcap_silver_soft,Ftr Fruitbasket (소프트 실버),20300,0.8,액세서리,assets/models/FtrFruitbasket.glb,matcap_silver_soft
+ftrfruitsbox_plastic_matte,Ftr Fruits Box (매트 플라스틱),15000,1,액세서리,assets/models/FtrFruitsBox.glb,plastic_matte
+ftrfruitsbox_plastic_gloss,Ftr Fruits Box (글로시 플라스틱),16500,0.95,액세서리,assets/models/FtrFruitsBox.glb,plastic_gloss
+ftrfruitsbox_rubber_soft,Ftr Fruits Box (소프트 러버),15800,1,액세서리,assets/models/FtrFruitsBox.glb,rubber_soft
+ftrfruitsbox_ceramic_clean,Ftr Fruits Box (클린 세라믹),18000,0.9,액세서리,assets/models/FtrFruitsBox.glb,ceramic_clean
+ftrfruitsbox_metal_brushed,Ftr Fruits Box (브러시드 메탈),20300,0.8,액세서리,assets/models/FtrFruitsBox.glb,metal_brushed
+ftrfruitsbox_metal_polished,Ftr Fruits Box (폴리시드 메탈),22500,0.7,액세서리,assets/models/FtrFruitsBox.glb,metal_polished
+ftrfruitsbox_paint_clearcoat,Ftr Fruits Box (클리어코트 페인트),19500,0.85,액세서리,assets/models/FtrFruitsBox.glb,paint_clearcoat
+ftrfruitsbox_fabric_sheen,Ftr Fruits Box (패브릭 쉰),17300,0.95,액세서리,assets/models/FtrFruitsBox.glb,fabric_sheen
+ftrfruitsbox_glass_clear,Ftr Fruits Box (클리어 글래스),24000,0.6,액세서리,assets/models/FtrFruitsBox.glb,glass_clear
+ftrfruitsbox_resin_tinted,Ftr Fruits Box (틴티드 레진),21800,0.75,액세서리,assets/models/FtrFruitsBox.glb,resin_tinted
+ftrfruitsbox_matcap_clay,Ftr Fruits Box (클레이),15800,1,액세서리,assets/models/FtrFruitsBox.glb,matcap_clay
+ftrfruitsbox_matcap_wax,Ftr Fruits Box (왁스),16500,0.95,액세서리,assets/models/FtrFruitsBox.glb,matcap_wax
+ftrfruitsbox_matcap_chrome,Ftr Fruits Box (크롬),23300,0.65,액세서리,assets/models/FtrFruitsBox.glb,matcap_chrome
+ftrfruitsbox_matcap_bronze,Ftr Fruits Box (브론즈),21000,0.8,액세서리,assets/models/FtrFruitsBox.glb,matcap_bronze
+ftrfruitsbox_matcap_black_rubber,Ftr Fruits Box (블랙 러버),16200,1,액세서리,assets/models/FtrFruitsBox.glb,matcap_black_rubber
+ftrfruitsbox_matcap_red_wax,Ftr Fruits Box (레드 왁스),17300,0.9,액세서리,assets/models/FtrFruitsBox.glb,matcap_red_wax
+ftrfruitsbox_matcap_white_ceramic,Ftr Fruits Box (화이트 세라믹),18800,0.85,액세서리,assets/models/FtrFruitsBox.glb,matcap_white_ceramic
+ftrfruitsbox_matcap_blue_gloss,Ftr Fruits Box (블루 글로시),18000,0.9,액세서리,assets/models/FtrFruitsBox.glb,matcap_blue_gloss
+ftrfruitsbox_matcap_gold,Ftr Fruits Box (골드),25500,0.5,액세서리,assets/models/FtrFruitsBox.glb,matcap_gold
+ftrfruitsbox_matcap_silver_soft,Ftr Fruits Box (소프트 실버),20300,0.8,액세서리,assets/models/FtrFruitsBox.glb,matcap_silver_soft

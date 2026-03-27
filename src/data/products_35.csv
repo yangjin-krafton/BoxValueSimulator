@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+plttreeoak2stump_plastic_matte,오크 나무墩 (매트 플라스틱),5000,2,식물,assets/models/PltTreeOak2Stump.glb,plastic_matte
+plttreeoak2stump_plastic_gloss,오크 나무墩 (글로시 플라스틱),5500,1.95,식물,assets/models/PltTreeOak2Stump.glb,plastic_gloss
+plttreeoak2stump_rubber_soft,오크 나무墩 (소프트 러버),5300,2,식물,assets/models/PltTreeOak2Stump.glb,rubber_soft
+plttreeoak2stump_ceramic_clean,오크 나무墩 (클린 세라믹),6000,1.9,식물,assets/models/PltTreeOak2Stump.glb,ceramic_clean
+plttreeoak2stump_metal_brushed,오크 나무墩 (브러시드 메탈),6800,1.8,식물,assets/models/PltTreeOak2Stump.glb,metal_brushed
+plttreeoak2stump_metal_polished,오크 나무墩 (폴리시드 메탈),7500,1.7,식물,assets/models/PltTreeOak2Stump.glb,metal_polished
+plttreeoak2stump_paint_clearcoat,오크 나무墩 (클리어코트 페인트),6500,1.85,식물,assets/models/PltTreeOak2Stump.glb,paint_clearcoat
+plttreeoak2stump_fabric_sheen,오크 나무墩 (패브릭 쉰),5800,1.95,식물,assets/models/PltTreeOak2Stump.glb,fabric_sheen
+plttreeoak2stump_glass_clear,오크 나무墩 (클리어 글래스),8000,1.6,식물,assets/models/PltTreeOak2Stump.glb,glass_clear
+plttreeoak2stump_resin_tinted,오크 나무墩 (틴티드 레진),7300,1.75,식물,assets/models/PltTreeOak2Stump.glb,resin_tinted
+plttreeoak2stump_matcap_clay,오크 나무墩 (클레이),5300,2,식물,assets/models/PltTreeOak2Stump.glb,matcap_clay
+plttreeoak2stump_matcap_wax,오크 나무墩 (왁스),5500,1.95,식물,assets/models/PltTreeOak2Stump.glb,matcap_wax
+plttreeoak2stump_matcap_chrome,오크 나무墩 (크롬),7800,1.65,식물,assets/models/PltTreeOak2Stump.glb,matcap_chrome
+plttreeoak2stump_matcap_bronze,오크 나무墩 (브론즈),7000,1.8,식물,assets/models/PltTreeOak2Stump.glb,matcap_bronze
+plttreeoak2stump_matcap_black_rubber,오크 나무墩 (블랙 러버),5400,2,식물,assets/models/PltTreeOak2Stump.glb,matcap_black_rubber
+plttreeoak2stump_matcap_red_wax,오크 나무墩 (레드 왁스),5800,1.9,식물,assets/models/PltTreeOak2Stump.glb,matcap_red_wax
+plttreeoak2stump_matcap_white_ceramic,오크 나무墩 (화이트 세라믹),6300,1.85,식물,assets/models/PltTreeOak2Stump.glb,matcap_white_ceramic
+plttreeoak2stump_matcap_blue_gloss,오크 나무墩 (블루 글로시),6000,1.9,식물,assets/models/PltTreeOak2Stump.glb,matcap_blue_gloss
+plttreeoak2stump_matcap_gold,오크 나무墩 (골드),8500,1.5,식물,assets/models/PltTreeOak2Stump.glb,matcap_gold
+plttreeoak2stump_matcap_silver_soft,오크 나무墩 (소프트 실버),6800,1.8,식물,assets/models/PltTreeOak2Stump.glb,matcap_silver_soft
+plttreeoak3node_plastic_matte,오크 나무 (매트 플라스틱),10000,1.8,식물,assets/models/PltTreeOak3Node.glb,plastic_matte
+plttreeoak3node_plastic_gloss,오크 나무 (글로시 플라스틱),11000,1.75,식물,assets/models/PltTreeOak3Node.glb,plastic_gloss
+plttreeoak3node_rubber_soft,오크 나무 (소프트 러버),10500,1.8,식물,assets/models/PltTreeOak3Node.glb,rubber_soft
+plttreeoak3node_ceramic_clean,오크 나무 (클린 세라믹),12000,1.7,식물,assets/models/PltTreeOak3Node.glb,ceramic_clean
+plttreeoak3node_metal_brushed,오크 나무 (브러시드 메탈),13500,1.6,식물,assets/models/PltTreeOak3Node.glb,metal_brushed
+plttreeoak3node_metal_polished,오크 나무 (폴리시드 메탈),15000,1.5,식물,assets/models/PltTreeOak3Node.glb,metal_polished
+plttreeoak3node_paint_clearcoat,오크 나무 (클리어코트 페인트),13000,1.65,식물,assets/models/PltTreeOak3Node.glb,paint_clearcoat
+plttreeoak3node_fabric_sheen,오크 나무 (패브릭 쉰),11500,1.75,식물,assets/models/PltTreeOak3Node.glb,fabric_sheen
+plttreeoak3node_glass_clear,오크 나무 (클리어 글래스),16000,1.4,식물,assets/models/PltTreeOak3Node.glb,glass_clear
+plttreeoak3node_resin_tinted,오크 나무 (틴티드 레진),14500,1.55,식물,assets/models/PltTreeOak3Node.glb,resin_tinted
+plttreeoak3node_matcap_clay,오크 나무 (클레이),10500,1.8,식물,assets/models/PltTreeOak3Node.glb,matcap_clay
+plttreeoak3node_matcap_wax,오크 나무 (왁스),11000,1.75,식물,assets/models/PltTreeOak3Node.glb,matcap_wax
+plttreeoak3node_matcap_chrome,오크 나무 (크롬),15500,1.45,식물,assets/models/PltTreeOak3Node.glb,matcap_chrome
+plttreeoak3node_matcap_bronze,오크 나무 (브론즈),14000,1.6,식물,assets/models/PltTreeOak3Node.glb,matcap_bronze
+plttreeoak3node_matcap_black_rubber,오크 나무 (블랙 러버),10800,1.8,식물,assets/models/PltTreeOak3Node.glb,matcap_black_rubber
+plttreeoak3node_matcap_red_wax,오크 나무 (레드 왁스),11500,1.7,식물,assets/models/PltTreeOak3Node.glb,matcap_red_wax
+plttreeoak3node_matcap_white_ceramic,오크 나무 (화이트 세라믹),12500,1.65,식물,assets/models/PltTreeOak3Node.glb,matcap_white_ceramic
+plttreeoak3node_matcap_blue_gloss,오크 나무 (블루 글로시),12000,1.7,식물,assets/models/PltTreeOak3Node.glb,matcap_blue_gloss
+plttreeoak3node_matcap_gold,오크 나무 (골드),17000,1.3,식물,assets/models/PltTreeOak3Node.glb,matcap_gold
+plttreeoak3node_matcap_silver_soft,오크 나무 (소프트 실버),13500,1.6,식물,assets/models/PltTreeOak3Node.glb,matcap_silver_soft
+plttreeoak4node_plastic_matte,오크 나무 (매트 플라스틱),10000,1.8,식물,assets/models/PltTreeOak4Node.glb,plastic_matte
+plttreeoak4node_plastic_gloss,오크 나무 (글로시 플라스틱),11000,1.75,식물,assets/models/PltTreeOak4Node.glb,plastic_gloss
+plttreeoak4node_rubber_soft,오크 나무 (소프트 러버),10500,1.8,식물,assets/models/PltTreeOak4Node.glb,rubber_soft
+plttreeoak4node_ceramic_clean,오크 나무 (클린 세라믹),12000,1.7,식물,assets/models/PltTreeOak4Node.glb,ceramic_clean
+plttreeoak4node_metal_brushed,오크 나무 (브러시드 메탈),13500,1.6,식물,assets/models/PltTreeOak4Node.glb,metal_brushed
+plttreeoak4node_metal_polished,오크 나무 (폴리시드 메탈),15000,1.5,식물,assets/models/PltTreeOak4Node.glb,metal_polished
+plttreeoak4node_paint_clearcoat,오크 나무 (클리어코트 페인트),13000,1.65,식물,assets/models/PltTreeOak4Node.glb,paint_clearcoat
+plttreeoak4node_fabric_sheen,오크 나무 (패브릭 쉰),11500,1.75,식물,assets/models/PltTreeOak4Node.glb,fabric_sheen
+plttreeoak4node_glass_clear,오크 나무 (클리어 글래스),16000,1.4,식물,assets/models/PltTreeOak4Node.glb,glass_clear
+plttreeoak4node_resin_tinted,오크 나무 (틴티드 레진),14500,1.55,식물,assets/models/PltTreeOak4Node.glb,resin_tinted
+plttreeoak4node_matcap_clay,오크 나무 (클레이),10500,1.8,식물,assets/models/PltTreeOak4Node.glb,matcap_clay
+plttreeoak4node_matcap_wax,오크 나무 (왁스),11000,1.75,식물,assets/models/PltTreeOak4Node.glb,matcap_wax
+plttreeoak4node_matcap_chrome,오크 나무 (크롬),15500,1.45,식물,assets/models/PltTreeOak4Node.glb,matcap_chrome
+plttreeoak4node_matcap_bronze,오크 나무 (브론즈),14000,1.6,식물,assets/models/PltTreeOak4Node.glb,matcap_bronze
+plttreeoak4node_matcap_black_rubber,오크 나무 (블랙 러버),10800,1.8,식물,assets/models/PltTreeOak4Node.glb,matcap_black_rubber
+plttreeoak4node_matcap_red_wax,오크 나무 (레드 왁스),11500,1.7,식물,assets/models/PltTreeOak4Node.glb,matcap_red_wax
+plttreeoak4node_matcap_white_ceramic,오크 나무 (화이트 세라믹),12500,1.65,식물,assets/models/PltTreeOak4Node.glb,matcap_white_ceramic
+plttreeoak4node_matcap_blue_gloss,오크 나무 (블루 글로시),12000,1.7,식물,assets/models/PltTreeOak4Node.glb,matcap_blue_gloss
+plttreeoak4node_matcap_gold,오크 나무 (골드),17000,1.3,식물,assets/models/PltTreeOak4Node.glb,matcap_gold
+plttreeoak4node_matcap_silver_soft,오크 나무 (소프트 실버),13500,1.6,식물,assets/models/PltTreeOak4Node.glb,matcap_silver_soft
+plttreepalm0_plastic_matte,야자수 (매트 플라스틱),15000,1.6,식물,assets/models/PltTreePalm0.glb,plastic_matte
+plttreepalm0_plastic_gloss,야자수 (글로시 플라스틱),16500,1.55,식물,assets/models/PltTreePalm0.glb,plastic_gloss
+plttreepalm0_rubber_soft,야자수 (소프트 러버),15800,1.6,식물,assets/models/PltTreePalm0.glb,rubber_soft
+plttreepalm0_ceramic_clean,야자수 (클린 세라믹),18000,1.5,식물,assets/models/PltTreePalm0.glb,ceramic_clean
+plttreepalm0_metal_brushed,야자수 (브러시드 메탈),20300,1.4,식물,assets/models/PltTreePalm0.glb,metal_brushed
+plttreepalm0_metal_polished,야자수 (폴리시드 메탈),22500,1.3,식물,assets/models/PltTreePalm0.glb,metal_polished
+plttreepalm0_paint_clearcoat,야자수 (클리어코트 페인트),19500,1.45,식물,assets/models/PltTreePalm0.glb,paint_clearcoat
+plttreepalm0_fabric_sheen,야자수 (패브릭 쉰),17300,1.55,식물,assets/models/PltTreePalm0.glb,fabric_sheen
+plttreepalm0_glass_clear,야자수 (클리어 글래스),24000,1.2,식물,assets/models/PltTreePalm0.glb,glass_clear
+plttreepalm0_resin_tinted,야자수 (틴티드 레진),21800,1.35,식물,assets/models/PltTreePalm0.glb,resin_tinted
+plttreepalm0_matcap_clay,야자수 (클레이),15800,1.6,식물,assets/models/PltTreePalm0.glb,matcap_clay
+plttreepalm0_matcap_wax,야자수 (왁스),16500,1.55,식물,assets/models/PltTreePalm0.glb,matcap_wax
+plttreepalm0_matcap_chrome,야자수 (크롬),23300,1.25,식물,assets/models/PltTreePalm0.glb,matcap_chrome
+plttreepalm0_matcap_bronze,야자수 (브론즈),21000,1.4,식물,assets/models/PltTreePalm0.glb,matcap_bronze
+plttreepalm0_matcap_black_rubber,야자수 (블랙 러버),16200,1.6,식물,assets/models/PltTreePalm0.glb,matcap_black_rubber
+plttreepalm0_matcap_red_wax,야자수 (레드 왁스),17300,1.5,식물,assets/models/PltTreePalm0.glb,matcap_red_wax
+plttreepalm0_matcap_white_ceramic,야자수 (화이트 세라믹),18800,1.45,식물,assets/models/PltTreePalm0.glb,matcap_white_ceramic
+plttreepalm0_matcap_blue_gloss,야자수 (블루 글로시),18000,1.5,식물,assets/models/PltTreePalm0.glb,matcap_blue_gloss
+plttreepalm0_matcap_gold,야자수 (골드),25500,1.1,식물,assets/models/PltTreePalm0.glb,matcap_gold
+plttreepalm0_matcap_silver_soft,야자수 (소프트 실버),20300,1.4,식물,assets/models/PltTreePalm0.glb,matcap_silver_soft
+pltweedaut03_plastic_matte,가을 풀꽃 (매트 플라스틱),5000,2,식물,assets/models/PltWeedAut03.glb,plastic_matte
+pltweedaut03_plastic_gloss,가을 풀꽃 (글로시 플라스틱),5500,1.95,식물,assets/models/PltWeedAut03.glb,plastic_gloss
+pltweedaut03_rubber_soft,가을 풀꽃 (소프트 러버),5300,2,식물,assets/models/PltWeedAut03.glb,rubber_soft
+pltweedaut03_ceramic_clean,가을 풀꽃 (클린 세라믹),6000,1.9,식물,assets/models/PltWeedAut03.glb,ceramic_clean
+pltweedaut03_metal_brushed,가을 풀꽃 (브러시드 메탈),6800,1.8,식물,assets/models/PltWeedAut03.glb,metal_brushed
+pltweedaut03_metal_polished,가을 풀꽃 (폴리시드 메탈),7500,1.7,식물,assets/models/PltWeedAut03.glb,metal_polished
+pltweedaut03_paint_clearcoat,가을 풀꽃 (클리어코트 페인트),6500,1.85,식물,assets/models/PltWeedAut03.glb,paint_clearcoat
+pltweedaut03_fabric_sheen,가을 풀꽃 (패브릭 쉰),5800,1.95,식물,assets/models/PltWeedAut03.glb,fabric_sheen
+pltweedaut03_glass_clear,가을 풀꽃 (클리어 글래스),8000,1.6,식물,assets/models/PltWeedAut03.glb,glass_clear
+pltweedaut03_resin_tinted,가을 풀꽃 (틴티드 레진),7300,1.75,식물,assets/models/PltWeedAut03.glb,resin_tinted
+pltweedaut03_matcap_clay,가을 풀꽃 (클레이),5300,2,식물,assets/models/PltWeedAut03.glb,matcap_clay
+pltweedaut03_matcap_wax,가을 풀꽃 (왁스),5500,1.95,식물,assets/models/PltWeedAut03.glb,matcap_wax
+pltweedaut03_matcap_chrome,가을 풀꽃 (크롬),7800,1.65,식물,assets/models/PltWeedAut03.glb,matcap_chrome
+pltweedaut03_matcap_bronze,가을 풀꽃 (브론즈),7000,1.8,식물,assets/models/PltWeedAut03.glb,matcap_bronze
+pltweedaut03_matcap_black_rubber,가을 풀꽃 (블랙 러버),5400,2,식물,assets/models/PltWeedAut03.glb,matcap_black_rubber
+pltweedaut03_matcap_red_wax,가을 풀꽃 (레드 왁스),5800,1.9,식물,assets/models/PltWeedAut03.glb,matcap_red_wax
+pltweedaut03_matcap_white_ceramic,가을 풀꽃 (화이트 세라믹),6300,1.85,식물,assets/models/PltWeedAut03.glb,matcap_white_ceramic
+pltweedaut03_matcap_blue_gloss,가을 풀꽃 (블루 글로시),6000,1.9,식물,assets/models/PltWeedAut03.glb,matcap_blue_gloss
+pltweedaut03_matcap_gold,가을 풀꽃 (골드),8500,1.5,식물,assets/models/PltWeedAut03.glb,matcap_gold
+pltweedaut03_matcap_silver_soft,가을 풀꽃 (소프트 실버),6800,1.8,식물,assets/models/PltWeedAut03.glb,matcap_silver_soft
+pltweedsmr1a_plastic_matte,Plt Weed Smr 1A (매트 플라스틱),15000,1,액세서리,assets/models/PltWeedSmr1A.glb,plastic_matte
+pltweedsmr1a_plastic_gloss,Plt Weed Smr 1A (글로시 플라스틱),16500,0.95,액세서리,assets/models/PltWeedSmr1A.glb,plastic_gloss
+pltweedsmr1a_rubber_soft,Plt Weed Smr 1A (소프트 러버),15800,1,액세서리,assets/models/PltWeedSmr1A.glb,rubber_soft
+pltweedsmr1a_ceramic_clean,Plt Weed Smr 1A (클린 세라믹),18000,0.9,액세서리,assets/models/PltWeedSmr1A.glb,ceramic_clean
+pltweedsmr1a_metal_brushed,Plt Weed Smr 1A (브러시드 메탈),20300,0.8,액세서리,assets/models/PltWeedSmr1A.glb,metal_brushed
+pltweedsmr1a_metal_polished,Plt Weed Smr 1A (폴리시드 메탈),22500,0.7,액세서리,assets/models/PltWeedSmr1A.glb,metal_polished
+pltweedsmr1a_paint_clearcoat,Plt Weed Smr 1A (클리어코트 페인트),19500,0.85,액세서리,assets/models/PltWeedSmr1A.glb,paint_clearcoat
+pltweedsmr1a_fabric_sheen,Plt Weed Smr 1A (패브릭 쉰),17300,0.95,액세서리,assets/models/PltWeedSmr1A.glb,fabric_sheen
+pltweedsmr1a_glass_clear,Plt Weed Smr 1A (클리어 글래스),24000,0.6,액세서리,assets/models/PltWeedSmr1A.glb,glass_clear
+pltweedsmr1a_resin_tinted,Plt Weed Smr 1A (틴티드 레진),21800,0.75,액세서리,assets/models/PltWeedSmr1A.glb,resin_tinted
+pltweedsmr1a_matcap_clay,Plt Weed Smr 1A (클레이),15800,1,액세서리,assets/models/PltWeedSmr1A.glb,matcap_clay
+pltweedsmr1a_matcap_wax,Plt Weed Smr 1A (왁스),16500,0.95,액세서리,assets/models/PltWeedSmr1A.glb,matcap_wax
+pltweedsmr1a_matcap_chrome,Plt Weed Smr 1A (크롬),23300,0.65,액세서리,assets/models/PltWeedSmr1A.glb,matcap_chrome
+pltweedsmr1a_matcap_bronze,Plt Weed Smr 1A (브론즈),21000,0.8,액세서리,assets/models/PltWeedSmr1A.glb,matcap_bronze
+pltweedsmr1a_matcap_black_rubber,Plt Weed Smr 1A (블랙 러버),16200,1,액세서리,assets/models/PltWeedSmr1A.glb,matcap_black_rubber
+pltweedsmr1a_matcap_red_wax,Plt Weed Smr 1A (레드 왁스),17300,0.9,액세서리,assets/models/PltWeedSmr1A.glb,matcap_red_wax
+pltweedsmr1a_matcap_white_ceramic,Plt Weed Smr 1A (화이트 세라믹),18800,0.85,액세서리,assets/models/PltWeedSmr1A.glb,matcap_white_ceramic
+pltweedsmr1a_matcap_blue_gloss,Plt Weed Smr 1A (블루 글로시),18000,0.9,액세서리,assets/models/PltWeedSmr1A.glb,matcap_blue_gloss
+pltweedsmr1a_matcap_gold,Plt Weed Smr 1A (골드),25500,0.5,액세서리,assets/models/PltWeedSmr1A.glb,matcap_gold
+pltweedsmr1a_matcap_silver_soft,Plt Weed Smr 1A (소프트 실버),20300,0.8,액세서리,assets/models/PltWeedSmr1A.glb,matcap_silver_soft
+pltweedsmr1b_plastic_matte,Plt Weed Smr 1B (매트 플라스틱),15000,1,액세서리,assets/models/PltWeedSmr1B.glb,plastic_matte
+pltweedsmr1b_plastic_gloss,Plt Weed Smr 1B (글로시 플라스틱),16500,0.95,액세서리,assets/models/PltWeedSmr1B.glb,plastic_gloss
+pltweedsmr1b_rubber_soft,Plt Weed Smr 1B (소프트 러버),15800,1,액세서리,assets/models/PltWeedSmr1B.glb,rubber_soft
+pltweedsmr1b_ceramic_clean,Plt Weed Smr 1B (클린 세라믹),18000,0.9,액세서리,assets/models/PltWeedSmr1B.glb,ceramic_clean
+pltweedsmr1b_metal_brushed,Plt Weed Smr 1B (브러시드 메탈),20300,0.8,액세서리,assets/models/PltWeedSmr1B.glb,metal_brushed
+pltweedsmr1b_metal_polished,Plt Weed Smr 1B (폴리시드 메탈),22500,0.7,액세서리,assets/models/PltWeedSmr1B.glb,metal_polished
+pltweedsmr1b_paint_clearcoat,Plt Weed Smr 1B (클리어코트 페인트),19500,0.85,액세서리,assets/models/PltWeedSmr1B.glb,paint_clearcoat
+pltweedsmr1b_fabric_sheen,Plt Weed Smr 1B (패브릭 쉰),17300,0.95,액세서리,assets/models/PltWeedSmr1B.glb,fabric_sheen
+pltweedsmr1b_glass_clear,Plt Weed Smr 1B (클리어 글래스),24000,0.6,액세서리,assets/models/PltWeedSmr1B.glb,glass_clear
+pltweedsmr1b_resin_tinted,Plt Weed Smr 1B (틴티드 레진),21800,0.75,액세서리,assets/models/PltWeedSmr1B.glb,resin_tinted
+pltweedsmr1b_matcap_clay,Plt Weed Smr 1B (클레이),15800,1,액세서리,assets/models/PltWeedSmr1B.glb,matcap_clay
+pltweedsmr1b_matcap_wax,Plt Weed Smr 1B (왁스),16500,0.95,액세서리,assets/models/PltWeedSmr1B.glb,matcap_wax
+pltweedsmr1b_matcap_chrome,Plt Weed Smr 1B (크롬),23300,0.65,액세서리,assets/models/PltWeedSmr1B.glb,matcap_chrome
+pltweedsmr1b_matcap_bronze,Plt Weed Smr 1B (브론즈),21000,0.8,액세서리,assets/models/PltWeedSmr1B.glb,matcap_bronze
+pltweedsmr1b_matcap_black_rubber,Plt Weed Smr 1B (블랙 러버),16200,1,액세서리,assets/models/PltWeedSmr1B.glb,matcap_black_rubber
+pltweedsmr1b_matcap_red_wax,Plt Weed Smr 1B (레드 왁스),17300,0.9,액세서리,assets/models/PltWeedSmr1B.glb,matcap_red_wax
+pltweedsmr1b_matcap_white_ceramic,Plt Weed Smr 1B (화이트 세라믹),18800,0.85,액세서리,assets/models/PltWeedSmr1B.glb,matcap_white_ceramic
+pltweedsmr1b_matcap_blue_gloss,Plt Weed Smr 1B (블루 글로시),18000,0.9,액세서리,assets/models/PltWeedSmr1B.glb,matcap_blue_gloss
+pltweedsmr1b_matcap_gold,Plt Weed Smr 1B (골드),25500,0.5,액세서리,assets/models/PltWeedSmr1B.glb,matcap_gold
+pltweedsmr1b_matcap_silver_soft,Plt Weed Smr 1B (소프트 실버),20300,0.8,액세서리,assets/models/PltWeedSmr1B.glb,matcap_silver_soft
+pltweedsmr1c_plastic_matte,Plt Weed Smr 1C (매트 플라스틱),15000,1,액세서리,assets/models/PltWeedSmr1C.glb,plastic_matte
+pltweedsmr1c_plastic_gloss,Plt Weed Smr 1C (글로시 플라스틱),16500,0.95,액세서리,assets/models/PltWeedSmr1C.glb,plastic_gloss
+pltweedsmr1c_rubber_soft,Plt Weed Smr 1C (소프트 러버),15800,1,액세서리,assets/models/PltWeedSmr1C.glb,rubber_soft
+pltweedsmr1c_ceramic_clean,Plt Weed Smr 1C (클린 세라믹),18000,0.9,액세서리,assets/models/PltWeedSmr1C.glb,ceramic_clean
+pltweedsmr1c_metal_brushed,Plt Weed Smr 1C (브러시드 메탈),20300,0.8,액세서리,assets/models/PltWeedSmr1C.glb,metal_brushed
+pltweedsmr1c_metal_polished,Plt Weed Smr 1C (폴리시드 메탈),22500,0.7,액세서리,assets/models/PltWeedSmr1C.glb,metal_polished
+pltweedsmr1c_paint_clearcoat,Plt Weed Smr 1C (클리어코트 페인트),19500,0.85,액세서리,assets/models/PltWeedSmr1C.glb,paint_clearcoat
+pltweedsmr1c_fabric_sheen,Plt Weed Smr 1C (패브릭 쉰),17300,0.95,액세서리,assets/models/PltWeedSmr1C.glb,fabric_sheen
+pltweedsmr1c_glass_clear,Plt Weed Smr 1C (클리어 글래스),24000,0.6,액세서리,assets/models/PltWeedSmr1C.glb,glass_clear
+pltweedsmr1c_resin_tinted,Plt Weed Smr 1C (틴티드 레진),21800,0.75,액세서리,assets/models/PltWeedSmr1C.glb,resin_tinted
+pltweedsmr1c_matcap_clay,Plt Weed Smr 1C (클레이),15800,1,액세서리,assets/models/PltWeedSmr1C.glb,matcap_clay
+pltweedsmr1c_matcap_wax,Plt Weed Smr 1C (왁스),16500,0.95,액세서리,assets/models/PltWeedSmr1C.glb,matcap_wax
+pltweedsmr1c_matcap_chrome,Plt Weed Smr 1C (크롬),23300,0.65,액세서리,assets/models/PltWeedSmr1C.glb,matcap_chrome
+pltweedsmr1c_matcap_bronze,Plt Weed Smr 1C (브론즈),21000,0.8,액세서리,assets/models/PltWeedSmr1C.glb,matcap_bronze
+pltweedsmr1c_matcap_black_rubber,Plt Weed Smr 1C (블랙 러버),16200,1,액세서리,assets/models/PltWeedSmr1C.glb,matcap_black_rubber
+pltweedsmr1c_matcap_red_wax,Plt Weed Smr 1C (레드 왁스),17300,0.9,액세서리,assets/models/PltWeedSmr1C.glb,matcap_red_wax
+pltweedsmr1c_matcap_white_ceramic,Plt Weed Smr 1C (화이트 세라믹),18800,0.85,액세서리,assets/models/PltWeedSmr1C.glb,matcap_white_ceramic
+pltweedsmr1c_matcap_blue_gloss,Plt Weed Smr 1C (블루 글로시),18000,0.9,액세서리,assets/models/PltWeedSmr1C.glb,matcap_blue_gloss
+pltweedsmr1c_matcap_gold,Plt Weed Smr 1C (골드),25500,0.5,액세서리,assets/models/PltWeedSmr1C.glb,matcap_gold
+pltweedsmr1c_matcap_silver_soft,Plt Weed Smr 1C (소프트 실버),20300,0.8,액세서리,assets/models/PltWeedSmr1C.glb,matcap_silver_soft
+pltweedsmr2a_plastic_matte,Plt Weed Smr 2A (매트 플라스틱),15000,1,액세서리,assets/models/PltWeedSmr2A.glb,plastic_matte
+pltweedsmr2a_plastic_gloss,Plt Weed Smr 2A (글로시 플라스틱),16500,0.95,액세서리,assets/models/PltWeedSmr2A.glb,plastic_gloss
+pltweedsmr2a_rubber_soft,Plt Weed Smr 2A (소프트 러버),15800,1,액세서리,assets/models/PltWeedSmr2A.glb,rubber_soft
+pltweedsmr2a_ceramic_clean,Plt Weed Smr 2A (클린 세라믹),18000,0.9,액세서리,assets/models/PltWeedSmr2A.glb,ceramic_clean
+pltweedsmr2a_metal_brushed,Plt Weed Smr 2A (브러시드 메탈),20300,0.8,액세서리,assets/models/PltWeedSmr2A.glb,metal_brushed
+pltweedsmr2a_metal_polished,Plt Weed Smr 2A (폴리시드 메탈),22500,0.7,액세서리,assets/models/PltWeedSmr2A.glb,metal_polished
+pltweedsmr2a_paint_clearcoat,Plt Weed Smr 2A (클리어코트 페인트),19500,0.85,액세서리,assets/models/PltWeedSmr2A.glb,paint_clearcoat
+pltweedsmr2a_fabric_sheen,Plt Weed Smr 2A (패브릭 쉰),17300,0.95,액세서리,assets/models/PltWeedSmr2A.glb,fabric_sheen
+pltweedsmr2a_glass_clear,Plt Weed Smr 2A (클리어 글래스),24000,0.6,액세서리,assets/models/PltWeedSmr2A.glb,glass_clear
+pltweedsmr2a_resin_tinted,Plt Weed Smr 2A (틴티드 레진),21800,0.75,액세서리,assets/models/PltWeedSmr2A.glb,resin_tinted
+pltweedsmr2a_matcap_clay,Plt Weed Smr 2A (클레이),15800,1,액세서리,assets/models/PltWeedSmr2A.glb,matcap_clay
+pltweedsmr2a_matcap_wax,Plt Weed Smr 2A (왁스),16500,0.95,액세서리,assets/models/PltWeedSmr2A.glb,matcap_wax
+pltweedsmr2a_matcap_chrome,Plt Weed Smr 2A (크롬),23300,0.65,액세서리,assets/models/PltWeedSmr2A.glb,matcap_chrome
+pltweedsmr2a_matcap_bronze,Plt Weed Smr 2A (브론즈),21000,0.8,액세서리,assets/models/PltWeedSmr2A.glb,matcap_bronze
+pltweedsmr2a_matcap_black_rubber,Plt Weed Smr 2A (블랙 러버),16200,1,액세서리,assets/models/PltWeedSmr2A.glb,matcap_black_rubber
+pltweedsmr2a_matcap_red_wax,Plt Weed Smr 2A (레드 왁스),17300,0.9,액세서리,assets/models/PltWeedSmr2A.glb,matcap_red_wax
+pltweedsmr2a_matcap_white_ceramic,Plt Weed Smr 2A (화이트 세라믹),18800,0.85,액세서리,assets/models/PltWeedSmr2A.glb,matcap_white_ceramic
+pltweedsmr2a_matcap_blue_gloss,Plt Weed Smr 2A (블루 글로시),18000,0.9,액세서리,assets/models/PltWeedSmr2A.glb,matcap_blue_gloss
+pltweedsmr2a_matcap_gold,Plt Weed Smr 2A (골드),25500,0.5,액세서리,assets/models/PltWeedSmr2A.glb,matcap_gold
+pltweedsmr2a_matcap_silver_soft,Plt Weed Smr 2A (소프트 실버),20300,0.8,액세서리,assets/models/PltWeedSmr2A.glb,matcap_silver_soft
+pltweedsmr2b_plastic_matte,Plt Weed Smr 2B (매트 플라스틱),15000,1,액세서리,assets/models/PltWeedSmr2B.glb,plastic_matte
+pltweedsmr2b_plastic_gloss,Plt Weed Smr 2B (글로시 플라스틱),16500,0.95,액세서리,assets/models/PltWeedSmr2B.glb,plastic_gloss
+pltweedsmr2b_rubber_soft,Plt Weed Smr 2B (소프트 러버),15800,1,액세서리,assets/models/PltWeedSmr2B.glb,rubber_soft
+pltweedsmr2b_ceramic_clean,Plt Weed Smr 2B (클린 세라믹),18000,0.9,액세서리,assets/models/PltWeedSmr2B.glb,ceramic_clean
+pltweedsmr2b_metal_brushed,Plt Weed Smr 2B (브러시드 메탈),20300,0.8,액세서리,assets/models/PltWeedSmr2B.glb,metal_brushed
+pltweedsmr2b_metal_polished,Plt Weed Smr 2B (폴리시드 메탈),22500,0.7,액세서리,assets/models/PltWeedSmr2B.glb,metal_polished
+pltweedsmr2b_paint_clearcoat,Plt Weed Smr 2B (클리어코트 페인트),19500,0.85,액세서리,assets/models/PltWeedSmr2B.glb,paint_clearcoat
+pltweedsmr2b_fabric_sheen,Plt Weed Smr 2B (패브릭 쉰),17300,0.95,액세서리,assets/models/PltWeedSmr2B.glb,fabric_sheen
+pltweedsmr2b_glass_clear,Plt Weed Smr 2B (클리어 글래스),24000,0.6,액세서리,assets/models/PltWeedSmr2B.glb,glass_clear
+pltweedsmr2b_resin_tinted,Plt Weed Smr 2B (틴티드 레진),21800,0.75,액세서리,assets/models/PltWeedSmr2B.glb,resin_tinted
+pltweedsmr2b_matcap_clay,Plt Weed Smr 2B (클레이),15800,1,액세서리,assets/models/PltWeedSmr2B.glb,matcap_clay
+pltweedsmr2b_matcap_wax,Plt Weed Smr 2B (왁스),16500,0.95,액세서리,assets/models/PltWeedSmr2B.glb,matcap_wax
+pltweedsmr2b_matcap_chrome,Plt Weed Smr 2B (크롬),23300,0.65,액세서리,assets/models/PltWeedSmr2B.glb,matcap_chrome
+pltweedsmr2b_matcap_bronze,Plt Weed Smr 2B (브론즈),21000,0.8,액세서리,assets/models/PltWeedSmr2B.glb,matcap_bronze
+pltweedsmr2b_matcap_black_rubber,Plt Weed Smr 2B (블랙 러버),16200,1,액세서리,assets/models/PltWeedSmr2B.glb,matcap_black_rubber
+pltweedsmr2b_matcap_red_wax,Plt Weed Smr 2B (레드 왁스),17300,0.9,액세서리,assets/models/PltWeedSmr2B.glb,matcap_red_wax
+pltweedsmr2b_matcap_white_ceramic,Plt Weed Smr 2B (화이트 세라믹),18800,0.85,액세서리,assets/models/PltWeedSmr2B.glb,matcap_white_ceramic
+pltweedsmr2b_matcap_blue_gloss,Plt Weed Smr 2B (블루 글로시),18000,0.9,액세서리,assets/models/PltWeedSmr2B.glb,matcap_blue_gloss
+pltweedsmr2b_matcap_gold,Plt Weed Smr 2B (골드),25500,0.5,액세서리,assets/models/PltWeedSmr2B.glb,matcap_gold
+pltweedsmr2b_matcap_silver_soft,Plt Weed Smr 2B (소프트 실버),20300,0.8,액세서리,assets/models/PltWeedSmr2B.glb,matcap_silver_soft

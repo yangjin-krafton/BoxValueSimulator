@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+toolbookfish_plastic_matte,물고기 도감 (매트 플라스틱),80000,1,액세서리,assets/models/ToolBookFish.glb,plastic_matte
+toolbookfish_plastic_gloss,물고기 도감 (글로시 플라스틱),88000,0.95,액세서리,assets/models/ToolBookFish.glb,plastic_gloss
+toolbookfish_rubber_soft,물고기 도감 (소프트 러버),84000,1,액세서리,assets/models/ToolBookFish.glb,rubber_soft
+toolbookfish_ceramic_clean,물고기 도감 (클린 세라믹),96000,0.9,액세서리,assets/models/ToolBookFish.glb,ceramic_clean
+toolbookfish_metal_brushed,물고기 도감 (브러시드 메탈),108000,0.8,액세서리,assets/models/ToolBookFish.glb,metal_brushed
+toolbookfish_metal_polished,물고기 도감 (폴리시드 메탈),120000,0.7,액세서리,assets/models/ToolBookFish.glb,metal_polished
+toolbookfish_paint_clearcoat,물고기 도감 (클리어코트 페인트),104000,0.85,액세서리,assets/models/ToolBookFish.glb,paint_clearcoat
+toolbookfish_fabric_sheen,물고기 도감 (패브릭 쉰),92000,0.95,액세서리,assets/models/ToolBookFish.glb,fabric_sheen
+toolbookfish_glass_clear,물고기 도감 (클리어 글래스),128000,0.6,액세서리,assets/models/ToolBookFish.glb,glass_clear
+toolbookfish_resin_tinted,물고기 도감 (틴티드 레진),116000,0.75,액세서리,assets/models/ToolBookFish.glb,resin_tinted
+toolbookfish_matcap_clay,물고기 도감 (클레이),84000,1,액세서리,assets/models/ToolBookFish.glb,matcap_clay
+toolbookfish_matcap_wax,물고기 도감 (왁스),88000,0.95,액세서리,assets/models/ToolBookFish.glb,matcap_wax
+toolbookfish_matcap_chrome,물고기 도감 (크롬),124000,0.65,액세서리,assets/models/ToolBookFish.glb,matcap_chrome
+toolbookfish_matcap_bronze,물고기 도감 (브론즈),112000,0.8,액세서리,assets/models/ToolBookFish.glb,matcap_bronze
+toolbookfish_matcap_black_rubber,물고기 도감 (블랙 러버),86400,1,액세서리,assets/models/ToolBookFish.glb,matcap_black_rubber
+toolbookfish_matcap_red_wax,물고기 도감 (레드 왁스),92000,0.9,액세서리,assets/models/ToolBookFish.glb,matcap_red_wax
+toolbookfish_matcap_white_ceramic,물고기 도감 (화이트 세라믹),100000,0.85,액세서리,assets/models/ToolBookFish.glb,matcap_white_ceramic
+toolbookfish_matcap_blue_gloss,물고기 도감 (블루 글로시),96000,0.9,액세서리,assets/models/ToolBookFish.glb,matcap_blue_gloss
+toolbookfish_matcap_gold,물고기 도감 (골드),136000,0.5,액세서리,assets/models/ToolBookFish.glb,matcap_gold
+toolbookfish_matcap_silver_soft,물고기 도감 (소프트 실버),108000,0.8,액세서리,assets/models/ToolBookFish.glb,matcap_silver_soft
+toolbranch_plastic_matte,나무 지팡이 (매트 플라스틱),40000,1.5,액세서리,assets/models/ToolBranch.glb,plastic_matte
+toolbranch_plastic_gloss,나무 지팡이 (글로시 플라스틱),44000,1.45,액세서리,assets/models/ToolBranch.glb,plastic_gloss
+toolbranch_rubber_soft,나무 지팡이 (소프트 러버),42000,1.5,액세서리,assets/models/ToolBranch.glb,rubber_soft
+toolbranch_ceramic_clean,나무 지팡이 (클린 세라믹),48000,1.4,액세서리,assets/models/ToolBranch.glb,ceramic_clean
+toolbranch_metal_brushed,나무 지팡이 (브러시드 메탈),54000,1.3,액세서리,assets/models/ToolBranch.glb,metal_brushed
+toolbranch_metal_polished,나무 지팡이 (폴리시드 메탈),60000,1.2,액세서리,assets/models/ToolBranch.glb,metal_polished
+toolbranch_paint_clearcoat,나무 지팡이 (클리어코트 페인트),52000,1.35,액세서리,assets/models/ToolBranch.glb,paint_clearcoat
+toolbranch_fabric_sheen,나무 지팡이 (패브릭 쉰),46000,1.45,액세서리,assets/models/ToolBranch.glb,fabric_sheen
+toolbranch_glass_clear,나무 지팡이 (클리어 글래스),64000,1.1,액세서리,assets/models/ToolBranch.glb,glass_clear
+toolbranch_resin_tinted,나무 지팡이 (틴티드 레진),58000,1.25,액세서리,assets/models/ToolBranch.glb,resin_tinted
+toolbranch_matcap_clay,나무 지팡이 (클레이),42000,1.5,액세서리,assets/models/ToolBranch.glb,matcap_clay
+toolbranch_matcap_wax,나무 지팡이 (왁스),44000,1.45,액세서리,assets/models/ToolBranch.glb,matcap_wax
+toolbranch_matcap_chrome,나무 지팡이 (크롬),62000,1.15,액세서리,assets/models/ToolBranch.glb,matcap_chrome
+toolbranch_matcap_bronze,나무 지팡이 (브론즈),56000,1.3,액세서리,assets/models/ToolBranch.glb,matcap_bronze
+toolbranch_matcap_black_rubber,나무 지팡이 (블랙 러버),43200,1.5,액세서리,assets/models/ToolBranch.glb,matcap_black_rubber
+toolbranch_matcap_red_wax,나무 지팡이 (레드 왁스),46000,1.4,액세서리,assets/models/ToolBranch.glb,matcap_red_wax
+toolbranch_matcap_white_ceramic,나무 지팡이 (화이트 세라믹),50000,1.35,액세서리,assets/models/ToolBranch.glb,matcap_white_ceramic
+toolbranch_matcap_blue_gloss,나무 지팡이 (블루 글로시),48000,1.4,액세서리,assets/models/ToolBranch.glb,matcap_blue_gloss
+toolbranch_matcap_gold,나무 지팡이 (골드),68000,1,액세서리,assets/models/ToolBranch.glb,matcap_gold
+toolbranch_matcap_silver_soft,나무 지팡이 (소프트 실버),54000,1.3,액세서리,assets/models/ToolBranch.glb,matcap_silver_soft
+toolcantea_plastic_matte,녹차 캔 (매트 플라스틱),15000,1.8,액세서리,assets/models/ToolCanTea.glb,plastic_matte
+toolcantea_plastic_gloss,녹차 캔 (글로시 플라스틱),16500,1.75,액세서리,assets/models/ToolCanTea.glb,plastic_gloss
+toolcantea_rubber_soft,녹차 캔 (소프트 러버),15800,1.8,액세서리,assets/models/ToolCanTea.glb,rubber_soft
+toolcantea_ceramic_clean,녹차 캔 (클린 세라믹),18000,1.7,액세서리,assets/models/ToolCanTea.glb,ceramic_clean
+toolcantea_metal_brushed,녹차 캔 (브러시드 메탈),20300,1.6,액세서리,assets/models/ToolCanTea.glb,metal_brushed
+toolcantea_metal_polished,녹차 캔 (폴리시드 메탈),22500,1.5,액세서리,assets/models/ToolCanTea.glb,metal_polished
+toolcantea_paint_clearcoat,녹차 캔 (클리어코트 페인트),19500,1.65,액세서리,assets/models/ToolCanTea.glb,paint_clearcoat
+toolcantea_fabric_sheen,녹차 캔 (패브릭 쉰),17300,1.75,액세서리,assets/models/ToolCanTea.glb,fabric_sheen
+toolcantea_glass_clear,녹차 캔 (클리어 글래스),24000,1.4,액세서리,assets/models/ToolCanTea.glb,glass_clear
+toolcantea_resin_tinted,녹차 캔 (틴티드 레진),21800,1.55,액세서리,assets/models/ToolCanTea.glb,resin_tinted
+toolcantea_matcap_clay,녹차 캔 (클레이),15800,1.8,액세서리,assets/models/ToolCanTea.glb,matcap_clay
+toolcantea_matcap_wax,녹차 캔 (왁스),16500,1.75,액세서리,assets/models/ToolCanTea.glb,matcap_wax
+toolcantea_matcap_chrome,녹차 캔 (크롬),23300,1.45,액세서리,assets/models/ToolCanTea.glb,matcap_chrome
+toolcantea_matcap_bronze,녹차 캔 (브론즈),21000,1.6,액세서리,assets/models/ToolCanTea.glb,matcap_bronze
+toolcantea_matcap_black_rubber,녹차 캔 (블랙 러버),16200,1.8,액세서리,assets/models/ToolCanTea.glb,matcap_black_rubber
+toolcantea_matcap_red_wax,녹차 캔 (레드 왁스),17300,1.7,액세서리,assets/models/ToolCanTea.glb,matcap_red_wax
+toolcantea_matcap_white_ceramic,녹차 캔 (화이트 세라믹),18800,1.65,액세서리,assets/models/ToolCanTea.glb,matcap_white_ceramic
+toolcantea_matcap_blue_gloss,녹차 캔 (블루 글로시),18000,1.7,액세서리,assets/models/ToolCanTea.glb,matcap_blue_gloss
+toolcantea_matcap_gold,녹차 캔 (골드),25500,1.3,액세서리,assets/models/ToolCanTea.glb,matcap_gold
+toolcantea_matcap_silver_soft,녹차 캔 (소프트 실버),20300,1.6,액세서리,assets/models/ToolCanTea.glb,matcap_silver_soft
+toolcliffmaker_plastic_matte,삽 (매트 플라스틱),70000,1.2,액세서리,assets/models/ToolCliffmaker.glb,plastic_matte
+toolcliffmaker_plastic_gloss,삽 (글로시 플라스틱),77000,1.15,액세서리,assets/models/ToolCliffmaker.glb,plastic_gloss
+toolcliffmaker_rubber_soft,삽 (소프트 러버),73500,1.2,액세서리,assets/models/ToolCliffmaker.glb,rubber_soft
+toolcliffmaker_ceramic_clean,삽 (클린 세라믹),84000,1.1,액세서리,assets/models/ToolCliffmaker.glb,ceramic_clean
+toolcliffmaker_metal_brushed,삽 (브러시드 메탈),94500,1,액세서리,assets/models/ToolCliffmaker.glb,metal_brushed
+toolcliffmaker_metal_polished,삽 (폴리시드 메탈),105000,0.9,액세서리,assets/models/ToolCliffmaker.glb,metal_polished
+toolcliffmaker_paint_clearcoat,삽 (클리어코트 페인트),91000,1.05,액세서리,assets/models/ToolCliffmaker.glb,paint_clearcoat
+toolcliffmaker_fabric_sheen,삽 (패브릭 쉰),80500,1.15,액세서리,assets/models/ToolCliffmaker.glb,fabric_sheen
+toolcliffmaker_glass_clear,삽 (클리어 글래스),112000,0.8,액세서리,assets/models/ToolCliffmaker.glb,glass_clear
+toolcliffmaker_resin_tinted,삽 (틴티드 레진),101500,0.95,액세서리,assets/models/ToolCliffmaker.glb,resin_tinted
+toolcliffmaker_matcap_clay,삽 (클레이),73500,1.2,액세서리,assets/models/ToolCliffmaker.glb,matcap_clay
+toolcliffmaker_matcap_wax,삽 (왁스),77000,1.15,액세서리,assets/models/ToolCliffmaker.glb,matcap_wax
+toolcliffmaker_matcap_chrome,삽 (크롬),108500,0.85,액세서리,assets/models/ToolCliffmaker.glb,matcap_chrome
+toolcliffmaker_matcap_bronze,삽 (브론즈),98000,1,액세서리,assets/models/ToolCliffmaker.glb,matcap_bronze
+toolcliffmaker_matcap_black_rubber,삽 (블랙 러버),75600,1.2,액세서리,assets/models/ToolCliffmaker.glb,matcap_black_rubber
+toolcliffmaker_matcap_red_wax,삽 (레드 왁스),80500,1.1,액세서리,assets/models/ToolCliffmaker.glb,matcap_red_wax
+toolcliffmaker_matcap_white_ceramic,삽 (화이트 세라믹),87500,1.05,액세서리,assets/models/ToolCliffmaker.glb,matcap_white_ceramic
+toolcliffmaker_matcap_blue_gloss,삽 (블루 글로시),84000,1.1,액세서리,assets/models/ToolCliffmaker.glb,matcap_blue_gloss
+toolcliffmaker_matcap_gold,삽 (골드),119000,0.7,액세서리,assets/models/ToolCliffmaker.glb,matcap_gold
+toolcliffmaker_matcap_silver_soft,삽 (소프트 실버),94500,1,액세서리,assets/models/ToolCliffmaker.glb,matcap_silver_soft
+toolcracker_plastic_matte,콘형 공구 (매트 플라스틱),50000,0.9,액세서리,assets/models/ToolCracker.glb,plastic_matte
+toolcracker_plastic_gloss,콘형 공구 (글로시 플라스틱),55000,0.85,액세서리,assets/models/ToolCracker.glb,plastic_gloss
+toolcracker_rubber_soft,콘형 공구 (소프트 러버),52500,0.9,액세서리,assets/models/ToolCracker.glb,rubber_soft
+toolcracker_ceramic_clean,콘형 공구 (클린 세라믹),60000,0.8,액세서리,assets/models/ToolCracker.glb,ceramic_clean
+toolcracker_metal_brushed,콘형 공구 (브러시드 메탈),67500,0.7,액세서리,assets/models/ToolCracker.glb,metal_brushed
+toolcracker_metal_polished,콘형 공구 (폴리시드 메탈),75000,0.6,액세서리,assets/models/ToolCracker.glb,metal_polished
+toolcracker_paint_clearcoat,콘형 공구 (클리어코트 페인트),65000,0.75,액세서리,assets/models/ToolCracker.glb,paint_clearcoat
+toolcracker_fabric_sheen,콘형 공구 (패브릭 쉰),57500,0.85,액세서리,assets/models/ToolCracker.glb,fabric_sheen
+toolcracker_glass_clear,콘형 공구 (클리어 글래스),80000,0.5,액세서리,assets/models/ToolCracker.glb,glass_clear
+toolcracker_resin_tinted,콘형 공구 (틴티드 레진),72500,0.65,액세서리,assets/models/ToolCracker.glb,resin_tinted
+toolcracker_matcap_clay,콘형 공구 (클레이),52500,0.9,액세서리,assets/models/ToolCracker.glb,matcap_clay
+toolcracker_matcap_wax,콘형 공구 (왁스),55000,0.85,액세서리,assets/models/ToolCracker.glb,matcap_wax
+toolcracker_matcap_chrome,콘형 공구 (크롬),77500,0.55,액세서리,assets/models/ToolCracker.glb,matcap_chrome
+toolcracker_matcap_bronze,콘형 공구 (브론즈),70000,0.7,액세서리,assets/models/ToolCracker.glb,matcap_bronze
+toolcracker_matcap_black_rubber,콘형 공구 (블랙 러버),54000,0.9,액세서리,assets/models/ToolCracker.glb,matcap_black_rubber
+toolcracker_matcap_red_wax,콘형 공구 (레드 왁스),57500,0.8,액세서리,assets/models/ToolCracker.glb,matcap_red_wax
+toolcracker_matcap_white_ceramic,콘형 공구 (화이트 세라믹),62500,0.75,액세서리,assets/models/ToolCracker.glb,matcap_white_ceramic
+toolcracker_matcap_blue_gloss,콘형 공구 (블루 글로시),60000,0.8,액세서리,assets/models/ToolCracker.glb,matcap_blue_gloss
+toolcracker_matcap_gold,콘형 공구 (골드),85000,0.4,액세서리,assets/models/ToolCracker.glb,matcap_gold
+toolcracker_matcap_silver_soft,콘형 공구 (소프트 실버),67500,0.7,액세서리,assets/models/ToolCracker.glb,matcap_silver_soft
+toolcupdoc_plastic_matte,Tool Cup Doc (매트 플라스틱),15000,1,액세서리,assets/models/ToolCupDoc.glb,plastic_matte
+toolcupdoc_plastic_gloss,Tool Cup Doc (글로시 플라스틱),16500,0.95,액세서리,assets/models/ToolCupDoc.glb,plastic_gloss
+toolcupdoc_rubber_soft,Tool Cup Doc (소프트 러버),15800,1,액세서리,assets/models/ToolCupDoc.glb,rubber_soft
+toolcupdoc_ceramic_clean,Tool Cup Doc (클린 세라믹),18000,0.9,액세서리,assets/models/ToolCupDoc.glb,ceramic_clean
+toolcupdoc_metal_brushed,Tool Cup Doc (브러시드 메탈),20300,0.8,액세서리,assets/models/ToolCupDoc.glb,metal_brushed
+toolcupdoc_metal_polished,Tool Cup Doc (폴리시드 메탈),22500,0.7,액세서리,assets/models/ToolCupDoc.glb,metal_polished
+toolcupdoc_paint_clearcoat,Tool Cup Doc (클리어코트 페인트),19500,0.85,액세서리,assets/models/ToolCupDoc.glb,paint_clearcoat
+toolcupdoc_fabric_sheen,Tool Cup Doc (패브릭 쉰),17300,0.95,액세서리,assets/models/ToolCupDoc.glb,fabric_sheen
+toolcupdoc_glass_clear,Tool Cup Doc (클리어 글래스),24000,0.6,액세서리,assets/models/ToolCupDoc.glb,glass_clear
+toolcupdoc_resin_tinted,Tool Cup Doc (틴티드 레진),21800,0.75,액세서리,assets/models/ToolCupDoc.glb,resin_tinted
+toolcupdoc_matcap_clay,Tool Cup Doc (클레이),15800,1,액세서리,assets/models/ToolCupDoc.glb,matcap_clay
+toolcupdoc_matcap_wax,Tool Cup Doc (왁스),16500,0.95,액세서리,assets/models/ToolCupDoc.glb,matcap_wax
+toolcupdoc_matcap_chrome,Tool Cup Doc (크롬),23300,0.65,액세서리,assets/models/ToolCupDoc.glb,matcap_chrome
+toolcupdoc_matcap_bronze,Tool Cup Doc (브론즈),21000,0.8,액세서리,assets/models/ToolCupDoc.glb,matcap_bronze
+toolcupdoc_matcap_black_rubber,Tool Cup Doc (블랙 러버),16200,1,액세서리,assets/models/ToolCupDoc.glb,matcap_black_rubber
+toolcupdoc_matcap_red_wax,Tool Cup Doc (레드 왁스),17300,0.9,액세서리,assets/models/ToolCupDoc.glb,matcap_red_wax
+toolcupdoc_matcap_white_ceramic,Tool Cup Doc (화이트 세라믹),18800,0.85,액세서리,assets/models/ToolCupDoc.glb,matcap_white_ceramic
+toolcupdoc_matcap_blue_gloss,Tool Cup Doc (블루 글로시),18000,0.9,액세서리,assets/models/ToolCupDoc.glb,matcap_blue_gloss
+toolcupdoc_matcap_gold,Tool Cup Doc (골드),25500,0.5,액세서리,assets/models/ToolCupDoc.glb,matcap_gold
+toolcupdoc_matcap_silver_soft,Tool Cup Doc (소프트 실버),20300,0.8,액세서리,assets/models/ToolCupDoc.glb,matcap_silver_soft
+tooldrinksmoothie_plastic_matte,Tool Drink Smoothie (매트 플라스틱),15000,1,액세서리,assets/models/ToolDrinkSmoothie.glb,plastic_matte
+tooldrinksmoothie_plastic_gloss,Tool Drink Smoothie (글로시 플라스틱),16500,0.95,액세서리,assets/models/ToolDrinkSmoothie.glb,plastic_gloss
+tooldrinksmoothie_rubber_soft,Tool Drink Smoothie (소프트 러버),15800,1,액세서리,assets/models/ToolDrinkSmoothie.glb,rubber_soft
+tooldrinksmoothie_ceramic_clean,Tool Drink Smoothie (클린 세라믹),18000,0.9,액세서리,assets/models/ToolDrinkSmoothie.glb,ceramic_clean
+tooldrinksmoothie_metal_brushed,Tool Drink Smoothie (브러시드 메탈),20300,0.8,액세서리,assets/models/ToolDrinkSmoothie.glb,metal_brushed
+tooldrinksmoothie_metal_polished,Tool Drink Smoothie (폴리시드 메탈),22500,0.7,액세서리,assets/models/ToolDrinkSmoothie.glb,metal_polished
+tooldrinksmoothie_paint_clearcoat,Tool Drink Smoothie (클리어코트 페인트),19500,0.85,액세서리,assets/models/ToolDrinkSmoothie.glb,paint_clearcoat
+tooldrinksmoothie_fabric_sheen,Tool Drink Smoothie (패브릭 쉰),17300,0.95,액세서리,assets/models/ToolDrinkSmoothie.glb,fabric_sheen
+tooldrinksmoothie_glass_clear,Tool Drink Smoothie (클리어 글래스),24000,0.6,액세서리,assets/models/ToolDrinkSmoothie.glb,glass_clear
+tooldrinksmoothie_resin_tinted,Tool Drink Smoothie (틴티드 레진),21800,0.75,액세서리,assets/models/ToolDrinkSmoothie.glb,resin_tinted
+tooldrinksmoothie_matcap_clay,Tool Drink Smoothie (클레이),15800,1,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_clay
+tooldrinksmoothie_matcap_wax,Tool Drink Smoothie (왁스),16500,0.95,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_wax
+tooldrinksmoothie_matcap_chrome,Tool Drink Smoothie (크롬),23300,0.65,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_chrome
+tooldrinksmoothie_matcap_bronze,Tool Drink Smoothie (브론즈),21000,0.8,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_bronze
+tooldrinksmoothie_matcap_black_rubber,Tool Drink Smoothie (블랙 러버),16200,1,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_black_rubber
+tooldrinksmoothie_matcap_red_wax,Tool Drink Smoothie (레드 왁스),17300,0.9,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_red_wax
+tooldrinksmoothie_matcap_white_ceramic,Tool Drink Smoothie (화이트 세라믹),18800,0.85,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_white_ceramic
+tooldrinksmoothie_matcap_blue_gloss,Tool Drink Smoothie (블루 글로시),18000,0.9,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_blue_gloss
+tooldrinksmoothie_matcap_gold,Tool Drink Smoothie (골드),25500,0.5,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_gold
+tooldrinksmoothie_matcap_silver_soft,Tool Drink Smoothie (소프트 실버),20300,0.8,액세서리,assets/models/ToolDrinkSmoothie.glb,matcap_silver_soft
+tooldumbbell_plastic_matte,Tool Dumbbell (매트 플라스틱),15000,1,액세서리,assets/models/ToolDumbbell.glb,plastic_matte
+tooldumbbell_plastic_gloss,Tool Dumbbell (글로시 플라스틱),16500,0.95,액세서리,assets/models/ToolDumbbell.glb,plastic_gloss
+tooldumbbell_rubber_soft,Tool Dumbbell (소프트 러버),15800,1,액세서리,assets/models/ToolDumbbell.glb,rubber_soft
+tooldumbbell_ceramic_clean,Tool Dumbbell (클린 세라믹),18000,0.9,액세서리,assets/models/ToolDumbbell.glb,ceramic_clean
+tooldumbbell_metal_brushed,Tool Dumbbell (브러시드 메탈),20300,0.8,액세서리,assets/models/ToolDumbbell.glb,metal_brushed
+tooldumbbell_metal_polished,Tool Dumbbell (폴리시드 메탈),22500,0.7,액세서리,assets/models/ToolDumbbell.glb,metal_polished
+tooldumbbell_paint_clearcoat,Tool Dumbbell (클리어코트 페인트),19500,0.85,액세서리,assets/models/ToolDumbbell.glb,paint_clearcoat
+tooldumbbell_fabric_sheen,Tool Dumbbell (패브릭 쉰),17300,0.95,액세서리,assets/models/ToolDumbbell.glb,fabric_sheen
+tooldumbbell_glass_clear,Tool Dumbbell (클리어 글래스),24000,0.6,액세서리,assets/models/ToolDumbbell.glb,glass_clear
+tooldumbbell_resin_tinted,Tool Dumbbell (틴티드 레진),21800,0.75,액세서리,assets/models/ToolDumbbell.glb,resin_tinted
+tooldumbbell_matcap_clay,Tool Dumbbell (클레이),15800,1,액세서리,assets/models/ToolDumbbell.glb,matcap_clay
+tooldumbbell_matcap_wax,Tool Dumbbell (왁스),16500,0.95,액세서리,assets/models/ToolDumbbell.glb,matcap_wax
+tooldumbbell_matcap_chrome,Tool Dumbbell (크롬),23300,0.65,액세서리,assets/models/ToolDumbbell.glb,matcap_chrome
+tooldumbbell_matcap_bronze,Tool Dumbbell (브론즈),21000,0.8,액세서리,assets/models/ToolDumbbell.glb,matcap_bronze
+tooldumbbell_matcap_black_rubber,Tool Dumbbell (블랙 러버),16200,1,액세서리,assets/models/ToolDumbbell.glb,matcap_black_rubber
+tooldumbbell_matcap_red_wax,Tool Dumbbell (레드 왁스),17300,0.9,액세서리,assets/models/ToolDumbbell.glb,matcap_red_wax
+tooldumbbell_matcap_white_ceramic,Tool Dumbbell (화이트 세라믹),18800,0.85,액세서리,assets/models/ToolDumbbell.glb,matcap_white_ceramic
+tooldumbbell_matcap_blue_gloss,Tool Dumbbell (블루 글로시),18000,0.9,액세서리,assets/models/ToolDumbbell.glb,matcap_blue_gloss
+tooldumbbell_matcap_gold,Tool Dumbbell (골드),25500,0.5,액세서리,assets/models/ToolDumbbell.glb,matcap_gold
+tooldumbbell_matcap_silver_soft,Tool Dumbbell (소프트 실버),20300,0.8,액세서리,assets/models/ToolDumbbell.glb,matcap_silver_soft
+tooldusternormal_plastic_matte,Tool Duster Normal (매트 플라스틱),15000,1,액세서리,assets/models/ToolDusterNormal.glb,plastic_matte
+tooldusternormal_plastic_gloss,Tool Duster Normal (글로시 플라스틱),16500,0.95,액세서리,assets/models/ToolDusterNormal.glb,plastic_gloss
+tooldusternormal_rubber_soft,Tool Duster Normal (소프트 러버),15800,1,액세서리,assets/models/ToolDusterNormal.glb,rubber_soft
+tooldusternormal_ceramic_clean,Tool Duster Normal (클린 세라믹),18000,0.9,액세서리,assets/models/ToolDusterNormal.glb,ceramic_clean
+tooldusternormal_metal_brushed,Tool Duster Normal (브러시드 메탈),20300,0.8,액세서리,assets/models/ToolDusterNormal.glb,metal_brushed
+tooldusternormal_metal_polished,Tool Duster Normal (폴리시드 메탈),22500,0.7,액세서리,assets/models/ToolDusterNormal.glb,metal_polished
+tooldusternormal_paint_clearcoat,Tool Duster Normal (클리어코트 페인트),19500,0.85,액세서리,assets/models/ToolDusterNormal.glb,paint_clearcoat
+tooldusternormal_fabric_sheen,Tool Duster Normal (패브릭 쉰),17300,0.95,액세서리,assets/models/ToolDusterNormal.glb,fabric_sheen
+tooldusternormal_glass_clear,Tool Duster Normal (클리어 글래스),24000,0.6,액세서리,assets/models/ToolDusterNormal.glb,glass_clear
+tooldusternormal_resin_tinted,Tool Duster Normal (틴티드 레진),21800,0.75,액세서리,assets/models/ToolDusterNormal.glb,resin_tinted
+tooldusternormal_matcap_clay,Tool Duster Normal (클레이),15800,1,액세서리,assets/models/ToolDusterNormal.glb,matcap_clay
+tooldusternormal_matcap_wax,Tool Duster Normal (왁스),16500,0.95,액세서리,assets/models/ToolDusterNormal.glb,matcap_wax
+tooldusternormal_matcap_chrome,Tool Duster Normal (크롬),23300,0.65,액세서리,assets/models/ToolDusterNormal.glb,matcap_chrome
+tooldusternormal_matcap_bronze,Tool Duster Normal (브론즈),21000,0.8,액세서리,assets/models/ToolDusterNormal.glb,matcap_bronze
+tooldusternormal_matcap_black_rubber,Tool Duster Normal (블랙 러버),16200,1,액세서리,assets/models/ToolDusterNormal.glb,matcap_black_rubber
+tooldusternormal_matcap_red_wax,Tool Duster Normal (레드 왁스),17300,0.9,액세서리,assets/models/ToolDusterNormal.glb,matcap_red_wax
+tooldusternormal_matcap_white_ceramic,Tool Duster Normal (화이트 세라믹),18800,0.85,액세서리,assets/models/ToolDusterNormal.glb,matcap_white_ceramic
+tooldusternormal_matcap_blue_gloss,Tool Duster Normal (블루 글로시),18000,0.9,액세서리,assets/models/ToolDusterNormal.glb,matcap_blue_gloss
+tooldusternormal_matcap_gold,Tool Duster Normal (골드),25500,0.5,액세서리,assets/models/ToolDusterNormal.glb,matcap_gold
+tooldusternormal_matcap_silver_soft,Tool Duster Normal (소프트 실버),20300,0.8,액세서리,assets/models/ToolDusterNormal.glb,matcap_silver_soft
+toolfence_plastic_matte,Tool Fence (매트 플라스틱),15000,1,액세서리,assets/models/ToolFence.glb,plastic_matte
+toolfence_plastic_gloss,Tool Fence (글로시 플라스틱),16500,0.95,액세서리,assets/models/ToolFence.glb,plastic_gloss
+toolfence_rubber_soft,Tool Fence (소프트 러버),15800,1,액세서리,assets/models/ToolFence.glb,rubber_soft
+toolfence_ceramic_clean,Tool Fence (클린 세라믹),18000,0.9,액세서리,assets/models/ToolFence.glb,ceramic_clean
+toolfence_metal_brushed,Tool Fence (브러시드 메탈),20300,0.8,액세서리,assets/models/ToolFence.glb,metal_brushed
+toolfence_metal_polished,Tool Fence (폴리시드 메탈),22500,0.7,액세서리,assets/models/ToolFence.glb,metal_polished
+toolfence_paint_clearcoat,Tool Fence (클리어코트 페인트),19500,0.85,액세서리,assets/models/ToolFence.glb,paint_clearcoat
+toolfence_fabric_sheen,Tool Fence (패브릭 쉰),17300,0.95,액세서리,assets/models/ToolFence.glb,fabric_sheen
+toolfence_glass_clear,Tool Fence (클리어 글래스),24000,0.6,액세서리,assets/models/ToolFence.glb,glass_clear
+toolfence_resin_tinted,Tool Fence (틴티드 레진),21800,0.75,액세서리,assets/models/ToolFence.glb,resin_tinted
+toolfence_matcap_clay,Tool Fence (클레이),15800,1,액세서리,assets/models/ToolFence.glb,matcap_clay
+toolfence_matcap_wax,Tool Fence (왁스),16500,0.95,액세서리,assets/models/ToolFence.glb,matcap_wax
+toolfence_matcap_chrome,Tool Fence (크롬),23300,0.65,액세서리,assets/models/ToolFence.glb,matcap_chrome
+toolfence_matcap_bronze,Tool Fence (브론즈),21000,0.8,액세서리,assets/models/ToolFence.glb,matcap_bronze
+toolfence_matcap_black_rubber,Tool Fence (블랙 러버),16200,1,액세서리,assets/models/ToolFence.glb,matcap_black_rubber
+toolfence_matcap_red_wax,Tool Fence (레드 왁스),17300,0.9,액세서리,assets/models/ToolFence.glb,matcap_red_wax
+toolfence_matcap_white_ceramic,Tool Fence (화이트 세라믹),18800,0.85,액세서리,assets/models/ToolFence.glb,matcap_white_ceramic
+toolfence_matcap_blue_gloss,Tool Fence (블루 글로시),18000,0.9,액세서리,assets/models/ToolFence.glb,matcap_blue_gloss
+toolfence_matcap_gold,Tool Fence (골드),25500,0.5,액세서리,assets/models/ToolFence.glb,matcap_gold
+toolfence_matcap_silver_soft,Tool Fence (소프트 실버),20300,0.8,액세서리,assets/models/ToolFence.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+capwigregent_plastic_matte,레전드 모자 wig (매트 플라스틱),8000,1.8,액세서리,assets/models/CapWigRegent.glb,plastic_matte
+capwigregent_plastic_gloss,레전드 모자 wig (글로시 플라스틱),8800,1.75,액세서리,assets/models/CapWigRegent.glb,plastic_gloss
+capwigregent_rubber_soft,레전드 모자 wig (소프트 러버),8400,1.8,액세서리,assets/models/CapWigRegent.glb,rubber_soft
+capwigregent_ceramic_clean,레전드 모자 wig (클린 세라믹),9600,1.7,액세서리,assets/models/CapWigRegent.glb,ceramic_clean
+capwigregent_metal_brushed,레전드 모자 wig (브러시드 메탈),10800,1.6,액세서리,assets/models/CapWigRegent.glb,metal_brushed
+capwigregent_metal_polished,레전드 모자 wig (폴리시드 메탈),12000,1.5,액세서리,assets/models/CapWigRegent.glb,metal_polished
+capwigregent_paint_clearcoat,레전드 모자 wig (클리어코트 페인트),10400,1.65,액세서리,assets/models/CapWigRegent.glb,paint_clearcoat
+capwigregent_fabric_sheen,레전드 모자 wig (패브릭 쉰),9200,1.75,액세서리,assets/models/CapWigRegent.glb,fabric_sheen
+capwigregent_glass_clear,레전드 모자 wig (클리어 글래스),12800,1.4,액세서리,assets/models/CapWigRegent.glb,glass_clear
+capwigregent_resin_tinted,레전드 모자 wig (틴티드 레진),11600,1.55,액세서리,assets/models/CapWigRegent.glb,resin_tinted
+capwigregent_matcap_clay,레전드 모자 wig (클레이),8400,1.8,액세서리,assets/models/CapWigRegent.glb,matcap_clay
+capwigregent_matcap_wax,레전드 모자 wig (왁스),8800,1.75,액세서리,assets/models/CapWigRegent.glb,matcap_wax
+capwigregent_matcap_chrome,레전드 모자 wig (크롬),12400,1.45,액세서리,assets/models/CapWigRegent.glb,matcap_chrome
+capwigregent_matcap_bronze,레전드 모자 wig (브론즈),11200,1.6,액세서리,assets/models/CapWigRegent.glb,matcap_bronze
+capwigregent_matcap_black_rubber,레전드 모자 wig (블랙 러버),8600,1.8,액세서리,assets/models/CapWigRegent.glb,matcap_black_rubber
+capwigregent_matcap_red_wax,레전드 모자 wig (레드 왁스),9200,1.7,액세서리,assets/models/CapWigRegent.glb,matcap_red_wax
+capwigregent_matcap_white_ceramic,레전드 모자 wig (화이트 세라믹),10000,1.65,액세서리,assets/models/CapWigRegent.glb,matcap_white_ceramic
+capwigregent_matcap_blue_gloss,레전드 모자 wig (블루 글로시),9600,1.7,액세서리,assets/models/CapWigRegent.glb,matcap_blue_gloss
+capwigregent_matcap_gold,레전드 모자 wig (골드),13600,1.3,액세서리,assets/models/CapWigRegent.glb,matcap_gold
+capwigregent_matcap_silver_soft,레전드 모자 wig (소프트 실버),10800,1.6,액세서리,assets/models/CapWigRegent.glb,matcap_silver_soft
+capwigvisual_plastic_matte,비주얼 모자 wig (매트 플라스틱),12000,1.5,액세서리,assets/models/CapWigVisual.glb,plastic_matte
+capwigvisual_plastic_gloss,비주얼 모자 wig (글로시 플라스틱),13200,1.45,액세서리,assets/models/CapWigVisual.glb,plastic_gloss
+capwigvisual_rubber_soft,비주얼 모자 wig (소프트 러버),12600,1.5,액세서리,assets/models/CapWigVisual.glb,rubber_soft
+capwigvisual_ceramic_clean,비주얼 모자 wig (클린 세라믹),14400,1.4,액세서리,assets/models/CapWigVisual.glb,ceramic_clean
+capwigvisual_metal_brushed,비주얼 모자 wig (브러시드 메탈),16200,1.3,액세서리,assets/models/CapWigVisual.glb,metal_brushed
+capwigvisual_metal_polished,비주얼 모자 wig (폴리시드 메탈),18000,1.2,액세서리,assets/models/CapWigVisual.glb,metal_polished
+capwigvisual_paint_clearcoat,비주얼 모자 wig (클리어코트 페인트),15600,1.35,액세서리,assets/models/CapWigVisual.glb,paint_clearcoat
+capwigvisual_fabric_sheen,비주얼 모자 wig (패브릭 쉰),13800,1.45,액세서리,assets/models/CapWigVisual.glb,fabric_sheen
+capwigvisual_glass_clear,비주얼 모자 wig (클리어 글래스),19200,1.1,액세서리,assets/models/CapWigVisual.glb,glass_clear
+capwigvisual_resin_tinted,비주얼 모자 wig (틴티드 레진),17400,1.25,액세서리,assets/models/CapWigVisual.glb,resin_tinted
+capwigvisual_matcap_clay,비주얼 모자 wig (클레이),12600,1.5,액세서리,assets/models/CapWigVisual.glb,matcap_clay
+capwigvisual_matcap_wax,비주얼 모자 wig (왁스),13200,1.45,액세서리,assets/models/CapWigVisual.glb,matcap_wax
+capwigvisual_matcap_chrome,비주얼 모자 wig (크롬),18600,1.15,액세서리,assets/models/CapWigVisual.glb,matcap_chrome
+capwigvisual_matcap_bronze,비주얼 모자 wig (브론즈),16800,1.3,액세서리,assets/models/CapWigVisual.glb,matcap_bronze
+capwigvisual_matcap_black_rubber,비주얼 모자 wig (블랙 러버),13000,1.5,액세서리,assets/models/CapWigVisual.glb,matcap_black_rubber
+capwigvisual_matcap_red_wax,비주얼 모자 wig (레드 왁스),13800,1.4,액세서리,assets/models/CapWigVisual.glb,matcap_red_wax
+capwigvisual_matcap_white_ceramic,비주얼 모자 wig (화이트 세라믹),15000,1.35,액세서리,assets/models/CapWigVisual.glb,matcap_white_ceramic
+capwigvisual_matcap_blue_gloss,비주얼 모자 wig (블루 글로시),14400,1.4,액세서리,assets/models/CapWigVisual.glb,matcap_blue_gloss
+capwigvisual_matcap_gold,비주얼 모자 wig (골드),20400,1,액세서리,assets/models/CapWigVisual.glb,matcap_gold
+capwigvisual_matcap_silver_soft,비주얼 모자 wig (소프트 실버),16200,1.3,액세서리,assets/models/CapWigVisual.glb,matcap_silver_soft
+cockroach_plastic_matte,cockroach (매트 플라스틱),35000,0.7,액세서리,assets/models/Cockroach.glb,plastic_matte
+cockroach_plastic_gloss,cockroach (글로시 플라스틱),38500,0.65,액세서리,assets/models/Cockroach.glb,plastic_gloss
+cockroach_rubber_soft,cockroach (소프트 러버),36800,0.7,액세서리,assets/models/Cockroach.glb,rubber_soft
+cockroach_ceramic_clean,cockroach (클린 세라믹),42000,0.6,액세서리,assets/models/Cockroach.glb,ceramic_clean
+cockroach_metal_brushed,cockroach (브러시드 메탈),47300,0.5,액세서리,assets/models/Cockroach.glb,metal_brushed
+cockroach_metal_polished,cockroach (폴리시드 메탈),52500,0.4,액세서리,assets/models/Cockroach.glb,metal_polished
+cockroach_paint_clearcoat,cockroach (클리어코트 페인트),45500,0.55,액세서리,assets/models/Cockroach.glb,paint_clearcoat
+cockroach_fabric_sheen,cockroach (패브릭 쉰),40300,0.65,액세서리,assets/models/Cockroach.glb,fabric_sheen
+cockroach_glass_clear,cockroach (클리어 글래스),56000,0.3,액세서리,assets/models/Cockroach.glb,glass_clear
+cockroach_resin_tinted,cockroach (틴티드 레진),50800,0.45,액세서리,assets/models/Cockroach.glb,resin_tinted
+cockroach_matcap_clay,cockroach (클레이),36800,0.7,액세서리,assets/models/Cockroach.glb,matcap_clay
+cockroach_matcap_wax,cockroach (왁스),38500,0.65,액세서리,assets/models/Cockroach.glb,matcap_wax
+cockroach_matcap_chrome,cockroach (크롬),54300,0.35,액세서리,assets/models/Cockroach.glb,matcap_chrome
+cockroach_matcap_bronze,cockroach (브론즈),49000,0.5,액세서리,assets/models/Cockroach.glb,matcap_bronze
+cockroach_matcap_black_rubber,cockroach (블랙 러버),37800,0.7,액세서리,assets/models/Cockroach.glb,matcap_black_rubber
+cockroach_matcap_red_wax,cockroach (레드 왁스),40300,0.6,액세서리,assets/models/Cockroach.glb,matcap_red_wax
+cockroach_matcap_white_ceramic,cockroach (화이트 세라믹),43800,0.55,액세서리,assets/models/Cockroach.glb,matcap_white_ceramic
+cockroach_matcap_blue_gloss,cockroach (블루 글로시),42000,0.6,액세서리,assets/models/Cockroach.glb,matcap_blue_gloss
+cockroach_matcap_gold,cockroach (골드),59500,0.2,액세서리,assets/models/Cockroach.glb,matcap_gold
+cockroach_matcap_silver_soft,cockroach (소프트 실버),47300,0.5,액세서리,assets/models/Cockroach.glb,matcap_silver_soft
+evtobjblackvr_plastic_matte,블랙 vr 박스 (매트 플라스틱),15000,0.6,액세서리,assets/models/EvtobjBlackVR.glb,plastic_matte
+evtobjblackvr_plastic_gloss,블랙 vr 박스 (글로시 플라스틱),16500,0.55,액세서리,assets/models/EvtobjBlackVR.glb,plastic_gloss
+evtobjblackvr_rubber_soft,블랙 vr 박스 (소프트 러버),15800,0.6,액세서리,assets/models/EvtobjBlackVR.glb,rubber_soft
+evtobjblackvr_ceramic_clean,블랙 vr 박스 (클린 세라믹),18000,0.5,액세서리,assets/models/EvtobjBlackVR.glb,ceramic_clean
+evtobjblackvr_metal_brushed,블랙 vr 박스 (브러시드 메탈),20300,0.4,액세서리,assets/models/EvtobjBlackVR.glb,metal_brushed
+evtobjblackvr_metal_polished,블랙 vr 박스 (폴리시드 메탈),22500,0.3,액세서리,assets/models/EvtobjBlackVR.glb,metal_polished
+evtobjblackvr_paint_clearcoat,블랙 vr 박스 (클리어코트 페인트),19500,0.45,액세서리,assets/models/EvtobjBlackVR.glb,paint_clearcoat
+evtobjblackvr_fabric_sheen,블랙 vr 박스 (패브릭 쉰),17300,0.55,액세서리,assets/models/EvtobjBlackVR.glb,fabric_sheen
+evtobjblackvr_glass_clear,블랙 vr 박스 (클리어 글래스),24000,0.2,액세서리,assets/models/EvtobjBlackVR.glb,glass_clear
+evtobjblackvr_resin_tinted,블랙 vr 박스 (틴티드 레진),21800,0.35,액세서리,assets/models/EvtobjBlackVR.glb,resin_tinted
+evtobjblackvr_matcap_clay,블랙 vr 박스 (클레이),15800,0.6,액세서리,assets/models/EvtobjBlackVR.glb,matcap_clay
+evtobjblackvr_matcap_wax,블랙 vr 박스 (왁스),16500,0.55,액세서리,assets/models/EvtobjBlackVR.glb,matcap_wax
+evtobjblackvr_matcap_chrome,블랙 vr 박스 (크롬),23300,0.25,액세서리,assets/models/EvtobjBlackVR.glb,matcap_chrome
+evtobjblackvr_matcap_bronze,블랙 vr 박스 (브론즈),21000,0.4,액세서리,assets/models/EvtobjBlackVR.glb,matcap_bronze
+evtobjblackvr_matcap_black_rubber,블랙 vr 박스 (블랙 러버),16200,0.6,액세서리,assets/models/EvtobjBlackVR.glb,matcap_black_rubber
+evtobjblackvr_matcap_red_wax,블랙 vr 박스 (레드 왁스),17300,0.5,액세서리,assets/models/EvtobjBlackVR.glb,matcap_red_wax
+evtobjblackvr_matcap_white_ceramic,블랙 vr 박스 (화이트 세라믹),18800,0.45,액세서리,assets/models/EvtobjBlackVR.glb,matcap_white_ceramic
+evtobjblackvr_matcap_blue_gloss,블랙 vr 박스 (블루 글로시),18000,0.5,액세서리,assets/models/EvtobjBlackVR.glb,matcap_blue_gloss
+evtobjblackvr_matcap_gold,블랙 vr 박스 (골드),25500,0.1,액세서리,assets/models/EvtobjBlackVR.glb,matcap_gold
+evtobjblackvr_matcap_silver_soft,블랙 vr 박스 (소프트 실버),20300,0.4,액세서리,assets/models/EvtobjBlackVR.glb,matcap_silver_soft
+evtobjcampfire_plastic_matte,캠프파이어 (매트 플라스틱),20000,0.5,액세서리,assets/models/EvtobjCampfire.glb,plastic_matte
+evtobjcampfire_plastic_gloss,캠프파이어 (글로시 플라스틱),22000,0.45,액세서리,assets/models/EvtobjCampfire.glb,plastic_gloss
+evtobjcampfire_rubber_soft,캠프파이어 (소프트 러버),21000,0.5,액세서리,assets/models/EvtobjCampfire.glb,rubber_soft
+evtobjcampfire_ceramic_clean,캠프파이어 (클린 세라믹),24000,0.4,액세서리,assets/models/EvtobjCampfire.glb,ceramic_clean
+evtobjcampfire_metal_brushed,캠프파이어 (브러시드 메탈),27000,0.3,액세서리,assets/models/EvtobjCampfire.glb,metal_brushed
+evtobjcampfire_metal_polished,캠프파이어 (폴리시드 메탈),30000,0.2,액세서리,assets/models/EvtobjCampfire.glb,metal_polished
+evtobjcampfire_paint_clearcoat,캠프파이어 (클리어코트 페인트),26000,0.35,액세서리,assets/models/EvtobjCampfire.glb,paint_clearcoat
+evtobjcampfire_fabric_sheen,캠프파이어 (패브릭 쉰),23000,0.45,액세서리,assets/models/EvtobjCampfire.glb,fabric_sheen
+evtobjcampfire_glass_clear,캠프파이어 (클리어 글래스),32000,0.1,액세서리,assets/models/EvtobjCampfire.glb,glass_clear
+evtobjcampfire_resin_tinted,캠프파이어 (틴티드 레진),29000,0.25,액세서리,assets/models/EvtobjCampfire.glb,resin_tinted
+evtobjcampfire_matcap_clay,캠프파이어 (클레이),21000,0.5,액세서리,assets/models/EvtobjCampfire.glb,matcap_clay
+evtobjcampfire_matcap_wax,캠프파이어 (왁스),22000,0.45,액세서리,assets/models/EvtobjCampfire.glb,matcap_wax
+evtobjcampfire_matcap_chrome,캠프파이어 (크롬),31000,0.15,액세서리,assets/models/EvtobjCampfire.glb,matcap_chrome
+evtobjcampfire_matcap_bronze,캠프파이어 (브론즈),28000,0.3,액세서리,assets/models/EvtobjCampfire.glb,matcap_bronze
+evtobjcampfire_matcap_black_rubber,캠프파이어 (블랙 러버),21600,0.5,액세서리,assets/models/EvtobjCampfire.glb,matcap_black_rubber
+evtobjcampfire_matcap_red_wax,캠프파이어 (레드 왁스),23000,0.4,액세서리,assets/models/EvtobjCampfire.glb,matcap_red_wax
+evtobjcampfire_matcap_white_ceramic,캠프파이어 (화이트 세라믹),25000,0.35,액세서리,assets/models/EvtobjCampfire.glb,matcap_white_ceramic
+evtobjcampfire_matcap_blue_gloss,캠프파이어 (블루 글로시),24000,0.4,액세서리,assets/models/EvtobjCampfire.glb,matcap_blue_gloss
+evtobjcampfire_matcap_gold,캠프파이어 (골드),34000,0.1,액세서리,assets/models/EvtobjCampfire.glb,matcap_gold
+evtobjcampfire_matcap_silver_soft,캠프파이어 (소프트 실버),27000,0.3,액세서리,assets/models/EvtobjCampfire.glb,matcap_silver_soft
+evtobjcountdownstall_plastic_matte,Evtobj Countdown Stall (매트 플라스틱),15000,1,액세서리,assets/models/EvtobjCountdownStall.glb,plastic_matte
+evtobjcountdownstall_plastic_gloss,Evtobj Countdown Stall (글로시 플라스틱),16500,0.95,액세서리,assets/models/EvtobjCountdownStall.glb,plastic_gloss
+evtobjcountdownstall_rubber_soft,Evtobj Countdown Stall (소프트 러버),15800,1,액세서리,assets/models/EvtobjCountdownStall.glb,rubber_soft
+evtobjcountdownstall_ceramic_clean,Evtobj Countdown Stall (클린 세라믹),18000,0.9,액세서리,assets/models/EvtobjCountdownStall.glb,ceramic_clean
+evtobjcountdownstall_metal_brushed,Evtobj Countdown Stall (브러시드 메탈),20300,0.8,액세서리,assets/models/EvtobjCountdownStall.glb,metal_brushed
+evtobjcountdownstall_metal_polished,Evtobj Countdown Stall (폴리시드 메탈),22500,0.7,액세서리,assets/models/EvtobjCountdownStall.glb,metal_polished
+evtobjcountdownstall_paint_clearcoat,Evtobj Countdown Stall (클리어코트 페인트),19500,0.85,액세서리,assets/models/EvtobjCountdownStall.glb,paint_clearcoat
+evtobjcountdownstall_fabric_sheen,Evtobj Countdown Stall (패브릭 쉰),17300,0.95,액세서리,assets/models/EvtobjCountdownStall.glb,fabric_sheen
+evtobjcountdownstall_glass_clear,Evtobj Countdown Stall (클리어 글래스),24000,0.6,액세서리,assets/models/EvtobjCountdownStall.glb,glass_clear
+evtobjcountdownstall_resin_tinted,Evtobj Countdown Stall (틴티드 레진),21800,0.75,액세서리,assets/models/EvtobjCountdownStall.glb,resin_tinted
+evtobjcountdownstall_matcap_clay,Evtobj Countdown Stall (클레이),15800,1,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_clay
+evtobjcountdownstall_matcap_wax,Evtobj Countdown Stall (왁스),16500,0.95,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_wax
+evtobjcountdownstall_matcap_chrome,Evtobj Countdown Stall (크롬),23300,0.65,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_chrome
+evtobjcountdownstall_matcap_bronze,Evtobj Countdown Stall (브론즈),21000,0.8,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_bronze
+evtobjcountdownstall_matcap_black_rubber,Evtobj Countdown Stall (블랙 러버),16200,1,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_black_rubber
+evtobjcountdownstall_matcap_red_wax,Evtobj Countdown Stall (레드 왁스),17300,0.9,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_red_wax
+evtobjcountdownstall_matcap_white_ceramic,Evtobj Countdown Stall (화이트 세라믹),18800,0.85,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_white_ceramic
+evtobjcountdownstall_matcap_blue_gloss,Evtobj Countdown Stall (블루 글로시),18000,0.9,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_blue_gloss
+evtobjcountdownstall_matcap_gold,Evtobj Countdown Stall (골드),25500,0.5,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_gold
+evtobjcountdownstall_matcap_silver_soft,Evtobj Countdown Stall (소프트 실버),20300,0.8,액세서리,assets/models/EvtobjCountdownStall.glb,matcap_silver_soft
+evtobjfishtent_plastic_matte,Evtobj Fish Tent (매트 플라스틱),15000,1,액세서리,assets/models/EvtobjFishTent.glb,plastic_matte
+evtobjfishtent_plastic_gloss,Evtobj Fish Tent (글로시 플라스틱),16500,0.95,액세서리,assets/models/EvtobjFishTent.glb,plastic_gloss
+evtobjfishtent_rubber_soft,Evtobj Fish Tent (소프트 러버),15800,1,액세서리,assets/models/EvtobjFishTent.glb,rubber_soft
+evtobjfishtent_ceramic_clean,Evtobj Fish Tent (클린 세라믹),18000,0.9,액세서리,assets/models/EvtobjFishTent.glb,ceramic_clean
+evtobjfishtent_metal_brushed,Evtobj Fish Tent (브러시드 메탈),20300,0.8,액세서리,assets/models/EvtobjFishTent.glb,metal_brushed
+evtobjfishtent_metal_polished,Evtobj Fish Tent (폴리시드 메탈),22500,0.7,액세서리,assets/models/EvtobjFishTent.glb,metal_polished
+evtobjfishtent_paint_clearcoat,Evtobj Fish Tent (클리어코트 페인트),19500,0.85,액세서리,assets/models/EvtobjFishTent.glb,paint_clearcoat
+evtobjfishtent_fabric_sheen,Evtobj Fish Tent (패브릭 쉰),17300,0.95,액세서리,assets/models/EvtobjFishTent.glb,fabric_sheen
+evtobjfishtent_glass_clear,Evtobj Fish Tent (클리어 글래스),24000,0.6,액세서리,assets/models/EvtobjFishTent.glb,glass_clear
+evtobjfishtent_resin_tinted,Evtobj Fish Tent (틴티드 레진),21800,0.75,액세서리,assets/models/EvtobjFishTent.glb,resin_tinted
+evtobjfishtent_matcap_clay,Evtobj Fish Tent (클레이),15800,1,액세서리,assets/models/EvtobjFishTent.glb,matcap_clay
+evtobjfishtent_matcap_wax,Evtobj Fish Tent (왁스),16500,0.95,액세서리,assets/models/EvtobjFishTent.glb,matcap_wax
+evtobjfishtent_matcap_chrome,Evtobj Fish Tent (크롬),23300,0.65,액세서리,assets/models/EvtobjFishTent.glb,matcap_chrome
+evtobjfishtent_matcap_bronze,Evtobj Fish Tent (브론즈),21000,0.8,액세서리,assets/models/EvtobjFishTent.glb,matcap_bronze
+evtobjfishtent_matcap_black_rubber,Evtobj Fish Tent (블랙 러버),16200,1,액세서리,assets/models/EvtobjFishTent.glb,matcap_black_rubber
+evtobjfishtent_matcap_red_wax,Evtobj Fish Tent (레드 왁스),17300,0.9,액세서리,assets/models/EvtobjFishTent.glb,matcap_red_wax
+evtobjfishtent_matcap_white_ceramic,Evtobj Fish Tent (화이트 세라믹),18800,0.85,액세서리,assets/models/EvtobjFishTent.glb,matcap_white_ceramic
+evtobjfishtent_matcap_blue_gloss,Evtobj Fish Tent (블루 글로시),18000,0.9,액세서리,assets/models/EvtobjFishTent.glb,matcap_blue_gloss
+evtobjfishtent_matcap_gold,Evtobj Fish Tent (골드),25500,0.5,액세서리,assets/models/EvtobjFishTent.glb,matcap_gold
+evtobjfishtent_matcap_silver_soft,Evtobj Fish Tent (소프트 실버),20300,0.8,액세서리,assets/models/EvtobjFishTent.glb,matcap_silver_soft
+evtobjinsecttent_plastic_matte,Evtobj Insect Tent (매트 플라스틱),15000,1,액세서리,assets/models/EvtobjInsectTent.glb,plastic_matte
+evtobjinsecttent_plastic_gloss,Evtobj Insect Tent (글로시 플라스틱),16500,0.95,액세서리,assets/models/EvtobjInsectTent.glb,plastic_gloss
+evtobjinsecttent_rubber_soft,Evtobj Insect Tent (소프트 러버),15800,1,액세서리,assets/models/EvtobjInsectTent.glb,rubber_soft
+evtobjinsecttent_ceramic_clean,Evtobj Insect Tent (클린 세라믹),18000,0.9,액세서리,assets/models/EvtobjInsectTent.glb,ceramic_clean
+evtobjinsecttent_metal_brushed,Evtobj Insect Tent (브러시드 메탈),20300,0.8,액세서리,assets/models/EvtobjInsectTent.glb,metal_brushed
+evtobjinsecttent_metal_polished,Evtobj Insect Tent (폴리시드 메탈),22500,0.7,액세서리,assets/models/EvtobjInsectTent.glb,metal_polished
+evtobjinsecttent_paint_clearcoat,Evtobj Insect Tent (클리어코트 페인트),19500,0.85,액세서리,assets/models/EvtobjInsectTent.glb,paint_clearcoat
+evtobjinsecttent_fabric_sheen,Evtobj Insect Tent (패브릭 쉰),17300,0.95,액세서리,assets/models/EvtobjInsectTent.glb,fabric_sheen
+evtobjinsecttent_glass_clear,Evtobj Insect Tent (클리어 글래스),24000,0.6,액세서리,assets/models/EvtobjInsectTent.glb,glass_clear
+evtobjinsecttent_resin_tinted,Evtobj Insect Tent (틴티드 레진),21800,0.75,액세서리,assets/models/EvtobjInsectTent.glb,resin_tinted
+evtobjinsecttent_matcap_clay,Evtobj Insect Tent (클레이),15800,1,액세서리,assets/models/EvtobjInsectTent.glb,matcap_clay
+evtobjinsecttent_matcap_wax,Evtobj Insect Tent (왁스),16500,0.95,액세서리,assets/models/EvtobjInsectTent.glb,matcap_wax
+evtobjinsecttent_matcap_chrome,Evtobj Insect Tent (크롬),23300,0.65,액세서리,assets/models/EvtobjInsectTent.glb,matcap_chrome
+evtobjinsecttent_matcap_bronze,Evtobj Insect Tent (브론즈),21000,0.8,액세서리,assets/models/EvtobjInsectTent.glb,matcap_bronze
+evtobjinsecttent_matcap_black_rubber,Evtobj Insect Tent (블랙 러버),16200,1,액세서리,assets/models/EvtobjInsectTent.glb,matcap_black_rubber
+evtobjinsecttent_matcap_red_wax,Evtobj Insect Tent (레드 왁스),17300,0.9,액세서리,assets/models/EvtobjInsectTent.glb,matcap_red_wax
+evtobjinsecttent_matcap_white_ceramic,Evtobj Insect Tent (화이트 세라믹),18800,0.85,액세서리,assets/models/EvtobjInsectTent.glb,matcap_white_ceramic
+evtobjinsecttent_matcap_blue_gloss,Evtobj Insect Tent (블루 글로시),18000,0.9,액세서리,assets/models/EvtobjInsectTent.glb,matcap_blue_gloss
+evtobjinsecttent_matcap_gold,Evtobj Insect Tent (골드),25500,0.5,액세서리,assets/models/EvtobjInsectTent.glb,matcap_gold
+evtobjinsecttent_matcap_silver_soft,Evtobj Insect Tent (소프트 실버),20300,0.8,액세서리,assets/models/EvtobjInsectTent.glb,matcap_silver_soft
+evtobjkotono_plastic_matte,Evtobj Kotono (매트 플라스틱),15000,1,액세서리,assets/models/EvtobjKotono.glb,plastic_matte
+evtobjkotono_plastic_gloss,Evtobj Kotono (글로시 플라스틱),16500,0.95,액세서리,assets/models/EvtobjKotono.glb,plastic_gloss
+evtobjkotono_rubber_soft,Evtobj Kotono (소프트 러버),15800,1,액세서리,assets/models/EvtobjKotono.glb,rubber_soft
+evtobjkotono_ceramic_clean,Evtobj Kotono (클린 세라믹),18000,0.9,액세서리,assets/models/EvtobjKotono.glb,ceramic_clean
+evtobjkotono_metal_brushed,Evtobj Kotono (브러시드 메탈),20300,0.8,액세서리,assets/models/EvtobjKotono.glb,metal_brushed
+evtobjkotono_metal_polished,Evtobj Kotono (폴리시드 메탈),22500,0.7,액세서리,assets/models/EvtobjKotono.glb,metal_polished
+evtobjkotono_paint_clearcoat,Evtobj Kotono (클리어코트 페인트),19500,0.85,액세서리,assets/models/EvtobjKotono.glb,paint_clearcoat
+evtobjkotono_fabric_sheen,Evtobj Kotono (패브릭 쉰),17300,0.95,액세서리,assets/models/EvtobjKotono.glb,fabric_sheen
+evtobjkotono_glass_clear,Evtobj Kotono (클리어 글래스),24000,0.6,액세서리,assets/models/EvtobjKotono.glb,glass_clear
+evtobjkotono_resin_tinted,Evtobj Kotono (틴티드 레진),21800,0.75,액세서리,assets/models/EvtobjKotono.glb,resin_tinted
+evtobjkotono_matcap_clay,Evtobj Kotono (클레이),15800,1,액세서리,assets/models/EvtobjKotono.glb,matcap_clay
+evtobjkotono_matcap_wax,Evtobj Kotono (왁스),16500,0.95,액세서리,assets/models/EvtobjKotono.glb,matcap_wax
+evtobjkotono_matcap_chrome,Evtobj Kotono (크롬),23300,0.65,액세서리,assets/models/EvtobjKotono.glb,matcap_chrome
+evtobjkotono_matcap_bronze,Evtobj Kotono (브론즈),21000,0.8,액세서리,assets/models/EvtobjKotono.glb,matcap_bronze
+evtobjkotono_matcap_black_rubber,Evtobj Kotono (블랙 러버),16200,1,액세서리,assets/models/EvtobjKotono.glb,matcap_black_rubber
+evtobjkotono_matcap_red_wax,Evtobj Kotono (레드 왁스),17300,0.9,액세서리,assets/models/EvtobjKotono.glb,matcap_red_wax
+evtobjkotono_matcap_white_ceramic,Evtobj Kotono (화이트 세라믹),18800,0.85,액세서리,assets/models/EvtobjKotono.glb,matcap_white_ceramic
+evtobjkotono_matcap_blue_gloss,Evtobj Kotono (블루 글로시),18000,0.9,액세서리,assets/models/EvtobjKotono.glb,matcap_blue_gloss
+evtobjkotono_matcap_gold,Evtobj Kotono (골드),25500,0.5,액세서리,assets/models/EvtobjKotono.glb,matcap_gold
+evtobjkotono_matcap_silver_soft,Evtobj Kotono (소프트 실버),20300,0.8,액세서리,assets/models/EvtobjKotono.glb,matcap_silver_soft
+evtobjlamp_plastic_matte,Evtobj Lamp (매트 플라스틱),15000,1,액세서리,assets/models/EvtobjLamp.glb,plastic_matte
+evtobjlamp_plastic_gloss,Evtobj Lamp (글로시 플라스틱),16500,0.95,액세서리,assets/models/EvtobjLamp.glb,plastic_gloss
+evtobjlamp_rubber_soft,Evtobj Lamp (소프트 러버),15800,1,액세서리,assets/models/EvtobjLamp.glb,rubber_soft
+evtobjlamp_ceramic_clean,Evtobj Lamp (클린 세라믹),18000,0.9,액세서리,assets/models/EvtobjLamp.glb,ceramic_clean
+evtobjlamp_metal_brushed,Evtobj Lamp (브러시드 메탈),20300,0.8,액세서리,assets/models/EvtobjLamp.glb,metal_brushed
+evtobjlamp_metal_polished,Evtobj Lamp (폴리시드 메탈),22500,0.7,액세서리,assets/models/EvtobjLamp.glb,metal_polished
+evtobjlamp_paint_clearcoat,Evtobj Lamp (클리어코트 페인트),19500,0.85,액세서리,assets/models/EvtobjLamp.glb,paint_clearcoat
+evtobjlamp_fabric_sheen,Evtobj Lamp (패브릭 쉰),17300,0.95,액세서리,assets/models/EvtobjLamp.glb,fabric_sheen
+evtobjlamp_glass_clear,Evtobj Lamp (클리어 글래스),24000,0.6,액세서리,assets/models/EvtobjLamp.glb,glass_clear
+evtobjlamp_resin_tinted,Evtobj Lamp (틴티드 레진),21800,0.75,액세서리,assets/models/EvtobjLamp.glb,resin_tinted
+evtobjlamp_matcap_clay,Evtobj Lamp (클레이),15800,1,액세서리,assets/models/EvtobjLamp.glb,matcap_clay
+evtobjlamp_matcap_wax,Evtobj Lamp (왁스),16500,0.95,액세서리,assets/models/EvtobjLamp.glb,matcap_wax
+evtobjlamp_matcap_chrome,Evtobj Lamp (크롬),23300,0.65,액세서리,assets/models/EvtobjLamp.glb,matcap_chrome
+evtobjlamp_matcap_bronze,Evtobj Lamp (브론즈),21000,0.8,액세서리,assets/models/EvtobjLamp.glb,matcap_bronze
+evtobjlamp_matcap_black_rubber,Evtobj Lamp (블랙 러버),16200,1,액세서리,assets/models/EvtobjLamp.glb,matcap_black_rubber
+evtobjlamp_matcap_red_wax,Evtobj Lamp (레드 왁스),17300,0.9,액세서리,assets/models/EvtobjLamp.glb,matcap_red_wax
+evtobjlamp_matcap_white_ceramic,Evtobj Lamp (화이트 세라믹),18800,0.85,액세서리,assets/models/EvtobjLamp.glb,matcap_white_ceramic
+evtobjlamp_matcap_blue_gloss,Evtobj Lamp (블루 글로시),18000,0.9,액세서리,assets/models/EvtobjLamp.glb,matcap_blue_gloss
+evtobjlamp_matcap_gold,Evtobj Lamp (골드),25500,0.5,액세서리,assets/models/EvtobjLamp.glb,matcap_gold
+evtobjlamp_matcap_silver_soft,Evtobj Lamp (소프트 실버),20300,0.8,액세서리,assets/models/EvtobjLamp.glb,matcap_silver_soft

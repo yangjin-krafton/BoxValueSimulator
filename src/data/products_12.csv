@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+fishchouchouuo_plastic_matte,Fish Chouchouuo (매트 플라스틱),150000,0.5,액세서리,assets/models/FishChouchouuo.glb,plastic_matte
+fishchouchouuo_plastic_gloss,Fish Chouchouuo (글로시 플라스틱),165000,0.45,액세서리,assets/models/FishChouchouuo.glb,plastic_gloss
+fishchouchouuo_rubber_soft,Fish Chouchouuo (소프트 러버),157500,0.5,액세서리,assets/models/FishChouchouuo.glb,rubber_soft
+fishchouchouuo_ceramic_clean,Fish Chouchouuo (클린 세라믹),180000,0.4,액세서리,assets/models/FishChouchouuo.glb,ceramic_clean
+fishchouchouuo_metal_brushed,Fish Chouchouuo (브러시드 메탈),202500,0.3,액세서리,assets/models/FishChouchouuo.glb,metal_brushed
+fishchouchouuo_metal_polished,Fish Chouchouuo (폴리시드 메탈),225000,0.2,액세서리,assets/models/FishChouchouuo.glb,metal_polished
+fishchouchouuo_paint_clearcoat,Fish Chouchouuo (클리어코트 페인트),195000,0.35,액세서리,assets/models/FishChouchouuo.glb,paint_clearcoat
+fishchouchouuo_fabric_sheen,Fish Chouchouuo (패브릭 쉰),172500,0.45,액세서리,assets/models/FishChouchouuo.glb,fabric_sheen
+fishchouchouuo_glass_clear,Fish Chouchouuo (클리어 글래스),240000,0.1,액세서리,assets/models/FishChouchouuo.glb,glass_clear
+fishchouchouuo_resin_tinted,Fish Chouchouuo (틴티드 레진),217500,0.25,액세서리,assets/models/FishChouchouuo.glb,resin_tinted
+fishchouchouuo_matcap_clay,Fish Chouchouuo (클레이),157500,0.5,액세서리,assets/models/FishChouchouuo.glb,matcap_clay
+fishchouchouuo_matcap_wax,Fish Chouchouuo (왁스),165000,0.45,액세서리,assets/models/FishChouchouuo.glb,matcap_wax
+fishchouchouuo_matcap_chrome,Fish Chouchouuo (크롬),232500,0.15,액세서리,assets/models/FishChouchouuo.glb,matcap_chrome
+fishchouchouuo_matcap_bronze,Fish Chouchouuo (브론즈),210000,0.3,액세서리,assets/models/FishChouchouuo.glb,matcap_bronze
+fishchouchouuo_matcap_black_rubber,Fish Chouchouuo (블랙 러버),162000,0.5,액세서리,assets/models/FishChouchouuo.glb,matcap_black_rubber
+fishchouchouuo_matcap_red_wax,Fish Chouchouuo (레드 왁스),172500,0.4,액세서리,assets/models/FishChouchouuo.glb,matcap_red_wax
+fishchouchouuo_matcap_white_ceramic,Fish Chouchouuo (화이트 세라믹),187500,0.35,액세서리,assets/models/FishChouchouuo.glb,matcap_white_ceramic
+fishchouchouuo_matcap_blue_gloss,Fish Chouchouuo (블루 글로시),180000,0.4,액세서리,assets/models/FishChouchouuo.glb,matcap_blue_gloss
+fishchouchouuo_matcap_gold,Fish Chouchouuo (골드),255000,0.1,액세서리,assets/models/FishChouchouuo.glb,matcap_gold
+fishchouchouuo_matcap_silver_soft,Fish Chouchouuo (소프트 실버),202500,0.3,액세서리,assets/models/FishChouchouuo.glb,matcap_silver_soft
+fishdokutaafish_plastic_matte,Fish Dokutaafish (매트 플라스틱),85000,1.2,액세서리,assets/models/FishDokutaafish.glb,plastic_matte
+fishdokutaafish_plastic_gloss,Fish Dokutaafish (글로시 플라스틱),93500,1.15,액세서리,assets/models/FishDokutaafish.glb,plastic_gloss
+fishdokutaafish_rubber_soft,Fish Dokutaafish (소프트 러버),89300,1.2,액세서리,assets/models/FishDokutaafish.glb,rubber_soft
+fishdokutaafish_ceramic_clean,Fish Dokutaafish (클린 세라믹),102000,1.1,액세서리,assets/models/FishDokutaafish.glb,ceramic_clean
+fishdokutaafish_metal_brushed,Fish Dokutaafish (브러시드 메탈),114800,1,액세서리,assets/models/FishDokutaafish.glb,metal_brushed
+fishdokutaafish_metal_polished,Fish Dokutaafish (폴리시드 메탈),127500,0.9,액세서리,assets/models/FishDokutaafish.glb,metal_polished
+fishdokutaafish_paint_clearcoat,Fish Dokutaafish (클리어코트 페인트),110500,1.05,액세서리,assets/models/FishDokutaafish.glb,paint_clearcoat
+fishdokutaafish_fabric_sheen,Fish Dokutaafish (패브릭 쉰),97700,1.15,액세서리,assets/models/FishDokutaafish.glb,fabric_sheen
+fishdokutaafish_glass_clear,Fish Dokutaafish (클리어 글래스),136000,0.8,액세서리,assets/models/FishDokutaafish.glb,glass_clear
+fishdokutaafish_resin_tinted,Fish Dokutaafish (틴티드 레진),123300,0.95,액세서리,assets/models/FishDokutaafish.glb,resin_tinted
+fishdokutaafish_matcap_clay,Fish Dokutaafish (클레이),89300,1.2,액세서리,assets/models/FishDokutaafish.glb,matcap_clay
+fishdokutaafish_matcap_wax,Fish Dokutaafish (왁스),93500,1.15,액세서리,assets/models/FishDokutaafish.glb,matcap_wax
+fishdokutaafish_matcap_chrome,Fish Dokutaafish (크롬),131800,0.85,액세서리,assets/models/FishDokutaafish.glb,matcap_chrome
+fishdokutaafish_matcap_bronze,Fish Dokutaafish (브론즈),119000,1,액세서리,assets/models/FishDokutaafish.glb,matcap_bronze
+fishdokutaafish_matcap_black_rubber,Fish Dokutaafish (블랙 러버),91800,1.2,액세서리,assets/models/FishDokutaafish.glb,matcap_black_rubber
+fishdokutaafish_matcap_red_wax,Fish Dokutaafish (레드 왁스),97700,1.1,액세서리,assets/models/FishDokutaafish.glb,matcap_red_wax
+fishdokutaafish_matcap_white_ceramic,Fish Dokutaafish (화이트 세라믹),106300,1.05,액세서리,assets/models/FishDokutaafish.glb,matcap_white_ceramic
+fishdokutaafish_matcap_blue_gloss,Fish Dokutaafish (블루 글로시),102000,1.1,액세서리,assets/models/FishDokutaafish.glb,matcap_blue_gloss
+fishdokutaafish_matcap_gold,Fish Dokutaafish (골드),144500,0.7,액세서리,assets/models/FishDokutaafish.glb,matcap_gold
+fishdokutaafish_matcap_silver_soft,Fish Dokutaafish (소프트 실버),114800,1,액세서리,assets/models/FishDokutaafish.glb,matcap_silver_soft
+fishdolado_plastic_matte,Fish Dolado (매트 플라스틱),120000,0.8,액세서리,assets/models/FishDolado.glb,plastic_matte
+fishdolado_plastic_gloss,Fish Dolado (글로시 플라스틱),132000,0.75,액세서리,assets/models/FishDolado.glb,plastic_gloss
+fishdolado_rubber_soft,Fish Dolado (소프트 러버),126000,0.8,액세서리,assets/models/FishDolado.glb,rubber_soft
+fishdolado_ceramic_clean,Fish Dolado (클린 세라믹),144000,0.7,액세서리,assets/models/FishDolado.glb,ceramic_clean
+fishdolado_metal_brushed,Fish Dolado (브러시드 메탈),162000,0.6,액세서리,assets/models/FishDolado.glb,metal_brushed
+fishdolado_metal_polished,Fish Dolado (폴리시드 메탈),180000,0.5,액세서리,assets/models/FishDolado.glb,metal_polished
+fishdolado_paint_clearcoat,Fish Dolado (클리어코트 페인트),156000,0.65,액세서리,assets/models/FishDolado.glb,paint_clearcoat
+fishdolado_fabric_sheen,Fish Dolado (패브릭 쉰),138000,0.75,액세서리,assets/models/FishDolado.glb,fabric_sheen
+fishdolado_glass_clear,Fish Dolado (클리어 글래스),192000,0.4,액세서리,assets/models/FishDolado.glb,glass_clear
+fishdolado_resin_tinted,Fish Dolado (틴티드 레진),174000,0.55,액세서리,assets/models/FishDolado.glb,resin_tinted
+fishdolado_matcap_clay,Fish Dolado (클레이),126000,0.8,액세서리,assets/models/FishDolado.glb,matcap_clay
+fishdolado_matcap_wax,Fish Dolado (왁스),132000,0.75,액세서리,assets/models/FishDolado.glb,matcap_wax
+fishdolado_matcap_chrome,Fish Dolado (크롬),186000,0.45,액세서리,assets/models/FishDolado.glb,matcap_chrome
+fishdolado_matcap_bronze,Fish Dolado (브론즈),168000,0.6,액세서리,assets/models/FishDolado.glb,matcap_bronze
+fishdolado_matcap_black_rubber,Fish Dolado (블랙 러버),129600,0.8,액세서리,assets/models/FishDolado.glb,matcap_black_rubber
+fishdolado_matcap_red_wax,Fish Dolado (레드 왁스),138000,0.7,액세서리,assets/models/FishDolado.glb,matcap_red_wax
+fishdolado_matcap_white_ceramic,Fish Dolado (화이트 세라믹),150000,0.65,액세서리,assets/models/FishDolado.glb,matcap_white_ceramic
+fishdolado_matcap_blue_gloss,Fish Dolado (블루 글로시),144000,0.7,액세서리,assets/models/FishDolado.glb,matcap_blue_gloss
+fishdolado_matcap_gold,Fish Dolado (골드),204000,0.3,액세서리,assets/models/FishDolado.glb,matcap_gold
+fishdolado_matcap_silver_soft,Fish Dolado (소프트 실버),162000,0.6,액세서리,assets/models/FishDolado.glb,matcap_silver_soft
+fishdonko_plastic_matte,Fish Donko (매트 플라스틱),95000,1,액세서리,assets/models/FishDonko.glb,plastic_matte
+fishdonko_plastic_gloss,Fish Donko (글로시 플라스틱),104500,0.95,액세서리,assets/models/FishDonko.glb,plastic_gloss
+fishdonko_rubber_soft,Fish Donko (소프트 러버),99800,1,액세서리,assets/models/FishDonko.glb,rubber_soft
+fishdonko_ceramic_clean,Fish Donko (클린 세라믹),114000,0.9,액세서리,assets/models/FishDonko.glb,ceramic_clean
+fishdonko_metal_brushed,Fish Donko (브러시드 메탈),128300,0.8,액세서리,assets/models/FishDonko.glb,metal_brushed
+fishdonko_metal_polished,Fish Donko (폴리시드 메탈),142500,0.7,액세서리,assets/models/FishDonko.glb,metal_polished
+fishdonko_paint_clearcoat,Fish Donko (클리어코트 페인트),123500,0.85,액세서리,assets/models/FishDonko.glb,paint_clearcoat
+fishdonko_fabric_sheen,Fish Donko (패브릭 쉰),109200,0.95,액세서리,assets/models/FishDonko.glb,fabric_sheen
+fishdonko_glass_clear,Fish Donko (클리어 글래스),152000,0.6,액세서리,assets/models/FishDonko.glb,glass_clear
+fishdonko_resin_tinted,Fish Donko (틴티드 레진),137800,0.75,액세서리,assets/models/FishDonko.glb,resin_tinted
+fishdonko_matcap_clay,Fish Donko (클레이),99800,1,액세서리,assets/models/FishDonko.glb,matcap_clay
+fishdonko_matcap_wax,Fish Donko (왁스),104500,0.95,액세서리,assets/models/FishDonko.glb,matcap_wax
+fishdonko_matcap_chrome,Fish Donko (크롬),147300,0.65,액세서리,assets/models/FishDonko.glb,matcap_chrome
+fishdonko_matcap_bronze,Fish Donko (브론즈),133000,0.8,액세서리,assets/models/FishDonko.glb,matcap_bronze
+fishdonko_matcap_black_rubber,Fish Donko (블랙 러버),102600,1,액세서리,assets/models/FishDonko.glb,matcap_black_rubber
+fishdonko_matcap_red_wax,Fish Donko (레드 왁스),109200,0.9,액세서리,assets/models/FishDonko.glb,matcap_red_wax
+fishdonko_matcap_white_ceramic,Fish Donko (화이트 세라믹),118800,0.85,액세서리,assets/models/FishDonko.glb,matcap_white_ceramic
+fishdonko_matcap_blue_gloss,Fish Donko (블루 글로시),114000,0.9,액세서리,assets/models/FishDonko.glb,matcap_blue_gloss
+fishdonko_matcap_gold,Fish Donko (골드),161500,0.5,액세서리,assets/models/FishDonko.glb,matcap_gold
+fishdonko_matcap_silver_soft,Fish Donko (소프트 실버),128300,0.8,액세서리,assets/models/FishDonko.glb,matcap_silver_soft
+fishei_plastic_matte,Fish Ei (매트 플라스틱),180000,0.3,액세서리,assets/models/FishEi.glb,plastic_matte
+fishei_plastic_gloss,Fish Ei (글로시 플라스틱),198000,0.25,액세서리,assets/models/FishEi.glb,plastic_gloss
+fishei_rubber_soft,Fish Ei (소프트 러버),189000,0.3,액세서리,assets/models/FishEi.glb,rubber_soft
+fishei_ceramic_clean,Fish Ei (클린 세라믹),216000,0.2,액세서리,assets/models/FishEi.glb,ceramic_clean
+fishei_metal_brushed,Fish Ei (브러시드 메탈),243000,0.1,액세서리,assets/models/FishEi.glb,metal_brushed
+fishei_metal_polished,Fish Ei (폴리시드 메탈),270000,0.1,액세서리,assets/models/FishEi.glb,metal_polished
+fishei_paint_clearcoat,Fish Ei (클리어코트 페인트),234000,0.15,액세서리,assets/models/FishEi.glb,paint_clearcoat
+fishei_fabric_sheen,Fish Ei (패브릭 쉰),207000,0.25,액세서리,assets/models/FishEi.glb,fabric_sheen
+fishei_glass_clear,Fish Ei (클리어 글래스),288000,0.1,액세서리,assets/models/FishEi.glb,glass_clear
+fishei_resin_tinted,Fish Ei (틴티드 레진),261000,0.1,액세서리,assets/models/FishEi.glb,resin_tinted
+fishei_matcap_clay,Fish Ei (클레이),189000,0.3,액세서리,assets/models/FishEi.glb,matcap_clay
+fishei_matcap_wax,Fish Ei (왁스),198000,0.25,액세서리,assets/models/FishEi.glb,matcap_wax
+fishei_matcap_chrome,Fish Ei (크롬),279000,0.1,액세서리,assets/models/FishEi.glb,matcap_chrome
+fishei_matcap_bronze,Fish Ei (브론즈),252000,0.1,액세서리,assets/models/FishEi.glb,matcap_bronze
+fishei_matcap_black_rubber,Fish Ei (블랙 러버),194400,0.3,액세서리,assets/models/FishEi.glb,matcap_black_rubber
+fishei_matcap_red_wax,Fish Ei (레드 왁스),207000,0.2,액세서리,assets/models/FishEi.glb,matcap_red_wax
+fishei_matcap_white_ceramic,Fish Ei (화이트 세라믹),225000,0.15,액세서리,assets/models/FishEi.glb,matcap_white_ceramic
+fishei_matcap_blue_gloss,Fish Ei (블루 글로시),216000,0.2,액세서리,assets/models/FishEi.glb,matcap_blue_gloss
+fishei_matcap_gold,Fish Ei (골드),306000,0.1,액세서리,assets/models/FishEi.glb,matcap_gold
+fishei_matcap_silver_soft,Fish Ei (소프트 실버),243000,0.1,액세서리,assets/models/FishEi.glb,matcap_silver_soft
+fishgoldentorauto_plastic_matte,Fish Golden Torauto (매트 플라스틱),15000,1,액세서리,assets/models/FishGoldenTorauto.glb,plastic_matte
+fishgoldentorauto_plastic_gloss,Fish Golden Torauto (글로시 플라스틱),16500,0.95,액세서리,assets/models/FishGoldenTorauto.glb,plastic_gloss
+fishgoldentorauto_rubber_soft,Fish Golden Torauto (소프트 러버),15800,1,액세서리,assets/models/FishGoldenTorauto.glb,rubber_soft
+fishgoldentorauto_ceramic_clean,Fish Golden Torauto (클린 세라믹),18000,0.9,액세서리,assets/models/FishGoldenTorauto.glb,ceramic_clean
+fishgoldentorauto_metal_brushed,Fish Golden Torauto (브러시드 메탈),20300,0.8,액세서리,assets/models/FishGoldenTorauto.glb,metal_brushed
+fishgoldentorauto_metal_polished,Fish Golden Torauto (폴리시드 메탈),22500,0.7,액세서리,assets/models/FishGoldenTorauto.glb,metal_polished
+fishgoldentorauto_paint_clearcoat,Fish Golden Torauto (클리어코트 페인트),19500,0.85,액세서리,assets/models/FishGoldenTorauto.glb,paint_clearcoat
+fishgoldentorauto_fabric_sheen,Fish Golden Torauto (패브릭 쉰),17300,0.95,액세서리,assets/models/FishGoldenTorauto.glb,fabric_sheen
+fishgoldentorauto_glass_clear,Fish Golden Torauto (클리어 글래스),24000,0.6,액세서리,assets/models/FishGoldenTorauto.glb,glass_clear
+fishgoldentorauto_resin_tinted,Fish Golden Torauto (틴티드 레진),21800,0.75,액세서리,assets/models/FishGoldenTorauto.glb,resin_tinted
+fishgoldentorauto_matcap_clay,Fish Golden Torauto (클레이),15800,1,액세서리,assets/models/FishGoldenTorauto.glb,matcap_clay
+fishgoldentorauto_matcap_wax,Fish Golden Torauto (왁스),16500,0.95,액세서리,assets/models/FishGoldenTorauto.glb,matcap_wax
+fishgoldentorauto_matcap_chrome,Fish Golden Torauto (크롬),23300,0.65,액세서리,assets/models/FishGoldenTorauto.glb,matcap_chrome
+fishgoldentorauto_matcap_bronze,Fish Golden Torauto (브론즈),21000,0.8,액세서리,assets/models/FishGoldenTorauto.glb,matcap_bronze
+fishgoldentorauto_matcap_black_rubber,Fish Golden Torauto (블랙 러버),16200,1,액세서리,assets/models/FishGoldenTorauto.glb,matcap_black_rubber
+fishgoldentorauto_matcap_red_wax,Fish Golden Torauto (레드 왁스),17300,0.9,액세서리,assets/models/FishGoldenTorauto.glb,matcap_red_wax
+fishgoldentorauto_matcap_white_ceramic,Fish Golden Torauto (화이트 세라믹),18800,0.85,액세서리,assets/models/FishGoldenTorauto.glb,matcap_white_ceramic
+fishgoldentorauto_matcap_blue_gloss,Fish Golden Torauto (블루 글로시),18000,0.9,액세서리,assets/models/FishGoldenTorauto.glb,matcap_blue_gloss
+fishgoldentorauto_matcap_gold,Fish Golden Torauto (골드),25500,0.5,액세서리,assets/models/FishGoldenTorauto.glb,matcap_gold
+fishgoldentorauto_matcap_silver_soft,Fish Golden Torauto (소프트 실버),20300,0.8,액세서리,assets/models/FishGoldenTorauto.glb,matcap_silver_soft
+fishhirame_plastic_matte,Fish Hirame (매트 플라스틱),15000,1,액세서리,assets/models/FishHirame.glb,plastic_matte
+fishhirame_plastic_gloss,Fish Hirame (글로시 플라스틱),16500,0.95,액세서리,assets/models/FishHirame.glb,plastic_gloss
+fishhirame_rubber_soft,Fish Hirame (소프트 러버),15800,1,액세서리,assets/models/FishHirame.glb,rubber_soft
+fishhirame_ceramic_clean,Fish Hirame (클린 세라믹),18000,0.9,액세서리,assets/models/FishHirame.glb,ceramic_clean
+fishhirame_metal_brushed,Fish Hirame (브러시드 메탈),20300,0.8,액세서리,assets/models/FishHirame.glb,metal_brushed
+fishhirame_metal_polished,Fish Hirame (폴리시드 메탈),22500,0.7,액세서리,assets/models/FishHirame.glb,metal_polished
+fishhirame_paint_clearcoat,Fish Hirame (클리어코트 페인트),19500,0.85,액세서리,assets/models/FishHirame.glb,paint_clearcoat
+fishhirame_fabric_sheen,Fish Hirame (패브릭 쉰),17300,0.95,액세서리,assets/models/FishHirame.glb,fabric_sheen
+fishhirame_glass_clear,Fish Hirame (클리어 글래스),24000,0.6,액세서리,assets/models/FishHirame.glb,glass_clear
+fishhirame_resin_tinted,Fish Hirame (틴티드 레진),21800,0.75,액세서리,assets/models/FishHirame.glb,resin_tinted
+fishhirame_matcap_clay,Fish Hirame (클레이),15800,1,액세서리,assets/models/FishHirame.glb,matcap_clay
+fishhirame_matcap_wax,Fish Hirame (왁스),16500,0.95,액세서리,assets/models/FishHirame.glb,matcap_wax
+fishhirame_matcap_chrome,Fish Hirame (크롬),23300,0.65,액세서리,assets/models/FishHirame.glb,matcap_chrome
+fishhirame_matcap_bronze,Fish Hirame (브론즈),21000,0.8,액세서리,assets/models/FishHirame.glb,matcap_bronze
+fishhirame_matcap_black_rubber,Fish Hirame (블랙 러버),16200,1,액세서리,assets/models/FishHirame.glb,matcap_black_rubber
+fishhirame_matcap_red_wax,Fish Hirame (레드 왁스),17300,0.9,액세서리,assets/models/FishHirame.glb,matcap_red_wax
+fishhirame_matcap_white_ceramic,Fish Hirame (화이트 세라믹),18800,0.85,액세서리,assets/models/FishHirame.glb,matcap_white_ceramic
+fishhirame_matcap_blue_gloss,Fish Hirame (블루 글로시),18000,0.9,액세서리,assets/models/FishHirame.glb,matcap_blue_gloss
+fishhirame_matcap_gold,Fish Hirame (골드),25500,0.5,액세서리,assets/models/FishHirame.glb,matcap_gold
+fishhirame_matcap_silver_soft,Fish Hirame (소프트 실버),20300,0.8,액세서리,assets/models/FishHirame.glb,matcap_silver_soft
+fishishidai_plastic_matte,Fish Ishidai (매트 플라스틱),15000,1,액세서리,assets/models/FishIshidai.glb,plastic_matte
+fishishidai_plastic_gloss,Fish Ishidai (글로시 플라스틱),16500,0.95,액세서리,assets/models/FishIshidai.glb,plastic_gloss
+fishishidai_rubber_soft,Fish Ishidai (소프트 러버),15800,1,액세서리,assets/models/FishIshidai.glb,rubber_soft
+fishishidai_ceramic_clean,Fish Ishidai (클린 세라믹),18000,0.9,액세서리,assets/models/FishIshidai.glb,ceramic_clean
+fishishidai_metal_brushed,Fish Ishidai (브러시드 메탈),20300,0.8,액세서리,assets/models/FishIshidai.glb,metal_brushed
+fishishidai_metal_polished,Fish Ishidai (폴리시드 메탈),22500,0.7,액세서리,assets/models/FishIshidai.glb,metal_polished
+fishishidai_paint_clearcoat,Fish Ishidai (클리어코트 페인트),19500,0.85,액세서리,assets/models/FishIshidai.glb,paint_clearcoat
+fishishidai_fabric_sheen,Fish Ishidai (패브릭 쉰),17300,0.95,액세서리,assets/models/FishIshidai.glb,fabric_sheen
+fishishidai_glass_clear,Fish Ishidai (클리어 글래스),24000,0.6,액세서리,assets/models/FishIshidai.glb,glass_clear
+fishishidai_resin_tinted,Fish Ishidai (틴티드 레진),21800,0.75,액세서리,assets/models/FishIshidai.glb,resin_tinted
+fishishidai_matcap_clay,Fish Ishidai (클레이),15800,1,액세서리,assets/models/FishIshidai.glb,matcap_clay
+fishishidai_matcap_wax,Fish Ishidai (왁스),16500,0.95,액세서리,assets/models/FishIshidai.glb,matcap_wax
+fishishidai_matcap_chrome,Fish Ishidai (크롬),23300,0.65,액세서리,assets/models/FishIshidai.glb,matcap_chrome
+fishishidai_matcap_bronze,Fish Ishidai (브론즈),21000,0.8,액세서리,assets/models/FishIshidai.glb,matcap_bronze
+fishishidai_matcap_black_rubber,Fish Ishidai (블랙 러버),16200,1,액세서리,assets/models/FishIshidai.glb,matcap_black_rubber
+fishishidai_matcap_red_wax,Fish Ishidai (레드 왁스),17300,0.9,액세서리,assets/models/FishIshidai.glb,matcap_red_wax
+fishishidai_matcap_white_ceramic,Fish Ishidai (화이트 세라믹),18800,0.85,액세서리,assets/models/FishIshidai.glb,matcap_white_ceramic
+fishishidai_matcap_blue_gloss,Fish Ishidai (블루 글로시),18000,0.9,액세서리,assets/models/FishIshidai.glb,matcap_blue_gloss
+fishishidai_matcap_gold,Fish Ishidai (골드),25500,0.5,액세서리,assets/models/FishIshidai.glb,matcap_gold
+fishishidai_matcap_silver_soft,Fish Ishidai (소프트 실버),20300,0.8,액세서리,assets/models/FishIshidai.glb,matcap_silver_soft
+fishkingyo_plastic_matte,Fish Kingyo (매트 플라스틱),15000,1,액세서리,assets/models/FishKingyo.glb,plastic_matte
+fishkingyo_plastic_gloss,Fish Kingyo (글로시 플라스틱),16500,0.95,액세서리,assets/models/FishKingyo.glb,plastic_gloss
+fishkingyo_rubber_soft,Fish Kingyo (소프트 러버),15800,1,액세서리,assets/models/FishKingyo.glb,rubber_soft
+fishkingyo_ceramic_clean,Fish Kingyo (클린 세라믹),18000,0.9,액세서리,assets/models/FishKingyo.glb,ceramic_clean
+fishkingyo_metal_brushed,Fish Kingyo (브러시드 메탈),20300,0.8,액세서리,assets/models/FishKingyo.glb,metal_brushed
+fishkingyo_metal_polished,Fish Kingyo (폴리시드 메탈),22500,0.7,액세서리,assets/models/FishKingyo.glb,metal_polished
+fishkingyo_paint_clearcoat,Fish Kingyo (클리어코트 페인트),19500,0.85,액세서리,assets/models/FishKingyo.glb,paint_clearcoat
+fishkingyo_fabric_sheen,Fish Kingyo (패브릭 쉰),17300,0.95,액세서리,assets/models/FishKingyo.glb,fabric_sheen
+fishkingyo_glass_clear,Fish Kingyo (클리어 글래스),24000,0.6,액세서리,assets/models/FishKingyo.glb,glass_clear
+fishkingyo_resin_tinted,Fish Kingyo (틴티드 레진),21800,0.75,액세서리,assets/models/FishKingyo.glb,resin_tinted
+fishkingyo_matcap_clay,Fish Kingyo (클레이),15800,1,액세서리,assets/models/FishKingyo.glb,matcap_clay
+fishkingyo_matcap_wax,Fish Kingyo (왁스),16500,0.95,액세서리,assets/models/FishKingyo.glb,matcap_wax
+fishkingyo_matcap_chrome,Fish Kingyo (크롬),23300,0.65,액세서리,assets/models/FishKingyo.glb,matcap_chrome
+fishkingyo_matcap_bronze,Fish Kingyo (브론즈),21000,0.8,액세서리,assets/models/FishKingyo.glb,matcap_bronze
+fishkingyo_matcap_black_rubber,Fish Kingyo (블랙 러버),16200,1,액세서리,assets/models/FishKingyo.glb,matcap_black_rubber
+fishkingyo_matcap_red_wax,Fish Kingyo (레드 왁스),17300,0.9,액세서리,assets/models/FishKingyo.glb,matcap_red_wax
+fishkingyo_matcap_white_ceramic,Fish Kingyo (화이트 세라믹),18800,0.85,액세서리,assets/models/FishKingyo.glb,matcap_white_ceramic
+fishkingyo_matcap_blue_gloss,Fish Kingyo (블루 글로시),18000,0.9,액세서리,assets/models/FishKingyo.glb,matcap_blue_gloss
+fishkingyo_matcap_gold,Fish Kingyo (골드),25500,0.5,액세서리,assets/models/FishKingyo.glb,matcap_gold
+fishkingyo_matcap_silver_soft,Fish Kingyo (소프트 실버),20300,0.8,액세서리,assets/models/FishKingyo.glb,matcap_silver_soft
+fishmanbou_plastic_matte,Fish Manbou (매트 플라스틱),15000,1,액세서리,assets/models/FishManbou.glb,plastic_matte
+fishmanbou_plastic_gloss,Fish Manbou (글로시 플라스틱),16500,0.95,액세서리,assets/models/FishManbou.glb,plastic_gloss
+fishmanbou_rubber_soft,Fish Manbou (소프트 러버),15800,1,액세서리,assets/models/FishManbou.glb,rubber_soft
+fishmanbou_ceramic_clean,Fish Manbou (클린 세라믹),18000,0.9,액세서리,assets/models/FishManbou.glb,ceramic_clean
+fishmanbou_metal_brushed,Fish Manbou (브러시드 메탈),20300,0.8,액세서리,assets/models/FishManbou.glb,metal_brushed
+fishmanbou_metal_polished,Fish Manbou (폴리시드 메탈),22500,0.7,액세서리,assets/models/FishManbou.glb,metal_polished
+fishmanbou_paint_clearcoat,Fish Manbou (클리어코트 페인트),19500,0.85,액세서리,assets/models/FishManbou.glb,paint_clearcoat
+fishmanbou_fabric_sheen,Fish Manbou (패브릭 쉰),17300,0.95,액세서리,assets/models/FishManbou.glb,fabric_sheen
+fishmanbou_glass_clear,Fish Manbou (클리어 글래스),24000,0.6,액세서리,assets/models/FishManbou.glb,glass_clear
+fishmanbou_resin_tinted,Fish Manbou (틴티드 레진),21800,0.75,액세서리,assets/models/FishManbou.glb,resin_tinted
+fishmanbou_matcap_clay,Fish Manbou (클레이),15800,1,액세서리,assets/models/FishManbou.glb,matcap_clay
+fishmanbou_matcap_wax,Fish Manbou (왁스),16500,0.95,액세서리,assets/models/FishManbou.glb,matcap_wax
+fishmanbou_matcap_chrome,Fish Manbou (크롬),23300,0.65,액세서리,assets/models/FishManbou.glb,matcap_chrome
+fishmanbou_matcap_bronze,Fish Manbou (브론즈),21000,0.8,액세서리,assets/models/FishManbou.glb,matcap_bronze
+fishmanbou_matcap_black_rubber,Fish Manbou (블랙 러버),16200,1,액세서리,assets/models/FishManbou.glb,matcap_black_rubber
+fishmanbou_matcap_red_wax,Fish Manbou (레드 왁스),17300,0.9,액세서리,assets/models/FishManbou.glb,matcap_red_wax
+fishmanbou_matcap_white_ceramic,Fish Manbou (화이트 세라믹),18800,0.85,액세서리,assets/models/FishManbou.glb,matcap_white_ceramic
+fishmanbou_matcap_blue_gloss,Fish Manbou (블루 글로시),18000,0.9,액세서리,assets/models/FishManbou.glb,matcap_blue_gloss
+fishmanbou_matcap_gold,Fish Manbou (골드),25500,0.5,액세서리,assets/models/FishManbou.glb,matcap_gold
+fishmanbou_matcap_silver_soft,Fish Manbou (소프트 실버),20300,0.8,액세서리,assets/models/FishManbou.glb,matcap_silver_soft

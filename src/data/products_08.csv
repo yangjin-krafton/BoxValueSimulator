@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+caphelmetpilot0_plastic_matte,파일럿 헬멧 (매트 플라스틱),55000,1.8,고글,assets/models/CapHelmetPilot0.glb,plastic_matte
+caphelmetpilot0_plastic_gloss,파일럿 헬멧 (글로시 플라스틱),60500,1.75,고글,assets/models/CapHelmetPilot0.glb,plastic_gloss
+caphelmetpilot0_rubber_soft,파일럿 헬멧 (소프트 러버),57800,1.8,고글,assets/models/CapHelmetPilot0.glb,rubber_soft
+caphelmetpilot0_ceramic_clean,파일럿 헬멧 (클린 세라믹),66000,1.7,고글,assets/models/CapHelmetPilot0.glb,ceramic_clean
+caphelmetpilot0_metal_brushed,파일럿 헬멧 (브러시드 메탈),74300,1.6,고글,assets/models/CapHelmetPilot0.glb,metal_brushed
+caphelmetpilot0_metal_polished,파일럿 헬멧 (폴리시드 메탈),82500,1.5,고글,assets/models/CapHelmetPilot0.glb,metal_polished
+caphelmetpilot0_paint_clearcoat,파일럿 헬멧 (클리어코트 페인트),71500,1.65,고글,assets/models/CapHelmetPilot0.glb,paint_clearcoat
+caphelmetpilot0_fabric_sheen,파일럿 헬멧 (패브릭 쉰),63200,1.75,고글,assets/models/CapHelmetPilot0.glb,fabric_sheen
+caphelmetpilot0_glass_clear,파일럿 헬멧 (클리어 글래스),88000,1.4,고글,assets/models/CapHelmetPilot0.glb,glass_clear
+caphelmetpilot0_resin_tinted,파일럿 헬멧 (틴티드 레진),79800,1.55,고글,assets/models/CapHelmetPilot0.glb,resin_tinted
+caphelmetpilot0_matcap_clay,파일럿 헬멧 (클레이),57800,1.8,고글,assets/models/CapHelmetPilot0.glb,matcap_clay
+caphelmetpilot0_matcap_wax,파일럿 헬멧 (왁스),60500,1.75,고글,assets/models/CapHelmetPilot0.glb,matcap_wax
+caphelmetpilot0_matcap_chrome,파일럿 헬멧 (크롬),85300,1.45,고글,assets/models/CapHelmetPilot0.glb,matcap_chrome
+caphelmetpilot0_matcap_bronze,파일럿 헬멧 (브론즈),77000,1.6,고글,assets/models/CapHelmetPilot0.glb,matcap_bronze
+caphelmetpilot0_matcap_black_rubber,파일럿 헬멧 (블랙 러버),59400,1.8,고글,assets/models/CapHelmetPilot0.glb,matcap_black_rubber
+caphelmetpilot0_matcap_red_wax,파일럿 헬멧 (레드 왁스),63200,1.7,고글,assets/models/CapHelmetPilot0.glb,matcap_red_wax
+caphelmetpilot0_matcap_white_ceramic,파일럿 헬멧 (화이트 세라믹),68800,1.65,고글,assets/models/CapHelmetPilot0.glb,matcap_white_ceramic
+caphelmetpilot0_matcap_blue_gloss,파일럿 헬멧 (블루 글로시),66000,1.7,고글,assets/models/CapHelmetPilot0.glb,matcap_blue_gloss
+caphelmetpilot0_matcap_gold,파일럿 헬멧 (골드),93500,1.3,고글,assets/models/CapHelmetPilot0.glb,matcap_gold
+caphelmetpilot0_matcap_silver_soft,파일럿 헬멧 (소프트 실버),74300,1.6,고글,assets/models/CapHelmetPilot0.glb,matcap_silver_soft
+caphelmetturban0_plastic_matte,투르반 헬멧 (매트 플라스틱),180000,0.5,액세서리,assets/models/CapHelmetTurban0.glb,plastic_matte
+caphelmetturban0_plastic_gloss,투르반 헬멧 (글로시 플라스틱),198000,0.45,액세서리,assets/models/CapHelmetTurban0.glb,plastic_gloss
+caphelmetturban0_rubber_soft,투르반 헬멧 (소프트 러버),189000,0.5,액세서리,assets/models/CapHelmetTurban0.glb,rubber_soft
+caphelmetturban0_ceramic_clean,투르반 헬멧 (클린 세라믹),216000,0.4,액세서리,assets/models/CapHelmetTurban0.glb,ceramic_clean
+caphelmetturban0_metal_brushed,투르반 헬멧 (브러시드 메탈),243000,0.3,액세서리,assets/models/CapHelmetTurban0.glb,metal_brushed
+caphelmetturban0_metal_polished,투르반 헬멧 (폴리시드 메탈),270000,0.2,액세서리,assets/models/CapHelmetTurban0.glb,metal_polished
+caphelmetturban0_paint_clearcoat,투르반 헬멧 (클리어코트 페인트),234000,0.35,액세서리,assets/models/CapHelmetTurban0.glb,paint_clearcoat
+caphelmetturban0_fabric_sheen,투르반 헬멧 (패브릭 쉰),207000,0.45,액세서리,assets/models/CapHelmetTurban0.glb,fabric_sheen
+caphelmetturban0_glass_clear,투르반 헬멧 (클리어 글래스),288000,0.1,액세서리,assets/models/CapHelmetTurban0.glb,glass_clear
+caphelmetturban0_resin_tinted,투르반 헬멧 (틴티드 레진),261000,0.25,액세서리,assets/models/CapHelmetTurban0.glb,resin_tinted
+caphelmetturban0_matcap_clay,투르반 헬멧 (클레이),189000,0.5,액세서리,assets/models/CapHelmetTurban0.glb,matcap_clay
+caphelmetturban0_matcap_wax,투르반 헬멧 (왁스),198000,0.45,액세서리,assets/models/CapHelmetTurban0.glb,matcap_wax
+caphelmetturban0_matcap_chrome,투르반 헬멧 (크롬),279000,0.15,액세서리,assets/models/CapHelmetTurban0.glb,matcap_chrome
+caphelmetturban0_matcap_bronze,투르반 헬멧 (브론즈),252000,0.3,액세서리,assets/models/CapHelmetTurban0.glb,matcap_bronze
+caphelmetturban0_matcap_black_rubber,투르반 헬멧 (블랙 러버),194400,0.5,액세서리,assets/models/CapHelmetTurban0.glb,matcap_black_rubber
+caphelmetturban0_matcap_red_wax,투르반 헬멧 (레드 왁스),207000,0.4,액세서리,assets/models/CapHelmetTurban0.glb,matcap_red_wax
+caphelmetturban0_matcap_white_ceramic,투르반 헬멧 (화이트 세라믹),225000,0.35,액세서리,assets/models/CapHelmetTurban0.glb,matcap_white_ceramic
+caphelmetturban0_matcap_blue_gloss,투르반 헬멧 (블루 글로시),216000,0.4,액세서리,assets/models/CapHelmetTurban0.glb,matcap_blue_gloss
+caphelmetturban0_matcap_gold,투르반 헬멧 (골드),306000,0.1,액세서리,assets/models/CapHelmetTurban0.glb,matcap_gold
+caphelmetturban0_matcap_silver_soft,투르반 헬멧 (소프트 실버),243000,0.3,액세서리,assets/models/CapHelmetTurban0.glb,matcap_silver_soft
+capmaskfox0_plastic_matte,여우 가면 (매트 플라스틱),120000,0.7,마스크,assets/models/CapMaskFox0.glb,plastic_matte
+capmaskfox0_plastic_gloss,여우 가면 (글로시 플라스틱),132000,0.65,마스크,assets/models/CapMaskFox0.glb,plastic_gloss
+capmaskfox0_rubber_soft,여우 가면 (소프트 러버),126000,0.7,마스크,assets/models/CapMaskFox0.glb,rubber_soft
+capmaskfox0_ceramic_clean,여우 가면 (클린 세라믹),144000,0.6,마스크,assets/models/CapMaskFox0.glb,ceramic_clean
+capmaskfox0_metal_brushed,여우 가면 (브러시드 메탈),162000,0.5,마스크,assets/models/CapMaskFox0.glb,metal_brushed
+capmaskfox0_metal_polished,여우 가면 (폴리시드 메탈),180000,0.4,마스크,assets/models/CapMaskFox0.glb,metal_polished
+capmaskfox0_paint_clearcoat,여우 가면 (클리어코트 페인트),156000,0.55,마스크,assets/models/CapMaskFox0.glb,paint_clearcoat
+capmaskfox0_fabric_sheen,여우 가면 (패브릭 쉰),138000,0.65,마스크,assets/models/CapMaskFox0.glb,fabric_sheen
+capmaskfox0_glass_clear,여우 가면 (클리어 글래스),192000,0.3,마스크,assets/models/CapMaskFox0.glb,glass_clear
+capmaskfox0_resin_tinted,여우 가면 (틴티드 레진),174000,0.45,마스크,assets/models/CapMaskFox0.glb,resin_tinted
+capmaskfox0_matcap_clay,여우 가면 (클레이),126000,0.7,마스크,assets/models/CapMaskFox0.glb,matcap_clay
+capmaskfox0_matcap_wax,여우 가면 (왁스),132000,0.65,마스크,assets/models/CapMaskFox0.glb,matcap_wax
+capmaskfox0_matcap_chrome,여우 가면 (크롬),186000,0.35,마스크,assets/models/CapMaskFox0.glb,matcap_chrome
+capmaskfox0_matcap_bronze,여우 가면 (브론즈),168000,0.5,마스크,assets/models/CapMaskFox0.glb,matcap_bronze
+capmaskfox0_matcap_black_rubber,여우 가면 (블랙 러버),129600,0.7,마스크,assets/models/CapMaskFox0.glb,matcap_black_rubber
+capmaskfox0_matcap_red_wax,여우 가면 (레드 왁스),138000,0.6,마스크,assets/models/CapMaskFox0.glb,matcap_red_wax
+capmaskfox0_matcap_white_ceramic,여우 가면 (화이트 세라믹),150000,0.55,마스크,assets/models/CapMaskFox0.glb,matcap_white_ceramic
+capmaskfox0_matcap_blue_gloss,여우 가면 (블루 글로시),144000,0.6,마스크,assets/models/CapMaskFox0.glb,matcap_blue_gloss
+capmaskfox0_matcap_gold,여우 가면 (골드),204000,0.2,마스크,assets/models/CapMaskFox0.glb,matcap_gold
+capmaskfox0_matcap_silver_soft,여우 가면 (소프트 실버),162000,0.5,마스크,assets/models/CapMaskFox0.glb,matcap_silver_soft
+capmaskhockey0_plastic_matte,아이스하키 마스크 (매트 플라스틱),25000,1.9,마스크,assets/models/CapMaskHockey0.glb,plastic_matte
+capmaskhockey0_plastic_gloss,아이스하키 마스크 (글로시 플라스틱),27500,1.85,마스크,assets/models/CapMaskHockey0.glb,plastic_gloss
+capmaskhockey0_rubber_soft,아이스하키 마스크 (소프트 러버),26300,1.9,마스크,assets/models/CapMaskHockey0.glb,rubber_soft
+capmaskhockey0_ceramic_clean,아이스하키 마스크 (클린 세라믹),30000,1.8,마스크,assets/models/CapMaskHockey0.glb,ceramic_clean
+capmaskhockey0_metal_brushed,아이스하키 마스크 (브러시드 메탈),33800,1.7,마스크,assets/models/CapMaskHockey0.glb,metal_brushed
+capmaskhockey0_metal_polished,아이스하키 마스크 (폴리시드 메탈),37500,1.6,마스크,assets/models/CapMaskHockey0.glb,metal_polished
+capmaskhockey0_paint_clearcoat,아이스하키 마스크 (클리어코트 페인트),32500,1.75,마스크,assets/models/CapMaskHockey0.glb,paint_clearcoat
+capmaskhockey0_fabric_sheen,아이스하키 마스크 (패브릭 쉰),28700,1.85,마스크,assets/models/CapMaskHockey0.glb,fabric_sheen
+capmaskhockey0_glass_clear,아이스하키 마스크 (클리어 글래스),40000,1.5,마스크,assets/models/CapMaskHockey0.glb,glass_clear
+capmaskhockey0_resin_tinted,아이스하키 마스크 (틴티드 레진),36300,1.65,마스크,assets/models/CapMaskHockey0.glb,resin_tinted
+capmaskhockey0_matcap_clay,아이스하키 마스크 (클레이),26300,1.9,마스크,assets/models/CapMaskHockey0.glb,matcap_clay
+capmaskhockey0_matcap_wax,아이스하키 마스크 (왁스),27500,1.85,마스크,assets/models/CapMaskHockey0.glb,matcap_wax
+capmaskhockey0_matcap_chrome,아이스하키 마스크 (크롬),38800,1.55,마스크,assets/models/CapMaskHockey0.glb,matcap_chrome
+capmaskhockey0_matcap_bronze,아이스하키 마스크 (브론즈),35000,1.7,마스크,assets/models/CapMaskHockey0.glb,matcap_bronze
+capmaskhockey0_matcap_black_rubber,아이스하키 마스크 (블랙 러버),27000,1.9,마스크,assets/models/CapMaskHockey0.glb,matcap_black_rubber
+capmaskhockey0_matcap_red_wax,아이스하키 마스크 (레드 왁스),28700,1.8,마스크,assets/models/CapMaskHockey0.glb,matcap_red_wax
+capmaskhockey0_matcap_white_ceramic,아이스하키 마스크 (화이트 세라믹),31300,1.75,마스크,assets/models/CapMaskHockey0.glb,matcap_white_ceramic
+capmaskhockey0_matcap_blue_gloss,아이스하키 마스크 (블루 글로시),30000,1.8,마스크,assets/models/CapMaskHockey0.glb,matcap_blue_gloss
+capmaskhockey0_matcap_gold,아이스하키 마스크 (골드),42500,1.4,마스크,assets/models/CapMaskHockey0.glb,matcap_gold
+capmaskhockey0_matcap_silver_soft,아이스하키 마스크 (소프트 실버),33800,1.7,마스크,assets/models/CapMaskHockey0.glb,matcap_silver_soft
+capmaskleaf0_plastic_matte,잎사귀 가면 (매트 플라스틱),150000,0.6,마스크,assets/models/CapMaskLeaf0.glb,plastic_matte
+capmaskleaf0_plastic_gloss,잎사귀 가면 (글로시 플라스틱),165000,0.55,마스크,assets/models/CapMaskLeaf0.glb,plastic_gloss
+capmaskleaf0_rubber_soft,잎사귀 가면 (소프트 러버),157500,0.6,마스크,assets/models/CapMaskLeaf0.glb,rubber_soft
+capmaskleaf0_ceramic_clean,잎사귀 가면 (클린 세라믹),180000,0.5,마스크,assets/models/CapMaskLeaf0.glb,ceramic_clean
+capmaskleaf0_metal_brushed,잎사귀 가면 (브러시드 메탈),202500,0.4,마스크,assets/models/CapMaskLeaf0.glb,metal_brushed
+capmaskleaf0_metal_polished,잎사귀 가면 (폴리시드 메탈),225000,0.3,마스크,assets/models/CapMaskLeaf0.glb,metal_polished
+capmaskleaf0_paint_clearcoat,잎사귀 가면 (클리어코트 페인트),195000,0.45,마스크,assets/models/CapMaskLeaf0.glb,paint_clearcoat
+capmaskleaf0_fabric_sheen,잎사귀 가면 (패브릭 쉰),172500,0.55,마스크,assets/models/CapMaskLeaf0.glb,fabric_sheen
+capmaskleaf0_glass_clear,잎사귀 가면 (클리어 글래스),240000,0.2,마스크,assets/models/CapMaskLeaf0.glb,glass_clear
+capmaskleaf0_resin_tinted,잎사귀 가면 (틴티드 레진),217500,0.35,마스크,assets/models/CapMaskLeaf0.glb,resin_tinted
+capmaskleaf0_matcap_clay,잎사귀 가면 (클레이),157500,0.6,마스크,assets/models/CapMaskLeaf0.glb,matcap_clay
+capmaskleaf0_matcap_wax,잎사귀 가면 (왁스),165000,0.55,마스크,assets/models/CapMaskLeaf0.glb,matcap_wax
+capmaskleaf0_matcap_chrome,잎사귀 가면 (크롬),232500,0.25,마스크,assets/models/CapMaskLeaf0.glb,matcap_chrome
+capmaskleaf0_matcap_bronze,잎사귀 가면 (브론즈),210000,0.4,마스크,assets/models/CapMaskLeaf0.glb,matcap_bronze
+capmaskleaf0_matcap_black_rubber,잎사귀 가면 (블랙 러버),162000,0.6,마스크,assets/models/CapMaskLeaf0.glb,matcap_black_rubber
+capmaskleaf0_matcap_red_wax,잎사귀 가면 (레드 왁스),172500,0.5,마스크,assets/models/CapMaskLeaf0.glb,matcap_red_wax
+capmaskleaf0_matcap_white_ceramic,잎사귀 가면 (화이트 세라믹),187500,0.45,마스크,assets/models/CapMaskLeaf0.glb,matcap_white_ceramic
+capmaskleaf0_matcap_blue_gloss,잎사귀 가면 (블루 글로시),180000,0.5,마스크,assets/models/CapMaskLeaf0.glb,matcap_blue_gloss
+capmaskleaf0_matcap_gold,잎사귀 가면 (골드),255000,0.1,마스크,assets/models/CapMaskLeaf0.glb,matcap_gold
+capmaskleaf0_matcap_silver_soft,잎사귀 가면 (소프트 실버),202500,0.4,마스크,assets/models/CapMaskLeaf0.glb,matcap_silver_soft
+capmaskpaint0_plastic_matte,다크 캡 헬멧 (매트 플라스틱),18000,0.7,마스크,assets/models/CapMaskPaint0.glb,plastic_matte
+capmaskpaint0_plastic_gloss,다크 캡 헬멧 (글로시 플라스틱),19800,0.65,마스크,assets/models/CapMaskPaint0.glb,plastic_gloss
+capmaskpaint0_rubber_soft,다크 캡 헬멧 (소프트 러버),18900,0.7,마스크,assets/models/CapMaskPaint0.glb,rubber_soft
+capmaskpaint0_ceramic_clean,다크 캡 헬멧 (클린 세라믹),21600,0.6,마스크,assets/models/CapMaskPaint0.glb,ceramic_clean
+capmaskpaint0_metal_brushed,다크 캡 헬멧 (브러시드 메탈),24300,0.5,마스크,assets/models/CapMaskPaint0.glb,metal_brushed
+capmaskpaint0_metal_polished,다크 캡 헬멧 (폴리시드 메탈),27000,0.4,마스크,assets/models/CapMaskPaint0.glb,metal_polished
+capmaskpaint0_paint_clearcoat,다크 캡 헬멧 (클리어코트 페인트),23400,0.55,마스크,assets/models/CapMaskPaint0.glb,paint_clearcoat
+capmaskpaint0_fabric_sheen,다크 캡 헬멧 (패브릭 쉰),20700,0.65,마스크,assets/models/CapMaskPaint0.glb,fabric_sheen
+capmaskpaint0_glass_clear,다크 캡 헬멧 (클리어 글래스),28800,0.3,마스크,assets/models/CapMaskPaint0.glb,glass_clear
+capmaskpaint0_resin_tinted,다크 캡 헬멧 (틴티드 레진),26100,0.45,마스크,assets/models/CapMaskPaint0.glb,resin_tinted
+capmaskpaint0_matcap_clay,다크 캡 헬멧 (클레이),18900,0.7,마스크,assets/models/CapMaskPaint0.glb,matcap_clay
+capmaskpaint0_matcap_wax,다크 캡 헬멧 (왁스),19800,0.65,마스크,assets/models/CapMaskPaint0.glb,matcap_wax
+capmaskpaint0_matcap_chrome,다크 캡 헬멧 (크롬),27900,0.35,마스크,assets/models/CapMaskPaint0.glb,matcap_chrome
+capmaskpaint0_matcap_bronze,다크 캡 헬멧 (브론즈),25200,0.5,마스크,assets/models/CapMaskPaint0.glb,matcap_bronze
+capmaskpaint0_matcap_black_rubber,다크 캡 헬멧 (블랙 러버),19400,0.7,마스크,assets/models/CapMaskPaint0.glb,matcap_black_rubber
+capmaskpaint0_matcap_red_wax,다크 캡 헬멧 (레드 왁스),20700,0.6,마스크,assets/models/CapMaskPaint0.glb,matcap_red_wax
+capmaskpaint0_matcap_white_ceramic,다크 캡 헬멧 (화이트 세라믹),22500,0.55,마스크,assets/models/CapMaskPaint0.glb,matcap_white_ceramic
+capmaskpaint0_matcap_blue_gloss,다크 캡 헬멧 (블루 글로시),21600,0.6,마스크,assets/models/CapMaskPaint0.glb,matcap_blue_gloss
+capmaskpaint0_matcap_gold,다크 캡 헬멧 (골드),30600,0.2,마스크,assets/models/CapMaskPaint0.glb,matcap_gold
+capmaskpaint0_matcap_silver_soft,다크 캡 헬멧 (소프트 실버),24300,0.5,마스크,assets/models/CapMaskPaint0.glb,matcap_silver_soft
+capmaskwelderred_plastic_matte,레드 용접 헬멧 (매트 플라스틱),12000,0.9,마스크,assets/models/CapMaskWelderRed.glb,plastic_matte
+capmaskwelderred_plastic_gloss,레드 용접 헬멧 (글로시 플라스틱),13200,0.85,마스크,assets/models/CapMaskWelderRed.glb,plastic_gloss
+capmaskwelderred_rubber_soft,레드 용접 헬멧 (소프트 러버),12600,0.9,마스크,assets/models/CapMaskWelderRed.glb,rubber_soft
+capmaskwelderred_ceramic_clean,레드 용접 헬멧 (클린 세라믹),14400,0.8,마스크,assets/models/CapMaskWelderRed.glb,ceramic_clean
+capmaskwelderred_metal_brushed,레드 용접 헬멧 (브러시드 메탈),16200,0.7,마스크,assets/models/CapMaskWelderRed.glb,metal_brushed
+capmaskwelderred_metal_polished,레드 용접 헬멧 (폴리시드 메탈),18000,0.6,마스크,assets/models/CapMaskWelderRed.glb,metal_polished
+capmaskwelderred_paint_clearcoat,레드 용접 헬멧 (클리어코트 페인트),15600,0.75,마스크,assets/models/CapMaskWelderRed.glb,paint_clearcoat
+capmaskwelderred_fabric_sheen,레드 용접 헬멧 (패브릭 쉰),13800,0.85,마스크,assets/models/CapMaskWelderRed.glb,fabric_sheen
+capmaskwelderred_glass_clear,레드 용접 헬멧 (클리어 글래스),19200,0.5,마스크,assets/models/CapMaskWelderRed.glb,glass_clear
+capmaskwelderred_resin_tinted,레드 용접 헬멧 (틴티드 레진),17400,0.65,마스크,assets/models/CapMaskWelderRed.glb,resin_tinted
+capmaskwelderred_matcap_clay,레드 용접 헬멧 (클레이),12600,0.9,마스크,assets/models/CapMaskWelderRed.glb,matcap_clay
+capmaskwelderred_matcap_wax,레드 용접 헬멧 (왁스),13200,0.85,마스크,assets/models/CapMaskWelderRed.glb,matcap_wax
+capmaskwelderred_matcap_chrome,레드 용접 헬멧 (크롬),18600,0.55,마스크,assets/models/CapMaskWelderRed.glb,matcap_chrome
+capmaskwelderred_matcap_bronze,레드 용접 헬멧 (브론즈),16800,0.7,마스크,assets/models/CapMaskWelderRed.glb,matcap_bronze
+capmaskwelderred_matcap_black_rubber,레드 용접 헬멧 (블랙 러버),13000,0.9,마스크,assets/models/CapMaskWelderRed.glb,matcap_black_rubber
+capmaskwelderred_matcap_red_wax,레드 용접 헬멧 (레드 왁스),13800,0.8,마스크,assets/models/CapMaskWelderRed.glb,matcap_red_wax
+capmaskwelderred_matcap_white_ceramic,레드 용접 헬멧 (화이트 세라믹),15000,0.75,마스크,assets/models/CapMaskWelderRed.glb,matcap_white_ceramic
+capmaskwelderred_matcap_blue_gloss,레드 용접 헬멧 (블루 글로시),14400,0.8,마스크,assets/models/CapMaskWelderRed.glb,matcap_blue_gloss
+capmaskwelderred_matcap_gold,레드 용접 헬멧 (골드),20400,0.4,마스크,assets/models/CapMaskWelderRed.glb,matcap_gold
+capmaskwelderred_matcap_silver_soft,레드 용접 헬멧 (소프트 실버),16200,0.7,마스크,assets/models/CapMaskWelderRed.glb,matcap_silver_soft
+capornamentmum1_plastic_matte,mum 화환 (매트 플라스틱),30000,0.8,액세서리,assets/models/CapOrnamentMum1.glb,plastic_matte
+capornamentmum1_plastic_gloss,mum 화환 (글로시 플라스틱),33000,0.75,액세서리,assets/models/CapOrnamentMum1.glb,plastic_gloss
+capornamentmum1_rubber_soft,mum 화환 (소프트 러버),31500,0.8,액세서리,assets/models/CapOrnamentMum1.glb,rubber_soft
+capornamentmum1_ceramic_clean,mum 화환 (클린 세라믹),36000,0.7,액세서리,assets/models/CapOrnamentMum1.glb,ceramic_clean
+capornamentmum1_metal_brushed,mum 화환 (브러시드 메탈),40500,0.6,액세서리,assets/models/CapOrnamentMum1.glb,metal_brushed
+capornamentmum1_metal_polished,mum 화환 (폴리시드 메탈),45000,0.5,액세서리,assets/models/CapOrnamentMum1.glb,metal_polished
+capornamentmum1_paint_clearcoat,mum 화환 (클리어코트 페인트),39000,0.65,액세서리,assets/models/CapOrnamentMum1.glb,paint_clearcoat
+capornamentmum1_fabric_sheen,mum 화환 (패브릭 쉰),34500,0.75,액세서리,assets/models/CapOrnamentMum1.glb,fabric_sheen
+capornamentmum1_glass_clear,mum 화환 (클리어 글래스),48000,0.4,액세서리,assets/models/CapOrnamentMum1.glb,glass_clear
+capornamentmum1_resin_tinted,mum 화환 (틴티드 레진),43500,0.55,액세서리,assets/models/CapOrnamentMum1.glb,resin_tinted
+capornamentmum1_matcap_clay,mum 화환 (클레이),31500,0.8,액세서리,assets/models/CapOrnamentMum1.glb,matcap_clay
+capornamentmum1_matcap_wax,mum 화환 (왁스),33000,0.75,액세서리,assets/models/CapOrnamentMum1.glb,matcap_wax
+capornamentmum1_matcap_chrome,mum 화환 (크롬),46500,0.45,액세서리,assets/models/CapOrnamentMum1.glb,matcap_chrome
+capornamentmum1_matcap_bronze,mum 화환 (브론즈),42000,0.6,액세서리,assets/models/CapOrnamentMum1.glb,matcap_bronze
+capornamentmum1_matcap_black_rubber,mum 화환 (블랙 러버),32400,0.8,액세서리,assets/models/CapOrnamentMum1.glb,matcap_black_rubber
+capornamentmum1_matcap_red_wax,mum 화환 (레드 왁스),34500,0.7,액세서리,assets/models/CapOrnamentMum1.glb,matcap_red_wax
+capornamentmum1_matcap_white_ceramic,mum 화환 (화이트 세라믹),37500,0.65,액세서리,assets/models/CapOrnamentMum1.glb,matcap_white_ceramic
+capornamentmum1_matcap_blue_gloss,mum 화환 (블루 글로시),36000,0.7,액세서리,assets/models/CapOrnamentMum1.glb,matcap_blue_gloss
+capornamentmum1_matcap_gold,mum 화환 (골드),51000,0.3,액세서리,assets/models/CapOrnamentMum1.glb,matcap_gold
+capornamentmum1_matcap_silver_soft,mum 화환 (소프트 실버),40500,0.6,액세서리,assets/models/CapOrnamentMum1.glb,matcap_silver_soft
+capornamentpansy1_plastic_matte,pansy 화환 (매트 플라스틱),30000,0.8,액세서리,assets/models/CapOrnamentPansy1.glb,plastic_matte
+capornamentpansy1_plastic_gloss,pansy 화환 (글로시 플라스틱),33000,0.75,액세서리,assets/models/CapOrnamentPansy1.glb,plastic_gloss
+capornamentpansy1_rubber_soft,pansy 화환 (소프트 러버),31500,0.8,액세서리,assets/models/CapOrnamentPansy1.glb,rubber_soft
+capornamentpansy1_ceramic_clean,pansy 화환 (클린 세라믹),36000,0.7,액세서리,assets/models/CapOrnamentPansy1.glb,ceramic_clean
+capornamentpansy1_metal_brushed,pansy 화환 (브러시드 메탈),40500,0.6,액세서리,assets/models/CapOrnamentPansy1.glb,metal_brushed
+capornamentpansy1_metal_polished,pansy 화환 (폴리시드 메탈),45000,0.5,액세서리,assets/models/CapOrnamentPansy1.glb,metal_polished
+capornamentpansy1_paint_clearcoat,pansy 화환 (클리어코트 페인트),39000,0.65,액세서리,assets/models/CapOrnamentPansy1.glb,paint_clearcoat
+capornamentpansy1_fabric_sheen,pansy 화환 (패브릭 쉰),34500,0.75,액세서리,assets/models/CapOrnamentPansy1.glb,fabric_sheen
+capornamentpansy1_glass_clear,pansy 화환 (클리어 글래스),48000,0.4,액세서리,assets/models/CapOrnamentPansy1.glb,glass_clear
+capornamentpansy1_resin_tinted,pansy 화환 (틴티드 레진),43500,0.55,액세서리,assets/models/CapOrnamentPansy1.glb,resin_tinted
+capornamentpansy1_matcap_clay,pansy 화환 (클레이),31500,0.8,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_clay
+capornamentpansy1_matcap_wax,pansy 화환 (왁스),33000,0.75,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_wax
+capornamentpansy1_matcap_chrome,pansy 화환 (크롬),46500,0.45,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_chrome
+capornamentpansy1_matcap_bronze,pansy 화환 (브론즈),42000,0.6,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_bronze
+capornamentpansy1_matcap_black_rubber,pansy 화환 (블랙 러버),32400,0.8,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_black_rubber
+capornamentpansy1_matcap_red_wax,pansy 화환 (레드 왁스),34500,0.7,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_red_wax
+capornamentpansy1_matcap_white_ceramic,pansy 화환 (화이트 세라믹),37500,0.65,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_white_ceramic
+capornamentpansy1_matcap_blue_gloss,pansy 화환 (블루 글로시),36000,0.7,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_blue_gloss
+capornamentpansy1_matcap_gold,pansy 화환 (골드),51000,0.3,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_gold
+capornamentpansy1_matcap_silver_soft,pansy 화환 (소프트 실버),40500,0.6,액세서리,assets/models/CapOrnamentPansy1.glb,matcap_silver_soft
+capornamentrose1_plastic_matte,rose 화환 (매트 플라스틱),40000,0.75,액세서리,assets/models/CapOrnamentRose1.glb,plastic_matte
+capornamentrose1_plastic_gloss,rose 화환 (글로시 플라스틱),44000,0.7,액세서리,assets/models/CapOrnamentRose1.glb,plastic_gloss
+capornamentrose1_rubber_soft,rose 화환 (소프트 러버),42000,0.75,액세서리,assets/models/CapOrnamentRose1.glb,rubber_soft
+capornamentrose1_ceramic_clean,rose 화환 (클린 세라믹),48000,0.65,액세서리,assets/models/CapOrnamentRose1.glb,ceramic_clean
+capornamentrose1_metal_brushed,rose 화환 (브러시드 메탈),54000,0.55,액세서리,assets/models/CapOrnamentRose1.glb,metal_brushed
+capornamentrose1_metal_polished,rose 화환 (폴리시드 메탈),60000,0.45,액세서리,assets/models/CapOrnamentRose1.glb,metal_polished
+capornamentrose1_paint_clearcoat,rose 화환 (클리어코트 페인트),52000,0.6,액세서리,assets/models/CapOrnamentRose1.glb,paint_clearcoat
+capornamentrose1_fabric_sheen,rose 화환 (패브릭 쉰),46000,0.7,액세서리,assets/models/CapOrnamentRose1.glb,fabric_sheen
+capornamentrose1_glass_clear,rose 화환 (클리어 글래스),64000,0.35,액세서리,assets/models/CapOrnamentRose1.glb,glass_clear
+capornamentrose1_resin_tinted,rose 화환 (틴티드 레진),58000,0.5,액세서리,assets/models/CapOrnamentRose1.glb,resin_tinted
+capornamentrose1_matcap_clay,rose 화환 (클레이),42000,0.75,액세서리,assets/models/CapOrnamentRose1.glb,matcap_clay
+capornamentrose1_matcap_wax,rose 화환 (왁스),44000,0.7,액세서리,assets/models/CapOrnamentRose1.glb,matcap_wax
+capornamentrose1_matcap_chrome,rose 화환 (크롬),62000,0.4,액세서리,assets/models/CapOrnamentRose1.glb,matcap_chrome
+capornamentrose1_matcap_bronze,rose 화환 (브론즈),56000,0.55,액세서리,assets/models/CapOrnamentRose1.glb,matcap_bronze
+capornamentrose1_matcap_black_rubber,rose 화환 (블랙 러버),43200,0.75,액세서리,assets/models/CapOrnamentRose1.glb,matcap_black_rubber
+capornamentrose1_matcap_red_wax,rose 화환 (레드 왁스),46000,0.65,액세서리,assets/models/CapOrnamentRose1.glb,matcap_red_wax
+capornamentrose1_matcap_white_ceramic,rose 화환 (화이트 세라믹),50000,0.6,액세서리,assets/models/CapOrnamentRose1.glb,matcap_white_ceramic
+capornamentrose1_matcap_blue_gloss,rose 화환 (블루 글로시),48000,0.65,액세서리,assets/models/CapOrnamentRose1.glb,matcap_blue_gloss
+capornamentrose1_matcap_gold,rose 화환 (골드),68000,0.25,액세서리,assets/models/CapOrnamentRose1.glb,matcap_gold
+capornamentrose1_matcap_silver_soft,rose 화환 (소프트 실버),54000,0.55,액세서리,assets/models/CapOrnamentRose1.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+ftrwreath_plastic_matte,화이트 화환 장식 (매트 플라스틱),65000,0.7,액세서리,assets/models/FtrWreath.glb,plastic_matte
+ftrwreath_plastic_gloss,화이트 화환 장식 (글로시 플라스틱),71500,0.65,액세서리,assets/models/FtrWreath.glb,plastic_gloss
+ftrwreath_rubber_soft,화이트 화환 장식 (소프트 러버),68300,0.7,액세서리,assets/models/FtrWreath.glb,rubber_soft
+ftrwreath_ceramic_clean,화이트 화환 장식 (클린 세라믹),78000,0.6,액세서리,assets/models/FtrWreath.glb,ceramic_clean
+ftrwreath_metal_brushed,화이트 화환 장식 (브러시드 메탈),87800,0.5,액세서리,assets/models/FtrWreath.glb,metal_brushed
+ftrwreath_metal_polished,화이트 화환 장식 (폴리시드 메탈),97500,0.4,액세서리,assets/models/FtrWreath.glb,metal_polished
+ftrwreath_paint_clearcoat,화이트 화환 장식 (클리어코트 페인트),84500,0.55,액세서리,assets/models/FtrWreath.glb,paint_clearcoat
+ftrwreath_fabric_sheen,화이트 화환 장식 (패브릭 쉰),74800,0.65,액세서리,assets/models/FtrWreath.glb,fabric_sheen
+ftrwreath_glass_clear,화이트 화환 장식 (클리어 글래스),104000,0.3,액세서리,assets/models/FtrWreath.glb,glass_clear
+ftrwreath_resin_tinted,화이트 화환 장식 (틴티드 레진),94300,0.45,액세서리,assets/models/FtrWreath.glb,resin_tinted
+ftrwreath_matcap_clay,화이트 화환 장식 (클레이),68300,0.7,액세서리,assets/models/FtrWreath.glb,matcap_clay
+ftrwreath_matcap_wax,화이트 화환 장식 (왁스),71500,0.65,액세서리,assets/models/FtrWreath.glb,matcap_wax
+ftrwreath_matcap_chrome,화이트 화환 장식 (크롬),100800,0.35,액세서리,assets/models/FtrWreath.glb,matcap_chrome
+ftrwreath_matcap_bronze,화이트 화환 장식 (브론즈),91000,0.5,액세서리,assets/models/FtrWreath.glb,matcap_bronze
+ftrwreath_matcap_black_rubber,화이트 화환 장식 (블랙 러버),70200,0.7,액세서리,assets/models/FtrWreath.glb,matcap_black_rubber
+ftrwreath_matcap_red_wax,화이트 화환 장식 (레드 왁스),74800,0.6,액세서리,assets/models/FtrWreath.glb,matcap_red_wax
+ftrwreath_matcap_white_ceramic,화이트 화환 장식 (화이트 세라믹),81300,0.55,액세서리,assets/models/FtrWreath.glb,matcap_white_ceramic
+ftrwreath_matcap_blue_gloss,화이트 화환 장식 (블루 글로시),78000,0.6,액세서리,assets/models/FtrWreath.glb,matcap_blue_gloss
+ftrwreath_matcap_gold,화이트 화환 장식 (골드),110500,0.2,액세서리,assets/models/FtrWreath.glb,matcap_gold
+ftrwreath_matcap_silver_soft,화이트 화환 장식 (소프트 실버),87800,0.5,액세서리,assets/models/FtrWreath.glb,matcap_silver_soft
+fujitsubotest_plastic_matte,전통 베개 쿠션 (매트 플라스틱),45000,0.8,액세서리,assets/models/FujitsuboTest.glb,plastic_matte
+fujitsubotest_plastic_gloss,전통 베개 쿠션 (글로시 플라스틱),49500,0.75,액세서리,assets/models/FujitsuboTest.glb,plastic_gloss
+fujitsubotest_rubber_soft,전통 베개 쿠션 (소프트 러버),47300,0.8,액세서리,assets/models/FujitsuboTest.glb,rubber_soft
+fujitsubotest_ceramic_clean,전통 베개 쿠션 (클린 세라믹),54000,0.7,액세서리,assets/models/FujitsuboTest.glb,ceramic_clean
+fujitsubotest_metal_brushed,전통 베개 쿠션 (브러시드 메탈),60800,0.6,액세서리,assets/models/FujitsuboTest.glb,metal_brushed
+fujitsubotest_metal_polished,전통 베개 쿠션 (폴리시드 메탈),67500,0.5,액세서리,assets/models/FujitsuboTest.glb,metal_polished
+fujitsubotest_paint_clearcoat,전통 베개 쿠션 (클리어코트 페인트),58500,0.65,액세서리,assets/models/FujitsuboTest.glb,paint_clearcoat
+fujitsubotest_fabric_sheen,전통 베개 쿠션 (패브릭 쉰),51700,0.75,액세서리,assets/models/FujitsuboTest.glb,fabric_sheen
+fujitsubotest_glass_clear,전통 베개 쿠션 (클리어 글래스),72000,0.4,액세서리,assets/models/FujitsuboTest.glb,glass_clear
+fujitsubotest_resin_tinted,전통 베개 쿠션 (틴티드 레진),65300,0.55,액세서리,assets/models/FujitsuboTest.glb,resin_tinted
+fujitsubotest_matcap_clay,전통 베개 쿠션 (클레이),47300,0.8,액세서리,assets/models/FujitsuboTest.glb,matcap_clay
+fujitsubotest_matcap_wax,전통 베개 쿠션 (왁스),49500,0.75,액세서리,assets/models/FujitsuboTest.glb,matcap_wax
+fujitsubotest_matcap_chrome,전통 베개 쿠션 (크롬),69800,0.45,액세서리,assets/models/FujitsuboTest.glb,matcap_chrome
+fujitsubotest_matcap_bronze,전통 베개 쿠션 (브론즈),63000,0.6,액세서리,assets/models/FujitsuboTest.glb,matcap_bronze
+fujitsubotest_matcap_black_rubber,전통 베개 쿠션 (블랙 러버),48600,0.8,액세서리,assets/models/FujitsuboTest.glb,matcap_black_rubber
+fujitsubotest_matcap_red_wax,전통 베개 쿠션 (레드 왁스),51700,0.7,액세서리,assets/models/FujitsuboTest.glb,matcap_red_wax
+fujitsubotest_matcap_white_ceramic,전통 베개 쿠션 (화이트 세라믹),56300,0.65,액세서리,assets/models/FujitsuboTest.glb,matcap_white_ceramic
+fujitsubotest_matcap_blue_gloss,전통 베개 쿠션 (블루 글로시),54000,0.7,액세서리,assets/models/FujitsuboTest.glb,matcap_blue_gloss
+fujitsubotest_matcap_gold,전통 베개 쿠션 (골드),76500,0.3,액세서리,assets/models/FujitsuboTest.glb,matcap_gold
+fujitsubotest_matcap_silver_soft,전통 베개 쿠션 (소프트 실버),60800,0.6,액세서리,assets/models/FujitsuboTest.glb,matcap_silver_soft
+furniturebottomspantshalf_plastic_matte,하의 바지 하반신 (매트 플라스틱),40000,0.9,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,plastic_matte
+furniturebottomspantshalf_plastic_gloss,하의 바지 하반신 (글로시 플라스틱),44000,0.85,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,plastic_gloss
+furniturebottomspantshalf_rubber_soft,하의 바지 하반신 (소프트 러버),42000,0.9,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,rubber_soft
+furniturebottomspantshalf_ceramic_clean,하의 바지 하반신 (클린 세라믹),48000,0.8,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,ceramic_clean
+furniturebottomspantshalf_metal_brushed,하의 바지 하반신 (브러시드 메탈),54000,0.7,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,metal_brushed
+furniturebottomspantshalf_metal_polished,하의 바지 하반신 (폴리시드 메탈),60000,0.6,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,metal_polished
+furniturebottomspantshalf_paint_clearcoat,하의 바지 하반신 (클리어코트 페인트),52000,0.75,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,paint_clearcoat
+furniturebottomspantshalf_fabric_sheen,하의 바지 하반신 (패브릭 쉰),46000,0.85,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,fabric_sheen
+furniturebottomspantshalf_glass_clear,하의 바지 하반신 (클리어 글래스),64000,0.5,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,glass_clear
+furniturebottomspantshalf_resin_tinted,하의 바지 하반신 (틴티드 레진),58000,0.65,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,resin_tinted
+furniturebottomspantshalf_matcap_clay,하의 바지 하반신 (클레이),42000,0.9,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_clay
+furniturebottomspantshalf_matcap_wax,하의 바지 하반신 (왁스),44000,0.85,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_wax
+furniturebottomspantshalf_matcap_chrome,하의 바지 하반신 (크롬),62000,0.55,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_chrome
+furniturebottomspantshalf_matcap_bronze,하의 바지 하반신 (브론즈),56000,0.7,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_bronze
+furniturebottomspantshalf_matcap_black_rubber,하의 바지 하반신 (블랙 러버),43200,0.9,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_black_rubber
+furniturebottomspantshalf_matcap_red_wax,하의 바지 하반신 (레드 왁스),46000,0.8,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_red_wax
+furniturebottomspantshalf_matcap_white_ceramic,하의 바지 하반신 (화이트 세라믹),50000,0.75,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_white_ceramic
+furniturebottomspantshalf_matcap_blue_gloss,하의 바지 하반신 (블루 글로시),48000,0.8,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_blue_gloss
+furniturebottomspantshalf_matcap_gold,하의 바지 하반신 (골드),68000,0.4,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_gold
+furniturebottomspantshalf_matcap_silver_soft,하의 바지 하반신 (소프트 실버),54000,0.7,액세서리,assets/models/FurnitureBottomsPantsHalf.glb,matcap_silver_soft
+furniturebottomspantshot_plastic_matte,하의 바지 핫 스타일 (매트 플라스틱),42000,0.9,액세서리,assets/models/FurnitureBottomsPantsHot.glb,plastic_matte
+furniturebottomspantshot_plastic_gloss,하의 바지 핫 스타일 (글로시 플라스틱),46200,0.85,액세서리,assets/models/FurnitureBottomsPantsHot.glb,plastic_gloss
+furniturebottomspantshot_rubber_soft,하의 바지 핫 스타일 (소프트 러버),44100,0.9,액세서리,assets/models/FurnitureBottomsPantsHot.glb,rubber_soft
+furniturebottomspantshot_ceramic_clean,하의 바지 핫 스타일 (클린 세라믹),50400,0.8,액세서리,assets/models/FurnitureBottomsPantsHot.glb,ceramic_clean
+furniturebottomspantshot_metal_brushed,하의 바지 핫 스타일 (브러시드 메탈),56700,0.7,액세서리,assets/models/FurnitureBottomsPantsHot.glb,metal_brushed
+furniturebottomspantshot_metal_polished,하의 바지 핫 스타일 (폴리시드 메탈),63000,0.6,액세서리,assets/models/FurnitureBottomsPantsHot.glb,metal_polished
+furniturebottomspantshot_paint_clearcoat,하의 바지 핫 스타일 (클리어코트 페인트),54600,0.75,액세서리,assets/models/FurnitureBottomsPantsHot.glb,paint_clearcoat
+furniturebottomspantshot_fabric_sheen,하의 바지 핫 스타일 (패브릭 쉰),48300,0.85,액세서리,assets/models/FurnitureBottomsPantsHot.glb,fabric_sheen
+furniturebottomspantshot_glass_clear,하의 바지 핫 스타일 (클리어 글래스),67200,0.5,액세서리,assets/models/FurnitureBottomsPantsHot.glb,glass_clear
+furniturebottomspantshot_resin_tinted,하의 바지 핫 스타일 (틴티드 레진),60900,0.65,액세서리,assets/models/FurnitureBottomsPantsHot.glb,resin_tinted
+furniturebottomspantshot_matcap_clay,하의 바지 핫 스타일 (클레이),44100,0.9,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_clay
+furniturebottomspantshot_matcap_wax,하의 바지 핫 스타일 (왁스),46200,0.85,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_wax
+furniturebottomspantshot_matcap_chrome,하의 바지 핫 스타일 (크롬),65100,0.55,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_chrome
+furniturebottomspantshot_matcap_bronze,하의 바지 핫 스타일 (브론즈),58800,0.7,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_bronze
+furniturebottomspantshot_matcap_black_rubber,하의 바지 핫 스타일 (블랙 러버),45400,0.9,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_black_rubber
+furniturebottomspantshot_matcap_red_wax,하의 바지 핫 스타일 (레드 왁스),48300,0.8,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_red_wax
+furniturebottomspantshot_matcap_white_ceramic,하의 바지 핫 스타일 (화이트 세라믹),52500,0.75,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_white_ceramic
+furniturebottomspantshot_matcap_blue_gloss,하의 바지 핫 스타일 (블루 글로시),50400,0.8,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_blue_gloss
+furniturebottomspantshot_matcap_gold,하의 바지 핫 스타일 (골드),71400,0.4,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_gold
+furniturebottomspantshot_matcap_silver_soft,하의 바지 핫 스타일 (소프트 실버),56700,0.7,액세서리,assets/models/FurnitureBottomsPantsHot.glb,matcap_silver_soft
+furniturebottomspantsnormal_plastic_matte,하의 바지 노멀 (매트 플라스틱),40000,0.9,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,plastic_matte
+furniturebottomspantsnormal_plastic_gloss,하의 바지 노멀 (글로시 플라스틱),44000,0.85,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,plastic_gloss
+furniturebottomspantsnormal_rubber_soft,하의 바지 노멀 (소프트 러버),42000,0.9,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,rubber_soft
+furniturebottomspantsnormal_ceramic_clean,하의 바지 노멀 (클린 세라믹),48000,0.8,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,ceramic_clean
+furniturebottomspantsnormal_metal_brushed,하의 바지 노멀 (브러시드 메탈),54000,0.7,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,metal_brushed
+furniturebottomspantsnormal_metal_polished,하의 바지 노멀 (폴리시드 메탈),60000,0.6,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,metal_polished
+furniturebottomspantsnormal_paint_clearcoat,하의 바지 노멀 (클리어코트 페인트),52000,0.75,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,paint_clearcoat
+furniturebottomspantsnormal_fabric_sheen,하의 바지 노멀 (패브릭 쉰),46000,0.85,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,fabric_sheen
+furniturebottomspantsnormal_glass_clear,하의 바지 노멀 (클리어 글래스),64000,0.5,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,glass_clear
+furniturebottomspantsnormal_resin_tinted,하의 바지 노멀 (틴티드 레진),58000,0.65,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,resin_tinted
+furniturebottomspantsnormal_matcap_clay,하의 바지 노멀 (클레이),42000,0.9,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_clay
+furniturebottomspantsnormal_matcap_wax,하의 바지 노멀 (왁스),44000,0.85,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_wax
+furniturebottomspantsnormal_matcap_chrome,하의 바지 노멀 (크롬),62000,0.55,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_chrome
+furniturebottomspantsnormal_matcap_bronze,하의 바지 노멀 (브론즈),56000,0.7,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_bronze
+furniturebottomspantsnormal_matcap_black_rubber,하의 바지 노멀 (블랙 러버),43200,0.9,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_black_rubber
+furniturebottomspantsnormal_matcap_red_wax,하의 바지 노멀 (레드 왁스),46000,0.8,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_red_wax
+furniturebottomspantsnormal_matcap_white_ceramic,하의 바지 노멀 (화이트 세라믹),50000,0.75,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_white_ceramic
+furniturebottomspantsnormal_matcap_blue_gloss,하의 바지 노멀 (블루 글로시),48000,0.8,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_blue_gloss
+furniturebottomspantsnormal_matcap_gold,하의 바지 노멀 (골드),68000,0.4,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_gold
+furniturebottomspantsnormal_matcap_silver_soft,하의 바지 노멀 (소프트 실버),54000,0.7,액세서리,assets/models/FurnitureBottomsPantsNormal.glb,matcap_silver_soft
+furniturebottomspantswide_plastic_matte,와이드 팬츠 (매트 플라스틱),15000,1.8,하의,assets/models/FurnitureBottomsPantsWide.glb,plastic_matte
+furniturebottomspantswide_plastic_gloss,와이드 팬츠 (글로시 플라스틱),16500,1.75,하의,assets/models/FurnitureBottomsPantsWide.glb,plastic_gloss
+furniturebottomspantswide_rubber_soft,와이드 팬츠 (소프트 러버),15800,1.8,하의,assets/models/FurnitureBottomsPantsWide.glb,rubber_soft
+furniturebottomspantswide_ceramic_clean,와이드 팬츠 (클린 세라믹),18000,1.7,하의,assets/models/FurnitureBottomsPantsWide.glb,ceramic_clean
+furniturebottomspantswide_metal_brushed,와이드 팬츠 (브러시드 메탈),20300,1.6,하의,assets/models/FurnitureBottomsPantsWide.glb,metal_brushed
+furniturebottomspantswide_metal_polished,와이드 팬츠 (폴리시드 메탈),22500,1.5,하의,assets/models/FurnitureBottomsPantsWide.glb,metal_polished
+furniturebottomspantswide_paint_clearcoat,와이드 팬츠 (클리어코트 페인트),19500,1.65,하의,assets/models/FurnitureBottomsPantsWide.glb,paint_clearcoat
+furniturebottomspantswide_fabric_sheen,와이드 팬츠 (패브릭 쉰),17300,1.75,하의,assets/models/FurnitureBottomsPantsWide.glb,fabric_sheen
+furniturebottomspantswide_glass_clear,와이드 팬츠 (클리어 글래스),24000,1.4,하의,assets/models/FurnitureBottomsPantsWide.glb,glass_clear
+furniturebottomspantswide_resin_tinted,와이드 팬츠 (틴티드 레진),21800,1.55,하의,assets/models/FurnitureBottomsPantsWide.glb,resin_tinted
+furniturebottomspantswide_matcap_clay,와이드 팬츠 (클레이),15800,1.8,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_clay
+furniturebottomspantswide_matcap_wax,와이드 팬츠 (왁스),16500,1.75,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_wax
+furniturebottomspantswide_matcap_chrome,와이드 팬츠 (크롬),23300,1.45,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_chrome
+furniturebottomspantswide_matcap_bronze,와이드 팬츠 (브론즈),21000,1.6,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_bronze
+furniturebottomspantswide_matcap_black_rubber,와이드 팬츠 (블랙 러버),16200,1.8,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_black_rubber
+furniturebottomspantswide_matcap_red_wax,와이드 팬츠 (레드 왁스),17300,1.7,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_red_wax
+furniturebottomspantswide_matcap_white_ceramic,와이드 팬츠 (화이트 세라믹),18800,1.65,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_white_ceramic
+furniturebottomspantswide_matcap_blue_gloss,와이드 팬츠 (블루 글로시),18000,1.7,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_blue_gloss
+furniturebottomspantswide_matcap_gold,와이드 팬츠 (골드),25500,1.3,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_gold
+furniturebottomspantswide_matcap_silver_soft,와이드 팬츠 (소프트 실버),20300,1.6,하의,assets/models/FurnitureBottomsPantsWide.glb,matcap_silver_soft
+furniturebottomsskirtaline_plastic_matte,A라인 스커트 (매트 플라스틱),10000,2,하의,assets/models/FurnitureBottomsSkirtAline.glb,plastic_matte
+furniturebottomsskirtaline_plastic_gloss,A라인 스커트 (글로시 플라스틱),11000,1.95,하의,assets/models/FurnitureBottomsSkirtAline.glb,plastic_gloss
+furniturebottomsskirtaline_rubber_soft,A라인 스커트 (소프트 러버),10500,2,하의,assets/models/FurnitureBottomsSkirtAline.glb,rubber_soft
+furniturebottomsskirtaline_ceramic_clean,A라인 스커트 (클린 세라믹),12000,1.9,하의,assets/models/FurnitureBottomsSkirtAline.glb,ceramic_clean
+furniturebottomsskirtaline_metal_brushed,A라인 스커트 (브러시드 메탈),13500,1.8,하의,assets/models/FurnitureBottomsSkirtAline.glb,metal_brushed
+furniturebottomsskirtaline_metal_polished,A라인 스커트 (폴리시드 메탈),15000,1.7,하의,assets/models/FurnitureBottomsSkirtAline.glb,metal_polished
+furniturebottomsskirtaline_paint_clearcoat,A라인 스커트 (클리어코트 페인트),13000,1.85,하의,assets/models/FurnitureBottomsSkirtAline.glb,paint_clearcoat
+furniturebottomsskirtaline_fabric_sheen,A라인 스커트 (패브릭 쉰),11500,1.95,하의,assets/models/FurnitureBottomsSkirtAline.glb,fabric_sheen
+furniturebottomsskirtaline_glass_clear,A라인 스커트 (클리어 글래스),16000,1.6,하의,assets/models/FurnitureBottomsSkirtAline.glb,glass_clear
+furniturebottomsskirtaline_resin_tinted,A라인 스커트 (틴티드 레진),14500,1.75,하의,assets/models/FurnitureBottomsSkirtAline.glb,resin_tinted
+furniturebottomsskirtaline_matcap_clay,A라인 스커트 (클레이),10500,2,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_clay
+furniturebottomsskirtaline_matcap_wax,A라인 스커트 (왁스),11000,1.95,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_wax
+furniturebottomsskirtaline_matcap_chrome,A라인 스커트 (크롬),15500,1.65,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_chrome
+furniturebottomsskirtaline_matcap_bronze,A라인 스커트 (브론즈),14000,1.8,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_bronze
+furniturebottomsskirtaline_matcap_black_rubber,A라인 스커트 (블랙 러버),10800,2,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_black_rubber
+furniturebottomsskirtaline_matcap_red_wax,A라인 스커트 (레드 왁스),11500,1.9,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_red_wax
+furniturebottomsskirtaline_matcap_white_ceramic,A라인 스커트 (화이트 세라믹),12500,1.85,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_white_ceramic
+furniturebottomsskirtaline_matcap_blue_gloss,A라인 스커트 (블루 글로시),12000,1.9,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_blue_gloss
+furniturebottomsskirtaline_matcap_gold,A라인 스커트 (골드),17000,1.5,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_gold
+furniturebottomsskirtaline_matcap_silver_soft,A라인 스커트 (소프트 실버),13500,1.8,하의,assets/models/FurnitureBottomsSkirtAline.glb,matcap_silver_soft
+furniturebottomsskirtbox_plastic_matte,박스 스커트 (매트 플라스틱),12000,1.9,하의,assets/models/FurnitureBottomsSkirtBox.glb,plastic_matte
+furniturebottomsskirtbox_plastic_gloss,박스 스커트 (글로시 플라스틱),13200,1.85,하의,assets/models/FurnitureBottomsSkirtBox.glb,plastic_gloss
+furniturebottomsskirtbox_rubber_soft,박스 스커트 (소프트 러버),12600,1.9,하의,assets/models/FurnitureBottomsSkirtBox.glb,rubber_soft
+furniturebottomsskirtbox_ceramic_clean,박스 스커트 (클린 세라믹),14400,1.8,하의,assets/models/FurnitureBottomsSkirtBox.glb,ceramic_clean
+furniturebottomsskirtbox_metal_brushed,박스 스커트 (브러시드 메탈),16200,1.7,하의,assets/models/FurnitureBottomsSkirtBox.glb,metal_brushed
+furniturebottomsskirtbox_metal_polished,박스 스커트 (폴리시드 메탈),18000,1.6,하의,assets/models/FurnitureBottomsSkirtBox.glb,metal_polished
+furniturebottomsskirtbox_paint_clearcoat,박스 스커트 (클리어코트 페인트),15600,1.75,하의,assets/models/FurnitureBottomsSkirtBox.glb,paint_clearcoat
+furniturebottomsskirtbox_fabric_sheen,박스 스커트 (패브릭 쉰),13800,1.85,하의,assets/models/FurnitureBottomsSkirtBox.glb,fabric_sheen
+furniturebottomsskirtbox_glass_clear,박스 스커트 (클리어 글래스),19200,1.5,하의,assets/models/FurnitureBottomsSkirtBox.glb,glass_clear
+furniturebottomsskirtbox_resin_tinted,박스 스커트 (틴티드 레진),17400,1.65,하의,assets/models/FurnitureBottomsSkirtBox.glb,resin_tinted
+furniturebottomsskirtbox_matcap_clay,박스 스커트 (클레이),12600,1.9,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_clay
+furniturebottomsskirtbox_matcap_wax,박스 스커트 (왁스),13200,1.85,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_wax
+furniturebottomsskirtbox_matcap_chrome,박스 스커트 (크롬),18600,1.55,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_chrome
+furniturebottomsskirtbox_matcap_bronze,박스 스커트 (브론즈),16800,1.7,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_bronze
+furniturebottomsskirtbox_matcap_black_rubber,박스 스커트 (블랙 러버),13000,1.9,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_black_rubber
+furniturebottomsskirtbox_matcap_red_wax,박스 스커트 (레드 왁스),13800,1.8,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_red_wax
+furniturebottomsskirtbox_matcap_white_ceramic,박스 스커트 (화이트 세라믹),15000,1.75,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_white_ceramic
+furniturebottomsskirtbox_matcap_blue_gloss,박스 스커트 (블루 글로시),14400,1.8,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_blue_gloss
+furniturebottomsskirtbox_matcap_gold,박스 스커트 (골드),20400,1.4,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_gold
+furniturebottomsskirtbox_matcap_silver_soft,박스 스커트 (소프트 실버),16200,1.7,하의,assets/models/FurnitureBottomsSkirtBox.glb,matcap_silver_soft
+furniturebottomsskirtlong_plastic_matte,롱 스커트 (매트 플라스틱),10000,2,하의,assets/models/FurnitureBottomsSkirtLong.glb,plastic_matte
+furniturebottomsskirtlong_plastic_gloss,롱 스커트 (글로시 플라스틱),11000,1.95,하의,assets/models/FurnitureBottomsSkirtLong.glb,plastic_gloss
+furniturebottomsskirtlong_rubber_soft,롱 스커트 (소프트 러버),10500,2,하의,assets/models/FurnitureBottomsSkirtLong.glb,rubber_soft
+furniturebottomsskirtlong_ceramic_clean,롱 스커트 (클린 세라믹),12000,1.9,하의,assets/models/FurnitureBottomsSkirtLong.glb,ceramic_clean
+furniturebottomsskirtlong_metal_brushed,롱 스커트 (브러시드 메탈),13500,1.8,하의,assets/models/FurnitureBottomsSkirtLong.glb,metal_brushed
+furniturebottomsskirtlong_metal_polished,롱 스커트 (폴리시드 메탈),15000,1.7,하의,assets/models/FurnitureBottomsSkirtLong.glb,metal_polished
+furniturebottomsskirtlong_paint_clearcoat,롱 스커트 (클리어코트 페인트),13000,1.85,하의,assets/models/FurnitureBottomsSkirtLong.glb,paint_clearcoat
+furniturebottomsskirtlong_fabric_sheen,롱 스커트 (패브릭 쉰),11500,1.95,하의,assets/models/FurnitureBottomsSkirtLong.glb,fabric_sheen
+furniturebottomsskirtlong_glass_clear,롱 스커트 (클리어 글래스),16000,1.6,하의,assets/models/FurnitureBottomsSkirtLong.glb,glass_clear
+furniturebottomsskirtlong_resin_tinted,롱 스커트 (틴티드 레진),14500,1.75,하의,assets/models/FurnitureBottomsSkirtLong.glb,resin_tinted
+furniturebottomsskirtlong_matcap_clay,롱 스커트 (클레이),10500,2,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_clay
+furniturebottomsskirtlong_matcap_wax,롱 스커트 (왁스),11000,1.95,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_wax
+furniturebottomsskirtlong_matcap_chrome,롱 스커트 (크롬),15500,1.65,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_chrome
+furniturebottomsskirtlong_matcap_bronze,롱 스커트 (브론즈),14000,1.8,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_bronze
+furniturebottomsskirtlong_matcap_black_rubber,롱 스커트 (블랙 러버),10800,2,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_black_rubber
+furniturebottomsskirtlong_matcap_red_wax,롱 스커트 (레드 왁스),11500,1.9,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_red_wax
+furniturebottomsskirtlong_matcap_white_ceramic,롱 스커트 (화이트 세라믹),12500,1.85,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_white_ceramic
+furniturebottomsskirtlong_matcap_blue_gloss,롱 스커트 (블루 글로시),12000,1.9,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_blue_gloss
+furniturebottomsskirtlong_matcap_gold,롱 스커트 (골드),17000,1.5,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_gold
+furniturebottomsskirtlong_matcap_silver_soft,롱 스커트 (소프트 실버),13500,1.8,하의,assets/models/FurnitureBottomsSkirtLong.glb,matcap_silver_soft
+furnituretopsonepieceboxh_plastic_matte,박스 H 원피스 탑 (매트 플라스틱),25000,1.5,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,plastic_matte
+furnituretopsonepieceboxh_plastic_gloss,박스 H 원피스 탑 (글로시 플라스틱),27500,1.45,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,plastic_gloss
+furnituretopsonepieceboxh_rubber_soft,박스 H 원피스 탑 (소프트 러버),26300,1.5,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,rubber_soft
+furnituretopsonepieceboxh_ceramic_clean,박스 H 원피스 탑 (클린 세라믹),30000,1.4,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,ceramic_clean
+furnituretopsonepieceboxh_metal_brushed,박스 H 원피스 탑 (브러시드 메탈),33800,1.3,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,metal_brushed
+furnituretopsonepieceboxh_metal_polished,박스 H 원피스 탑 (폴리시드 메탈),37500,1.2,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,metal_polished
+furnituretopsonepieceboxh_paint_clearcoat,박스 H 원피스 탑 (클리어코트 페인트),32500,1.35,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,paint_clearcoat
+furnituretopsonepieceboxh_fabric_sheen,박스 H 원피스 탑 (패브릭 쉰),28700,1.45,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,fabric_sheen
+furnituretopsonepieceboxh_glass_clear,박스 H 원피스 탑 (클리어 글래스),40000,1.1,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,glass_clear
+furnituretopsonepieceboxh_resin_tinted,박스 H 원피스 탑 (틴티드 레진),36300,1.25,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,resin_tinted
+furnituretopsonepieceboxh_matcap_clay,박스 H 원피스 탑 (클레이),26300,1.5,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_clay
+furnituretopsonepieceboxh_matcap_wax,박스 H 원피스 탑 (왁스),27500,1.45,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_wax
+furnituretopsonepieceboxh_matcap_chrome,박스 H 원피스 탑 (크롬),38800,1.15,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_chrome
+furnituretopsonepieceboxh_matcap_bronze,박스 H 원피스 탑 (브론즈),35000,1.3,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_bronze
+furnituretopsonepieceboxh_matcap_black_rubber,박스 H 원피스 탑 (블랙 러버),27000,1.5,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_black_rubber
+furnituretopsonepieceboxh_matcap_red_wax,박스 H 원피스 탑 (레드 왁스),28700,1.4,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_red_wax
+furnituretopsonepieceboxh_matcap_white_ceramic,박스 H 원피스 탑 (화이트 세라믹),31300,1.35,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_white_ceramic
+furnituretopsonepieceboxh_matcap_blue_gloss,박스 H 원피스 탑 (블루 글로시),30000,1.4,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_blue_gloss
+furnituretopsonepieceboxh_matcap_gold,박스 H 원피스 탑 (골드),42500,1,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_gold
+furnituretopsonepieceboxh_matcap_silver_soft,박스 H 원피스 탑 (소프트 실버),33800,1.3,상의,assets/models/FurnitureTopsOnepieceBoxH.glb,matcap_silver_soft

@@ -1,0 +1,201 @@
+id,name,baseValue,rarity,category,modelPath,preset
+ftraltosax_plastic_matte,알토 색소폰 (매트 플라스틱),85000,1.3,악기,assets/models/FtrAltosax.glb,plastic_matte
+ftraltosax_plastic_gloss,알토 색소폰 (글로시 플라스틱),93500,1.25,악기,assets/models/FtrAltosax.glb,plastic_gloss
+ftraltosax_rubber_soft,알토 색소폰 (소프트 러버),89300,1.3,악기,assets/models/FtrAltosax.glb,rubber_soft
+ftraltosax_ceramic_clean,알토 색소폰 (클린 세라믹),102000,1.2,악기,assets/models/FtrAltosax.glb,ceramic_clean
+ftraltosax_metal_brushed,알토 색소폰 (브러시드 메탈),114800,1.1,악기,assets/models/FtrAltosax.glb,metal_brushed
+ftraltosax_metal_polished,알토 색소폰 (폴리시드 메탈),127500,1,악기,assets/models/FtrAltosax.glb,metal_polished
+ftraltosax_paint_clearcoat,알토 색소폰 (클리어코트 페인트),110500,1.15,악기,assets/models/FtrAltosax.glb,paint_clearcoat
+ftraltosax_fabric_sheen,알토 색소폰 (패브릭 쉰),97700,1.25,악기,assets/models/FtrAltosax.glb,fabric_sheen
+ftraltosax_glass_clear,알토 색소폰 (클리어 글래스),136000,0.9,악기,assets/models/FtrAltosax.glb,glass_clear
+ftraltosax_resin_tinted,알토 색소폰 (틴티드 레진),123300,1.05,악기,assets/models/FtrAltosax.glb,resin_tinted
+ftraltosax_matcap_clay,알토 색소폰 (클레이),89300,1.3,악기,assets/models/FtrAltosax.glb,matcap_clay
+ftraltosax_matcap_wax,알토 색소폰 (왁스),93500,1.25,악기,assets/models/FtrAltosax.glb,matcap_wax
+ftraltosax_matcap_chrome,알토 색소폰 (크롬),131800,0.95,악기,assets/models/FtrAltosax.glb,matcap_chrome
+ftraltosax_matcap_bronze,알토 색소폰 (브론즈),119000,1.1,악기,assets/models/FtrAltosax.glb,matcap_bronze
+ftraltosax_matcap_black_rubber,알토 색소폰 (블랙 러버),91800,1.3,악기,assets/models/FtrAltosax.glb,matcap_black_rubber
+ftraltosax_matcap_red_wax,알토 색소폰 (레드 왁스),97700,1.2,악기,assets/models/FtrAltosax.glb,matcap_red_wax
+ftraltosax_matcap_white_ceramic,알토 색소폰 (화이트 세라믹),106300,1.15,악기,assets/models/FtrAltosax.glb,matcap_white_ceramic
+ftraltosax_matcap_blue_gloss,알토 색소폰 (블루 글로시),102000,1.2,악기,assets/models/FtrAltosax.glb,matcap_blue_gloss
+ftraltosax_matcap_gold,알토 색소폰 (골드),144500,0.8,악기,assets/models/FtrAltosax.glb,matcap_gold
+ftraltosax_matcap_silver_soft,알토 색소폰 (소프트 실버),114800,1.1,악기,assets/models/FtrAltosax.glb,matcap_silver_soft
+ftrartemiaaquarium_plastic_matte,아테미아 수족관 (매트 플라스틱),95000,1.4,액세서리,assets/models/FtrArtemiaAquarium.glb,plastic_matte
+ftrartemiaaquarium_plastic_gloss,아테미아 수족관 (글로시 플라스틱),104500,1.35,액세서리,assets/models/FtrArtemiaAquarium.glb,plastic_gloss
+ftrartemiaaquarium_rubber_soft,아테미아 수족관 (소프트 러버),99800,1.4,액세서리,assets/models/FtrArtemiaAquarium.glb,rubber_soft
+ftrartemiaaquarium_ceramic_clean,아테미아 수족관 (클린 세라믹),114000,1.3,액세서리,assets/models/FtrArtemiaAquarium.glb,ceramic_clean
+ftrartemiaaquarium_metal_brushed,아테미아 수족관 (브러시드 메탈),128300,1.2,액세서리,assets/models/FtrArtemiaAquarium.glb,metal_brushed
+ftrartemiaaquarium_metal_polished,아테미아 수족관 (폴리시드 메탈),142500,1.1,액세서리,assets/models/FtrArtemiaAquarium.glb,metal_polished
+ftrartemiaaquarium_paint_clearcoat,아테미아 수족관 (클리어코트 페인트),123500,1.25,액세서리,assets/models/FtrArtemiaAquarium.glb,paint_clearcoat
+ftrartemiaaquarium_fabric_sheen,아테미아 수족관 (패브릭 쉰),109200,1.35,액세서리,assets/models/FtrArtemiaAquarium.glb,fabric_sheen
+ftrartemiaaquarium_glass_clear,아테미아 수족관 (클리어 글래스),152000,1,액세서리,assets/models/FtrArtemiaAquarium.glb,glass_clear
+ftrartemiaaquarium_resin_tinted,아테미아 수족관 (틴티드 레진),137800,1.15,액세서리,assets/models/FtrArtemiaAquarium.glb,resin_tinted
+ftrartemiaaquarium_matcap_clay,아테미아 수족관 (클레이),99800,1.4,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_clay
+ftrartemiaaquarium_matcap_wax,아테미아 수족관 (왁스),104500,1.35,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_wax
+ftrartemiaaquarium_matcap_chrome,아테미아 수족관 (크롬),147300,1.05,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_chrome
+ftrartemiaaquarium_matcap_bronze,아테미아 수족관 (브론즈),133000,1.2,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_bronze
+ftrartemiaaquarium_matcap_black_rubber,아테미아 수족관 (블랙 러버),102600,1.4,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_black_rubber
+ftrartemiaaquarium_matcap_red_wax,아테미아 수족관 (레드 왁스),109200,1.3,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_red_wax
+ftrartemiaaquarium_matcap_white_ceramic,아테미아 수족관 (화이트 세라믹),118800,1.25,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_white_ceramic
+ftrartemiaaquarium_matcap_blue_gloss,아테미아 수족관 (블루 글로시),114000,1.3,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_blue_gloss
+ftrartemiaaquarium_matcap_gold,아테미아 수족관 (골드),161500,0.9,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_gold
+ftrartemiaaquarium_matcap_silver_soft,아테미아 수족관 (소프트 실버),128300,1.2,액세서리,assets/models/FtrArtemiaAquarium.glb,matcap_silver_soft
+ftrball_plastic_matte,공 (매트 플라스틱),5000,1.9,스포츠용품,assets/models/FtrBall.glb,plastic_matte
+ftrball_plastic_gloss,공 (글로시 플라스틱),5500,1.85,스포츠용품,assets/models/FtrBall.glb,plastic_gloss
+ftrball_rubber_soft,공 (소프트 러버),5300,1.9,스포츠용품,assets/models/FtrBall.glb,rubber_soft
+ftrball_ceramic_clean,공 (클린 세라믹),6000,1.8,스포츠용품,assets/models/FtrBall.glb,ceramic_clean
+ftrball_metal_brushed,공 (브러시드 메탈),6800,1.7,스포츠용품,assets/models/FtrBall.glb,metal_brushed
+ftrball_metal_polished,공 (폴리시드 메탈),7500,1.6,스포츠용품,assets/models/FtrBall.glb,metal_polished
+ftrball_paint_clearcoat,공 (클리어코트 페인트),6500,1.75,스포츠용품,assets/models/FtrBall.glb,paint_clearcoat
+ftrball_fabric_sheen,공 (패브릭 쉰),5800,1.85,스포츠용품,assets/models/FtrBall.glb,fabric_sheen
+ftrball_glass_clear,공 (클리어 글래스),8000,1.5,스포츠용품,assets/models/FtrBall.glb,glass_clear
+ftrball_resin_tinted,공 (틴티드 레진),7300,1.65,스포츠용품,assets/models/FtrBall.glb,resin_tinted
+ftrball_matcap_clay,공 (클레이),5300,1.9,스포츠용품,assets/models/FtrBall.glb,matcap_clay
+ftrball_matcap_wax,공 (왁스),5500,1.85,스포츠용품,assets/models/FtrBall.glb,matcap_wax
+ftrball_matcap_chrome,공 (크롬),7800,1.55,스포츠용품,assets/models/FtrBall.glb,matcap_chrome
+ftrball_matcap_bronze,공 (브론즈),7000,1.7,스포츠용품,assets/models/FtrBall.glb,matcap_bronze
+ftrball_matcap_black_rubber,공 (블랙 러버),5400,1.9,스포츠용품,assets/models/FtrBall.glb,matcap_black_rubber
+ftrball_matcap_red_wax,공 (레드 왁스),5800,1.8,스포츠용품,assets/models/FtrBall.glb,matcap_red_wax
+ftrball_matcap_white_ceramic,공 (화이트 세라믹),6300,1.75,스포츠용품,assets/models/FtrBall.glb,matcap_white_ceramic
+ftrball_matcap_blue_gloss,공 (블루 글로시),6000,1.8,스포츠용품,assets/models/FtrBall.glb,matcap_blue_gloss
+ftrball_matcap_gold,공 (골드),8500,1.4,스포츠용품,assets/models/FtrBall.glb,matcap_gold
+ftrball_matcap_silver_soft,공 (소프트 실버),6800,1.7,스포츠용품,assets/models/FtrBall.glb,matcap_silver_soft
+ftrbamboodrum_plastic_matte,바나나 드럼 (매트 플라스틱),65000,1.4,악기,assets/models/FtrBamboodrum.glb,plastic_matte
+ftrbamboodrum_plastic_gloss,바나나 드럼 (글로시 플라스틱),71500,1.35,악기,assets/models/FtrBamboodrum.glb,plastic_gloss
+ftrbamboodrum_rubber_soft,바나나 드럼 (소프트 러버),68300,1.4,악기,assets/models/FtrBamboodrum.glb,rubber_soft
+ftrbamboodrum_ceramic_clean,바나나 드럼 (클린 세라믹),78000,1.3,악기,assets/models/FtrBamboodrum.glb,ceramic_clean
+ftrbamboodrum_metal_brushed,바나나 드럼 (브러시드 메탈),87800,1.2,악기,assets/models/FtrBamboodrum.glb,metal_brushed
+ftrbamboodrum_metal_polished,바나나 드럼 (폴리시드 메탈),97500,1.1,악기,assets/models/FtrBamboodrum.glb,metal_polished
+ftrbamboodrum_paint_clearcoat,바나나 드럼 (클리어코트 페인트),84500,1.25,악기,assets/models/FtrBamboodrum.glb,paint_clearcoat
+ftrbamboodrum_fabric_sheen,바나나 드럼 (패브릭 쉰),74800,1.35,악기,assets/models/FtrBamboodrum.glb,fabric_sheen
+ftrbamboodrum_glass_clear,바나나 드럼 (클리어 글래스),104000,1,악기,assets/models/FtrBamboodrum.glb,glass_clear
+ftrbamboodrum_resin_tinted,바나나 드럼 (틴티드 레진),94300,1.15,악기,assets/models/FtrBamboodrum.glb,resin_tinted
+ftrbamboodrum_matcap_clay,바나나 드럼 (클레이),68300,1.4,악기,assets/models/FtrBamboodrum.glb,matcap_clay
+ftrbamboodrum_matcap_wax,바나나 드럼 (왁스),71500,1.35,악기,assets/models/FtrBamboodrum.glb,matcap_wax
+ftrbamboodrum_matcap_chrome,바나나 드럼 (크롬),100800,1.05,악기,assets/models/FtrBamboodrum.glb,matcap_chrome
+ftrbamboodrum_matcap_bronze,바나나 드럼 (브론즈),91000,1.2,악기,assets/models/FtrBamboodrum.glb,matcap_bronze
+ftrbamboodrum_matcap_black_rubber,바나나 드럼 (블랙 러버),70200,1.4,악기,assets/models/FtrBamboodrum.glb,matcap_black_rubber
+ftrbamboodrum_matcap_red_wax,바나나 드럼 (레드 왁스),74800,1.3,악기,assets/models/FtrBamboodrum.glb,matcap_red_wax
+ftrbamboodrum_matcap_white_ceramic,바나나 드럼 (화이트 세라믹),81300,1.25,악기,assets/models/FtrBamboodrum.glb,matcap_white_ceramic
+ftrbamboodrum_matcap_blue_gloss,바나나 드럼 (블루 글로시),78000,1.3,악기,assets/models/FtrBamboodrum.glb,matcap_blue_gloss
+ftrbamboodrum_matcap_gold,바나나 드럼 (골드),110500,0.9,악기,assets/models/FtrBamboodrum.glb,matcap_gold
+ftrbamboodrum_matcap_silver_soft,바나나 드럼 (소프트 실버),87800,1.2,악기,assets/models/FtrBamboodrum.glb,matcap_silver_soft
+ftrbasketgoal_plastic_matte,농구 골 (매트 플라스틱),120000,1.1,스포츠용품,assets/models/FtrBasketgoal.glb,plastic_matte
+ftrbasketgoal_plastic_gloss,농구 골 (글로시 플라스틱),132000,1.05,스포츠용품,assets/models/FtrBasketgoal.glb,plastic_gloss
+ftrbasketgoal_rubber_soft,농구 골 (소프트 러버),126000,1.1,스포츠용품,assets/models/FtrBasketgoal.glb,rubber_soft
+ftrbasketgoal_ceramic_clean,농구 골 (클린 세라믹),144000,1,스포츠용품,assets/models/FtrBasketgoal.glb,ceramic_clean
+ftrbasketgoal_metal_brushed,농구 골 (브러시드 메탈),162000,0.9,스포츠용품,assets/models/FtrBasketgoal.glb,metal_brushed
+ftrbasketgoal_metal_polished,농구 골 (폴리시드 메탈),180000,0.8,스포츠용품,assets/models/FtrBasketgoal.glb,metal_polished
+ftrbasketgoal_paint_clearcoat,농구 골 (클리어코트 페인트),156000,0.95,스포츠용품,assets/models/FtrBasketgoal.glb,paint_clearcoat
+ftrbasketgoal_fabric_sheen,농구 골 (패브릭 쉰),138000,1.05,스포츠용품,assets/models/FtrBasketgoal.glb,fabric_sheen
+ftrbasketgoal_glass_clear,농구 골 (클리어 글래스),192000,0.7,스포츠용품,assets/models/FtrBasketgoal.glb,glass_clear
+ftrbasketgoal_resin_tinted,농구 골 (틴티드 레진),174000,0.85,스포츠용품,assets/models/FtrBasketgoal.glb,resin_tinted
+ftrbasketgoal_matcap_clay,농구 골 (클레이),126000,1.1,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_clay
+ftrbasketgoal_matcap_wax,농구 골 (왁스),132000,1.05,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_wax
+ftrbasketgoal_matcap_chrome,농구 골 (크롬),186000,0.75,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_chrome
+ftrbasketgoal_matcap_bronze,농구 골 (브론즈),168000,0.9,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_bronze
+ftrbasketgoal_matcap_black_rubber,농구 골 (블랙 러버),129600,1.1,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_black_rubber
+ftrbasketgoal_matcap_red_wax,농구 골 (레드 왁스),138000,1,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_red_wax
+ftrbasketgoal_matcap_white_ceramic,농구 골 (화이트 세라믹),150000,0.95,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_white_ceramic
+ftrbasketgoal_matcap_blue_gloss,농구 골 (블루 글로시),144000,1,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_blue_gloss
+ftrbasketgoal_matcap_gold,농구 골 (골드),204000,0.6,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_gold
+ftrbasketgoal_matcap_silver_soft,농구 골 (소프트 실버),162000,0.9,스포츠용품,assets/models/FtrBasketgoal.glb,matcap_silver_soft
+ftrbasketsteamer_plastic_matte,대나무 찜통 (매트 플라스틱),15000,0.8,주방용품,assets/models/FtrBasketsteamer.glb,plastic_matte
+ftrbasketsteamer_plastic_gloss,대나무 찜통 (글로시 플라스틱),16500,0.75,주방용품,assets/models/FtrBasketsteamer.glb,plastic_gloss
+ftrbasketsteamer_rubber_soft,대나무 찜통 (소프트 러버),15800,0.8,주방용품,assets/models/FtrBasketsteamer.glb,rubber_soft
+ftrbasketsteamer_ceramic_clean,대나무 찜통 (클린 세라믹),18000,0.7,주방용품,assets/models/FtrBasketsteamer.glb,ceramic_clean
+ftrbasketsteamer_metal_brushed,대나무 찜통 (브러시드 메탈),20300,0.6,주방용품,assets/models/FtrBasketsteamer.glb,metal_brushed
+ftrbasketsteamer_metal_polished,대나무 찜통 (폴리시드 메탈),22500,0.5,주방용품,assets/models/FtrBasketsteamer.glb,metal_polished
+ftrbasketsteamer_paint_clearcoat,대나무 찜통 (클리어코트 페인트),19500,0.65,주방용품,assets/models/FtrBasketsteamer.glb,paint_clearcoat
+ftrbasketsteamer_fabric_sheen,대나무 찜통 (패브릭 쉰),17300,0.75,주방용품,assets/models/FtrBasketsteamer.glb,fabric_sheen
+ftrbasketsteamer_glass_clear,대나무 찜통 (클리어 글래스),24000,0.4,주방용품,assets/models/FtrBasketsteamer.glb,glass_clear
+ftrbasketsteamer_resin_tinted,대나무 찜통 (틴티드 레진),21800,0.55,주방용품,assets/models/FtrBasketsteamer.glb,resin_tinted
+ftrbasketsteamer_matcap_clay,대나무 찜통 (클레이),15800,0.8,주방용품,assets/models/FtrBasketsteamer.glb,matcap_clay
+ftrbasketsteamer_matcap_wax,대나무 찜통 (왁스),16500,0.75,주방용품,assets/models/FtrBasketsteamer.glb,matcap_wax
+ftrbasketsteamer_matcap_chrome,대나무 찜통 (크롬),23300,0.45,주방용품,assets/models/FtrBasketsteamer.glb,matcap_chrome
+ftrbasketsteamer_matcap_bronze,대나무 찜통 (브론즈),21000,0.6,주방용품,assets/models/FtrBasketsteamer.glb,matcap_bronze
+ftrbasketsteamer_matcap_black_rubber,대나무 찜통 (블랙 러버),16200,0.8,주방용품,assets/models/FtrBasketsteamer.glb,matcap_black_rubber
+ftrbasketsteamer_matcap_red_wax,대나무 찜통 (레드 왁스),17300,0.7,주방용품,assets/models/FtrBasketsteamer.glb,matcap_red_wax
+ftrbasketsteamer_matcap_white_ceramic,대나무 찜통 (화이트 세라믹),18800,0.65,주방용품,assets/models/FtrBasketsteamer.glb,matcap_white_ceramic
+ftrbasketsteamer_matcap_blue_gloss,대나무 찜통 (블루 글로시),18000,0.7,주방용품,assets/models/FtrBasketsteamer.glb,matcap_blue_gloss
+ftrbasketsteamer_matcap_gold,대나무 찜통 (골드),25500,0.3,주방용품,assets/models/FtrBasketsteamer.glb,matcap_gold
+ftrbasketsteamer_matcap_silver_soft,대나무 찜통 (소프트 실버),20300,0.6,주방용품,assets/models/FtrBasketsteamer.glb,matcap_silver_soft
+ftrboardgame_plastic_matte,보드게임 세트 (매트 플라스틱),25000,1.2,장난감,assets/models/FtrBoardgame.glb,plastic_matte
+ftrboardgame_plastic_gloss,보드게임 세트 (글로시 플라스틱),27500,1.15,장난감,assets/models/FtrBoardgame.glb,plastic_gloss
+ftrboardgame_rubber_soft,보드게임 세트 (소프트 러버),26300,1.2,장난감,assets/models/FtrBoardgame.glb,rubber_soft
+ftrboardgame_ceramic_clean,보드게임 세트 (클린 세라믹),30000,1.1,장난감,assets/models/FtrBoardgame.glb,ceramic_clean
+ftrboardgame_metal_brushed,보드게임 세트 (브러시드 메탈),33800,1,장난감,assets/models/FtrBoardgame.glb,metal_brushed
+ftrboardgame_metal_polished,보드게임 세트 (폴리시드 메탈),37500,0.9,장난감,assets/models/FtrBoardgame.glb,metal_polished
+ftrboardgame_paint_clearcoat,보드게임 세트 (클리어코트 페인트),32500,1.05,장난감,assets/models/FtrBoardgame.glb,paint_clearcoat
+ftrboardgame_fabric_sheen,보드게임 세트 (패브릭 쉰),28700,1.15,장난감,assets/models/FtrBoardgame.glb,fabric_sheen
+ftrboardgame_glass_clear,보드게임 세트 (클리어 글래스),40000,0.8,장난감,assets/models/FtrBoardgame.glb,glass_clear
+ftrboardgame_resin_tinted,보드게임 세트 (틴티드 레진),36300,0.95,장난감,assets/models/FtrBoardgame.glb,resin_tinted
+ftrboardgame_matcap_clay,보드게임 세트 (클레이),26300,1.2,장난감,assets/models/FtrBoardgame.glb,matcap_clay
+ftrboardgame_matcap_wax,보드게임 세트 (왁스),27500,1.15,장난감,assets/models/FtrBoardgame.glb,matcap_wax
+ftrboardgame_matcap_chrome,보드게임 세트 (크롬),38800,0.85,장난감,assets/models/FtrBoardgame.glb,matcap_chrome
+ftrboardgame_matcap_bronze,보드게임 세트 (브론즈),35000,1,장난감,assets/models/FtrBoardgame.glb,matcap_bronze
+ftrboardgame_matcap_black_rubber,보드게임 세트 (블랙 러버),27000,1.2,장난감,assets/models/FtrBoardgame.glb,matcap_black_rubber
+ftrboardgame_matcap_red_wax,보드게임 세트 (레드 왁스),28700,1.1,장난감,assets/models/FtrBoardgame.glb,matcap_red_wax
+ftrboardgame_matcap_white_ceramic,보드게임 세트 (화이트 세라믹),31300,1.05,장난감,assets/models/FtrBoardgame.glb,matcap_white_ceramic
+ftrboardgame_matcap_blue_gloss,보드게임 세트 (블루 글로시),30000,1.1,장난감,assets/models/FtrBoardgame.glb,matcap_blue_gloss
+ftrboardgame_matcap_gold,보드게임 세트 (골드),42500,0.7,장난감,assets/models/FtrBoardgame.glb,matcap_gold
+ftrboardgame_matcap_silver_soft,보드게임 세트 (소프트 실버),33800,1,장난감,assets/models/FtrBoardgame.glb,matcap_silver_soft
+ftrbooks_plastic_matte,책 스택 (매트 플라스틱),10000,1.5,장식,assets/models/FtrBooks.glb,plastic_matte
+ftrbooks_plastic_gloss,책 스택 (글로시 플라스틱),11000,1.45,장식,assets/models/FtrBooks.glb,plastic_gloss
+ftrbooks_rubber_soft,책 스택 (소프트 러버),10500,1.5,장식,assets/models/FtrBooks.glb,rubber_soft
+ftrbooks_ceramic_clean,책 스택 (클린 세라믹),12000,1.4,장식,assets/models/FtrBooks.glb,ceramic_clean
+ftrbooks_metal_brushed,책 스택 (브러시드 메탈),13500,1.3,장식,assets/models/FtrBooks.glb,metal_brushed
+ftrbooks_metal_polished,책 스택 (폴리시드 메탈),15000,1.2,장식,assets/models/FtrBooks.glb,metal_polished
+ftrbooks_paint_clearcoat,책 스택 (클리어코트 페인트),13000,1.35,장식,assets/models/FtrBooks.glb,paint_clearcoat
+ftrbooks_fabric_sheen,책 스택 (패브릭 쉰),11500,1.45,장식,assets/models/FtrBooks.glb,fabric_sheen
+ftrbooks_glass_clear,책 스택 (클리어 글래스),16000,1.1,장식,assets/models/FtrBooks.glb,glass_clear
+ftrbooks_resin_tinted,책 스택 (틴티드 레진),14500,1.25,장식,assets/models/FtrBooks.glb,resin_tinted
+ftrbooks_matcap_clay,책 스택 (클레이),10500,1.5,장식,assets/models/FtrBooks.glb,matcap_clay
+ftrbooks_matcap_wax,책 스택 (왁스),11000,1.45,장식,assets/models/FtrBooks.glb,matcap_wax
+ftrbooks_matcap_chrome,책 스택 (크롬),15500,1.15,장식,assets/models/FtrBooks.glb,matcap_chrome
+ftrbooks_matcap_bronze,책 스택 (브론즈),14000,1.3,장식,assets/models/FtrBooks.glb,matcap_bronze
+ftrbooks_matcap_black_rubber,책 스택 (블랙 러버),10800,1.5,장식,assets/models/FtrBooks.glb,matcap_black_rubber
+ftrbooks_matcap_red_wax,책 스택 (레드 왁스),11500,1.4,장식,assets/models/FtrBooks.glb,matcap_red_wax
+ftrbooks_matcap_white_ceramic,책 스택 (화이트 세라믹),12500,1.35,장식,assets/models/FtrBooks.glb,matcap_white_ceramic
+ftrbooks_matcap_blue_gloss,책 스택 (블루 글로시),12000,1.4,장식,assets/models/FtrBooks.glb,matcap_blue_gloss
+ftrbooks_matcap_gold,책 스택 (골드),17000,1,장식,assets/models/FtrBooks.glb,matcap_gold
+ftrbooks_matcap_silver_soft,책 스택 (소프트 실버),13500,1.3,장식,assets/models/FtrBooks.glb,matcap_silver_soft
+ftrbookshelf_plastic_matte,책장 (매트 플라스틱),50000,1,가구,assets/models/FtrBookshelf.glb,plastic_matte
+ftrbookshelf_plastic_gloss,책장 (글로시 플라스틱),55000,0.95,가구,assets/models/FtrBookshelf.glb,plastic_gloss
+ftrbookshelf_rubber_soft,책장 (소프트 러버),52500,1,가구,assets/models/FtrBookshelf.glb,rubber_soft
+ftrbookshelf_ceramic_clean,책장 (클린 세라믹),60000,0.9,가구,assets/models/FtrBookshelf.glb,ceramic_clean
+ftrbookshelf_metal_brushed,책장 (브러시드 메탈),67500,0.8,가구,assets/models/FtrBookshelf.glb,metal_brushed
+ftrbookshelf_metal_polished,책장 (폴리시드 메탈),75000,0.7,가구,assets/models/FtrBookshelf.glb,metal_polished
+ftrbookshelf_paint_clearcoat,책장 (클리어코트 페인트),65000,0.85,가구,assets/models/FtrBookshelf.glb,paint_clearcoat
+ftrbookshelf_fabric_sheen,책장 (패브릭 쉰),57500,0.95,가구,assets/models/FtrBookshelf.glb,fabric_sheen
+ftrbookshelf_glass_clear,책장 (클리어 글래스),80000,0.6,가구,assets/models/FtrBookshelf.glb,glass_clear
+ftrbookshelf_resin_tinted,책장 (틴티드 레진),72500,0.75,가구,assets/models/FtrBookshelf.glb,resin_tinted
+ftrbookshelf_matcap_clay,책장 (클레이),52500,1,가구,assets/models/FtrBookshelf.glb,matcap_clay
+ftrbookshelf_matcap_wax,책장 (왁스),55000,0.95,가구,assets/models/FtrBookshelf.glb,matcap_wax
+ftrbookshelf_matcap_chrome,책장 (크롬),77500,0.65,가구,assets/models/FtrBookshelf.glb,matcap_chrome
+ftrbookshelf_matcap_bronze,책장 (브론즈),70000,0.8,가구,assets/models/FtrBookshelf.glb,matcap_bronze
+ftrbookshelf_matcap_black_rubber,책장 (블랙 러버),54000,1,가구,assets/models/FtrBookshelf.glb,matcap_black_rubber
+ftrbookshelf_matcap_red_wax,책장 (레드 왁스),57500,0.9,가구,assets/models/FtrBookshelf.glb,matcap_red_wax
+ftrbookshelf_matcap_white_ceramic,책장 (화이트 세라믹),62500,0.85,가구,assets/models/FtrBookshelf.glb,matcap_white_ceramic
+ftrbookshelf_matcap_blue_gloss,책장 (블루 글로시),60000,0.9,가구,assets/models/FtrBookshelf.glb,matcap_blue_gloss
+ftrbookshelf_matcap_gold,책장 (골드),85000,0.5,가구,assets/models/FtrBookshelf.glb,matcap_gold
+ftrbookshelf_matcap_silver_soft,책장 (소프트 실버),67500,0.8,가구,assets/models/FtrBookshelf.glb,matcap_silver_soft
+ftrbreaker_plastic_matte,차단기 박스 (매트 플라스틱),30000,1.3,가전,assets/models/FtrBreaker.glb,plastic_matte
+ftrbreaker_plastic_gloss,차단기 박스 (글로시 플라스틱),33000,1.25,가전,assets/models/FtrBreaker.glb,plastic_gloss
+ftrbreaker_rubber_soft,차단기 박스 (소프트 러버),31500,1.3,가전,assets/models/FtrBreaker.glb,rubber_soft
+ftrbreaker_ceramic_clean,차단기 박스 (클린 세라믹),36000,1.2,가전,assets/models/FtrBreaker.glb,ceramic_clean
+ftrbreaker_metal_brushed,차단기 박스 (브러시드 메탈),40500,1.1,가전,assets/models/FtrBreaker.glb,metal_brushed
+ftrbreaker_metal_polished,차단기 박스 (폴리시드 메탈),45000,1,가전,assets/models/FtrBreaker.glb,metal_polished
+ftrbreaker_paint_clearcoat,차단기 박스 (클리어코트 페인트),39000,1.15,가전,assets/models/FtrBreaker.glb,paint_clearcoat
+ftrbreaker_fabric_sheen,차단기 박스 (패브릭 쉰),34500,1.25,가전,assets/models/FtrBreaker.glb,fabric_sheen
+ftrbreaker_glass_clear,차단기 박스 (클리어 글래스),48000,0.9,가전,assets/models/FtrBreaker.glb,glass_clear
+ftrbreaker_resin_tinted,차단기 박스 (틴티드 레진),43500,1.05,가전,assets/models/FtrBreaker.glb,resin_tinted
+ftrbreaker_matcap_clay,차단기 박스 (클레이),31500,1.3,가전,assets/models/FtrBreaker.glb,matcap_clay
+ftrbreaker_matcap_wax,차단기 박스 (왁스),33000,1.25,가전,assets/models/FtrBreaker.glb,matcap_wax
+ftrbreaker_matcap_chrome,차단기 박스 (크롬),46500,0.95,가전,assets/models/FtrBreaker.glb,matcap_chrome
+ftrbreaker_matcap_bronze,차단기 박스 (브론즈),42000,1.1,가전,assets/models/FtrBreaker.glb,matcap_bronze
+ftrbreaker_matcap_black_rubber,차단기 박스 (블랙 러버),32400,1.3,가전,assets/models/FtrBreaker.glb,matcap_black_rubber
+ftrbreaker_matcap_red_wax,차단기 박스 (레드 왁스),34500,1.2,가전,assets/models/FtrBreaker.glb,matcap_red_wax
+ftrbreaker_matcap_white_ceramic,차단기 박스 (화이트 세라믹),37500,1.15,가전,assets/models/FtrBreaker.glb,matcap_white_ceramic
+ftrbreaker_matcap_blue_gloss,차단기 박스 (블루 글로시),36000,1.2,가전,assets/models/FtrBreaker.glb,matcap_blue_gloss
+ftrbreaker_matcap_gold,차단기 박스 (골드),51000,0.8,가전,assets/models/FtrBreaker.glb,matcap_gold
+ftrbreaker_matcap_silver_soft,차단기 박스 (소프트 실버),40500,1.1,가전,assets/models/FtrBreaker.glb,matcap_silver_soft
