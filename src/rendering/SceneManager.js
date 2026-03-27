@@ -94,11 +94,11 @@ export class SceneManager {
       color: 0xffe0a0,
       angle: spotAngle,
       particles: particleCount,
-      density: 0.01,
-      size: 50,
+      density: isMobile ? 0.025 : 0.01,
+      size: isMobile ? 35 : 50,
       drift: 0.15,
-      brightness: 0.1,
-    });
+      brightness: isMobile ? 0.25 : 0.1,
+    }, this.renderer);
 
     const area = new THREE.PointLight(0x6688ff, 0.6, 8);
     area.position.set(0, 3, 2);

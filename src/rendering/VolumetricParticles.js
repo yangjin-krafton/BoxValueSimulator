@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 
 const VERT = `
+precision highp float;
+
 attribute float aSeed;
 attribute float aWeight;
 
@@ -8,6 +10,7 @@ uniform float time;
 uniform float drift;
 uniform float size;
 uniform float lightDist;
+uniform float maxPointSize;
 
 varying float vAlpha;
 varying float vWeight;
@@ -26,7 +29,7 @@ void main() {
 
   float perspective = 260.0 / max(20.0, -mvPosition.z);
   float nearScale = smoothstep(0.0, 0.5, heightT);
-  gl_PointSize = size * (0.45 + aWeight * 0.8) * perspective * nearScale;
+  gl_PointSize = min(size * (0.45 + aWeight * 0.8) * perspective * nearScale, maxPointSize);
 
   float depthFade = 1.0 - smoothstep(0.65, 1.0, heightT);
   vAlpha = depthFade * nearScale * (0.35 + aWeight * 0.65);
@@ -35,6 +38,8 @@ void main() {
 `;
 
 const FRAG = `
+precision mediump float;
+
 uniform vec3 color;
 uniform float density;
 uniform float intensity;
@@ -72,7 +77,7 @@ export class VolumetricParticles {
    *   brightness?: number
    * }} config
    */
-  constructor(scene, camera, config) {
+  constructor(scene, camera, config, renderer) {
     this.scene = scene;
     this.camera = camera;
 
@@ -82,6 +87,10 @@ export class VolumetricParticles {
     const dist = pos.distanceTo(tgt);
     const angle = config.angle ?? 0.4;
     const particleCount = config.particles ?? 2000;
+
+    // 모바일 GPU의 gl_PointSize 제한 조회
+    const gl = renderer?.domElement?.getContext('webgl2') || renderer?.domElement?.getContext('webgl');
+    const gpuMaxPointSize = gl ? gl.getParameter(gl.ALIASED_POINT_SIZE_RANGE)[1] : 256;
 
     // Build geometry — cone distribution
     const positions = new Float32Array(MAX_PARTICLES * 3);
@@ -109,13 +118,14 @@ export class VolumetricParticles {
     geometry.setDrawRange(0, particleCount);
 
     this.uniforms = {
-      time:      { value: 0 },
-      drift:     { value: config.drift ?? 0.35 },
-      size:      { value: config.size ?? 30 },
-      lightDist: { value: dist },
-      color:     { value: new THREE.Color(config.color) },
-      density:   { value: config.density ?? 0.06 },
-      intensity: { value: config.brightness ?? 1.5 },
+      time:         { value: 0 },
+      drift:        { value: config.drift ?? 0.35 },
+      size:         { value: config.size ?? 30 },
+      lightDist:    { value: dist },
+      maxPointSize: { value: gpuMaxPointSize },
+      color:        { value: new THREE.Color(config.color) },
+      density:      { value: config.density ?? 0.06 },
+      intensity:    { value: config.brightness ?? 1.5 },
     };
 
     const material = new THREE.ShaderMaterial({
@@ -130,10 +140,9 @@ export class VolumetricParticles {
     this.points = new THREE.Points(geometry, material);
     this.points.position.copy(pos);
     this.points.quaternion.setFromUnitVectors(new THREE.Vector3(0, -1, 0), dir);
-    this.points.layers.set(1);
     this.points.renderOrder = 2;
+    this.points.frustumCulled = false;
 
-    camera.layers.enable(1);
     scene.add(this.points);
 
     this.geometry = geometry;
