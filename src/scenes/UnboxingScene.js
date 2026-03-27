@@ -252,11 +252,13 @@ export class UnboxingScene {
     // ── 개봉 애니메이션 ──
     if (this._animState === 'opening') {
       this._animT = Math.min(this._animT + dt * 0.85, 1);
-      const t = ease(this._animT);
-      a.flaps.front.rotation.x =  OPEN_FB * t;
-      a.flaps.back.rotation.x  = -OPEN_FB * t;
-      a.flaps.left.rotation.z  =  OPEN_LR * t;
-      a.flaps.right.rotation.z = -OPEN_LR * t;
+      // 긴 쪽(front/back) 먼저 열리고, 짧은 쪽(left/right)은 딜레이
+      const tFB = ease(Math.min(this._animT / 0.7, 1));           // 0~70% 구간에서 완료
+      const tLR = ease(Math.max(0, (this._animT - 0.3) / 0.7));   // 30% 후 시작, 100%에서 완료
+      a.flaps.front.rotation.x =  OPEN_FB * tFB;
+      a.flaps.back.rotation.x  = -OPEN_FB * tFB;
+      a.flaps.left.rotation.z  =  OPEN_LR * tLR;
+      a.flaps.right.rotation.z = -OPEN_LR * tLR;
 
       if (this._animT > 0.35 && !this._confettiFired) {
         this._confettiFired = true;
