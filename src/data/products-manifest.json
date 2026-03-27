@@ -51,5 +51,6 @@
     "data/products_49.csv",
     "data/products_50.csv"
   ],
-  "totalProducts": 10000
+  "totalProducts": 10000,
+  "dataVersion": "0.2"
 }

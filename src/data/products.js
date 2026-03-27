@@ -14,6 +14,9 @@ import { getPreset } from './presets.js';
 /** @type {Array<Product>} */
 export let PRODUCTS = [];
 
+/** 현재 상품 데이터 버전 (매니페스트에서 로드) */
+export let DATA_VERSION = '';
+
 /**
  * @typedef {{
  *   id: string, name: string, baseValue: number, rarity: number,
@@ -63,10 +66,11 @@ export async function loadProducts() {
     // 1. 매니페스트에서 CSV 파일 목록
     let csvFiles = [FALLBACK_CSV];
     try {
-      const mRes = await fetch(MANIFEST_PATH);
+      const mRes = await fetch(MANIFEST_PATH, { cache: 'no-cache' });
       if (mRes.ok) {
         const manifest = await mRes.json();
         if (manifest.files?.length > 0) csvFiles = manifest.files;
+        if (manifest.dataVersion) DATA_VERSION = manifest.dataVersion;
       }
     } catch { /* 매니페스트 없으면 폴백 */ }
 
@@ -78,7 +82,7 @@ export async function loadProducts() {
     // 3. 선택된 CSV 로드 + 파싱 + 병합
     const allProducts = [];
     for (const csvPath of selected) {
-      const res = await fetch(csvPath);
+      const res = await fetch(csvPath, { cache: 'no-cache' });
       if (!res.ok) continue;
       const text = await res.text();
       allProducts.push(...parseCSV(text));

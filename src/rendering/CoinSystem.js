@@ -362,9 +362,6 @@ export class CoinSystem {
     const dist = dir.length();
     if (dist < 0.3 || c.life <= 0) {
       c.mode = 'remove';
-      // 마지막 코인 제거 시 정리
-      const remaining = this._pileCoins.filter(p => p.mode !== 'remove');
-      if (remaining.length <= 1) this._pileCoins = [];
       return;
     }
     dir.normalize();

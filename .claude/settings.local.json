@@ -127,7 +127,11 @@
       "Bash(mv C7C0AC_2E181A_543B30_6B6270-256px.png clay.png)",
       "Bash(mv FFECD6_C3A47A_D1B28F_B19574-256px.png wax.png)",
       "Bash(mv C8C8C8_3F3F3F_787878_5C5C5C-256px.png chrome.png)",
-      "Bash(mv 7B4E2E_543520_C7A46F_A07040-256px.png bronze.png)"
+      "Bash(mv 7B4E2E_543520_C7A46F_A07040-256px.png bronze.png)",
+      "Bash(grep:*)",
+      "Bash(for csv:*)",
+      "Bash(do awk:*)",
+      "Bash(done)"
     ],
     "additionalDirectories": [
       "\\tmp"

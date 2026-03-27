@@ -8,6 +8,8 @@
  *   'shelf' | 'flying' | 'active' | 'opened' | 'done'
  */
 
+import { DATA_VERSION } from '../data/products.js';
+
 const INITIAL_MONEY = 100_000;
 const SAVE_KEY = 'boxsim_save';
 
@@ -34,6 +36,7 @@ export class GameStateManager {
         boxStates: this.state.boxStates,
         layout: this.state.layout || null,
         savedAt: Date.now(),
+        dataVersion: DATA_VERSION,
       };
       localStorage.setItem(SAVE_KEY, JSON.stringify(data));
     } catch { /* quota exceeded 등 무시 */ }
@@ -49,6 +52,14 @@ export class GameStateManager {
       if (!raw) return { ok: false, offlineBonus: 0 };
       const data = JSON.parse(raw);
       if (!data.boxSet || !data.boxStates) return { ok: false, offlineBonus: 0 };
+
+      // 데이터 버전 불일치 → 머니만 유지, 박스셋은 초기화
+      if (DATA_VERSION && data.dataVersion !== DATA_VERSION) {
+        console.warn(`[save] 데이터 버전 변경 (${data.dataVersion || '없음'} → ${DATA_VERSION}), 박스셋 초기화`);
+        this.state.money = data.money ?? INITIAL_MONEY;
+        this.clearSave();
+        return { ok: false, offlineBonus: 0 };
+      }
 
       this.state.money = data.money ?? INITIAL_MONEY;
       this.state.boxSet = data.boxSet;
