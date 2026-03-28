@@ -7,4 +7,5 @@ tools/package-lock.json
 tools/generated-img/
 tools/generated-glb/
 tools/pipeline-checkpoint.json
+tools/qa-report.json
 tools/trellis2-server/

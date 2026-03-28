@@ -139,7 +139,12 @@
       "Bash(edge-tts --list-voices)",
       "Bash(node -e \"let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{try{const j=JSON.parse\\(d\\);const dev=j.devices[0];console.log\\(''''ComfyUI UP - VRAM free:'''', \\(dev.vram_free/1024**3\\).toFixed\\(1\\)+''''GB / ''''+\\(dev.vram_total/1024**3\\).toFixed\\(1\\)+''''GB''''\\);}catch{console.log\\(''''Not ready yet''''\\);}}\\)\")",
       "Bash(node -e \"let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const j=JSON.parse\\(d\\);const done=Object.values\\(j.phase1\\).filter\\(v=>v===''''done''''\\).length;const fail=Object.values\\(j.phase1\\).filter\\(v=>v?.startsWith\\(''''fail:''''\\)\\).length;console.log\\(''''Phase 1:'''', done, ''''done,'''', fail, ''''failed''''\\);}\\);\")",
-      "Bash(node -e \"let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const j=JSON.parse\\(d\\);const done=Object.values\\(j.phase1\\).filter\\(v=>v===''''done''''\\).length;const fail=Object.values\\(j.phase1\\).filter\\(v=>v?.startsWith\\(''''fail:''''\\)\\).length;console.log\\(''''Phase 1:'''', done+''''/936 done,'''', fail, ''''failed''''\\);}\\);\")"
+      "Bash(node -e \"let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const j=JSON.parse\\(d\\);const done=Object.values\\(j.phase1\\).filter\\(v=>v===''''done''''\\).length;const fail=Object.values\\(j.phase1\\).filter\\(v=>v?.startsWith\\(''''fail:''''\\)\\).length;console.log\\(''''Phase 1:'''', done+''''/936 done,'''', fail, ''''failed''''\\);}\\);\")",
+      "Bash(pkill -f \"asset-pipeline\")",
+      "Bash(taskkill.exe //F //FI \"WINDOWTITLE eq asset-pipeline\")",
+      "Bash(wmic.exe process:*)",
+      "Bash(tasklist.exe)",
+      "Bash(cmd.exe /c \"tasklist /FI \\\\\"IMAGENAME eq node.exe\\\\\"\" 2>/dev/null)"
     ],
     "additionalDirectories": [
       "\\tmp"
