@@ -171,7 +171,7 @@ const THEMES = [
 //  프롬프트 생성
 // ═══════════════════════════════════════════════════════════
 
-const BASE_PROMPT = 'collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo';
+const BASE_PROMPT = 'single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo';
 
 function generateAll() {
   const prompts = [];
