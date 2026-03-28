@@ -199,6 +199,8 @@ async function runPhase1(products, checkpoint) {
       const wf = JSON.parse(JSON.stringify(workflow));
       wf['50'].inputs.text = prompt;
       wf['49'].inputs.seed = Math.floor(Math.random() * 2 ** 53);
+      wf['49'].inputs.denoise = 1.0;   // text2img는 반드시 1.0
+      wf['49'].inputs.steps = 10;      // turbo 모델 최적 스텝
       wf['9'].inputs.filename_prefix = id;
 
       // 실행
