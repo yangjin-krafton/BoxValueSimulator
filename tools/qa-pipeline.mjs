@@ -208,7 +208,7 @@ async function freeComfyVRAM() {
 async function loadLMModel() {
   try {
     console.log(`   LM Studio 모델 로드: ${CONFIG.lmModel}...`);
-    const res = await fetch(`${CONFIG.lmUrl}/v1/models/load`, {
+    const res = await fetch(`${CONFIG.lmUrl}/api/v1/models/load`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ model: CONFIG.lmModel }),
@@ -227,10 +227,10 @@ async function loadLMModel() {
 async function unloadLMModel() {
   try {
     console.log('   LM Studio 모델 언로드...');
-    const res = await fetch(`${CONFIG.lmUrl}/v1/models/unload`, {
+    const res = await fetch(`${CONFIG.lmUrl}/api/v1/models/unload`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: CONFIG.lmModel }),
+      body: JSON.stringify({ instance_id: CONFIG.lmModel }),
     });
     if (res.ok) {
       console.log('   LM Studio 모델 언로드 완료 (VRAM 해제)');
@@ -439,22 +439,12 @@ async function runRegeneration(report, roundNum) {
   console.log(`║  재생성: ${String(failedIds.length).padStart(4)}개 불합격 이미지         ║`);
   console.log(`╚═══════════════════════════════════════╝`);
 
-  // 회차별 백업 폴더 생성
-  const backupDir = resolve(__dirname, `generated-img-round${roundNum}`);
-  await mkdir(backupDir, { recursive: true });
-
-  // 불합격 이미지를 백업 폴더로 이동 후 삭제
-  const { rename, unlink } = await import('node:fs/promises');
+  // 불합격 이미지 삭제
+  const { unlink } = await import('node:fs/promises');
   for (const id of failedIds) {
-    const src = resolve(IMG_DIR, `${id}.png`);
-    const dst = resolve(backupDir, `${id}.png`);
-    try {
-      await rename(src, dst);
-    } catch {
-      // 파일 없으면 무시
-    }
+    try { await unlink(resolve(IMG_DIR, `${id}.png`)); } catch {}
   }
-  console.log(`   불합격 ${failedIds.length}장 → ${backupDir} 이동`);
+  console.log(`   불합격 ${failedIds.length}장 삭제`);
 
   // 프롬프트 로드
   const products = JSON.parse(await readFile(PROMPTS_PATH, 'utf-8'));

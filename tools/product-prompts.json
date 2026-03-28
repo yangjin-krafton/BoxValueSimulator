@@ -1,7 +1,7 @@
 [
   {
     "id": "fig_dark_knight_chibi",
-    "prompt": "2-head-tall super deformed chibi dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "2-head-tall super deformed chibi dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (치비)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -9,7 +9,7 @@
   },
   {
     "id": "fig_dark_knight_stylized",
-    "prompt": "4-head-tall stylized cartoon dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "4-head-tall stylized cartoon dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (스타일라이즈드)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -17,7 +17,7 @@
   },
   {
     "id": "fig_dark_knight_realistic",
-    "prompt": "realistic detailed proportions dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "realistic detailed proportions dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (리얼리스틱)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -25,7 +25,7 @@
   },
   {
     "id": "fig_dark_knight_clay",
-    "prompt": "clay sculpt matte finish dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "clay sculpt matte finish dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (클레이)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -33,7 +33,7 @@
   },
   {
     "id": "fig_dark_knight_vinyl",
-    "prompt": "glossy vinyl designer toy dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "glossy vinyl designer toy dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (바이닐토이)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -41,7 +41,7 @@
   },
   {
     "id": "fig_dark_knight_wooden",
-    "prompt": "hand-carved wooden folk art dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "hand-carved wooden folk art dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (우드카빙)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -49,7 +49,7 @@
   },
   {
     "id": "fig_dark_knight_pixel",
-    "prompt": "voxel pixel art low-poly blocky dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "voxel pixel art low-poly blocky dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (복셀픽셀)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -57,7 +57,7 @@
   },
   {
     "id": "fig_dark_knight_plush",
-    "prompt": "soft plush stuffed toy fabric texture dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "soft plush stuffed toy fabric texture dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (플러시)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -65,7 +65,7 @@
   },
   {
     "id": "fig_dark_knight_mech",
-    "prompt": "mechanical articulated robot joints and armor plates dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "mechanical articulated robot joints and armor plates dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (메카닉)",
     "category": "쿨",
     "theme": "dark_knight",
@@ -73,7 +73,7 @@
   },
   {
     "id": "fig_dark_knight_metallic",
-    "prompt": "polished metallic chrome finish reflective surface dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, collectible figure, full body, solid white background, high quality, 3d render style, studio lighting, product photo",
+    "prompt": "polished metallic chrome finish reflective surface dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
     "name": "dark knight (메탈릭)",
     "category": "쿨",
     "theme": "dark_knight",
