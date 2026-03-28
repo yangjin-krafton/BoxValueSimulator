@@ -1,0 +1,77 @@
+[
+  {
+    "id": "figure_knight",
+    "prompt": "game figure, knight character wearing armor, chibi style, full body, simple pose, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "figure_mage",
+    "prompt": "game figure, mage character with staff, chibi style, full body, purple robe, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "figure_archer",
+    "prompt": "game figure, archer character with bow, chibi style, full body, green outfit, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "figure_dragon_red",
+    "prompt": "game figure, cute red dragon, chibi style, full body, small wings, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "figure_cat_samurai",
+    "prompt": "game figure, cat samurai with katana, chibi style, full body, japanese armor, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "item_sword_flame",
+    "prompt": "game item, flame sword, fantasy weapon, glowing orange blade, icon style, white background, high quality",
+    "category": "무기"
+  },
+  {
+    "id": "item_shield_holy",
+    "prompt": "game item, holy shield, golden ornament, fantasy equipment, icon style, white background, high quality",
+    "category": "방어구"
+  },
+  {
+    "id": "item_potion_hp",
+    "prompt": "game item, red health potion bottle, glass bottle with red liquid, icon style, white background, high quality",
+    "category": "소비재"
+  },
+  {
+    "id": "item_crown_king",
+    "prompt": "game item, golden king crown with gems, luxury accessory, icon style, white background, high quality",
+    "category": "액세서리"
+  },
+  {
+    "id": "item_crystal_blue",
+    "prompt": "game item, blue magic crystal, glowing gem, fantasy material, icon style, white background, high quality",
+    "category": "재료"
+  },
+  {
+    "id": "figure_robot_mini",
+    "prompt": "game figure, cute mini robot, chibi style, full body, metallic body, blue LED eyes, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "figure_ninja",
+    "prompt": "game figure, ninja character, chibi style, full body, black outfit, throwing star, white background, high quality, 3d render style",
+    "category": "피규어"
+  },
+  {
+    "id": "item_ring_emerald",
+    "prompt": "game item, emerald ring, golden band with green gem, luxury jewelry, icon style, white background, high quality",
+    "category": "액세서리"
+  },
+  {
+    "id": "item_boots_speed",
+    "prompt": "game item, speed boots with wings, fantasy footwear, glowing effect, icon style, white background, high quality",
+    "category": "방어구"
+  },
+  {
+    "id": "figure_slime_green",
+    "prompt": "game figure, cute green slime monster, chibi style, happy face, translucent body, white background, high quality, 3d render style",
+    "category": "피규어"
+  }
+]
