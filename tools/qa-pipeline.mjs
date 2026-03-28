@@ -35,7 +35,7 @@ function flag(name, fallback) {
 const CONFIG = {
   comfyUrl:     flag('comfy-url', 'http://100.66.10.225:8188'),
   lmUrl:        flag('lm-url', 'http://100.66.10.225:1234'),
-  lmModel:      flag('model', 'qwen/qwen3.5-9b'),
+  lmModel:      flag('model', 'qwen/qwen3-vl-8b'),
   qaOnly:       args.includes('--qa-only'),
   maxRounds:    Number(flag('max-rounds', '10')),
   passRate:     Number(flag('pass-rate', '0.9')),
@@ -56,17 +56,25 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 const QA_SYSTEM_PROMPT = `You are a JSON API. Output raw JSON only. Never explain.
 
-CRITICAL rules (instant fail if violated):
-- SINGLE: Exactly ONE character/object. Multiple characters = fail.
-- WHITE_BG: Pure white/near-white background only. Any colored/cluttered bg = fail.
-- NOT_CROPPED: Full body visible. Any body part cut off at image edge = fail.
+You inspect collectible figure product photos for 3D model conversion.
+These are 512x512 studio photos on light backgrounds.
 
-Additional checks:
-- CLEAR_SHAPE: Solid well-defined shape good for 3D model conversion.
-- NO_ARTIFACTS: No glitches, noise, duplicated limbs.
+HARD FAIL (score 0-30):
+- SINGLE: More than one separate character/figure in the image.
+- MAJOR_CROP: Head or large body part completely missing/cut off at edge.
+- MAJOR_ARTIFACT: Severe glitches, melted face, extra limbs, unrecognizable shape.
 
-For multiple images return JSON array. For single image return JSON object.
-{"pass":bool,"score":0-100,"issues":["SINGLE"|"WHITE_BG"|"NOT_CROPPED"|"CLEAR_SHAPE"|"NO_ARTIFACTS"],"suggestion":"one line fix"}`;
+SOFT ISSUES (reduce score but still pass if minor):
+- WHITE_BG: Background not perfectly white (light gray is OK, colored is not).
+- MINOR_CROP: Tips of weapons/wings/feet slightly touching edge (acceptable).
+- HELD_ITEMS: Weapon floating or clipping through body.
+- CLEAR_SHAPE: Blurry or unclear shape.
+
+Scoring: Start at 100, subtract for issues. Light gray bg = -5, slight edge touch = -5, weapon float = -15, multiple figures = instant 0.
+pass=true if score >= 70.
+
+For multiple images return JSON array in order.
+{"pass":bool,"score":0-100,"issues":[],"suggestion":"fix"}`;
 
 /** JSON Schema for structured output — LM Studio grammar-based enforcement */
 const QA_SINGLE_SCHEMA = {
@@ -366,8 +374,8 @@ async function runQA(targetIds = null) {
         report.results[id] = { ...result, timestamp: new Date().toISOString() };
 
         // 합격 판정: pass=true이거나, critical issue(SINGLE, NOT_CROPPED) 없이 score>=80
-        const criticalIssues = (result.issues || []).filter(i => ['SINGLE', 'NOT_CROPPED'].includes(i));
-        const isPass = (result.pass && result.score >= 70) || (criticalIssues.length === 0 && result.score >= 80);
+        const hardFails = (result.issues || []).filter(i => ['SINGLE', 'MAJOR_CROP', 'MAJOR_ARTIFACT'].includes(i));
+        const isPass = hardFails.length === 0 && result.score >= 70;
         result.pass = isPass;
 
         if (isPass) {

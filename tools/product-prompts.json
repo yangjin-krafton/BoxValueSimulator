@@ -1,34 +1,26 @@
 [
   {
-    "id": "fig_dark_knight_chibi",
-    "prompt": "2-head-tall super deformed chibi dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (치비)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_school_idol_chibi",
+    "prompt": "2-head-tall super deformed chibi anime school idol in dynamic concert pose with frilled stage outfit twin tails and sparkling star eyes, bright winning smile, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "school idol (치비)",
+    "category": "미소녀",
+    "theme": "school_idol",
     "style": "chibi"
   },
   {
-    "id": "fig_dark_knight_stylized",
-    "prompt": "4-head-tall stylized cartoon dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (스타일라이즈드)",
-    "category": "쿨",
-    "theme": "dark_knight",
-    "style": "stylized"
-  },
-  {
-    "id": "fig_dark_knight_realistic",
-    "prompt": "realistic detailed proportions dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (리얼리스틱)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_succubus_realistic",
+    "prompt": "realistic detailed proportions succubus sitting cross-legged on throne with bat wings spread, playful wink and teasing smile, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "succubus (리얼리스틱)",
+    "category": "섹시",
+    "theme": "succubus",
     "style": "realistic"
   },
   {
-    "id": "fig_dark_knight_clay",
-    "prompt": "clay sculpt matte finish dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (클레이)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_magical_girl_star_clay",
+    "prompt": "clay sculpt matte finish magical girl twirling star wand with layered ribbons heart brooch and bright transformation smile, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "magical girl star (클레이)",
+    "category": "마법소녀",
+    "theme": "magical_girl_star",
     "style": "clay"
   },
   {
@@ -40,43 +32,51 @@
     "style": "vinyl"
   },
   {
-    "id": "fig_dark_knight_wooden",
-    "prompt": "hand-carved wooden folk art dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (우드카빙)",
-    "category": "쿨",
-    "theme": "dark_knight",
-    "style": "wooden"
-  },
-  {
-    "id": "fig_dark_knight_pixel",
-    "prompt": "voxel pixel art low-poly blocky dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (복셀픽셀)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_lich_king_pixel",
+    "prompt": "voxel pixel art low-poly blocky lich king on dark throne with rotting crown raising soul-jar staff, hollow malevolent grin, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "lich king (복셀픽셀)",
+    "category": "공포",
+    "theme": "lich_king",
     "style": "pixel"
   },
   {
-    "id": "fig_dark_knight_plush",
-    "prompt": "soft plush stuffed toy fabric texture dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (플러시)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_gundam_hero_plush",
+    "prompt": "soft plush stuffed toy fabric texture heroic mecha in victory pose with beam saber raised and wing thrusters glowing, V-fin eyes flashing, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "gundam hero (플러시)",
+    "category": "메카",
+    "theme": "gundam_hero",
     "style": "plush"
   },
   {
-    "id": "fig_dark_knight_mech",
-    "prompt": "mechanical articulated robot joints and armor plates dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (메카닉)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_wolf_alpha_mech",
+    "prompt": "mechanical articulated robot joints and armor plates alpha wolf howling on rock with battle scars and moonlit silhouette, intense primal eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "wolf alpha (메카닉)",
+    "category": "동물",
+    "theme": "wolf_alpha",
     "style": "mech"
   },
   {
-    "id": "fig_dark_knight_metallic",
-    "prompt": "polished metallic chrome finish reflective surface dark fallen knight in cursed black spiked armor raising burning greatsword overhead, fierce glowing eyes, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
-    "name": "dark knight (메탈릭)",
-    "category": "쿨",
-    "theme": "dark_knight",
+    "id": "fig_anubis_metallic",
+    "prompt": "polished metallic chrome finish reflective surface anubis standing judgement pose with golden scales in one hand staff in other, solemn divine authority, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "anubis (메탈릭)",
+    "category": "신화",
+    "theme": "anubis",
     "style": "metallic"
+  },
+  {
+    "id": "fig_school_idol_wooden",
+    "prompt": "hand-carved wooden folk art anime school idol in dynamic concert pose with frilled stage outfit twin tails and sparkling star eyes, bright winning smile, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "school idol (우드카빙)",
+    "category": "미소녀",
+    "theme": "school_idol",
+    "style": "wooden"
+  },
+  {
+    "id": "fig_succubus_stylized",
+    "prompt": "4-head-tall stylized cartoon succubus sitting cross-legged on throne with bat wings spread, playful wink and teasing smile, single character only, one figure, full body visible from head to toe, no cropping, isolated on pure white background, no environment, no floor shadow, centered composition, collectible figure, high quality, 3d render style, studio lighting, product photo",
+    "name": "succubus (스타일라이즈드)",
+    "category": "섹시",
+    "theme": "succubus",
+    "style": "stylized"
   }
 ]
