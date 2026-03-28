@@ -131,7 +131,12 @@
       "Bash(grep:*)",
       "Bash(for csv:*)",
       "Bash(do awk:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(find /c/Users/sangyi/.claude/plugins -type f \\\\\\(-name *.md -o -name *.json -o -name *.yaml -o -name *.yml \\\\\\))",
+      "Bash(/tmp/skills_summary.txt:*)",
+      "Read(//tmp/**)",
+      "Bash(pip show:*)",
+      "Bash(edge-tts --list-voices)"
     ],
     "additionalDirectories": [
       "\\tmp"
