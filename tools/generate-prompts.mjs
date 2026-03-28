@@ -225,6 +225,7 @@ console.log('\n   샘플:');
 const step = Math.max(1, Math.floor(prompts.length / 5));
 for (const i of [0, step, step*2, step*3, prompts.length-1]) {
   const s = prompts[i];
+  if (!s) continue;
   console.log(`     ${s.id}`);
   console.log(`       ${s.prompt.slice(0, 100)}...`);
 }
