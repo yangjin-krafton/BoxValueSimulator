@@ -104,14 +104,10 @@ export class HUD {
   }
 
   _bounce() {
-    this._money.style.transition = 'none';
-    this._money.style.transform = 'scale(1.25)';
-    this._money.style.color = '#ffe566';
-    // force reflow
+    // CSS animation 재시작: 클래스 제거 → reflow → 재추가
+    this._money.classList.remove('bouncing');
     void this._money.offsetWidth;
-    this._money.style.transition = 'transform 0.15s ease-out, color 0.3s';
-    this._money.style.transform = 'scale(1)';
-    this._money.style.color = '#f0c040';
+    this._money.classList.add('bouncing');
   }
 
   setHint(text, visible = true) {
@@ -160,7 +156,7 @@ export class HUD {
 
   /** 교환 버튼 표시/숨김 */
   setSwapVisible(visible) {
-    this._swap.style.display = visible ? '' : 'none';
+    this._swap.style.visibility = visible ? '' : 'hidden';
   }
 
   /** 쿨타임 시작 */
