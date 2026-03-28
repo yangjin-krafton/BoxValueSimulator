@@ -54,25 +54,78 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 // ─── LM Studio API ─────────────────────────────────────────
 
-const QA_SYSTEM_PROMPT = `/no_think
-You are a strict quality inspector for collectible figure images that will be converted to 3D models.
-Do NOT think. Do NOT use <think> tags. Respond ONLY with a JSON object. No other text before or after.
+const QA_SYSTEM_PROMPT = `You are a JSON API. Output raw JSON only. Never explain.
 
-Criteria:
-1. SINGLE_SUBJECT: Exactly one clear main subject (not multiple scattered objects)
-2. WHITE_BG: Clean white or near-white background (not cluttered/colored)
-3. FULL_BODY: Complete figure visible, not cropped at edges
-4. CLEAR_SHAPE: Well-defined solid shape suitable for 3D conversion (not blurry/abstract)
-5. NO_ARTIFACTS: No visual glitches, noise, or distortion
-6. RECOGNIZABLE: Subject matches a collectible figure/toy aesthetic
+CRITICAL rules (instant fail if violated):
+- SINGLE: Exactly ONE character/object. Multiple characters = fail.
+- WHITE_BG: Pure white/near-white background only. Any colored/cluttered bg = fail.
+- NOT_CROPPED: Full body visible. Any body part cut off at image edge = fail.
 
-JSON format:
-{"pass":true/false,"score":0-100,"issues":["issue1","issue2"],"suggestion":"one line fix suggestion if failed"}
+Additional checks:
+- CLEAR_SHAPE: Solid well-defined shape good for 3D model conversion.
+- NO_ARTIFACTS: No glitches, noise, duplicated limbs.
 
-Score guide: 90-100=excellent, 70-89=acceptable, 50-69=mediocre, 0-49=bad
-Pass threshold: score >= 70 AND no critical issues (missing subject, heavy artifacts)`;
+For multiple images return JSON array. For single image return JSON object.
+{"pass":bool,"score":0-100,"issues":["SINGLE"|"WHITE_BG"|"NOT_CROPPED"|"CLEAR_SHAPE"|"NO_ARTIFACTS"],"suggestion":"one line fix"}`;
 
-async function callLMVision(imageBase64, filename) {
+/** JSON Schema for structured output — LM Studio grammar-based enforcement */
+const QA_SINGLE_SCHEMA = {
+  type: "json_schema",
+  json_schema: {
+    name: "qa_result",
+    strict: "true",
+    schema: {
+      type: "object",
+      properties: {
+        pass:       { type: "boolean" },
+        score:      { type: "integer" },
+        issues:     { type: "array", items: { type: "string" } },
+        suggestion: { type: "string" },
+      },
+      required: ["pass", "score", "issues", "suggestion"],
+    },
+  },
+};
+
+const QA_BATCH_SCHEMA = {
+  type: "json_schema",
+  json_schema: {
+    name: "qa_batch_result",
+    strict: "true",
+    schema: {
+      type: "object",
+      properties: {
+        results: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: {
+              pass:       { type: "boolean" },
+              score:      { type: "integer" },
+              issues:     { type: "array", items: { type: "string" } },
+              suggestion: { type: "string" },
+            },
+            required: ["pass", "score", "issues", "suggestion"],
+          },
+        },
+      },
+      required: ["results"],
+    },
+  },
+};
+
+/** 배치 이미지 검수 — structured output으로 JSON 강제 */
+async function callLMVisionBatch(items) {
+  const imageContents = [];
+  const fileList = items.map((item, i) => `${i + 1}. ${item.filename}`).join('\n');
+
+  imageContents.push({ type: 'text', text: `Inspect ${items.length} images. Return results array in order.\n${fileList}` });
+  for (const item of items) {
+    imageContents.push({ type: 'image_url', image_url: { url: `data:image/png;base64,${item.base64}` } });
+  }
+
+  const isBatch = items.length > 1;
+
   const res = await fetch(`${CONFIG.lmUrl}/v1/chat/completions`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -80,20 +133,11 @@ async function callLMVision(imageBase64, filename) {
       model: CONFIG.lmModel,
       messages: [
         { role: 'system', content: QA_SYSTEM_PROMPT },
-        {
-          role: 'user',
-          content: [
-            { type: 'text', text: `Inspect this image (${filename}). Respond with JSON only.` },
-            { type: 'image_url', image_url: { url: `data:image/png;base64,${imageBase64}` } },
-          ],
-        },
+        { role: 'user', content: imageContents },
       ],
-      temperature: 0.1,
-      max_tokens: 500,
-      // thinking 끄기 — 여러 방법 동시 적용 (LM Studio 버전별 호환)
-      chat_template_kwargs: { enable_thinking: false },
-      // Qwen3 thinking budget 0으로 설정
-      extra_body: { thinking: { type: "disabled" } },
+      temperature: 0.0,
+      max_tokens: 4096,
+      response_format: isBatch ? QA_BATCH_SCHEMA : QA_SINGLE_SCHEMA,
     }),
   });
 
@@ -101,31 +145,44 @@ async function callLMVision(imageBase64, filename) {
   const data = await res.json();
   let raw = data.choices?.[0]?.message?.content || '';
 
-  // thinking 태그가 있으면 전부 제거 (켜져 있는 경우 대비)
+  // thinking 태그 제거 (만약 있다면)
   raw = raw.replace(/<think>[\s\S]*?<\/think>/g, '');
-  // 닫는 태그 없이 열린 think도 제거
-  const thinkStart = raw.indexOf('<think>');
-  if (thinkStart !== -1) {
-    const thinkEnd = raw.indexOf('</think>', thinkStart);
-    if (thinkEnd !== -1) {
-      raw = raw.slice(0, thinkStart) + raw.slice(thinkEnd + 8);
-    } else {
-      // </think> 없이 끝난 경우 — think 이전 내용만 사용하거나, 이후에서 JSON 찾기
-      raw = raw.slice(thinkStart);
-    }
-  }
-
-  // JSON 추출 (```json 블록, 순수 JSON 등 모든 형태 대응)
-  raw = raw.replace(/^[\s\S]*?(?=\{)/m, ''); // { 앞의 모든 텍스트 제거
-  raw = raw.replace(/```(?:json)?\s*/gi, '').replace(/\s*```/g, '').trim();
-  const match = raw.match(/\{[\s\S]*\}/);
-  if (!match) return { pass: false, score: 0, issues: ['JSON 파싱 실패'], suggestion: 'retry', _raw: data.choices?.[0]?.message?.content?.slice(0, 200) };
+  const thinkIdx = raw.indexOf('</think>');
+  if (thinkIdx !== -1) raw = raw.slice(thinkIdx + 8);
+  raw = raw.trim();
 
   try {
-    return JSON.parse(match[0]);
-  } catch {
-    return { pass: false, score: 0, issues: ['JSON 파싱 실패'], suggestion: 'retry', _raw: match[0].slice(0, 200) };
-  }
+    const parsed = JSON.parse(raw);
+
+    // 배치: { results: [...] }
+    if (isBatch && parsed.results && Array.isArray(parsed.results)) {
+      // 결과 수가 부족하면 fallback으로 채움
+      while (parsed.results.length < items.length) {
+        parsed.results.push({ pass: false, score: 0, issues: ['응답 누락'], suggestion: 'retry' });
+      }
+      return parsed.results.slice(0, items.length);
+    }
+
+    // 단일: { pass, score, ... }
+    if (!isBatch && 'pass' in parsed) {
+      return [parsed];
+    }
+
+    // 예외: 배열이 직접 왔을 때
+    if (Array.isArray(parsed)) {
+      return parsed.slice(0, items.length);
+    }
+  } catch {}
+
+  // structured output 실패 시 fallback 파싱
+  const objects = [...raw.matchAll(/\{[^{}]*\}/g)].map(m => {
+    try { return JSON.parse(m[0]); } catch { return null; }
+  }).filter(Boolean);
+
+  if (objects.length >= items.length) return objects.slice(0, items.length);
+
+  const fallback = { pass: false, score: 0, issues: ['JSON 파싱 실패'], suggestion: 'retry', _raw: raw.slice(0, 300) };
+  return items.map(() => fallback);
 }
 
 // ─── ComfyUI API ────────────────────────────────────────────
@@ -145,6 +202,45 @@ async function freeComfyVRAM() {
     });
     await sleep(3000);
   } catch {}
+}
+
+/** LM Studio 모델 로드 */
+async function loadLMModel() {
+  try {
+    console.log(`   LM Studio 모델 로드: ${CONFIG.lmModel}...`);
+    const res = await fetch(`${CONFIG.lmUrl}/v1/models/load`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ model: CONFIG.lmModel }),
+    });
+    if (res.ok) {
+      console.log('   LM Studio 모델 로드 완료');
+      await sleep(3000);
+      return true;
+    }
+  } catch {}
+  // load API 미지원 시 이미 로드되어 있다고 가정
+  return false;
+}
+
+/** LM Studio 모델 언로드 — VRAM 해제 */
+async function unloadLMModel() {
+  try {
+    console.log('   LM Studio 모델 언로드...');
+    const res = await fetch(`${CONFIG.lmUrl}/v1/models/unload`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ model: CONFIG.lmModel }),
+    });
+    if (res.ok) {
+      console.log('   LM Studio 모델 언로드 완료 (VRAM 해제)');
+      await sleep(3000);
+      return true;
+    }
+  } catch {}
+  // unload API 미지원 시 수동 안내
+  console.log('   ⚠️  LM Studio 자동 언로드 실패 — 수동으로 모델을 내려주세요');
+  return false;
 }
 
 async function regenerateImage(id, prompt) {
@@ -214,14 +310,21 @@ async function runQA(targetIds = null) {
   console.log('   ComfyUI VRAM 해제...');
   await freeComfyVRAM();
 
+  // LM Studio 모델 로드
+  await loadLMModel();
+
   // LM Studio 연결 확인
   try {
     const res = await fetch(`${CONFIG.lmUrl}/v1/models`);
     const data = await res.json();
-    console.log(`   LM Studio 연결: ${data.data?.[0]?.id || 'OK'}`);
+    const loaded = data.data?.map(m => m.id).join(', ') || 'none';
+    console.log(`   LM Studio 연결: ${loaded}`);
+    if (!data.data?.length) {
+      console.error('   ❌ 로드된 모델 없음');
+      return null;
+    }
   } catch (e) {
     console.error(`   ❌ LM Studio 연결 실패: ${CONFIG.lmUrl}`);
-    console.error(`   모델을 먼저 로드하세요: ${CONFIG.lmModel}`);
     return null;
   }
 
@@ -236,40 +339,59 @@ async function runQA(targetIds = null) {
   const report = await loadQAReport();
   let passed = 0, failed = 0, errors = 0;
 
-  for (let i = 0; i < files.length; i++) {
-    const file = files[i];
-    const id = basename(file, '.png');
+  // 배치 단위로 처리
+  for (let bStart = 0; bStart < files.length; bStart += CONFIG.batchSize) {
+    const batch = files.slice(bStart, bStart + CONFIG.batchSize);
+    const batchNum = Math.floor(bStart / CONFIG.batchSize) + 1;
+    const totalBatches = Math.ceil(files.length / CONFIG.batchSize);
 
-    // 배치 간 쉼
-    if (i > 0 && i % CONFIG.batchSize === 0) {
-      const pct = ((passed / (passed + failed)) * 100).toFixed(0);
-      console.log(`   --- 배치 ${Math.floor(i / CONFIG.batchSize)} 완료 (합격률: ${pct}%) ---\n`);
-    }
-
-    process.stdout.write(`   [${i + 1}/${files.length}] ${id} ... `);
+    console.log(`   [배치 ${batchNum}/${totalBatches}] ${batch.length}장 검수 중...`);
 
     try {
-      const imgData = await readFile(resolve(IMG_DIR, file));
-      const base64 = imgData.toString('base64');
-      const result = await callLMVision(base64, file);
+      // 배치 이미지 로드
+      const items = [];
+      for (const file of batch) {
+        const imgData = await readFile(resolve(IMG_DIR, file));
+        items.push({ base64: imgData.toString('base64'), filename: file });
+      }
 
-      report.results[id] = {
-        ...result,
-        timestamp: new Date().toISOString(),
-      };
+      // 배치 API 호출
+      const results = await callLMVisionBatch(items);
 
-      if (result.pass && result.score >= 70) {
-        passed++;
-        console.log(`✅ ${result.score}점`);
-      } else {
-        failed++;
-        const issues = result.issues?.join(', ') || 'unknown';
-        console.log(`❌ ${result.score}점 [${issues}]`);
+      // 결과 기록
+      for (let i = 0; i < batch.length; i++) {
+        const id = basename(batch[i], '.png');
+        const result = results[i] || { pass: false, score: 0, issues: ['응답 누락'], suggestion: 'retry' };
+
+        report.results[id] = { ...result, timestamp: new Date().toISOString() };
+
+        // 합격 판정: pass=true이거나, critical issue(SINGLE, NOT_CROPPED) 없이 score>=80
+        const criticalIssues = (result.issues || []).filter(i => ['SINGLE', 'NOT_CROPPED'].includes(i));
+        const isPass = (result.pass && result.score >= 70) || (criticalIssues.length === 0 && result.score >= 80);
+        result.pass = isPass;
+
+        if (isPass) {
+          passed++;
+          console.log(`     ${id} ✅ ${result.score}점`);
+        } else {
+          failed++;
+          const issues = result.issues?.join(', ') || 'unknown';
+          console.log(`     ${id} ❌ ${result.score}점 [${issues}]`);
+        }
       }
     } catch (e) {
-      errors++;
-      report.results[id] = { pass: false, score: 0, issues: ['검수 오류: ' + e.message], suggestion: 'retry' };
-      console.log(`⚠️  오류: ${e.message.slice(0, 50)}`);
+      // 배치 실패 시 개별 fallback
+      for (const file of batch) {
+        const id = basename(file, '.png');
+        errors++;
+        report.results[id] = { pass: false, score: 0, issues: ['배치 오류: ' + e.message], suggestion: 'retry' };
+        console.log(`     ${id} ⚠️ 오류`);
+      }
+    }
+
+    const total = passed + failed;
+    if (total > 0) {
+      console.log(`   --- 누적: ${passed}/${total} 합격 (${((passed/total)*100).toFixed(0)}%) ---\n`);
     }
   }
 
@@ -289,6 +411,9 @@ async function runQA(targetIds = null) {
 
   await saveQAReport(report);
 
+  // QA 완료 → LM Studio 모델 언로드 (VRAM 해제)
+  await unloadLMModel();
+
   console.log(`\n   ────────────────────────────────`);
   console.log(`   합격: ${passed} | 불합격: ${failed} | 오류: ${errors}`);
   console.log(`   합격률: ${(rate * 100).toFixed(1)}%`);
@@ -299,7 +424,7 @@ async function runQA(targetIds = null) {
 
 // ─── Phase: 재생성 ──────────────────────────────────────────
 
-async function runRegeneration(report) {
+async function runRegeneration(report, roundNum) {
   // 불합격 목록 추출
   const failedIds = Object.entries(report.results)
     .filter(([_, r]) => !r.pass || r.score < 70)
@@ -313,6 +438,23 @@ async function runRegeneration(report) {
   console.log(`\n╔═══════════════════════════════════════╗`);
   console.log(`║  재생성: ${String(failedIds.length).padStart(4)}개 불합격 이미지         ║`);
   console.log(`╚═══════════════════════════════════════╝`);
+
+  // 회차별 백업 폴더 생성
+  const backupDir = resolve(__dirname, `generated-img-round${roundNum}`);
+  await mkdir(backupDir, { recursive: true });
+
+  // 불합격 이미지를 백업 폴더로 이동 후 삭제
+  const { rename, unlink } = await import('node:fs/promises');
+  for (const id of failedIds) {
+    const src = resolve(IMG_DIR, `${id}.png`);
+    const dst = resolve(backupDir, `${id}.png`);
+    try {
+      await rename(src, dst);
+    } catch {
+      // 파일 없으면 무시
+    }
+  }
+  console.log(`   불합격 ${failedIds.length}장 → ${backupDir} 이동`);
 
   // 프롬프트 로드
   const products = JSON.parse(await readFile(PROMPTS_PATH, 'utf-8'));
@@ -329,7 +471,6 @@ async function runRegeneration(report) {
       continue;
     }
 
-    const suggestion = report.results[id]?.suggestion || '';
     process.stdout.write(`   [${i + 1}/${failedIds.length}] ${id} ... `);
 
     try {
@@ -347,11 +488,8 @@ async function runRegeneration(report) {
         const res = await comfyFetch('/system_stats');
         const stats = await res.json();
         const dev = stats.devices?.[0];
-        if (dev) {
-          const usage = 1 - dev.vram_free / dev.vram_total;
-          if (usage > 0.8) {
-            await freeComfyVRAM();
-          }
+        if (dev && (1 - dev.vram_free / dev.vram_total) > 0.8) {
+          await freeComfyVRAM();
         }
       } catch {}
     }
@@ -401,24 +539,21 @@ async function main() {
     // 2) ComfyUI로 불합격 이미지 재생성
     console.log(`\n   합격률 ${report.stats.passRate}% < ${(CONFIG.passRate * 100).toFixed(0)}% — 재생성 시작`);
 
-    // LM Studio가 VRAM을 놓을 때까지 대기
-    console.log('   ⏳ VRAM 전환 대기 (LM Studio → ComfyUI)...');
-    console.log('   💡 LM Studio에서 모델을 언로드하세요');
-    await sleep(5000);
-    await freeComfyVRAM();
+    // LM Studio VRAM 해제 → ComfyUI 전환
+    console.log('   VRAM 전환 (LM Studio → ComfyUI)...');
+    await sleep(3000);
 
-    const regenerated = await runRegeneration(report);
+    const regenerated = await runRegeneration(report, round);
 
     if (regenerated === 0) {
       console.log('   재생성된 항목 없음 — 루프 종료');
       break;
     }
 
-    // 다음 라운드 전 ComfyUI VRAM 해제
+    // 다음 라운드 전 ComfyUI VRAM 해제 → LM Studio 전환
     await freeComfyVRAM();
-    console.log('   ⏳ VRAM 전환 대기 (ComfyUI → LM Studio)...');
-    console.log('   💡 LM Studio에서 모델을 다시 로드하세요');
-    await sleep(5000);
+    console.log('   VRAM 전환 (ComfyUI → LM Studio)...');
+    await sleep(3000);
   }
 
   // 최종 리포트

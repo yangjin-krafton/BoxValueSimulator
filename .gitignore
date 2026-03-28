@@ -5,6 +5,7 @@ tools/package-lock.json
 
 # Tools - generated artifacts (not code)
 tools/generated-img/
+tools/generated-img-round*/
 tools/generated-glb/
 tools/pipeline-checkpoint.json
 tools/qa-report.json
