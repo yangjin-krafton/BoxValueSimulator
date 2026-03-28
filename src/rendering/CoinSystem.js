@@ -307,7 +307,14 @@ export class CoinSystem {
       this._pileCoins.push(coin);
     }
 
-    // 클릭 이벤트
+    // 보이지 않는 큰 히트 영역 (코인 산 위에 배치)
+    const hitGeo = new THREE.CylinderGeometry(0.8, 0.8, 0.3, 16);
+    const hitMat = new THREE.MeshBasicMaterial({ visible: false });
+    this._pileHitArea = new THREE.Mesh(hitGeo, hitMat);
+    this._pileHitArea.position.set(cx, this._pileTopY + 0.1, cz);
+    this.scene.add(this._pileHitArea);
+
+    // 클릭 이벤트 (넓은 히트 영역 사용)
     this._pileClickHandler = (e) => {
       if (this._pileCollecting || this._pileCoins.length === 0) return;
       const mouse = new THREE.Vector2(
@@ -316,8 +323,7 @@ export class CoinSystem {
       );
       const ray = new THREE.Raycaster();
       ray.setFromCamera(mouse, this.camera);
-      const meshes = this._pileCoins.map(c => c.mesh);
-      if (ray.intersectObjects(meshes).length > 0) {
+      if (ray.intersectObject(this._pileHitArea).length > 0) {
         this._collectPile();
       }
     };
@@ -332,6 +338,10 @@ export class CoinSystem {
   _collectPile() {
     this._pileCollecting = true;
     removeEventListener('pointerdown', this._pileClickHandler);
+    if (this._pileHitArea) {
+      this.scene.remove(this._pileHitArea);
+      this._pileHitArea = null;
+    }
 
     // 코인 하나씩 시간차로 HUD로 흡수
     const interval = 0.04;
