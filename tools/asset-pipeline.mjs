@@ -41,7 +41,7 @@ const CONFIG = {
   imgBatchSize:   Number(flag('img-batch', '10')), // /free 호출 간격 (text2img)
   glbBatchSize:   Number(flag('glb-batch', '3')),  // /free 호출 간격 (img2glb)
   pollInterval:   2000,                            // ms
-  pollTimeout:    300000,                          // 5분 타임아웃
+  pollTimeout:    600000,                          // 10분 타임아웃 (TRELLIS.2 GLB 생성 소요)
   cooldownMs:     3000,                            // /free 후 대기
   maxRetries:     3,                               // 항목별 최대 재시도
   vramThreshold:  0.80,                            // VRAM 80% 이상이면 정리
@@ -87,9 +87,12 @@ async function waitForCompletion(promptId) {
       const data = await res.json();
       const entry = data[promptId];
       if (!entry) continue;
-      if (entry.status?.completed) return entry.outputs;
+      if (entry.outputs && Object.keys(entry.outputs).length > 0) return entry.outputs;
       if (entry.status?.status_str === 'error') {
-        throw new Error(`ComfyUI 실행 오류: ${JSON.stringify(entry.status)}`);
+        const msgs = entry.status?.messages || [];
+        const errMsg = msgs.find(m => m[0] === 'execution_error');
+        const detail = errMsg ? errMsg[1].exception_message?.split('\n')[0] : 'unknown';
+        throw new Error(`ComfyUI 오류 [${errMsg?.[1]?.node_type || '?'}]: ${detail}`);
       }
     } catch (e) {
       if (e.message.includes('ComfyUI 실행 오류')) throw e;
@@ -293,10 +296,19 @@ async function runPhase2(products, checkpoint) {
         body: formData,
       });
 
-      // 워크플로우 수정
+      // 워크플로우 수정 — 16GB VRAM 최적화
       const wf = JSON.parse(JSON.stringify(workflow));
       wf['80'].inputs.image = `pipeline/${id}.png`;
       wf['72'].inputs.filename_prefix = id;
+
+      // TRELLIS.2 16GB 설정
+      wf['68'].inputs.resolution = '512';
+      wf['68'].inputs.attn_backend = 'flash_attn';
+      wf['68'].inputs.vram_mode = 'cpu_offload';
+      wf['69'].inputs.include_1024 = false;
+      wf['73'].inputs.max_tokens = 24576;
+      wf['72'].inputs.decimation_target = 100000;
+      wf['72'].inputs.texture_size = 1024;
 
       // 실행
       const promptId = await queuePrompt(wf);

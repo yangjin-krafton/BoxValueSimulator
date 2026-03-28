@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>GLB Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #1a1a2e; color: #eee; font-family: monospace; overflow: hidden; }
+    canvas { display: block; }
+    #ui {
+      position: fixed; top: 12px; left: 12px; z-index: 10;
+      background: rgba(0,0,0,0.7); padding: 12px 16px; border-radius: 8px;
+      font-size: 13px; line-height: 1.8;
+    }
+    #ui input[type=file] { margin-top: 4px; }
+    #info { position: fixed; bottom: 12px; left: 12px; z-index: 10;
+      background: rgba(0,0,0,0.7); padding: 8px 14px; border-radius: 8px;
+      font-size: 12px; color: #aaa; }
+    #drop-zone {
+      position: fixed; inset: 0; z-index: 100; display: none;
+      background: rgba(26,26,46,0.9); align-items: center; justify-content: center;
+      font-size: 24px; color: #7ec8e3; border: 3px dashed #7ec8e3;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="ui">
+    <div><strong>GLB Preview</strong></div>
+    <div id="filename">No file loaded</div>
+    <input type="file" id="fileInput" accept=".glb,.gltf">
+  </div>
+  <div id="info"></div>
+  <div id="drop-zone">Drop GLB file here</div>
+
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+// --- Scene setup ---
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.2;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.sortObjects = true;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a1a2e);
+
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 100);
+camera.position.set(2, 1.5, 2);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.08;
+controls.target.set(0, 0, 0);
+
+// --- Lights ---
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+scene.add(ambientLight);
+
+const dirLight = new THREE.DirectionalLight(0xffffff, 1.5);
+dirLight.position.set(3, 5, 3);
+dirLight.castShadow = true;
+scene.add(dirLight);
+
+const fillLight = new THREE.DirectionalLight(0x8888ff, 0.4);
+fillLight.position.set(-2, 2, -3);
+scene.add(fillLight);
+
+// --- Grid ---
+const grid = new THREE.GridHelper(4, 20, 0x333355, 0x222244);
+scene.add(grid);
+
+// --- GLB Loader ---
+const loader = new GLTFLoader();
+let currentModel = null;
+
+function loadGLB(url, name) {
+  if (currentModel) {
+    scene.remove(currentModel);
+    currentModel.traverse(child => {
+      if (child.geometry) child.geometry.dispose();
+      if (child.material) {
+        if (Array.isArray(child.material)) child.material.forEach(m => m.dispose());
+        else child.material.dispose();
+      }
+    });
+  }
+
+  loader.load(url, (gltf) => {
+    const model = gltf.scene;
+
+    // Auto-scale and center
+    const box = new THREE.Box3().setFromObject(model);
+    const size = box.getSize(new THREE.Vector3());
+    const center = box.getCenter(new THREE.Vector3());
+    const maxDim = Math.max(size.x, size.y, size.z);
+    const scale = 1.5 / maxDim;
+    model.scale.setScalar(scale);
+    model.position.sub(center.multiplyScalar(scale));
+    model.position.y += size.y * scale * 0.5;
+
+    // Enable transparency on all materials
+    model.traverse(child => {
+      if (child.isMesh && child.material) {
+        const mats = Array.isArray(child.material) ? child.material : [child.material];
+        mats.forEach(mat => {
+          // Enable alpha from texture
+          if (mat.map && mat.map.image) {
+            mat.transparent = true;
+            mat.alphaTest = 0.01;
+            mat.depthWrite = true;
+            mat.side = THREE.DoubleSide;
+          }
+          // Support transmission (glass-like)
+          if (mat.transmission > 0) {
+            mat.transparent = true;
+            mat.depthWrite = false;
+          }
+          // Support opacity from alpha channel
+          if (mat.opacity < 1.0) {
+            mat.transparent = true;
+          }
+          mat.needsUpdate = true;
+        });
+      }
+    });
+
+    scene.add(model);
+    currentModel = model;
+
+    // Camera fit
+    controls.target.set(0, size.y * scale * 0.5, 0);
+    camera.position.set(1.8, 1.2, 1.8);
+    controls.update();
+
+    // Info
+    let verts = 0, tris = 0;
+    model.traverse(child => {
+      if (child.isMesh && child.geometry) {
+        const geo = child.geometry;
+        verts += geo.attributes.position?.count || 0;
+        tris += geo.index ? geo.index.count / 3 : (geo.attributes.position?.count || 0) / 3;
+      }
+    });
+    document.getElementById('filename').textContent = name;
+    document.getElementById('info').textContent =
+      `${Math.round(tris).toLocaleString()} tris | ${verts.toLocaleString()} verts | ${size.x.toFixed(2)} x ${size.y.toFixed(2)} x ${size.z.toFixed(2)}`;
+  }, undefined, (err) => {
+    console.error('Load error:', err);
+    document.getElementById('info').textContent = 'Load error: ' + err.message;
+  });
+}
+
+// --- File input ---
+document.getElementById('fileInput').addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const url = URL.createObjectURL(file);
+  loadGLB(url, file.name);
+});
+
+// --- Drag & drop ---
+const dropZone = document.getElementById('drop-zone');
+document.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.style.display = 'flex'; });
+document.addEventListener('dragleave', (e) => {
+  if (e.relatedTarget === null) dropZone.style.display = 'none';
+});
+document.addEventListener('drop', (e) => {
+  e.preventDefault();
+  dropZone.style.display = 'none';
+  const file = e.dataTransfer.files[0];
+  if (file && (file.name.endsWith('.glb') || file.name.endsWith('.gltf'))) {
+    const url = URL.createObjectURL(file);
+    loadGLB(url, file.name);
+  }
+});
+
+// --- Auto-load from URL param ---
+const params = new URLSearchParams(location.search);
+const modelPath = params.get('model');
+if (modelPath) {
+  loadGLB(modelPath, modelPath.split('/').pop());
+}
+
+// --- Resize ---
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// --- Render loop ---
+function animate() {
+  requestAnimationFrame(animate);
+  controls.update();
+  renderer.render(scene, camera);
+}
+animate();
+</script>
+</body>
+</html>
