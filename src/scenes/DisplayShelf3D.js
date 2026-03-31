@@ -92,14 +92,13 @@ export class DisplayShelf3D {
     this._boardTex = new THREE.CanvasTexture(this._boardCanvas);
     this._boardTex.anisotropy = this.sceneMgr.renderer.capabilities.getMaxAnisotropy();
 
-    const mat = new THREE.MeshStandardMaterial({
-      map: this._boardTex, roughness: 0.7, metalness: 0.1,
+    const mat = new THREE.MeshBasicMaterial({
+      map: this._boardTex,
       transparent: true, polygonOffset: true, polygonOffsetFactor: -1,
     });
     this._boardMesh = new THREE.Mesh(new THREE.PlaneGeometry(BOARD_W, BOARD_D), mat);
     this._boardMesh.rotation.x = -Math.PI / 2;
     this._boardMesh.position.set(0, FLOOR_Y + 0.008, BOARD_Z);
-    this._boardMesh.receiveShadow = true;
     this._root.add(this._boardMesh);
   }
 

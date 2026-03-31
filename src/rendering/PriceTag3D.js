@@ -161,12 +161,12 @@ export function createPriceTag3D() {
       if (!_boxDef) return;
 
       let status;
-      if (_totalDiscount > 0) {
-        status = 'sale';
+      if (_totalDiscount > 0 && money >= _effectivePrice) {
+        status = 'sale';        // 할인 + 구매 가능 → 노란색
       } else if (money >= _effectivePrice) {
-        status = 'affordable';
+        status = 'affordable';  // 정가 + 구매 가능 → 초록색
       } else {
-        status = 'expensive';
+        status = 'expensive';   // 구매 불가 (할인 여부 무관) → 빨간색
       }
 
       if (status === _status) return;

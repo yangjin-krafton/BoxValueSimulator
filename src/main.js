@@ -11,6 +11,7 @@ import { DisplayShelf3D, SLOT_POSITIONS, FLOOR_Y, BOARD_Z, BOARD_D } from './sce
 import { CardDeck3D } from './scenes/CardDeck3D.js';
 import { FloorElement } from './rendering/FloorElement.js';
 import { FloorUIManager } from './rendering/FloorUIManager.js';
+import { SlotFullBubble } from './rendering/SlotFullBubble.js';
 import { HUD } from './ui/HUD.js';
 import { RuleEngine } from './systems/RuleEngine.js';
 import { RoundManager } from './systems/RoundManager.js';
@@ -38,7 +39,8 @@ const displayShelf  = new DisplayShelf3D(sceneMgr, assetLoader);
 const cardDeck      = new CardDeck3D(sceneMgr);
 const tapPin        = new TapIndicator(sceneMgr.scene);
 
-const floorUI     = new FloorUIManager(sceneMgr);
+const floorUI       = new FloorUIManager(sceneMgr);
+const slotFullBubble = new SlotFullBubble(sceneMgr.scene);
 
 // ── 라운드 종료 버튼 (3D 바닥) ──
 class EndRoundButton extends FloorElement {
@@ -157,6 +159,7 @@ bus.on('box:select', (index) => {
   if (emptySlot === -1) {
     hud.setHint('슬롯이 가득 찼습니다! 판매 버튼을 눌러 비워주세요');
     boxSelection.setTagsVisible(true);
+    slotFullBubble.show();
     return;
   }
 
@@ -377,6 +380,7 @@ sceneMgr.startLoop((dt) => {
   }
   coins.update(dt);
   tapPin.update(dt);
+  slotFullBubble.update(dt);
   displayShelf.update(dt, sceneMgr.clock.elapsedTime);
   floorUI.update(dt, sceneMgr.clock.elapsedTime);
   cardDeck.update(dt);

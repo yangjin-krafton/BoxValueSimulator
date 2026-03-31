@@ -163,7 +163,8 @@
       "Bash(/dev/null sleep:*)",
       "Bash(find D:/Weeks/BoxValueSimulator -type f \\\\\\(-name *.mjs -o -name qa-pipeline* \\\\\\))",
       "Bash(sed 's/_[^_]*$//')",
-      "Bash(sed 's/.*_//')"
+      "Bash(sed 's/.*_//')",
+      "Bash(~/.bashrc)"
     ],
     "additionalDirectories": [
       "\\tmp"

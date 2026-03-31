@@ -18,7 +18,7 @@ export class SceneManager {
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = isMobile ? THREE.BasicShadowMap : THREE.PCFSoftShadowMap;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    this.renderer.toneMappingExposure = 1.1;
+    this.renderer.toneMappingExposure = 1.4;
     document.body.appendChild(this.renderer.domElement);
 
     // Scene
@@ -55,7 +55,7 @@ export class SceneManager {
   get canvas() { return this.renderer.domElement; }
 
   _setupLighting() {
-    this.scene.add(new THREE.AmbientLight(0x334466, 0.4));
+    this.scene.add(new THREE.AmbientLight(0x445566, 0.6));
 
     const shadowRes = isMobile ? 1024 : 2048;
 
@@ -178,9 +178,9 @@ export class SceneManager {
 
   /** HDR 환경 프리셋: 배경 분위기별 HDR + 톤/강도 */
   static HDR_PRESETS = [
-    { file: 'assets/hdri/studio_small_09_1k.hdr', intensity: 0.6 },
-    { file: 'assets/hdri/studio_small_03_1k.hdr', intensity: 0.5 },
-    { file: 'assets/hdri/moonless_golf_1k.hdr',   intensity: 0.35 },
+    { file: 'assets/hdri/studio_small_09_1k.hdr', intensity: 1.5 },
+    { file: 'assets/hdri/studio_small_03_1k.hdr', intensity: 1.2 },
+    { file: 'assets/hdri/moonless_golf_1k.hdr',   intensity: 0.9 },
   ];
 
   _setupHDR() {

@@ -55,8 +55,8 @@ export class FloorElement {
     this._tex.anisotropy = sceneMgr.renderer.capabilities.getMaxAnisotropy();
 
     // 메시
-    const mat = new THREE.MeshStandardMaterial({
-      map: this._tex, roughness: 0.5, metalness: 0.1,
+    const mat = new THREE.MeshBasicMaterial({
+      map: this._tex,
       transparent: true, polygonOffset: true, polygonOffsetFactor: -2,
     });
     this.mesh = new THREE.Mesh(new THREE.PlaneGeometry(width, depth), mat);
