@@ -80,16 +80,6 @@ export class DisplayShelf3D {
     this._buildSellButtons();
     this._drawBoard();
 
-    // 디버그: 슬롯 위치에 빨간 구체 표시
-    for (let i = 0; i < SLOT_COUNT; i++) {
-      const pos = SLOT_POSITIONS[i];
-      const sg = new THREE.SphereGeometry(0.08);
-      const sm = new THREE.MeshBasicMaterial({ color: 0xff0000 });
-      const s = new THREE.Mesh(sg, sm);
-      s.position.set(pos.x, FLOOR_Y + 0.1, pos.z);
-      this._root.add(s);
-      console.log(`슬롯${i} 3D위치: x=${pos.x.toFixed(3)}, z=${pos.z.toFixed(3)}`);
-    }
   }
 
   // ═══════════════ 보드 ═══════════════
@@ -314,10 +304,6 @@ export class DisplayShelf3D {
       productPivot.scale.setScalar(0);
       this._root.add(productPivot);
 
-      const glowLight = new THREE.PointLight(0xffdd00, 0, 4);
-      glowLight.position.set(pos.x, PRODUCT_Y + 0.3, pos.z);
-      this._root.add(glowLight);
-
       // 슬롯 히트 (상품 클릭)
       const hitGeo = new THREE.CylinderGeometry(0.4, 0.4, 1.5, 16);
       const hitMat = new THREE.MeshBasicMaterial({ visible: false });
@@ -326,7 +312,7 @@ export class DisplayShelf3D {
       hitMesh.userData.slotIndex = i;
       this._root.add(hitMesh);
 
-      this._slots.push({ productPivot, productModel: null, glowLight, hitMesh, product: null });
+      this._slots.push({ productPivot, productModel: null, hitMesh, product: null });
     }
   }
 
@@ -381,8 +367,6 @@ export class DisplayShelf3D {
     slot.productPivot.add(model);
     slot.productPivot.scale.setScalar(1);
     slot.productModel = model;
-    slot.glowLight.color.setHex(productInstance.gradeColor);
-    slot.glowLight.intensity = 2.5;
 
     this._slotFilled[slotIndex] = true;
     this._slotPrices[slotIndex] = productInstance.salePrice;
@@ -396,7 +380,6 @@ export class DisplayShelf3D {
     const slot = this._slots[slotIndex];
     if (!slot) return;
     slot.product = null;
-    slot.glowLight.intensity = 0;
     this._slotFilled[slotIndex] = false;
     this._slotPrices[slotIndex] = 0;
     this._slotNames[slotIndex] = '';
@@ -434,9 +417,6 @@ export class DisplayShelf3D {
       slot.productModel.rotation.y += dt * 0.8;
       const floatY = PRODUCT_Y + Math.sin(elapsed * 1.8 + i * 2.1) * 0.06;
       slot.productPivot.position.y = floatY;
-      slot.glowLight.position.y = floatY + 0.3;
-      slot.glowLight.color.setHex(slot.product.gradeColor);
-      slot.glowLight.intensity = 2 + Math.sin(elapsed * 2.5 + i) * 0.5;
     }
   }
 }
