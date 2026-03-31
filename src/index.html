@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Box Value Simulator</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0e15; overflow: hidden; font-family: system-ui, sans-serif; }
+    canvas { display: block; cursor: default; }
+    canvas.hovering { cursor: pointer; }
+    canvas.grabbing { cursor: grabbing; }
+
+    #hud-top {
+      position: fixed; top: 0; left: 0; width: 100%; pointer-events: none;
+      display: flex; justify-content: center; align-items: flex-start;
+      padding: 0.6rem 1rem; color: #c0c0d0; font-size: 14px; z-index: 10;
+    }
+
+    #hud-bottom {
+      position: fixed; bottom: 0; left: 0; width: 100%; pointer-events: none;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.6rem 1.5rem; z-index: 10;
+      background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    }
+    #money-display {
+      color: #f0c040; font-weight: 900; font-size: 22px;
+      text-shadow: 0 0 12px rgba(240,192,64,0.5);
+      letter-spacing: 0.03em;
+      display: inline-block;
+    }
+    #money-display .coin-icon { display: inline-block; margin-right: 6px; }
+    @keyframes coin-bounce {
+      0%   { transform: scale(1.35); color: #ffe566; text-shadow: 0 0 18px rgba(255,229,102,0.8); }
+      50%  { transform: scale(0.95); }
+      100% { transform: scale(1); color: #f0c040; text-shadow: 0 0 12px rgba(240,192,64,0.5); }
+    }
+    #money-display.bouncing { animation: coin-bounce 0.3s ease-out; }
+
+    #hint {
+      position: fixed; top: 4rem; left: 50%; transform: translateX(-50%);
+      color: #556; font-size: 13px; letter-spacing: 0.05em;
+      pointer-events: none; transition: opacity 0.5s;
+    }
+
+    #grade-popup {
+      position: fixed; top: 2.5rem; left: 50%; transform: translateX(-50%);
+      font-size: 2.2rem; font-weight: 900; letter-spacing: 0.06em;
+      pointer-events: none; opacity: 0; transition: opacity 0.4s;
+      text-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+      text-align: center;
+      background: rgba(0,0,0,0.5);
+      padding: 0.4rem 1.2rem;
+      border-radius: 10px;
+    }
+
+    #ui {
+      position: fixed; bottom: 3.5rem; left: 50%; transform: translateX(-50%);
+      z-index: 10; display: flex; gap: 10px;
+    }
+    #ui button {
+      background: #f0c040; color: #1a0f00; border: none; border-radius: 8px;
+      padding: 0.65rem 2rem; font: bold 15px system-ui; cursor: pointer;
+      letter-spacing: 0.05em; transition: background 0.15s, transform 0.1s;
+      pointer-events: auto;
+    }
+    #ui button:hover { background: #ffe060; transform: scale(1.05); }
+    #ui button:active { transform: scale(0.97); }
+
+    #btn-swap {
+      background: none; border: none; cursor: pointer; pointer-events: auto;
+      color: #f0c040; font-weight: 900; font-size: 22px;
+      text-shadow: 0 0 12px rgba(240,192,64,0.5);
+      letter-spacing: 0.03em;
+      transition: transform 0.1s, opacity 0.3s;
+    }
+    #btn-swap:hover:not(:disabled) { transform: scale(1.1); }
+    #btn-swap:active:not(:disabled) { transform: scale(0.95); }
+    #btn-swap:disabled { opacity: 0.35; cursor: not-allowed; }
+    #btn-swap .cooldown { font-size: 14px; opacity: 0.7; }
+
+    /* ── 개봉 후 선택 UI ── */
+    #post-open-choice {
+      position: fixed; bottom: 3.5rem; left: 50%; transform: translateX(-50%);
+      z-index: 15; display: none; gap: 12px;
+    }
+    #post-open-choice button {
+      border: none; border-radius: 8px;
+      padding: 0.7rem 1.8rem; font: bold 14px system-ui; cursor: pointer;
+      letter-spacing: 0.03em; transition: background 0.15s, transform 0.1s;
+    }
+    #post-open-choice button:hover { transform: scale(1.05); }
+    #post-open-choice button:active { transform: scale(0.97); }
+    #btn-sell-now { background: #2e7d32; color: #fff; }
+    #btn-display { background: #1565c0; color: #fff; }
+
+    /* ── 쿠폰 카드 선택 ── */
+    #coupon-select {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.85);
+      display: none; flex-direction: column; align-items: center; justify-content: center;
+      z-index: 20; gap: 16px;
+    }
+    #coupon-select h2 { color: #f0c040; font-size: 1.4rem; margin-bottom: 8px; }
+    #coupon-cards { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .coupon-card {
+      width: 180px; padding: 14px;
+      background: rgba(30,35,50,0.95); border: 2px solid #445;
+      border-radius: 10px; cursor: pointer;
+      transition: border-color 0.2s, transform 0.2s;
+      text-align: center;
+    }
+    .coupon-card:hover { border-color: #f0c040; transform: translateY(-4px); }
+    .coupon-card .card-name { color: #f0c040; font-weight: bold; font-size: 14px; margin-bottom: 6px; }
+    .coupon-card .card-cat { color: #889; font-size: 11px; margin-bottom: 6px; }
+    .coupon-card .card-desc { color: #ccd; font-size: 12px; line-height: 1.4; }
+    #coupon-reroll {
+      background: #f0c040; color: #1a0f00; border: none; border-radius: 8px;
+      padding: 0.5rem 1.5rem; font: bold 13px system-ui; cursor: pointer;
+      margin-top: 8px;
+    }
+    #coupon-reroll:disabled { opacity: 0.35; cursor: not-allowed; }
+    #coupon-skip {
+      background: none; border: 1px solid #556; color: #889; border-radius: 8px;
+      padding: 0.4rem 1.2rem; font-size: 12px; cursor: pointer;
+    }
+
+    /* ── 라운드 클리어 배너 ── */
+    #round-clear-banner {
+      position: fixed; top: 30%; left: 50%; transform: translate(-50%, -50%);
+      z-index: 18; display: none; text-align: center;
+      pointer-events: none;
+    }
+    #round-clear-banner .clear-text {
+      font-size: 2rem; font-weight: 900; color: #f0c040;
+      text-shadow: 0 0 30px rgba(240,192,64,0.6);
+    }
+    #round-clear-banner .clear-ratio {
+      font-size: 1rem; color: #aab; margin-top: 4px;
+    }
+
+    #loading {
+      position: fixed; inset: 0; background: #0a0e15;
+      display: flex; align-items: center; justify-content: center;
+      color: #f0c040; font-size: 1.2rem; z-index: 100;
+      transition: opacity 0.5s;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">로딩 중...</div>
+
+  <div id="hud-top">
+    <span>Box Value Simulator</span>
+  </div>
+
+  <div id="hud-bottom">
+    <button id="btn-swap">📦 새로 진열</button>
+    <div id="money-display"><span class="coin-icon">🪙</span>₩ 100,000</div>
+  </div>
+
+  <!-- 진열 슬롯은 3D 씬에 표시 (DisplayShelf3D) -->
+
+  <div id="hint">상자를 클릭해서 선택하세요</div>
+  <div id="grade-popup"></div>
+
+  <div id="ui">
+    <button id="btn-action" style="display:none">개봉하기</button>
+  </div>
+
+  <!-- 개봉 후 선택 -->
+  <div id="post-open-choice">
+    <button id="btn-sell-now">💰 즉시 판매</button>
+    <button id="btn-display">📦 진열하기</button>
+  </div>
+
+  <!-- 라운드 클리어 배너 -->
+  <div id="round-clear-banner">
+    <div class="clear-text">라운드 클리어!</div>
+    <div class="clear-ratio"></div>
+  </div>
+
+  <!-- 쿠폰 카드 선택 -->
+  <div id="coupon-select">
+    <h2>특수 쿠폰 카드 선택</h2>
+    <div id="coupon-cards"></div>
+    <button id="coupon-reroll">🔄 리롤</button>
+    <button id="coupon-skip">건너뛰기</button>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

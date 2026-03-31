@@ -1,0 +1,930 @@
+id,name,style,type,grade,price,description,modelPath,imagePath
+fig_abomination_chibi,눈망울 괴물 치비,치비,model,C,15000,"무수한 눈으로 당신을 응시하는 공포의 존재! 귀여운 치비 사이즈로 재현된 이 괴물은, 집안 구석에 놓아두면 밤마다 숨소리가 커질지도 몰라요. 수집가라면 절대 놓칠 수 없는 한정판!",assets/models/fig_abomination_chibi.glb,
+fig_abomination_clay,점토 괴물,클레이,model,B,25000,거친 점토 질감의 불멸의 괴물! 손끝으로 빚은 듯한 질감은 손에 잡히는 듯한 생생함을 선사합니다. 우주적 공포를 집안으로 불러온다는 설레는 위험을 감수해보세요.,assets/models/fig_abomination_clay.glb,
+fig_abomination_mech,메카 괴물,메카닉,model,A,45000,악마의 기계화! 관절과 갑옷이 달린 이 괴물은 단순한 괴물이 아니라 전투용 메카입니다. 우주적 공포와 메카닉의 결합이 만들어낸 압도적인 존재감을 자랑합니다.,assets/models/fig_abomination_mech.glb,
+fig_abomination_metallic,크롬 괴물,메탈릭,model,S,85000,"반사되는 크롬 갑옷이 빛나는 이 괴물은, 어둠 속에서도 당신을 유혹합니다. 금속의 차가운 미소와 우주적 공포가 공존하는, 수집가들의 꿈 아이템!",assets/models/fig_abomination_metallic.glb,
+fig_abomination_plush,솜뭉치 괴물,플러시,model,SS,120000,공포의 존재를 뭉실한 솜으로 만든 귀여운 괴물! 부드러운 촉감이 공포를 완화시켜주는 마법 같은 아이템. 집안 구석에 놓아두면 밤마다 안도할 수 있는 최고의 동반자!,assets/models/fig_abomination_plush.glb,
+fig_alchemist_girl_chibi,약수녀 치비,치비,model,C,15000,유리병 속의 빛나는 약을 만드는 귀여운 약수녀! 호기심 가득한 눈빛과 짧은 몸집이 매력 포인트. 집안 구석에 놓아두면 매일 설레는 하교길처럼 매일 설레는 시간이 될 거예요.,assets/models/fig_alchemist_girl_chibi.glb,
+fig_alchemist_girl_clay,점토 약수녀,클레이,model,B,25000,점토로 빚은 듯한 따뜻한 느낌의 약수녀! 손끝으로 빚은 듯한 질감은 손에 잡히는 듯한 생생함을 선사합니다. 우주적 공포를 집안으로 불러온다는 설레는 위험을 감수해보세요.,assets/models/fig_alchemist_girl_clay.glb,
+fig_alchemist_girl_mech,메카 약수녀,메카닉,model,A,45000,악마의 기계화! 관절과 갑옷이 달린 이 약수녀는 단순한 소녀가 아니라 전투용 메카입니다. 우주적 공포와 메카닉의 결합이 만들어낸 압도적인 존재감을 자랑합니다.,assets/models/fig_alchemist_girl_mech.glb,
+fig_alchemist_girl_metallic,크롬 약수녀,메탈릭,model,S,85000,"반사되는 크롬 갑옷이 빛나는 이 약수녀는, 어둠 속에서도 당신을 유혹합니다. 금속의 차가운 미소와 우주적 공포가 공존하는, 수집가들의 꿈 아이템!",assets/models/fig_alchemist_girl_metallic.glb,
+fig_alchemist_girl_pixel,픽셀 약수녀,복셀픽셀,model,SS,120000,8비트 게임 속의 귀여운 약수녀! 블록으로 만들어진 이 작은 소녀는 게임 속의 모험을 꿈꾸게 합니다. 집안 구석에 놓아두면 매일 설레는 하교길처럼 매일 설레는 시간이 될 거예요.,assets/models/fig_alchemist_girl_pixel.glb,
+fig_alchemist_girl_plush,뽀로로 마법사 소녀,플러시,model,C,15000,"부드러운 플러시 재질의 마법사 소녀가 유리병 속의 빛나는 약을 섞고 있어요. 호기심 어린 눈빛과 귀여운 표정이 마음을 녹여주며, 방 구석에 두면 따뜻한 마법 같은 분위기를 자아냅니다.",assets/models/fig_alchemist_girl_plush.glb,
+fig_alchemist_girl_realistic,실사 마법사 소녀,리얼리스틱,model,A,35000,"실사급 디테일의 마법사 소녀가 빛나는 약을 섞는 포즈로 완벽하게 재현되었습니다. 유리병의 반사와 도구 벨트의 디테일이 눈길을 사로잡으며, 수집가들의 소장욕을 자극하는 프리미엄 피규어입니다.",assets/models/fig_alchemist_girl_realistic.glb,
+fig_alchemist_girl_vinyl,글로시 비닐 마법사,바이닐토이,model,B,25000,"유리 같은 광택 비닐 재질로 제작된 디자이너 토이 스타일의 마법사 소녀. 빛나는 약병과 도구 벨트가 반짝이며, 독특한 질감의 컬렉터블 피규어로 소장 가치가 높습니다.",assets/models/fig_alchemist_girl_vinyl.glb,
+fig_alchemist_girl_wooden,목공 마법사 소녀,우드카빙,model,B,45000,"손으로 조각한 목공 예술의 마법사 소녀. 따뜻한 나무 질감과 약을 섞는 포즈가 자연스러운 분위기를 자아내며, 집 장식용으로 완벽한 소품입니다.",assets/models/fig_alchemist_girl_wooden.glb,
+fig_angelic_choir_girl_clay,점토 천사 합창 소녀,클레이,model,A,38000,"매끄러운 점토 질감의 천사 합창 소녀가 성스러운 표정으로 찬송가를 부르고 있어요. 반투명한 날개와 홀이 빛을 반사하며, 성스러운 분위기를 자아내는 컬렉터블 피규어입니다.",assets/models/fig_angelic_choir_girl_clay.glb,
+fig_angelic_choir_girl_metallic,크롬 천사 합창 소녀,메탈릭,model,S,65000,반짝이는 크롬 도금 갑옷을 입은 천사 합창 소녀가 빛을 비추며 신비로운 분위기를 자아냅니다. 매끄러운 금속 표면과 날카로운 디테일이 고급스러운 느낌을 선사합니다.,assets/models/fig_angelic_choir_girl_metallic.glb,
+fig_angelic_choir_girl_realistic,실사 천사 합창 소녀,리얼리스틱,model,SS,75000,"실사급 디테일의 천사 합창 소녀가 성스러운 표정으로 찬송가를 부르는 포즈로 완벽하게 재현되었습니다. 날개와 홀의 디테일이 눈길을 사로잡으며, 프리미엄 컬렉션의 보석입니다.",assets/models/fig_angelic_choir_girl_realistic.glb,
+fig_angelic_choir_girl_wooden,목공 천사 합창 소녀,우드카빙,model,A,45000,"손으로 조각한 목공 예술의 천사 합창 소녀. 따뜻한 나무 질감과 성스러운 표정이 자연스러운 분위기를 자아내며, 집 장식용으로 완벽한 소품입니다.",assets/models/fig_angelic_choir_girl_wooden.glb,
+fig_beach_heroine_chibi,SD 해변 히어로인,치비,model,C,12000,"2个头高的SD 해변 히어로인이 물총과 인플라터블 링을 들고 밝게 웃고 있어요. 귀여운 표정과 생동감 넘치는 포즈가 마음을 녹여주며, 방 구석에 두면 즐거운 분위기를 자아냅니다.",assets/models/fig_beach_heroine_chibi.glb,
+fig_beach_heroine_clay,점토 해변 히어로인,클레이,model,B,28000,"매끄러운 점토 질감의 해변 히어로인이 물총과 인플라터블 링을 들고 밝게 웃고 있어요. 반투명한 날개와 홀이 빛을 반사하며, 성스러운 분위기를 자아내는 컬렉터블 피규어입니다.",assets/models/fig_beach_heroine_clay.glb,
+fig_beach_heroine_mech,워터건 메카닉 히어로인,메카닉,model,C,15000,여름 해변의 메카닉 히어로인이 물총과 인플라터블링을 들고 활기차게 웃고 있어. 관절이 구부러지는 메카닉 디테일이 살아있어. 여름휴가 기념품으로 최고야!,assets/models/fig_beach_heroine_mech.glb,
+fig_beach_heroine_metallic,크롬하트 비치 히어로인,메탈릭,model,B,25000,반사되는 크롬 갑옷이 빛을 머금고 있어. 물총을 쏘는 듯한 포즈와 인플라터블링의 디테일이 완벽해. 수집가들의 시선을 사로잡는 메탈릭한 매력이야!,assets/models/fig_beach_heroine_metallic.glb,
+fig_beach_heroine_pixel,픽셀블록 비치 히어로인,복셀픽셀,model,A,35000,8비트 게임 속의 여름 히어로인이 살아나. 저폴리 블록체로 된 귀여운 표정과 물총이 귀엽게. 레트로 게이머들에게 인기 있는 픽셀 아트 스타일이야!,assets/models/fig_beach_heroine_pixel.glb,
+fig_beach_heroine_plush,솜뭉치 비치 히어로인,플러시,model,A,30000,부드러운 솜뭉치 소재로 여름 해변의 히어로인이 귀엽게 포즈를 취해. 물총을 쏘는 듯한 표정과 인플라터블링이 달콤해. 침대 옆에 두는 완구로 최고야!,assets/models/fig_beach_heroine_plush.glb,
+fig_beach_heroine_realistic,리얼 비치 히어로인,리얼리스틱,model,S,65000,현실적인 비례와 디테일로 여름 해변의 히어로인이 생생하게 살아나. 물총과 인플라터블링을 들고 있는 포즈가 매력적이야. 수집가들의 사랑을 받을 리얼한 피규어!,assets/models/fig_beach_heroine_realistic.glb,
+fig_beach_heroine_stylized,카툰 비치 히어로인,스타일라이즈드,model,A,35000,4个头身比例的卡通风格，夏日海滩上的英雄人穿着运动夹克和泳衣，手持水枪和充气圈，笑容灿烂。可爱的卡通风格，适合收藏！,assets/models/fig_beach_heroine_stylized.glb,
+fig_beach_heroine_vinyl,글로시 비닐 히어로인,바이닐토이,model,S,75000,유광 비닐 디자이너 토이로 여름 해변의 히어로인이 빛을 머금고 있어. 물총과 인플라터블링이 디테일하게 재현되어 있어. 컬렉터블한 비닐 피규어!,assets/models/fig_beach_heroine_vinyl.glb,
+fig_beach_heroine_wooden,우드카프트 비치 히어로인,우드카빙,model,S,85000,손으로 조각한 우드 피규어로 여름 해변의 히어로인이 따뜻한 느낌을 줘. 물총과 인플라터블링이 우드 디테일로 표현되어 있어. 아트워크 컬렉션에 최고!,assets/models/fig_beach_heroine_wooden.glb,
+fig_bunny_suit_dealer_mech,카지노 메카닉 뱌니 딜러,메카닉,model,S,95000,카지노 뱌니 딜러가 포커 테이블에 기대어 칩더와 반짝이는 스타킹을 입고 있어. 메카닉 관절과 갑옷 디테일이 살아있어. 미스치비우스한 윙크가 매력적이야!,assets/models/fig_bunny_suit_dealer_mech.glb,
+fig_bunny_suit_dealer_metallic,크롬 카지노 뱌니 딜러,메탈릭,model,SS,120000,반사되는 크롬 갑옷이 빛을 머금고 있어. 포커 테이블에 기대어 칩더를 들고 있는 포즈와 반짝이는 스타킹이 완벽해. 수집가들의 시선을 사로잡는 메탈릭한 매력이야!,assets/models/fig_bunny_suit_dealer_metallic.glb,
+fig_bunny_suit_dealer_pixel,픽셀 카지노 여신,복셀픽셀,model,A,120000,"8비트 게임기에서 탄생한 카지노 딜러! 블록체인의 큐브들이 모여 만든 픽셀 아트 피규어. 고글러스 스타킹과 미소녀의 윙크가 8비트 감성을 자극하며, 책상 위에 올려두면 게임 시작 신호처럼 설레는 피규어.",assets/models/fig_bunny_suit_dealer_pixel.glb,
+fig_bunny_suit_dealer_plush,뭉실 카지노 여신,플러시,model,B,45000,"부드러운 플러시 소재로 만든 카지노 딜러 인형. 촉촉한 털과 광택 스타킹이 어우러져, 손에 쥐었을 때 느껴지는 따뜻한 포근함이 매력 포인트. 집안 소품으로 완벽한 동반자.",assets/models/fig_bunny_suit_dealer_plush.glb,
+fig_bunny_suit_dealer_realistic,리얼 카지노 여신,리얼리스틱,model,S,250000,"실사 같은 디테일로 완성된 카지노 딜러 피규어. 피부 질감과 광택 스타킹의 반짝임이 생생하게 재현되어, 마치 그녀가 바로 옆에 서 있는 듯한 착각을 불러일으킨다.",assets/models/fig_bunny_suit_dealer_realistic.glb,
+fig_bunny_suit_dealer_stylized,스타일 카지노 여신,스타일라이즈드,model,A,110000,4个头身比例的卡通风格卡瓦诺女服务员，充满都市生活气息。圆润可爱的造型与俏皮的表情完美结合，摆放在桌面上就能瞬间点亮整个房间的氛围感。,assets/models/fig_bunny_suit_dealer_stylized.glb,
+fig_bunny_suit_dealer_wooden,목재 카지노 여신,우드카빙,model,S,280000,"손으로 조각한 목재 공예품 같은 카지노 딜러 피규어. 자연스러운 나무 질감과 고전적인 카지노 분위기가 어우러져, 책상 위에 올려두면 고급스러운 인테리어 소품이 된다.",assets/models/fig_bunny_suit_dealer_wooden.glb,
+fig_cafe_barista_girl_chibi,치비 카페 바리스타,치비,model,B,55000,2个头身比例的超级可爱咖啡师女孩，身穿围裙和短裙，袖口卷起，笑容甜美诱人。都市生活气息浓厚，摆在桌面上就能感受到温暖的日常氛围，是完美的桌面伙伴。,assets/models/fig_cafe_barista_girl_chibi.glb,
+fig_cafe_barista_girl_clay,점토 카페 바리스타,클레이,model,A,115000,"점토 조형으로 완성된 카페 바리스타 피규어. 매끄러운 점토 질감과 부드러운 미소가 어우러져, 손에 쥐었을 때 느껴지는 따뜻한 감성이 매력 포인트. 집안 소품으로 완벽한 동반자.",assets/models/fig_cafe_barista_girl_clay.glb,
+fig_cafe_barista_girl_mech,메카 카페 바리스타,메카닉,model,SS,350000,"로봇 관절과 갑옷 판재가 달린 메카 바리스타 피규어. 기계의 차가움과 바리스타의 따뜻한 미소가 어우러져, 독특한 갭모에가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.",assets/models/fig_cafe_barista_girl_mech.glb,
+fig_cafe_barista_girl_metallic,크롬 카페 바리스타,메탈릭,model,SS,320000,"폴리시드 메탈릭 크롬 마감의 반사 표면이 빛나는 카페 바리스타 피규어. 금속의 광택과 부드러운 미소가 어우러져, 책상 위에 올려두면 고급스러운 인테리어 소품이 된다.",assets/models/fig_cafe_barista_girl_metallic.glb,
+fig_cafe_barista_girl_pixel,픽셀 카페 바리스타,복셀픽셀,model,A,120000,"8비트 게임기에서 탄생한 카페 바리스타! 블록체인의 큐브들이 모여 만든 픽셀 아트 피규어. 고글러스 스타킹과 미소녀의 윙크가 8비트 감성을 자극하며, 책상 위에 올려두면 게임 시작 신호처럼 설레는 피규어.",assets/models/fig_cafe_barista_girl_pixel.glb,
+fig_cafe_barista_girl_plush,솜뭉치 카페 바리스타,플러시,model,C,15000,따뜻한 커피 향과 부드러운 촉감이 어우러진 귀여운 바리스타 피규어. 뽀얀 라떼 아트를 손에 쥔 그녀의 미소까지 실감나요. 집안 어디에나 둬도 기분 좋은 힐링 포인트가 되어줄 거예요.,assets/models/fig_cafe_barista_girl_plush.glb,
+fig_cafe_barista_girl_realistic,리얼 카페 바리스타,리얼리스틱,model,A,85000,실제 인물처럼 생동감 넘치는 표정과 손의 디테일이 살아있는 바리스타 피규어. 커피 향이 스며든 듯한 분위기까지 완벽하게 재현한 프리미엄 컬렉터블 아이템입니다.,assets/models/fig_cafe_barista_girl_realistic.glb,
+fig_cafe_barista_girl_wooden,목공 카페 바리스타,우드카빙,model,B,45000,"수공예 목재로 조각된 따뜻한 감성의 바리스타 피규어. 자연스러운 목재 무늬와 손끝의 디테일이 어우러져, 집안을 장식하는 데어리얼 오브제처럼 매력적인 존재감을 뽐냅니다.",assets/models/fig_cafe_barista_girl_wooden.glb,
+fig_catgirl_gamer_chibi,SD 게임러 캣걸,치비,model,C,12000,"머리만 두 배나 커진 귀여운 초소형 게임러 캣걸! 오버사이즈 후드와 헤드셋을 차고, 컨트롤러를 쥔 그녀의 미소까지 사랑스러워요. 책상 위에 올려두면 게임 중에도 설레는 존재감이 됩니다.",assets/models/fig_catgirl_gamer_chibi.glb,
+fig_catgirl_gamer_clay,점토 게임러 캣걸,클레이,model,B,35000,손으로 빚은 듯한 점토 질감의 게임러 캣걸 피규어. 거친 표면에 숨은 따뜻한 감성이 매력적이에요. 게임 중에도 눈앞에 있는 듯한 존재감이 느껴지는 컬렉터블 피규어입니다.,assets/models/fig_catgirl_gamer_clay.glb,
+fig_catgirl_gamer_mech,메카닉 게임러 캣걸,메카닉,model,A,95000,"메카닉 아머와 관절이 결합된 게임러 캣걸 피규어. 로봇의 차가운 금속성과 캣걸의 귀여움이 어우러져, 게임 중에도 전투 준비가 된 듯한 긴장감 넘치는 분위기를 풍깁니다.",assets/models/fig_catgirl_gamer_mech.glb,
+fig_catgirl_gamer_metallic,크롬 게임러 캣걸,메탈릭,model,S,120000,"반짝이는 크롬 도금 표면이 빛을 머금은 게임러 캣걸 피규어. 게임 중에도 눈이 번쩍 뜨일 만큼 매혹적인 존재감을 뽐내며, 고급스러운 컬렉터블 아이템으로 자리매김합니다.",assets/models/fig_catgirl_gamer_metallic.glb,
+fig_catgirl_gamer_pixel,픽셀 게임러 캣걸,복셀픽셀,model,B,28000,"8비트 게임의 추억을 담은 픽셀 아트 스타일의 게임러 캣걸! 블록으로 구성된 귀여운 표정과 오버사이즈 후드가 어우러져, 레트로 게임의 느낌을 살린 컬렉터블 피규어입니다.",assets/models/fig_catgirl_gamer_pixel.glb,
+fig_catgirl_gamer_plush,뽀얀 게임러 캣걸,플러시,model,C,18000,"부드러운 플러시 소재가 감싸는 게임러 캣걸 피규어. 촉촉한 촉감과 귀여운 표정이 어우러져, 게임 중에도 힐링이 되는 존재감을 뽐냅니다. 집안 어디에나 둬도 기분 좋은 존재감이 됩니다.",assets/models/fig_catgirl_gamer_plush.glb,
+fig_catgirl_gamer_realistic,리얼 게임러 캣걸,리얼리스틱,model,S,135000,"실제 인물처럼 생동감 넘치는 표정과 디테일이 살아있는 게임러 캣걸 피규어. 헤드셋과 컨트롤러까지 완벽하게 재현한 프리미엄 컬렉터블 아이템으로, 게임 중에도 눈앞에 있는 듯한 존재감을 선사합니다.",assets/models/fig_catgirl_gamer_realistic.glb,
+fig_detective_ojousama_metallic,크롬하트 탐정 오후스아마,메탈릭,model,S,120000,"반사되는 크롬 갑옷에 탐정 장비를 완벽 재현! 단안경과 체크무늬 망토가 고급스러운 분위기를 더하고, 천천히 마시는 티크upu의 여유가 매력 포인트. 수집가들의 시선을 사로잡는 한정판 피규어!",assets/models/fig_detective_ojousama_metallic.glb,
+fig_detective_ojousama_pixel,픽셀 탐정 오후스아마,복셀픽셀,model,A,65000,8비트 게임 속의 천재 탐정! 블록으로 쌓은 귀여운 체형과 단안경이 주는 귀여운 모에가 매력. 게임 카운터 컬렉션에 딱 맞는 레트로 감성의 3D 피규어!,assets/models/fig_detective_ojousama_pixel.glb,
+fig_detective_ojousama_plush,솜뭉치 탐정 오후스아마,플러시,model,B,45000,촉촉하고 부드러운 소재로 만든 귀여운 탐정! 체크무늬 망토와 단안경이 달린 귀여운 표정이 마음을 녹여준다. 책상 위에 올려두면 하루가 밝아지는 마스코트!,assets/models/fig_detective_ojousama_plush.glb,
+fig_detective_ojousama_realistic,리얼 탐정 오후스아마,리얼리스틱,model,SS,180000,실사급 디테일의 천재 탐정! 피부 질감과 옷감의 질감이 생생하게 표현되어 마치 옆에 있는 듯한 착각을 불러일으킨다. 진지한 표정과 단안경이 주는 카리스마가 압도적!,assets/models/fig_detective_ojousama_realistic.glb,
+fig_devilish_schoolgirl_clay,점토 데빌 스쿨걸,클레이,model,A,95000,"손으로 빚은 듯한 따뜻한 점토 감성의 데빌 스쿨걸! 매끄러운 점토 질감과 심장이 달린 삼지창이 주는 위험한 매력이 어우러져, 수집가들의 취향을 사로잡는 아티스트 피규어!",assets/models/fig_devilish_schoolgirl_clay.glb,
+fig_devilish_schoolgirl_metallic,크롬 데빌 스쿨걸,메탈릭,model,SSS,250000,반짝이는 크롬 도금 갑옷을 입은 위험한 미소녀! 심장이 달린 삼지창과 꼬리 살포시가 주는 카리스마가 압도적. 어둠의 여왕을 연상시키는 고급스러운 메탈릭 피규어!,assets/models/fig_devilish_schoolgirl_metallic.glb,
+fig_devilish_schoolgirl_realistic,리얼 데빌 스쿨걸,리얼리스틱,model,SSS,220000,실사급 디테일의 위험한 미소녀! 피부의 질감과 옷감의 디테일이 생생하게 표현되어 마치 옆에 있는 듯한 착각을 불러일으킨다. 카리스마 넘치는 표정과 삼지창이 주는 압도적인 매력이!,assets/models/fig_devilish_schoolgirl_realistic.glb,
+fig_devilish_schoolgirl_stylized,카툰 데빌 스쿨걸,스타일라이즈드,model,B,55000,"4个头신 비율의 귀여운 데빌 스쿨걸! 과장된 캐릭터 디자인이 주는 귀여운 모에와 심장이 달린 삼지창이 주는 위험한 매력이 어우러져, 카툰 컬렉션을 위한 완벽한 피규어!",assets/models/fig_devilish_schoolgirl_stylized.glb,
+fig_devilish_schoolgirl_vinyl,비닐 데빌 스쿨걸,바이닐토이,model,S,150000,"유리 질감의 비닐 재질이 주는 고급스러운 디자인! 반짝이는 광택과 심장이 달린 삼지창이 주는 위험한 매력이 어우러져, 컬렉터들의 시선을 사로잡는 디자이너 토이 피규어!",assets/models/fig_devilish_schoolgirl_vinyl.glb,
+fig_devilish_schoolgirl_wooden,목공 데빌 스쿨걸,우드카빙,model,A,85000,"손으로 조각한 듯한 따뜻한 목공 감성의 데빌 스쿨걸! 나무의 자연스러운 질감과 심장이 달린 삼지창이 주는 위험한 매력이 어우러져, 아티스트 피규어 컬렉션의 핵심 아이템!",assets/models/fig_devilish_schoolgirl_wooden.glb,
+fig_fox_priestess_chibi,꼬마 여사냥꾼,치비,model,A,180000,"꼬마 여사냥꾼이 신비로운 눈빛으로 포즈를 취해. 귀여운 치비 스타일과 화려한 한복 소매, 떠다니는 영혼 불꽃이 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.",assets/models/fig_fox_priestess_chibi.glb,
+fig_fox_priestess_mech,크롬하트 사무라이,메카닉,model,S,250000,"어둠의 기사단을 이끄는 불멸의 전사. 크롬 도금 갑옷에 새겨진 룬 문양이 은은하게 빛나며, 칼끝에서 느껴지는 냉기가 소름을 돋게 한다.",assets/models/fig_fox_priestess_mech.glb,
+fig_fox_priestess_metallic,별빛 스테이지 아이돌,메탈릭,model,SS,320000,"눈부신 스포트라이트 아래, 마이크를 움켜진 그녀의 윙크 한 방에 관객석이 무너진다. 한정판 스테이지 의상의 프릴 디테일까지 완벽 재현!",assets/models/fig_fox_priestess_metallic.glb,
+fig_fox_priestess_pixel,픽셀 아트 마법사,복셀픽셀,model,B,150000,"8비트 게임 속으로 초대된 여신. 블록으로 구성된 귀여운 모습과 고대 문양이 어우러져, 레트로 감성과 현대적 디자인의 완벽한 조화.",assets/models/fig_fox_priestess_pixel.glb,
+fig_fox_priestess_plush,뭉실 귀여운 여사냥꾼,플러시,model,C,50000,부드러운 솜뭉치 재질로 만든 귀여운 여사냥꾼. 안면 표정이 살아있는 듯한 디테일과 따뜻한 포즈가 마음을 녹여. 집안 어디든 편안함.,assets/models/fig_fox_priestess_plush.glb,
+fig_fox_priestess_realistic,리얼리스틱 여사냥꾼,리얼리스틱,model,SSS,450000,실제 인물처럼 생동감 넘치는 표정과 디테일. 섬세한 피부 질감과 옷자락의 흐름이 마치 살아있는 듯한 느낌을 선사. 수집가들의 꿈.,assets/models/fig_fox_priestess_realistic.glb,
+fig_fox_priestess_stylized,스타일드 여사냥꾼,스타일라이즈드,model,A,200000,"4个头身 비율의 카툰 스타일로 귀여운 여사냥꾼이 포즈를 취해. 화려한 한복 소매와 영혼 불꽃이 어우러져, 귀여운 매력과 강인함이 공존.",assets/models/fig_fox_priestess_stylized.glb,
+fig_fox_priestess_vinyl,글로시 비닐 여사냥꾼,바이닐토이,model,S,280000,유리처럼 반짝이는 비닐 재질의 귀여운 여사냥꾼. 디자이너 토이 특유의 세련된 디자인과 독특한 포즈가 매력 포인트. 소장 가치가 높음.,assets/models/fig_fox_priestess_vinyl.glb,
+fig_fox_priestess_wooden,목조 여사냥꾼,우드카빙,model,B,120000,"손으로 조각한 나무 인형의 따뜻함. 자연스러운 목재 질감과 세밀한 조각 디테일이 어우러져, 고전적인 미학과 현대적 디자인의 조화.",assets/models/fig_fox_priestess_wooden.glb,
+fig_gothic_lolita_chibi,고딕 로리타 치비,치비,model,A,200000,고딕 로리타 스타일의 귀여운 여신. 우산과 플러시 토끼를 들고 있는 포즈가 매력 포인트. 도자기 인형 같은 우아함과 귀여움이 공존.,assets/models/fig_gothic_lolita_chibi.glb,
+fig_gothic_lolita_clay,도자기 인형 소녀,클레이,model,C,15000,부드러운 점토 질감과 고딕 로리타 의상의 레이스 디테일이 어우러진 인형. 인형처럼 귀엽고 우아한 분위기를 한눈에 사로잡는 컬렉터블 피규어!,assets/models/fig_gothic_lolita_clay.glb,
+fig_gothic_lolita_mech,로리타 메카닉,메카닉,model,B,25000,고딕 로리타의 우아함과 메카닉의 강인함이 공존. 관절이 움직이는 로봇 갑옷이 달린 인형은 가챠에서 가장 인기 있는 메탈릭 스타일과도 다른 매력을!,assets/models/fig_gothic_lolita_mech.glb,
+fig_gothic_lolita_metallic,크롬 로리타,메탈릭,model,A,45000,반짝이는 크롬 도금 갑옷이 빛을 머금고 있는 인형. 고딕 로리타의 우아함을 강철로 재현한 이 피규어는 수집가들에게 큰 인기를 끌고 있어!,assets/models/fig_gothic_lolita_metallic.glb,
+fig_gothic_lolita_pixel,픽셀 인형 소녀,복셀픽셀,model,B,20000,8비트 게임 속의 고딕 로리타를 현실로 불러온 인형. 블록으로 이루어진 독특한 디자인은 오타쿠 감성을 자극하는 컬렉터블 아이템!,assets/models/fig_gothic_lolita_pixel.glb,
+fig_gothic_lolita_plush,솜뭉치 로리타,플러시,model,C,12000,부드러운 털감이 손에 닿는 인형. 고딕 로리타의 우아함을 뭉실한 소재로 표현한 이 피규어는 선물용으로도 인기가 많은 귀여운 아이템!,assets/models/fig_gothic_lolita_plush.glb,
+fig_gothic_lolita_realistic,리얼 고딕 로리타,리얼리스틱,model,S,85000,실제 인형처럼 생동감 넘치는 표정과 디테일. 고딕 로리타의 우아함을 완벽하게 재현한 이 피규어는 수집가들에게 최고의 가치를 지닌 아이템!,assets/models/fig_gothic_lolita_realistic.glb,
+fig_gothic_lolita_vinyl,글로시 비닐 인형,바이닐토이,model,A,35000,반짝이는 비닐 재질로 제작된 인형. 고딕 로리타의 우아함을 현대적인 디자인으로 재해석한 이 피규어는 오타쿠 감성을 자극하는 아이템!,assets/models/fig_gothic_lolita_vinyl.glb,
+fig_gothic_lolita_wooden,나무 조각 로리타,우드카빙,model,A,40000,손으로 조각한 나무 인형. 고딕 로리타의 우아함을 자연스러운 나무 질감으로 표현한 이 피규어는 컬렉터블 아이템으로 인기가 많음!,assets/models/fig_gothic_lolita_wooden.glb,
+fig_gyaru_sniper_clay,가수라 클레이 스나이퍼,클레이,model,C,18000,점토 질감과 긴 권총케이스가 어우러진 인형. 길거리 테크 유니폼과 느슨한 양말이 매력적인 이 피규어는 오타쿠 감성을 자극하는 아이템!,assets/models/fig_gyaru_sniper_clay.glb,
+fig_gyaru_sniper_mech,가수라 메카닉 스나이퍼,메카닉,model,B,28000,로봇 관절과 갑옷이 달린 인형. 길거리 테크 유니폼과 긴 권총케이스가 어우러진 이 피규어는 오타쿠 감성을 자극하는 컬렉터블 아이템!,assets/models/fig_gyaru_sniper_mech.glb,
+fig_gyaru_sniper_metallic,크롬 스나이퍼 미소녀,메탈릭,model,SSS,180000,반짝이는 크롬 갑옷과 스트리트 테크 유니폼이 완벽한 조화를 이룬 미소녀 스나이퍼. 차가운 금속 질감 속에서도 숨겨진 열정적인 눈빛이 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_gyaru_sniper_metallic.glb,
+fig_gyaru_sniper_plush,뭉실 스나이퍼 미소녀,플러시,model,A,55000,촉촉하고 부드러운 솜뭉치 질감의 스나이퍼 피규어. 긴 라이플 케이스 스티커와 느슨한 양말이 귀여운 컨셉을 완성. 집안에서 가장 사랑받는 하녀 같은 존재.,assets/models/fig_gyaru_sniper_plush.glb,
+fig_gyaru_sniper_realistic,리얼 스나이퍼 미소녀,리얼리스틱,model,SSS,250000,실제 인물과 같은 디테일과 비율을 완벽 재현한 리얼 피규어. 스트리트 테크 유니폼의 작은 스티커 하나까지 섬세하게 표현되어 수집가들의 감성을 자극한다.,assets/models/fig_gyaru_sniper_realistic.glb,
+fig_gyaru_sniper_stylized,치비 스나이퍼 미소녀,스타일라이즈드,model,B,45000,4个头高的可爱造型，充满萌感的少女狙击手。街头科技制服搭配宽松袜子，自信满满地摆出帅气姿势。摆在桌上就能让心情变好！,assets/models/fig_gyaru_sniper_stylized.glb,
+fig_gyaru_sniper_vinyl,글로시 비닐 미소녀,바이닐토이,model,S,120000,유리처럼 반짝이는 광택 비닐 재질의 디자이너 토이. 스트리트 테크 유니폼과 라이플 케이스 스티커가 어우러져 힙한 분위기를 자아낸다. 컬렉터들의 사랑을 받는다.,assets/models/fig_gyaru_sniper_vinyl.glb,
+fig_gyaru_sniper_wooden,우드 스나이퍼 미소녀,우드카빙,model,A,95000,수공예로 조각된 나무 피규어. 스트리트 테크 유니폼과 라이플 케이스 스티커가 어우러져 힙한 분위기를 자아낸다. 컬렉터들의 사랑을 받는다.,assets/models/fig_gyaru_sniper_wooden.glb,
+fig_kimono_fireworks_chibi,SD 폭죽 여신,치비,model,B,45000,2个头高的超级变形可爱造型，充满节日氛围的少女。穿着和服手持烟花棒，脸上带着温暖的怀旧笑容。摆在桌上就能让心情变好！,assets/models/fig_kimono_fireworks_chibi.glb,
+fig_kimono_fireworks_clay,클레이 폭죽 여신,클레이,model,A,75000,매트한 흙 조각의 질감이 살아있는 폭죽 여신 피규어. 유카타와 투명한 선풍기가 어우러져 따뜻한 명절 분위기를 자아낸다. 집안에서 가장 사랑받는 하녀 같은 존재.,assets/models/fig_kimono_fireworks_clay.glb,
+fig_kimono_fireworks_mech,메크 폭죽 여신,메카닉,model,SS,150000,기계 관절과 갑옷이 결합된 메카닉 폭죽 여신. 유카타와 선풍기가 어우러져 따뜻한 명절 분위기를 자아낸다. 집안에서 가장 사랑받는 하녀 같은 존재.,assets/models/fig_kimono_fireworks_mech.glb,
+fig_kimono_fireworks_metallic,크롬 폭죽 여신,메탈릭,model,SSS,220000,반짝이는 크롬 갑옷과 유카타가 완벽한 조화를 이룬 폭죽 여신. 차가운 금속 질감 속에서도 숨겨진 열정적인 눈빛이 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_kimono_fireworks_metallic.glb,
+fig_kimono_fireworks_realistic,불꽃놀이 여신 리얼,리얼리스틱,model,S,180000,"정교한 비율과 섬세한 디테일의 리얼 피규어. 여름밤 축제의 환희가 담긴 유카타와 반짝이는 불꽃놀이 스파클러가 빛을 발하며, 고요한 미소가 마음을 녹입니다.",assets/models/fig_kimono_fireworks_realistic.glb,
+fig_kimono_fireworks_stylized,축제의 여신 스타일,스타일라이즈드,model,B,55000,4个头高的可爱少女，身着花纹浴衣，手持烟花棒与透明扇子，脸上洋溢着温暖怀旧的笑容。充满节日气氛的可爱造型，轻松收藏！,assets/models/fig_kimono_fireworks_stylized.glb,
+fig_kimono_fireworks_vinyl,글로스 비닐 여신,바이닐토이,model,A,85000,"유광 비닐 재질의 디자이너 토이. 축제의 여신이 되어 화려한 반짝임과 매끄러운 표면을 자랑하며, 소장 가치가 높은 한정판 피규어입니다.",assets/models/fig_kimono_fireworks_vinyl.glb,
+fig_kimono_fireworks_wooden,목조 공예 여신,우드카빙,model,A,95000,"손으로 조각한 목공예 피규어. 전통적인 공예의 온기와 자연스러운 목재 질감이 매력적이며, 따뜻한 미소와 함께 집 장식용으로 완벽한 선택입니다.",assets/models/fig_kimono_fireworks_wooden.glb,
+fig_librarian_mage_chibi,책방 마법사 치비,치비,model,C,35000,2个头高的超可爱Q版书呆子魔法师女孩，漂浮的典籍围绕着她，戴着丝带眼镜，梳着整齐的辫子，专注而温柔的微笑。萌系收藏必备！,assets/models/fig_librarian_mage_chibi.glb,
+fig_librarian_mage_mech,메커니컬 마법사,메카닉,model,SS,220000,"기계식 관절과 갑옷이 결합된 메카 피규어. 마법사의 지혜와 기계의 강함이 어우러진 독특한 컨셉으로, 디테일한 조인트가 움직임을 선사합니다.",assets/models/fig_librarian_mage_mech.glb,
+fig_librarian_mage_metallic,크롬 메탈 마법사,메탈릭,model,SSS,280000,"고광택 크롬 도금의 메탈릭 피규어. 반사되는 표면에 빛나는 마법사의 눈빛과 부유하는 책들이 어우러지며, 고급스러운 느낌을 줍니다.",assets/models/fig_librarian_mage_metallic.glb,
+fig_librarian_mage_pixel,픽셀 아트 마법사,복셀픽셀,model,SSS,250000,"브록키한 픽셀 아트 스타일의 로우폴리 피규어. 레트로 게임 감성을 담은 큐브 형태의 디테일이 돋보이며, 독특한 개성을 가진 컬렉터블 아이템입니다.",assets/models/fig_librarian_mage_pixel.glb,
+fig_librarian_mage_plush,플러시 마법사,플러시,model,B,45000,"부드러운 플러시 재질의 스토퍼 토이. 책방 마법사의 따뜻한 미소가 느껴지는 촉감 좋은 피규어로, 방에 놓아두면 힐링되는 소품입니다.",assets/models/fig_librarian_mage_plush.glb,
+fig_librarian_mage_stylized,애니 스타일 마법사,스타일라이즈드,model,A,65000,4个头高的可爱少女，身着整洁的服装，手持漂浮的典籍，戴着丝带眼镜，梳着整齐的辫子，脸上带着专注而温柔的微笑。充满动漫风格的可爱造型，轻松收藏！,assets/models/fig_librarian_mage_stylized.glb,
+fig_librarian_mage_vinyl,서재 마법사 비닐,바이닐토이,model,B,25000,"책장 사이로 빛나는 마법사의 미소. 부유하는 고전들을 균형 있게 지탱하는 집중력, 비닐의 광택이 돋보이는 컬렉터블 아이템.",assets/models/fig_librarian_mage_vinyl.glb,
+fig_librarian_mage_wooden,목조 마법사 장인,우드카빙,model,A,35000,손으로 조각한 따뜻한 나무 향이 감도는 마법사. 고전 서적과 마법 서적 사이를 오가는 지혜로운 미소녀 장인의 정교한 수공예.,assets/models/fig_librarian_mage_wooden.glb,
+fig_maid_cafe_star_chibi,초코파티 치비 마이드,치비,model,C,15000,2个头 높이의 귀여운 초코파티 치비! 은은한 웃음소리와 함께 파르페를 들고 있는 그녀의 윙크가 마음을 녹여주는 매력이야.,assets/models/fig_maid_cafe_star_chibi.glb,
+fig_maid_cafe_star_clay,점토 마이드 소녀,클레이,model,B,22000,손으로 빚은 점토의 온기가 느껴지는 마이드 소녀. 매끄러운 표면과 부드러운 질감이 돋보이는 한정판 컬렉션의 숨은 보물.,assets/models/fig_maid_cafe_star_clay.glb,
+fig_maid_cafe_star_mech,로봇 마이드 메카,메카닉,model,A,45000,메카닉 관절과 갑옷이 결합된 로봇 마이드! 은은한 윙크와 함께 파르페를 들고 있는 그녀의 기계적 매력이 소름을 돋게 한다.,assets/models/fig_maid_cafe_star_mech.glb,
+fig_maid_cafe_star_metallic,크롬 마이드 스타,메탈릭,model,S,55000,반짝이는 크롬 도금 표면이 빛나는 마이드 스타! 은은한 윙크와 함께 파르페를 들고 있는 그녀의 메탈릭 매력이 수집가들을 사로잡는다.,assets/models/fig_maid_cafe_star_metallic.glb,
+fig_maid_cafe_star_pixel,픽셀 마이드 게임,복셀픽셀,model,B,28000,8비트 픽셀 아트의 향기가 느껴지는 픽셀 마이드! 블록으로 구성된 그녀의 귀여운 윙크가 게임 팬들의 마음을 사로잡는다.,assets/models/fig_maid_cafe_star_pixel.glb,
+fig_maid_cafe_star_plush,솜뭉치 마이드 쿠션,플러시,model,C,18000,부드러운 솜뭉치 질감이 느껴지는 마이드 쿠션! 촉촉한 촉감과 함께 파르페를 들고 있는 그녀의 귀여운 윙크가 마음을 녹여준다.,assets/models/fig_maid_cafe_star_plush.glb,
+fig_maid_cafe_star_realistic,리얼 마이드 미소녀,리얼리스틱,model,S,65000,실사 같은 디테일과 비율이 돋보이는 리얼 마이드! 은은한 윙크와 함께 파르페를 들고 있는 그녀의 생동감이 수집가들의 마음을 사로잡는다.,assets/models/fig_maid_cafe_star_realistic.glb,
+fig_maid_cafe_star_vinyl,디자이너 마이드 비닐,바이닐토이,model,A,38000,광택이 나는 비닐 재질의 디자이너 마이드! 은은한 윙크와 함께 파르페를 들고 있는 그녀의 컬렉터블 매력이 수집가들의 마음을 사로잡는다.,assets/models/fig_maid_cafe_star_vinyl.glb,
+fig_maid_cafe_star_wooden,우드 마이드 카페 스타,우드카빙,model,A,85000,"손으로 조각한 따뜻한 나무 질감에, 마이드 카페의 사랑스러운 여주인. 은은한 라이스 트림과 하트 모양 헤어핀이 포인트. 책상 위에 놓으면 집안이 살기 좋은 마법 같은 분위기를 자아내는 한정판 피규어!",assets/models/fig_maid_cafe_star_wooden.glb,
+fig_mecha_pilot_girl_chibi,SD 메카 파일럿 소녀,치비,model,B,45000,2个头身高의 귀여운 SD 피규어! 메카 피규어 소녀가 콕핏에서 내려오는 포즈. 플러그슈트 패널과 자신감 넘치는 커맨더 눈빛이 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_mecha_pilot_girl_chibi.glb,
+fig_mecha_pilot_girl_metallic,크롬 메카 파일럿 소녀,메탈릭,model,S,120000,"불멸의 전사처럼 빛나는 크롬 도금 갑옷! 메카 파일럿 소녀의 차가운 눈빛과 플러그슈트 디테일이 완벽 재현. 칼끝에서 느껴지는 냉기가 소름을 돋게 하며, 소장 가치가 높은 메탈릭 피규어.",assets/models/fig_mecha_pilot_girl_metallic.glb,
+fig_mecha_pilot_girl_pixel,픽셀 메카 파일럿 소녀,복셀픽셀,model,A,75000,"8비트 게임 속의 영웅이 현실로! 로우폴리 블록 같은 픽셀 아트 스타일의 메카 파일럿 소녀. 레트로 감성과 미래科技感가 어우러진 귀여운 피규어로, 게임 팬들에게 필수 소장품.",assets/models/fig_mecha_pilot_girl_pixel.glb,
+fig_mecha_pilot_girl_wooden,우드 메카 파일럿 소녀,우드카빙,model,A,95000,"손으로 조각한 따뜻한 나무 질감에, 메카 파일럿 소녀의 강인한 눈빛. 플러그슈트 패널과 콕핏에서 내려오는 포즈가 완벽 재현. 책상 위에 놓으면 집안이 살기 좋은 마법 같은 분위기를 자아내는 한정판 피규어!",assets/models/fig_mecha_pilot_girl_wooden.glb,
+fig_nurse_android_chibi,SD 간호 안드로이드,치비,model,B,45000,2个头身高의 귀여운 SD 피규어! 미래의 의료비전과 캡슐 주사기가 포인트. 부드러운 안심 미소가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_nurse_android_chibi.glb,
+fig_nurse_android_clay,클레이 간호 안드로이드,클레이,model,A,85000,점토 조각의 따뜻한 질감이 살아있는 피규어! 간호 안드로이드의 부드러운 미소와 미래 의료비전 디테일이 완벽 재현. 손으로 만져보면 느껴지는 부드러운 촉감이 소장 가치를 높여주는 한정판 피규어.,assets/models/fig_nurse_android_clay.glb,
+fig_nurse_android_mech,메카 간호 안드로이드,메카닉,model,S,110000,기계 관절과 갑옷 플레이트가 달린 안드로이드! 간호 여영웅의 미래적 아이돌 매력과 부드러운 미소가 어우러진 메카 피규어. 관절이 움직이는 디테일이 소장 가치를 높여주는 한정판 피규어.,assets/models/fig_nurse_android_mech.glb,
+fig_nurse_android_metallic,크롬 간호 안드로이드,메탈릭,model,S,125000,"불멸의 전사처럼 빛나는 크롬 도금 갑옷! 간호 안드로이드의 차가운 눈빛과 미래 의료비전 디테일이 완벽 재현. 칼끝에서 느껴지는 냉기가 소름을 돋게 하며, 소장 가치가 높은 메탈릭 피규어.",assets/models/fig_nurse_android_metallic.glb,
+fig_nurse_android_pixel,픽셀 간호 안드로이드,복셀픽셀,model,A,75000,"8비트 게임 속의 영웅이 현실로! 로우폴리 블록 같은 픽셀 아트 스타일의 간호 안드로이드. 레트로 감성과 미래科技感가 어우러진 귀여운 피규어로, 게임 팬들에게 필수 소장품.",assets/models/fig_nurse_android_pixel.glb,
+fig_nurse_android_plush,뽀뽀뮬리 안드로이드 간호사,플러시,model,C,9000,"부드러운 털감촉의 뽀뽀뮬리 안드로이드 간호사가 환한 미소로 당신을 맞이합니다. 반짝이는 의료용 헬멧과 작은 주사기가 귀여운 디테일을 살려, 책상 위에 올려두면 매일 힐링되는 완구 친구가 되어줍니다.",assets/models/fig_nurse_android_plush.glb,
+fig_nurse_android_realistic,리얼 메디컬 안드로이드,리얼리스틱,model,A,45000,"실사급 디테일의 안드로이드 간호사가 전문성 넘치는 포즈로 당신을 맞이합니다. 반짝이는 의료용 헬멧과 작은 주사기가 귀여운 디테일을 살려, 책상 위에 올려두면 매일 힐링되는 완구 친구가 되어줍니다.",assets/models/fig_nurse_android_realistic.glb,
+fig_nurse_android_stylized,4D 스타일리쉬 간호사,스타일라이즈드,model,B,12000,4个头身比例的可爱卡通风格，拥有光泽医疗护目镜和胶囊注射器，未来偶像魅力十足。单个人物全身可见，无裁剪，纯白背景，无环境，无地板阴影，居中构图，可收藏人偶，高质量，3D渲染风格，工作室灯光，产品摄影。,assets/models/fig_nurse_android_stylized.glb,
+fig_nurse_android_vinyl,글로시 비닐 디자이너,바이닐토이,model,B,35000,"반짝이는 비닐 재질의 디자이너 토이 안드로이드 간호사가 당신을 반깁니다. 매끄러운 표면과 세련된 디자인이 돋보이며, 한정판 콜렉터블 아이템으로 소장 가치가 높습니다.",assets/models/fig_nurse_android_vinyl.glb,
+fig_nurse_android_wooden,목공 예술 안드로이드,우드카빙,model,S,120000,"손으로 조각한 목공 예술 안드로이드 간호사가 따뜻하고 감성적인 분위기를 자아냅니다. 자연스러운 목재 질감과 세밀한 디테일이 어우러져, 집의 인테리어 포인트가 되는 고급스러운 완구입니다.",assets/models/fig_nurse_android_wooden.glb,
+fig_office_secret_agent_realistic,실사 오피스 에이전트,리얼리스틱,model,A,45000,실사급 디테일의 오피스 레이디가 안경으로 숨겨진 권총을 들고 composed killer smile을 지어냅니다. 숨겨진 비밀 임무와 긴장감 넘치는 포즈가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_office_secret_agent_realistic.glb,
+fig_office_secret_agent_wooden,목공 비밀요원,우드카빙,model,S,120000,"손으로 조각한 목공 예술 오피스 레이디 비밀요원이 감성적인 분위기를 자아냅니다. 자연스러운 목재 질감과 세밀한 디테일이 어우러져, 집의 인테리어 포인트가 되는 고급스러운 완구입니다.",assets/models/fig_office_secret_agent_wooden.glb,
+fig_oni_girl_chibi,SD 오니 소녀,치비,model,B,12000,2个头身比例的可爱卡通风格，拥有光泽医疗护目镜和胶囊注射器，未来偶像魅力十足。单个人物全身可见，无裁剪，纯白背景，无环境，无地板阴影，居中构图，可收藏人偶，高质量，3D渲染风格，工作室灯光，产品摄影。,assets/models/fig_oni_girl_chibi.glb,
+fig_oni_girl_clay,클레이 오니 소녀,클레이,model,A,45000,매트 마감의 클레이 조각 오니 소녀가 따뜻한 감성을 자아냅니다. 손으로 빚은 듯한 질감과 독특한 포즈가 매력 포인트. 집의 인테리어 포인트가 되는 감성적인 완구입니다.,assets/models/fig_oni_girl_clay.glb,
+fig_oni_girl_mech,메커니컬 오니 소녀,메카닉,model,S,120000,"기계식 관절과 갑옷 판으로武装한 메커니컬 오니 소녀가 강인한 분위기를 자아냅니다. 디테일한 메커니컬 디테일이 돋보이며, 소장 가치가 높은 한정판 아이템입니다.",assets/models/fig_oni_girl_mech.glb,
+fig_oni_girl_metallic,크롬온이 미소녀,메탈릭,model,A,85000,"빛나는 크롬 갑옷과 날카로운 이빨. 어깨에 기대는 가나보에서 느껴지는 압도적인 존재감이 일품. 한정판 메탈릭 마감의 디테일, 집무실 책상 위에 올려두면 최고의 장식!",assets/models/fig_oni_girl_metallic.glb,
+fig_oni_girl_pixel,픽셀온이 미소녀,복셀픽셀,model,B,45000,8비트 게임 속의 영웅이 현실로 나타났어! 블록 같은 귀여운 몸체와 픽셀화된 표정이 오타쿠 감성을 자극. 레트로 게임 컬렉션의 필수품.,assets/models/fig_oni_girl_pixel.glb,
+fig_oni_girl_plush,뭉실온이 미소녀,플러시,model,C,35000,"부드러운 솜뭉치 몸체가 주는 온화함. 가나보를 들고 있어도 장난기 넘치는 표정. 방에 두고 싶은 귀여운 털동반자, 선물하기에도 최고!",assets/models/fig_oni_girl_plush.glb,
+fig_oni_girl_realistic,리얼온이 미소녀,리얼리스틱,model,SS,150000,살아있는 듯한 생동감 있는 표정. 피부 질감부터 갑옷의 광택까지 완벽하게 재현한 리얼리티. 수집가들의 눈이 멈추는至高의 명품 피규어.,assets/models/fig_oni_girl_realistic.glb,
+fig_oni_girl_stylized,카툰온이 미소녀,스타일라이즈드,model,C,38000,4个头高的 Q版造型，可爱又充满魅力。夸张的比例和卡通化的线条，完美捕捉了角色的俏皮感。办公桌前的最佳摆件，萌力十足！,assets/models/fig_oni_girl_stylized.glb,
+fig_oni_girl_vinyl,글로스온이 미소녀,바이닐토이,model,B,65000,유리처럼 반짝이는 고스 글로시 바디. 디자이너 토이 특유의 세련된 감성과 매끄러운 마감. 컬렉터들의 취향을 사로잡는 프리미엄 오브제.,assets/models/fig_oni_girl_vinyl.glb,
+fig_oni_girl_wooden,우드온이 미소녀,우드카빙,model,A,95000,손으로 깎아 만든 나무의 온기가 느껴지는 장인정신. 자연스러운 목재 결과 고전적인 미소녀의 조화가 독특한 분위기를 자아내.,assets/models/fig_oni_girl_wooden.glb,
+fig_punk_guitarist_mech,메크펑크 기타리스트,메카닉,model,SSS,180000,"로봇 관절과 갑옷이 어우러진 메카닉 미소녀. 거대한 앰프 체인과 격투 포즈, 반항적인 미소까지 완벽한 메카닉 컬렉션의 정점.",assets/models/fig_punk_guitarist_mech.glb,
+fig_punk_guitarist_metallic,크롬펑크 기타리스트,메탈릭,model,SSS,175000,"반사되는 크롬 표면이 빛나는 반항의 아이콘. 거대한 앰프 체인과 날카로운 눈빛, 메탈 감성이 폭발하는 최고의 메탈 피규어.",assets/models/fig_punk_guitarist_metallic.glb,
+fig_punk_guitarist_stylized,카툰펑크 기타리스트,스타일라이즈드,model,C,38000,"Q 버전의 카툰 미소녀, 귀엽고 반항적인 매력. 4个头高的 Q版造型，夸张的比例和卡通化的线条，完美捕捉了角色的俏皮感。办公桌前的最佳摆件，萌力十足！",assets/models/fig_punk_guitarist_stylized.glb,
+fig_punk_guitarist_vinyl,글로시 비닐 펑크 기타리스트,바이닐토이,model,A,85000,반짝이는 비닐 표면에 펑크 스타일의 반항적 에너지가 고스란히 담겼다. 거대한 앰프 체인 액세서리와 함께 리프를 치는 그녀의 열정적인 미소와 강렬한 눈빛은 수집가들의 마음을 사로잡는다.,assets/models/fig_punk_guitarist_vinyl.glb,
+fig_punk_guitarist_wooden,핸드카프트 우드 펑크 기타리스트,우드카빙,model,B,65000,"수공예로 깎아낸 우드 피규어. 따뜻한 나무 향과 함께 펑크의 거친 에너지가 조화롭게 어우러져, 데스크 위나 책상 위에 놓으면 감성적인 분위기를 연출한다.",assets/models/fig_punk_guitarist_wooden.glb,
+fig_sailor_uniform_ace_chibi,뭉실 SD 베이스볼 소녀,치비,model,C,35000,2个头 높이의 귀여운 꼬마 스타일! 교복과 바스켓 재킷을 입고 야구 배트를 휘두르는 활기찬 표정이 매력 포인트. 방에 두면 매일 웃음만 불러오는 귀여운 친구.,assets/models/fig_sailor_uniform_ace_chibi.glb,
+fig_sailor_uniform_ace_clay,매트 클레이 스쿨 히어로인,클레이,model,B,55000,"매끄러운 클레이 소성으로 완성된 무광 피규어. 교복과 바스켓 재킷의 디테일이 살아있으며, 야구 배트를 휘두르는 역동적인 포즈가 마치 살아있는 듯 생동감을 선사한다.",assets/models/fig_sailor_uniform_ace_clay.glb,
+fig_sailor_uniform_ace_mech,메카닉 아머드 스쿨 히어로인,메카닉,model,A,95000,로봇 관절과 갑옷이 결합된 메카닉 스타일! 교복과 바스켓 재킷을 입고 야구 배트를 휘두르는 강인한 표정이 매력 포인트. 방에 두면 매일 설레는 하교길.,assets/models/fig_sailor_uniform_ace_mech.glb,
+fig_sailor_uniform_ace_metallic,크롬 메탈릭 스쿨 히어로인,메탈릭,model,S,120000,"반짝이는 크롬 도금 표면이 빛을 반사하며 고급스러운 분위기를 자아낸다. 야구 배트를 휘두르는 역동적인 포즈와 함께, 수집가들의 수집욕을 자극하는 명품 피규어.",assets/models/fig_sailor_uniform_ace_metallic.glb,
+fig_sailor_uniform_ace_pixel,픽셀 아트 로우폴리 소녀,복셀픽셀,model,B,50000,"8비트 게임 속의 캐릭터가 현실로 나타난 듯! 블록으로 만들어진 저폴리 스타일이 귀엽고 개성 있어, 게임 팬들에게 특히 인기가 많은 한정판 피규어.",assets/models/fig_sailor_uniform_ace_pixel.glb,
+fig_sailor_uniform_ace_plush,솜뭉치 플러시 스쿨 히어로인,플러시,model,C,45000,"부드러운 플러시 소재로 만들어진 귀여운 인형! 교복과 바스켓 재킷의 디테일이 살아있으며, 야구 배트를 휘두르는 역동적인 포즈가 마치 살아있는 듯 생동감을 선사한다.",assets/models/fig_sailor_uniform_ace_plush.glb,
+fig_sailor_uniform_ace_realistic,리얼 스쿨 히어로인,리얼리스틱,model,SS,150000,"초고해상도 리얼리즘 스타일로 완성된 정교한 피규어. 교복과 바스켓 재킷의 디테일이 살아있으며, 야구 배트를 휘두르는 역동적인 포즈가 마치 살아있는 듯 생동감을 선사한다.",assets/models/fig_sailor_uniform_ace_realistic.glb,
+fig_sailor_uniform_ace_stylized,카툰 스타일 스쿨 히어로인,스타일라이즈드,model,B,55000,"4个头 높이의 카툰 스타일이 귀엽고 개성 있어, 게임 팬들에게 특히 인기가 많은 한정판 피규어.",assets/models/fig_sailor_uniform_ace_stylized.glb,
+fig_samurai_princess_chibi,무사이 프린세스 치비,치비,model,C,15000,"화려한 갑옷과 단검을 든 미소녀 무사! 귀여운 치비 스타일이 더욱 매력을 더합니다. 방학 때 책상 위에 올려두면, 매일 설레는 하루가 됩니다.",assets/models/fig_samurai_princess_chibi.glb,
+fig_samurai_princess_metallic,크롬 무사이 프린세스,메탈릭,model,SSS,250000,반짝이는 크롬 갑옷이 빛나는 불멸의 전사! 칼날에서 느껴지는 냉기가 소름을 돋게 합니다. 한정판 크롬 도금이 수집가들의 마음을 사로잡습니다.,assets/models/fig_samurai_princess_metallic.glb,
+fig_school_idol_chibi,별빛 스테이지 아이돌,치비,model,A,45000,"눈부신 스포트라이트 아래, 마이크를 움켜진 그녀의 윙크 한 방에 관객석이 무너진다. 한정판 스테이지 의상의 프릴 디테일까지 완벽 재현!",assets/models/fig_school_idol_chibi.glb,
+fig_school_idol_clay,흙의 무대 아이돌,클레이,model,B,25000,"매트한 흙 질감의 인형, 손에 잡히는 따뜻함이 매력. 콘서트 포즈의 역동성을 흙의 매끄러움이 더합니다. 소품으로 활용하기 좋은 인형.",assets/models/fig_school_idol_clay.glb,
+fig_school_idol_mech,로봇 무대 아이돌,메카닉,model,SS,180000,기계식 관절과 갑옷이 달린 로봇 아이돌! 역동적인 포즈와 메탈릭한 디테일이 매력. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_school_idol_mech.glb,
+fig_school_idol_metallic,크롬 무대 아이돌,메탈릭,model,SSS,280000,반짝이는 크롬 갑옷이 빛나는 아이돌! 스포트라이트 아래에서 더욱 빛나는 그녀의 눈빛이 매력. 수집가들의 마음을 사로잡는 한정판 아이템.,assets/models/fig_school_idol_metallic.glb,
+fig_school_idol_pixel,픽셀 무대 아이돌,복셀픽셀,model,A,55000,로우폴리 픽셀 아트의 귀여운 아이돌! 블록 같은 디테일이 오타쿠 감성을 자극합니다. 게임 속 캐릭터처럼 책상 위에 올려두면 매일 설레는 하루가 됩니다.,assets/models/fig_school_idol_pixel.glb,
+fig_school_idol_plush,솜뭉치 무대 아이돌,플러시,model,B,35000,부드러운 플러시 소재의 인형! 감성적인 터치와 따뜻한 감촉이 매력. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_school_idol_plush.glb,
+fig_school_idol_realistic,리얼 무대 아이돌,리얼리스틱,model,SSS,320000,정교한 디테일과 리얼한 표정이 매력! 스포트라이트 아래에서 더욱 빛나는 그녀의 눈빛이 매력. 수집가들의 마음을 사로잡는 한정판 아이템.,assets/models/fig_school_idol_realistic.glb,
+fig_school_idol_stylized,카툰 무대 아이돌,스타일라이즈드,model,A,50000,4个头身 카툰 스타일의 귀여운 아이돌! 역동적인 포즈와 귀여운 표정이 매력. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,assets/models/fig_school_idol_stylized.glb,
+fig_school_idol_vinyl,글러시 비닐 아이돌,바이닐토이,model,A,45000,반짝이는 스타 아이돌이 무대 위에서 빛을 뿜어내요! 비닐 재질의 매끄러운 광택과 프릴 디테일이 돋보여. 손에 쥔 마이크의 진동까지 느껴지는 생동감 있는 포즈가 매력 포인트.,assets/models/fig_school_idol_vinyl.glb,
+fig_school_idol_wooden,목공 아티스트 아이돌,우드카빙,model,B,35000,수공예가 정성을 담은 나무 피규어! 곡선의 온기와 자연스러운 목재 무늬가 돋보여. 무대 위의 아이돌이지만 나무의 향기가 느껴지는 따뜻한 감성의 소장품.,assets/models/fig_school_idol_wooden.glb,
+fig_shrine_archer_mech,신궁 메카닉 아케르,메카닉,model,S,85000,신궁의 사신과 메카닉이 결합된 판타지 피규어! 관절식 메탈 갑옷과 화려한 활의 디테일이 압도적. 차분한 눈빛의 결정된 포즈가 전투력을 극대화.,assets/models/fig_shrine_archer_mech.glb,
+fig_shrine_maiden_chibi,SD 신궁 소녀,치비,model,A,42000,두个头 높이의 귀여운 초소형 피규어! 흐르는 붉은 하카마와 오후다를 들고 있는 차분한 표정이 매력. 책상 위에 올려두면 매일 설레는 작은 친구.,assets/models/fig_shrine_maiden_chibi.glb,
+fig_shrine_maiden_clay,점토 신궁 소녀,클레이,model,B,38000,매트 마감의 점토 피규어! 손으로 빚은 듯한 따뜻한 질감과 부드러운 표정이 돋보여. 신궁의 정성을 담은 듯한 차분한 미소가 마음을 녹여.,assets/models/fig_shrine_maiden_clay.glb,
+fig_shrine_maiden_mech,신궁 메카닉 소녀,메카닉,model,S,85000,신궁의 여신과 메카닉이 결합된 판타지 피규어! 관절식 메탈 갑옷과 화려한 활의 디테일이 압도적. 차분한 눈빛의 결정된 포즈가 전투력을 극대화.,assets/models/fig_shrine_maiden_mech.glb,
+fig_shrine_maiden_metallic,크롬 신궁 소녀,메탈릭,model,SS,95000,반사되는 크롬 도금의 압도적인 광택! 신궁의 여신이 메탈릭한 갑옷으로 재탄생. 은은하게 빛나는 표면에 새겨진 룬 문양이 신비로운 분위기를 자아.,assets/models/fig_shrine_maiden_metallic.glb,
+fig_shrine_maiden_pixel,픽셀 신궁 소녀,복셀픽셀,model,A,45000,로우폴리 블록 아트 스타일의 귀여운 피규어! 픽셀화된 디테일이 돋보여. 신궁의 여신이지만 게임 속 캐릭터처럼 귀엽고 개성 있는 디자인.,assets/models/fig_shrine_maiden_pixel.glb,
+fig_shrine_maiden_plush,솜뭉치 신궁 소녀,플러시,model,B,35000,부드러운 플러시 소재의 귀여운 피규어! 촉촉한 촉감과 따뜻한 색감이 돋보여. 신궁의 여신이지만 작은 친구처럼 포근한 감성의 소장품.,assets/models/fig_shrine_maiden_plush.glb,
+fig_shrine_maiden_realistic,리얼 신궁 소녀,리얼리스틱,model,SSS,120000,초정밀 디테일의 리얼 피규어! 흐르는 붉은 하카마와 오후다의 질감이 생생하게 재현. 신궁의 여신이지만 인간적인 감성이 느껴지는 압도적인 완성도.,assets/models/fig_shrine_maiden_realistic.glb,
+fig_shrine_maiden_stylized,신비로운 신부 미소녀,스타일라이즈드,model,A,85000,"순수한 흰 배경에 우아하게 서 있는 신부 소녀. 붉은 하카마와 오후다를 들고 차분한 미소로 신비로운 분위기를 자아내며, 수집가들의 마음을 사로잡는 정교한 디테일!",assets/models/fig_shrine_maiden_stylized.glb,
+fig_shrine_maiden_vinyl,글로스 비닐 신부,바이닐토이,model,B,65000,"유광 비닐 마감의 디자이너 토이. 신비로운 신부 소녀가 오후다를 들고 우아한 포즈를 취하며, 컬렉터블 피규어로서 높은 완성도와 수집 가치를 자랑한다.",assets/models/fig_shrine_maiden_vinyl.glb,
+fig_shrine_maiden_wooden,수공목공 신부,우드카빙,model,C,45000,"손으로 조각한 목공 예술품. 붉은 하카마를 입은 신부 소녀가 오후다를 들고 차분한 표정으로 우아함을 발산하며, 전통 공예의 정수를 느낄 수 있는 명품 피규어.",assets/models/fig_shrine_maiden_wooden.glb,
+fig_tennis_ace_chibi,별빛 스테이지 아이돌,치비,model,A,75000,2个头高的超级变形Q版网球王牌，发球瞬间裙摆飞扬，眼神专注如星辰般闪耀。可爱又充满活力的姿态，是桌面收藏的绝佳选择！,assets/models/fig_tennis_ace_chibi.glb,
+fig_tennis_ace_clay,점토의 전설 테니스,클레이,model,B,55000,매트 마감의 점토 조각품. 테니스 아스가 서버 포즈를 취하며 스커트와 비저가 날아오르는 역동적인 순간을 포착. 예술적인 질감과 강렬한 스포츠맨십이 어우러진 컬렉션.,assets/models/fig_tennis_ace_clay.glb,
+fig_tennis_ace_plush,솜뭉치 테니스,플러시,model,C,35000,부드러운 플러시 소재로 만든 테니스 아스 인형. 서버 포즈를 취하며 스커트와 비저가 날아오르는 역동적인 순간을 포착. 예술적인 질감과 강렬한 스포츠맨십이 어우러진 컬렉션.,assets/models/fig_tennis_ace_plush.glb,
+fig_tennis_ace_wooden,수공목공 테니스,우드카빙,model,C,45000,손으로 조각한 목공 예술품. 테니스 아스가 서버 포즈를 취하며 스커트와 비저가 날아오르는 역동적인 순간을 포착. 전통 공예의 정수를 느낄 수 있는 명품 피규어.,assets/models/fig_tennis_ace_wooden.glb,
+fig_tracksuit_streamer_clay,점토 스트리머,클레이,model,B,55000,매트 마감의 점토 조각품. 트랙슈트를 입은 스트리머가 에너지 드링크 캔 옆에 엎드려 피시그를 보내는 귀여운 포즈. 손맛이 살아있는 아티스트 피규어!,assets/models/fig_tracksuit_streamer_clay.glb,
+fig_tracksuit_streamer_pixel,픽셀 스트리머,복셀픽셀,model,A,75000,록폴리 블록 아트 스타일의 픽셀 피규어. 트랙슈트를 입은 스트리머가 에너지 드링크 캔 옆에 엎드려 피시그를 보내는 귀여운 포즈. 레트로 감성과 현대적인 디자인의 조화.,assets/models/fig_tracksuit_streamer_pixel.glb,
+fig_tracksuit_streamer_wooden,수공목공 스트리머,우드카빙,model,C,45000,손으로 조각한 목공 예술품. 트랙슈트를 입은 스트리머가 에너지 드링크 캔 옆에 엎드려 피시그를 보내는 귀여운 포즈. 전통 공예의 정수를 느낄 수 있는 명품 피규어.,assets/models/fig_tracksuit_streamer_wooden.glb,
+fig_winter_coat_heroine_chibi,초코 커피 소녀,치비,model,C,5000,"겨울 코트 속 숨겨진 달콤한 매력! 귀여운 표정과 따뜻한 캔 커피가 주는 온기, 집안에서 가장 사랑받는 친구가 될 거야.",assets/models/fig_winter_coat_heroine_chibi.glb,
+fig_winter_coat_heroine_clay,점토의 겨울 여신,클레이,model,B,15000,"손끝으로 빚은 따뜻한 점토의 온기가 느껴지는 인형. 손끝의 미세한 결까지 완벽하게 재현된 소품으로, 집안 분위기를 한층 더 따뜻하게.",assets/models/fig_winter_coat_heroine_clay.glb,
+fig_winter_coat_heroine_mech,메카 코트 소녀,메카닉,model,A,35000,겨울 코트 속에 숨겨진 강력한 메카닉 파워! 관절이 움직이는 디테일과 차가운 금속의 대비가 주는 독특한 매력을 놓치지 마세요.,assets/models/fig_winter_coat_heroine_mech.glb,
+fig_winter_coat_heroine_metallic,크롬 겨울 전사,메탈릭,model,S,85000,"반짝이는 크롬 도금 갑옷이 빛을 머금고, 차가운 겨울의 밤을 비추는 전사. 수집가들이 꿈꾸는 완벽한 메탈릭 재현의 정점.",assets/models/fig_winter_coat_heroine_metallic.glb,
+fig_winter_coat_heroine_pixel,픽셀 겨울 소녀,복셀픽셀,model,B,12000,8비트 게임 속으로 돌아온 귀여운 픽셀 아티스트! 블록으로 구성된 귀여운 표정과 겨울 코트의 디테일이 게임 팬들을 설레게.,assets/models/fig_winter_coat_heroine_pixel.glb,
+fig_winter_coat_heroine_plush,솜뭉치 겨울 소녀,플러시,model,A,30000,"부드러운 솜뭉치 재질에 따뜻한 겨울 코트. 집안에서 가장 사랑받는 반려인형으로, 껴안고 싶게 만드는 달콤한 온기를 선사합니다.",assets/models/fig_winter_coat_heroine_plush.glb,
+fig_winter_coat_heroine_realistic,리얼 겨울 여신,리얼리스틱,model,SS,120000,"실사 같은 디테일과 완벽한 비율의 인형. 눈빛 하나하나가 살아있는 듯한 생동감으로, 수집가들의 소장 가치를 극대화하는 명작.",assets/models/fig_winter_coat_heroine_realistic.glb,
+fig_winter_coat_heroine_vinyl,글로시 비닐 인형,바이닐토이,model,S,95000,유리처럼 반짝이는 비닐 재질의 디자인 인형. 수집가들이 사랑하는 디자이너 토이 스타일의 고급스러운 광택이 돋보이는 한정판.,assets/models/fig_winter_coat_heroine_vinyl.glb,
+fig_winter_coat_heroine_wooden,목공 겨울 전사,우드카빙,model,A,45000,"손으로 깎아 만든 따뜻한 목공 인형. 나무의 결이 느껴지는 소품으로, 집안 분위기를 한층 더 고전적이고 예술적으로.",assets/models/fig_winter_coat_heroine_wooden.glb,
+card_fig_abomination_chibi,악마의 눈동자 카드,치비,card,SSS,150000,"눈부신 공포의 미소녀! 우주적 공포 속에서도 귀여운 표정으로 웃는 악마의 눈동자가, 당신의 집안을 공포와 설렘으로 가득 채워.",,assets/cards/fig_abomination_chibi.webp
+card_fig_abomination_clay,점토의 눈들,클레이,card,C,5000,"순수한 점토의 질감이 주는 생생한 촉감, 무수한 눈들이 당신을 응시합니다. 우주적 공포의 정수를 담은 이 카드는 책상 위에 놓아두면 밤마다 당신을 지켜볼 듯합니다.",,assets/cards/fig_abomination_clay.webp
+card_fig_abomination_mech,크롬하트 메카노마스크,메카닉,card,B,15000,기계적 관절과 갑옷에 숨겨진 이기종적 공포. 메카의 냉철함과 우주적 공포가 어우러진 이 피규어는 수집가들의 시선을 사로잡는 명품 아이템입니다.,,assets/cards/fig_abomination_mech.webp
+card_fig_abomination_metallic,크롬하트 아보미네이션,메탈릭,card,A,35000,반짝이는 크롬 도금 표면이 우주적 공포를 은은하게 비춥니다. 빛이 반사되는 매력이 돋보이는 이 피규어는 어둠 속에서 당신을 기다리고 있습니다.,,assets/cards/fig_abomination_metallic.webp
+card_fig_abomination_plush,솜뭉치 아보미네이션,플러시,card,B,8000,"촉촉하고 부드러운 솜뭉치 재질에 공포스러운 눈들이 숨어있어요. 아이들 장난감처럼 귀엽지만, 그 안에는 우주적 공포가 숨어있다는 게 매력 포인트입니다.",,assets/cards/fig_abomination_plush.webp
+card_fig_abomination_realistic,리얼 아보미네이션,리얼리스틱,card,S,85000,생생한 디테일과 비현실적인 공포가 공존하는 리얼 피규어. 눈의 움직임과 촉수까지 완벽하게 재현한 이 작품은 수집가들의 수집욕을 자극합니다.,,assets/cards/fig_abomination_realistic.webp
+card_fig_abomination_stylized,치비 아보미네이션,스타일라이즈드,card,C,5000,4个头身 비율의 귀여운 스타일링이 우주적 공포를 부드럽게 감쌉니다. 귀여움과 공포의 갭 모에가 매력적인 이 카드는 오타쿠들의 마음을 사로잡습니다.,,assets/cards/fig_abomination_stylized.webp
+card_fig_abomination_vinyl,글로시 비닐 아보미네이션,바이닐토이,card,A,45000,"유리처럼 반짝이는 비닐 재질의 디자이너 토이. 우주적 공포가 빛을 발하는 매력이 돋보이며, 책상 위에 놓아두면 매일 설레는 하교길입니다.",,assets/cards/fig_abomination_vinyl.webp
+card_fig_abomination_wooden,목공 아보미네이션,우드카빙,card,B,25000,손으로 조각한 목공의 따뜻함이 우주적 공포와 대비됩니다. 자연스러운 나무 질감이 주는 생생한 촉감과 디테일이 수집가들의 마음을 사로잡습니다.,,assets/cards/fig_abomination_wooden.webp
+card_fig_alchemist_girl_chibi,SD 알케미스트 소녀,치비,card,C,5000,2个头身 비율의 귀여운 스타일링이 우주적 공포를 부드럽게 감쌉니다. 귀여움과 공포의 갭 모에가 매력적인 이 카드는 오타쿠들의 마음을 사로잡습니다.,,assets/cards/fig_alchemist_girl_chibi.webp
+card_fig_alchemist_girl_clay,점토의 알케미스트,클레이,card,B,15000,"순수한 점토의 질감이 주는 생생한 촉감, 무수한 눈들이 당신을 응시합니다. 우주적 공포의 정수를 담은 이 카드는 책상 위에 놓아두면 밤마다 당신을 지켜볼 듯합니다.",,assets/cards/fig_alchemist_girl_clay.webp
+card_fig_alchemist_girl_mech,메카닉 알케미스트,메카닉,card,A,150000,정밀한 관절과 갑옷이 빛나는 메카닉 알케미스트. 유리 플라스크 속의 신비한 약물을 섞는 그녀의 손끝에서 마력이 스며든다. 수집가들이 사랑하는 3D 피규어!,,assets/cards/fig_alchemist_girl_mech.webp
+card_fig_alchemist_girl_metallic,크롬하트 알케미스트,메탈릭,card,S,120000,"반사되는 크롬 도금 갑옷에 마력이 스며들었다. 유리 플라스크 속의 약물이 빛나는 순간, 그녀의 눈빛도 반짝인다. 한정판 메탈릭 카드!",,assets/cards/fig_alchemist_girl_metallic.webp
+card_fig_alchemist_girl_pixel,픽셀 알케미스트,복셀픽셀,card,B,80000,8비트 게임 속의 알케미스트가 현실로 나타났어! 블록 같은 몸체와 귀여운 표정이 매력 포인트. 게임 팬들에게 인기 있는 픽셀 아트 카드!,,assets/cards/fig_alchemist_girl_pixel.webp
+card_fig_alchemist_girl_plush,솜뭉치 알케미스트,플러시,card,C,50000,부드러운 솜뭉치 소재로 만든 알케미스트. 유리 플라스크 속의 약물을 섞는 그녀의 손끝에서 따뜻한 감성이 느껴져. 안방에 두기 좋은 플러시!,,assets/cards/fig_alchemist_girl_plush.webp
+card_fig_alchemist_girl_realistic,리얼 알케미스트,리얼리스틱,card,SS,150000,초정밀 디테일로 완성된 리얼리티 피규어. 유리 플라스크 속의 약물이 빛나는 그녀의 눈빛이 마음을 사로잡는다. 수집가들의 꿈같은 아이템!,,assets/cards/fig_alchemist_girl_realistic.webp
+card_fig_alchemist_girl_vinyl,비닐 알케미스트,바이닐토이,card,A,150000,광택이 나는 비닐 소재로 만들어진 알케미스트. 유리 플라스크 속의 약물을 섞는 그녀의 손끝에서 미래지향적인 디자인이 느껴져. 컬렉터의 선택!,,assets/cards/fig_alchemist_girl_vinyl.webp
+card_fig_alchemist_girl_wooden,우드 알케미스트,우드카빙,card,B,90000,손으로 조각한 목재 피규어. 유리 플라스크 속의 약물이 빛나는 그녀의 표정에서 따뜻한 감성이 느껴져. 자연스러운 질감이 매력 포인트!,,assets/cards/fig_alchemist_girl_wooden.webp
+card_fig_angelic_choir_girl_chibi,SD 천사 합창 소녀,치비,card,C,35000,"두个头높이 귀여운 천사 합창 소녀. 머리 위의 헤일로와 접힌 날개, 그리고 성가집을 들고 있는 포즈가 매력 포인트. 오타쿠들의 마음을 사로잡는 치비!",,assets/cards/fig_angelic_choir_girl_chibi.webp
+card_fig_angelic_choir_girl_clay,클레이 천사 합창 소녀,클레이,card,B,75000,"점토로 조각된 천사 합창 소녀. 머리 위의 헤일로와 접힌 날개, 그리고 성가집을 들고 있는 포즈가 매력 포인트. 손으로 만든 온기가 느껴지는 클레이!",,assets/cards/fig_angelic_choir_girl_clay.webp
+card_fig_angelic_choir_girl_mech,메카닉 천사 합창 소녀,메카닉,card,S,150000,"정밀한 관절과 갑옷이 빛나는 메카닉 천사 합창 소녀. 머리 위의 헤일로와 접힌 날개, 그리고 성가집을 들고 있는 포즈가 매력 포인트. 메탈릭한 디자인!",,assets/cards/fig_angelic_choir_girl_mech.webp
+card_fig_angelic_choir_girl_metallic,크롬하트 성가대 소녀,메탈릭,card,S,85000,"반짝이는 크롬 갑옷과 천사 같은 미소. 성가대 소녀가 찬양을 부르는 순간, 빛나는 헤일로가 당신의 방을 환하게 비추어 줍니다. 한정판 메탈릭 마감의 디테일, 절대 놓칠 수 없는 신비로운 매력을 느껴보세요!",,assets/cards/fig_angelic_choir_girl_metallic.webp
+card_fig_angelic_choir_girl_pixel,픽셀하트 성가대 소녀,복셀픽셀,card,B,15000,8비트 게임 속의 천사 같은 존재! 블록으로 구성된 귀여운 포즈와 픽셀 아트 스타일의 일러스트는 레트로 감성을 자극합니다. 책상 위에 올려두면 게임 캐릭터처럼 살아있는 듯한 재미를 선사합니다.,,assets/cards/fig_angelic_choir_girl_pixel.webp
+card_fig_angelic_choir_girl_plush,솜뭉치 성가대 소녀,플러시,card,A,45000,"부드러운 솜뭉치 같은 촉감을 가진 천사! 귀여운 포즈와 따뜻한 색감의 일러스트는 힐링을 선사합니다. 감성적인 일러스트와 함께, 집안 어디든 놓아두면 마음이 따뜻해지는 매력적인 피규어입니다.",,assets/cards/fig_angelic_choir_girl_plush.webp
+card_fig_angelic_choir_girl_realistic,리얼하트 성가대 소녀,리얼리스틱,card,SS,120000,생동감 넘치는 리얼한 디테일! 천사의 눈빛과 표정까지 완벽하게 재현한 일러스트는 보는 이로 하여금 숨을 멈추게 합니다. 성가대 소녀의 신비로운 매력을 가장 진솔하게 느낄 수 있는 한정판입니다.,,assets/cards/fig_angelic_choir_girl_realistic.webp
+card_fig_angelic_choir_girl_vinyl,글로시비닐 성가대 소녀,바이닐토이,card,A,65000,유리 같은 광택이 매력적인 비닐 피규어! 디자이너 토이 스타일의 세련된 디자인과 반짝이는 표면은 수집가들의 사랑을 받습니다. 한정판 비닐 마감의 일러스트는 당신의 컬렉션을 한층 더 빛나게 합니다.,,assets/cards/fig_angelic_choir_girl_vinyl.webp
+card_fig_angelic_choir_girl_wooden,우드하트 성가대 소녀,우드카빙,card,B,35000,목재의 온기가 느껴지는 한적한 분위기! 손으로 조각한 듯한 일러스트는 따뜻한 감성을 자아냅니다. 성가대 소녀의 신비로운 매력을 자연스러운 일러스트로 만나보세요. 한정판 우드 마감의 일러스트입니다.,,assets/cards/fig_angelic_choir_girl_wooden.webp
+card_fig_anubis_clay,클레이하트 아누비스,클레이,card,A,70000,점토의 온기가 느껴지는 신의 심판자! 손으로 조각한 듯한 일러스트는 신비로운 분위기를 자아냅니다. 아누비스의 신성한 권위를 점토의 질감으로 만나보세요. 한정판 클레이 마감의 일러스트입니다.,,assets/cards/fig_anubis_clay.webp
+card_fig_anubis_mech,메카하트 아누비스,메카닉,card,S,110000,메카닉과 신화가 결합된 불멸의 전사! 기계식 관절과 갑옷이 빛나는 일러스트는 게임 속 보스 캐릭터처럼 위압감을 줍니다. 아누비스의 신성한 권위를 메카닉으로 만나보세요. 한정판 메카 마감의 일러스트입니다.,,assets/cards/fig_anubis_mech.webp
+card_fig_anubis_metallic,크롬하트 아누비스,메탈릭,card,S,95000,반짝이는 크롬 갑옷이 빛나는 신의 심판자! 메탈릭 마감의 일러스트는 신비로운 분위기를 자아냅니다. 아누비스의 신성한 권위를 크롬으로 만나보세요. 한정판 메탈릭 마감의 일러스트입니다.,,assets/cards/fig_anubis_metallic.webp
+card_fig_anubis_realistic,리얼하트 아누비스,리얼리스틱,card,SS,130000,생동감 넘치는 리얼한 디테일! 신의 심판자의 눈빛과 표정까지 완벽하게 재현한 일러스트는 보는 이로 하여금 숨을 멈추게 합니다. 아누비스의 신성한 권위를 가장 진솔하게 느낄 수 있는 한정판입니다.,,assets/cards/fig_anubis_realistic.webp
+card_fig_anubis_stylized,판결의 황금 안부시스,스타일라이즈드,card,A,85000,"신화의 심판을 지닌 안부시스의 엄숙한 눈빛. 황금 저울과 지팡이가 빛을 발하며, 신화적 위엄을 담은 스타일라이즈드 아트워크가 수집가들의 마음을 사로잡는다.",,assets/cards/fig_anubis_stylized.webp
+card_fig_anubis_vinyl,글로시 비닐 안부시스,바이닐토이,card,B,45000,"유리처럼 반짝이는 비닐 재질의 안부시스. 광택이 돋보이는 디자이너 토이 느낌의 고급스러움이 느껴지며, 소장 가치가 높은 한정판 느낌의 신화적 존재.",,assets/cards/fig_anubis_vinyl.webp
+card_fig_anubis_wooden,목공의 심판자 안부시스,우드카빙,card,C,35000,"손으로 조각한 목공품의 따뜻한 질감. 민속 예술의 정수를 담은 안부시스는 자연스러운 목재 무늬와 황금 장식이 어우러져, 고전적인 미학을 완성.",,assets/cards/fig_anubis_wooden.webp
+card_fig_arcade_mechanic_girl_chibi,꼬마 아케이드 메카닉,치비,card,C,15000,반전 캐비닛 옆에서 너브를 들고 웃는 귀여운 꼬마. SD 스타일의 귀여운 표정과 오일 스테인드 그릴이 매력 포인트. 책상 위에 올려두면 매일 설레는 하루.,,assets/cards/fig_arcade_mechanic_girl_chibi.webp
+card_fig_arcade_mechanic_girl_clay,점토의 메카닉 소녀,클레이,card,B,25000,매트 핀이시와 점토의 질감을 살린 아케이드 메카닉. 손으로 만든 듯한 따뜻한 느낌과 진지한 표정이 매력 포인트. 컬렉션의 따뜻한 감성을 더한다.,,assets/cards/fig_arcade_mechanic_girl_clay.webp
+card_fig_arcade_mechanic_girl_mech,메카닉 메카닉 소녀,메카닉,card,A,65000,기계 관절과 갑옷 판판으로武装한 메카닉 소녀. 관절이 움직이는 듯한 디테일과 레트로 캐비닛 옆에서 작업하는 모습이 매력. 메카닉 팬들의 필수 소장품.,,assets/cards/fig_arcade_mechanic_girl_mech.webp
+card_fig_arcade_mechanic_girl_metallic,크롬 메카닉 소녀,메탈릭,card,S,95000,"반사되는 크롬 표면의 메카닉 소녀. 광택이 돋보이는 메탈릭 재질의 고급스러움이 느껴지며, 아케이드의 화려함을 완벽하게 재현한 한정판 느낌.",,assets/cards/fig_arcade_mechanic_girl_metallic.webp
+card_fig_arcade_mechanic_girl_pixel,픽셀 메카닉 소녀,복셀픽셀,card,B,35000,"8비트 게임의 세계로 돌아온 픽셀 아트 메카닉. 블록 같은 저폴리 스타일이 귀여운 느낌을 더하며, 레트로 게임 팬들에게 사랑받는 디자인.",,assets/cards/fig_arcade_mechanic_girl_pixel.webp
+card_fig_arcade_mechanic_girl_plush,솜뭉치 메카닉 소녀,플러시,card,C,20000,부드러운 플러시 재질의 메카닉 소녀. 촉감이 좋은 천과 귀여운 표정이 매력 포인트. 집안에서 편안하게 즐길 수 있는 완구 느낌의 소장품.,,assets/cards/fig_arcade_mechanic_girl_plush.webp
+card_fig_arcade_mechanic_girl_realistic,리얼 메카닉 소녀,리얼리스틱,card,S,120000,실제처럼 생동감 있는 비율의 메카닉 소녀. 디테일한 표정과 옷감의 질감이 살아있는 리얼리스틱 아트워크가 수집가들의 마음을 사로잡는다.,,assets/cards/fig_arcade_mechanic_girl_realistic.webp
+card_fig_assault_exosuit_vinyl,글로시 비닐 아사울트,바이닐토이,card,A,15000,화려한 오버레이 코팅이 빛을 머금어 반짝이는 비닐 장갑과 헬멧. 우주에서 떨어지는 듯한 역동적인 포즈가 돋보이는 메카 카드. 소장가치가 높은 한정판 컬렉션의 시작!,,assets/cards/fig_assault_exosuit_vinyl.webp
+card_fig_assault_exosuit_wooden,우드 아트 아사울트,우드카빙,card,B,12000,손으로 조각한 따뜻한 목재의 질감이 차갑게 느껴지는 메카와 완벽한 조화. 자연스러운 결이 돋보이는 한 장의 명작. 책상 위에 올려두면 감성적인 분위기를 자아낸다.,,assets/cards/fig_assault_exosuit_wooden.webp
+card_fig_battle_android_chibi,꼬마 안드로이드,치비,card,C,5000,두个头 높이의 귀여운 SD 포즈! 붉은 눈빛이 날카롭게 빛나는 충전된 플라스마 캐논이 매력 포인트. 방에서 친구와 함께 놀아도 좋은 귀여운 메카 캐릭터.,,assets/cards/fig_battle_android_chibi.webp
+card_fig_battle_android_clay,클레이 안드로이드,클레이,card,A,18000,무광 마감의 점토 조각품이 주는 독특한 질감. 마치 손으로 만든 듯한 따뜻함이 느껴지는 메카의 표정. 수집가들에게 사랑받는 아티스틱한 디자인의 명품 카드.,,assets/cards/fig_battle_android_clay.webp
+card_fig_battle_android_mech,메카 안드로이드,메카닉,card,B,15000,정교하게 조립된 관절과 갑판의 디테일이 돋보이는 기계적 메카. 전투 준비 태세로 서 있는 강인한 자세가 인상적. 메카 팬이라면 반드시 소장하고 싶은 명품.,,assets/cards/fig_battle_android_mech.webp
+card_fig_battle_android_metallic,크롬 안드로이드,메탈릭,card,S,25000,반사되는 크롬 도금 표면이 빛을 머금어 화려하게 빛난다. 메카의 차가운 금속성 매력과 고가의 느낌을 동시에 잡은 프리미엄 카드. 소장 가치가 높음.,,assets/cards/fig_battle_android_metallic.webp
+card_fig_battle_android_pixel,픽셀 안드로이드,복셀픽셀,card,C,6000,로우 폴리 블로키한 픽셀 아트 스타일이 돋보이는 메카. 레트로 게임 감성이 느껴지는 귀여운 디자인. 게임 팬이라면 반드시 소장하고 싶은 귀여운 캐릭터 카드.,,assets/cards/fig_battle_android_pixel.webp
+card_fig_battle_android_plush,솜뭉치 안드로이드,플러시,card,B,10000,부드러운 인조 가죽 질감이 매력적인 뭉실한 메카. 전투 포즈를 취하면서도 귀여운 느낌을 주는 갭 모에 포인트. 침대 옆에 두면 마음이 따뜻해지는 친구.,,assets/cards/fig_battle_android_plush.webp
+card_fig_battle_android_realistic,리얼 안드로이드,리얼리스틱,card,SS,45000,실사급 디테일과 비례가 돋보이는 메카. 전투 준비 태세로 서 있는 강인한 자세와 붉은 눈빛이 압도적인 카리스마를 뿜어낸다. 메카 컬렉션의 왕자.,,assets/cards/fig_battle_android_realistic.webp
+card_fig_battle_android_stylized,카툰 안드로이드,스타일라이즈드,card,C,6000,4个头 높이의 귀여운 카툰 스타일이 돋보이는 메카. 전투 포즈와 플라스마 캐논이 매력적인 캐릭터. 애니메이션 팬이라면 반드시 소장하고 싶은 귀여운 캐릭터.,,assets/cards/fig_battle_android_stylized.webp
+card_fig_battle_android_vinyl,크롬바틀 안드로이드,바이닐토이,card,A,45000,"플라스마 캐논이 충전된 순간, 붉은 눈빛이 적을 조준한다. 고광택 비닐 마감의 메탈릭한 광택과 디테일한 관절 구조가 압도적인 전투력을 보여준다. 전투용 안드로이드의 완벽한 재현!",,assets/cards/fig_battle_android_vinyl.webp
+card_fig_battle_android_wooden,룬문양 목제 전사,우드카빙,card,B,35000,수공예 목재로 조각된 전설의 메카. 자연스러운 목재 무늬와 고대 룬 문양이 어우러져 신비로운 분위기를 자아낸다. 손에 쥐었을 때 느껴지는 따뜻한 온기가 매력 포인트.,,assets/cards/fig_battle_android_wooden.webp
+card_fig_beach_heroine_chibi,쨉쨉해! 비치 히어로인,치비,card,C,3000,두 머리 키의 귀여운 치비 버전! 물총과 인플라터블 링을 들고 해변에서 뛰어놀며 웃는 모습이 너무 귀엽다. 책상 위에 올려두면 하루 종일 웃음만 가득한 초특급 귀여움.,,assets/cards/fig_beach_heroine_chibi.webp
+card_fig_beach_heroine_clay,뭉실뭉실 점토 히어로인,클레이,card,B,15000,손으로 빚은 듯한 점토 질감의 부드러운 피규어. 매끄러운 피부와 자연스러운 표정이 어우러져 따뜻한 감성을 전한다. 방과 후 친구들에게 자랑하고 싶은 최고의 소품.,,assets/cards/fig_beach_heroine_clay.webp
+card_fig_beach_heroine_mech,로봇아머 비치 히어로인,메카닉,card,A,55000,메카닉한 관절과 갑옷이 달린 로봇 버전! 인플라터블 링을 들고도 전투 준비 태세를 갖춘 강인한 모습. 메탈릭한 마감과 디테일한 조인트 구조가 메카 팬들의 마음을 사로잡는다.,,assets/cards/fig_beach_heroine_mech.webp
+card_fig_beach_heroine_metallic,크롬메탈 비치 히어로인,메탈릭,card,S,85000,반사되는 크롬 메탈릭 마감이 눈부신 스포트라이트를 받으며 빛난다. 물총을 들고 웃는 모습과 차가운 금속 질감이 대비되는 갭 모에가 매력 포인트. 소장 가치가 높은 한정판.,,assets/cards/fig_beach_heroine_metallic.webp
+card_fig_beach_heroine_pixel,픽셀블록 비치 히어로인,복셀픽셀,card,B,25000,8비트 게임 속의 주인공처럼 블록으로 구성된 픽셀 아트 스타일! 저폴리 모델링의 독특한 분위기와 밝은 컬러가 시선을 사로잡는다. 레트로 감성과 귀여움이 어우러진 컬렉션.,,assets/cards/fig_beach_heroine_pixel.webp
+card_fig_beach_heroine_plush,솜뭉치 비치 히어로인,플러시,card,C,5000,부드러운 플러시 소재로 만들어진 귀여운 인형. 물총을 들고 웃는 표정이 너무 사랑스럽다. 집안 구석구석에 놓아두면 스트레스를 날려버릴 최고의 힐링 소품.,,assets/cards/fig_beach_heroine_plush.webp
+card_fig_beach_heroine_realistic,리얼비치 히어로인,리얼리스틱,card,SS,120000,실사 같은 디테일과 비율을 완벽하게 재현한 프리미엄 피규어. 피부 질감과 옷의 주름까지 세밀하게 표현되어 있어 마치 살아있는 듯하다. 수집가들의 최상급 소장품.,,assets/cards/fig_beach_heroine_realistic.webp
+card_fig_beach_heroine_stylized,카툰스타일 비치 히어로인,스타일라이즈드,card,A,40000,4 머리 키의 스타일리시한 애니메이션 스타일! 과장된 비율과 밝은 컬러가 어우러져 활기찬 해변 분위기를 연출한다. 애니메이션 팬들에게 꼭 필요한 컬렉션 아이템.,,assets/cards/fig_beach_heroine_stylized.webp
+card_fig_beach_heroine_vinyl,썸머 비치 히어로인,바이닐토이,card,A,85000,"뜨거운 태양 아래 땀방울이 맺힌 스포티 재킷과 수영복의 완벽한 조화. 물총을 든 밝은 웃음과 인플라터블 링이 여름의 기분을 고스란히 담아내어, 방에서 한여름 휴가를 느끼게 해줄 한정판 비닐 피규어!",,assets/cards/fig_beach_heroine_vinyl.webp
+card_fig_beach_heroine_wooden,우드 아트 비치 히어로인,우드카빙,card,B,65000,"손으로 깎아낸 나무의 온기와 자연스러운 결이 돋보이는 핸드 카프트 피규어. 해변의 히어로인이 나무의 결을 따라 숨 쉬는 듯한 따뜻한 감성을 선사하며, 책상 위에 올려두면 자연스러운 인테리어 포인트가 된다.",,assets/cards/fig_beach_heroine_wooden.webp
+card_fig_berserker_chibi,치비 베르세르크,치비,card,A,75000,두个头 높이의 귀여운 SD 버전이 분노를 뿜어내는 모습! 전쟁 도색과 흉터가 오히려 귀여움을 더하는 갭 모에의 정점. 소름 끼치는 비주얼과 귀여운 표정의 대비가 매력적인 초소형 피규어!,,assets/cards/fig_berserker_chibi.webp
+card_fig_berserker_clay,클레이 베르세르크,클레이,card,B,55000,점토로 빚어진 생동감 넘치는 표정! 손으로 빚은 듯한 거친 질감과 매트한 마감이 베르세르크의 격정적인 분노를 고스란히 전달한다. 마치 살아있는 점토 조각품처럼 손에 쥐고 싶게 만드는 컬렉터블 피규어.,,assets/cards/fig_berserker_clay.webp
+card_fig_berserker_mech,메카 베르세르크,메카닉,card,S,120000,"전투용 로봇 아머가 장착된 메카 베르세르크! 관절과 플레이트 디테일이 완벽하게 재현된 메카닉 피규어. 가챠에서 가장 강력한 파워를 가진 메카 버전으로, 팬들의 열광을 받을 최고의 선택!",,assets/cards/fig_berserker_mech.webp
+card_fig_berserker_metallic,크롬 베르세르크,메탈릭,card,SS,150000,"반사되는 크롬 도금 갑옷이 빛나는 베르세르크! 칼끝에서 느껴지는 냉기가 실루엣에 스며들어, 어둠의 기사단 장비를 완성해준다. 한정판 크롬 마감의 고급스러운 광택이 소장욕을 자극하는 최고급 피규어.",,assets/cards/fig_berserker_metallic.webp
+card_fig_berserker_pixel,픽셀 베르세르크,복셀픽셀,card,B,50000,"8비트 게임 속의 베르세르크가 현실로 돌아왔다! 블록으로 구성된 저폴리 스타일이 레트로 감성을 자극하며, 게임 속의 추억을 소환하는 귀여운 픽셀 아트 피규어. 오타쿠들의 마음을 사로잡는 레트로 컬렉션.",,assets/cards/fig_berserker_pixel.webp
+card_fig_berserker_plush,플러시 베르세르크,플러시,card,C,35000,부드러운 플러시 소재로 만든 베르세르크! 전투의 잔혹함과는 달리 부드러운 촉감이 매력적인 갭 모에의 정점. 침대 옆이나 소파 위에 올려두면 매일 만져보고 싶게 만드는 귀여운 소품 피규어.,,assets/cards/fig_berserker_plush.webp
+card_fig_berserker_realistic,리얼 베르세르크,리얼리스틱,card,SSS,150000,"실사 영화 속 주인공처럼 생동감 넘치는 리얼 피규어! 표정 디테일과 근육의 움직임이 완벽하게 재현되어, 마치 그가 살아있는 듯하게 느껴진다. 베르세르크의 진정한 모습을 담은 최고의 컬렉터블 피규어.",,assets/cards/fig_berserker_realistic.webp
+card_fig_berserker_stylized,스타일라이즈드 베르세르크,스타일라이즈드,card,A,70000,4个头 높이의 카툰 스타일이 베르세르크의 분노를 더욱 극대화! 과장된 표현과 생동감 넘치는 포즈가 매력적인 스타일라이즈드 버전. 애니메이션 속 주인공처럼 느껴지는 귀여운 캐릭터 디자인의 컬렉션.,,assets/cards/fig_berserker_stylized.webp
+card_fig_berserker_vinyl,크롬하트 베르세르크,바이닐토이,card,S,85000,붉은 분노가 금속의 빛을 머금었다! 고광택 비닐 재질에 실루엣이 살아있는 베르세르크의 절규가 화면을 찢는다. 한정판 콜렉터블 아이템.,,assets/cards/fig_berserker_vinyl.webp
+card_fig_berserker_wooden,나무의 분노 베르세르크,우드카빙,card,A,45000,"손으로 조각한 목재의 온기가 느껴지는 베르세르크. 전쟁의 상처와 붉은 페인트가 나무 질감과 어우러져, 고전적인 무기의 위엄을 뽐낸다.",,assets/cards/fig_berserker_wooden.webp
+card_fig_blood_mage_chibi,뭉실혈의 마녀 SD,치비,card,B,25000,두个头만 된 귀여운 혈색 마녀가 붉은 마력 구슬을 돌리며 명상 중이다. 차분한 눈빛과 귀여운 표정이 매력 포인트. 책상 위의 작은 친구.,,assets/cards/fig_blood_mage_chibi.webp
+card_fig_blood_mage_clay,점토의 마녀 혈색,클레이,card,A,38000,매트 마감의 점토 조각으로 완성된 혈색 마녀. 붉은 마력이 감도는 표정과 차분한 눈빛이 포인트. 손으로 만졌을 때 느껴지는 따뜻한 감성.,,assets/cards/fig_blood_mage_clay.webp
+card_fig_blood_mage_mech,로봇 혈색 마녀,메카닉,card,SS,95000,기계식 관절과 갑옷으로武装된 혈색 마녀. 명상 자세에도 불구하고 붉은 마력이 흐르는 메카닉 디자인이 압도적이다. 미래지향적인 무기의 위엄.,,assets/cards/fig_blood_mage_mech.webp
+card_fig_blood_mage_metallic,크롬 혈색 마녀,메탈릭,card,SSS,120000,"반사되는 크롬 표면에 붉은 마력이 빛을 발한다! 명상 중인 혈색 마녀의 차분한 표정이 금속의 찬란함으로 승화되어, 눈부신 반짝임을 선사한다.",,assets/cards/fig_blood_mage_metallic.webp
+card_fig_blood_mage_pixel,픽셀 혈색 마녀,복셀픽셀,card,B,28000,"로우폴리 블록으로 이루어진 픽셀 아트 혈색 마녀. 붉은 마력이 흐르는 차분한 눈빛이 귀여운 블록 디자인과 어우러져, 레트로 감성을 자극한다.",,assets/cards/fig_blood_mage_pixel.webp
+card_fig_blood_mage_plush,솜뭉치 혈색 마녀,플러시,card,A,35000,"부드러운 플러시 소재로 만든 혈색 마녀. 붉은 마력이 감도는 표정과 차분한 눈빛이 귀여운 솜뭉치 디자인과 어우러져, 집안 구석구석에 소중함을.",,assets/cards/fig_blood_mage_plush.webp
+card_fig_blood_mage_realistic,리얼 혈색 마녀,리얼리스틱,card,SSS,150000,"실사급 디테일로 완성된 혈색 마녀. 붉은 마력이 흐르는 표정과 차분한 눈빛이 생동감 있게 재현되어, 마치 그녀가 숨 쉬는 듯하다.",,assets/cards/fig_blood_mage_realistic.webp
+card_fig_blood_mage_stylized,카툰 혈색 마녀,스타일라이즈드,card,B,22000,"4个头 높이의 카툰 스타일 혈색 마녀. 붉은 마력이 흐르는 차분한 눈빛이 귀여운 카툰 디자인과 어우러져, 일상 속의 작은 위로를 선사한다.",,assets/cards/fig_blood_mage_stylized.webp
+card_fig_blood_mage_vinyl,크롬블러드 마법사,바이닐토이,card,SSS,120000,"붉은 마력이 피어오르는 차가운 미용사. 광택이 살아있는 비닐 재질의 갑옷과 붉은 룬이 빛을 발하며, 차분한 표정의 눈빛이 당신의 심장을 강타한다. 한정판 컬렉션의 정점.",,assets/cards/fig_blood_mage_vinyl.webp
+card_fig_blood_mage_wooden,목재블러드 마법사,우드카빙,card,A,65000,수공한 목재의 온기가 느껴지는 마법사. 자연스러운 질감과 붉은 룬의 조화가 매력적. 책상 위에 올려두면 따뜻한 분위기의 마법실처럼 변한다. 컬렉터의 소망.,,assets/cards/fig_blood_mage_wooden.webp
+card_fig_bunny_guardian_chibi,SD뱀니 마법소녀,치비,card,B,45000,두个头 높이의 귀여운 꼬마 마법소녀! 달망치와 큰 부츠가 포인트. 활기찬 미소와 귀여운 표정이 마음을 녹여준다. 방에 두면 매일 웃음이 터진다.,,assets/cards/fig_bunny_guardian_chibi.webp
+card_fig_bunny_guardian_clay,뽀뽀클레이 뱀니,클레이,card,A,55000,손으로 빚은 듯한 흙의 질감이 매력적인 마법소녀. 부드러운 촉감과 진지한 표정의 대비가 매력 포인트. 손으로 만져보고 싶은 소장품.,,assets/cards/fig_bunny_guardian_clay.webp
+card_fig_bunny_guardian_mech,메카뱀니 마법소녀,메카닉,card,S,95000,로봇 관절과 갑옷이 결합된 메카화! 달망치로 적을 물리치는 강인한 모습. 관절이 움직이는 디테일이 놀라워. 게임 캐릭터처럼 느껴지는 소장품.,,assets/cards/fig_bunny_guardian_mech.webp
+card_fig_bunny_guardian_metallic,크롬뱀니 마법소녀,메탈릭,card,SSS,150000,"반짝이는 크롬 도금의 광택이 눈부신 마법소녀. 거울 같은 표면이 주변을 비추며, 강인한 표정의 눈빛이 당신의 마음을 사로잡는다. 한정판.",,assets/cards/fig_bunny_guardian_metallic.webp
+card_fig_bunny_guardian_pixel,픽셀뱀니 마법소녀,복셀픽셀,card,B,48000,8비트 게임 속의 귀여운 마법소녀! 블록으로 된 귀여운 몸매와 픽셀 아트 스타일이 매력. 게임 캐릭터를 현실로 가져온 듯한 소장감.,,assets/cards/fig_bunny_guardian_pixel.webp
+card_fig_bunny_guardian_plush,솜뭉치뱀니 마법소녀,플러시,card,C,40000,부드러운 솜뭉치 같은 촉감이 매력적인 마법소녀. 귀여운 표정과 달망치가 마음을 녹여준다. 방에 두면 매일 안아주고 싶은 소장품.,,assets/cards/fig_bunny_guardian_plush.webp
+card_fig_bunny_guardian_realistic,리얼뱀니 마법소녀,리얼리스틱,card,SS,110000,실사 같은 디테일이 살아있는 마법소녀. 섬세한 표정과 옷자락의 질감이 놀라워. 마치 그녀가 살아있는 듯한 생동감 있는 소장품.,,assets/cards/fig_bunny_guardian_realistic.webp
+card_fig_bunny_guardian_vinyl,비닐뱀니 마법소녀,바이닐토이,card,A,75000,"광택이 살아있는 디자이너 토이 스타일의 마법소녀. 유광 비닐 재질이 고급스러우며, 귀여운 표정과 달망치가 마음을 사로잡는다.",,assets/cards/fig_bunny_guardian_vinyl.webp
+card_fig_bunny_guardian_wooden,달빛 목수 마법소녀,우드카빙,card,A,85000,"달빛을 머금은 목수 정신이 깃든 마법소녀. 손수 깎은 나무 질감의 망치와 귀여운 토끼 귀가 어우러져, 마법계의 수호자로 우뚝 서 있습니다. 나무의 온기가 마음을 녹여주는 한정판 예술작품입니다.",,assets/cards/fig_bunny_guardian_wooden.webp
+card_fig_bunny_suit_dealer_mech,크롬하트 카지노 딜러,메카닉,card,B,45000,"메카닉 아머가 입은 미소녀 딜러. 로봇 관절과 광택이 나는 스타킹이 어우러져, 칩더미 위에서 유혹적인 윙크를 건넨다. 기계와 인간의 경계가 모호한 미래형 미소녀입니다.",,assets/cards/fig_bunny_suit_dealer_mech.webp
+card_fig_bunny_suit_dealer_metallic,크롬하트 카지노 딜러,메탈릭,card,S,120000,"반사되는 크롬 도금 갑옷을 입은 카지노 딜러. 칩더미 위에서 유혹적인 윙크를 건네며, 메탈릭한 광택이 눈부신 카지노의 밤을 비추는 듯합니다. 소유욕을 자극하는 명품입니다.",,assets/cards/fig_bunny_suit_dealer_metallic.webp
+card_fig_bunny_suit_dealer_pixel,픽셀하트 카지노 딜러,복셀픽셀,card,B,35000,"8비트 게임 속으로 들어온 픽셀 아트 딜러. 블록으로 이루어진 몸매와 유쾌한 표정이 어우러져, 레트로 감성을 불러일으킵니다. 게임 마니아라면 반드시 소장하고 싶은 아이템.",,assets/cards/fig_bunny_suit_dealer_pixel.webp
+card_fig_bunny_suit_dealer_plush,솜뭉치 카지노 딜러,플러시,card,A,55000,"부드러운 털감을 가진 플러시 스타일의 카지노 딜러. 칩더미 위에서 귀여운 윙크를 하며, 손에 잡히는 온기와 촉감이 매력적입니다. 집안 어디든 놓아두면 설레는 소품입니다.",,assets/cards/fig_bunny_suit_dealer_plush.webp
+card_fig_bunny_suit_dealer_realistic,리얼하트 카지노 딜러,리얼리스틱,card,SS,150000,"실사급 디테일을 자랑하는 카지노 딜러. 광택 스타킹과 메이크업이 완벽하게 재현되어, 마치 그녀가 옆에 있는 듯 생동감이 넘칩니다. 수집가들의 꿈이 현실이 된 명품 피규어입니다.",,assets/cards/fig_bunny_suit_dealer_realistic.webp
+card_fig_bunny_suit_dealer_stylized,4D 카지노 딜러,스타일라이즈드,card,C,25000,"4个头身 비율의 스타일리시한 카지노 딜러. 귀여운 표정과 카지노의 화려함과 어우러져, 독특한 캐릭터 디자인으로 주목받습니다. 개성 넘치는 스타일링이 매력 포인트입니다.",,assets/cards/fig_bunny_suit_dealer_stylized.webp
+card_fig_bunny_suit_dealer_wooden,목조 카지노 딜러,우드카빙,card,B,65000,"손으로 조각한 나무 공예품 같은 카지노 딜러. 자연스러운 나무 질감과 유쾌한 표정이 어우러져, 따뜻한 감성을 풍깁니다. 한정판 공예품으로 수집가들의 사랑을 받습니다.",,assets/cards/fig_bunny_suit_dealer_wooden.webp
+card_fig_cafe_barista_girl_chibi,치비 바리스타 소녀,치비,card,C,20000,"두个头身 비율의 초소형 바리스타 소녀. 라떼 아트와 함께 웃으며 맞이하는 도시의 일상, 귀여운 표정과 소품이 어우러져, 집안의 작은 행복을 선사합니다. 오타쿠 감성의 필수품입니다.",,assets/cards/fig_cafe_barista_girl_chibi.webp
+card_fig_cafe_barista_girl_clay,점토 바리스타 소녀,클레이,card,A,75000,"점토로 빚어진 따뜻한 바리스타 소녀. 매끄러운 점토 질감과 부드러운 미소가 어우러져, 도시의 일상 속 작은 행복을 선사합니다. 손으로 만지는 온기가 느껴지는 한정판 소품입니다.",,assets/cards/fig_cafe_barista_girl_clay.webp
+card_fig_cafe_barista_girl_mech,메카바리스타 미소녀,메카닉,card,A,120000,가공된 관절과 갑옷을 입은 바리스타 소녀가 라떼 아트를 선보이며 미소 짓는다. 도시의 일상 속에서도 기계적 매력이 돋보이는 한정판 2D 카드!,,assets/cards/fig_cafe_barista_girl_mech.webp
+card_fig_cafe_barista_girl_metallic,크롬바리스타 미소녀,메탈릭,card,S,135000,"반사되는 크롬 갑옷과 매끄러운 피부가 어우러진 완벽한 메탈릭 미소녀. 도시의 야경처럼 빛나는 프리미엄 2D 카드, 수집가들의 눈길을 사로잡는다.",,assets/cards/fig_cafe_barista_girl_metallic.webp
+card_fig_cafe_barista_girl_pixel,픽셀바리스타 미소녀,복셀픽셀,card,A,110000,8비트 게임 속의 귀여운 바리스타! 블록으로 구성된 귀여운 픽셀 아트 스타일이 돋보이는 2D 카드. 레트로 감성과 귀여움이 어우러진 한정판.,,assets/cards/fig_cafe_barista_girl_pixel.webp
+card_fig_cafe_barista_girl_plush,솜뭉치바리스타 미소녀,플러시,card,B,95000,"부드러운 플러시 소재로 만든 귀여운 바리스타 인형. 촉촉하고 따뜻한 감성을 담은 2D 카드, 책상 위에 올려두면 마음이 따뜻해진다.",,assets/cards/fig_cafe_barista_girl_plush.webp
+card_fig_cafe_barista_girl_realistic,리얼바리스타 미소녀,리얼리스틱,card,S,140000,"실제와 같은 디테일과 비율을 완벽 재현한 리얼리티 바리스타. 눈빛과 표정까지 섬세하게 묘사된 프리미엄 2D 카드, 소장 가치가 높다.",,assets/cards/fig_cafe_barista_girl_realistic.webp
+card_fig_cafe_barista_girl_wooden,우드바리스타 미소녀,우드카빙,card,A,115000,"손으로 조각한 나무의 온기를 담은 우드 아트 바리스타. 자연스러운 결과 따뜻한 색감이 돋보이는 2D 카드, 감성적인 분위기를 풍긴다.",,assets/cards/fig_cafe_barista_girl_wooden.webp
+card_fig_card_captor_metallic,크롬카드캡터 미소녀,메탈릭,card,S,145000,반사되는 크롬 갑옷을 입은 마법소녀! 타로 카드들이 날아다니는 신비로운 포즈와 학교 교복의 대비가 매력적인 프리미엄 2D 카드.,,assets/cards/fig_card_captor_metallic.webp
+card_fig_card_captor_pixel,픽셀카드캡터 미소녀,복셀픽셀,card,A,125000,8비트 게임 속의 마법소녀! 블록으로 구성된 픽셀 아트 스타일이 돋보이는 2D 카드. 레트로 감성과 마법소녀의 매력이 어우러진 한정판.,,assets/cards/fig_card_captor_pixel.webp
+card_fig_card_captor_stylized,카툰카드캡터 미소녀,스타일라이즈드,card,A,120000,"4个头身 비율의 귀여운 카툰 스타일 마법소녀! 과장된 귀여움과 마법소녀의 신비가 어우러진 2D 카드, 소장 가치가 높은 귀여운 아이템.",,assets/cards/fig_card_captor_stylized.webp
+card_fig_card_captor_vinyl,비닐카드캡터 미소녀,바이닐토이,card,S,150000,"광택이 나는 비닐 재질의 디자이너 토이 스타일 마법소녀! 반짝이는 마감과 타로 카드의 신비가 어우러진 프리미엄 2D 카드, 소장 가치가 높다.",,assets/cards/fig_card_captor_vinyl.webp
+card_fig_card_captor_wooden,목재 마법소녀 소환사,우드카빙,card,A,85000,"수공품처럼 따뜻한 나무 질감에, 타로 카드의 마법이 깃든 소녀가 환하게 웃어요. 학교 유니폼의 망토와 목걸이 디테일이 섬세하게 표현되어 있어, 책상 위에 놓으면 마법세계가 펼쳐지는 듯해요.",,assets/cards/fig_card_captor_wooden.webp
+card_fig_catgirl_gamer_chibi,꼬마 게이머 스트리머,치비,card,B,45000,머리만 한 키의 귀여운 치비 포즈! 방구석 스트리밍을 하며 게임 컨트롤러를 쥔 채 윙크하는 미소녀가 매력 포인트. 아케이드 큐브 위에 앉아 있는 모습이 마치 방과 후 비밀 임무처럼 설레요.,,assets/cards/fig_catgirl_gamer_chibi.webp
+card_fig_catgirl_gamer_clay,점토 미소녀 스트리머,클레이,card,B,55000,손으로 빚은 듯한 점토의 따뜻하고 부드러운 질감이 돋보여요. 머플러와 헤드셋이 포인트인 캐주얼한 스트리머 포즈가 일상 속의 편안함을 느끼게 합니다. 수집가들이 좋아하는 아티스트 감성이에요.,,assets/cards/fig_catgirl_gamer_clay.webp
+card_fig_catgirl_gamer_mech,메카닉 게이머 스트리머,메카닉,card,A,95000,"로봇 관절과 강철 갑옷이 결합된 메카닉 스타일의 미소녀! 게임 컨트롤러를 쥔 채 윙크하며, 차가운 기계미와 따뜻한 스트리밍의 분위기가 어우러져 독특한 매력을 뿜어냅니다. 남성적 감성이 돋보여요.",,assets/cards/fig_catgirl_gamer_mech.webp
+card_fig_catgirl_gamer_metallic,크롬하트 게이머 스트리머,메탈릭,card,S,120000,반짝이는 크롬 도금 표면에 게임 컨트롤러의 빛이 비치는 모습이 압도적이에요. 차가운 금속의 냉기와 미소녀의 온기가 어우러진 갭 모에가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_catgirl_gamer_metallic.webp
+card_fig_catgirl_gamer_pixel,픽셀 아트 게이머,복셀픽셀,card,C,35000,8비트 게임 세계로 타임슬립한 듯한 픽셀 아트 스타일! 블록으로 이루어진 귀여운 포즈와 레트로한 컨트롤러 디테일이 게임 팬들에게 큰 사랑을 받을 거예요. 추억의 게임기를 연상시키며 감성적인 분위기를 자아냅니다.,,assets/cards/fig_catgirl_gamer_pixel.webp
+card_fig_catgirl_gamer_plush,솜뭉치 게이머 스트리머,플러시,card,B,65000,부드러운 솜뭉치 재질의 귀여운 포즈! 헤드셋과 컨트롤러를 쥔 채 윙크하는 모습이 마치 안아주고 싶은 듯한 온기를 줍니다. 방구석에서 스트리밍을 하며 게임하는 일상적인 모습을 담은 귀여운 피규어예요.,,assets/cards/fig_catgirl_gamer_plush.webp
+card_fig_catgirl_gamer_realistic,리얼 미소녀 스트리머,리얼리스틱,card,S,150000,"실사 같은 디테일과 자연스러운 표정이 돋보이는 리얼리티 스타일! 게임 컨트롤러를 쥔 채 윙크하는 미소녀의 눈빛이 살아있어, 마치 그녀가 방에서 스트리밍을 하고 있는 듯한 생동감이 느껴져요.",,assets/cards/fig_catgirl_gamer_realistic.webp
+card_fig_catgirl_gamer_stylized,스타일라이즈드 미소녀,스타일라이즈드,card,A,85000,4个头身 비율의 스타일리시한 캐릭터 디자인! 게임 컨트롤러와 헤드셋을 매치한 캐주얼한 스트리머 포즈가 트렌디한 감성을 뿜어냅니다. 아케이드 큐브 위에 앉아 있는 모습이 마치 게임 캐릭터처럼 생동감 있어요.,,assets/cards/fig_catgirl_gamer_stylized.webp
+card_fig_catgirl_gamer_vinyl,비닐 디자이너 토이,바이닐토이,card,S,110000,"고광택 비닐 재질의 디자이너 토이 스타일! 게임 컨트롤러를 쥔 채 윙크하는 미소녀의 표정이 살아있어, 마치 그녀가 방에서 스트리밍을 하고 있는 듯한 생동감이 느껴져요. 수집가들이 좋아하는 아티스트 감성이 돋보여요.",,assets/cards/fig_catgirl_gamer_vinyl.webp
+card_fig_catgirl_gamer_wooden,목재 아케이드 스트리머,우드카빙,card,A,45000,"오버사이즈 후드티와 헤드셋을 쓴 귀여운 캣걸 스트리머. 아케이드 큐브 위에 앉아 조이스틱을 쥔 그녀의 미소에는 게임의 열정이 담겨 있어, 방에 두면 게임 시작할 때마다 설레는 마음이 들게 한다.",,assets/cards/fig_catgirl_gamer_wooden.webp
+card_fig_celestial_oracle_chibi,SD 천체 예언자,치비,card,A,35000,두个头 높이의 슈퍼디포드 천체 예언자가 별빛 망원경으로 우주를 관측. 귀여운 표정과 둥근 몸매가 매력 포인트. 책상 위에 올려두면 매일 보는 것만으로도 힐링되는 소품.,,assets/cards/fig_celestial_oracle_chibi.webp
+card_fig_celestial_oracle_clay,점토 천체 예언자,클레이,card,B,38000,손으로 빚은 듯한 점토 질감의 천체 예언자. 거친 표면 아래 숨겨진 마법사의 정성과 별빛이 반짝이는 눈빛이 매력. 한정판 점토 도색으로 수집가들의 사랑을 받을 수 있는 아이템.,,assets/cards/fig_celestial_oracle_clay.webp
+card_fig_celestial_oracle_mech,메카 천체 예언자,메카닉,card,A,42000,기계적 관절과 갑옷을 입은 천체 예언자. 차가운 금속과 따뜻한 별빛이 공존하는 독특한 디자인. 우주 탐험가처럼 느껴지는 메카닉 디테일이 게이머들의 취향을 사로잡는다.,,assets/cards/fig_celestial_oracle_mech.webp
+card_fig_celestial_oracle_metallic,크롬 천체 예언자,메탈릭,card,S,55000,반짝이는 크롬 도금 갑옷을 입은 천체 예언자. 은은한 빛이 반사되는 표면에 새겨진 룬 문양이 신비로운 분위기를 자아낸다. 고급스러운 크롬 마감으로 소장 가치가 높은 아이템.,,assets/cards/fig_celestial_oracle_metallic.webp
+card_fig_celestial_oracle_pixel,픽셀 천체 예언자,복셀픽셀,card,B,32000,로우폴리 블록이 모여 만든 픽셀 아트의 천체 예언자. 레트로 게임의 감성을 담은 귀여운 디자인. 8비트 시대로 돌아간 듯한 독특한 분위기가 오타쿠들의 마음을 사로잡는다.,,assets/cards/fig_celestial_oracle_pixel.webp
+card_fig_celestial_oracle_plush,솜뭉치 천체 예언자,플러시,card,A,40000,"부드러운 플러시 소재로 만든 천체 예언자. 촉촉한 털과 둥근 얼굴이 매력 포인트. 안아주면 따뜻한 포근함이 느껴지는 소품으로, 침대 옆에 두면 밤이 깊어질수록 마음이 편안해진다.",,assets/cards/fig_celestial_oracle_plush.webp
+card_fig_celestial_oracle_realistic,리얼 천체 예언자,리얼리스틱,card,S,58000,실제 인물처럼 디테일한 비율과 표정을 가진 천체 예언자. 눈빛 하나하나에 숨겨진 신비로운 마법사의 기운이 느껴진다. 고해상도 렌더링으로 완성된 고급스러운 피규어.,,assets/cards/fig_celestial_oracle_realistic.webp
+card_fig_celestial_oracle_vinyl,비닐 디자이너 천체 예언자,바이닐토이,card,A,48000,글로시 비닐 소재로 제작된 디자이너 토이. 매끄러운 표면과 세련된 디자인이 매력 포인트. 컬렉터블 아이템으로 인스타그램에 올리면 많은 좋아요를 받을 수 있는 핫한 피규어.,,assets/cards/fig_celestial_oracle_vinyl.webp
+card_fig_celestial_oracle_wooden,목공 천체 예언자,우드카빙,card,B,36000,손으로 조각한 듯한 목공의 천체 예언자. 자연스러운 목재 질감과 별빛이 반짝이는 눈빛이 매력. 한정판 목재 도색으로 수집가들의 사랑을 받을 수 있는 아티스틱한 아이템.,,assets/cards/fig_celestial_oracle_wooden.webp
+card_fig_centaur_archer_chibi,꼬마 사냥꾼,치비,card,C,4000,두个头 높이의 귀여운 꼬마 사냥꾼이 활을 쏘는 포즈! 순백 배경에 고요한 집중력이 느껴져요. 책상 위에 두면 매일 활기찬 하루 시작을 도와주는 귀여운 존재랍니다.,,assets/cards/fig_centaur_archer_chibi.webp
+card_fig_centaur_archer_clay,점토의 전사,클레이,card,B,6000,손으로 빚은 듯한 점토의 온기가 느껴지는 전사. 거친 질감 속에서도 활을 쏘는 집중력은 변함없습니다. 독특한 질감의 매력으로 수집가들의 사랑을 받을 거예요.,,assets/cards/fig_centaur_archer_clay.webp
+card_fig_centaur_archer_mech,메카 사냥꾼,메카닉,card,A,12000,강철로 만든 관절과 갑옷이 빛나는 메카 전사. 활을 쏘는 순간에도 기계의 정밀함이 느껴져요. 미래지향적인 디자인이 게임 팬들의 마음을 사로잡을 거예요.,,assets/cards/fig_centaur_archer_mech.webp
+card_fig_centaur_archer_metallic,크롬 사냥꾼,메탈릭,card,S,25000,반짝이는 크롬 도금 갑옷이 빛나는 전사. 거울 같은 표면에서 반사되는 빛이 눈을 사로잡아요. 고급스러운 금속의 광택이 소장욕을 자극하는 명품 피규어입니다.,,assets/cards/fig_centaur_archer_metallic.webp
+card_fig_centaur_archer_pixel,픽셀 사냥꾼,복셀픽셀,card,A,10000,8비트 게임 속의 레트로한 픽셀 아트가 살아있는 전사. 블록 같은 몸체에도 활을 쏘는 집중력은 변함없어요. 게임 팬들에게 추억을 불러일으키는 귀여운 존재랍니다.,,assets/cards/fig_centaur_archer_pixel.webp
+card_fig_centaur_archer_plush,솜뭉치 사냥꾼,플러시,card,B,7000,부드러운 솜뭉치 같은 촉감이 느껴지는 귀여운 전사. 거친 활쏘기에도 부드러운 질감이 어우러져요. 집안 어디에 두어도 따뜻한 감성을 선사하는 귀여운 피규어입니다.,,assets/cards/fig_centaur_archer_plush.webp
+card_fig_centaur_archer_realistic,리얼 전사,리얼리스틱,card,S,45000,실제와 같은 디테일과 비례를 가진 리얼 피규어. 근육의 정의와 갑옷의 질감이 생생하게 재현되어 있어요. 진지한 표정과 활을 쏘는 포즈가 수집가들의 마음을 사로잡습니다.,,assets/cards/fig_centaur_archer_realistic.webp
+card_fig_centaur_archer_stylized,카툰 전사,스타일라이즈드,card,A,11000,4个头 높이의 카툰 스타일로 귀여운 전사. 과장된 표정과 몸체 비율이 캐릭터의 매력을 극대화해요. 만화 같은 느낌의 일러스트처럼 보이는 귀여운 피규어입니다.,,assets/cards/fig_centaur_archer_stylized.webp
+card_fig_centaur_archer_vinyl,비닐 전사,바이닐토이,card,S,28000,광택이 나는 비닐 재질의 디자이너 토이. 독특한 질감과 디자인이 게임 컬렉터들의 사랑을 받을 거예요. 고급스러운 광택과 디테일이 소장욕을 자극하는 명품 피규어입니다.,,assets/cards/fig_centaur_archer_vinyl.webp
+card_fig_centaur_archer_wooden,목공 전사,우드카빙,card,A,15000,손으로 조각한 듯한 목공 아트의 따뜻함이 느껴지는 전사. 거친 질감 속에서도 활을 쏘는 집중력은 변함없습니다. 자연스러운 목재의 질감이 수집가들의 마음을 사로잡을 거예요.,,assets/cards/fig_centaur_archer_wooden.webp
+card_fig_cyber_diva_mech,네온 스테이지 사이버 디바,메카닉,card,A,120000,네온 스피커 스택 위에 선명한 포즈! 메탈릭 조인트와 레이저 힐 디테일이 압도적. 무대 지배력 극대화한 사이버 디바의 섹시한 카리스마를 한 장에 담아냈습니다.,,assets/cards/fig_cyber_diva_mech.webp
+card_fig_cyber_diva_metallic,크롬하트 사이버 디바,메탈릭,card,S,150000,"반사되는 크롬 갑옷이 빛나는 디바! 네온 무대 위에서 레이저 힐을 신고 우아하게 포즈. 메탈릭 광택이 돋보이는 한정판으로, 소장 가치가 압도적입니다.",,assets/cards/fig_cyber_diva_metallic.webp
+card_fig_cyber_diva_plush,뭉실 디바 스테이지,플러시,card,B,85000,"부드러운 솜뭉치 질감의 사이버 디바! 네온 스피커 배경과 대비된 귀여운 포즈, 섹시함도 유지된 귀여운 매력. 방에 두면 매일 힐링되는 소품입니다.",,assets/cards/fig_cyber_diva_plush.webp
+card_fig_cyber_diva_realistic,리얼 디바 스테이지,리얼리스틱,card,S,150000,실사 같은 디테일의 사이버 디바! 네온 무대 위에서 레이저 힐을 신고 우아하게 포즈. 생동감 넘치는 표정과 섹시한 몸매가 압도적인 현실감을 선사합니다.,,assets/cards/fig_cyber_diva_realistic.webp
+card_fig_cyber_diva_vinyl,글로시 비닐 디바,바이닐토이,card,A,110000,"유리 같은 광택 비닐 재질의 디바! 네온 스피커 배경과 대비된 섹시한 포즈, 디자인 토이 같은 고급스러운 마감. 소장 가치가 높은 한정판입니다.",,assets/cards/fig_cyber_diva_vinyl.webp
+card_fig_cyber_diva_wooden,목공 디바 스테이지,우드카빙,card,A,95000,"손으로 조각한 목공 디바! 네온 스피커 배경과 대비된 귀여운 포즈, 자연스러운 나무 질감이 돋보이는 한정판. 오타쿠 감성 넘치는 소품입니다.",,assets/cards/fig_cyber_diva_wooden.webp
+card_fig_cyber_hacker_girl_clay,클레이 해커 미소녀,클레이,card,B,75000,매트 질감의 클레이 해커! 네온 서버 케이스 위에 앉아 홀로그램 키보드와 함께 슬쩍 눈 흘기는 갭 모에. 귀엽고 재치있는 포즈가 매력 포인트입니다.,,assets/cards/fig_cyber_hacker_girl_clay.webp
+card_fig_cyber_hacker_girl_mech,메커니컬 해커 미소녀,메카닉,card,A,130000,로봇 관절과 갑옷이 돋보이는 해커! 네온 서버 케이스 위에 앉아 홀로그램 키보드와 함께 슬쩍 눈 흘기는 갭 모에. 메탈릭한 기계미가 매력 포인트입니다.,,assets/cards/fig_cyber_hacker_girl_mech.webp
+card_fig_cyber_hacker_girl_metallic,크롬 해커 미소녀,메탈릭,card,S,150000,반사되는 크롬 갑옷이 빛나는 해커! 네온 서버 케이스 위에 앉아 홀로그램 키보드와 함께 슬쩍 눈 흘기는 갭 모에. 메탈릭한 광택이 돋보이는 한정판입니다.,,assets/cards/fig_cyber_hacker_girl_metallic.webp
+card_fig_cyber_hacker_girl_pixel,픽셀 해커 미소녀,복셀픽셀,card,A,100000,로우폴리 픽셀 아트의 해커! 네온 서버 케이스 위에 앉아 홀로그램 키보드와 함께 슬쩍 눈 흘기는 갭 모에. 레트로 감성 넘치는 픽셀 아트 매력입니다.,,assets/cards/fig_cyber_hacker_girl_pixel.webp
+card_fig_cyber_hacker_girl_plush,소프트웨어 소녀 뭉치,플러시,card,C,12000,"네온 서버 위에 앉아 있는 귀여운 해커 소녀. 투명한 재킷과 홀로그램 키보드가 반짝이며, 살짝 옆으로 흘리는 눈빛이 설레움을 자아낸다. 부드러운 소바텍 소재가 손끝에서 느껴지는 온기까지 완벽하게 재현!",,assets/cards/fig_cyber_hacker_girl_plush.webp
+card_fig_cyber_hacker_girl_realistic,실사 해커 미소녀,리얼리스틱,card,A,45000,"현실과 가상의 경계를 허무는 완벽한 비주얼. 투명한 재킷과 홀로그램 키보드가 빛을 발하며, 살짝 옆으로 흘리는 눈빛이 설레움을 자아낸다. 소장 가치가 높은 실사 퀄리티의 카드!",,assets/cards/fig_cyber_hacker_girl_realistic.webp
+card_fig_cyber_hacker_girl_vinyl,글로스 비닐 디자이너,바이닐토이,card,B,25000,"반짝이는 글로스 비닐 마감의 디자이너 토이. 네온 서버와 홀로그램 키보드가 빛을 발하며, 살짝 옆으로 흘리는 눈빛이 설레움을 자아낸다. 컬렉터들이 사랑하는 한정판 퀄리티!",,assets/cards/fig_cyber_hacker_girl_vinyl.webp
+card_fig_cyber_hacker_girl_wooden,목공 해커 소녀,우드카빙,card,S,85000,"손으로 깎아 만든 목공 예술의 정수. 네온 서버와 홀로그램 키보드가 빛을 발하며, 살짝 옆으로 흘리는 눈빛이 설레움을 자아낸다. 자연스러운 목재의 온기가 느껴지는 한정판!",,assets/cards/fig_cyber_hacker_girl_wooden.webp
+card_fig_cyber_ninja_chibi,SD 사이버 닌자,치비,card,C,10000,"두个头 높이의 초특급 변형 사이버 닌자! 네온 비저와 플라즈마 카타나가 빛을 발하며, 집중된 눈빛이 설레움을 자아낸다. 귀여운 포즈와 SD 스타일이 매력 포인트!",,assets/cards/fig_cyber_ninja_chibi.webp
+card_fig_cyber_ninja_clay,클레이 닌자,클레이,card,B,28000,"매트 피니시의 클레이 조각품. 네온 비저와 플라즈마 카타나가 빛을 발하며, 집중된 눈빛이 설레움을 자아낸다. 손으로 만든 듯한 따뜻한 질감이 느껴지는 아트 카드!",,assets/cards/fig_cyber_ninja_clay.webp
+card_fig_cyber_ninja_mech,메카 닌자,메카닉,card,A,55000,"기계식 관절과 갑옷 플레이트가 달린 메카 닌자! 네온 비저와 플라즈마 카타나가 빛을 발하며, 집중된 눈빛이 설레움을 자아낸다. 메카닉 디테일이 돋보이는 한정판!",,assets/cards/fig_cyber_ninja_mech.webp
+card_fig_cyber_ninja_metallic,크롬 닌자,메탈릭,card,S,95000,"폴리시드 메탈릭 크롬 마감의 반사 표면! 네온 비저와 플라즈마 카타나가 빛을 발하며, 집중된 눈빛이 설레움을 자아낸다. 고급스러운 크롬 도금의 매력이 돋보이는 S급!",,assets/cards/fig_cyber_ninja_metallic.webp
+card_fig_cyber_ninja_pixel,픽셀 닌자,복셀픽셀,card,B,35000,"voxel 픽셀 아트 로우폴리 블록이! 네온 비저와 플라즈마 카타나가 빛을 발하며, 집중된 눈빛이 설레움을 자아낸다. 레트로 게이머들이 사랑하는 픽셀 스타일의 아트 카드!",,assets/cards/fig_cyber_ninja_pixel.webp
+card_fig_cyber_ninja_plush,소프트웨어 닌자 뭉치,플러시,card,C,11000,"네온 서버와 홀로그램 키보드가 빛을 발하며, 집중된 눈빛이 설레움을 자아낸다. 부드러운 소바텍 소재가 손끝에서 느껴지는 온기까지 완벽하게 재현! 귀여운 포즈가 매력 포인트!",,assets/cards/fig_cyber_ninja_plush.webp
+card_fig_cyber_ninja_realistic,크롬 다크 닌자,리얼리스틱,card,A,55000,"네온 비저를 장착한 차가운 닌자가 시공간을 관통하는 듯. 고해상도 리얼리스틱 렌더링이 마치 살아있는 듯 생동감을 선사하며, 플라즈마 검의 빛이 방 안을 비추는 듯합니다.",,assets/cards/fig_cyber_ninja_realistic.webp
+card_fig_cyber_ninja_stylized,스틸 다크 닌자,스타일라이즈드,card,B,45000,"4个头身 비율의 쿨한 닌자, 차가운 눈빛과 네온 비저가 매력 포인트. 스타일리시한 디자인이 게임 속 아바타처럼 느껴져, 책상 위에서 멋진 포즈를 취합니다.",,assets/cards/fig_cyber_ninja_stylized.webp
+card_fig_cyber_ninja_vinyl,글로시 다크 닌자,바이닐토이,card,C,35000,"고광택 비닐 재질의 디자인 토이, 네온 빛이 반사되어 마치 살아있는 듯. 플라즈마 검의 에너지가 느껴지는 듯하며, 수집가들의 시선을 사로잡는 독특한 질감의 아이템.",,assets/cards/fig_cyber_ninja_vinyl.webp
+card_fig_cyber_ninja_wooden,우드 다크 닌자,우드카빙,card,C,40000,"수공예 목공 예술이 만나 사이버펑크 닌자. 따뜻한 나무 질감과 차가운 네온 빛의 대비가 독특하며, 플라즈마 검의 빛이 나무에 새겨진 듯 자연스러운 분위기를 자아냅니다.",,assets/cards/fig_cyber_ninja_wooden.webp
+card_fig_dark_elf_chibi,뭉실 다크 엘프,치비,card,B,40000,"2个头身 비율의 귀여운 SD 다크 엘프 마법사, 엉덩이에 손을 얹은 자신감 있는 포즈가 매력. 은빛 머리카락이 바람에 날리는 듯하며, 방과 후 비밀 임무 준비처럼 설레는 아이템.",,assets/cards/fig_dark_elf_chibi.webp
+card_fig_dark_elf_clay,클레이 다크 엘프,클레이,card,C,35000,"매트 마감의 점토 조각품, 마법사의 자신감 있는 눈빛이 살아있는 듯. 은빛 머리카락이 바람에 날리는 듯하며, 손으로 만져보면 느껴지는 따뜻한 감성과 마법사의 비밀을 담고 있습니다.",,assets/cards/fig_dark_elf_clay.webp
+card_fig_dark_elf_mech,메크 다크 엘프,메카닉,card,C,40000,"기계 관절과 갑옷이 결합한 로봇 다크 엘프, 마법과 기술의 조화가 매력. 자신감 있는 포즈와 은빛 머리카락이 빛나는 듯하며, 방과 후 비밀 임무 준비처럼 설레는 아이템.",,assets/cards/fig_dark_elf_mech.webp
+card_fig_dark_elf_metallic,크롬 다크 엘프,메탈릭,card,A,65000,"폴리시드 크롬 마감의 반사 표면, 마법사의 자신감 있는 눈빛이 살아있는 듯. 은빛 머리카락이 빛나는 듯하며, 손으로 만져보면 느껴지는 차가운 감성과 마법사의 비밀을 담고 있습니다.",,assets/cards/fig_dark_elf_metallic.webp
+card_fig_dark_elf_pixel,픽셀 다크 엘프,복셀픽셀,card,B,45000,"브록키한 픽셀 아트 로우 폴리 다크 엘프, 마법사의 자신감 있는 눈빛이 살아있는 듯. 은빛 머리카락이 빛나는 듯하며, 손으로 만져보면 느껴지는 디지털 감성과 마법사의 비밀을 담고 있습니다.",,assets/cards/fig_dark_elf_pixel.webp
+card_fig_dark_elf_plush,솜뭉치 다크 엘프,플러시,card,C,35000,"부드러운 플러시 스토퍼, 마법사의 자신감 있는 눈빛이 살아있는 듯. 은빛 머리카락이 빛나는 듯하며, 손으로 만져보면 느껴지는 따뜻한 감성과 마법사의 비밀을 담고 있습니다.",,assets/cards/fig_dark_elf_plush.webp
+card_fig_dark_elf_realistic,실현의 어둠엘프 마법사,리얼리스틱,card,A,85000,은빛 머리카락이 바람에 흩날리는 어둠의 엘프. 한 손으로 주문을 외우는 당당한 표정과 리얼한 피부 질감이 살아있는 듯한 디테일. 책상 위에 놓으면 마법사의 탑이 완성되는 듯한 신비로운 분위기를 자아내.,,assets/cards/fig_dark_elf_realistic.webp
+card_fig_dark_elf_vinyl,글로시 비닐 어둠엘프,바이닐토이,card,B,45000,유리처럼 반짝이는 비닐 재질의 어둠엘프. 매끄러운 광택과 세련된 디자인이 돋보이는 컬렉터블 아이템. 책상 위에 올려두면 마치 전시품처럼 고급스러운 분위기를 연출해.,,assets/cards/fig_dark_elf_vinyl.webp
+card_fig_dark_elf_wooden,수제 목공 어둠엘프,우드카빙,card,C,35000,손으로 조각한 나무의 온기를 담은 어둠엘프. 자연스러운 목재 결과 고전적인 감성이 어우러진 독특한 아이템. 책상 위에 놓으면 마치 오래된 도서관의 비밀책처럼 느껴져.,,assets/cards/fig_dark_elf_wooden.webp
+card_fig_dark_knight_chibi,꼬마 어둠기사,치비,card,B,42000,두个头높이의 귀여운 SD 스타일 어둠기사. 커다란 검을 들고 있는 포즈와 날카로운 눈빛이 갭모에를 선사. 책상 위에 올려두면 매일 설레는 하교길의 동반자가 되어줘.,,assets/cards/fig_dark_knight_chibi.webp
+card_fig_dark_knight_clay,점토의 어둠기사,클레이,card,C,38000,매트한 점토 질감이 주는 독특한 분위기. 검을 듬뿍 들고 있는 포즈와 강인한 눈빛이 어둠의 기사다운 카리스마를 자아내. 책상 위에 놓으면 마치 조각가 작품처럼 감동을.,,assets/cards/fig_dark_knight_clay.webp
+card_fig_dark_knight_mech,메카 어둠기사,메카닉,card,A,95000,기계식 관절과 갑옷 판재가 결합된 메카 스타일의 어둠기사. 거대한 검을 휘두르는 포즈와 발광하는 눈빛이 사이버펑크 감성을 자아내. 책상 위에 놓으면 미래의 전사가 되어줘.,,assets/cards/fig_dark_knight_mech.webp
+card_fig_dark_knight_metallic,크롬 어둠기사,메탈릭,card,S,120000,반짝이는 크롬 도금 갑옷이 빛나는 어둠기사. 거대한 검을 들고 있는 포즈와 날카로운 눈빛이 차가운 카리스마를 자아내. 책상 위에 놓으면 마치 전시품처럼 고급스러운 분위기를.,,assets/cards/fig_dark_knight_metallic.webp
+card_fig_dark_knight_pixel,픽셀 어둠기사,복셀픽셀,card,B,48000,로폴리 블록이 어둠기사를 구성한 픽셀 아트 스타일. 저폴리 블록의 귀여운 느낌과 강인한 눈빛이 어우러진 갭모에 아이템. 책상 위에 놓으면 게임 속 캐릭터처럼 느껴져.,,assets/cards/fig_dark_knight_pixel.webp
+card_fig_dark_knight_plush,뭉실 어둠기사,플러시,card,C,32000,부드러운 플러시 소재가 주는 온화한 느낌. 검을 들고 있는 포즈와 강인한 눈빛이 어우러진 갭모에 아이템. 책상 위에 놓으면 마치 털이 있는 친구처럼 느껴져.,,assets/cards/fig_dark_knight_plush.webp
+card_fig_dark_knight_realistic,리얼 어둠기사,리얼리스틱,card,S,135000,실제 인물처럼 디테일이 살아있는 리얼 스타일의 어둠기사. 거대한 검을 들고 있는 포즈와 날카로운 눈빛이 카리스마를 자아내. 책상 위에 놓으면 마치 살아있는 전사가 되어줘.,,assets/cards/fig_dark_knight_realistic.webp
+card_fig_demon_hunter_chibi,쌍총 치비 데몬헌터,치비,card,C,4000,"두 개의 권총을 쏘아대는 초특급 쿨한 표정! 2个头의 귀여운 치비 스타일이 매력 포인트. 흰 배경 위에서 완벽한 포즈로, 소장 가치가 높은 한정판 카드.",,assets/cards/fig_demon_hunter_chibi.webp
+card_fig_demon_hunter_clay,점토의 사냥꾼,클레이,card,B,6000,매트 페인트로 마감된 점토 피규어 느낌의 데몬 헌터. 흙빛 질감이 주는 따뜻한 느낌과 쿨한 표정의 대비가 매력. 책상 위에 올려두기 좋은 소품.,,assets/cards/fig_demon_hunter_clay.webp
+card_fig_demon_hunter_metallic,크롬 사냥꾼,메탈릭,card,A,12000,반사되는 크롬 도금 갑옷이 빛나는 데몬 헌터. 차가운 금속의 냉기와 붉은 망토의 대비가 압도적. 소장용 한정판 카드의 정점.,,assets/cards/fig_demon_hunter_metallic.webp
+card_fig_demon_hunter_plush,솜뭉치 헌터,플러시,card,B,7000,부드러운 솜뭉치 재질의 데몬 헌터. 쿨한 표정에도 불구하고 촉촉한 감촉이 매력. 침대 옆이나 책상 위에 두기 좋은 귀여운 소품.,,assets/cards/fig_demon_hunter_plush.webp
+card_fig_demon_hunter_realistic,리얼 사냥꾼,리얼리스틱,card,S,25000,"실사 같은 디테일과 비례를 완벽하게 재현한 데몬 헌터. 붉은 망토가 바람에 휘날리는 생동감이 살아있어, 소장 가치가 높은 프리미엄 카드.",,assets/cards/fig_demon_hunter_realistic.webp
+card_fig_demon_hunter_stylized,카툰 사냥꾼,스타일라이즈드,card,C,4000,"4个头의 카툰 스타일 데몬 헌터. 과장된 비율과 귀여운 표정이 매력 포인트. 가볍고 귀여운 소품으로, 친구들에게 선물하기 좋은 카드.",,assets/cards/fig_demon_hunter_stylized.webp
+card_fig_demon_hunter_vinyl,비닐 사냥꾼,바이닐토이,card,A,15000,"광택 비닐 재질의 디자이너 토이 느낌의 데몬 헌터. 고급스러운 광택과 쿨한 표정이 어우러져, 소장 가치가 높은 프리미엄 카드.",,assets/cards/fig_demon_hunter_vinyl.webp
+card_fig_detective_ojousama_clay,점토 탐정,클레이,card,B,6000,매트 페인트로 마감된 점토 피규어 느낌의 오주사마 탐정. 단추와 모노클을 조정하는 천재적인 표정이 매력. 책상 위에 올려두기 좋은 소품.,,assets/cards/fig_detective_ojousama_clay.webp
+card_fig_detective_ojousama_mech,메카 탐정,메카닉,card,S,28000,"기계식 관절과 갑옷으로武装된 오주사마 탐정. 쿨한 표정과 기계적인 디테일이 어우러져, 소장 가치가 높은 프리미엄 카드. 메카닉 팬들에게 필수.",,assets/cards/fig_detective_ojousama_mech.webp
+card_fig_detective_ojousama_metallic,크롬 탐정,메탈릭,card,S,25000,반사되는 크롬 도금 갑옷이 빛나는 오주사마 탐정. 차가운 금속의 냉기와 천재적인 표정의 대비가 압도적. 소장용 한정판 카드의 정점.,,assets/cards/fig_detective_ojousama_metallic.webp
+card_fig_detective_ojousama_pixel,픽셀 감성 미소녀 탐정,복셀픽셀,card,A,45000,8비트 감성의 귀여운 탐정! 체크무늬 망토와 단추 디테일이 돋보이는 픽셀 아트 스타일. 책상 위에 놓으면 게임 캐릭터처럼 느껴져서 소장욕이 폭발하는 한정판 카드.,,assets/cards/fig_detective_ojousama_pixel.webp
+card_fig_detective_ojousama_plush,솜뭉치 탐정 미소녀,플러시,card,B,35000,부드러운 털감이 매력적인 뭉실 탐정! 단추와 모자칼 디테일이 살아있어 손에 쥐면 따뜻한 감촉. 방에 두면 귀여운 분위기를 풍기는 컬렉션 필수품.,,assets/cards/fig_detective_ojousama_plush.webp
+card_fig_detective_ojousama_realistic,리얼 탐정 미소녀,리얼리스틱,card,S,120000,"실사급 디테일이 살아있는 탐정! 눈빛과 표정의 미세한 변화까지 완벽 재현. 고가의 피규어처럼 느껴지는 프리미엄 카드로, 소장가치가 무궁무진.",,assets/cards/fig_detective_ojousama_realistic.webp
+card_fig_devilish_schoolgirl_clay,점토의 악마 소녀,클레이,card,B,42000,매트 포인트의 점토 조형이 매력적인 악마 소녀! 하트 모양 창과 꼬리 디테일이 살아있어 손에 쥐면 따뜻함. 방에 두면 귀여운 분위기를 풍기는 컬렉션 필수품.,,assets/cards/fig_devilish_schoolgirl_clay.webp
+card_fig_devilish_schoolgirl_metallic,크롬 악마 사무라이,메탈릭,card,SS,150000,"반짝이는 크롬 도금 갑옷이 빛나는 악마 소녀! 하트 창과 날카로운 미소까지 완벽 재현. 어둠의 기사단에 어울리는 프리미엄 카드로, 소장가치가 무궁무진.",,assets/cards/fig_devilish_schoolgirl_metallic.webp
+card_fig_devilish_schoolgirl_plush,뭉실 악마 소녀,플러시,card,C,30000,부드러운 털감이 매력적인 뭉실 악마! 하트 창과 꼬리 디테일이 살아있어 손에 쥐면 따뜻한 감촉. 방에 두면 귀여운 분위기를 풍기는 컬렉션 필수품.,,assets/cards/fig_devilish_schoolgirl_plush.webp
+card_fig_devilish_schoolgirl_realistic,리얼 악마 소녀,리얼리스틱,card,S,130000,"실사급 디테일이 살아있는 악마! 눈빛과 표정의 미세한 변화까지 완벽 재현. 고가의 피규어처럼 느껴지는 프리미엄 카드로, 소장가치가 무궁무진.",,assets/cards/fig_devilish_schoolgirl_realistic.webp
+card_fig_devilish_schoolgirl_stylized,카툰 악마 소녀,스타일라이즈드,card,A,55000,4个头身比例的 귀여운 악마! 하트 창과 꼬리 디테일이 살아있어 손에 쥐면 따뜻한 감촉. 방에 두면 귀여운 분위기를 풍기는 컬렉션 필수품.,,assets/cards/fig_devilish_schoolgirl_stylized.webp
+card_fig_devilish_schoolgirl_vinyl,글로시 비닐 악마,바이닐토이,card,A,65000,광택 비닐 디자인 토이 스타일의 악마! 하트 창과 꼬리 디테일이 살아있어 손에 쥐면 따뜻한 감촉. 방에 두면 귀여운 분위기를 풍기는 컬렉션 필수품.,,assets/cards/fig_devilish_schoolgirl_vinyl.webp
+card_fig_devilish_schoolgirl_wooden,목조 악마 소녀,우드카빙,card,SS,150000,손으로 조각한 목공예 악마! 하트 창과 꼬리 디테일이 살아있어 손에 쥐면 따뜻한 감촉. 방에 두면 귀여운 분위기를 풍기는 컬렉션 필수품.,,assets/cards/fig_devilish_schoolgirl_wooden.webp
+card_fig_dire_bear_chibi,화끈한 꼬마 디어베어,치비,card,C,5000,"눈빛이 불타는 디어베어, 귀여운 체형으로 야생의 정열을 품었습니다. 룬 코라의 빛이 반짝이며, 책상 위에 올려두면 집의 분위기를 한층 더 활기차게 만들어 줍니다.",,assets/cards/fig_dire_bear_chibi.webp
+card_fig_dire_bear_clay,흙의 감성 디어베어,클레이,card,B,8000,"손으로 빚은 듯한 따뜻한 질감의 디어베어. 흙빛 톤의 매트한 표면에 룬 코라의 빛이 은은하게 반사되며, 자연스러운 분위기를 연출합니다.",,assets/cards/fig_dire_bear_clay.webp
+card_fig_dire_bear_mech,메탈릭 디어베어,메카닉,card,A,15000,"강철의 갑옷을 입은 디어베어, 메카닉 아머의 디테일이 압도적입니다. 룬 코라가 빛나는 순간, 야생의 본능과 기계의 냉철함이 공존합니다.",,assets/cards/fig_dire_bear_mech.webp
+card_fig_dire_bear_metallic,크롬하트 디어베어,메탈릭,card,S,35000,"반짝이는 크롬 도금 갑옷이 빛을 머금고, 룬 코라의 불꽃이 더욱 선명해집니다. 거울처럼 빛나는 표면에서 디어베어의 위압감이 느껴집니다.",,assets/cards/fig_dire_bear_metallic.webp
+card_fig_dire_bear_pixel,픽셀 디어베어,복셀픽셀,card,B,8000,"8비트 게임 속의 디어베어, 블록블록한 픽셀 아트로 귀엽고 또렷합니다. 룬 코라가 빛나는 순간, 레트로 감성이 살아나며 추억을 소환합니다.",,assets/cards/fig_dire_bear_pixel.webp
+card_fig_dire_bear_plush,솜뭉치 디어베어,플러시,card,B,10000,"부드러운 솜뭉치 같은 질감의 디어베어, 룬 코라가 빛나는 귀여운 표정이 마음을 녹입니다. 집의 분위기를 따뜻하게 만들어주는 완구입니다.",,assets/cards/fig_dire_bear_plush.webp
+card_fig_dire_bear_realistic,리얼 디어베어,리얼리스틱,card,S,45000,"생동감 넘치는 디테일의 디어베어, 털의 질감과 근육의 움직임이 완벽하게 재현되었습니다. 룬 코라의 빛이 더욱 강렬하게 빛나며, 압도적인 현실감을 선사합니다.",,assets/cards/fig_dire_bear_realistic.webp
+card_fig_dire_bear_stylized,스틸디 디어베어,스타일라이즈드,card,A,12000,"카툰스러운 스타일링의 디어베어, 과장된 표정과 포즈가 매력적입니다. 룬 코라의 빛이 더욱 화려하게 빛나며, 캐릭터의 개성이 살아납니다.",,assets/cards/fig_dire_bear_stylized.webp
+card_fig_dire_bear_vinyl,글로시 디어베어,바이닐토이,card,A,18000,"광택이 나는 비닐 재질의 디어베어, 디자이너 토이 같은 고급스러운 느낌을 줍니다. 룬 코라의 빛이 더욱 선명하게 빛나며, 컬렉터의 욕구를 자극합니다.",,assets/cards/fig_dire_bear_vinyl.webp
+card_fig_dire_bear_wooden,목재 디어베어,우드카빙,card,B,12000,"손으로 조각한 듯한 목재의 디어베어, 자연스러운 질감과 룬 코라의 빛이 어우러집니다. 빈티지한 감성이 살아나며, 집의 분위기를 고전적으로 만들어 줍니다.",,assets/cards/fig_dire_bear_wooden.webp
+card_fig_dragon_slayer_chibi,드래곤슬레이어 치비,치비,card,C,4000,"거대한 드래곤 뼈 칼을 휘두르는 초소형 전사! 찢어진 갑옷과 결연한 표정이 담긴 이 일러스트는 약 1000원짜리 카드에 불과하지만, 책상 위에 붙여두면 매일 드래곤을 퇴치할 수 있는 듯한 위력을 자랑합니다.",,assets/cards/fig_dragon_slayer_chibi.webp
+card_fig_dragon_slayer_clay,드래곤슬레이어 점토,클레이,card,B,5000,"손끝으로 빚은 듯한 따뜻한 점토 질감, 드래곤슬레이어의 전투기분까지 생생하게 표현! 차가운 금속이 아닌, 오히려 손에 잡히는 듯한 온기가 느껴지는 이 일러스트는 수집가들의 마음을 녹입니다.",,assets/cards/fig_dragon_slayer_clay.webp
+card_fig_dragon_slayer_mech,드래곤슬레이어 메카,메카닉,card,A,6000,"드래곤슬레이어와 메카의 완벽한 결합! 관절이 움직이는 듯한 기계식 갑옷과 날카로운 드래곤 뼈 칼이 어우러진 이 일러스트는, 메카라이더 팬이라면 반드시 소장하고 싶은 필수 아이템입니다.",,assets/cards/fig_dragon_slayer_mech.webp
+card_fig_dragon_slayer_metallic,드래곤슬레이어 크롬,메탈릭,card,S,7000,"반짝이는 크롬 도금 갑옷이 빛을 머금고, 드래곤슬레이어의 기개가 느껴지는 고급스러운 일러스트! 은은한 광택이 책상 위를 화려하게 장식하며, 드래곤을 물리치는 전사의 위엄을 완벽하게 재현합니다.",,assets/cards/fig_dragon_slayer_metallic.webp
+card_fig_dragon_slayer_pixel,드래곤슬레이어 픽셀,복셀픽셀,card,A,6000,8비트 게임의 추억을 되살리는 픽셀 아트 스타일! 블록으로 이루어진 드래곤슬레이어의 모습은 귀여우면서도 강인한 전사의 느낌을 동시에 줍니다. 게임 팬이라면 이 일러스트를 놓칠 수 없습니다.,,assets/cards/fig_dragon_slayer_pixel.webp
+card_fig_dragon_slayer_realistic,드래곤슬레이어 리얼,리얼리스틱,card,S,7000,"실사 같은 디테일과 생동감 넘치는 표정, 드래곤슬레이어의 전투기분과 갑옷의 질감이 눈앞에 펼쳐지는 듯한 일러스트! 이 그림을 보면 마치 드래곤을 물리치는 듯한 긴장감이 느껴져 소장욕을 자극합니다.",,assets/cards/fig_dragon_slayer_realistic.webp
+card_fig_dragon_slayer_stylized,드래곤슬레이어 스타일,스타일라이즈드,card,B,5000,"4个头身高의 카툰 스타일, 드래곤슬레이어의 귀여운 면모를 강조한 일러스트! 과장된 캐릭터 디자인과 생동감 있는 표정이 어우러져, 이 일러스트를 보면 드래곤슬레이어의 매력을 한층 더 느낄 수 있습니다.",,assets/cards/fig_dragon_slayer_stylized.webp
+card_fig_dragon_slayer_vinyl,드래곤슬레이어 비닐,바이닐토이,card,A,6000,"디자이너 토이처럼 고급스러운 비닐 질감, 드래곤슬레이어의 전투기분과 갑옷이 빛을 머금고 있는 일러스트! 이 일러스트를 보면 마치 디자이너 토이를 만진 듯한 고급스러운 느낌을 받을 수 있습니다.",,assets/cards/fig_dragon_slayer_vinyl.webp
+card_fig_dragon_slayer_wooden,드래곤슬레이어 우드,우드카빙,card,B,5000,"손으로 조각한 듯한 따뜻한 우드 질감, 드래곤슬레이어의 전투기분과 갑옷이 빛을 머금고 있는 일러스트! 이 일러스트를 보면 마치 우드 조각을 만진 듯한 고급스러운 느낌을 받을 수 있습니다.",,assets/cards/fig_dragon_slayer_wooden.webp
+card_fig_dream_healer_chibi,드림힐러 치비,치비,card,C,4000,"부드러운 파스텔 톤과 빛나는 스태프, 드림힐러의 따뜻한 표정과 플러시 피규어까지 완벽하게 재현! 이 일러스트를 보면 마치 힐러의 따뜻한 손길을 느끼는 듯한 편안함을 느낄 수 있습니다.",,assets/cards/fig_dream_healer_chibi.webp
+card_fig_dream_healer_clay,뭉실 마법소녀 힐러,클레이,card,C,6000,"촉촉한 점토 질감의 부드러운 힐러가 귀여운 피규어. 손에 든 발광 지팡이가 은은한 빛을 내며, 따뜻한 포즈가 마음을 녹여줍니다. 책상 위에 올려두면 힐링되는 하루가 시작됩니다.",,assets/cards/fig_dream_healer_clay.webp
+card_fig_dream_healer_mech,메카닉 힐러 카드,메카닉,card,B,12000,복잡한 관절과 갑옷 디테일이 돋보이는 메카닉 스타일. 차가운 금속과 따뜻한 힐러의 감성이 어우러진 독특한 디자인. 수집가들의 시선을 사로잡는 한정판 카드입니다.,,assets/cards/fig_dream_healer_mech.webp
+card_fig_dream_healer_metallic,크롬 힐러 카드,메탈릭,card,A,45000,반짝이는 크롬 도금 표면이 빛을 반사하며 고급스러움을 뽐냅니다. 매끄러운 광택과 세련된 디자인이 어우러진 프리미엄 카드. 소장 가치가 높은 아이템입니다.,,assets/cards/fig_dream_healer_metallic.webp
+card_fig_dream_healer_pixel,픽셀 힐러 카드,복셀픽셀,card,B,15000,8비트 게임의 추억을 되살리는 픽셀 아트 스타일. 블록으로 구성된 캐릭터가 귀엽고 개성 넘치는 분위기를 자아냅니다. 레트로 감성을 좋아하는 수집가에게 추천.,,assets/cards/fig_dream_healer_pixel.webp
+card_fig_dream_healer_plush,솜뭉치 힐러 카드,플러시,card,A,35000,부드러운 인형 질감의 힐러가 포근한 분위기를 연출합니다. 촉촉한 털감과 따뜻한 포즈가 마음을 녹여줍니다. 선물용으로도 완벽한 아이템입니다.,,assets/cards/fig_dream_healer_plush.webp
+card_fig_dream_healer_realistic,리얼 힐러 카드,리얼리스틱,card,S,85000,생동감 넘치는 리얼리스틱 디테일이 돋보이는 프리미엄 카드. 섬세한 표정과 옷감 질감이 마치 살아있는 듯한 느낌을 줍니다. 수집가들의 사랑을 받을 한정판입니다.,,assets/cards/fig_dream_healer_realistic.webp
+card_fig_dream_healer_stylized,애니힐러 카드,스타일라이즈드,card,A,40000,애니메이션 특유의 4:1 비율로 귀엽고 과장된 캐릭터 디자인. 밝은 색감과 활기찬 포즈가 일상 속 에너지를 충전시켜 줍니다. 오타쿠 감성을 자극하는 카드입니다.,,assets/cards/fig_dream_healer_stylized.webp
+card_fig_dream_healer_vinyl,비닐 힐러 카드,바이닐토이,card,S,95000,고급스러운 비닐 도료 처리가 돋보이는 디자이너 토이 스타일. 광택과 질감이 어우러진 세련된 디자인. 컬렉터들의 사랑을 받을 한정판 아이템입니다.,,assets/cards/fig_dream_healer_vinyl.webp
+card_fig_dream_healer_wooden,목공 힐러 카드,우드카빙,card,A,65000,손수공 느낌의 목재 질감이 따뜻한 감성을 자아냅니다. 자연스러운 목재 무늬와 따뜻한 톤이 어우러진 한정판 카드. 오타쿠 감성과 자연미를 모두 갖춘 아이템입니다.,,assets/cards/fig_dream_healer_wooden.webp
+card_fig_fallen_angel_chibi,초디비 천사 카드,치비,card,SS,120000,"눈물방울이 맺힌 천사의 눈빛이 마음을 울립니다. 깨진 헤일로와 검은 날개가 비극적인 분위기를 자아내며, 초디비 스타일의 귀여움이 매력 포인트입니다.",,assets/cards/fig_fallen_angel_chibi.webp
+card_fig_fallen_angel_clay,점토의 낙천 천사,클레이,card,C,5000,"부러진 헤일로와 검은 날개를 가진 낙천의 천사가 무릎을 꿇고 앉아 있다. 점토의 따뜻한 질감이 그녀의 슬픈 미소와 어우러져, 손에 쥐었을 때 느껴지는 온기와 감동을 선사합니다.",,assets/cards/fig_fallen_angel_clay.webp
+card_fig_fallen_angel_mech,메카 낙천 천사,메카닉,card,A,18000,"기계적 관절과 갑옷 판재가 결합된 낙천의 천사. 무릎을 꿇은 포즈에도 불구하고 메카닉의 차가운 냉기가 느껴지며, 미래지향적인 디자인이 수집가들의 시선을 사로잡습니다.",,assets/cards/fig_fallen_angel_mech.webp
+card_fig_fallen_angel_metallic,크롬 낙천 천사,메탈릭,card,S,35000,"반사되는 크롬 도금 표면이 빛을 머금고 있는 낙천의 천사. 깨진 헤일로를 비추는 스포트라이트 아래, 그녀의 눈빛은 비록 낙천이지만 그 어느 때보다도 아름답고 매혹적입니다.",,assets/cards/fig_fallen_angel_metallic.webp
+card_fig_fallen_angel_pixel,픽셀 낙천 천사,복셀픽셀,card,B,9000,"블록리한 픽셀 아트로 표현된 낙천의 천사. 저폴리 스타일이 주는 귀여운 모에와 함께, 디지털 아트의 정수를 느낄 수 있어 게임 팬들에게 특히 인기가 높은 한정판 아이템입니다.",,assets/cards/fig_fallen_angel_pixel.webp
+card_fig_fallen_angel_plush,솜뭉치 낙천 천사,플러시,card,A,22000,"부드러운 플러시 소재로 만들어진 낙천의 천사. 깨진 헤일로를 머금은 슬픔에도 불구하고, 손에 쥐었을 때 느껴지는 따뜻한 감촉이 마음을 녹여주는 귀여운 수집품입니다.",,assets/cards/fig_fallen_angel_plush.webp
+card_fig_fallen_angel_realistic,리얼 낙천 천사,리얼리스틱,card,SS,45000,"현실적인 비율과 디테일을 완벽하게 재현한 낙천의 천사. 깨진 헤일로를 머금은 슬픔과 눈빛의 미묘한 변화까지 생생하게 담아, 마치 그녀가 살아있는 듯한 착각을 불러일으킵니다.",,assets/cards/fig_fallen_angel_realistic.webp
+card_fig_fallen_angel_stylized,카툰 낙천 천사,스타일라이즈드,card,B,9000,"4个头身 비율의 카툰 스타일로 귀엽게 표현된 낙천의 천사. 과장된 캐릭터 디자인과 함께, 낙천의 슬픔을 아이러니하게 표현한 귀여운 오타쿠 감성의 아이콘입니다.",,assets/cards/fig_fallen_angel_stylized.webp
+card_fig_fallen_angel_vinyl,비닐 낙천 천사,바이닐토이,card,S,38000,"광택 있는 비닐 디자이너 토이 스타일의 낙천의 천사. 디자이너 토이 특유의 세련된 디자인과 함께, 깨진 헤일로를 머금은 슬픔이 오히려 그녀의 매력을 더하여 수집가들의 사랑을 받습니다.",,assets/cards/fig_fallen_angel_vinyl.webp
+card_fig_fallen_angel_wooden,목공 낙천 천사,우드카빙,card,SS,55000,"손으로 조각한 목공 아트로 표현된 낙천의 천사. 나무의 자연스러운 결이 그녀의 슬픈 미소와 어우러져, 시간의 흐름을 담은 고전적인 예술작품 같은 느낌을 줍니다.",,assets/cards/fig_fallen_angel_wooden.webp
+card_fig_fenrir_chibi,SD 페르너,치비,card,SSS,120000,"신화의 괴물 페르너가 신의 사슬을 끊고 분노를 폭발하는 모습. 2个头身 비율의 초특가형 디자인으로, 폭발적인 파워와 귀여운 모에가 어우러진 신화적인 수집품입니다.",,assets/cards/fig_fenrir_chibi.webp
+card_fig_fenrir_clay,진흙의 늑대신,클레이,card,A,25000,"순수한 점토 질감의 거친 표정, 신의 사슬을 부수며 울부짖는 원초적인 분노. 손에 잡히는 듯한 질감의 소품으로, 책상 위에 올려두면 신화가 살아 숨 쉬는 듯합니다.",,assets/cards/fig_fenrir_clay.webp
+card_fig_fenrir_mech,메카 늑대신,메카닉,card,S,35000,"복잡한 관절과 갑옷이 조립된 메카닉 디자인. 신화적 존재와 공업의 결합, 차가운 금속의 냉기와 뜨거운 분노가 공존하는 독특한 매력.",,assets/cards/fig_fenrir_mech.webp
+card_fig_fenrir_metallic,크롬 늑대신,메탈릭,card,SS,45000,"반사되는 크롬 도금 갑옷이 빛을 머금고, 사슬이 끊어지는 순간의 폭발력을 표현. 거울 같은 표면에서 보는 늑대신의 눈빛은 절대적인 지배력을 보여줍니다.",,assets/cards/fig_fenrir_metallic.webp
+card_fig_fenrir_realistic,리얼 늑대신,리얼리스틱,card,SSS,55000,"초현실적인 비현실성을 넘어선 완벽한 비현실성. 고해상도 렌더링으로 표현된 근육의 질감과 털의 디테일, 생생한 표정까지 완벽 재현.",,assets/cards/fig_fenrir_realistic.webp
+card_fig_fenrir_stylized,카툰 늑대신,스타일라이즈드,card,B,15000,"4个头身 프로포션의 귀여운 카툰 스타일. 원초적인 분노를 귀여운 캐릭터로 표현한 갭 모에, 단순한 디자인 속에서도 늑대신의 위압감이 느껴집니다.",,assets/cards/fig_fenrir_stylized.webp
+card_fig_fenrir_vinyl,비닐 늑대신,바이닐토이,card,A,22000,광택이 나는 비닐 재질의 디자이너 토이 느낌. 손으로 만져도 좋은 매끄러운 표면과 독특한 디자인이 젊은 수집가들에게 인기가 많습니다.,,assets/cards/fig_fenrir_vinyl.webp
+card_fig_fenrir_wooden,목재 늑대신,우드카빙,card,S,32000,"수공예 목공품처럼 느껴지는 따뜻한 느낌. 나무의 결이 살아있는 듯한 질감과, 신화적 존재가 자연과 공존하는 듯한 독특한 분위기.",,assets/cards/fig_fenrir_wooden.webp
+card_fig_flesh_golem_chibi,꼬마 살점 괴물,치비,card,A,20000,"2个头身 초소형화된 귀여운 공포 캐릭터. 이뻐 보이는 얼굴에 숨겨진 공포와, 사슬이 흔들리는 소리가 귀에 울리는 듯한 디테일.",,assets/cards/fig_flesh_golem_chibi.webp
+card_fig_flesh_golem_clay,점토 살점 괴물,클레이,card,B,18000,"매트 마감의 점토 조각품 느낌. 뒤틀린 표정과 이불을 씌운 듯한 질감이 주는 공포감, 손으로 만져보고 싶은 촉감의 소품.",,assets/cards/fig_flesh_golem_clay.webp
+card_fig_flesh_golem_mech,메카 살점 괴물,메카닉,card,SS,42000,로봇 관절과 갑옷이 결합된 메카 디자인. 살점 괴물의 육체성과 메카닉의 차가움이 충돌하는 독특한 공포와 매력.,,assets/cards/fig_flesh_golem_mech.webp
+card_fig_flesh_golem_pixel,픽셀 피쉬 괴물 카드,복셀픽셀,card,C,4000,"8비트 리트로 게임 속에서 깨어난 살점 괴물. 블록 모양의 육체와 낡은 체인이 공포를 자아내지만, 픽셀 아트 특유의 귀여움까지 느껴져서 수집가들의 눈이 멈추게 해!",,assets/cards/fig_flesh_golem_pixel.webp
+card_fig_flesh_golem_plush,솜뭉치 살점 괴물 카드,플러시,card,B,6000,부드러운 인형감의 살점 괴물. 찢어진 입술과 체인의 소리가 귀엽게 느껴지는 갭 모에의 정점. 방에 걸어두면 공포와 사랑이 공존하는 인테리어가 완성돼!,,assets/cards/fig_flesh_golem_plush.webp
+card_fig_flesh_golem_realistic,리얼 살점 괴물 카드,리얼리스틱,card,A,12000,"살점이 살아있는 듯한 생동감 넘치는 디테일. 찢어진 피부와 녹슨 체인의 질감이 고해상도로 완벽 재현되어, 보는 순간 소름이 돋을 만큼 압도적인 공포의 미학.",,assets/cards/fig_flesh_golem_realistic.webp
+card_fig_flesh_golem_stylized,스타일 살점 괴물 카드,스타일라이즈드,card,A,11000,"4个头身 비율의 귀여운 살점 괴물. 과장된 표정과 체인의 흔들림이 어우러져, 공포와 귀여움이 공존하는 독특한 매력을 지닌 컬렉션 아이템.",,assets/cards/fig_flesh_golem_stylized.webp
+card_fig_flesh_golem_vinyl,글로시 비닐 괴물 카드,바이닐토이,card,S,25000,"유리 같은 광택 비닐에 조각된 살점 괴물. 디자이너 토이 특유의 세련된 감성과 고스트 리치한 체인이 어우러져, 수집가들의 소장욕을 자극하는 프리미엄 카드.",,assets/cards/fig_flesh_golem_vinyl.webp
+card_fig_flesh_golem_wooden,핸드카프트 목 괴물 카드,우드카빙,card,S,30000,"수공예로 조각된 목재의 살점 괴물. 나무의 결이 피부 질감을 살려주고, 체인의 소리가 마치 숲속에서 들려오는 듯한 신비로운 분위기를 자아내며.",,assets/cards/fig_flesh_golem_wooden.webp
+card_fig_fox_priestess_chibi,꼬마 여신 여우 카드,치비,card,B,6000,"9꼬리 여우 여신의 귀여운 SD 버전. 화려한 한복 소매와 떠다니는 영혼의 불꽃이 어우러져, 신비로운 미소녀의 매력을 한껏 살린 컬렉션의 하이라이트!",,assets/cards/fig_fox_priestess_chibi.webp
+card_fig_fox_priestess_mech,로봇 여우 여신 카드,메카닉,card,S,28000,"기계 관절과 갑옷이 달린 여우 여신. 전통 한복과 미래지향적인 메커니즘이 어우러져, 신비로운 미소녀와 싸이보트의 완벽한 조화를 경험할 수 있는 S급 아이템.",,assets/cards/fig_fox_priestess_mech.webp
+card_fig_fox_priestess_metallic,크롬 여우 여신 카드,메탈릭,card,SS,45000,"반짝이는 크롬 도금 갑옷을 입은 여우 여신. 매끄러운 표면에 비친 영혼의 불꽃이 신비로운 분위기를 더하며, 소장 가치가 높은 프리미엄 미소녀 카드.",,assets/cards/fig_fox_priestess_metallic.webp
+card_fig_fox_priestess_pixel,픽셀 여우 여신 카드,복셀픽셀,card,SSS,85000,"8비트 픽셀 아트로 재현된 여우 여신. 블록 형태지만 화려한 한복과 영혼의 불꽃이 살아있는 듯한 디테일로, 리트로 감성과 미소녀의 매력을 동시에.",,assets/cards/fig_fox_priestess_pixel.webp
+card_fig_fox_priestess_plush,솜뭉치 여우 사제,플러시,card,A,85000,화려한 한복 소매와 부유하는 영혼의 불꽃이 감도는 여우 사제. 부드러운 플러시 소재가 주는 포근한 촉감이 마음을 녹여요. 신비로운 눈빛이 가득한 이 피규어는 책상 위에 올려두면 매일 기분 좋은 설렘을 선사합니다.,,assets/cards/fig_fox_priestess_plush.webp
+card_fig_fox_priestess_realistic,리얼 여우 사제,리얼리스틱,card,S,120000,"정교한 비례와 섬세한 디테일이 돋보이는 여우 사제. 눈빛 하나하나에 숨은 신비로움이 살아있으며, 화려한 한복의 질감이 생생하게 표현되어 있습니다. 수집가들의 눈길을 사로잡는 완벽한 리얼리티.",,assets/cards/fig_fox_priestess_realistic.webp
+card_fig_fox_priestess_stylized,스타일리시 여우 사제,스타일라이즈드,card,B,35000,4个头身 비율의 귀여운 카툰 스타일. 화려한 한복과 부유하는 불꽃이 어우러진 신비로운 분위기가 돋보여요. 일러스트 감성이 살아있는 이 카드는 오타쿠들의 취향을 적중시키는 매력적인 아이템입니다.,,assets/cards/fig_fox_priestess_stylized.webp
+card_fig_fox_priestess_vinyl,글로시 비닐 여우 사제,바이닐토이,card,A,95000,유광 비닐 재질의 디자이너 토이. 화려한 한복과 영혼의 불꽃이 어우러진 신비로운 분위기가 돋보여요. 반짝이는 표면과 섬세한 디테일이 오타쿠들의 수집욕을 자극하는 고급스러운 아이템입니다.,,assets/cards/fig_fox_priestess_vinyl.webp
+card_fig_fox_priestess_wooden,목공예 여우 사제,우드카빙,card,SS,150000,손으로 조각한 목공예 작품. 화려한 한복과 영혼의 불꽃이 어우러진 신비로운 분위기가 돋보여요. 자연스러운 나무 질감과 섬세한 디테일이 오타쿠들의 수집욕을 자극하는 고급스러운 아이템입니다.,,assets/cards/fig_fox_priestess_wooden.webp
+card_fig_frost_wolf_chibi,SD 얼음 늑대,치비,card,B,35000,2个头身 비율의 귀여운 SD 스타일. 얼음 결정이 털에 생성되고 냉기가 느껴지는 눈빛이 매력적입니다. 책상 위에 올려두면 매일 설레는 하교길을 만들어주는 귀여운 동물이자 오타쿠들의 취향을 적중시키는 아이템입니다.,,assets/cards/fig_frost_wolf_chibi.webp
+card_fig_frost_wolf_clay,점토 얼음 늑대,클레이,card,A,90000,매트 마감의 점토 조각품. 얼음 결정이 털에 생성되고 냉기가 느껴지는 눈빛이 매력적입니다. 손으로 조각한 듯한 질감과 섬세한 디테일이 오타쿠들의 수집욕을 자극하는 고급스러운 아이템입니다.,,assets/cards/fig_frost_wolf_clay.webp
+card_fig_frost_wolf_mech,메카 얼음 늑대,메카닉,card,S,150000,기계식 관절과 갑옷 판재가 결합된 메카 스타일. 얼음 결정이 털에 생성되고 냉기가 느껴지는 눈빛이 매력적입니다. 메카닉 감성과 얼음의 신비로움이 어우러진 이 피규어는 오타쿠들의 취향을 적중시키는 아이템입니다.,,assets/cards/fig_frost_wolf_mech.webp
+card_fig_frost_wolf_metallic,크롬 얼음 늑대,메탈릭,card,SS,150000,폴리싱된 크롬 마감과 반사 표면. 얼음 결정이 털에 생성되고 냉기가 느껴지는 눈빛이 매력적입니다. 메탈릭 감성과 얼음의 신비로움이 어우러진 이 피규어는 오타쿠들의 수집욕을 자극하는 고급스러운 아이템입니다.,,assets/cards/fig_frost_wolf_metallic.webp
+card_fig_frost_wolf_pixel,픽셀 얼음 늑대,복셀픽셀,card,A,80000,보xel 픽셀 아트와 로우폴리 스타일. 얼음 결정이 털에 생성되고 냉기가 느껴지는 눈빛이 매력적입니다. 게임 감성과 얼음의 신비로움이 어우러진 이 피규어는 오타쿠들의 취향을 적중시키는 아이템입니다.,,assets/cards/fig_frost_wolf_pixel.webp
+card_fig_frost_wolf_plush,설의 뽀뽀우 늑대,플러시,card,C,5000,부드러운 털에 얼음 결정이 반짝이는 귀여운 설의 늑대. 따뜻한 포옹이 주는 안정감까지 완벽 재현! 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_frost_wolf_plush.webp
+card_fig_frost_wolf_realistic,얼음의 전사 늑대,리얼리스틱,card,A,15000,차가운 눈빛과 얼음 결정이 빛나는 리얼한 늑대. 크롬 도금 같은 털 질감이 소름을 돋게 한다. 수집가들의 사냥터가 될 완벽한 피규어.,,assets/cards/fig_frost_wolf_realistic.webp
+card_fig_frost_wolf_stylized,4D의 귀여운 늑대,스타일라이즈드,card,B,8000,4个头身 비율의 귀여운 스타일링. 귀여운 눈빛과 얼음 결정이 반짝이는 포즈. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_frost_wolf_stylized.webp
+card_fig_frost_wolf_vinyl,글로우 비닐 늑대,바이닐토이,card,A,18000,광택이 나는 비닐 재질의 디자이너 토이 느낌. 얼음 결정이 반짝이는 털과 차가운 눈빛이 매력 포인트. 소장 가치가 높은 컬렉션 아이템.,,assets/cards/fig_frost_wolf_vinyl.webp
+card_fig_frost_wolf_wooden,목공의 얼음 늑대,우드카빙,card,B,25000,손으로 깎아 만든 목공 예술의 정수. 얼음 결정이 빛나는 털과 차가운 눈빛이 매력 포인트. 소장 가치가 높은 컬렉션 아이템.,,assets/cards/fig_frost_wolf_wooden.webp
+card_fig_gothic_lolita_chibi,초코릿 치비 공주,치비,card,C,5000,2个头身 비율의 귀여운 스타일링. 우산과 인형이 달린 포즈. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gothic_lolita_chibi.webp
+card_fig_gothic_lolita_clay,점토의 미소녀,클레이,card,B,12000,점토로 빚어진 도자기 같은 우아함. 우산과 인형이 달린 포즈. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gothic_lolita_clay.webp
+card_fig_gothic_lolita_mech,메카니컬 미소녀,메카닉,card,S,45000,로봇 관절과 갑옷이 달린 메카닉 미소녀. 우산과 인형이 달린 포즈. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gothic_lolita_mech.webp
+card_fig_gothic_lolita_metallic,크롬 미소녀,메탈릭,card,SS,85000,반짝이는 크롬 도금 갑옷이 빛나는 미소녀. 우산과 인형이 달린 포즈. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gothic_lolita_metallic.webp
+card_fig_gothic_lolita_pixel,픽셀 미소녀,복셀픽셀,card,A,18000,voxel 픽셀 아트 스타일의 귀여운 미소녀. 우산과 인형이 달린 포즈. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gothic_lolita_pixel.webp
+card_fig_gothic_lolita_plush,솜뭉치 고딕 공주,플러시,card,C,5000,부드러운 천 소재의 뭉실한 포즈가 매력적인 고딕 로리타 공주. 인형처럼 귀여운 표정과 층층이 쌓인 레이스 드레스 디테일이 마음을 녹여요. 책상 위에 두면 매일 설레는 하루가 시작됩니다.,,assets/cards/fig_gothic_lolita_plush.webp
+card_fig_gothic_lolita_realistic,리얼 고딕 여신,리얼리스틱,card,A,45000,도자기 인형 같은 완벽한 비례와 세밀한 레이스 디테일이 돋보이는 고딕 로리타 여신. 차가운 눈빛과 우아한 포즈가 고전적인 미의 정수를 보여줍니다. 소장 가치가 매우 높은 한정판입니다.,,assets/cards/fig_gothic_lolita_realistic.webp
+card_fig_gothic_lolita_vinyl,글로시 비닐 공작,바이닐토이,card,B,15000,유광 비닐 재질의 고급스러운 광택이 돋보이는 디자이너 토이. 고딕 로리타의 우아함과 비닐의 매끄러운 질감이 만나 독특한 분위기를 자아냅니다. 컬렉터들이 사랑하는 아이템입니다.,,assets/cards/fig_gothic_lolita_vinyl.webp
+card_fig_gothic_lolita_wooden,목조 고딕 장인,우드카빙,card,B,18000,손으로 조각한 나무의 온기가 느껴지는 민속 예술 느낌의 고딕 로리타 장인. 자연스러운 목재 결과 레이스 디테일이 조화를 이룹니다. 따뜻하고 귀여운 분위기를 원하신다면 이걸로.,,assets/cards/fig_gothic_lolita_wooden.webp
+card_fig_griffin_mount_chibi,SD 그리핀 마운트,치비,card,C,5000,두个头 높이의 슈퍼 디포어메이션 그리핀! 날카로운 매서운 울음소리와 휘날리는 사자 꼬리가 귀엽고 위압감을 동시에 줍니다. 게임 캐릭터로 활용하기 좋은 귀여운 마운트 아이템입니다.,,assets/cards/fig_griffin_mount_chibi.webp
+card_fig_griffin_mount_clay,클레이 그리핀,클레이,card,B,15000,매트 마감의 점토 조형물이 가진 흙의 질감이 매력적인 그리핀. 날카로운 표정과 날개짓이 역동적인 포즈를 보여줍니다. 손으로 만져보고 싶은 촉감의 소품입니다.,,assets/cards/fig_griffin_mount_clay.webp
+card_fig_griffin_mount_mech,메카 그리핀,메카닉,card,A,55000,조인트와 갑옷 플레이트가 달린 메카닉 그리핀! 날카로운 로켓 추진기와 날개 날개짓이 위압감을 줍니다. 게임 보스 몬스터처럼 강렬한 디자인이 소장욕을 자극합니다.,,assets/cards/fig_griffin_mount_mech.webp
+card_fig_griffin_mount_metallic,크롬 그리핀,메탈릭,card,S,120000,포리시드 메탈릭 크롬 마감의 반사 표면이 빛나는 그리핀. 날카로운 표정과 날개짓이 역동적인 포즈를 보여줍니다. 고급스러운 광택과 위압감이 매력적인 한정판입니다.,,assets/cards/fig_griffin_mount_metallic.webp
+card_fig_griffin_mount_pixel,픽셀 그리핀,복셀픽셀,card,C,5000,브록키한 로우 폴리 픽셀 아트의 귀여운 그리핀! 낮은 다각형과 블록 같은 디자인이 게임 캐릭터의 느낌을 살려줍니다. 레트로한 감성과 위압감이 어우러진 독특한 아이템입니다.,,assets/cards/fig_griffin_mount_pixel.webp
+card_fig_griffin_mount_plush,솜뭉치 그리핀,플러시,card,C,5000,부드러운 천 소재의 플러시 그리핀! 날카로운 표정과 날개짓이 역동적인 포즈를 보여줍니다. 귀여운 표정과 부드러운 촉감이 매력적인 소품입니다. 책상 위에 두면 매일 설레는 하루가 시작됩니다.,,assets/cards/fig_griffin_mount_plush.webp
+card_fig_griffin_mount_realistic,왕좌의 독수리 리얼 카드,리얼리스틱,card,A,45000,"왕좌에 오르는 왕립 그리핀의 압도적인 존재감! 날카로운 부리에서 울리는 비명, 사자 꼬리가 휘날리는 위엄. 리얼한 디테일과 극적인 조명, 컬렉터가 꿈꾸는 완벽한 2D 아트워크!",,assets/cards/fig_griffin_mount_realistic.webp
+card_fig_griffin_mount_vinyl,글로시 비닐 그리핀,바이닐토이,card,B,35000,유리처럼 반짝이는 비닐 마감의 독수리-사자 하이브리드! 디자이너 토이처럼 세련된 광택이 매력 포인트. 책상 위에 올려두면 시선을 사로잡는 고급스러운 신화 카드.,,assets/cards/fig_griffin_mount_vinyl.webp
+card_fig_griffin_mount_wooden,수제 목공 그리핀,우드카빙,card,B,40000,"손으로 조각한 따뜻한 목재의 감성. 고대 민속 예술의 정수를 담은 그리핀이 신비로운 분위기를 자아냄. 자연스러운 질감이 주는 안정감, 컬렉터의 심정을 사로잡아!",,assets/cards/fig_griffin_mount_wooden.webp
+card_fig_grim_reaper_chibi,꼬마 데드맨 스테이지,치비,card,C,3000,"2个头 높이의 귀여운 초소형 데드맨이 등장! 무표정한 눈빛과 대형 낫, 모래시계. 귀여운 치비 스타일의 갭 모에가 폭발하며, 방에 놓으면 매일 웃음이 끊이지 않는 명품 카드.",,assets/cards/fig_grim_reaper_chibi.webp
+card_fig_grim_reaper_clay,점토의 유령 재aper,클레이,card,B,35000,매트 마감의 점토 조각품이 주는 원시적인 매력! 손으로 빚은 듯한 자연스러운 질감과 어두운 분위기. 컬렉터의 손끝에서 느껴지는 온기와 신비로움이 어우러진 명작 카드.,,assets/cards/fig_grim_reaper_clay.webp
+card_fig_grim_reaper_mech,메카닉 데드맨,메카닉,card,A,45000,기계화된 관절과 갑옷이 입은 로봇 데드맨! 차가운 금속의 냉기와 위압감이 느껴지는 메카닉 디자인. 미래지향적인 감성과 실전용 무기가 느껴지는 컬렉터의 필수품.,,assets/cards/fig_grim_reaper_mech.webp
+card_fig_grim_reaper_metallic,크롬 데드맨,메탈릭,card,A,50000,반짝이는 크롬 도금의 불멸의 전사! 거울처럼 빛나는 표면에서 비치는 그림자가 신비로운 분위기를 자아냄. 고급스러운 메탈릭 마감의 컬렉터 한정판 명품 카드.,,assets/cards/fig_grim_reaper_metallic.webp
+card_fig_grim_reaper_pixel,픽셀 데드맨,복셀픽셀,card,B,35000,로폴리 블록이 모여든 픽셀 아트 데드맨! 저폴리 모델의 귀여운 블록미가 매력 포인트. 레트로 게임 감성과 현대적인 디자인이 어우러진 컬렉터의 소장품.,,assets/cards/fig_grim_reaper_pixel.webp
+card_fig_grim_reaper_realistic,실사 데드맨,리얼리스틱,card,S,55000,"현실과 같은 디테일의 압도적인 존재감! 고해상도 렌더링으로 완성된 생생한 표정과 자세. 컬렉터가 꿈꾸는 완벽한 2D 아트워크, 소장 가치가 높은 명작 카드.",,assets/cards/fig_grim_reaper_realistic.webp
+card_fig_grim_reaper_stylized,카툰 데드맨,스타일라이즈드,card,C,3000,4个头 높이의 귀여운 카툰 데드맨! 과장된 비율과 생동감 넘치는 그림자가 매력 포인트. 귀여운 캐릭터 디자인과 신비로운 분위기가 어우러진 컬렉터의 필수품.,,assets/cards/fig_grim_reaper_stylized.webp
+card_fig_grim_reaper_vinyl,크롬하트 리퍼,바이닐토이,card,SSS,150000,빈백 배경에 홀로 서 있는 차가운 사자의 그림자. 매끄러운 비닐 재질과 스카프에 걸린 시간의 시계가 죽음의 신을 상징합니다. 수집가들의 시선을 사로잡는 고가의 아이템.,,assets/cards/fig_grim_reaper_vinyl.webp
+card_fig_grim_reaper_wooden,목재 리퍼,우드카빙,card,A,85000,수공으로 조각된 목재의 따뜻함이 죽음의 냉기를 더한다. 자연스러운 결과 손끝의 흔적이 살아있는 듯한 디테일은 컬렉터의 마음을 울립니다.,,assets/cards/fig_grim_reaper_wooden.webp
+card_fig_gundam_hero_chibi,꼬마 건담 히어로,치비,card,B,12000,두个头 높이의 귀여운 SD 건담이 승리 포즈를 취했습니다. 발광하는 엔진과 빛나는 베임 사바는 어린이와 성인 모두의 마음을 사로잡습니다.,,assets/cards/fig_gundam_hero_chibi.webp
+card_fig_gundam_hero_clay,점토 건담 히어로,클레이,card,A,45000,매트한 점토 질감의 건담이 승리 포즈를 취하고 있습니다. 손으로 빚은 듯한 따뜻한 느낌과 부드러운 질감은 수집가들에게 사랑받는 아이템입니다.,,assets/cards/fig_gundam_hero_clay.webp
+card_fig_gundam_hero_mech,메카 건담 히어로,메카닉,card,S,120000,정교한 기계 관절과 갑옷 판으로 구성된 건담이 승리 포즈를 취하고 있습니다. 빛나는 엔진과 베임 사바는 메카닉을 사랑하는 수집가들에게 최고의 선택입니다.,,assets/cards/fig_gundam_hero_mech.webp
+card_fig_gundam_hero_metallic,크롬 건담 히어로,메탈릭,card,SSS,150000,반사되는 크롬 마감의 건담이 승리 포즈를 취하고 있습니다. 빛나는 엔진과 베임 사바는 메카닉을 사랑하는 수집가들에게 최고의 선택입니다.,,assets/cards/fig_gundam_hero_metallic.webp
+card_fig_gundam_hero_pixel,픽셀 건담 히어로,복셀픽셀,card,S,95000,로우폴리 픽셀 아트 스타일의 건담이 승리 포즈를 취하고 있습니다. 블록으로 이루어진 귀여운 느낌은 오타쿠들에게 사랑받는 아이템입니다.,,assets/cards/fig_gundam_hero_pixel.webp
+card_fig_gundam_hero_plush,솜뭉치 건담 히어로,플러시,card,B,15000,부드러운 플러시 소재의 건담이 승리 포즈를 취하고 있습니다. 촉촉한 털과 귀여운 표정은 오타쿠들의 마음을 사로잡습니다.,,assets/cards/fig_gundam_hero_plush.webp
+card_fig_gundam_hero_realistic,리얼 건담 히어로,리얼리스틱,card,SSS,150000,정교한 디테일과 비현실적인 비율의 건담이 승리 포즈를 취하고 있습니다. 빛나는 엔진과 베임 사바는 메카닉을 사랑하는 수집가들에게 최고의 선택입니다.,,assets/cards/fig_gundam_hero_realistic.webp
+card_fig_gundam_hero_stylized,카툰 건담 히어로,스타일라이즈드,card,A,55000,4个头 높이의 카툰 스타일의 건담이 승리 포즈를 취하고 있습니다. 귀여운 표정과 빛나는 엔진은 오타쿠들에게 사랑받는 아이템입니다.,,assets/cards/fig_gundam_hero_stylized.webp
+card_fig_gundam_hero_vinyl,크롬하트 건담 히어로,바이닐토이,card,A,89000,"V-파인 눈이 번쩍이는 건담 히어로가 승리 포즈로 서 있습니다. 광택이 나는 비닐 재질의 메카는 마치 살아있는 듯 반짝이며, 베임 사버를 휘두르는 순간의 열기를 그대로 담았습니다. 메카 수집가들의 눈이 번쩍 뜨일 한정판!",,assets/cards/fig_gundam_hero_vinyl.webp
+card_fig_gundam_hero_wooden,목조 전설 건담 히어로,우드카빙,card,B,45000,"손으로 깎아낸 나무의 온기가 느껴지는 건담 히어로. V-파인 눈빛이 살아있는 듯하고, 베임 사버가 빛나는 메카의 위용은 책상 위에 올려두면 매일 설레는 하교길의 주인공이 됩니다. 메카의 정수를 담은 컬렉션.",,assets/cards/fig_gundam_hero_wooden.webp
+card_fig_gunslinger_clay,점토의 총잡이,클레이,card,C,15000,점토의 질감이 살아있는 총잡이. 모자를 툭 치며 쌍권총을 품에 안은 우아한 포즈와 교활한 미소는 오타쿠들의 마음을 사로잡습니다. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gunslinger_clay.webp
+card_fig_gunslinger_mech,로봇 총잡이,메카닉,card,B,35000,메카닉 아티큘레이션이 살아있는 총잡이. 관절과 갑옷 판재가 빛나는 메카의 위용은 총잡이의 우아함을 더합니다. 베임 사버를 휘두르는 순간의 열기를 그대로 담았습니다. 메카 수집가들의 눈이 번쩍 뜨일 한정판!,,assets/cards/fig_gunslinger_mech.webp
+card_fig_gunslinger_metallic,크롬 총잡이,메탈릭,card,S,95000,"폴리시드 메탈릭 크롬 피니시가 빛나는 총잡이. 반사되는 표면은 마치 살아있는 듯 반짝이며, 베임 사버를 휘두르는 순간의 열기를 그대로 담았습니다. 메카 수집가들의 눈이 번쩍 뜨일 한정판!",,assets/cards/fig_gunslinger_metallic.webp
+card_fig_gunslinger_pixel,픽셀 총잡이,복셀픽셀,card,C,12000,보셀 픽셀 아트 로우폴리 블록이 총잡이. 우아한 포즈와 쌍권총을 품에 안은 총잡이의 매력은 오타쿠들의 마음을 사로잡습니다. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gunslinger_pixel.webp
+card_fig_gunslinger_plush,솜뭉치 총잡이,플러시,card,C,18000,부드러운 플러시 스토프 톤이 총잡이. 모자를 툭 치며 쌍권총을 품에 안은 우아한 포즈와 교활한 미소는 오타쿠들의 마음을 사로잡습니다. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gunslinger_plush.webp
+card_fig_gunslinger_realistic,리얼 총잡이,리얼리스틱,card,A,75000,실사 디테일 비율이 총잡이. 모자를 툭 치며 쌍권총을 품에 안은 우아한 포즈와 교활한 미소는 오타쿠들의 마음을 사로잡습니다. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_gunslinger_realistic.webp
+card_fig_gyaru_sniper_clay,점토의 가루 스나이퍼,클레이,card,C,15000,"점토의 질감이 살아있는 가루 스나이퍼. 스트리트 테크 유니폼과 긴 라이플 케이스 스티커, 느슨한 양말과 과감한 포즈는 오타쿠들의 마음을 사로잡습니다. 방과 후 비밀 임무 시작! 책상 위에 올려두면 매일 설레는 하교길.",,assets/cards/fig_gyaru_sniper_clay.webp
+card_fig_gyaru_sniper_mech,로봇 가루 스나이퍼,메카닉,card,B,35000,메카닉 아티큘레이션이 살아있는 가루 스나이퍼. 관절과 갑옷 판재가 빛나는 메카의 위용은 총잡이의 우아함을 더합니다. 베임 사버를 휘두르는 순간의 열기를 그대로 담았습니다. 메카 수집가들의 눈이 번쩍 뜨일 한정판!,,assets/cards/fig_gyaru_sniper_mech.webp
+card_fig_gyaru_sniper_metallic,크롬 스톤 스트리트 슈터,메탈릭,card,A,45000,"반짝이는 크롬 갑옷과 스트리트 테크 유니폼을 입은 그녀. 거친 포즈와 긴 라이플 케이스 스티커가 시선을 사로잡는다. 화이트 배경에 고립된 완벽한 2D 일러스트로, 책상 위에 놓으면 매일 새로운 영감을 준다.",,assets/cards/fig_gyaru_sniper_metallic.webp
+card_fig_gyaru_sniper_plush,솜뭉치 스트리트 슈터,플러시,card,C,4000,뭉실한 촉감과 귀여운 표정의 미소녀 슈터. 스트리트 테크 유니폼에 긴 라이플 케이스 스티커가 포인트. 부드러운 소재로 만든 2D 카드가 집안에 들어와서 매일 포근한 분위기를 만들어준다.,,assets/cards/fig_gyaru_sniper_plush.webp
+card_fig_gyaru_sniper_realistic,리얼 스트리트 슈터,리얼리스틱,card,S,65000,실사 같은 디테일과 생동감 넘치는 표정이 매력적인 미소녀 슈터. 스트리트 테크 유니폼과 긴 라이플 케이스 스티커가 완벽하게 재현된 2D 일러스트. 책상 위에 올려두면 마치 그녀가 옆에 있는 듯하다.,,assets/cards/fig_gyaru_sniper_realistic.webp
+card_fig_gyaru_sniper_stylized,꼬마 스트리트 슈터,스타일라이즈드,card,B,6000,4个头身 비율의 귀여운 스타일링이 돋보이는 미소녀 슈터. 스트리트 테크 유니폼과 긴 라이플 케이스 스티커가 포인트. 카툰 같은 2D 일러스트가 책상 위에 놓이면 매일 설레는 하루가 시작된다.,,assets/cards/fig_gyaru_sniper_stylized.webp
+card_fig_gyaru_sniper_vinyl,글로시 비닐 슈터,바이닐토이,card,A,55000,유광 비닐 재질의 디자이너 토이 느낌의 미소녀 슈터. 스트리트 테크 유니폼과 긴 라이플 케이스 스티커가 세련된 느낌을 준다. 2D 일러스트로 제작되어 책상 위에 놓으면 매일 새로운 영감을 준다.,,assets/cards/fig_gyaru_sniper_vinyl.webp
+card_fig_gyaru_sniper_wooden,목공 스트리트 슈터,우드카빙,card,SS,120000,손으로 조각한 목공 예술의 정수를 담은 미소녀 슈터. 스트리트 테크 유니폼과 긴 라이플 케이스 스티커가 따뜻한 느낌을 준다. 2D 일러스트로 제작되어 책상 위에 놓으면 매일 새로운 영감을 준다.,,assets/cards/fig_gyaru_sniper_wooden.webp
+card_fig_headless_rider_clay,클레이 헤드리스 라이더,클레이,card,B,6000,매트 마감의 점토 조각으로 만든 공포의 라이더. 잭오랜턴 머리를 들고 달리는 모습이 생생하게 재현된 2D 일러스트. 책상 위에 놓으면 매일 새로운 공포를 느끼게 한다.,,assets/cards/fig_headless_rider_clay.webp
+card_fig_headless_rider_mech,메크 헤드리스 라이더,메카닉,card,SSS,150000,기계식 관절과 갑옷 판재가 돋보이는 로봇 라이더. 잭오랜턴 머리를 들고 달리는 모습이 생생하게 재현된 2D 일러스트. 책상 위에 놓으면 매일 새로운 공포를 느끼게 한다.,,assets/cards/fig_headless_rider_mech.webp
+card_fig_headless_rider_pixel,픽셀 헤드리스 라이더,복셀픽셀,card,A,45000,voxel 픽셀 아트와 저폴리 블록이 돋보이는 로봇 라이더. 잭오랜턴 머리를 들고 달리는 모습이 생생하게 재현된 2D 일러스트. 책상 위에 놓으면 매일 새로운 공포를 느끼게 한다.,,assets/cards/fig_headless_rider_pixel.webp
+card_fig_headless_rider_plush,솜뭉치 헤드리스 라이더,플러시,card,C,4000,부드러운 플러시 소재로 만든 공포의 라이더. 잭오랜턴 머리를 들고 달리는 모습이 생생하게 재현된 2D 일러스트. 책상 위에 놓으면 매일 새로운 공포를 느끼게 한다.,,assets/cards/fig_headless_rider_plush.webp
+card_fig_headless_rider_realistic,불꽃무덤의 실체,리얼리스틱,card,S,120000,"검은 말 위, 자라난 잭오랜턴 머리를 들고 질주하는 공포의 전사. 리얼리스틱한 디테일과 불꽃의 열기가 피부에 닿는 듯 뜨겁습니다. 수집가들의 눈높이에 맞춰 제작된 한정판 피규어!",,assets/cards/fig_headless_rider_realistic.webp
+card_fig_headless_rider_stylized,고스트라이더 스타일,스타일라이즈드,card,A,45000,4个头身比例的可爱造型，骑着黑马，高举着南瓜头，身后是燃烧的火焰。卡通风格，适合挂在房间墙上，是可爱的收藏品。,,assets/cards/fig_headless_rider_stylized.webp
+card_fig_headless_rider_vinyl,글로시 비닐 라이더,바이닐토이,card,B,35000,유리처럼 반짝이는 광택 비닐 재질의 라이더 피규어. 손에 닿는 매끄러운 질감과 화려한 불꽃의 디자인이 젊은 수집가들의 취향을 사로잡습니다.,,assets/cards/fig_headless_rider_vinyl.webp
+card_fig_headless_rider_wooden,수제 목공 라이더,우드카빙,card,A,85000,"손으로 조각한 나무의 온기와 자연스러운 결이 어우러진 리얼한 피규어. 고전적인 공포의 분위기를 풍기며, 책상 위에 올려두면 고급스러운 인테리어가 됩니다.",,assets/cards/fig_headless_rider_wooden.webp
+card_fig_ice_queen_chibi,얼음여왕 SD,치비,card,C,3000,2个头身比例的可爱造型，坐在冰座上，双腿交叉，手持霜之权杖。Q版风格，适合挂在房间墙上，是可爱的收藏品。,,assets/cards/fig_ice_queen_chibi.webp
+card_fig_ice_queen_clay,점토의 여왕,클레이,card,B,40000,매트한 점토 질감이 주는 따뜻한 감성. 얼음 왕좌에 앉아 있는 여왕의 우아함이 그대로 살아있는 리얼한 피규어. 손으로 만져보고 싶은 부드러운 촉감이 매력 포인트입니다.,,assets/cards/fig_ice_queen_clay.webp
+card_fig_ice_queen_mech,메카닉 아이스 퀸,메카닉,card,S,150000,메카닉 아머와 관절이 움직이는 로봇 피규어. 얼음 왕좌에 앉아 있는 여왕의 우아함과 메카닉의 냉철함이 어우러진 독특한 디자인. 수집가들의 눈높이에 맞춰 제작된 한정판 피규어!,,assets/cards/fig_ice_queen_mech.webp
+card_fig_ice_queen_metallic,크롬아이슬레이디,메탈릭,card,SS,150000,반짝이는 크롬 도금 표면이 빛을 머금고 있는 메탈릭 피규어. 얼음 왕좌에 앉아 있는 여왕의 우아함이 그대로 살아있는 리얼한 피규어. 손으로 만져보고 싶은 부드러운 촉감이 매력 포인트입니다.,,assets/cards/fig_ice_queen_metallic.webp
+card_fig_ice_queen_pixel,픽셀 아이스 퀸,복셀픽셀,card,A,60000,8비트 게임의 추억을 되살리는 픽셀 아트 스타일의 피규어. 저폴리 블록이 주는 귀여운 느낌과 얼음 왕좌의 우아함이 어우러진 독특한 디자인. 수집가들의 눈높이에 맞춰 제작된 한정판 피규어!,,assets/cards/fig_ice_queen_pixel.webp
+card_fig_ice_queen_plush,솜뭉치 아이스 퀸,플러시,card,C,35000,부드러운 플러시 소재가 주는 따뜻한 감성. 얼음 왕좌에 앉아 있는 여왕의 우아함이 그대로 살아있는 리얼한 피규어. 손으로 만져보고 싶은 부드러운 촉감이 매력 포인트입니다.,,assets/cards/fig_ice_queen_plush.webp
+card_fig_ice_queen_realistic,얼음여왕 리얼 스타일 카드,리얼리스틱,card,S,120000,"냉랭한 눈빛과 완벽한 비율의 얼음여왕. 차가운 우아함이 돋보이는 리얼한 표정으로, 손에 든 결빙 지팡이가 차가운 기운을 뿜어내고 있어. 수집가들의 사랑을 받을 명품 카드.",,assets/cards/fig_ice_queen_realistic.webp
+card_fig_ice_queen_vinyl,글로스 빈릴 얼음여왕 카드,바이닐토이,card,A,85000,유광 처리된 빈릴 소재가 빛을 머금으며 고급스러운 매력을 뿜어내. 차가운 우아함과 반짝이는 광택이 어우러진 이 아이템은 수집가들의 시선을 사로잡을 명품.,,assets/cards/fig_ice_queen_vinyl.webp
+card_fig_ice_queen_wooden,핸드카프트 목제 얼음여왕 카드,우드카빙,card,A,95000,수공으로 조각된 목재의 따뜻함이 차가운 얼음 여왕의 우아함을 더. 자연스러운 질감과 정교한 디테일이 어우러진 이 아이템은 소장 가치를 높이는 명작.,,assets/cards/fig_ice_queen_wooden.webp
+card_fig_insect_mech_chibi,꼬마 메카곤충 카드,치비,card,C,4000,두个头 높이의 귀여운 꼬마 메카 곤충. 반점 눈이 빛나는 녹색과 날카로운 전차 자세가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_insect_mech_chibi.webp
+card_fig_insect_mech_clay,클레이 메카곤충 카드,클레이,card,B,45000,매트 마감의 클레이 조각이 주는 따뜻하고 부드러운 질감. 메카 곤충의 날카로운 자세와 대비되는 조화로운 느낌으로 소장 가치가 높은 명작.,,assets/cards/fig_insect_mech_clay.webp
+card_fig_insect_mech_mech,메카 메카곤충 카드,메카닉,card,A,75000,메카닉 관절과 갑옷 판으로 완성된 메카 곤충. 정밀한 조립 디테일이 돋보이는 이 아이템은 메카 팬들에게 큰 사랑을 받을 명작.,,assets/cards/fig_insect_mech_mech.webp
+card_fig_insect_mech_metallic,크롬 메카곤충 카드,메탈릭,card,S,120000,반사되는 크롬 광택이 빛나는 메카 곤충. 메카닉 관절과 갑옷 판이 빛을 머금으며 고급스러운 매력을 뿜어내. 수집가들의 시선을 사로잡을 명품.,,assets/cards/fig_insect_mech_metallic.webp
+card_fig_insect_mech_pixel,픽셀 메카곤충 카드,복셀픽셀,card,C,4000,로우 폴리 블록 모양의 픽셀 아트 메카 곤충. 귀여운 저폴리 스타일과 날카로운 전차 자세가 어우러진 귀여운 명작.,,assets/cards/fig_insect_mech_pixel.webp
+card_fig_insect_mech_plush,뭉실 메카곤충 카드,플러시,card,B,45000,부드러운 플러시 소재가 주는 따뜻한 촉감이 매력 포인트. 메카 곤충의 날카로운 자세와 대비되는 조화로운 느낌으로 소장 가치가 높은 명작.,,assets/cards/fig_insect_mech_plush.webp
+card_fig_insect_mech_realistic,리얼 메카곤충 카드,리얼리스틱,card,S,120000,완벽한 비율과 디테일이 돋보이는 리얼 메카 곤충. 메카닉 관절과 갑옷 판이 빛을 머금으며 고급스러운 매력을 뿜어내. 수집가들의 시선을 사로잡을 명품.,,assets/cards/fig_insect_mech_realistic.webp
+card_fig_jormungandr_stylized,하얀 바다의 4 머리 용,스타일라이즈드,card,C,4000,"순백의 배경과 대비되는 4 개의 머리가 어둠을 예고한다. 파도 문양이 새겨진 비늘은 빛을 받아 반짝이며, 입을 벌린 용의 위압적인 존재감이 압도적이다. 신화적 존재의 힘을 한 장의 카드에 담아냈다.",,assets/cards/fig_jormungandr_stylized.webp
+card_fig_jormungandr_vinyl,글로스 비닐 드래곤,바이닐토이,card,A,12000,유리처럼 광택나는 비닐 재질의 드래곤은 손끝의 온기를 느끼게 한다. 디자이너 토이 특유의 개성 있는 표면 질감과 4 개의 머리 포즈가 매력적인 포인트. 수집가들의 눈에 띄는 한정판.,,assets/cards/fig_jormungandr_vinyl.webp
+card_fig_jormungandr_wooden,목공의 용,우드카빙,card,B,9000,손으로 깎아낸 목공의 정성이 느껴지는 용. 나무의 결이 살아있는 따뜻한 톤과 4 개의 머리가 뒤틀린 듯한 포즈가 전통과 현대를 잇는 독특한 미학을 보여준다. 책상 위의 소품으로 최고.,,assets/cards/fig_jormungandr_wooden.webp
+card_fig_kaiju_hunter_chibi,꼬마 메카 사냥꾼,치비,card,B,10000,"2个头 높이의 귀여운 SD 포즈가 매력적인 메카 사냥꾼. 어깨에 기대는 하프포션 총의 경고등이 붉게 빛나며, 차분한 표정의 갭 모에가 돋보인다. 방에 두면 매일 설레는 하교길.",,assets/cards/fig_kaiju_hunter_chibi.webp
+card_fig_kaiju_hunter_clay,점토의 메카 전사,클레이,card,A,15000,매트한 점토 질감이 주는 차분한 분위기의 메카 전사. 손으로 빚은 듯한 자연스러운 곡선과 어깨에 기대는 총의 디테일이 인상적이다. 메카닉을 좋아하는 수집가들에게 추천하는 아티스트 작품.,,assets/cards/fig_kaiju_hunter_clay.webp
+card_fig_kaiju_hunter_mech,정밀 메카닉 로봇,메카닉,card,S,25000,가공된 관절과 갑옷 판재가 완벽하게 조립된 메카닉 로봇. 경고등이 밝아지며 포즈를 취한 메카의 웅장함과 디테일이 돋보인다. 메카닉을 사랑하는 오타쿠들에게 필수적인 소장품.,,assets/cards/fig_kaiju_hunter_mech.webp
+card_fig_kaiju_hunter_metallic,크롬 메카닉 전사,메탈릭,card,SS,45000,반사되는 크롬 표면이 빛을 받아 눈부신 메카닉 전사. 메탈릭한 광택과 관절의 정밀함이 완벽하게 조화를 이룬다. 메카의 위압적인 존재감이 한눈에 느껴지는 프리미엄 아이템.,,assets/cards/fig_kaiju_hunter_metallic.webp
+card_fig_kaiju_hunter_pixel,픽셀 메카 사냥꾼,복셀픽셀,card,A,10000,블록으로 구성된 픽셀 아트 스타일의 메카 사냥꾼. 저폴리 그래픽이 주는 레트로한 감성과 하프포션 총의 디테일이 돋보인다. 게임 팬들에게 사랑받는 레트로한 디자인.,,assets/cards/fig_kaiju_hunter_pixel.webp
+card_fig_kaiju_hunter_plush,솜뭉치 메카 인형,플러시,card,C,6000,"부드러운 천 소재의 메카 인형. 거친 메카와 대비되는 부드러운 촉감이 매력적인 포인트. 어깨에 기대는 총의 디테일도 살아있으며, 아이들과 함께 놀기에도 좋은 귀여운 아이템.",,assets/cards/fig_kaiju_hunter_plush.webp
+card_fig_kaiju_hunter_realistic,리얼 메카닉 전사,리얼리스틱,card,SSS,85000,실제 메카닉처럼 디테일한 비례와 질감이 살아있는 메카닉 전사. 경고등이 밝아지며 포즈를 취한 메카의 웅장함과 리얼한 디테일이 돋보인다. 메카닉을 사랑하는 수집가들에게 추천하는 프리미엄 아이템.,,assets/cards/fig_kaiju_hunter_realistic.webp
+card_fig_kaiju_hunter_stylized,카이지 헌터 스타일라이즈 카드,스타일라이즈드,card,A,45000,"거대한 괴수 앞에 서 있는 카이지 헌터의 단호한 표정. 카툰 스타일의 메카닉 디자인이 귀여우면서도 위협적인 분위기를 풍겨, 괴수 사냥의 여명기를 연상시킨다.",,assets/cards/fig_kaiju_hunter_stylized.webp
+card_fig_kaiju_hunter_vinyl,크롬하트 메카 카이지 헌터 카드,바이닐토이,card,B,55000,"고광택 비닐 재질의 메카가 빛을 발하며, 괴수 사냥의 전설을 상징하는 디자인. 수집가들에게 사랑받는 비닐 토크의 매력이 돋보이는 한정판 아이템.",,assets/cards/fig_kaiju_hunter_vinyl.webp
+card_fig_kaiju_hunter_wooden,목공예 메카 카이지 헌터 카드,우드카빙,card,C,35000,"손으로 조각한 나무의 온기를 담은 메카 디자인. 자연스러운 목재 질감이 메카닉의 차가운 느낌과 대비되어, 독특한 예술성을 자랑하는 컬렉션 아이템.",,assets/cards/fig_kaiju_hunter_wooden.webp
+card_fig_kimono_fireworks_chibi,뭉실 화폭 소녀 스테이지 카드,치비,card,A,48000,"두 배 키의 귀여운 스테이지 의상을 입고, 폭죽을 든 미소녀가 환하게 웃는다. 따뜻한 추억을 불러일으키는 이 카드는 방에 두면 매일 설레는 하루를 선사.",,assets/cards/fig_kimono_fireworks_chibi.webp
+card_fig_kimono_fireworks_clay,점토조각 화폭 소녀 카드,클레이,card,B,52000,"매트 마감의 점토 조형이 부드러운 감성을 연출. 폭죽의 빛과 소녀의 미소가 어우러져, 여름밤의 낭만적인 분위기를 완벽하게 재현한 한정판.",,assets/cards/fig_kimono_fireworks_clay.webp
+card_fig_kimono_fireworks_mech,로봇조인트 화폭 소녀 카드,메카닉,card,C,42000,메카닉 조인트가 달린 로봇 외피에 전통적인 요카타를 입은 갭 모에 캐릭터. 기계와 인간의 조화가 만들어낸 독특한 매력 포인트.,,assets/cards/fig_kimono_fireworks_mech.webp
+card_fig_kimono_fireworks_metallic,크롬화폭 소녀 카드,메탈릭,card,S,65000,"반사되는 크롬 표면이 빛을 뿜어내는 메탈릭한 미소녀. 폭죽의 화려함과 금속의 광택이 어우러져, 소장 가치가 높은 프리미엄 아이템.",,assets/cards/fig_kimono_fireworks_metallic.webp
+card_fig_kimono_fireworks_pixel,픽셀화폭 소녀 카드,복셀픽셀,card,C,38000,8비트 게임의 느낌을 살린 픽셀 아트 스타일의 폭죽 소녀. 저폴리 블록이 주는 귀여운 느낌과 레트로 감성이 어우러진 컬렉션 아이템.,,assets/cards/fig_kimono_fireworks_pixel.webp
+card_fig_kimono_fireworks_plush,솜뭉치 화폭 소녀 카드,플러시,card,B,45000,"부드러운 천 소재의 플러시 인형이 폭죽의 따뜻함을 품고 있다. 손으로 만져보고 싶은 감성적인 디자인으로, 선물용으로 최고.",,assets/cards/fig_kimono_fireworks_plush.webp
+card_fig_kimono_fireworks_realistic,리얼화폭 소녀 카드,리얼리스틱,card,SS,75000,"초상화 같은 디테일의 리얼한 미소녀가 폭죽을 들고 있다. 섬세한 표정과 의상의 질감이 살아나, 소장하고 싶은 욕구를 자극하는 프리미엄.",,assets/cards/fig_kimono_fireworks_realistic.webp
+card_fig_kitsune_empress_wooden,목조 Kitsune 황후,우드카빙,card,A,45000,"구리나무로 손으로 깎아낸 Kitsune 황후. 아홉 개의 꼬리가 펄럭이며, 영혼의 등불 위를 우아하게 앉아 있습니다. 고전적인 민속 공예의 정수를 담은 한정판 카드, 책상 위에 놓으면 우주의 신비로움이 느껴집니다.",,assets/cards/fig_kitsune_empress_wooden.webp
+card_fig_librarian_mage_chibi,꼬마 도서관 마법사,치비,card,C,4000,"두个头높이의 귀여운 SD 마법사. 부채를 휘두르듯 책들을 띄우며, 리본 안경이 반짝입니다. 책상 위에 두면 매일 설레는 하교길, 미소녀 수집가들의 필수품.",,assets/cards/fig_librarian_mage_chibi.webp
+card_fig_librarian_mage_clay,점토 마법사 소녀,클레이,card,B,9000,매트 포인트의 점토 조각으로 된 마법사. 부드러운 표정과 둥근 형태가 매력적인 톤. 손으로 빚은 듯한 따뜻한 감성이 느껴지는 한정판 미소녀 카드.,,assets/cards/fig_librarian_mage_clay.webp
+card_fig_librarian_mage_mech,로봇 마법사 소녀,메카닉,card,B,12000,"기계 관절과 갑옷이 결합된 마법사. 리본 안경이 기계적 냉철함 속에서도 은은한 매력을 발산합니다. 메카닉과 미소녀의 완벽한 조화, 컬렉터의 선택.",,assets/cards/fig_librarian_mage_mech.webp
+card_fig_librarian_mage_metallic,크롬 마법사 소녀,메탈릭,card,A,35000,"반짝이는 크롬 도금 갑옷을 입은 마법사. 빛이 비치는 표면에 은은한 룬 문양이 새겨져 있습니다. 차가운 금속 속에서도 따뜻한 미소, 메탈릭 감성의 정점.",,assets/cards/fig_librarian_mage_metallic.webp
+card_fig_librarian_mage_pixel,픽셀 마법사 소녀,복셀픽셀,card,C,4000,"로폴리 블록으로 된 픽셀 아트 마법사. 8비트 게임 속 캐릭터가 현실로 살아났습니다. 레트로 감성과 귀여운 표정의 조화, 게임 팬들의 필수품.",,assets/cards/fig_librarian_mage_pixel.webp
+card_fig_librarian_mage_plush,솜뭉치 마법사,플러시,card,C,6000,부드러운 플러시 소재로 만든 마법사. 촉감이 좋아서 꼭 안고 싶게 만듭니다. 방과 후 책상 위에 두면 따뜻한 위로가 되는 미소녀 피규어.,,assets/cards/fig_librarian_mage_plush.webp
+card_fig_librarian_mage_realistic,리얼 마법사 소녀,리얼리스틱,card,S,65000,초고해상도 리얼리즘으로 완성된 마법사. 피부 질감과 옷 디테일이 살아있는 생동감 넘치는 모습. 수집가들이 꿈꾸는 완벽한 미소녀 피규어.,,assets/cards/fig_librarian_mage_realistic.webp
+card_fig_librarian_mage_stylized,스타일 마법사 소녀,스타일라이즈드,card,B,10000,4个头높이의 스타일리시한 마법사. 과장된 비율과 선명한 색감이 매력적인 일러스트 느낌. 만화 팬들에게 사랑받는 귀여운 미소녀 캐릭터.,,assets/cards/fig_librarian_mage_stylized.webp
+card_fig_librarian_mage_vinyl,비닐 마법사 소녀,바이닐토이,card,A,45000,광택 비닐로 만든 디자이너 토이 마법사. 고급스러운 질감과 세련된 디자인이 돋보입니다. 컬렉터들이 사랑하는 한정판 미소녀 피규어.,,assets/cards/fig_librarian_mage_vinyl.webp
+card_fig_librarian_mage_wooden,목공 마법사 서재녀,우드카빙,card,A,45000,"나무로 손수 깎아낸 따뜻한 마법사 서재녀. 책과 공중에 떠 있는 고전들을 감당하는 그녀의 집중된 미소는, 책상 위에 놓으면 매일의 독서가 즐거워지는 마법 같은 존재.",,assets/cards/fig_librarian_mage_wooden.webp
+card_fig_lich_king_chibi,쪼그린 사령관,치비,card,B,35000,"두个头 높이의 귀여운 사령관. 썩은 왕관과 영혼병을 든 그의 유쾌한 악마 같은 미소는, 공포의 아이콘을 귀엽게 재해석한 컬렉션의 핵심.",,assets/cards/fig_lich_king_chibi.webp
+card_fig_lich_king_clay,점토의 사령관,클레이,card,B,38000,"매끄러운 점토 질감의 불멸의 사령관. 손으로 빚은 듯한 따뜻한 색감과 유난히 깊은 눈빛이, 어둠의 세계를 품은 미스터리의 정수를 보여준다.",,assets/cards/fig_lich_king_clay.webp
+card_fig_lich_king_mech,메카니컬 사령관,메카닉,card,A,55000,"기계 관절과 갑옷 판으로武装된 사령관. 차가운 금속의 냉기와 영혼병을 든 그의 위협적인 포즈는, 사이버펑크 세계관을 연상시키는 압도적인 존재감.",,assets/cards/fig_lich_king_mech.webp
+card_fig_lich_king_metallic,크롬 사령관,메탈릭,card,S,85000,"반짝이는 크롬 도금 갑옷과 빛을 머금은 사령관. 어둠의 왕좌에서 빛나는 룬 문양의 은은한 광택과, 칼끝에서 느껴지는 차가운 냉기가 소름을 돋는다.",,assets/cards/fig_lich_king_metallic.webp
+card_fig_lich_king_pixel,픽셀 사령관,복셀픽셀,card,B,32000,"8비트 게임 속의 사령관. 블록으로 이루어진 저폴리 모델과 유난히 큰 눈빛이, 레트로 게임의 추억을 소환하는 귀여운 악역의 존재감을 보여준다.",,assets/cards/fig_lich_king_pixel.webp
+card_fig_lich_king_plush,솜뭉치 사령관,플러시,card,C,25000,"부드러운 인형 소재로 만든 사령관. 썩은 왕관과 영혼병을 든 그의 귀여운 표정은, 공포의 아이콘을 귀엽게 재해석한 컬렉션의 핵심 포인트.",,assets/cards/fig_lich_king_plush.webp
+card_fig_lich_king_realistic,리얼 사령관,리얼리스틱,card,SS,120000,"살아있는 듯한 디테일의 사령관. 왕좌에 앉아 있는 그의 차가운 눈빛과 갑옷의 질감은, 어둠의 세계를 품은 미스터리의 정수를 보여준다.",,assets/cards/fig_lich_king_realistic.webp
+card_fig_lich_king_stylized,카툰 사령관,스타일라이즈드,card,B,36000,"4个头 높이의 귀여운 사령관. 썩은 왕관과 영혼병을 든 그의 유쾌한 악마 같은 미소는, 공포의 아이콘을 귀엽게 재해석한 컬렉션의 핵심.",,assets/cards/fig_lich_king_stylized.webp
+card_fig_lich_king_vinyl,비닐 사령관,바이닐토이,card,A,52000,"광택이 나는 비닐 디자이너 토이 사령관. 어둠의 왕좌에서 빛나는 룬 문양의 은은한 광택과, 칼끝에서 느껴지는 차가운 냉기가 소름을 돋는다.",,assets/cards/fig_lich_king_vinyl.webp
+card_fig_lich_king_wooden,나무 왕좌의 사령관,우드카빙,card,A,25000,"썩은 왕관과 영혼병을 든 공포의 사령관. 손으로 조각한 나무의 질감이 낡은 전설의 느낌을 선사하며, 어두운 왕좌 위에서 고요한 공포를 발산한다.",,assets/cards/fig_lich_king_wooden.webp
+card_fig_lion_king_chibi,꼬마 사자왕,치비,card,B,15000,머리 두 개 높이의 귀여운 사자왕! 왕성한 갈기에도 불구하고 순수한 눈빛이 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_lion_king_chibi.webp
+card_fig_lion_king_clay,뭉실 점토 사자왕,클레이,card,B,15000,"손으로 빚은 듯한 점토의 따뜻한 질감이 매력. 고요한 왕의 눈빛이 차분한 분위기를 자아내며, 소품으로 활용하기 좋은 귀여운 디자인.",,assets/cards/fig_lion_king_clay.webp
+card_fig_lion_king_mech,로봇 사자왕,메카닉,card,A,25000,기계식 관절과 갑옷이 결합된 사이보그 사자왕! 미래지향적인 디자인과 강인한 포즈가 게이머들에게 큰 인기를 끌 것이다.,,assets/cards/fig_lion_king_mech.webp
+card_fig_lion_king_metallic,크롬 사자왕,메탈릭,card,S,45000,"반짝이는 크롬 도금 갑옷에 빛이 반사되며, 왕의 위엄을 극대화. 고급스러운 금속 재질이 수집가들의 눈을 사로잡는 명품 아이템.",,assets/cards/fig_lion_king_metallic.webp
+card_fig_lion_king_pixel,픽셀 사자왕,복셀픽셀,card,B,15000,"로우폴리 블록이 모여 만든 8비트 스타일의 사자왕! 레트로 게임 감성을 자극하며, 오타쿠들에게 사랑받는 귀여운 디자인.",,assets/cards/fig_lion_king_pixel.webp
+card_fig_lion_king_plush,솜뭉치 사자왕,플러시,card,B,15000,"부드러운 인형처럼 포근한 촉감의 사자왕! 갈기까지 뭉실하게 표현되어, 안고 싶게 만드는 귀여운 매력 포인트.",,assets/cards/fig_lion_king_plush.webp
+card_fig_lion_king_realistic,리얼 사자왕,리얼리스틱,card,S,45000,초정밀 디테일로 구현된 생동감 넘치는 사자왕! 왕의 위엄과 눈빛이 살아있는 듯한 리얼한 표현으로 수집가들의 사랑을 받는다.,,assets/cards/fig_lion_king_realistic.webp
+card_fig_lion_king_vinyl,글로스 비닐 사자왕,바이닐토이,card,A,25000,"광택 있는 비닐 재질의 디자이너 토이! 세련된 디자인과 고급스러운 질감이 어우러져, 소장 가치가 높은 프리미엄 아이템.",,assets/cards/fig_lion_king_vinyl.webp
+card_fig_lion_king_wooden,목재 사자왕,우드카빙,card,B,15000,"손으로 조각한 목재의 따뜻한 질감이 매력. 고요한 왕의 눈빛이 차분한 분위기를 자아내며, 소품으로 활용하기 좋은 귀여운 디자인.",,assets/cards/fig_lion_king_wooden.webp
+card_fig_magical_girl_star_chibi,뽀뽀별 마법소녀,치비,card,A,45000,"둥글둥글한 귀여움, 2个头身! 하트 브로치와 리본이 빛나는 마법소녀 스타의 환상적인 포즈. 책상 위에 올려두면 하루 종일 웃음이 끊이지 않는 귀여운 존재.",,assets/cards/fig_magical_girl_star_chibi.webp
+card_fig_magical_girl_star_clay,토양별 마법소녀,클레이,card,B,65000,"손으로 빚은 듯한 따뜻한 질감, 매끄러운 클레이 피니시. 마법소녀 스타의 순수한 미소가 마치 손끝에서 느껴지는 온기를 전한다. 소장 가치가 높은 아티스트 피규어.",,assets/cards/fig_magical_girl_star_clay.webp
+card_fig_magical_girl_star_mech,메카스타 마법소녀,메카닉,card,S,120000,강철과 마법이 결합된 파워풀한 존재! 관절식 메카닉 갑옷과 스타 로드가 빛을 발한다. 전투 준비가 끝난 듯한 날카로운 눈빛이 매력 포인트.,,assets/cards/fig_magical_girl_star_mech.webp
+card_fig_magical_girl_star_metallic,크롬하트 마법소녀,메탈릭,card,SS,150000,"거울처럼 빛나는 크롬 도금 표면이 환상적인 반사광을 뿜어낸다! 마법소녀 스타의 위압감과 화려함이 어우러진 한정판 메탈 피규어, 진열장에 꽂으면 눈이 시리다.",,assets/cards/fig_magical_girl_star_metallic.webp
+card_fig_magical_girl_star_pixel,픽셀별 마법소녀,복셀픽셀,card,A,55000,8비트 리트로 감성의 저폴리 블록 아트! 마법소녀 스타의 귀여운 표정이 픽셀로 표현되어 게임 속 아바타처럼 느껴진다. 오타쿠들의 향수를 자극하는 컬렉션 아이템.,,assets/cards/fig_magical_girl_star_pixel.webp
+card_fig_magical_girl_star_plush,솜뭉치별 마법소녀,플러시,card,B,42000,부드러운 플러시 소재로 만든 귀여운 인형! 마법소녀 스타의 환상적인 포즈가 살아있는 듯한 촉감. 침대 옆이나 소파 위에 올려두면 마음이 따뜻해지는 완구.,,assets/cards/fig_magical_girl_star_plush.webp
+card_fig_magical_girl_star_realistic,리얼스타 마법소녀,리얼리스틱,card,SSS,150000,"정밀한 디테일과 사실적인 비율이 어우러진 리얼 피규어! 마법소녀 스타의 표정 하나하나가 살아있는 듯해, 집의 진열장에 놓으면 마치 그녀가 방문한 듯한 기분이 든다.",,assets/cards/fig_magical_girl_star_realistic.webp
+card_fig_magical_girl_star_stylized,카툰스타 마법소녀,스타일라이즈드,card,A,48000,"4个头身의 카툰 스타일, 마법소녀 스타의 활기찬 표정이 돋보여! 애니메이션 캐릭터처럼 생동감 넘치는 포즈와 선명한 색감이 매력적인 일러스트 피규어.",,assets/cards/fig_magical_girl_star_stylized.webp
+card_fig_magical_girl_star_vinyl,글로시빈 마법소녀,바이닐토이,card,SSS,150000,"고광택 비닐 디자인 토이, 마법소녀 스타의 반짝이는 피부와 갑옷 디테일이 돋보여! 디자이너 토이 컬렉터들이 열광하는 한정판 아트워크.",,assets/cards/fig_magical_girl_star_vinyl.webp
+card_fig_magical_girl_star_wooden,목공별 마법소녀,우드카빙,card,SSS,150000,"손으로 조각한 목공 아트의 따뜻한 느낌! 마법소녀 스타의 자연스러운 곡선과 목재의 질감이 어우러진 한정판 피규어, 수집가들의 사랑을 받을 만한 명품.",,assets/cards/fig_magical_girl_star_wooden.webp
+card_fig_maid_cafe_star_chibi,뽀뽀 마담 치비,치비,card,C,5000,초코파티와 은빛 트레이를 들고 윙크하는 귀여운 치비 마담! 뽀뽀할 수 있는 뽀뽀마담은 집안에서 가장 인기 있는 존재. 한정판 치비 버전은 손바닥에 딱 들어맞는 완벽한 사이즈!,,assets/cards/fig_maid_cafe_star_chibi.webp
+card_fig_maid_cafe_star_clay,토양 마담,클레이,card,B,8000,"흙으로 빚은 듯한 따뜻한 질감의 마담! 손끝에 닿는 흙의 온기가 느껴지는 클레이 스타일은, 집안에서 가장 따뜻한 존재. 한정판 토양 마담은 손에 쥐었을 때 따뜻한 온기를 전해준다.",,assets/cards/fig_maid_cafe_star_clay.webp
+card_fig_maid_cafe_star_mech,로봇 마담,메카닉,card,A,15000,"메카닉과 마담이 만난 환상! 관절이 움직이는 로봇 마담은, 집안에서 가장 활동적인 존재. 한정판 로봇 마담은 손에 쥐었을 때 로봇의 차가운 온기를 전해준다.",,assets/cards/fig_maid_cafe_star_mech.webp
+card_fig_maid_cafe_star_metallic,크롬 마담,메탈릭,card,S,25000,"반사되는 크롬 갑옷을 입은 마담! 빛이 반사되는 크롬 표면은, 집안에서 가장 화려한 존재. 한정판 크롬 마담은 손에 쥐었을 때 빛나는 반사를 전해준다.",,assets/cards/fig_maid_cafe_star_metallic.webp
+card_fig_maid_cafe_star_pixel,픽셀 마담,복셀픽셀,card,A,12000,"8비트 게임 속의 마담! 블록으로 이루어진 픽셀 스타일은, 집안에서 가장etro적인 존재. 한정판 픽셀 마담은 손에 쥐었을 때 게임의 추억을 전해준다.",,assets/cards/fig_maid_cafe_star_pixel.webp
+card_fig_maid_cafe_star_plush,솜뭉치 마담,플러시,card,B,10000,"부드러운 솜뭉치 마담! 촉촉한 촉감이 느껴지는 플러시 스타일은, 집안에서 가장 사랑스러운 존재. 한정판 솜뭉치 마담은 손에 쥐었을 때 부드러운 촉감을 전해준다.",,assets/cards/fig_maid_cafe_star_plush.webp
+card_fig_maid_cafe_star_realistic,리얼 마담,리얼리스틱,card,S,30000,"실사 같은 디테일을 가진 마담! 섬세한 표정과 의상 디테일은, 집안에서 가장 완벽한 존재. 한정판 리얼 마담은 손에 쥐었을 때 실사 같은 디테일을 전해준다.",,assets/cards/fig_maid_cafe_star_realistic.webp
+card_fig_maid_cafe_star_vinyl,비닐 마담,바이닐토이,card,A,20000,"고광택 비닐로 만들어진 마담! 반짝이는 비닐 표면은, 집안에서 가장 화려한 존재. 한정판 비닐 마담은 손에 쥐었을 때 비닐의 차가운 온기를 전해준다.",,assets/cards/fig_maid_cafe_star_vinyl.webp
+card_fig_maid_cafe_star_wooden,목조 마담,우드카빙,card,B,18000,"나무로 조각한 마담! 따뜻한 나무 향이 느껴지는 목조 스타일은, 집안에서 가장 고전적인 존재. 한정판 목조 마담은 손에 쥐었을 때 나무의 향기를 전해준다.",,assets/cards/fig_maid_cafe_star_wooden.webp
+card_fig_mecha_pilot_girl_chibi,메카 파일럿 치비,치비,card,C,6000,"메카를 조종하는 치비 파일럿! 카빈총과 함께한 치비 파일럿은, 집안에서 가장 활동적인 존재. 한정판 메카 파일럿 치비는 손에 쥐었을 때 메카의 차가운 온기를 전해준다.",,assets/cards/fig_mecha_pilot_girl_chibi.webp
+card_fig_mecha_pilot_girl_metallic,크롬하트 파일럿 미소녀,메탈릭,card,S,85000,"반사되는 크롬 갑옷이 빛을 머금고, 파일럿 소녀의 자신감 넘치는 눈빛이 마음을 뒤흔든다. 콕핏에서 내려오는 순간의 포즈가 역동적이고, 한정판 메탈릭 마감의 디테일이 수집가들의 열광을 불러일으킨다.",,assets/cards/fig_mecha_pilot_girl_metallic.webp
+card_fig_mecha_pilot_girl_pixel,픽셀블록 파일럿 미소녀,복셀픽셀,card,A,65000,"8비트 게임 속의 영웅처럼 귀여운 픽셀 아트 스타일. 저폴리 블록이 주는 귀여운 반전 매력과 메카 파일럿의 쿨한 포즈가 어우러져, 소장하고 싶다는 충동을 강하게 자극한다.",,assets/cards/fig_mecha_pilot_girl_pixel.webp
+card_fig_mecha_pilot_girl_plush,솜뭉치 파일럿 미소녀,플러시,card,B,45000,부드러운 플러시 소재가 닿는 듯한 촉감을 가진 귀여운 디자인. 메카 파일럿의 쿨한 이미지와 귀여운 뭉실한 포즈의 갭 모에가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_mecha_pilot_girl_plush.webp
+card_fig_mecha_pilot_girl_wooden,목공예 파일럿 미소녀,우드카빙,card,A,75000,"손으로 조각한 듯한 따뜻한 목재 질감이 매력적인 한정판. 메카 파일럿의 쿨한 포즈와 자연스러운 목재의 조화, 독특한 아트워크로 수집가들의 호기심을 자극하는 귀한 아이템.",,assets/cards/fig_mecha_pilot_girl_wooden.webp
+card_fig_mech_commander_chibi,SD 메카 커맨더,치비,card,A,55000,"두个头높이의 귀여운 SD 스타일이 쿨한 메카 커맨더에게 적용된 갭 모에. 어깨 캐논과 교차한 팔의 포즈가 역동적이며, 초소형이지만 강력한 임무 수행 능력을 연상시키는 귀여운 아이템.",,assets/cards/fig_mech_commander_chibi.webp
+card_fig_mech_commander_clay,점토 메카 커맨더,클레이,card,B,50000,"매트한 점토 질감이 주는 따뜻한 인상을 가진 메카 커맨더. 무거운 파워 아머와 어깨 캐논을 지닌 쿨한 포즈와 점토의 부드러운 질감이 어우러져, 소장 가치가 높은 아트워크.",,assets/cards/fig_mech_commander_clay.webp
+card_fig_mech_commander_mech,메카 커맨더,메카닉,card,B,50000,"정교한 관절과 갑옷 판재가 돋보이는 메카닉 디자인의 메카 커맨더. 어깨 캐논과 교차한 팔의 포즈가 전투 준비 상태를 연상시키며, 메탈릭한 디테일로 수집가들의 주목을 받는다.",,assets/cards/fig_mech_commander_mech.webp
+card_fig_mech_commander_metallic,크롬 커맨더,메탈릭,card,SS,95000,"반사되는 크롬 마감의 메카 커맨더. 무거운 파워 아머와 어깨 캐논을 지닌 쿨한 포즈가 빛을 머금으며, 메탈릭한 디테일로 수집가들의 열광을 불러일으키는 한정판.",,assets/cards/fig_mech_commander_metallic.webp
+card_fig_mech_commander_plush,솜뭉치 커맨더,플러시,card,B,45000,부드러운 플러시 소재가 닿는 듯한 촉감을 가진 메카 커맨더. 무거운 파워 아머와 어깨 캐논을 지닌 쿨한 이미지와 귀여운 뭉실한 포즈의 갭 모에가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_mech_commander_plush.webp
+card_fig_mech_commander_realistic,리얼 커맨더,리얼리스틱,card,A,75000,"실사 같은 디테일과 비례가 돋보이는 메카 커맨더. 무거운 파워 아머와 어깨 캐논을 지닌 쿨한 포즈가 현실감을 더하며, 고품질 아트워크로 수집가들의 주목을 받는다.",,assets/cards/fig_mech_commander_realistic.webp
+card_fig_minotaur_clay,점토의 분노 미노타우로스,클레이,card,A,45000,"점토의 질감이 살아있는 미노타우로스. 뿔에서 튀는 불꽃과 낫을 휘두르는 격렬한 모습이 마치 살아있는 듯한 생동감. 한정판 점토 피규어라니, 집안 구석에 놓으면 매일 보는 풍경이 달라질 거야!",,assets/cards/fig_minotaur_clay.webp
+card_fig_minotaur_mech,크롬 메카노 미노타우로스,메카닉,card,S,85000,강철과 기계의 조화가 살아있는 미노타우로스. 관절이 움직이는 듯한 메카닉 디자인에 크롬 도금 갑옷이 빛을 발한다. 전설의 전사가 되어라!,,assets/cards/fig_minotaur_mech.webp
+card_fig_minotaur_pixel,픽셀 미노타우로스,복셀픽셀,card,B,25000,8비트 게임 속의 전설이 현실로! 블록으로 이루어진 귀여운 미노타우로스가 화면을 가득 채운다. 레트로 감성과 수집가들의 취향을 사로잡는 아이템.,,assets/cards/fig_minotaur_pixel.webp
+card_fig_minotaur_stylized,카툰 미노타우로스,스타일라이즈드,card,C,15000,4个头身 비율의 귀여운 미노타우로스. 마치 만화책 속 캐릭터처럼 생동감 넘치는 포즈와 표정. 집안 장식품으로 최고!,,assets/cards/fig_minotaur_stylized.webp
+card_fig_minotaur_vinyl,글로스 비닐 미노타우로스,바이닐토이,card,A,55000,유광 코팅이 빛나는 디자이너 토이. 미노타우로스의 각진 표정과 세밀한 디테일이 돋보이는 프리미엄 피규어. 수집가들의 사랑을 받는 아이템.,,assets/cards/fig_minotaur_vinyl.webp
+card_fig_mirror_enchantress_chibi,SD 마법소녀 미러,치비,card,C,12000,2个头身 비율의 귀여운 마법소녀. 깨진 프리즘을 통과하는 듯한 신비로운 포즈와 보석 장식이 빛나는 라피어. 집안 구석에 놓으면 매일 보는 풍경이 달라질 거야!,,assets/cards/fig_mirror_enchantress_chibi.webp
+card_fig_mirror_enchantress_clay,점토의 마법소녀 미러,클레이,card,A,45000,"점토의 질감이 살아있는 마법소녀. 뿔에서 튀는 불꽃과 낫을 휘두르는 격렬한 모습이 마치 살아있는 듯한 생동감. 한정판 점토 피규어라니, 집안 구석에 놓으면 매일 보는 풍경이 달라질 거야!",,assets/cards/fig_mirror_enchantress_clay.webp
+card_fig_mirror_enchantress_metallic,크롬 미러 엔챠트레스,메탈릭,card,S,85000,강철과 기계의 조화가 살아있는 미러 엔챠트레스. 관절이 움직이는 듯한 메카닉 디자인에 크롬 도금 갑옷이 빛을 발한다. 전설의 전사가 되어라!,,assets/cards/fig_mirror_enchantress_metallic.webp
+card_fig_mirror_enchantress_plush,솜뭉치 미러 엔챠트레스,플러시,card,B,35000,부드러운 패브릭 질감이 살아있는 마법소녀. 마치 인형처럼 귀여운 표정과 포즈가 매력 포인트. 집안 구석에 놓으면 매일 보는 풍경이 달라질 거야!,,assets/cards/fig_mirror_enchantress_plush.webp
+card_fig_mirror_enchantress_realistic,리얼 미러 엔챠트레스,리얼리스틱,card,S,95000,실제 인물처럼 생동감 넘치는 마법소녀. 세밀한 디테일과 자연스러운 표정이 매력 포인트. 집안 구석에 놓으면 매일 보는 풍경이 달라질 거야!,,assets/cards/fig_mirror_enchantress_realistic.webp
+card_fig_mirror_enchantress_wooden,나무 마법소녀 거울,우드카빙,card,A,45000,"손으로 조각한 나무의 온기가 느껴지는 마법소녀 거울. 깨진 프리즘을 통과하며 미소 짓는 그녀의 표정, 손에 든 보석 장검의 디테일이 나무 결과 어우러져 따뜻하고 신비로운 분위기를 자아냅니다.",,assets/cards/fig_mirror_enchantress_wooden.webp
+card_fig_moon_princess_chibi,달빛 꼬마 공주,치비,card,B,12000,"머리만 두 배 크기의 귀여운 달빛 꼬마 공주가 등장! 달 모양 지팡이를 들고 하늘을 나는 포즈, 은빛 눈동자가 반짝이는 귀여운 매력. 책상 위에 올려두면 매일 보는 데이트 같은 설렘.",,assets/cards/fig_moon_princess_chibi.webp
+card_fig_moon_princess_mech,메탈 달빛 로봇,메카닉,card,S,65000,"메탈릭한 로봇 갑옷을 입은 달빛 공주의 강인한 모습! 관절이 움직이는 듯한 디테일과 반짝이는 크롬 표면에, 차가운 기계미와 은은한 달빛이 어우러져 독특한 스타일리시함을 자랑합니다.",,assets/cards/fig_moon_princess_mech.webp
+card_fig_moon_princess_metallic,크롬 달빛 전사,메탈릭,card,SS,85000,"반사되는 크롬 표면에 달빛이 비치는 전설의 전사! 매끄러운 금속 질감과 은은한 빛이 어우러져 고급스러운 느낌을 줍니다. 손에 든 달 모양 지팡이가 빛을 발하며, 소장 가치가 높은 명품 아이템입니다.",,assets/cards/fig_moon_princess_metallic.webp
+card_fig_moon_princess_pixel,픽셀 달빛 블록,복셀픽셀,card,A,38000,8비트 게임 속의 달빛 공주가 현실로! 저폴리 블록으로 구성된 픽셀 아트 스타일이 귀엽고 개성 넘치는 분위기를 자아냅니다. 레트로 게이머들에게 사랑받는 한정판 아이템으로 소장 가치가 높습니다.,,assets/cards/fig_moon_princess_pixel.webp
+card_fig_moon_princess_plush,솜뭉치 달빛 공주,플러시,card,B,15000,"부드러운 솜뭉치 질감의 달빛 공주 인형! 촉촉한 패브릭 소재가 온기를 담아내며, 달 모양 지팡이를 들고 하늘을 나는 포즈가 더욱 귀여워집니다. 침대 옆에 두면 꿈속의 설렘을 느낄 수 있습니다.",,assets/cards/fig_moon_princess_plush.webp
+card_fig_moon_princess_realistic,리얼 달빛 공주,리얼리스틱,card,SSS,120000,"실사 같은 디테일로 완성된 달빛 공주! 자연스러운 피부 질감과 섬세한 표정, 반짝이는 눈동자가 마치 살아있는 것처럼 생동감을 줍니다. 고급스러운 스튜디오 조명 아래에서 빛나는 명품 피규어입니다.",,assets/cards/fig_moon_princess_realistic.webp
+card_fig_moon_princess_vinyl,글로스 비닐 인형,바이닐토이,card,S,75000,"고광택 비닐 재질의 달빛 공주 디자이너 토이! 매끄러운 표면과 반짝이는 광택이 독특한 분위기를 자아냅니다. 한정판 디자이너 토이 컬렉션에 꼭 필요한 아이템으로, 소장 가치가 높습니다.",,assets/cards/fig_moon_princess_vinyl.webp
+card_fig_moon_princess_wooden,목공 달빛 인형,우드카빙,card,A,42000,"손으로 조각한 목공의 온기가 느껴지는 달빛 인형! 나무 결이 살아있는 듯한 디테일과 따뜻한 색감이 어우러져, 집 장식용으로 완벽한 아이템입니다. 마법소녀의 신비로운 분위기가 나무와 어우러집니다.",,assets/cards/fig_moon_princess_wooden.webp
+card_fig_ninja_kunoichi_chibi,섹시 꼬마 닌자,치비,card,SSS,95000,"2个头 높이의 귀여운 꼬마 닌자가 등장! 손가락 사이로 날카로운 쿠나이를 들고 하늘을 나는 포즈, 날카로운 눈빛이 매력 포인트. 책상 위에 올려두면 매일 보는 데이트 같은 설렘을 줍니다.",,assets/cards/fig_ninja_kunoichi_chibi.webp
+card_fig_ninja_kunoichi_clay,점토의 그림자 닌자,클레이,card,A,45000,"점토의 질감이 묻은 닌자 무술가. 손가락 사이로 날카로운 쿠나이 빛을 머금고, 매끄러운 표면에 흩날리는 가루가 마치 숨결처럼 느껴진다. 역동적인 점프 포즈가 담긴 이 카드는 책상 위에 올려두면 닌자 세계로 초대하는 듯한 설렘을 선사한다.",,assets/cards/fig_ninja_kunoichi_clay.webp
+card_fig_ninja_kunoichi_mech,메탈 닌자 메카,메카닉,card,S,55000,"기계식 관절과 갑옷 판재가 어우러진 닌자 메카. 손가락 사이로 빛나는 쿠나이는 차가운 금속의 냉기를, 역동적인 점프 포즈는 폭발적인 에너지를 숨기고 있다. 메탈릭한 광택이 빛을 머금어, 수집가들의 시선을 사로잡는다.",,assets/cards/fig_ninja_kunoichi_mech.webp
+card_fig_ninja_kunoichi_metallic,크롬 닌자 스피드,메탈릭,card,S,60000,"반사되는 크롬 도금 표면이 빛을 머금고, 손가락 사이로 날카로운 쿠나이가 빛을 발한다. 역동적인 점프 포즈가 담긴 이 카드는 차가운 금속의 냉기와 뜨거운 열기가 교차하는 듯한 매력을 선사한다. 수집가들의 시선을 사로잡는다.",,assets/cards/fig_ninja_kunoichi_metallic.webp
+card_fig_ninja_kunoichi_plush,솜뭉치 닌자,플러시,card,B,35000,"부드러운 플러시 소재가 감싸는 닌자. 손가락 사이로 날카로운 쿠나이가 빛을 머금고, 역동적인 점프 포즈가 담긴 이 카드는 책상 위에 올려두면 따뜻한 포근함을 선사한다. 오타쿠들의 마음을 사로잡는 귀여운 매력 포인트.",,assets/cards/fig_ninja_kunoichi_plush.webp
+card_fig_ninja_kunoichi_realistic,리얼 닌자 워리어,리얼리스틱,card,S,65000,"실사 같은 디테일과 비율이 살아있는 닌자. 손가락 사이로 날카로운 쿠나이가 빛을 머금고, 역동적인 점프 포즈가 담긴 이 카드는 마치 살아있는 듯한 생동감을 선사한다. 수집가들의 시선을 사로잡는 리얼한 매력 포인트.",,assets/cards/fig_ninja_kunoichi_realistic.webp
+card_fig_ninja_kunoichi_stylized,치비 닌자,스타일라이즈드,card,A,40000,"4个头高의 스타일라이즈드 카툰 닌자. 손가락 사이로 날카로운 쿠나이가 빛을 머금고, 역동적인 점프 포즈가 담긴 이 카드는 귀여운 매력과 함께 오타쿠들의 마음을 사로잡는다. 책상 위에 올려두면 매일 설레는 하교길.",,assets/cards/fig_ninja_kunoichi_stylized.webp
+card_fig_ninja_kunoichi_vinyl,글로시 비닐 닌자,바이닐토이,card,S,50000,"광택이 나는 비닐 디자이너 토이 닌자. 손가락 사이로 날카로운 쿠나이가 빛을 머금고, 역동적인 점프 포즈가 담긴 이 카드는 차가운 금속의 냉기와 뜨거운 열기가 교차하는 듯한 매력을 선사한다. 수집가들의 시선을 사로잡는다.",,assets/cards/fig_ninja_kunoichi_vinyl.webp
+card_fig_ninja_kunoichi_wooden,목공 닌자,우드카빙,card,A,45000,"손으로 조각한 목공 아티스트 닌자. 손가락 사이로 날카로운 쿠나이가 빛을 머금고, 역동적인 점프 포즈가 담긴 이 카드는 따뜻한 나무의 감성과 함께 오타쿠들의 마음을 사로잡는다. 책상 위에 올려두면 매일 설레는 하교길.",,assets/cards/fig_ninja_kunoichi_wooden.webp
+card_fig_nurse_android_chibi,SD 간호사 안드로이드,치비,card,A,45000,"2个头高의 슈퍼 데포메이션 간호사 안드로이드. 광택이 나는 의료 비저와 캡슐 주사기를 들고, 부드러운 안심 미소가 매력 포인트. 미래적인 아이돌 매력이 담긴 이 카드는 오타쿠들의 마음을 사로잡는다.",,assets/cards/fig_nurse_android_chibi.webp
+card_fig_nurse_android_clay,점토 간호사 안드로이드,클레이,card,B,40000,"점토의 질감이 묻은 간호사 안드로이드. 광택이 나는 의료 비저와 캡슐 주사기를 들고, 부드러운 안심 미소가 매력 포인트. 점토의 질감이 묻은 이 카드는 오타쿠들의 마음을 사로잡는다.",,assets/cards/fig_nurse_android_clay.webp
+card_fig_nurse_android_mech,메커니컬 메드앤드roid,메카닉,card,B,15000,가장 정밀한 기계 조인트와 광택이 나는 의료 비저를 갖춘 안드로이드 간호사. 미래지향적인 아이돌 매력이 돋보이는 메탈릭한 디자인은 소장 가치가 높습니다.,,assets/cards/fig_nurse_android_mech.webp
+card_fig_nurse_android_metallic,크롬하트 메드앤드,메탈릭,card,A,25000,"반사되는 크롬 도금 갑옷이 빛나는 안드로이드 간호사. 매끄러운 표면에 담긴 부드러운 미소가 차가운 금속과 대비되며, 소장욕을 자극하는 고급스러운 느낌입니다.",,assets/cards/fig_nurse_android_metallic.webp
+card_fig_nurse_android_pixel,픽셀 피규어 메드앤드,복셀픽셀,card,B,12000,"voxel 픽셀 아트 스타일의 저폴리 블록 안드로이드 간호사. 레트로한 감성과 미래지향적인 아이돌 매력이 어우러져, 책상 위에 올려두면 눈이 번쩍이는 귀여운 아이템입니다.",,assets/cards/fig_nurse_android_pixel.webp
+card_fig_nurse_android_plush,솜뭉치 메드앤드,플러시,card,C,8000,"부드러운 플러시 소재로 만들어진 메드앤드 간호사. 촉촉한 천 질감과 광택 비저가 어우러져, 손에 쥘 때 느껴지는 온기와 미래지향적인 아이돌 매력이 매력 포인트입니다.",,assets/cards/fig_nurse_android_plush.webp
+card_fig_nurse_android_realistic,리얼 메드앤드,리얼리스틱,card,S,45000,"실사급 디테일과 비례를 갖춘 안드로이드 간호사. 고해상도 렌더링으로 구현된 생동감 있는 표정과 미래지향적인 아이돌 매력이 돋보이며, 소장 가치가 높은 프리미엄 아이템입니다.",,assets/cards/fig_nurse_android_realistic.webp
+card_fig_nurse_android_stylized,카툰 메드앤드,스타일라이즈드,card,C,7000,"4个头身 비율의 스타일리시한 카툰 안드로이드 간호사. 과장된 캐릭터 디자인과 미래지향적인 아이돌 매력이 어우러져, 오타쿠 감성에 딱 맞는 귀여운 아이템입니다.",,assets/cards/fig_nurse_android_stylized.webp
+card_fig_nurse_android_vinyl,비닐 메드앤드,바이닐토이,card,A,35000,"광택 비닐 디자이너 토이 스타일의 안드로이드 간호사. 컬렉터블한 디자인과 미래지향적인 아이돌 매력이 어우러져, 소장 가치가 높은 프리미엄 아이템입니다.",,assets/cards/fig_nurse_android_vinyl.webp
+card_fig_nurse_android_wooden,우드 메드앤드,우드카빙,card,A,40000,"손으로 조각한 우드 포크 아트 스타일의 안드로이드 간호사. 자연스러운 나무 질감과 미래지향적인 아이돌 매력이 어우러져, 독특한 감성을 가진 프리미엄 아이템입니다.",,assets/cards/fig_nurse_android_wooden.webp
+card_fig_office_secret_agent_chibi,치비 비밀요원,치비,card,C,7000,"2个头身 비율의 슈퍼데포메드 오피스 레이디 비밀요원. 안경 아래 숨겨진 권총과 composed killer smile 이 매력 포인트이며, 책상 위에 올려두면 매일 설레는 하교길.",,assets/cards/fig_office_secret_agent_chibi.webp
+card_fig_office_secret_agent_mech,메커니컬 비밀요원,메카닉,card,A,25000,"기계식 관절과 갑옷이 달린 오피스 레이디 비밀요원. 안경 아래 숨겨진 권총과 composed killer smile 이 매력 포인트이며, 미래지향적인 아이돌 매력이 돋보이는 프리미엄 아이템입니다.",,assets/cards/fig_office_secret_agent_mech.webp
+card_fig_office_secret_agent_pixel,픽셀 오피스 에이전트,복셀픽셀,card,A,45000,8비트 리트로 감성의 픽셀 아트. 사각형 블록으로 구성된 그녀의 표정 하나하나가 귀엽고 위험해. 책상 위에 올려두면 게임 캐릭터처럼 살아있는 듯한 매력!,,assets/cards/fig_office_secret_agent_pixel.webp
+card_fig_office_secret_agent_plush,솜뭉치 오피스 에이전트,플러시,card,B,35000,부드러운 플러시 소재로 만든 귀여운 미소녀. 숨겨진 권총과 대비되는 천진난만한 표정이 매력 포인트. 책상 위의 작은 친구로 완벽한 데코레이션!,,assets/cards/fig_office_secret_agent_plush.webp
+card_fig_office_secret_agent_realistic,리얼 오피스 에이전트,리얼리스틱,card,S,85000,"초현실적인 디테일과 생동감 넘치는 표정. 안경 내려가는 순간의 긴장감이 실감나며, 책상 위에 올려두면 마치 그녀가 사무실에 온 듯 설레는 하루!",,assets/cards/fig_office_secret_agent_realistic.webp
+card_fig_office_secret_agent_vinyl,글로시 비닐 오피스 에이전트,바이닐토이,card,S,95000,고광택 비닐 소재가 빛을 반사하며 고급스러운 느낌을 줌. 디자이너 토이 같은 세련된 디자인과 위험한 미소까지 완벽 재현. 수집가들의 선택!,,assets/cards/fig_office_secret_agent_vinyl.webp
+card_fig_office_secret_agent_wooden,우드 오피스 에이전트,우드카빙,card,SS,120000,"수공예 목재로 조각된 따뜻한 느낌의 오피스 에이전트. 자연스러운 나무 문양과 위험한 미소가 대비되며, 책상 위에 올려두면 감성적인 분위기를 연출!",,assets/cards/fig_office_secret_agent_wooden.webp
+card_fig_oni_girl_chibi,SD 온이 걸,치비,card,A,40000,두个头높이의 귀여운 SD 버전! 작은 뿔과 가시 낫을 어깨에 기대고 있는 표정이 너무 귀엽고 위험해. 방과 후 비밀 임무 준비 중인 듯한 매력!,,assets/cards/fig_oni_girl_chibi.webp
+card_fig_oni_girl_clay,클레이 온이 걸,클레이,card,A,45000,점토로 빚어진 따뜻한 느낌의 온이 걸. 매끄러운 표면과 생동감 넘치는 표정이 매력 포인트. 책상 위에 올려두면 마치 그녀가 방과 후 비밀 임무 준비 중인 듯!,,assets/cards/fig_oni_girl_clay.webp
+card_fig_oni_girl_mech,메카 온이 걸,메카닉,card,S,95000,로봇 관절과 갑옷이 달린 메카 버전! 강철과 온이 걸의 매력이 어우러진 독특한 디자인. 방과 후 비밀 임무 준비 중인 듯한 위험한 매력!,,assets/cards/fig_oni_girl_mech.webp
+card_fig_oni_girl_metallic,크롬 온이 걸,메탈릭,card,SS,110000,반짝이는 크롬 도금 갑옷이 빛을 반사하며 고급스러운 느낌. 작은 뿔과 가시 낫을 어깨에 기대고 있는 표정이 너무 매력적. 수집가들의 선택!,,assets/cards/fig_oni_girl_metallic.webp
+card_fig_oni_girl_pixel,픽셀 온이 걸,복셀픽셀,card,A,45000,8비트 리트로 감성의 픽셀 아트! 사각형 블록으로 구성된 그녀의 표정 하나하나가 귀엽고 위험해. 책상 위에 올려두면 게임 캐릭터처럼 살아있는 듯한 매력!,,assets/cards/fig_oni_girl_pixel.webp
+card_fig_oni_girl_plush,뭉실 오니 소녀,플러시,card,C,5000,"화려한 축제 의상과 작은 뿔을 가진 귀여운 오니 소녀. 부드러운 플러시 소재가 주는 포근한 감촉과 미소녀의 매력이 어우러져, 책상 위에 올려두면 매일 기분 좋은 하루를 선사해 줍니다.",,assets/cards/fig_oni_girl_plush.webp
+card_fig_oni_girl_realistic,리얼 오니 여신,리얼리스틱,card,A,25000,"살아있는 듯한 디테일과 날카로운 이빨, 그리고 오니 소녀의 야생적인 매력을 완벽하게 재현. 고해상도 렌더링으로 구현된 생동감 넘치는 표정과 의상 디테일이 수집가들의 눈을 사로잡습니다.",,assets/cards/fig_oni_girl_realistic.webp
+card_fig_oni_girl_stylized,꼬마 오니 전사,스타일라이즈드,card,B,10000,4个头身 비율의 귀여운 스타일링이 돋보이는 오니 소녀. 장난기 많은 표정과 카나보 무기까지 완벽하게 표현한 일러스트 카드. 오타쿠들의 취향을 정확히 파악한 귀여운 디자인입니다.,,assets/cards/fig_oni_girl_stylized.webp
+card_fig_oni_girl_vinyl,글로스 오니 바디,바이닐토이,card,S,55000,"유리 질감의 광택이 반짝이는 비닐 장난감 스타일의 오니 소녀. 디자이너 토이 느낌을 살린 세련된 디자인과 축제 의상의 디테일이 어우러져, 소장 가치가 높은 한정판 아이템입니다.",,assets/cards/fig_oni_girl_vinyl.webp
+card_fig_oni_girl_wooden,목공 오니 장인,우드카빙,card,SS,85000,"손으로 조각한 듯한 따뜻한 목재 질감의 오니 소녀. 전통 공예와 현대 애니메이션이 결합된 독특한 매력으로, 책상 위에 놓으면 예술 작품 같은 느낌을 줍니다. 한정판으로 수집 가치가 높습니다.",,assets/cards/fig_oni_girl_wooden.webp
+card_fig_pirate_king_clay,점토 해적 왕,클레이,card,B,15000,"매트 마감의 점토 조각으로 완성된 해적 왕. 바람에 휘날리는 코트와 야생적인 미소, 그리고 손에 든 화약총의 디테일이 살아있는 듯한 생동감을 줍니다. 수집가들의 사랑을 받을 만한 작품입니다.",,assets/cards/fig_pirate_king_clay.webp
+card_fig_pirate_king_metallic,크롬 해적 왕,메탈릭,card,SSS,120000,반짝이는 크롬 도금 갑옷을 입은 불굴의 해적 왕. 빛을 반사하는 광택과 날카로운 표정이 압도적인 카리스마를 뿜어냅니다. 소장품 중에서도 가장 눈에 띄는 고급스러운 아이템입니다.,,assets/cards/fig_pirate_king_metallic.webp
+card_fig_pirate_king_pixel,픽셀 해적 장군,복셀픽셀,card,A,20000,로폴리 블록으로 이루어진 픽셀 아트 스타일의 해적 왕. 레트로 게임 감성과 현대적인 디자인이 어우러진 독특한 매력. 책상 위에 놓으면 게임 캐릭터가 살아있는 듯한 느낌을 줍니다.,,assets/cards/fig_pirate_king_pixel.webp
+card_fig_pirate_king_realistic,리얼 해적 왕자,리얼리스틱,card,S,45000,"살아있는 듯한 디테일과 풍성한 코트, 그리고 날카로운 표정이 어우러진 리얼리티 해적 왕. 고해상도 렌더링으로 구현된 생동감 넘치는 표정과 의상 디테일이 수집가들의 눈을 사로잡습니다.",,assets/cards/fig_pirate_king_realistic.webp
+card_fig_pirate_king_stylized,꼬마 해적 왕자,스타일라이즈드,card,C,8000,4个头身 비율의 귀여운 스타일링이 돋보이는 해적 왕. 장난기 많은 표정과 카나보 무기까지 완벽하게 표현한 일러스트 카드. 오타쿠들의 취향을 정확히 파악한 귀여운 디자인입니다.,,assets/cards/fig_pirate_king_stylized.webp
+card_fig_pirate_king_vinyl,크롬바디 해적킹,바이닐토이,card,A,89000,"바럴 위에서 총을 든 해적킹의 야성적인 미소가 매력 포인트. 광택 비닐 재질이 실루엣을 더 돋보이게 하며, 책상 위에 올려두면 눈이 번쩍 뜨이는 쿨한 액세서리.",,assets/cards/fig_pirate_king_vinyl.webp
+card_fig_pirate_king_wooden,목재의 심장 해적킹,우드카빙,card,B,65000,손으로 조각한 목재의 온기가 느껴지는 해적킹. 거친 질감과 진한 표정이 완벽한 조화를 이룬다. 한정판 목재 재질의 수집가들을 위한 특별한 아이템.,,assets/cards/fig_pirate_king_wooden.webp
+card_fig_pirate_siren_chibi,뽀빠이 해적시렌,치비,card,C,35000,2个头身 치비 사이즈로 귀여운 매력 폭발! 보석 장식의 검과 함께 재즈한 표정으로 시선을 사로잡는다. 책상 위에 올려두면 하루 종일 웃음만 자는 아이템.,,assets/cards/fig_pirate_siren_chibi.webp
+card_fig_pirate_siren_clay,점토의 심연 해적시렌,클레이,card,C,35000,점토의 질감이 살아있는 해적시렌. 무딘 광택과 흙내음이 느껴지는 재질감이 독특한 분위기를 자아낸다. 손으로 만져보고 싶은 따뜻한 감성.,,assets/cards/fig_pirate_siren_clay.webp
+card_fig_pirate_siren_mech,메카바디 해적시렌,메카닉,card,B,75000,로봇 관절과 갑옷이 결합된 메카 버전 해적시렌. 차가운 금속의 냉기와 뜨거운 시선이 교차하는 갭 모에가 매력 포인트. 수집가들의 주목을 받는 아이템.,,assets/cards/fig_pirate_siren_mech.webp
+card_fig_pirate_siren_metallic,크롬하트 해적시렌,메탈릭,card,S,120000,"반사되는 크롬 표면이 빛을 머금어 마치 살아있는 듯해 보임. 거울처럼 빛나는 재질이 고급스러운 분위기를 자아내며, 소장 가치가 높은 한정판.",,assets/cards/fig_pirate_siren_metallic.webp
+card_fig_pirate_siren_pixel,픽셀바디 해적시렌,복셀픽셀,card,C,35000,"로폴리 블록이 모여든 픽셀 아트 버전 해적시렌. 레트로 게임 감성이 살아있는 디자인으로, 디지털 네이티브 세대에게 특히 인기 있는 아이템.",,assets/cards/fig_pirate_siren_pixel.webp
+card_fig_pirate_siren_plush,솜뭉치 해적시렌,플러시,card,C,35000,"부드러운 플러시 소재가 감싸는 해적시렌. 촉촉한 촉감이 매력적인 귀여운 버전으로, 침대 옆이나 소파 위에 놓아두면 힐링되는 아이템.",,assets/cards/fig_pirate_siren_plush.webp
+card_fig_pirate_siren_realistic,리얼바디 해적시렌,리얼리스틱,card,SS,150000,초현실적인 디테일로 완성된 리얼 버전 해적시렌. 피부의 질감과 빛의 반사가 완벽하게 재현되어 마치 살아있는 듯한 생동감이 느껴짐.,,assets/cards/fig_pirate_siren_realistic.webp
+card_fig_pirate_siren_stylized,카툰바디 해적시렌,스타일라이즈드,card,C,35000,4个头身 카툰 스타일의 해적시렌. 과장된 비율과 귀여운 표정이 매력 포인트. 만화책 속 캐릭터가 현실로 나타나는 듯한 환상적인 아이템.,,assets/cards/fig_pirate_siren_stylized.webp
+card_fig_pirate_siren_vinyl,보석검 해적시렌,바이닐토이,card,A,55000,"보석장식된 검을 쥔 해적시렌이 보물더미 위에서 유혹적인 시선으로 당신을 부른다. 매끄러운 비닐 재질의 광택이 고급스러움을 더하며, 한 장의 카드를 소유하면 바로 팬을 사로잡을 수 있는 섹시한 매력 포인트!",,assets/cards/fig_pirate_siren_vinyl.webp
+card_fig_pirate_siren_wooden,산림공예 해적시렌,우드카빙,card,B,45000,"손으로 조각한 나무 공예품이 주는 따뜻하고 자연스러운 질감. 해적시렌의 바람에 날린 머리카락과 보석장식된 검 디테일이 살아있는 일러스트 느낌의 카드로, 책상 위에 올려두면 매일 보는 것만으로도 힐링이 되는 명품!",,assets/cards/fig_pirate_siren_wooden.webp
+card_fig_plague_doctor_chibi,두개 머리 초소형 의사,치비,card,C,35000,두个头 높이의 귀여운 초소형 디자인! 공포스러운 마스크를 쓴 해골 의사가 등불을 들고 고개를 숙인 모습. 귀여운 체형과 미스터리한 분위기가 어우러진 컬렉션의 하이라이트가 될 거야!,,assets/cards/fig_plague_doctor_chibi.webp
+card_fig_plague_doctor_clay,점토 조각의 공포,클레이,card,B,45000,매트 마감의 점토 조각이 주는 차분하고 우아한 느낌. 해골 의사의 등불과 새 마스크 디테일이 섬세하게 표현된 일러스트 카드. 집안 장식용으로 완벽한 분위기를 연출하는 컬렉션의 핵심 아이템!,,assets/cards/fig_plague_doctor_clay.webp
+card_fig_plague_doctor_metallic,크롬 도금 해골의사,메탈릭,card,SS,120000,"반사되는 크롬 도금 표면이 빛나는 초고급 일러스트! 공포의 마스크와 등불이 은은하게 빛나며, 소름이 돋을 듯한 기괴한 매력이 가득. 한정판 느낌의 고급스러운 소장품으로, 팬들의 시선을 사로잡을 거야!",,assets/cards/fig_plague_doctor_metallic.webp
+card_fig_plague_doctor_pixel,voxel 픽셀 아티스트,복셀픽셀,card,C,35000,voxel 픽셀 아트 스타일로 표현된 블록 같은 해골 의사! 게임과 만화 팬들에게 사랑받는 레트로한 감성이 살아있는 일러스트. 독특한 디자인과 낮은 다면체 느낌의 일러스트가 컬렉션의 포인트가 될 거야!,,assets/cards/fig_plague_doctor_pixel.webp
+card_fig_plague_doctor_plush,솜뭉치 해골의사,플러시,card,C,38000,"부드러운 플러시 재질의 솜뭉치 느낌! 공포스러운 마스크와 등불을 쥔 해골 의사가 귀엽게 변신한 일러스트. 집안 어디에나 두기 좋은 귀여운 컬렉션 아이템으로, 팬들의 마음을 사로잡을 거야!",,assets/cards/fig_plague_doctor_plush.webp
+card_fig_plague_doctor_realistic,리얼리스틱 해골의사,리얼리스틱,card,S,85000,"실사 같은 디테일로 표현된 해골 의사의 일러스트! 공포스러운 눈빛과 등불의 불빛이 생생하게 살아있는 리얼한 일러스트. 소장 가치가 높은 프리미엄 일러스트 카드, 팬들의 수집 욕구를 자극할 거야!",,assets/cards/fig_plague_doctor_realistic.webp
+card_fig_plague_doctor_stylized,카툰 해골의사,스타일라이즈드,card,B,45000,"4个头 높이의 카툰 스타일로 표현된 귀여운 해골 의사! 공포와 귀여움이 공존하는 일러스트로, 책상 위에 올려두면 매일 보는 것만으로도 설레는 일러스트. 팬들의 사랑을 받는 귀여운 컬렉션 아이템!",,assets/cards/fig_plague_doctor_stylized.webp
+card_fig_plague_doctor_vinyl,비닐 디자이너 해골의사,바이닐토이,card,A,55000,광택 있는 비닐 디자이너 토이 느낌의 일러스트! 공포스러운 마스크와 등불이 빛나는 고급스러운 일러스트. 한 장의 카드를 소유하면 바로 팬을 사로잡을 수 있는 섹시한 매력 포인트!,,assets/cards/fig_plague_doctor_vinyl.webp
+card_fig_plague_doctor_wooden,목재 악마의 의장,우드카빙,card,A,45000,"고대 목공예의 정수, 손으로 조각한 공포의 의장. 어둠 속을 비추는 랜턴과 새 얼굴 가면이 신비로운 분위기를 자아내며, 집안 장식용으로도 완벽한 컬렉션 아이템.",,assets/cards/fig_plague_doctor_wooden.webp
+card_fig_punk_guitarist_chibi,꼬마 펑크 기타리스트,치비,card,B,12000,"2个头 높이의 귀여운 SD 스타일, 펑크 기타리스트가 리프를 치며 반항적인 미소를 짓는 모습. 방과 후 비밀 밴드 연습실에 올려두면 매일 설레는 하교길.",,assets/cards/fig_punk_guitarist_chibi.webp
+card_fig_punk_guitarist_mech,로봇 펑크 기타리스트,메카닉,card,S,55000,"기계 관절과 갑옷이 결합된 펑크 기타리스트. 메탈릭한 로봇 외골격과 거대한 앰프 체인이 어우러져, 사이버펑크 감성의 반항적인 매력을 뽐낸다.",,assets/cards/fig_punk_guitarist_mech.webp
+card_fig_punk_guitarist_metallic,크롬 펑크 기타리스트,메탈릭,card,S,65000,"반사되는 크롬 도금 표면이 빛을 머금은 펑크 기타리스트. 거울 같은 광택과 강렬한 리프 포즈가 어우러져, 차가운 금속의 열정을 느끼게 하는 한정판.",,assets/cards/fig_punk_guitarist_metallic.webp
+card_fig_punk_guitarist_stylized,카툰 펑크 기타리스트,스타일라이즈드,card,C,8000,"4个头 높이의 과장된 카툰 스타일, 펑크 기타리스트가 리프를 치며 반항적인 미소를 짓는 모습. 방과 후 비밀 밴드 연습실에 올려두면 매일 설레는 하교길.",,assets/cards/fig_punk_guitarist_stylized.webp
+card_fig_punk_guitarist_vinyl,빈티지 펑크 기타리스트,바이닐토이,card,A,42000,"광택이 나는 비닐 장난감 스타일의 펑크 기타리스트. 디자이너 토이 감성의 매끄러운 표면과 반항적인 미소가 어우러져, 컬렉터들의 사랑을 받는 한정판.",,assets/cards/fig_punk_guitarist_vinyl.webp
+card_fig_punk_guitarist_wooden,목공 펑크 기타리스트,우드카빙,card,A,40000,"손으로 조각한 목공 예술의 정수, 펑크 기타리스트가 리프를 치며 반항적인 미소를 짓는 모습. 고전적인 목재의 온기와 펑크 감성이 어우러진 컬렉션.",,assets/cards/fig_punk_guitarist_wooden.webp
+card_fig_sailor_uniform_ace_chibi,꼬마 해군 윙크,치비,card,B,12000,"2个头 높이의 귀여운 SD 스타일, 해군 유니폼을 입은 여학생이 야구 배트를 휘두르며 활기찬 미소를 짓는 모습. 방과 후 비밀 야구 연습장에 올려두면 매일 설레는 하교길.",,assets/cards/fig_sailor_uniform_ace_chibi.webp
+card_fig_sailor_uniform_ace_clay,점토 해군 윙크,클레이,card,A,42000,"매트 마감의 점토 조각, 해군 유니폼을 입은 여학생이 야구 배트를 휘두르며 활기찬 미소를 짓는 모습. 점토의 따뜻한 질감과 학교 생활의 추억이 어우러진 컬렉션.",,assets/cards/fig_sailor_uniform_ace_clay.webp
+card_fig_sailor_uniform_ace_mech,로봇 해군 윙크,메카닉,card,S,55000,"기계 관절과 갑옷이 결합된 해군 윙크. 메탈릭한 로봇 외골격과 거대한 야구 배트가 어우러져, 사이버펑크 감성의 활기찬 매력을 뽐낸다.",,assets/cards/fig_sailor_uniform_ace_mech.webp
+card_fig_sailor_uniform_ace_metallic,크롬하트 베이스볼 여신,메탈릭,card,A,120000,"반짝이는 크롬 갑옷을 입은 베이스볼 여신! 어깨에 낀 베이스볼 배트를 휘두르는 그녀의 역동적인 포즈는 수집가들의 시선을 사로잡는다. 메탈릭 광택이 돋보이는 한정판 카드, 책상 위에 놓으면 매일 새로운 영감을 준다.",,assets/cards/fig_sailor_uniform_ace_metallic.webp
+card_fig_sailor_uniform_ace_pixel,픽셀히어로 베이스볼 소녀,복셀픽셀,card,B,45000,8비트 게임 속의 영웅처럼 귀엽고 개성 있는 픽셀 아트 스타일! 블록으로 구성된 캐릭터가 베이스볼 배트를 휘두르는 모습이 마치 리트로 게임의 보너스 아이템처럼 매력적이다. 게임 팬들에게 인기 있는 아이템.,,assets/cards/fig_sailor_uniform_ace_pixel.webp
+card_fig_sailor_uniform_ace_plush,솜뭉치 베이스볼 미소녀,플러시,card,B,35000,"부드러운 솜뭉치 재질의 옷감이 매력적인 귀여운 캐릭터! 베이스볼 배트를 들고 있는 포즈가 귀엽고, 만화책 속 캐릭터처럼 따뜻한 분위기를 자아낸다. 선물용이나 소장용으로 완벽한 선택.",,assets/cards/fig_sailor_uniform_ace_plush.webp
+card_fig_sailor_uniform_ace_realistic,리얼베이스볼 여신,리얼리스틱,card,S,150000,실사 영화 속 주인공처럼 생동감 넘치는 리얼한 디테일! 베이스볼 유니폼의 주름과 표정까지 정교하게 재현한 일러스트는 마치 캐릭터가 살아있는 듯한 착각을 불러일으킨다. 수집가들의 눈높이에 딱 맞는 명품 카드.,,assets/cards/fig_sailor_uniform_ace_realistic.webp
+card_fig_sailor_uniform_ace_stylized,애니스타 베이스볼 아이돌,스타일라이즈드,card,A,100000,4个头身比例的可爱卡通风格！贝斯球棒在肩上旋转，充满活力的笑容和充满自信的眼神，仿佛随时准备在舞台上闪耀登场。收藏家们喜爱的动漫风格卡片，摆在书架上就能提升整体氛围。,,assets/cards/fig_sailor_uniform_ace_stylized.webp
+card_fig_sakura_spellblade_chibi,SD 마법소녀 사쿠라,치비,card,C,30000,2个头身比例的超可爱Q版造型！花瓣覆盖的太刀和魔法符文，优雅而坚定的眼神，仿佛随时准备发动华丽的魔法攻击。收藏家们喜爱的可爱风格卡片，摆在书架上就能提升整体氛围。,,assets/cards/fig_sakura_spellblade_chibi.webp
+card_fig_sakura_spellblade_clay,클레이 마법소녀 사쿠라,클레이,card,B,50000,점토 조각품 같은 마티드 마티스! 마법소녀 사쿠라의 얼굴과 옷감이 점토의 질감을 그대로 재현한 독특한 일러스트. 마법소녀의 미소와 칼끝이 어우러진 귀여운 포즈가 매력 포인트. 수집가들에게 사랑받는 한정판 아이템.,,assets/cards/fig_sakura_spellblade_clay.webp
+card_fig_sakura_spellblade_mech,로봇소녀 사쿠라,메카닉,card,S,130000,메커니컬한 관절과 갑옷이 결합된 사이보그 마법소녀! 사쿠라가 꽃잎과 함께 칼을 휘두르는 모습이 기계와 마법의 조화로움을 보여준다. 메카닉과 마법소녀의 결합을 원하는 수집가들에게 추천하는 한정판 카드.,,assets/cards/fig_sakura_spellblade_mech.webp
+card_fig_sakura_spellblade_metallic,크롬마법사쿠라,메탈릭,card,A,120000,"반짝이는 크롬 표면이 빛나는 마법소녀! 칼날에 새겨진 룬 문양이 은은하게 빛나며, 마법소녀의 신비로운 분위기를 극대화한다. 메탈릭 광택이 돋보이는 한정판 카드, 책상 위에 놓으면 매일 새로운 영감을 준다.",,assets/cards/fig_sakura_spellblade_metallic.webp
+card_fig_sakura_spellblade_pixel,픽셀사쿠라,복셀픽셀,card,B,45000,8비트 게임 속의 영웅처럼 귀엽고 개성 있는 픽셀 아트 스타일! 블록으로 구성된 캐릭터가 칼을 들고 있는 모습이 마치 리트로 게임의 보너스 아이템처럼 매력적이다. 게임 팬들에게 인기 있는 아이템.,,assets/cards/fig_sakura_spellblade_pixel.webp
+card_fig_sakura_spellblade_plush,솜뭉치 사쿠라 마법검,플러시,card,C,5000,"화려한 벚꽃잎이 날리는 마법소녀 사쿠라. 부드러운 플러시 소재가 캐릭터의 온기를 더해, 집안 어디든 사랑스러운 존재가 됩니다. 손에 쥘 때마다 벚꽃 향기가 느껴지는 듯한 매력!",,assets/cards/fig_sakura_spellblade_plush.webp
+card_fig_sakura_spellblade_realistic,리얼 사쿠라 마법검,리얼리스틱,card,A,45000,"실제처럼 생동감 넘치는 표정과 디테일. 마법소녀 사쿠라의 매력을 2D 일러스트로 완벽 재현한 한정판 카드. 책상 위에 올려두면 매일 보는 즐거움, 수집가들의 필수템!",,assets/cards/fig_sakura_spellblade_realistic.webp
+card_fig_sakura_spellblade_stylized,카툰 사쿠라 마법검,스타일라이즈드,card,B,12000,"4个头身 비율의 귀여운 스타일링. 마법소녀 사쿠라의 활기찬 에너지가 느껴지는 일러스트 카드. 색감은 선명하고 포즈는 역동적, 오타쿠 감성에 딱 맞는 귀여운 아이템!",,assets/cards/fig_sakura_spellblade_stylized.webp
+card_fig_sakura_spellblade_vinyl,글로시 사쿠라 마법검,바이닐토이,card,S,85000,유리처럼 반짝이는 글로시 비닐 마감. 마법소녀 사쿠라의 우아함과 세련미를 한눈에 보여주는 한정판 카드. 빛을 받아 반짝이는 광택이 소장 가치를 높여줍니다.,,assets/cards/fig_sakura_spellblade_vinyl.webp
+card_fig_sakura_spellblade_wooden,목조 사쿠라 마법검,우드카빙,card,SS,120000,수공예 목재로 만든 따뜻한 감성의 일러스트. 마법소녀 사쿠라의 자연스러운 매력을 목재의 결과 함께 담아낸 한정판 카드. 집안 장식용으로 최고!,,assets/cards/fig_sakura_spellblade_wooden.webp
+card_fig_samurai_mech_chibi,꼬마 사모라이 메카,치비,card,C,5000,2个头身 비율의 귀여운 SD 디자인. 사모라이 메카의 에너지 검과 빛나는 카부토가 귀엽게 표현된 일러스트 카드. 게임 캐릭터로 소장하기 좋은 귀여운 아이템!,,assets/cards/fig_samurai_mech_chibi.webp
+card_fig_samurai_mech_clay,점토 사모라이 메카,클레이,card,B,15000,매트 포인트를 가진 점토 스타일의 일러스트. 사모라이 메카의 거친 감성과 예술성이 느껴지는 한정판 카드. 손에 쥘 때마다 점토의 질감이 느껴지는 독특한 매력!,,assets/cards/fig_samurai_mech_clay.webp
+card_fig_samurai_mech_mech,메카닉 사모라이 메카,메카닉,card,A,45000,정밀하게 조립된 관절과 갑옷 디테일. 사모라이 메카의 기계적 아름다움이 일러스트로 완벽 재현된 한정판 카드. 메카닉 팬이라면 반드시 소장해야 할 아이템!,,assets/cards/fig_samurai_mech_mech.webp
+card_fig_samurai_mech_metallic,크롬 사모라이 메카,메탈릭,card,S,95000,반사되는 크롬 도금 표면이 빛을 받아 화려하게 빛남. 사모라이 메카의 불멸의 전사처럼 느껴지는 고급스러운 일러스트 카드. 소장가치가 높은 한정판!,,assets/cards/fig_samurai_mech_metallic.webp
+card_fig_samurai_mech_pixel,픽셀 사모라이 메카,복셀픽셀,card,SSS,150000,8비트 픽셀 아트의 레트로 감성. 사모라이 메카의 블록비트한 매력과 에너지 검이 일러스트로 재현된 한정판 카드. 게임 팬이라면 반드시 소장해야 할 아이템!,,assets/cards/fig_samurai_mech_pixel.webp
+card_fig_samurai_mech_plush,솜뭉치 사무라이 메카,플러시,card,B,12000,"부드러운 플러시 재질의 사무라이 메카가 에너지를 품은 검을 휘두르며 용맹한 포즈를 취해. 촉촉한 털감에 따뜻한 감성이 느껴져, 책상 위에 올려두면 마음이 따뜻해지는 한정판 소품.",,assets/cards/fig_samurai_mech_plush.webp
+card_fig_samurai_mech_realistic,리얼 사무라이 메카,리얼리스틱,card,A,25000,"실제 메카닉의 디테일을 완벽 재현한 리얼리스틱 카드. 헬멧의 각진 디자인과 에너지 검의 빛이 빛나며, 사무라이의 위엄과 기계의 정교함이 어우러진 컬렉터블 아이템.",,assets/cards/fig_samurai_mech_realistic.webp
+card_fig_samurai_mech_stylized,4D 카툰 사무라이 메카,스타일라이즈드,card,C,4000,4个头身 비율의 귀여운 카툰 스타일 사무라이 메카. 과장된 포즈와 밝은 색감이 매력적인 일러스트 카드. 메카의 무겁기보다 귀여운 면모를 보여주는 한정판 일러스트.,,assets/cards/fig_samurai_mech_stylized.webp
+card_fig_samurai_mech_vinyl,글로스 비닐 사무라이 메카,바이닐토이,card,B,18000,"광택이 나는 비닐 재질의 디자이너 토이 느낌 사무라이 메카. 매끄러운 표면과 반짝이는 헬멧이 고급스러운 느낌을 주며, 메카닉 컬렉터들에게 인기 있는 한정판.",,assets/cards/fig_samurai_mech_vinyl.webp
+card_fig_samurai_mech_wooden,수제 목공 사무라이 메카,우드카빙,card,A,28000,"손으로 조각한 나무 재질의 사무라이 메카. 따뜻한 나무 향과 고전적인 디자인이 어우러져, 메카의 미래감에 옹기종기함을 더한 한정판 소품.",,assets/cards/fig_samurai_mech_wooden.webp
+card_fig_samurai_princess_chibi,SD 사무라이 공주,치비,card,C,3000,2个头身 비율의 초특급 변형 사무라이 공주. 귀여운 표정과 용감한 눈빛이 매력적인 미소녀 일러스트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_samurai_princess_chibi.webp
+card_fig_samurai_princess_clay,클레이 사무라이 공주,클레이,card,B,15000,점토 조각의 따뜻한 질감이 느껴지는 사무라이 공주. 손으로 만든 듯한 불완전함이 오히려 매력적인 일러스트. 공주의 고귀함과 흙의 따뜻함이 어우러진 한정판.,,assets/cards/fig_samurai_princess_clay.webp
+card_fig_samurai_princess_metallic,크롬 사무라이 공주,메탈릭,card,A,22000,반짝이는 크롬 도금의 사무라이 공주. 헬멧과 갑옷이 빛을 반사하며 고급스러운 분위기를 자아내는 일러스트. 메탈릭한 광택이 매력적인 한정판.,,assets/cards/fig_samurai_princess_metallic.webp
+card_fig_samurai_princess_pixel,픽셀 사무라이 공주,복셀픽셀,card,C,4000,8비트 픽셀 아트의 레트로 감성이 살아있는 사무라이 공주. 블로키한 디자인과 귀여운 포즈가 어우러진 일러스트. 게임 팬들에게 인기 있는 한정판.,,assets/cards/fig_samurai_princess_pixel.webp
+card_fig_samurai_princess_plush,솜뭉치 사무라이 공주,플러시,card,B,12000,부드러운 플러시 재질의 사무라이 공주. 따뜻한 털감에 귀여운 표정이 매력적인 일러스트. 책상 위에 올려두면 마음이 따뜻해지는 한정판 소품.,,assets/cards/fig_samurai_princess_plush.webp
+card_fig_samurai_princess_realistic,실사 미소녀 사무라이 공주,리얼리스틱,card,S,120000,"고급스러운 도금 갑옷에 빛나는 눈빛, 한 손에 든 나뭇잎 검이 품위와 살기를 동시에 뿜어낸다. 실사 렌더링의 디테일한 질감이 마치 살아있는 듯해, 책상 위에 올려두면 매일 아침 눈을 뜨는 순간 설레는 감동을 선사한다.",,assets/cards/fig_samurai_princess_realistic.webp
+card_fig_samurai_princess_vinyl,글로스 비닐 사무라이 공주,바이닐토이,card,A,85000,"유광 비닐 코팅이 빛을 받아 반짝이는 프리미엄 디자인 토이. 고급스러운 광택과 세련된 실루엣이 돋보이는 이 아이템은, 컬렉터들의 눈길을 사로잡을 고급스러운 감성을 품고 있다.",,assets/cards/fig_samurai_princess_vinyl.webp
+card_fig_samurai_princess_wooden,수공 목공 사무라이 공주,우드카빙,card,B,45000,"손으로 조각한 따뜻한 나무 향기가 느껴지는 민속 예술작품. 고전적인 미소녀 사무라이의 우아함과 나무의 자연스러운 결이 어우러져, 한 점 한 점 소중함을 더한다.",,assets/cards/fig_samurai_princess_wooden.webp
+card_fig_samurai_ronin_chibi,SD 사무라이 로닌,치비,card,C,25000,"두个头높이의 귀여운 초상화! 이아이도 자세를 취한 차비 사무라이는 차분하고 엄숙한 표정으로, 집안 구석구석에 두어도 귀여운 분위기를 연출한다. 컬렉터들의 마음을 사로잡을 귀여움.",,assets/cards/fig_samurai_ronin_chibi.webp
+card_fig_samurai_ronin_clay,점토 사무라이 로닌,클레이,card,B,35000,"매트 마감의 점토 조각품이 주는 독특한 질감, 손으로 만든 듯한 따뜻한 느낌을 선사한다. 차분한 표정과 이아이도 자세가 완벽한 조화를 이루어, 컬렉터들의 감성을 자극한다.",,assets/cards/fig_samurai_ronin_clay.webp
+card_fig_samurai_ronin_mech,메카 사무라이 로닌,메카닉,card,A,95000,"기계식 관절과 갑옷 플레이트가 결합된 로봇 사무라이. 차가운 금속의 냉기와 이아이도 자세의 정밀함이 어우러져, 게임 속의 메카닉을 현실로 옮겨온 듯한 느낌을 선사한다.",,assets/cards/fig_samurai_ronin_mech.webp
+card_fig_samurai_ronin_metallic,크롬 사무라이 로닌,메탈릭,card,S,110000,"반사되는 크롬 표면이 빛을 받아 더욱 신비로운 분위기를 연출한다. 차가운 금속의 냉기와 이아이도 자세가 완벽한 조화를 이루어, 컬렉터들의 감성을 자극한다.",,assets/cards/fig_samurai_ronin_metallic.webp
+card_fig_samurai_ronin_pixel,픽셀 사무라이 로닌,복셀픽셀,card,C,22000,"브록비한 픽셀 아트 스타일의 로닌 사무라이. 저폴리 그래픽의 독특한 매력이 돋보이며, 게임 속의 캐릭터를 현실로 옮겨온 듯한 느낌을 선사한다. 컬렉터들의 감성을 자극한다.",,assets/cards/fig_samurai_ronin_pixel.webp
+card_fig_samurai_ronin_plush,뭉실 사무라이 로닌,플러시,card,C,28000,"부드러운 플러시 소재가 주는 따뜻한 촉감이 매력적인 로닌 사무라이. 귀여운 표정과 이아이도 자세가 완벽한 조화를 이루어, 집안 구석구석에 두어도 귀여운 분위기를 연출한다.",,assets/cards/fig_samurai_ronin_plush.webp
+card_fig_samurai_ronin_realistic,실사 사무라이 로닌,리얼리스틱,card,SS,135000,"실사 렌더링의 디테일한 질감이 마치 살아있는 듯해, 차분한 표정과 이아이도 자세가 완벽한 조화를 이루어, 컬렉터들의 감성을 자극한다. 책상 위에 올려두면 매일 아침 눈을 뜨는 순간 설레는 감동을 선사한다.",,assets/cards/fig_samurai_ronin_realistic.webp
+card_fig_samurai_ronin_stylized,검은자루 사무라이,스타일라이즈드,card,A,45000,"초록색 갓과 바람에 날린 옷, 차분한 표정의 사무라이. 이아이도 자세로 검을 꽂은 듯 당당하게 서 있어, 사무라이의 위압감이 느껴져.",,assets/cards/fig_samurai_ronin_stylized.webp
+card_fig_samurai_ronin_vinyl,크롬 사무라이,바이닐토이,card,B,35000,"광택이 나는 비닐 재질의 사무라이. 갓과 옷의 디테일이 살아있어, 사무라이의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_samurai_ronin_vinyl.webp
+card_fig_samurai_ronin_wooden,목재 사무라이,우드카빙,card,C,25000,"손으로 조각한 목재 사무라이. 전통적인 느낌과 동시에 사무라이의 위압감이 느껴져, 사무라이의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_samurai_ronin_wooden.webp
+card_fig_school_idol_chibi,별빛 아이돌,치비,card,A,45000,"눈부신 스포트라이트 아래, 마이크를 움켜진 그녀의 윙크 한 방에 관객석이 무너진다. 한정판 스테이지 의상의 프릴 디테일까지 완벽 재현!",,assets/cards/fig_school_idol_chibi.webp
+card_fig_school_idol_clay,뭉실 아이돌,클레이,card,B,35000,"진흙으로 만든 듯한 뭉실한 질감의 아이돌. 표정까지 귀엽게 표현되어 있어, 아이돌의 매력을 한층 더 살려주며, 소장 가치가 높아.",,assets/cards/fig_school_idol_clay.webp
+card_fig_school_idol_mech,로봇 아이돌,메카닉,card,A,45000,"기계 관절과 갑옷이 달린 아이돌. 아이돌의 매력을 한층 더 살려주며, 로봇의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_school_idol_mech.webp
+card_fig_school_idol_metallic,크롬 아이돌,메탈릭,card,S,55000,"반짝이는 크롬 재질의 아이돌. 아이돌의 매력을 한층 더 살려주며, 크롬의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_school_idol_metallic.webp
+card_fig_school_idol_pixel,픽셀 아이돌,복셀픽셀,card,B,35000,"픽셀 아트 스타일의 아이돌. 아이돌의 매력을 한층 더 살려주며, 픽셀의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_school_idol_pixel.webp
+card_fig_school_idol_plush,솜뭉치 아이돌,플러시,card,C,25000,"부드러운 플러시 재질의 아이돌. 아이돌의 매력을 한층 더 살려주며, 플러시의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_school_idol_plush.webp
+card_fig_school_idol_realistic,리얼 아이돌,리얼리스틱,card,S,55000,"실사 같은 디테일의 아이돌. 아이돌의 매력을 한층 더 살려주며, 리얼의 위압감과 동시에 컬렉터블한 느낌을 주며, 소장 가치가 높아.",,assets/cards/fig_school_idol_realistic.webp
+card_fig_shadow_wraith_mech,어둠의 메카닉 와이트,메카닉,card,A,45000,빈망의 얼굴로 어둠에서 솟아오른 기계식 로봇. 관절과 갑옷의 디테일이 압도적! 수집가라면 이 메탈릭한 질감을 놓칠 수 없어.,,assets/cards/fig_shadow_wraith_mech.webp
+card_fig_shadow_wraith_metallic,크롬 와이트,메탈릭,card,S,85000,반사되는 크롬 갑옷에 비친 어둠의 그림자. 차가운 냉기와 고급스러운 광택이 어우러진 한정판 메탈 피규어.,,assets/cards/fig_shadow_wraith_metallic.webp
+card_fig_shadow_wraith_pixel,픽셀 와이트,복셀픽셀,card,B,35000,8비트 게임 속의 공포! 블록으로 이루어진 귀여운 와이트가 어둠을 뚫고 올라오는 귀여운 픽셀 아트 카드.,,assets/cards/fig_shadow_wraith_pixel.webp
+card_fig_shadow_wraith_plush,솜뭉치 와이트,플러시,card,C,25000,공포 속에서도 포근한 뭉실한 촉감! 부드러운 플러시 소재로 만든 와이트가 집안 분위기를 따뜻하게 바꿔줄 거야.,,assets/cards/fig_shadow_wraith_plush.webp
+card_fig_shadow_wraith_realistic,리얼 와이트,리얼리스틱,card,SS,120000,생동감 넘치는 리얼한 표정과 디테일! 공포의 정수인 와이트의 비극적인 표정을 생생하게 담아낸 컬렉션의 왕.,,assets/cards/fig_shadow_wraith_realistic.webp
+card_fig_shadow_wraith_stylized,카툰 와이트,스타일라이즈드,card,B,38000,4个头身 비율의 귀여운 카툰 스타일! 공포와 귀여움이 공존하는 이 캐릭터는 오타쿠들의 마음을 사로잡을 거야.,,assets/cards/fig_shadow_wraith_stylized.webp
+card_fig_shadow_wraith_vinyl,글로시 와이트,바이닐토이,card,A,65000,유리처럼 반짝이는 비닐 재질의 디자이너 토이! 고급스러운 광택과 독특한 질감을 자랑하는 컬렉터블 피규어.,,assets/cards/fig_shadow_wraith_vinyl.webp
+card_fig_shadow_wraith_wooden,우드 와이트,우드카빙,card,C,28000,수공예 목재로 조각된 민속 예술의 마법! 따뜻한 나무 향기가 나는 와이트는 집안 장식 아이템으로 최고.,,assets/cards/fig_shadow_wraith_wooden.webp
+card_fig_shrine_archer_chibi,SD 성당 궁수,치비,card,B,32000,2个头身 비율의 귀여운 초소형 궁수 소녀! 장미와 리본이 달린 활을 쏘는 모습이 너무 귀엽고 사랑스러워.,,assets/cards/fig_shrine_archer_chibi.webp
+card_fig_shrine_archer_clay,클레이 궁수,클레이,card,A,55000,점토로 빚어진 따뜻한 감성의 궁수 소녀! 손끝의 온기가 느껴지는 마티어트 마감의 귀여운 피규어.,,assets/cards/fig_shrine_archer_clay.webp
+card_fig_shrine_archer_mech,메카아처 신사,메카닉,card,A,45000,거대 메카닉 갑옷을 입은 신의 사자. 관절이 정교하게 조립된 로봇 디자인과 고대 활의 조화가 압도적. 차가운 금속 질감 속에서도 신성한 빛이 비치는 한정판 메카 아처!,,assets/cards/fig_shrine_archer_mech.webp
+card_fig_shrine_archer_metallic,크롬아처 신사,메탈릭,card,B,35000,"반짝이는 크롬 도금 갑옷이 빛나는 신의 사자. 거울 같은 표면에서 자신의 영혼을 비추며, 차가운 금속의 냉기 속에서도 신성한 열정이 타오른다.",,assets/cards/fig_shrine_archer_metallic.webp
+card_fig_shrine_archer_pixel,픽셀아처 신사,복셀픽셀,card,C,15000,8비트 게임 속의 영웅이 되다! 입체적인 픽셀 블록으로 구성된 귀여운 아처. 레트로 감성과 모던한 디자인의 조화가 돋보이는 컬렉터블 아이템.,,assets/cards/fig_shrine_archer_pixel.webp
+card_fig_shrine_archer_plush,솜뭉치아처 신사,플러시,card,C,12000,"부드러운 솜뭉치 질감의 귀여운 아처. 촉촉한 소재와 둥근 윤곽이 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길, 소소한 행복을 선사하는 플러시 아처!",,assets/cards/fig_shrine_archer_plush.webp
+card_fig_shrine_archer_realistic,리얼아처 신사,리얼리스틱,card,S,85000,생동감 넘치는 리얼한 디테일! 피부의 질감부터 갑옷의 무광택까지 완벽 재현. 신의 사자의 위엄과 현실적인 아름다움이 어우러진 컬렉터블 피규어.,,assets/cards/fig_shrine_archer_realistic.webp
+card_fig_shrine_archer_stylized,스틸아처 신사,스타일라이즈드,card,B,30000,4个头身 비율의 귀여운 아처! 과장된 캐릭터 비율과 귀여운 표정이 매력 포인트. 일러스트레이터의 손끝에서 탄생한 스타일리시한 아처 피규어.,,assets/cards/fig_shrine_archer_stylized.webp
+card_fig_shrine_archer_vinyl,비닐아처 신사,바이닐토이,card,A,55000,"광택이 나는 비닐 소재의 디자이너 토이! 고급스러운 광택과 세련된 디자인이 어우러져, 컬렉터블 피규어 시장에서 주목받는 아처 피규어.",,assets/cards/fig_shrine_archer_vinyl.webp
+card_fig_shrine_archer_wooden,우드아처 신사,우드카빙,card,S,95000,수공예 목재로 조각된 아처! 자연스러운 목재의 온기와 고대 문명의 신비감이 어우러진 한정판 피규어. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_shrine_archer_wooden.webp
+card_fig_shrine_maiden_chibi,SD신녀 아처,치비,card,C,15000,2个头身 비율의 귀여운 신녀! 둥근 얼굴과 큰 눈이 매력 포인트. 귀여운 표정과 부드러운 옷자락이 어우러진 컬렉터블 피규어.,,assets/cards/fig_shrine_maiden_chibi.webp
+card_fig_shrine_maiden_clay,클레이신녀 아처,클레이,card,B,35000,매트 마감의 점토 조각! 손끝에서 탄생한 따뜻한 점토의 질감이 매력 포인트. 신녀의 부드러운 미소와 점토의 온기가 어우러진 컬렉터블 피규어.,,assets/cards/fig_shrine_maiden_clay.webp
+card_fig_shrine_maiden_mech,메카닉 신녀 카드,메카닉,card,B,9000,"정교한 관절과 갑옷이 돋보이는 메카닉 신녀. 붉은 하카마와 오후다를 든 우아한 포즈에, 차가운 금속 질감과 따뜻한 미소가 완벽한 조화를 이룹니다. 컬렉터블 아이템으로 소장 가치가 높습니다.",,assets/cards/fig_shrine_maiden_mech.webp
+card_fig_shrine_maiden_metallic,크롬 신녀 카드,메탈릭,card,A,12000,"반짝이는 크롬 도금 갑옷이 빛을 머금은 신녀. 거울처럼 빛나는 표면이 고급스러움을 더하며, 붉은색 하카마와 오후다의 대비가 돋보입니다. 소장용 카드로 추천합니다.",,assets/cards/fig_shrine_maiden_metallic.webp
+card_fig_shrine_maiden_pixel,픽셀 신녀 카드,복셀픽셀,card,C,6000,"8비트 레트로 감성의 픽셀 아트 신녀. 블록 같은 귀여운 포즈에, 고전적인 미소녀의 우아함이 살아있습니다. 게임 팬이라면 반드시 소장하고 싶은 레트로 감성의 아이템입니다.",,assets/cards/fig_shrine_maiden_pixel.webp
+card_fig_shrine_maiden_plush,솜뭉치 신녀 카드,플러시,card,C,6000,부드러운 솜뭉치 질감의 신녀. 촉촉한 느낌의 원단과 따뜻한 미소가 매력 포인트. 책상 위에 올려두면 매일 기분 좋은 존재감이 됩니다. 귀여운 미소녀 수집가들에게 인기 상품입니다.,,assets/cards/fig_shrine_maiden_plush.webp
+card_fig_shrine_maiden_realistic,리얼 신녀 카드,리얼리스틱,card,S,18000,"실사 같은 디테일과 비율의 신녀. 붉은색 하카마의 질감과 오후다의 무늬가 섬세하게 재현되어, 마치 살아있는 듯한 생동감을 줍니다. 고해상도 일러스트로 소장 가치가 높은 프리미엄 카드입니다.",,assets/cards/fig_shrine_maiden_realistic.webp
+card_fig_shrine_maiden_stylized,카툰 신녀 카드,스타일라이즈드,card,B,9000,"4个头身 비율의 귀여운 카툰 신녀. 단순하면서도 매력적인 선과 색감이 돋보이며, 우아한 미소와 오후다를 든 포즈가 일러스트 감성을 극대화합니다. 일러스트레이터 팬들에게 추천합니다.",,assets/cards/fig_shrine_maiden_stylized.webp
+card_fig_shrine_maiden_vinyl,비닐 신녀 카드,바이닐토이,card,A,15000,"광택이 나는 비닐 재질의 디자이너 토이 느낌의 신녀. 세련된 마감과 고급스러운 광택이 돋보이며, 붉은색 하카마와 오후다의 대비가 돋보입니다. 컬렉터블 아이템으로 소장 가치가 높습니다.",,assets/cards/fig_shrine_maiden_vinyl.webp
+card_fig_shrine_maiden_wooden,목제 신녀 카드,우드카빙,card,B,10000,"손으로 조각한 목공예품 같은 신녀. 자연스러운 나무 질감과 따뜻한 색감이 돋보이며, 오후다를 든 우아한 포즈가 전통미를 더합니다. 독특한 감성의 컬렉터블 아이템입니다.",,assets/cards/fig_shrine_maiden_wooden.webp
+card_fig_snake_empress_chibi,꼬마 뱀황후 카드,치비,card,S,25000,"2个头身 비율의 초특대형 뱀황후. 금색 왕관을 쓴 우아한 포즈에, 명령하는 듯한 눈빛과 귀여운 미소가 매력 포인트. 섹시하면서도 귀여운 갭 모에가 돋보이는 아이템입니다.",,assets/cards/fig_snake_empress_chibi.webp
+card_fig_snake_empress_clay,점토 뱀황후 카드,클레이,card,A,20000,"매트 마감의 점토 조각품 느낌의 뱀황후. 황금 왕관이 빛나는 우아한 포즈에, 점토의 질감이 돋보입니다. 섹시하면서도 예술적인 감성이 돋보이는 프리미엄 컬렉터블 아이템입니다.",,assets/cards/fig_snake_empress_clay.webp
+card_fig_snake_empress_mech,메카닉 스펀드 임페리스,메카닉,card,A,85000,"골든 크라운을 쓴 메카닉 여제, 관절이 움직이는 로봇 갑옷으로 압도적 존재감. 차가운 메탈lic한 표면에 따뜻한 금빛이 어우러져, 차분한 임페리스의 위엄이 느껴져요.",,assets/cards/fig_snake_empress_mech.webp
+card_fig_snake_empress_metallic,크롬하트 여제,메탈릭,card,S,120000,"거울처럼 반짝이는 크롬 도금 갑옷, 금빛 왕관과 완벽한 조화. 어둠 속에서 빛나는 여제의 위압적인 눈빛이 당신의 마음을 사로잡을 거예요.",,assets/cards/fig_snake_empress_metallic.webp
+card_fig_snake_empress_pixel,픽셀 드래곤 퀘스트,복셀픽셀,card,B,45000,"8비트 게임 속의 여제! 저폴리 블록이 모여든 귀여운 픽셀 아트가, 게임 속의 모험을 떠올리게 합니다. 수집가들의 추억을 자극하는 한정판.",,assets/cards/fig_snake_empress_pixel.webp
+card_fig_snake_empress_plush,솜뭉치 여제,플러시,card,A,65000,"부드러운 솜뭉치 재질의 여제, 귀여운 표정과 금빛 왕관이 어우러져癒癒의 감동을 줍니다. 책상 위에 올려두면 하루가 행복해지죠.",,assets/cards/fig_snake_empress_plush.webp
+card_fig_snake_empress_realistic,리얼 퀸 오브 스네이크,리얼리스틱,card,SS,150000,"실사급 디테일의 여제, 금빛 왕관과 완벽한 비율이 어우러져 압도적인 존재감을 뽐냅니다. 수집가들이 꿈꾸는 완벽한 피규어.",,assets/cards/fig_snake_empress_realistic.webp
+card_fig_snake_empress_vinyl,글로시 비닐 퀸,바이닐토이,card,S,95000,"유리처럼 반짝이는 비닐 재질의 여제, 디자이너 토이처럼 세련된 디자인이 돋보입니다. 수집가들의 취향을 사로잡는 한정판.",,assets/cards/fig_snake_empress_vinyl.webp
+card_fig_snake_empress_wooden,우드 퀸 오브 스네이크,우드카빙,card,A,75000,"손으로 조각한 목공예의 여제, 따뜻한 나무 향과 금빛 왕관이 어우러져 고전적인 분위기를 자아냅니다. 수집가들의 취향을 사로잡습니다.",,assets/cards/fig_snake_empress_wooden.webp
+card_fig_spider_queen_chibi,SD 스파이더 퀸,치비,card,B,45000,"두个头 높이의 귀여운 SD 스파이더 퀸, 독이 떨어지는 송곳니와 전복된 다리가 매력 포인트. 공포와 귀여움이 공존하는 컬렉션.",,assets/cards/fig_spider_queen_chibi.webp
+card_fig_spider_queen_clay,클레이 스파이더 퀸,클레이,card,A,75000,"점토로 만든 스파이더 퀸, 거친 질감과 독이 떨어지는 송곳니가 어우러져 독특한 분위기를 자아냅니다. 수집가들의 취향을 사로잡습니다.",,assets/cards/fig_spider_queen_clay.webp
+card_fig_spider_queen_metallic,크롬 스파이더 퀸,메탈릭,card,S,120000,"거울처럼 반짝이는 크롬 도금 갑옷, 독이 떨어지는 송곳니와 완벽한 조화. 어둠 속에서 빛나는 스파이더 퀸의 위압적인 눈빛이 당신을 사로잡을 거예요.",,assets/cards/fig_spider_queen_metallic.webp
+card_fig_spider_queen_pixel,픽셀 사냥꾼 여왕,복셀픽셀,card,A,45000,8비트 리트로 감성의 픽셀 아트! 사냥감의 숨소리를 들을 수 있는 듯한 날카로운 눈빛과 드리퍼의 다리가 인상적. 수집가들이 사랑하는 레트로 감성의 2D 카드.,,assets/cards/fig_spider_queen_pixel.webp
+card_fig_spider_queen_realistic,실사 공포 여왕,리얼리스틱,card,S,85000,"현실적인 비례와 디테일, 공포의 여왕이 선사하는 압도적인 존재감. 실사 렌더링으로 구현된 생생한 표정과 치명적인 매력에 취해버리실 거예요.",,assets/cards/fig_spider_queen_realistic.webp
+card_fig_spider_queen_wooden,목공 공포 여왕,우드카빙,card,B,35000,손으로 조각한 목공 예술품 같은 디테일! 고대 민속의 미학을 현대 공포물에 접목한 독특한 스타일. 책상 위에 올려두면 예술작품 같은 분위기를 풍겨요.,,assets/cards/fig_spider_queen_wooden.webp
+card_fig_steampunk_mech_vinyl,브라스 모자 메카,바이닐토이,card,A,55000,구리 모자를 들고 있는 메카닉의 우아함! 증기 밸브와 단추 디테일이 돋보이는 빈티지 감성의 메카. 스팀펑크 팬들에게는 필수적인 아이템이 될 거예요.,,assets/cards/fig_steampunk_mech_vinyl.webp
+card_fig_steampunk_mech_wooden,목공 메카닉,우드카빙,card,B,38000,"핸드 카프된 목재의 따뜻함, 메카닉의 차가운 기술과 완벽한 조화. 증기 밸브와 단추 디테일이 돋보이는 빈티지 감성의 메카. 책상 위에 올려두면 예술작품 같은 분위기를 풍겨요.",,assets/cards/fig_steampunk_mech_wooden.webp
+card_fig_succubus_chibi,뽀뽀 섹시 치비,치비,card,C,12000,"2个头身 초소형의 귀여운 섹시! 왕좌에 앉아 윙크하며 웃는 표정, 치비 감성의 귀여움과 섹시함이 어우러진 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.",,assets/cards/fig_succubus_chibi.webp
+card_fig_succubus_clay,점토 섹시 여신,클레이,card,B,32000,"매트 마감의 점토 조형미가 돋보이는 섹시 여신! 왕좌에 앉아 윙크하며 웃는 표정, 점토의 따뜻한 질감과 섹시함이 어우러진 매력 포인트. 손으로 만든 듯한 친근감이 매력.",,assets/cards/fig_succubus_clay.webp
+card_fig_succubus_mech,로봇 섹시 여신,메카닉,card,A,65000,"메카닉 조인트와 갑옷이 돋보이는 섹시 여신! 왕좌에 앉아 윙크하며 웃는 표정, 로봇의 차가움과 섹시함이 어우러진 매력 포인트. 메카닉 팬들에게는 필수적인 아이템.",,assets/cards/fig_succubus_mech.webp
+card_fig_succubus_metallic,크롬 섹시 여신,메탈릭,card,SS,120000,"반짝이는 크롬 마감의 섹시 여신! 왕좌에 앉아 윙크하며 웃는 표정, 금속의 차가움과 섹시함이 어우러진 매력 포인트. 빛을 반사하는 광택이 압도적인 존재감을 선사해요.",,assets/cards/fig_succubus_metallic.webp
+card_fig_succubus_pixel,픽셀 섹시 여신,복셀픽셀,card,A,48000,"8비트 리트로 감성의 픽셀 아트 섹시 여신! 왕좌에 앉아 윙크하며 웃는 표정, 픽셀의 귀여움과 섹시함이 어우러진 매력 포인트. 레트로 감성의 2D 카드.",,assets/cards/fig_succubus_pixel.webp
+card_fig_succubus_plush,뽀뽀의 유혹,플러시,card,C,5000,"누에처럼 부드러운 촉감의 뭉실 뭉실한 꼬마 데몬. 왕좌에 앉아 반쯤 기대어, 유혹적인 미소와 반짝이는 눈빛이 마음을 녹여요. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_succubus_plush.webp
+card_fig_succubus_stylized,유혹의 마녀,스타일라이즈드,card,B,8000,"4个头身, 귀여운 표정 속에 숨겨진 위험한 매력이. 왕좌에 앉아 날개를 펼치며, 유혹의 시선을 보내는 그녀의 미소는 누구도 거절할 수 없어요.",,assets/cards/fig_succubus_stylized.webp
+card_fig_succubus_vinyl,유혹의 비닐,바이닐토이,card,A,15000,"광택이 나는 비닐 재질로, 유혹의 마녀가 빛을 발합니다. 반짝이는 표정과 날개, 그리고 유혹의 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_succubus_vinyl.webp
+card_fig_succubus_wooden,유목의 유혹,우드카빙,card,S,35000,"수공예로 만든 나무 조각, 유목의 마녀가 빛을 발합니다. 반짝이는 표정과 날개, 그리고 유혹의 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_succubus_wooden.webp
+card_fig_tank_mech_chibi,꼬마 탱크,치비,card,C,5000,"2个头身, 귀여운 표정 속에 숨겨진 위험한 매력이. 왕좌에 앉아 날개를 펼치며, 유혹의 시선을 보내는 그녀의 미소는 누구도 거절할 수 없어요.",,assets/cards/fig_tank_mech_chibi.webp
+card_fig_tank_mech_clay,점토의 탱크,클레이,card,B,8000,"점토로 빚어진 탱크, 무거운 몸체와 날카로운 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_tank_mech_clay.webp
+card_fig_tank_mech_mech,메카의 탱크,메카닉,card,A,15000,"메카닉으로 제작된 탱크, 무거운 몸체와 날카로운 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_tank_mech_mech.webp
+card_fig_tank_mech_metallic,크롬 탱크,메탈릭,card,S,35000,"크롬 도금으로 제작된 탱크, 무거운 몸체와 날카로운 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_tank_mech_metallic.webp
+card_fig_tank_mech_pixel,픽셀 탱크,복셀픽셀,card,A,15000,"픽셀 아트로 제작된 탱크, 무거운 몸체와 날카로운 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_tank_mech_pixel.webp
+card_fig_tank_mech_plush,탱크 뽀뽀,플러시,card,C,5000,"부드러운 촉감의 탱크, 무거운 몸체와 날카로운 미소. 집 장식으로도, 친구 선물로도 최고!",,assets/cards/fig_tank_mech_plush.webp
+card_fig_tank_mech_realistic,실제전투용 메카닉,리얼리스틱,card,A,85000,정밀한 디테일과 압도적인 화력이 돋보이는 리얼 메카닉. 붉은 타겟팅 비저로 적을 노리고 있는 듯한 날카로운 포즈가 전투의 열기를 고조시켜요. 수집가들에게 인기 있는 고사양 메카니컬 피규어입니다.,,assets/cards/fig_tank_mech_realistic.webp
+card_fig_tank_mech_stylized,카툰 메카닉,스타일라이즈드,card,B,45000,4个头身 비율의 귀여운 메카닉. 과장된 디자인과 밝은 색감이 돋보이는 일러스트 카드. 메카닉 팬들에게 인기가 많은 스타일리시한 디자인입니다.,,assets/cards/fig_tank_mech_stylized.webp
+card_fig_tank_mech_vinyl,글로시 비닐 메카,바이닐토이,card,B,55000,"반짝이는 비닐 재질의 메카닉. 디자이너 토이 느낌을 살린 고급스러운 디자인으로, 메카닉 수집가들에게 인기가 많습니다. 광택이 돋보이는 포인트입니다.",,assets/cards/fig_tank_mech_vinyl.webp
+card_fig_tank_mech_wooden,목공 메카닉,우드카빙,card,A,95000,손으로 조각한 목공 메카닉. 전통적인 민속 예술과 현대적인 메카닉이 조화된 디자인. 따뜻한 나무 질감이 돋보이는 한정판 아이템입니다.,,assets/cards/fig_tank_mech_wooden.webp
+card_fig_tengu_chibi,치비 텐구,치비,card,B,45000,2个头身 비율의 귀여운 텐구. 분홍색 깃털과 검은 날개가 돋보이는 귀여운 포즈. 텐구 팬들에게 인기가 많은 귀여운 디자인입니다.,,assets/cards/fig_tengu_chibi.webp
+card_fig_tengu_clay,점토 텐구,클레이,card,B,55000,매트 마감의 점토 텐구. 점토 조각의 질감이 돋보이는 아티스트 피규어. 텐구 팬들에게 인기가 많은 아티스트 피규어입니다.,,assets/cards/fig_tengu_clay.webp
+card_fig_tengu_stylized,카툰 텐구,스타일라이즈드,card,B,45000,4个头身 비율의 귀여운 텐구. 과장된 디자인과 밝은 색감이 돋보이는 일러스트 카드. 텐구 팬들에게 인기가 많은 스타일리시한 디자인입니다.,,assets/cards/fig_tengu_stylized.webp
+card_fig_tengu_wooden,목공 텐구,우드카빙,card,A,95000,손으로 조각한 목공 텐구. 전통적인 민속 예술과 현대적인 텐구가 조화된 디자인. 따뜻한 나무 질감이 돋보이는 한정판 아이템입니다.,,assets/cards/fig_tengu_wooden.webp
+card_fig_tennis_ace_chibi,치비 테니스 아이스,치비,card,B,45000,2个头身 비율의 귀여운 테니스 아이스. 분홍색 스커트와 긴 머리가 돋보이는 귀여운 포즈. 테니스 팬들에게 인기가 많은 귀여운 디자인입니다.,,assets/cards/fig_tennis_ace_chibi.webp
+card_fig_tennis_ace_clay,점토 테니스 아이스,클레이,card,B,55000,매트 마감의 점토 테니스 아이스. 점토 조각의 질감이 돋보이는 아티스트 피규어. 테니스 팬들에게 인기가 많은 아티스트 피규어입니다.,,assets/cards/fig_tennis_ace_clay.webp
+card_fig_tennis_ace_mech,볼트슬래시 메카니컬,메카닉,card,A,45000,"메카닉 조인트가 달린 텐니스 아이스의 완벽한 3D 재현! 스포츠 유니폼과 로봇 갑옷의 디테일이 어우러져, 경기장 중앙에서 빛나는 스타 플레이어의 열정을 느껴보세요.",,assets/cards/fig_tennis_ace_mech.webp
+card_fig_tennis_ace_metallic,크롬하트 스타 플레이어,메탈릭,card,S,85000,"반짝이는 크롬 도금 갑옷이 빛을 머금고, 스윙하는 라켓에서 느껴지는 속도가 실감납니다. 한정판 메탈릭 코팅으로 소장 가치가 높습니다.",,assets/cards/fig_tennis_ace_metallic.webp
+card_fig_tennis_ace_pixel,픽셀 게임 테니스 아이스,복셀픽셀,card,B,25000,8비트 게임 속으로 타임슬립! 블록 같은 픽셀 아트가 귀엽고 개성 넘치는 디자인. 책상 위에 놓으면 게임 속 캐릭터가 살아있는 듯한 착각에 빠집니다.,,assets/cards/fig_tennis_ace_pixel.webp
+card_fig_tennis_ace_plush,뭉실 테니스 아이스,플러시,card,C,15000,"부드러운 솜뭉치 소재로 만든 귀여운 피규어! 텐니스 아이스의 활기찬 포즈가 살아있는 듯한 촉감, 집안 어디든 따뜻한 분위기를 연출합니다.",,assets/cards/fig_tennis_ace_plush.webp
+card_fig_tennis_ace_wooden,우드웍 테니스 아이스,우드카빙,card,S,120000,"수공예 목재로 조각된 아티스틱한 디자인. 자연스러운 나무 질감과 텐니스 아이스의 열정이 어우러져, 컬렉터들의 감성을 자극하는 한정판 피규어입니다.",,assets/cards/fig_tennis_ace_wooden.webp
+card_fig_thunder_sorceress_chibi,SD 번개 마녀,치비,card,C,18000,"두个头 높이의 귀여운 치비 디자인! 번개와 함께 춤추는 마법소녀의 포즈가 살아있는 듯한 착각, 집안 어디든 귀여운 분위기를 연출합니다.",,assets/cards/fig_thunder_sorceress_chibi.webp
+card_fig_thunder_sorceress_clay,클레이 마법소녀,클레이,card,B,35000,"점토 조각품 같은 매트한 질감이 매력적인 마법소녀. 번개와 함께 춤추는 포즈가 살아있는 듯한 착각, 컬렉터들의 감성을 자극하는 한정판 피규어입니다.",,assets/cards/fig_thunder_sorceress_clay.webp
+card_fig_thunder_sorceress_mech,메카 마법소녀,메카닉,card,A,55000,"로봇 조인트가 달린 마법소녀의 완벽한 3D 재현! 마법과 기계가 어우러진 독특한 디자인, 경기장 중앙에서 빛나는 스타 플레이어의 열정을 느껴보세요.",,assets/cards/fig_thunder_sorceress_mech.webp
+card_fig_thunder_sorceress_metallic,크롬 번개 마녀,메탈릭,card,S,95000,"반짝이는 크롬 도금 갑옷이 빛을 머금고, 마법봉에서 느껴지는 속도가 실감납니다. 한정판 메탈릭 코팅으로 소장 가치가 높습니다.",,assets/cards/fig_thunder_sorceress_metallic.webp
+card_fig_thunder_sorceress_pixel,픽셀 마법소녀,복셀픽셀,card,B,28000,8비트 게임 속으로 타임슬립! 블록 같은 픽셀 아트가 귀엽고 개성 넘치는 디자인. 책상 위에 놓으면 게임 속 캐릭터가 살아있는 듯한 착각에 빠집니다.,,assets/cards/fig_thunder_sorceress_pixel.webp
+card_fig_thunder_sorceress_plush,번개 마법소녀 뭉치 카드,플러시,card,A,45000,솜뭉치 천질감이 매력적인 번개 마법소녀! 번개 리본이 춤추는 듯한 생동감 있는 포즈와 강렬한 눈빛이 마음을 사로잡습니다. 방에 놓아두면 매일 전율이 느껴지는 한정판 소품.,,assets/cards/fig_thunder_sorceress_plush.webp
+card_fig_thunder_sorceress_realistic,리얼 번개 마법소녀 카드,리얼리스틱,card,S,85000,"실사 같은 디테일과 생동감 있는 표정. 번개 리본이 빛나는 듯한 광택이 돋보이며, 전투 준비 태세인 포즈가 압도적입니다. 수집가들의 눈길을 사로잡는 프리미엄 카드.",,assets/cards/fig_thunder_sorceress_realistic.webp
+card_fig_thunder_sorceress_stylized,4D 스타일리시 번개 마법소녀,스타일라이즈드,card,B,35000,4个头 높이의 귀여운 스타일링! 카툰 같은 귀여움과 강인함이 공존하는 매력적인 디자인. 번개 리본이 휘날리는 생동감 있는 일러스트가 마음을 설레게 합니다.,,assets/cards/fig_thunder_sorceress_stylized.webp
+card_fig_thunder_sorceress_vinyl,글로시 비닐 번개 마법소녀,바이닐토이,card,SS,120000,유광 비닐 재질의 고급스러운 광택이 돋보입니다. 디자이너 토이 같은 세련된 디자인과 번개 리본이 빛나는 포즈가 눈길을 사로잡습니다. 한정판 소품으로 소장 가치 높음.,,assets/cards/fig_thunder_sorceress_vinyl.webp
+card_fig_thunder_sorceress_wooden,핸드카프트 우드 번개 마법소녀,우드카빙,card,SSS,150000,손으로 조각한 듯한 따뜻한 우드 감성의 마법소녀! 천연 목재의 질감이 살아있는 듯한 디테일과 번개 리본이 빛나는 포즈가 마음을 따뜻하게 합니다. 한정판 소품.,,assets/cards/fig_thunder_sorceress_wooden.webp
+card_fig_tiger_spirit_chibi,SD 타이거 스피릿 꼬마 카드,치비,card,A,45000,2个头 높이의 귀여운 SD 스타일링! 푸른 불꽃 문양이 빛나는 타이거 스피릿의 차분한 눈빛이 매력적입니다. 방에 놓아두면 매일 설레는 귀여운 소품.,,assets/cards/fig_tiger_spirit_chibi.webp
+card_fig_tiger_spirit_clay,클레이 타이거 스피릿 카드,클레이,card,S,95000,점토 조각 같은 매트한 질감이 돋보입니다. 푸른 불꽃 문양이 빛나는 타이거 스피릿의 차분한 눈빛이 마음을 사로잡습니다. 한정판 소품으로 소장 가치 높음.,,assets/cards/fig_tiger_spirit_clay.webp
+card_fig_tiger_spirit_mech,메카 타이거 스피릿 카드,메카닉,card,SSS,150000,기계 관절과 갑옷이 돋보이는 메카 스타일! 푸른 불꽃 문양이 빛나는 타이거 스피릿의 차분한 눈빛이 압도적입니다. 한정판 소품으로 소장 가치 높음.,,assets/cards/fig_tiger_spirit_mech.webp
+card_fig_tiger_spirit_metallic,크롬 타이거 스피릿 카드,메탈릭,card,SSS,150000,폴리싱된 크롬 광택이 빛나는 타이거 스피릿! 푸른 불꽃 문양이 빛나는 차분한 눈빛이 압도적입니다. 한정판 소품으로 소장 가치 높음.,,assets/cards/fig_tiger_spirit_metallic.webp
+card_fig_tiger_spirit_pixel,픽셀 타이거 스피릿 카드,복셀픽셀,card,S,85000,브록키한 픽셀 아트 스타일이 돋보입니다. 푸른 불꽃 문양이 빛나는 타이거 스피릿의 차분한 눈빛이 마음을 사로잡습니다. 한정판 소품으로 소장 가치 높음.,,assets/cards/fig_tiger_spirit_pixel.webp
+card_fig_tiger_spirit_plush,솜뭉치 타이거 스피릿,플러시,card,B,12000,푸른 불꽃 문양이 빛나는 하얀 타이거의 부드러운 털이 손끝에서 느껴져요. 차분한 눈빛에 담긴 위엄과 귀여움이 어우러진 이 뭉실한 피규어는 책상 위에 두면 집 전체가 따뜻해져요.,,assets/cards/fig_tiger_spirit_plush.webp
+card_fig_tiger_spirit_realistic,라이얼 타이거 스피릿,리얼리스틱,card,A,35000,"실제와 같은 디테일과 비현실적인 매력이 어우러진 타이거의 초상. 차가운 눈빛이 사람을 응시하는 듯한 리얼한 표정, 수집가라면 한번쯤은 가졌을 법한 명품 카드.",,assets/cards/fig_tiger_spirit_realistic.webp
+card_fig_tiger_spirit_stylized,카툰 타이거 스피릿,스타일라이즈드,card,C,8000,4个头身比例的可爱卡通风格，蓝色火焰纹章在白色皮毛上闪闪发光。充满活力的姿势和俏皮的笑容，是每位动漫迷都想要收藏的可爱角色卡片。,,assets/cards/fig_tiger_spirit_stylized.webp
+card_fig_tiger_spirit_vinyl,글로스 타이거 스피릿,바이닐토이,card,A,45000,광택이 나는 비닐 재질의 타이거 피규어. 디자이너 토이 같은 고급스러운 질감과 차분한 눈빛이 고급스러운 분위기를 자아내요. 수집가들의 사랑을 받는 한정판 아이템.,,assets/cards/fig_tiger_spirit_vinyl.webp
+card_fig_tiger_spirit_wooden,우드 타이거 스피릿,우드카빙,card,S,85000,"손으로 조각한 목공예 타이거 피규어. 고전적인 민속 예술의 매력이 현대적인 디자인과 어우러져, 책상 위에 두면 집 전체가 따뜻하고 예술적인 분위기가 느껴져요.",,assets/cards/fig_tiger_spirit_wooden.webp
+card_fig_time_witch_apprentice_chibi,SD 타임 위치 어펜티스,치비,card,C,6000,2个头身比例的可爱Q版造型，巨大的袖子和平衡的怀表与魔法阵，俏皮的笑容和聪明的表情，是每位魔法少女迷都想要收藏的可爱角色卡片。,,assets/cards/fig_time_witch_apprentice_chibi.webp
+card_fig_time_witch_apprentice_clay,클레이 타임 위치 어펜티스,클레이,card,B,15000,"매트 마감의 점토 조형 타임 위치 피규어. 손으로 만든 듯한 따뜻한 질감과 차분한 눈빛이 어우러져, 책상 위에 두면 집 전체가 따뜻하고 예술적인 분위기가 느껴져요.",,assets/cards/fig_time_witch_apprentice_clay.webp
+card_fig_time_witch_apprentice_metallic,크롬 타임 위치 어펜티스,메탈릭,card,S,95000,"반사되는 크롬 마감의 타임 위치 피규어. 고급스러운 금속 질감과 차분한 눈빛이 어우러져, 책상 위에 두면 집 전체가 고급스러운 분위기가 느껴져요. 수집가들의 사랑을 받는 한정판 아이템.",,assets/cards/fig_time_witch_apprentice_metallic.webp
+card_fig_time_witch_apprentice_pixel,픽셀 타임 위치 어펜티스,복셀픽셀,card,A,40000,"로우 폴리 블록 모양의 픽셀 아트 타임 위치 피규어. 8비트 게임의 추억을 떠올리게 하는 레트로한 디자인과 차분한 눈빛이 어우러져, 책상 위에 두면 집 전체가 게임적인 분위기가 느껴져요.",,assets/cards/fig_time_witch_apprentice_pixel.webp
+card_fig_time_witch_apprentice_plush,뭉실 타임 위치 어펜티스,플러시,card,B,12000,"부드러운 플러시 소재의 타임 위치 피규어. 손으로 만져지는 따뜻한 질감과 차분한 눈빛이 어우러져, 책상 위에 두면 집 전체가 따뜻하고 예술적인 분위기가 느껴져요.",,assets/cards/fig_time_witch_apprentice_plush.webp
+card_fig_time_witch_apprentice_realistic,시간 마법사 초급생 리얼,리얼리스틱,card,A,85000,시간의 흐름을 조종하는 마법사 초급생의 정교한 표정과 손끝의 시간계 정밀한 디테일. 리얼한 재현으로 그녀의 마법 원형이 눈앞에 펼쳐져요. 책상 위에 올려두면 시간의 흐름이 달라지는 듯한 신비로운 분위기를 자아냅니다.,,assets/cards/fig_time_witch_apprentice_realistic.webp
+card_fig_time_witch_apprentice_stylized,시간 마법사 초급생 일러스트,스타일라이즈드,card,B,45000,4个头高的可爱画风， oversized sleeves 의 포인트가 매력적이에요. 마법 원형과 시간계 장난감으로 무장한 그녀의 귀여운 미소가 일러스트로 살아나. 수집가들의 마음을 사로잡는 귀여운 마법소녀 카드.,,assets/cards/fig_time_witch_apprentice_stylized.webp
+card_fig_time_witch_apprentice_vinyl,시간 마법사 초급생 비닐,바이닐토이,card,B,65000,"광택이 나는 비닐 재질의 디자이너 토이 느낌. 손에 쥔 시간계와 마법 원형의 디테일이 빛을 발하며, 귀여운 미소가 돋보여요. 방에 놓으면 마치 살아있는 듯한 생동감을 주는 한정판 마법소녀 피규어.",,assets/cards/fig_time_witch_apprentice_vinyl.webp
+card_fig_time_witch_apprentice_wooden,시간 마법사 초급생 목제,우드카빙,card,S,120000,"손으로 조각한 목공예품의 따뜻함과 자연스러운 질감. 마법 원형과 시간계가 나무의 결과 어우러져, 고전적인 마법사의 분위기를 자아냅니다. 책상 위 소품으로 완벽한 분위기를 연출해요.",,assets/cards/fig_time_witch_apprentice_wooden.webp
+card_fig_titan_golem_chibi,타이탄 고렘 치비,치비,card,C,35000,2个头高的超级可爱画风，藤蔓缠绕的觉醒姿态与核心反应堆的点火瞬间。古井般平静的表情与Q版造型形成萌点，是收藏家们必入的可爱机械生物。,,assets/cards/fig_titan_golem_chibi.webp
+card_fig_titan_golem_clay,타이탄 고렘 클레이,클레이,card,B,75000,점토 조각의 따뜻한 질감과 무광택 처리가 주는 고급스러운 느낌. 고대 타이탄이 잠에서 깨어나는 순간의 긴장감이 살아있어요. 메카닉과 자연이 어우러진 이 피규어는 수집가들의 마음을 사로잡습니다.,,assets/cards/fig_titan_golem_clay.webp
+card_fig_titan_golem_mech,타이탄 고렘 메카,메카닉,card,A,95000,기계 관절과 갑옷 판재가 완벽하게 조립된 메카닉 피규어. 타이탄이 잠에서 깨어나는 순간의 웅장함과 핵심 반응로가 빛나는 디테일이 매력적이에요. 거실 장식용 최고의 선택.,,assets/cards/fig_titan_golem_mech.webp
+card_fig_titan_golem_pixel,타이탄 고렘 픽셀,복셀픽셀,card,S,110000,voxel 기반의 픽셀 아트와 저폴리 블록이 주는etro复古 감성. 타이탄의 각진 몸체와 깨어나는 순간의 에너지가 디지털 감성을 자아냅니다. 게임 팬들에게 사랑받는 한정판 피규어.,,assets/cards/fig_titan_golem_pixel.webp
+card_fig_titan_golem_plush,타이탄 고렘 플러시,플러시,card,B,55000,부드러운 플러시 소재와 직물 질감이 주는 따뜻한 감성. 타이탄이 잠에서 깨어나는 순간의 귀여움이 살아있어요. 방에 놓으면 마치 살아있는 듯한 생동감을 주는 한정판 플러시 피규어.,,assets/cards/fig_titan_golem_plush.webp
+card_fig_titan_golem_realistic,타이탄 고렘 리얼,리얼리스틱,card,SS,150000,실사 수준의 디테일과 비례가 완벽한 타이탄 고렘. 고대 타이탄이 잠에서 깨어나는 순간의 웅장함과 핵심 반응로가 빛나는 디테일이 매력적이에요. 거실 장식용 최고의 선택.,,assets/cards/fig_titan_golem_realistic.webp
+card_fig_titan_golem_stylized,고대 거인 가오리 카드,스타일라이즈드,card,A,85000,"고대 문명의 숨겨진 보물, 거인 가오리가 깨어나는 순간을 포착한 일러스트. 4个头의 위압감에 반응하는 수집가들의 심장이 뛰게 하는 명품 카드.",,assets/cards/fig_titan_golem_stylized.webp
+card_fig_titan_golem_vinyl,크롬하트 거인 카드,바이닐토이,card,B,45000,"광택이 살아있는 비닐 토이 느낌의 거인 가오리. 빛이 반사되는 매끄러운 표면이 고급스러움을 더하며, 메카니컬한 디테일이 돋보입니다.",,assets/cards/fig_titan_golem_vinyl.webp
+card_fig_tracksuit_streamer_clay,뭉실 스트리머 카드,클레이,card,C,15000,"에너지 드링크 캔 옆에서 피식 웃는 뭉실한 스트리머. 점토 질감의 따뜻한 색감이 감성적인 분위기를 자아내며, 책상 위 장식으로도 완벽한 선택.",,assets/cards/fig_tracksuit_streamer_clay.webp
+card_fig_tracksuit_streamer_pixel,픽셀 스트리머 카드,복셀픽셀,card,C,12000,8비트 게임 속의 스트리머처럼 귀여운 픽셀 아트. 저폴리 블록이 주는 귀여운 모에와 에너지 드링크 캔의 대비가 매력 포인트.,,assets/cards/fig_tracksuit_streamer_pixel.webp
+card_fig_tracksuit_streamer_wooden,목공 스트리머 카드,우드카빙,card,B,35000,"수공예 목재 느낌의 스트리머. 나무의 결이 살아있는 따뜻한 색감과 손맛이 느껴지는 디테일, 오타쿠들의 감성에 어필하는 한정판.",,assets/cards/fig_tracksuit_streamer_wooden.webp
+card_fig_valkyrie_chibi,SD 발키리 카드,치비,card,A,75000,"2个头의 귀여운 SD 발키리. 날개와 창이 돋보이는 포즈와 당당한 표정이 매력, 책상 위에 올려두면 매일 설레는 하교길.",,assets/cards/fig_valkyrie_chibi.webp
+card_fig_valkyrie_clay,점토 발키리 카드,클레이,card,B,55000,"매트 마감의 점토 발키리. 날카로운 눈빛과 날개 갑옷의 디테일이 살아있는 리얼한 점토 질감, 수집가들의 시선을 사로잡는 명품.",,assets/cards/fig_valkyrie_clay.webp
+card_fig_valkyrie_metallic,크롬 발키리 카드,메탈릭,card,S,95000,"반사되는 크롬 도금 갑옷을 입은 발키리. 빛이 반사되는 매끄러운 표면이 고급스러움을 더하며, 메카니컬한 디테일이 돋보입니다.",,assets/cards/fig_valkyrie_metallic.webp
+card_fig_valkyrie_pixel,픽셀 발키리 카드,복셀픽셀,card,C,12000,8비트 게임 속의 발키리처럼 귀여운 픽셀 아트. 저폴리 블록이 주는 귀여운 모에와 날개 갑옷의 대비가 매력 포인트.,,assets/cards/fig_valkyrie_pixel.webp
+card_fig_valkyrie_plush,솜뭉치 발키리 카드,플러시,card,A,85000,"부드러운 플러시 재질의 발키리. 날카로운 눈빛과 날개 갑옷의 디테일이 살아있는 리얼한 플러시 질감, 수집가들의 시선을 사로잡는 명품.",,assets/cards/fig_valkyrie_plush.webp
+card_fig_valkyrie_realistic,실사 스타일 발키리,리얼리스틱,card,S,85000,순백 배경에서 날개를 달린 갑옷을 입고 내려앉는 발키리. 날카로운 눈빛과 바람에 날린 머리카락이 완벽한 리얼리티를 선사. 수집가들의 시선을 사로잡는 고화질 2D 카드.,,assets/cards/fig_valkyrie_realistic.webp
+card_fig_valkyrie_stylized,카툰 발키리,스타일라이즈드,card,A,45000,4个头身比例的可爱造型！翅膀和盔甲细节可爱，表情骄傲而凶猛。适合动漫迷的收藏，纯白背景下的可爱姿态，是收藏家的绝佳选择。,,assets/cards/fig_valkyrie_stylized.webp
+card_fig_valkyrie_vinyl,글로시 비닐 발키리,바이닐토이,card,B,35000,광택이 나는 비닐 소재로 제작된 디자이너 토이 느낌의 발키리. 날카로운 표정과 바람에 날린 머리카락이 돋보이는 섹시한 매력. 한정판 느낌의 고급스러움을 자랑합니다.,,assets/cards/fig_valkyrie_vinyl.webp
+card_fig_vampire_queen_wooden,목공 뱀파이어 여왕,우드카빙,card,A,75000,"손으로 조각한 목공 예술의 정수, 뱀파이어 여왕. 고딕 기둥에 기대며 반쯤 웃는 입과 송곳니가 매력 포인트. 빈티지한 감성과 섹시함이 어우러진 한정판 느낌의 2D 카드.",,assets/cards/fig_vampire_queen_wooden.webp
+card_fig_void_lancer_chibi,초쭉 보이 댄서,치비,card,S,95000,2个头身比例的超级可爱！宇宙长矛和撕裂的披风细节可爱，表情沉默而坚定。适合动漫迷的收藏，纯白背景下的可爱姿态，是收藏家的绝佳选择。,,assets/cards/fig_void_lancer_chibi.webp
+card_fig_void_lancer_clay,점토 보이 댄서,클레이,card,B,30000,매트 마감의 점토 조각품 느낌의 보이 댄서. 우주 장검과 빛나는 갑옷 문양이 차가운 분위기를 자아냅니다. 손으로 만든 듯한 따뜻한 감성과 쿨한 매력이 어우러진 2D 카드.,,assets/cards/fig_void_lancer_clay.webp
+card_fig_void_lancer_mech,메카 보이 댄서,메카닉,card,A,65000,기계식 관절과 갑옷 판재가 돋보이는 메카 보이 댄서. 우주 장검을 받치는 포즈와 빛나는 갑옷 문양이 차가운 분위기를 자아냅니다. 메카닉 감성과 쿨한 매력이 어우러진 2D 카드.,,assets/cards/fig_void_lancer_mech.webp
+card_fig_void_lancer_metallic,크롬 보이 댄서,메탈릭,card,S,80000,반사되는 크롬 표면이 빛나는 보이 댄서. 우주 장검과 빛나는 갑옷 문양이 차가운 분위기를 자아냅니다. 메카닉 감성과 쿨한 매력이 어우러진 2D 카드.,,assets/cards/fig_void_lancer_metallic.webp
+card_fig_void_lancer_pixel,픽셀 보이 댄서,복셀픽셀,card,B,35000,블록 형태의 픽셀 아트 스타일의 보이 댄서. 우주 장검과 빛나는 갑옷 문양이 차가운 분위기를 자아냅니다. 레트로 감성과 쿨한 매력이 어우러진 2D 카드.,,assets/cards/fig_void_lancer_pixel.webp
+card_fig_void_lancer_plush,솜뭉치 보이 댄서,플러시,card,A,55000,부드러운 플러시 소재의 보이 댄서. 우주 장검과 빛나는 갑옷 문양이 차가운 분위기를 자아냅니다. 부드러운 촉감과 쿨한 매력이 어우러진 2D 카드.,,assets/cards/fig_void_lancer_plush.webp
+card_fig_void_lancer_realistic,크롬하트 우주 장검사,리얼리스틱,card,SSS,150000,별빛 무늬 갑옷에 감춰진 우주적 결의. 찢어진 망토와 우주 장검의 디테일이 생생하게 재현된 리얼리티 피규어. 단 한 번의 공격으로도 적을 무너뜨리는 절대적 존재의 위엄을 품었습니다.,,assets/cards/fig_void_lancer_realistic.webp
+card_fig_void_lancer_stylized,우주 장검사 일러스트 카드,스타일라이즈드,card,A,15000,"4个头身高 비율의 귀여운 일러스트! 우주 장검사의 차가운 분위기가 일러스트로 재해석되어, 책상 위나 카드 트레이에 완벽하게 어울리는 한정판 아이템입니다.",,assets/cards/fig_void_lancer_stylized.webp
+card_fig_void_lancer_vinyl,글로스 비닐 장검사,바이닐토이,card,S,120000,"유리 같은 광택 비닐 재질로 제작된 디자이너 토이. 우주 장검사의 차가운 분위기가 더욱 강조되며, 수집가들의 시선을 사로잡는 프리미엄 아이템입니다.",,assets/cards/fig_void_lancer_vinyl.webp
+card_fig_void_lancer_wooden,수제 목공 장검사,우드카빙,card,SS,150000,손으로 조각한 목공품의 따뜻함이 우주 장검사의 차가운 분위기와 대비됩니다. 자연 재질의 질감과 디테일이 살아있는 한정판 수공예 피규어입니다.,,assets/cards/fig_void_lancer_wooden.webp
+card_fig_wendigo_chibi,꼬마 웬디고 SD 카드,치비,card,B,8000,"공포의 정령을 귀여운 SD 스타일로 재해석! 2个头身高 비율의 귀여운 꼬마 웬디고가 책상 위를 지키며, 공포와 귀여움이 공존하는 컬렉션 아이템입니다.",,assets/cards/fig_wendigo_chibi.webp
+card_fig_wendigo_clay,점토 웬디고 피규어,클레이,card,SSS,150000,매트 마감의 점토 조각품이 웬디고의 야생적인 분위기를 완벽하게 살려냅니다. 손으로 만든 듯한 질감과 디테일이 살아있는 아티스트 피규어입니다.,,assets/cards/fig_wendigo_clay.webp
+card_fig_wendigo_mech,로봇 웬디고 메카,메카닉,card,SSS,150000,기계 관절과 갑옷 판재가 결합된 메카닉 스타일의 웬디고. 공포의 정령이 기계화되어 더욱 위협적인 분위기를 풍기는 한정판 메카 피규어입니다.,,assets/cards/fig_wendigo_mech.webp
+card_fig_wendigo_metallic,크롬 웬디고 피규어,메탈릭,card,SSS,150000,반사 표면의 크롬 마감으로 웬디고의 야생적인 분위기를 더욱 강조합니다. 빛이 반사되는 매력이 살아있는 프리미엄 메탈 피규어입니다.,,assets/cards/fig_wendigo_metallic.webp
+card_fig_wendigo_pixel,픽셀 웬디고 아트워크,복셀픽셀,card,A,18000,로폴리 블록 형태의 픽셀 아트 스타일로 재해석된 웬디고. 저폴리 블록이 주는 독특한 분위기가 돋보이는 한정판 디지털 아트워크 카드입니다.,,assets/cards/fig_wendigo_pixel.webp
+card_fig_wendigo_plush,솜뭉치 웬디고,플러시,card,S,150000,"부드러운 플러시 소재가 웬디고의 야생적인 분위기를 부드럽게 재해석합니다. 공포의 정령을 귀여운 인형으로 만들어, 소름 끼치는 매력까지 선사합니다.",,assets/cards/fig_wendigo_plush.webp
+card_fig_wendigo_realistic,검은 눈동자 늑대인간,리얼리스틱,card,S,85000,빈 눈동자가 공포를 자아내는 늑대인간. 뿔과 갈고리 손톱이 섬세하게 재현된 리얼리스틱 디자인. 책상 위에 올려두면 밤마다 숨이 막히는 듯한 압도적인 존재감이 느껴져.,,assets/cards/fig_wendigo_realistic.webp
+card_fig_wendigo_stylized,카툰 늑대인간,스타일라이즈드,card,C,4000,4个头身比例的可爱卡通风格，虽然是恐怖题材，但Q版造型让人忍不住想收藏。适合放在电脑旁，作为日常的小小陪伴。,,assets/cards/fig_wendigo_stylized.webp
+card_fig_wendigo_vinyl,글로시 비닐 인형,바이닐토이,card,A,25000,유광 비닐 재질로 반짝이는 디자이너 토이 느낌. 컬렉터들이 사랑하는 글리치한 디자인과 매끄러운 표면에 만족감을 주는 고급스러운 질감이 돋보여.,,assets/cards/fig_wendigo_vinyl.webp
+card_fig_wendigo_wooden,핸드카프트 목공 인형,우드카빙,card,B,45000,"수공예 목재로 조각된 민속 예술 작품. 자연스러운 나무 질감과 늑대인간의 야성적인 미소가 어우러져, 집 장식 아이템으로 완벽한 분위기를 연출해.",,assets/cards/fig_wendigo_wooden.webp
+card_fig_winter_coat_heroine_chibi,뭉실 겨울코트 미소녀,치비,card,C,4000,과대화된 겨울코트와 귀여운 표정의 미소녀. 캔커피를 들고 있는 포즈가 일상적인 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_winter_coat_heroine_chibi.webp
+card_fig_winter_coat_heroine_clay,클레이 조각 미소녀,클레이,card,B,25000,"매트 마감의 클레이 조각이 주는 따뜻한 감성. 겨울코트와 스카프 디테일이 섬세하게 표현되어 있어, 손에 잡히는 듯한 촉감이 매력 포인트.",,assets/cards/fig_winter_coat_heroine_clay.webp
+card_fig_winter_coat_heroine_mech,메카닉 미소녀,메카닉,card,A,65000,메커니컬 관절과 갑옷 플레이트가 결합된 유니크한 디자인. 겨울코트와 메카닉의 대비가 매력 포인트. 책상 위에 올려두면 매일 설레는 하교길.,,assets/cards/fig_winter_coat_heroine_mech.webp
+card_fig_winter_coat_heroine_metallic,크롬 미소녀,메탈릭,card,S,120000,"폴리시드 크롬 마감의 반사 표면이 빛을 머금은 미소녀. 겨울코트와 스카프 디테일이 섬세하게 표현되어 있어, 손에 잡히는 듯한 촉감이 매력 포인트.",,assets/cards/fig_winter_coat_heroine_metallic.webp
+card_fig_winter_coat_heroine_pixel,픽셀 미소녀,복셀픽셀,card,B,25000,"브록키한 픽셀 아트와 로우폴리 디자인이 어우러진 귀여운 미소녀. 겨울코트와 스카프 디테일이 섬세하게 표현되어 있어, 손에 잡히는 듯한 촉감이 매력 포인트.",,assets/cards/fig_winter_coat_heroine_pixel.webp
+card_fig_winter_coat_heroine_plush,솜뭉치 미소녀,플러시,card,C,4000,"부드러운 플러시 소재가 주는 따뜻한 감성. 겨울코트와 스카프 디테일이 섬세하게 표현되어 있어, 손에 잡히는 듯한 촉감이 매력 포인트.",,assets/cards/fig_winter_coat_heroine_plush.webp
+card_fig_winter_coat_heroine_realistic,얼어붙은 커피 소녀,리얼리스틱,card,S,85000,차가운 겨울 바람 속에서도 따뜻한 캔 커피를 꼭 안고 있는 그녀. 붉은 볼살에 숨겨진 설렘과 눈빛이 마음을 녹여버려. 리얼한 피부 질감과 실루엣 디테일이 현실감을 더하는 한정판 카드.,,assets/cards/fig_winter_coat_heroine_realistic.webp
+card_fig_winter_coat_heroine_vinyl,글로스 비닐 겨울 소녀,바이닐토이,card,A,65000,유리처럼 반짝이는 광택 비닐로 재현된 겨울 소녀. 촉촉한 피부와 부드러운 스카프 디테일이 고급스러운 느낌을 선사. 수집가들의 눈으로만 봐도 반짝이는 한정판.,,assets/cards/fig_winter_coat_heroine_vinyl.webp
+card_fig_winter_coat_heroine_wooden,목공의 겨울 전사,우드카빙,card,B,45000,손으로 깎아 만든 나무의 온기가 느껴지는 한정판. 자연스러운 목재 결과 따뜻한 색감이 겨울의 낭만을 더함. 책상 위에 올려두면 매일 따뜻한 감성을 선사하는 아티스트 카드.,,assets/cards/fig_winter_coat_heroine_wooden.webp
+card_fig_witch_queen_chibi,꼬마 마녀 퀸,치비,card,A,55000,두个头높이의 귀여운 SD 버전! 큰 모자 아래 숨겨진 미소와 교차한 다리가 매력 포인트. 방에 두면 매일 기분 좋은 웃음소리가 들려오는 귀여운 한정판.,,assets/cards/fig_witch_queen_chibi.webp
+card_fig_witch_queen_clay,점토의 마녀 여왕,클레이,card,B,48000,매끄러운 점토 질감과 독특한 색감이 어우러진 마녀 여왕. 손으로 빚은 듯한 따뜻한 느낌과 신비로운 미소가 매력. 한정판 아티스트 카드의 완성도를 높여주는 명작.,,assets/cards/fig_witch_queen_clay.webp
+card_fig_witch_queen_mech,메카닉 마녀,메카닉,card,A,75000,로봇 관절과 갑옷 판재가 결합된 메카닉 버전! 기계적인 디테일과 마녀의 신비로움이 어우러진 독특한 컨셉. 수집가들의 호기심을 자극하는 한정판.,,assets/cards/fig_witch_queen_mech.webp
+card_fig_witch_queen_metallic,크롬 마녀 퀸,메탈릭,card,S,95000,반짝이는 크롬 도금 갑옷이 빛을 머금은 마녀 여왕! 은은한 빛이 반사되며 신비로운 분위기를 연출. 고급스러운 크롬 질감이 돋보이는 한정판.,,assets/cards/fig_witch_queen_metallic.webp
+card_fig_witch_queen_pixel,픽셀 마녀,복셀픽셀,card,B,52000,로우폴리곤 블록으로 구성된 픽셀 아트 버전! 레트로한 감성과 귀여운 블록 디테일이 어우러진 한정판. 게임 팬들에게 특히 인기가 많은 컨셉.,,assets/cards/fig_witch_queen_pixel.webp
+card_fig_witch_queen_plush,솜뭉치 마녀,플러시,card,C,35000,부드러운 플러시 소재로 만든 마녀 여왕! 촉촉한 털과 따뜻한 색감이 마음을 녹여주는 귀여운 한정판. 손으로 만져보고 싶게 만드는 부드러운 감성.,,assets/cards/fig_witch_queen_plush.webp
+card_fig_witch_queen_realistic,리얼 마녀 퀸,리얼리스틱,card,S,110000,현실적인 디테일로 재현된 마녀 여왕. 섬세한 표정과 옷의 질감이 마치 살아있는 듯한 생동감을 선사. 수집가들의 눈으로만 봐도 반짝이는 한정판.,,assets/cards/fig_witch_queen_realistic.webp
+card_fig_witch_queen_stylized,초록색 마녀 퀸 카드,스타일라이즈드,card,C,5000,흰 배경에 앉아있는 마녀 퀸의 미스터리한 미소가 매력적이에요. 스타일라이즈된 귀여운 디자인이 돋보이는 한정판 카드. 책상 위에 올려두면 매일 보는 즐거움이 있어요.,,assets/cards/fig_witch_queen_stylized.webp
+card_fig_witch_queen_vinyl,글로스 비닐 마녀 퀸 카드,바이닐토이,card,B,8000,유광 비닐 재질의 고급스러운 광택이 돋보이는 마녀 퀸 카드. 디자인이 세련되어 있어 수집가들의 사랑을 받을 거예요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.,,assets/cards/fig_witch_queen_vinyl.webp
+card_fig_witch_queen_wooden,핸드카프트 목재 마녀 퀸 카드,우드카빙,card,A,15000,"손으로 조각한 목재의 따뜻함이 느껴지는 마녀 퀸 카드. 민속 예술의 정서가 담긴 디자인이 돋보이며, 한정판으로 수집 가치가 높아요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.",,assets/cards/fig_witch_queen_wooden.webp
+card_fig_wolf_alpha_clay,클레이 울프 알파 카드,클레이,card,B,8000,"매트 마감의 클레이 조각이 돋보이는 울프 알파 카드. 달빛 아래 우는 포즈가 강렬한 분위기를 자아내고, 동물 팬들에게 큰 인기를 끌 거예요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.",,assets/cards/fig_wolf_alpha_clay.webp
+card_fig_wolf_alpha_mech,메카 울프 알파 카드,메카닉,card,A,15000,"기계식 관절과 갑옷이 돋보이는 울프 알파 카드. 전투 상처와 달빛 실루엣이 어우러진 강인한 이미지가 돋보이며, 메카 팬들에게 큰 인기를 끌 거예요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.",,assets/cards/fig_wolf_alpha_mech.webp
+card_fig_wolf_alpha_metallic,크롬 울프 알파 카드,메탈릭,card,S,25000,"반사 표면의 크롬 마감이 돋보이는 울프 알파 카드. 달빛 아래 우는 포즈가 강렬한 분위기를 자아내고, 메탈릭한 광택이 돋보이며, 한정판으로 수집 가치가 높아요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.",,assets/cards/fig_wolf_alpha_metallic.webp
+card_fig_wolf_alpha_pixel,픽셀 울프 알파 카드,복셀픽셀,card,A,15000,"로우폴리 픽셀 아트 스타일의 울프 알파 카드. 블록 같은 디자인이 돋보이며, 게임 팬들에게 큰 인기를 끌 거예요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.",,assets/cards/fig_wolf_alpha_pixel.webp
+card_fig_wolf_alpha_plush,플러시 울프 알파 카드,플러시,card,B,8000,부드러운 플러시 소재의 울프 알파 카드. 동물 팬들에게 큰 인기를 끌 거예요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.,,assets/cards/fig_wolf_alpha_plush.webp
+card_fig_wolf_alpha_wooden,핸드카프트 목재 울프 알파 카드,우드카빙,card,A,15000,"손으로 조각한 목재의 따뜻함이 느껴지는 울프 알파 카드. 민속 예술의 정서가 담긴 디자인이 돋보이며, 한정판으로 수집 가치가 높아요. 책상 위에 올려두면 매일 보는 즐거움이 있어요.",,assets/cards/fig_wolf_alpha_wooden.webp

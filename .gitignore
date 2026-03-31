@@ -1,0 +1,11 @@
+# Tools - dev only (screenshots, node_modules, etc.)
+tools/screenshots/
+tools/node_modules/
+tools/package-lock.json
+
+# Tools - generated artifacts (not code)
+tools/generated-img/
+tools/generated-glb/
+tools/pipeline-checkpoint.json
+tools/qa-report.json
+tools/trellis2-server/

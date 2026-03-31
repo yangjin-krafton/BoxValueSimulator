@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Volumetric Spotlight - #3 Particle Volume</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #000; overflow: hidden; font-family: 'Consolas', monospace; }
+canvas { display: block; }
+#stats {
+	position: fixed; top: 10px; left: 10px; z-index: 100;
+	background: rgba(0,0,0,0.85); color: #0f0; padding: 12px 16px;
+	border: 1px solid #0f03; border-radius: 6px; font-size: 12px;
+	line-height: 1.6; min-width: 220px;
+}
+#stats .title { color: #6cf; font-size: 14px; font-weight: bold; margin-bottom: 6px; }
+#stats .val { color: #ff0; }
+#stats .label { color: #888; }
+#controls {
+	position: fixed; top: 10px; right: 10px; z-index: 100;
+	background: rgba(0,0,0,0.85); color: #ccc; padding: 12px 16px;
+	border: 1px solid #fff2; border-radius: 6px; font-size: 12px;
+	line-height: 2.2; min-width: 220px;
+}
+#controls .title { color: #f80; font-size: 14px; font-weight: bold; margin-bottom: 6px; }
+#controls label { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+#controls input[type="range"] { width: 100px; }
+#nav {
+	position: fixed; right: 10px; bottom: 10px; z-index: 100;
+	background: rgba(0,0,0,0.85); color: #ccc; padding: 12px 16px;
+	border: 1px solid #fff2; border-radius: 6px; font-size: 12px;
+	line-height: 1.8; min-width: 220px;
+}
+#nav .title { color: #9cf; font-size: 14px; font-weight: bold; margin-bottom: 4px; }
+#nav a { color: #ffd36c; text-decoration: none; }
+#nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div id="stats">
+	<div class="title">#3 Particle Volume</div>
+	<div><span class="label">FPS:</span> <span class="val" id="fps">0</span></div>
+	<div><span class="label">Frame Time:</span> <span class="val" id="frametime">0</span> <span class="label">ms</span></div>
+	<div><span class="label">Draw Calls:</span> <span class="val" id="drawcalls">0</span></div>
+	<div><span class="label">Triangles:</span> <span class="val" id="triangles">0</span></div>
+	<div><span class="label">Geometries:</span> <span class="val" id="geometries">0</span></div>
+	<div><span class="label">Textures:</span> <span class="val" id="textures">0</span></div>
+	<div><span class="label">Programs:</span> <span class="val" id="programs">0</span></div>
+	<hr style="border-color:#333;margin:6px 0">
+	<div><span class="label">Particles/Light:</span> <span class="val" id="particlecount">2200</span></div>
+	<div><span class="label">Lights:</span> <span class="val" id="lightcount">3</span></div>
+</div>
+<div id="controls">
+	<div class="title">Parameters</div>
+	<label>Particles <input type="range" id="c_particles" min="400" max="5200" step="200" value="2200"><span id="v_particles">2200</span></label>
+	<label>Density <input type="range" id="c_density" min="0.01" max="0.22" step="0.01" value="0.08"><span id="v_density">0.08</span></label>
+	<label>Size <input type="range" id="c_size" min="18" max="90" step="2" value="42"><span id="v_size">42</span></label>
+	<label>Drift <input type="range" id="c_drift" min="0" max="2" step="0.05" value="0.45"><span id="v_drift">0.45</span></label>
+	<label>P.Bright <input type="range" id="c_pbright" min="0.1" max="5" step="0.1" value="2.0"><span id="v_pbright">2.0</span></label>
+	<label>L.Intens <input type="range" id="c_lintens" min="0.5" max="20" step="0.5" value="10"><span id="v_lintens">10</span></label>
+</div>
+<div id="nav">
+	<div class="title">Compare Methods</div>
+	<div><a href="../spotlight-benchmark.html">Overview</a></div>
+	<div><a href="../01-raymarching/index.html">01 Ray Marching</a></div>
+	<div><a href="../02-layered-planes/index.html">02 Layered Planes</a></div>
+	<div><a href="../04-analytical-inscatter/index.html">04 Analytical Post</a></div>
+	<div><a href="../05-cone-analytical/index.html">05 Cone Analytical</a></div>
+</div>
+
+<script src="../three.min.js"></script>
+<script>
+'use strict';
+
+const perf = { frames: 0, lastTime: performance.now(), fps: 0, frameTime: 0 };
+function updatePerf() {
+	perf.frames++;
+	const now = performance.now();
+	const delta = now - perf.lastTime;
+	if (delta >= 500) {
+		perf.fps = (perf.frames / delta * 1000).toFixed(1);
+		perf.frameTime = (delta / perf.frames).toFixed(2);
+		perf.frames = 0;
+		perf.lastTime = now;
+		document.getElementById('fps').textContent = perf.fps;
+		document.getElementById('frametime').textContent = perf.frameTime;
+	}
+}
+function updateRendererStats(renderer) {
+	const info = renderer.info;
+	document.getElementById('drawcalls').textContent = info.render.calls;
+	document.getElementById('triangles').textContent = info.render.triangles.toLocaleString();
+	document.getElementById('geometries').textContent = info.memory.geometries;
+	document.getElementById('textures').textContent = info.memory.textures;
+	document.getElementById('programs').textContent = info.programs?.length || 0;
+}
+function bindControl(id, callback) {
+	const slider = document.getElementById('c_' + id);
+	const label = document.getElementById('v_' + id);
+	slider.addEventListener('input', () => {
+		label.textContent = slider.value;
+		callback(parseFloat(slider.value));
+	});
+}
+
+const particleVert = `
+attribute float aSeed;
+attribute float aWeight;
+
+uniform float time;
+uniform float drift;
+uniform float size;
+uniform float lightDist;
+
+varying float vAlpha;
+varying float vWeight;
+
+void main() {
+	vec3 p = position;
+	float heightT = clamp(-p.y / lightDist, 0.0, 1.0);
+	float swirl = sin(time * (0.8 + aSeed * 1.4) + aSeed * 31.4 + p.y * 0.45);
+	float sway = cos(time * (1.0 + aSeed * 1.1) + aSeed * 22.7 + p.y * 0.35);
+	float radiusFade = 1.0 - heightT;
+	p.x += swirl * drift * 0.22 * radiusFade;
+	p.z += sway * drift * 0.22 * radiusFade;
+
+	vec4 mvPosition = modelViewMatrix * vec4(p, 1.0);
+	gl_Position = projectionMatrix * mvPosition;
+
+	float perspective = 260.0 / max(20.0, -mvPosition.z);
+	float nearScale = smoothstep(0.0, 0.5, heightT);
+	gl_PointSize = size * (0.45 + aWeight * 0.8) * perspective * nearScale;
+
+	float depthFade = 1.0 - smoothstep(0.65, 1.0, heightT);
+	vAlpha = depthFade * nearScale * (0.35 + aWeight * 0.65);
+	vWeight = aWeight;
+}
+`;
+
+const particleFrag = `
+uniform vec3 color;
+uniform float density;
+uniform float intensity;
+
+varying float vAlpha;
+varying float vWeight;
+
+void main() {
+	vec2 center = gl_PointCoord - 0.5;
+	float d = length(center) * 2.0;
+	float sprite = smoothstep(1.0, 0.2, d);
+	float core = smoothstep(0.55, 0.0, d);
+	float alpha = density * vAlpha * sprite;
+	vec3 shaded = color * (0.55 + vWeight * 0.45) * intensity;
+	gl_FragColor = vec4(shaded + core * color * 0.35, alpha);
+}
+`;
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.0;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x050510);
+scene.fog = new THREE.FogExp2(0x050510, 0.02);
+
+const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.1, 200);
+camera.position.set(8, 7, 12);
+camera.lookAt(0, 0, 0);
+camera.layers.enable(1);
+
+const orbit = { theta: 0.6, phi: 0.8, dist: 16, target: new THREE.Vector3(0, 1, 0), dragging: false, lx: 0, ly: 0 };
+function updateCamera() {
+	camera.position.set(
+		orbit.target.x + orbit.dist * Math.sin(orbit.phi) * Math.sin(orbit.theta),
+		orbit.target.y + orbit.dist * Math.cos(orbit.phi),
+		orbit.target.z + orbit.dist * Math.sin(orbit.phi) * Math.cos(orbit.theta)
+	);
+	camera.lookAt(orbit.target);
+}
+updateCamera();
+
+renderer.domElement.addEventListener('pointerdown', e => {
+	orbit.dragging = true;
+	orbit.lx = e.clientX;
+	orbit.ly = e.clientY;
+});
+window.addEventListener('pointerup', () => orbit.dragging = false);
+window.addEventListener('pointermove', e => {
+	if (!orbit.dragging) return;
+	orbit.theta += (e.clientX - orbit.lx) * 0.005;
+	orbit.phi = Math.max(0.1, Math.min(Math.PI - 0.1, orbit.phi - (e.clientY - orbit.ly) * 0.005));
+	orbit.lx = e.clientX;
+	orbit.ly = e.clientY;
+	updateCamera();
+});
+renderer.domElement.addEventListener('wheel', e => {
+	orbit.dist = Math.max(3, Math.min(40, orbit.dist + e.deltaY * 0.01));
+	updateCamera();
+});
+
+const floor = new THREE.Mesh(
+	new THREE.PlaneGeometry(50, 50),
+	new THREE.MeshStandardMaterial({ color: 0x111122, roughness: 0.9 })
+);
+floor.rotation.x = -Math.PI / 2;
+floor.receiveShadow = true;
+scene.add(floor);
+
+const boxGeo = new THREE.BoxGeometry(1.2, 1.2, 1.2);
+[
+	[0, 0.6, 0, 0x556677],
+	[-2, 0.6, 1.5, 0x665544],
+	[2.5, 0.6, -1, 0x445566],
+	[-5, 0.6, -3, 0x554466],
+	[5, 0.6, 3, 0x446655]
+].forEach(([x, y, z, c]) => {
+	const mesh = new THREE.Mesh(boxGeo, new THREE.MeshStandardMaterial({ color: c, roughness: 0.6 }));
+	mesh.position.set(x, y, z);
+	mesh.castShadow = true;
+	mesh.receiveShadow = true;
+	scene.add(mesh);
+});
+
+const sphere = new THREE.Mesh(
+	new THREE.SphereGeometry(0.6, 24, 24),
+	new THREE.MeshStandardMaterial({ color: 0x886644, roughness: 0.3, metalness: 0.5 })
+);
+sphere.position.set(1.5, 0.6, 2.5);
+sphere.castShadow = true;
+scene.add(sphere);
+
+scene.add(new THREE.AmbientLight(0x111133, 0.3));
+
+const dustCount = 400;
+const dustGeo = new THREE.BufferGeometry();
+const dustArr = new Float32Array(dustCount * 3);
+for (let i = 0; i < dustCount; i++) {
+	dustArr[i * 3] = (Math.random() - 0.5) * 20;
+	dustArr[i * 3 + 1] = Math.random() * 12;
+	dustArr[i * 3 + 2] = (Math.random() - 0.5) * 20;
+}
+dustGeo.setAttribute('position', new THREE.BufferAttribute(dustArr, 3));
+scene.add(new THREE.Points(dustGeo, new THREE.PointsMaterial({
+	color: 0xffffff,
+	size: 0.04,
+	transparent: true,
+	opacity: 0.22,
+	blending: THREE.AdditiveBlending,
+	depthWrite: false
+})));
+
+const spotConfigs = [
+	{ pos: [0, 10, 0], target: [0, 0, 0], color: 0xffeedd, angle: 0.38, dist: 12, intensity: 2.0 },
+	{ pos: [-5, 8, -3], target: [-5, 0, -3], color: 0x4488ff, angle: 0.32, dist: 10, intensity: 1.6 },
+	{ pos: [5, 9, 3], target: [5, 0, 3], color: 0xff6644, angle: 0.30, dist: 10, intensity: 1.8 }
+];
+document.getElementById('lightcount').textContent = spotConfigs.length;
+
+const MAX_PARTICLES = 5200;
+const params = {
+	particles: 2200,
+	density: 0.08,
+	size: 42,
+	drift: 0.45,
+	pbright: 2.0,
+	lintens: 10
+};
+
+function buildParticleGeometry(cfg) {
+	const positions = new Float32Array(MAX_PARTICLES * 3);
+	const seeds = new Float32Array(MAX_PARTICLES);
+	const weights = new Float32Array(MAX_PARTICLES);
+
+	for (let i = 0; i < MAX_PARTICLES; i++) {
+		const t = Math.pow(Math.random(), 0.8);
+		const y = -cfg.dist * t;
+		const radius = Math.tan(cfg.angle) * cfg.dist * t;
+		const theta = Math.random() * Math.PI * 2;
+		const r = radius * Math.sqrt(Math.random());
+
+		positions[i * 3] = Math.cos(theta) * r;
+		positions[i * 3 + 1] = y;
+		positions[i * 3 + 2] = Math.sin(theta) * r;
+		seeds[i] = Math.random();
+		weights[i] = Math.random();
+	}
+
+	const geometry = new THREE.BufferGeometry();
+	geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+	geometry.setAttribute('aSeed', new THREE.BufferAttribute(seeds, 1));
+	geometry.setAttribute('aWeight', new THREE.BufferAttribute(weights, 1));
+	geometry.setDrawRange(0, params.particles);
+	return geometry;
+}
+
+function createParticleSpotlight(cfg) {
+	const pos = new THREE.Vector3(...cfg.pos);
+	const tgt = new THREE.Vector3(...cfg.target);
+	const dir = new THREE.Vector3().subVectors(tgt, pos).normalize();
+
+	const spot = new THREE.SpotLight(cfg.color, params.lintens, cfg.dist, cfg.angle, 0.25, 1.0);
+	spot.position.copy(pos);
+	spot.castShadow = true;
+	spot.shadow.mapSize.set(1024, 1024);
+	spot.shadow.bias = -0.002;
+	const spotTarget = new THREE.Object3D();
+	spotTarget.position.copy(tgt);
+	spot.target = spotTarget;
+	scene.add(spot);
+	scene.add(spotTarget);
+
+	const bulb = new THREE.Mesh(
+		new THREE.SphereGeometry(0.12, 12, 12),
+		new THREE.MeshBasicMaterial({ color: cfg.color })
+	);
+	bulb.position.copy(pos);
+	scene.add(bulb);
+
+	const geometry = buildParticleGeometry(cfg);
+	const uniforms = {
+		time: { value: 0 },
+		drift: { value: params.drift },
+		size: { value: params.size },
+		lightDist: { value: cfg.dist },
+		color: { value: new THREE.Color(cfg.color) },
+		density: { value: params.density },
+		intensity: { value: params.pbright }
+	};
+
+	const material = new THREE.ShaderMaterial({
+		vertexShader: particleVert,
+		fragmentShader: particleFrag,
+		uniforms,
+		transparent: true,
+		depthWrite: false,
+		blending: THREE.AdditiveBlending
+	});
+
+	const points = new THREE.Points(geometry, material);
+	points.position.copy(pos);
+	points.quaternion.setFromUnitVectors(new THREE.Vector3(0, -1, 0), dir);
+	points.layers.set(1);
+	scene.add(points);
+
+	return {
+		points,
+		geometry,
+		material,
+		uniforms,
+		spot,
+		bulb,
+		pos,
+		target: tgt
+	};
+}
+
+const volumes = spotConfigs.map(createParticleSpotlight);
+
+bindControl('particles', value => {
+	params.particles = value;
+	document.getElementById('particlecount').textContent = value;
+	for (const volume of volumes) {
+		volume.geometry.setDrawRange(0, value);
+	}
+});
+bindControl('density', value => {
+	params.density = value;
+	for (const volume of volumes) volume.uniforms.density.value = value;
+});
+bindControl('size', value => {
+	params.size = value;
+	for (const volume of volumes) volume.uniforms.size.value = value;
+});
+bindControl('drift', value => {
+	params.drift = value;
+	for (const volume of volumes) volume.uniforms.drift.value = value;
+});
+bindControl('pbright', value => {
+	params.pbright = value;
+	for (const volume of volumes) volume.uniforms.intensity.value = value;
+});
+bindControl('lintens', value => {
+	params.lintens = value;
+	for (const volume of volumes) volume.spot.intensity = value;
+});
+
+let time = 0;
+renderer.setAnimationLoop(() => {
+	time += 0.016;
+
+	const volume0 = volumes[0];
+	if (volume0) {
+		volume0.pos.set(Math.sin(time * 0.3) * 1.5, 10 + Math.sin(time * 0.5) * 0.5, Math.cos(time * 0.4) * 1.5);
+		volume0.points.position.copy(volume0.pos);
+		volume0.spot.position.copy(volume0.pos);
+		volume0.bulb.position.copy(volume0.pos);
+		const dir = new THREE.Vector3().subVectors(volume0.target, volume0.pos).normalize();
+		volume0.points.quaternion.setFromUnitVectors(new THREE.Vector3(0, -1, 0), dir);
+	}
+
+	for (const volume of volumes) {
+		volume.uniforms.time.value = time;
+	}
+
+	renderer.render(scene, camera);
+	updatePerf();
+	updateRendererStats(renderer);
+});
+
+window.addEventListener('resize', () => {
+	camera.aspect = innerWidth / innerHeight;
+	camera.updateProjectionMatrix();
+	renderer.setSize(innerWidth, innerHeight);
+});
+</script>
+</body>
+</html>

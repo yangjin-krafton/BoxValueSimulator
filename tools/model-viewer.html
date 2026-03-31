@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GLB Model Screenshot</title>
+  <style>
+    body { margin: 0; background: #1a1a2e; overflow: hidden; }
+    canvas { display: block; }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const SIZE = 512;
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(SIZE, SIZE);
+renderer.setPixelRatio(1);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.2;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a1a2e);
+
+const camera = new THREE.PerspectiveCamera(40, 1, 0.01, 100);
+
+// 조명
+const ambient = new THREE.AmbientLight(0xffffff, 0.6);
+scene.add(ambient);
+const dirLight = new THREE.DirectionalLight(0xffffff, 1.8);
+dirLight.position.set(3, 5, 4);
+scene.add(dirLight);
+const fillLight = new THREE.DirectionalLight(0x8888ff, 0.5);
+fillLight.position.set(-3, 2, -2);
+scene.add(fillLight);
+const rimLight = new THREE.DirectionalLight(0xffffff, 0.8);
+rimLight.position.set(0, -1, -4);
+scene.add(rimLight);
+
+// 바닥 그리드 (참고용)
+const grid = new THREE.GridHelper(4, 20, 0x333355, 0x222244);
+grid.position.y = -0.01;
+scene.add(grid);
+
+const loader = new GLTFLoader();
+
+/**
+ * GLB를 로드하고 정면 스크린샷을 찍어 data URL 반환.
+ * Puppeteer에서 window.captureModel(path) 로 호출.
+ */
+window.captureModel = async function(modelPath) {
+  // 이전 모델 제거
+  const prev = scene.getObjectByName('__model__');
+  if (prev) scene.remove(prev);
+
+  return new Promise((resolve, reject) => {
+    loader.load(
+      modelPath,
+      (gltf) => {
+        const model = gltf.scene;
+        model.name = '__model__';
+
+        // 모델을 중앙 정렬 + 크기 정규화
+        const box = new THREE.Box3().setFromObject(model);
+        const size = box.getSize(new THREE.Vector3());
+        const center = box.getCenter(new THREE.Vector3());
+        const maxDim = Math.max(size.x, size.y, size.z);
+        if (maxDim > 0) model.scale.setScalar(2.0 / maxDim);
+
+        // 스케일 적용 후 중심 재계산
+        model.updateMatrixWorld(true);
+        const box2 = new THREE.Box3().setFromObject(model);
+        const center2 = box2.getCenter(new THREE.Vector3());
+        model.position.sub(center2);
+
+        scene.add(model);
+
+        // 카메라를 모델에 맞춰 배치 (정면 약간 위에서)
+        const sphere = box2.getBoundingSphere(new THREE.Sphere());
+        const dist = Math.max(sphere.radius * 3.2, 1.5);
+        camera.position.set(dist * 0.7, dist * 0.5, dist * 0.7);
+        camera.lookAt(0, 0, 0);
+        camera.updateProjectionMatrix();
+
+        // 2프레임 렌더 후 캡처 (재질 로드 대기)
+        requestAnimationFrame(() => {
+          renderer.render(scene, camera);
+          requestAnimationFrame(() => {
+            renderer.render(scene, camera);
+            const dataUrl = renderer.domElement.toDataURL('image/png');
+            resolve(dataUrl);
+          });
+        });
+      },
+      undefined,
+      (err) => reject(err?.message || 'load failed')
+    );
+  });
+};
+
+// 준비 완료 신호
+window.__VIEWER_READY__ = true;
+</script>
+</body>
+</html>
