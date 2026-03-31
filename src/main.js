@@ -168,22 +168,15 @@ bus.on('box:open', () => {
   const product = unboxing.productInstance;
   if (!product) return;
 
-  hud.showProductResult(product, gameState.state.lastBoxPrice || 0);
-
-  // 확인 버튼 표시 — 누를 때까지 줌인 상태 유지
-  hud.showButton('확인', () => {
-    hud.hideProductResult();
-    hud.hideButton();
-
-    // 슬롯에 배치
+  hud.showProductResult(product, gameState.state.lastBoxPrice || 0, () => {
+    // 확인 버튼 클릭 시 — 슬롯 배치 + 줌아웃
     if (_targetSlotIndex >= 0) {
       displayMgr.addToSlot(product);
       gameState.state.currentProduct = null;
     }
     _targetSlotIndex = -1;
-
     finishBoxAndContinue();
-  }, { bg: '#f0c040', color: '#222' });
+  });
 });
 
 // ── 판매 버튼 클릭 (보드판 위) ──

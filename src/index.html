@@ -44,25 +44,69 @@
       pointer-events: none; transition: opacity 0.5s;
     }
 
-    #grade-popup {
-      position: fixed; bottom: 5.5rem; left: 50%; transform: translateX(-50%);
-      font-size: 1.6rem; font-weight: 900; letter-spacing: 0.04em;
-      pointer-events: none; opacity: 0; transition: opacity 0.4s;
-      text-shadow: 0 0 16px currentColor, 0 0 32px currentColor;
-      text-align: center;
-      background: rgba(0,0,0,0.7);
-      backdrop-filter: blur(8px);
-      padding: 0.8rem 1.6rem;
-      border-radius: 12px;
-      max-width: 90vw;
-      line-height: 1.5;
-      border: 1px solid rgba(255,255,255,0.1);
+    /* ── 개봉 상품 표시: 상단 (등급 + 이름) ── */
+    #product-top {
+      position: fixed; top: 1.2rem; left: 50%; transform: translateX(-50%);
+      text-align: center; pointer-events: none;
+      color: #ffffff;
+      opacity: 0; transition: opacity 0.4s;
+      z-index: 15;
     }
-    #grade-popup .product-desc {
-      font-size: 0.8rem; font-weight: 400; opacity: 0.75;
-      line-height: 1.4; margin-top: 0.3rem;
-      text-shadow: none;
+    #product-top .grade-badge {
+      font-size: 2rem; font-weight: 900; letter-spacing: 0.06em;
+      text-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
     }
+    #product-top .product-name {
+      font-size: 1.1rem; font-weight: 700; color: #ffffff;
+      margin-top: 0.2rem;
+      text-shadow:
+        -1px -1px 0 #000, 1px -1px 0 #000,
+        -1px  1px 0 #000, 1px  1px 0 #000,
+        0 0 8px rgba(0,0,0,0.8);
+    }
+    #product-top .product-desc {
+      font-size: 0.82rem; font-weight: 500;
+      color: #ffffff;
+      line-height: 1.5; margin-top: 0.4rem;
+      max-width: 400px; margin-left: auto; margin-right: auto;
+      -webkit-text-stroke: 0.3px rgba(0,0,0,0.6);
+      text-shadow:
+        -1px -1px 0 #000, 1px -1px 0 #000,
+        -1px  1px 0 #000, 1px  1px 0 #000,
+        0 0 8px rgba(0,0,0,0.9);
+    }
+    #product-top .product-tags {
+      font-size: 0.75rem; margin-top: 0.3rem; opacity: 0.6;
+    }
+
+    /* ── 개봉 상품 표시: 하단 (가격 + 설명 + 확인 버튼) ── */
+    #product-bottom {
+      position: fixed; bottom: 0; left: 0; width: 100%;
+      text-align: center; pointer-events: none;
+      opacity: 0; transition: opacity 0.4s;
+      z-index: 15;
+      background: linear-gradient(transparent, rgba(0,0,0,0.85) 30%);
+      padding: 2rem 1rem 1.2rem;
+    }
+    #product-bottom .price-line {
+      font-size: 1.5rem; font-weight: 900; color: #f0c040;
+      text-shadow: 0 0 12px rgba(240,192,64,0.5);
+    }
+    #product-bottom .profit {
+      font-size: 0.9rem; margin-left: 0.5rem;
+    }
+    #product-bottom .confirm-btn {
+      display: inline-block; margin-top: 0.7rem;
+      background: #f0c040; color: #1a0f00; border: none; border-radius: 8px;
+      padding: 0.6rem 3rem; font: bold 15px system-ui; cursor: pointer;
+      pointer-events: auto; letter-spacing: 0.05em;
+      transition: background 0.15s, transform 0.1s;
+    }
+    #product-bottom .confirm-btn:hover { background: #ffe060; transform: scale(1.05); }
+    #product-bottom .confirm-btn:active { transform: scale(0.97); }
+
+    /* 기존 grade-popup 호환 (숨김) */
+    #grade-popup { display: none; }
 
     #ui {
       position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%);
@@ -173,6 +217,20 @@
 
   <div id="hint">상자를 클릭해서 선택하세요</div>
   <div id="grade-popup"></div>
+
+  <!-- 개봉 상품 표시: 상단 -->
+  <div id="product-top">
+    <div class="grade-badge"></div>
+    <div class="product-name"></div>
+    <div class="product-desc"></div>
+    <div class="product-tags"></div>
+  </div>
+
+  <!-- 개봉 상품 표시: 하단 -->
+  <div id="product-bottom">
+    <div class="price-line"></div>
+    <button class="confirm-btn">확인</button>
+  </div>
 
   <div id="ui">
     <button id="btn-action" style="display:none">개봉하기</button>

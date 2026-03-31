@@ -134,11 +134,12 @@ export class AssetLoader {
     group.add(edge);
     group.add(front);
     group.add(back);
+    group.scale.setScalar(1.5);
     return group;
   }
 
   /** 모델을 상자 내부 크기에 맞춤 */
-  fitToBox(model, targetSize = 0.6) {
+  fitToBox(model, targetSize = 1.2) {
     const box = new THREE.Box3().setFromObject(model);
     const size = box.getSize(new THREE.Vector3());
     const maxDim = Math.max(size.x, size.y, size.z);

@@ -346,6 +346,61 @@ function scoreToGrade(score) {
   return 'C';
 }
 
+// 로컬 모드용 기본 설명 생성
+const DESC_TEMPLATES = {
+  '미소녀': [
+    '눈부신 매력으로 시선을 사로잡는 한정판 수집용 피규어. {style} 특유의 질감이 소장 가치를 한층 높여준다.',
+    '팬들의 심장을 저격하는 완벽한 포즈와 디테일. {style} 마감으로 완성된 프리미엄 컬렉션.',
+    '설레는 눈빛과 화려한 의상의 조화! {style} 재질로 재탄생한 수집가의 보물.',
+  ],
+  '섹시': [
+    '압도적인 존재감과 카리스마가 돋보이는 프리미엄 피규어. {style} 마감이 매혹적인 분위기를 극대화.',
+    '치명적인 매력을 {style} 질감으로 완벽 재현. 소장 가치 만점의 한정 컬렉션.',
+    '시선을 사로잡는 대담한 포즈와 {style} 특유의 고급스러운 질감이 돋보이는 수집품.',
+  ],
+  '마법소녀': [
+    '반짝이는 마법의 힘을 {style} 재질로 표현한 환상적인 피규어. 꿈과 용기가 담긴 한정판!',
+    '변신 장면을 떠올리게 하는 역동적인 포즈. {style} 마감이 마법의 빛을 더욱 아름답게 표현.',
+    '사랑과 정의의 이름으로! {style} 재질로 탄생한 마법소녀의 찬란한 순간을 소장하세요.',
+  ],
+  '쿨': [
+    '냉철한 눈빛과 날카로운 실루엣이 인상적인 피규어. {style} 마감이 카리스마를 한층 끌어올린다.',
+    '전장의 전설이 {style} 재질로 부활. 손끝에서 느껴지는 전사의 긴장감이 압도적.',
+    '어둠 속에서 빛나는 강인함. {style} 특유의 질감이 캐릭터의 위엄을 완벽히 담아냈다.',
+  ],
+  '메카': [
+    '기계와 인간의 완벽한 융합체. {style} 마감으로 메카닉 디테일이 살아 숨 쉬는 피규어.',
+    '강철의 전사가 {style} 재질로 현실에 착륙! 관절 하나하나까지 정밀하게 재현.',
+    '거대 로봇의 위압감을 손바닥 위에. {style} 질감이 메카의 중량감을 생생하게 전달.',
+  ],
+  '신화': [
+    '신들의 전쟁터에서 걸어 나온 전설의 존재. {style} 마감이 신성한 아우라를 물씬 풍긴다.',
+    '고대 신화 속 영웅이 {style} 재질로 부활. 전설을 소장할 수 있는 특별한 기회.',
+    '시간을 초월한 신화적 존재감. {style} 특유의 표현력이 신비로운 분위기를 완성.',
+  ],
+  '공포': [
+    '등줄기를 서늘하게 만드는 섬뜩한 디테일. {style} 마감이 공포의 질감을 생생하게 재현.',
+    '어둠에서 태어난 존재가 {style} 재질로 현실에 침투. 소장각이지만 밤에는 뒤를 조심하세요.',
+    '공포의 미학이 담긴 컬렉터스 아이템. {style} 질감이 소름 돋는 리얼리티를 선사.',
+  ],
+  '동물': [
+    '야생의 기운이 느껴지는 역동적인 포즈. {style} 마감으로 생명력 넘치는 피규어.',
+    '대자연의 왕자가 {style} 재질로 탄생. 강인함과 우아함이 공존하는 수집품.',
+    '동물의 본능적 아름다움을 {style} 특유의 질감으로 포착한 프리미엄 컬렉션.',
+  ],
+};
+
+function generateLocalDesc(character, style, category, type) {
+  const templates = DESC_TEMPLATES[category] || DESC_TEMPLATES['쿨'];
+  const tmpl = templates[Math.floor(Math.random() * templates.length)];
+  const styleKr = STYLE_KR[style] || style;
+  let desc = tmpl.replace(/\{style\}/g, styleKr);
+  if (type === 'card') {
+    desc = desc.replace(/피규어/g, '일러스트 카드').replace(/수집품/g, '카드');
+  }
+  return desc;
+}
+
 async function runLocal(items) {
   const prompts = await loadPrompts();
   const promptMap = new Map(prompts.map(p => [p.id, p]));
@@ -365,7 +420,8 @@ async function runLocal(items) {
     const maxP = item.type === 'card' ? 150000 : 500000;
     const minP = item.type === 'card' ? 3000 : 5000;
     const nameKr = koreanName(item.character, item.style);
-    return { id: item.id, nameKr, description: '', grade, price: Math.max(minP, Math.min(maxP, price)), category };
+    const description = generateLocalDesc(item.character, item.style, category, item.type);
+    return { id: item.id, nameKr, description, grade, price: Math.max(minP, Math.min(maxP, price)), category };
   });
 }
 

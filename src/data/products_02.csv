@@ -1,10 +1,10 @@
 id,name,style,type,grade,price,description,modelPath,imagePath
-card_fig_witch_queen_stylized,마녀 여왕 (스타일라이즈드),스타일라이즈드,card,SSS,59000,,,assets/cards/fig_witch_queen_stylized.webp
-card_fig_witch_queen_vinyl,마녀 여왕 (바이닐토이),바이닐토이,card,SS,32000,,,assets/cards/fig_witch_queen_vinyl.webp
-card_fig_witch_queen_wooden,마녀 여왕 (우드카빙),우드카빙,card,SS,20000,,,assets/cards/fig_witch_queen_wooden.webp
-card_fig_wolf_alpha_clay,알파 울프 (클레이),클레이,card,A,11000,,,assets/cards/fig_wolf_alpha_clay.webp
-card_fig_wolf_alpha_mech,알파 울프 (메카닉),메카닉,card,S,30000,,,assets/cards/fig_wolf_alpha_mech.webp
-card_fig_wolf_alpha_metallic,알파 울프 (메탈릭),메탈릭,card,S,44000,,,assets/cards/fig_wolf_alpha_metallic.webp
-card_fig_wolf_alpha_pixel,알파 울프 (복셀픽셀),복셀픽셀,card,B,4000,,,assets/cards/fig_wolf_alpha_pixel.webp
-card_fig_wolf_alpha_plush,알파 울프 (플러시),플러시,card,B,6000,,,assets/cards/fig_wolf_alpha_plush.webp
-card_fig_wolf_alpha_wooden,알파 울프 (우드카빙),우드카빙,card,B,11000,,,assets/cards/fig_wolf_alpha_wooden.webp
+card_fig_witch_queen_stylized,마녀 여왕 (스타일라이즈드),스타일라이즈드,card,SS,41000,시선을 사로잡는 대담한 포즈와 스타일라이즈드 특유의 고급스러운 질감이 돋보이는 카드.,,assets/cards/fig_witch_queen_stylized.webp
+card_fig_witch_queen_vinyl,마녀 여왕 (바이닐토이),바이닐토이,card,SS,29000,치명적인 매력을 바이닐토이 질감으로 완벽 재현. 소장 가치 만점의 한정 컬렉션.,,assets/cards/fig_witch_queen_vinyl.webp
+card_fig_witch_queen_wooden,마녀 여왕 (우드카빙),우드카빙,card,SS,25000,치명적인 매력을 우드카빙 질감으로 완벽 재현. 소장 가치 만점의 한정 컬렉션.,,assets/cards/fig_witch_queen_wooden.webp
+card_fig_wolf_alpha_clay,알파 울프 (클레이),클레이,card,A,9000,대자연의 왕자가 클레이 재질로 탄생. 강인함과 우아함이 공존하는 카드.,,assets/cards/fig_wolf_alpha_clay.webp
+card_fig_wolf_alpha_mech,알파 울프 (메카닉),메카닉,card,S,31000,야생의 기운이 느껴지는 역동적인 포즈. 메카닉 마감으로 생명력 넘치는 일러스트 카드.,,assets/cards/fig_wolf_alpha_mech.webp
+card_fig_wolf_alpha_metallic,알파 울프 (메탈릭),메탈릭,card,S,43000,동물의 본능적 아름다움을 메탈릭 특유의 질감으로 포착한 프리미엄 컬렉션.,,assets/cards/fig_wolf_alpha_metallic.webp
+card_fig_wolf_alpha_pixel,알파 울프 (복셀픽셀),복셀픽셀,card,B,5000,야생의 기운이 느껴지는 역동적인 포즈. 복셀픽셀 마감으로 생명력 넘치는 일러스트 카드.,,assets/cards/fig_wolf_alpha_pixel.webp
+card_fig_wolf_alpha_plush,알파 울프 (플러시),플러시,card,B,7000,동물의 본능적 아름다움을 플러시 특유의 질감으로 포착한 프리미엄 컬렉션.,,assets/cards/fig_wolf_alpha_plush.webp
+card_fig_wolf_alpha_wooden,알파 울프 (우드카빙),우드카빙,card,A,12000,야생의 기운이 느껴지는 역동적인 포즈. 우드카빙 마감으로 생명력 넘치는 일러스트 카드.,,assets/cards/fig_wolf_alpha_wooden.webp

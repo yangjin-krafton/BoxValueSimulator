@@ -10,6 +10,16 @@ export class HUD {
     this._btn     = document.getElementById('btn-action');
     this._swap    = document.getElementById('btn-swap');
 
+    // 개봉 상품 상단/하단 패널
+    this._prodTop    = document.getElementById('product-top');
+    this._prodBottom = document.getElementById('product-bottom');
+    this._prodGrade  = this._prodTop.querySelector('.grade-badge');
+    this._prodName   = this._prodTop.querySelector('.product-name');
+    this._prodDesc   = this._prodTop.querySelector('.product-desc');
+    this._prodTags   = this._prodTop.querySelector('.product-tags');
+    this._prodPrice  = this._prodBottom.querySelector('.price-line');
+    this._prodConfirm = this._prodBottom.querySelector('.confirm-btn');
+
     // 라운드 정보는 바닥 보드에 표시 (DisplayShelf3D)
 
     // v2: 개봉 후 선택
@@ -113,37 +123,54 @@ export class HUD {
     this._hint.style.opacity = visible ? '1' : '0';
   }
 
-  showProductResult(product, boxPrice = 0) {
+  showProductResult(product, boxPrice = 0, onConfirm = null) {
     const colorMap = {
-      SSSSS: 'ff00ff', SSSS: '88ff44', SSS: '44ffff',
-      SS: 'ff44aa', S: 'ff8800', A: 'ffdd00', B: '7799ff', C: '888888',
+      SSSSS: '#ff00ff', SSSS: '#88ff44', SSS: '#44ffff',
+      SS: '#ff44aa', S: '#ff8800', A: '#ffdd00', B: '#7799ff', C: '#888888',
     };
+    const gradeColor = colorMap[product.grade] || '#ffffff';
+
+    // ── 상단: 등급 + 이름 ──
+    const hiddenTag = product.isHidden ? ' <span style="color:#ff00ff">HIDDEN!</span>' : '';
+    this._prodGrade.innerHTML = `${product.grade}${hiddenTag}`;
+    this._prodGrade.style.color = gradeColor;
+    this._prodName.textContent = product.def.name;
+    const descText = product.def.description || '';
+    console.log('[HUD] description:', descText.substring(0, 50), '| length:', descText.length);
+    this._prodDesc.textContent = descText;
+    this._prodDesc.style.display = descText ? '' : 'none';
+
+    const tags = [];
+    if (product.def.type === 'card') tags.push('CARD');
+    if (product.def.style) tags.push(product.def.style);
+    this._prodTags.innerHTML = tags.map(t =>
+      `<span style="border:1px solid rgba(255,255,255,0.3);border-radius:3px;padding:0 5px;margin:0 2px">${t}</span>`
+    ).join('');
+
+    // ── 하단: 가격 + 설명 ──
     const profit = product.salePrice - boxPrice;
     const pct = boxPrice > 0 ? Math.round((profit / boxPrice) * 100) : null;
-    const pctColor = pct === null ? '#ffffff' : (pct >= 0 ? '#66ff88' : '#ff6655');
-    const pctText = pct !== null
-      ? `<span style="font-size:0.9rem;color:${pctColor}">${pct >= 0 ? '이익' : '손실'} ${pct >= 0 ? '+' : ''}${pct}%</span>`
-      : '';
-    const hiddenTag = product.isHidden ? '<span style="color:#ff00ff;font-size:0.9rem"> HIDDEN!</span>' : '';
-    const typeTag = product.def.type === 'card'
-      ? '<span style="font-size:0.75rem;color:#7ad;border:1px solid #7ad;border-radius:3px;padding:0 4px;margin-left:6px">CARD</span>'
-      : '';
-    const desc = product.def.description
-      ? `<div class="product-desc">${product.def.description}</div>`
-      : '';
+    let priceHtml = `₩ ${product.salePrice.toLocaleString()}`;
+    if (pct !== null) {
+      const pColor = pct >= 0 ? '#66ff88' : '#ff6655';
+      priceHtml += ` <span class="profit" style="color:${pColor}">${pct >= 0 ? '+' : ''}${pct}%</span>`;
+    }
+    this._prodPrice.innerHTML = priceHtml;
 
-    this._popup.innerHTML =
-      `<span style="font-size:1.8rem">${product.grade}</span> 등급${hiddenTag}${typeTag}<br>` +
-      `<span style="font-size:1.1rem;opacity:0.9">${product.def.name}</span><br>` +
-      `<span style="font-size:1.4rem;margin-top:0.2rem;display:inline-block">₩ ${product.salePrice.toLocaleString()}</span> ${pctText}` +
-      desc;
-    this._popup.style.color = '#' + (colorMap[product.grade] || 'ffffff');
-    this._popup.style.opacity = '1';
-    // 자동 숨김 없음 — hideProductResult()로 직접 숨김
+    // 확인 버튼
+    this._prodConfirm.onclick = () => {
+      this.hideProductResult();
+      if (onConfirm) onConfirm();
+    };
+
+    // 표시
+    this._prodTop.style.opacity = '1';
+    this._prodBottom.style.opacity = '1';
   }
 
   hideProductResult() {
-    this._popup.style.opacity = '0';
+    this._prodTop.style.opacity = '0';
+    this._prodBottom.style.opacity = '0';
   }
 
   // ── 버튼 ──
