@@ -15,12 +15,12 @@ import * as THREE from 'three';
  *  └──────────────────┘
  */
 
-const FLOOR_Y = 0.06;
+export const FLOOR_Y = 0.06;
 const SLOT_COUNT = 3;
 
-const BOARD_W = 2.6;
-const BOARD_D = 4.8;
-const BOARD_Z = -0.4;
+export const BOARD_W = 2.6;
+export const BOARD_D = 4.8;
+export const BOARD_Z = -0.4;
 
 const TEX_W = 512;
 const TEX_H = 948;
@@ -78,7 +78,6 @@ export class DisplayShelf3D {
     this._buildBoard();
     this._buildSlots3D();
     this._buildSellButtons();
-    this._buildEndRoundBtn();
     this._drawBoard();
 
   }
@@ -335,86 +334,6 @@ export class DisplayShelf3D {
   /** 판매 버튼 히트 타겟 (채워진 슬롯만) */
   getSellButtonTargets() {
     return this._sellBtns.filter((_, i) => this._slotFilled[i]);
-  }
-
-  // ═══════════════ 라운드 종료 버튼 (3D) ═══════════════
-
-  _buildEndRoundBtn() {
-    const btnW = 2.0, btnD = 0.6;
-    // 보드 앞 가장자리 바로 아래 (카메라 쪽)
-    const frontEdgeZ = BOARD_Z + BOARD_D / 2;
-    const btnZ = frontEdgeZ + btnD / 2 + 0.15;
-
-    // 캔버스 텍스처로 버튼 그리기
-    const canvas = document.createElement('canvas');
-    canvas.width = 400; canvas.height = 120;
-    this._endBtnCanvas = canvas;
-    this._endBtnCtx = canvas.getContext('2d');
-    this._endBtnTex = new THREE.CanvasTexture(canvas);
-    this._endBtnTex.anisotropy = this.sceneMgr.renderer.capabilities.getMaxAnisotropy();
-    this._drawEndRoundBtn(false);
-
-    const mat = new THREE.MeshStandardMaterial({
-      map: this._endBtnTex, roughness: 0.5, metalness: 0.1,
-      transparent: true, polygonOffset: true, polygonOffsetFactor: -2,
-    });
-    this._endBtnMesh = new THREE.Mesh(new THREE.PlaneGeometry(btnW, btnD), mat);
-    this._endBtnMesh.rotation.x = -Math.PI / 2;
-    this._endBtnMesh.position.set(0, FLOOR_Y + 0.01, btnZ);
-    this._endBtnMesh.receiveShadow = true;
-    this._endBtnMesh.visible = false;
-    this._endBtnMesh.userData.endRoundBtn = true;
-    this._root.add(this._endBtnMesh);
-  }
-
-  _drawEndRoundBtn(hover) {
-    const c = this._endBtnCtx;
-    const W = 400, H = 120;
-    c.clearRect(0, 0, W, H);
-
-    // 배경
-    const grad = c.createLinearGradient(0, 0, W, 0);
-    if (hover) {
-      grad.addColorStop(0, '#1e88e5'); grad.addColorStop(1, '#42a5f5');
-    } else {
-      grad.addColorStop(0, '#1565c0'); grad.addColorStop(1, '#1e88e5');
-    }
-    c.fillStyle = grad;
-    this._rr(c, 8, 8, W - 16, H - 16, 18);
-    c.fill();
-
-    // 테두리
-    c.strokeStyle = hover ? '#90caf9' : 'rgba(144, 202, 249, 0.5)';
-    c.lineWidth = 3;
-    this._rr(c, 8, 8, W - 16, H - 16, 18);
-    c.stroke();
-
-    // 텍스트
-    c.font = 'bold 38px system-ui';
-    c.fillStyle = '#ffffff';
-    c.textAlign = 'center';
-    c.textBaseline = 'middle';
-    c.fillText('라운드 종료', W / 2, H / 2);
-
-    this._endBtnTex.needsUpdate = true;
-  }
-
-  showEndRoundBtn() {
-    this._endBtnMesh.visible = true;
-    this._drawEndRoundBtn(false);
-  }
-
-  hideEndRoundBtn() {
-    this._endBtnMesh.visible = false;
-  }
-
-  setEndRoundBtnHover(hover) {
-    if (!this._endBtnMesh.visible) return;
-    this._drawEndRoundBtn(hover);
-  }
-
-  getEndRoundBtnTarget() {
-    return this._endBtnMesh.visible ? [this._endBtnMesh] : [];
   }
 
   // ═══════════════ 공개 API ═══════════════

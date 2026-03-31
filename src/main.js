@@ -7,8 +7,10 @@ import { CoinSystem } from './rendering/CoinSystem.js';
 import { TapIndicator } from './rendering/TapIndicator.js';
 import { BoxSelectionScene } from './scenes/BoxSelectionScene.js';
 import { UnboxingScene } from './scenes/UnboxingScene.js';
-import { DisplayShelf3D, SLOT_POSITIONS } from './scenes/DisplayShelf3D.js';
+import { DisplayShelf3D, SLOT_POSITIONS, FLOOR_Y, BOARD_Z, BOARD_D } from './scenes/DisplayShelf3D.js';
 import { CardDeck3D } from './scenes/CardDeck3D.js';
+import { FloorElement } from './rendering/FloorElement.js';
+import { FloorUIManager } from './rendering/FloorUIManager.js';
 import { HUD } from './ui/HUD.js';
 import { RuleEngine } from './systems/RuleEngine.js';
 import { RoundManager } from './systems/RoundManager.js';
@@ -35,6 +37,38 @@ const unboxing      = new UnboxingScene(sceneMgr, gameState, bus, assetLoader, r
 const displayShelf  = new DisplayShelf3D(sceneMgr, assetLoader);
 const cardDeck      = new CardDeck3D(sceneMgr);
 const tapPin        = new TapIndicator(sceneMgr.scene);
+
+const floorUI     = new FloorUIManager(sceneMgr);
+
+// ── 라운드 종료 버튼 (3D 바닥) ──
+class EndRoundButton extends FloorElement {
+  draw(ctx, w, h, hover) {
+    const grad = ctx.createLinearGradient(0, 0, w, 0);
+    if (hover) { grad.addColorStop(0, '#1e88e5'); grad.addColorStop(1, '#42a5f5'); }
+    else       { grad.addColorStop(0, '#1565c0'); grad.addColorStop(1, '#1e88e5'); }
+    ctx.fillStyle = grad;
+    this.roundRect(ctx, 8, 8, w - 16, h - 16, 18);
+    ctx.fill();
+    ctx.strokeStyle = hover ? '#90caf9' : 'rgba(144,202,249,0.5)';
+    ctx.lineWidth = 3;
+    this.roundRect(ctx, 8, 8, w - 16, h - 16, 18);
+    ctx.stroke();
+    ctx.font = 'bold 38px system-ui';
+    ctx.fillStyle = '#ffffff';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('라운드 종료', w / 2, h / 2);
+  }
+}
+
+const frontEdgeZ = BOARD_Z + BOARD_D / 2;
+const endRoundBtn = floorUI.add('endRound',
+  new EndRoundButton(sceneMgr, sceneMgr.scene, {
+    width: 2.0, depth: 0.6,
+    texWidth: 400, texHeight: 120,
+    x: 0, z: frontEdgeZ + 0.45,
+  }).onClick(() => endCurrentRound()),
+);
 
 const _ray = new THREE.Raycaster();
 const _mouse = new THREE.Vector2();
@@ -68,7 +102,7 @@ function startNewRound() {
 
   displayMgr.reset();
   displayShelf.clearAll();
-  displayShelf.hideEndRoundBtn();
+  endRoundBtn.hide();
   displayShelf.updateRound(roundMgr.round);
   displayShelf.updateTotal(0, roundMgr.targetValue);
 
@@ -180,23 +214,12 @@ bus.on('box:open', () => {
   });
 });
 
-// ── 보드판 클릭 (판매 버튼 + 라운드 종료) ──
+// ── 판매 버튼 클릭 (보드판 위) ──
 addEventListener('pointerdown', (e) => {
   if (gameState.state.phase !== 'box_selection') return;
 
   _mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
   _ray.setFromCamera(_mouse, sceneMgr.camera);
-
-  // 라운드 종료 버튼 히트
-  const endBtnTargets = displayShelf.getEndRoundBtnTarget();
-  if (endBtnTargets.length > 0) {
-    const endHits = _ray.intersectObjects(endBtnTargets);
-    if (endHits.length > 0) {
-      endCurrentRound();
-      e.stopPropagation();
-      return;
-    }
-  }
 
   // 판매 버튼 히트
   const sellTargets = displayShelf.getSellButtonTargets();
@@ -208,19 +231,6 @@ addEventListener('pointerdown', (e) => {
       e.stopPropagation();
     }
   }
-});
-
-// ── 라운드 종료 버튼 호버 ──
-addEventListener('pointermove', (e) => {
-  if (gameState.state.phase !== 'box_selection') return;
-  const endBtnTargets = displayShelf.getEndRoundBtnTarget();
-  if (endBtnTargets.length === 0) return;
-
-  _mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
-  _ray.setFromCamera(_mouse, sceneMgr.camera);
-  const hits = _ray.intersectObjects(endBtnTargets);
-  displayShelf.setEndRoundBtnHover(hits.length > 0);
-  sceneMgr.canvas.style.cursor = hits.length > 0 ? 'pointer' : '';
 });
 
 // ── 슬롯 판매 처리 ──
@@ -246,7 +256,7 @@ function sellSlotProduct(slotIndex) {
   const { cleared } = roundMgr.checkClear(displayMgr.getTotal());
   if (!cleared) {
     hud.hideButton();
-    displayShelf.hideEndRoundBtn();
+    endRoundBtn.hide();
   }
 }
 
@@ -280,7 +290,7 @@ function finishBoxAndContinue() {
 
       if (cleared) {
         hud.setHint('목표 달성! 계속 열거나 라운드 종료');
-        displayShelf.showEndRoundBtn();
+        endRoundBtn.show();
       } else {
         hud.setHint('다음 상자를 선택하세요');
       }
@@ -299,7 +309,7 @@ function finishBoxAndContinue() {
 
 // ── 라운드 종료 ──
 function endCurrentRound() {
-  displayShelf.hideEndRoundBtn();
+  endRoundBtn.hide();
   const result = roundMgr.endRound(displayMgr.getTotal());
 
   hud.showClearBanner(result.ratio, () => {
@@ -368,6 +378,7 @@ sceneMgr.startLoop((dt) => {
   coins.update(dt);
   tapPin.update(dt);
   displayShelf.update(dt, sceneMgr.clock.elapsedTime);
+  floorUI.update(dt, sceneMgr.clock.elapsedTime);
   cardDeck.update(dt);
 });
 
