@@ -68,6 +68,7 @@ function startNewRound() {
 
   displayMgr.reset();
   displayShelf.clearAll();
+  displayShelf.hideEndRoundBtn();
   displayShelf.updateRound(roundMgr.round);
   displayShelf.updateTotal(0, roundMgr.targetValue);
 
@@ -179,12 +180,23 @@ bus.on('box:open', () => {
   });
 });
 
-// ── 판매 버튼 클릭 (보드판 위) ──
+// ── 보드판 클릭 (판매 버튼 + 라운드 종료) ──
 addEventListener('pointerdown', (e) => {
   if (gameState.state.phase !== 'box_selection') return;
 
   _mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
   _ray.setFromCamera(_mouse, sceneMgr.camera);
+
+  // 라운드 종료 버튼 히트
+  const endBtnTargets = displayShelf.getEndRoundBtnTarget();
+  if (endBtnTargets.length > 0) {
+    const endHits = _ray.intersectObjects(endBtnTargets);
+    if (endHits.length > 0) {
+      endCurrentRound();
+      e.stopPropagation();
+      return;
+    }
+  }
 
   // 판매 버튼 히트
   const sellTargets = displayShelf.getSellButtonTargets();
@@ -196,6 +208,19 @@ addEventListener('pointerdown', (e) => {
       e.stopPropagation();
     }
   }
+});
+
+// ── 라운드 종료 버튼 호버 ──
+addEventListener('pointermove', (e) => {
+  if (gameState.state.phase !== 'box_selection') return;
+  const endBtnTargets = displayShelf.getEndRoundBtnTarget();
+  if (endBtnTargets.length === 0) return;
+
+  _mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
+  _ray.setFromCamera(_mouse, sceneMgr.camera);
+  const hits = _ray.intersectObjects(endBtnTargets);
+  displayShelf.setEndRoundBtnHover(hits.length > 0);
+  sceneMgr.canvas.style.cursor = hits.length > 0 ? 'pointer' : '';
 });
 
 // ── 슬롯 판매 처리 ──
@@ -221,6 +246,7 @@ function sellSlotProduct(slotIndex) {
   const { cleared } = roundMgr.checkClear(displayMgr.getTotal());
   if (!cleared) {
     hud.hideButton();
+    displayShelf.hideEndRoundBtn();
   }
 }
 
@@ -254,7 +280,7 @@ function finishBoxAndContinue() {
 
       if (cleared) {
         hud.setHint('목표 달성! 계속 열거나 라운드 종료');
-        hud.showButton('라운드 종료', () => endCurrentRound(), { bg: '#1565c0', color: '#fff' });
+        displayShelf.showEndRoundBtn();
       } else {
         hud.setHint('다음 상자를 선택하세요');
       }
@@ -273,6 +299,7 @@ function finishBoxAndContinue() {
 
 // ── 라운드 종료 ──
 function endCurrentRound() {
+  displayShelf.hideEndRoundBtn();
   const result = roundMgr.endRound(displayMgr.getTotal());
 
   hud.showClearBanner(result.ratio, () => {
