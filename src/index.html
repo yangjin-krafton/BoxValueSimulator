@@ -17,6 +17,22 @@
       display: flex; justify-content: center; align-items: flex-start;
       padding: 0.6rem 1rem; color: #c0c0d0; font-size: 14px; z-index: 10;
     }
+    #hud-top .title-wrap {
+      display: flex; align-items: center; gap: 0.75rem; pointer-events: auto;
+    }
+    #btn-audio {
+      border: 1px solid rgba(240,192,64,0.45);
+      background: rgba(10,14,21,0.72);
+      color: #f0c040;
+      border-radius: 999px;
+      padding: 0.32rem 0.8rem;
+      font: 700 12px system-ui;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: transform 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+    }
+    #btn-audio:hover { transform: translateY(-1px); border-color: rgba(255,224,96,0.9); color: #ffe060; }
+    #btn-audio.muted { color: #9aa3b2; border-color: rgba(154,163,178,0.45); }
 
     #hud-bottom {
       position: fixed; bottom: 0; left: 0; width: 100%; pointer-events: none;
@@ -205,7 +221,10 @@
   <div id="loading">로딩 중...</div>
 
   <div id="hud-top">
-    <span>Box Value Simulator</span>
+    <div class="title-wrap">
+      <span>Box Value Simulator</span>
+      <button id="btn-audio" type="button">사운드 ON</button>
+    </div>
   </div>
 
   <div id="hud-bottom">
