@@ -45,18 +45,27 @@
     }
 
     #grade-popup {
-      position: fixed; top: 2.5rem; left: 50%; transform: translateX(-50%);
-      font-size: 2.2rem; font-weight: 900; letter-spacing: 0.06em;
+      position: fixed; bottom: 5.5rem; left: 50%; transform: translateX(-50%);
+      font-size: 1.6rem; font-weight: 900; letter-spacing: 0.04em;
       pointer-events: none; opacity: 0; transition: opacity 0.4s;
-      text-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+      text-shadow: 0 0 16px currentColor, 0 0 32px currentColor;
       text-align: center;
-      background: rgba(0,0,0,0.5);
-      padding: 0.4rem 1.2rem;
-      border-radius: 10px;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(8px);
+      padding: 0.8rem 1.6rem;
+      border-radius: 12px;
+      max-width: 90vw;
+      line-height: 1.5;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    #grade-popup .product-desc {
+      font-size: 0.8rem; font-weight: 400; opacity: 0.75;
+      line-height: 1.4; margin-top: 0.3rem;
+      text-shadow: none;
     }
 
     #ui {
-      position: fixed; bottom: 3.5rem; left: 50%; transform: translateX(-50%);
+      position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%);
       z-index: 10; display: flex; gap: 10px;
     }
     #ui button {

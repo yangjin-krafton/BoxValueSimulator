@@ -122,23 +122,28 @@ export class HUD {
     const pct = boxPrice > 0 ? Math.round((profit / boxPrice) * 100) : null;
     const pctColor = pct === null ? '#ffffff' : (pct >= 0 ? '#66ff88' : '#ff6655');
     const pctText = pct !== null
-      ? `<span style="font-size:1rem;color:${pctColor}">${pct >= 0 ? '이익' : '손실'} ${pct >= 0 ? '+' : ''}${pct}%</span>`
+      ? `<span style="font-size:0.9rem;color:${pctColor}">${pct >= 0 ? '이익' : '손실'} ${pct >= 0 ? '+' : ''}${pct}%</span>`
       : '';
-    const hiddenTag = product.isHidden ? '<span style="color:#ff00ff;font-size:1rem"> HIDDEN!</span>' : '';
-    const desc = product.def.description
-      ? `<br><span style="font-size:0.85rem;opacity:0.7;line-height:1.3">${product.def.description}</span>`
-      : '';
+    const hiddenTag = product.isHidden ? '<span style="color:#ff00ff;font-size:0.9rem"> HIDDEN!</span>' : '';
     const typeTag = product.def.type === 'card'
-      ? '<span style="font-size:0.8rem;color:#7ad;"> CARD</span>'
+      ? '<span style="font-size:0.75rem;color:#7ad;border:1px solid #7ad;border-radius:3px;padding:0 4px;margin-left:6px">CARD</span>'
       : '';
+    const desc = product.def.description
+      ? `<div class="product-desc">${product.def.description}</div>`
+      : '';
+
     this._popup.innerHTML =
-      `${product.grade} 등급!${hiddenTag}${typeTag}<br>` +
-      `<span style="font-size:1.2rem;opacity:0.8">${product.def.name}</span><br>` +
-      `<span style="font-size:1.5rem">₩ ${product.salePrice.toLocaleString()}</span>` +
-      (pctText ? ` ${pctText}` : '') + desc;
+      `<span style="font-size:1.8rem">${product.grade}</span> 등급${hiddenTag}${typeTag}<br>` +
+      `<span style="font-size:1.1rem;opacity:0.9">${product.def.name}</span><br>` +
+      `<span style="font-size:1.4rem;margin-top:0.2rem;display:inline-block">₩ ${product.salePrice.toLocaleString()}</span> ${pctText}` +
+      desc;
     this._popup.style.color = '#' + (colorMap[product.grade] || 'ffffff');
     this._popup.style.opacity = '1';
-    setTimeout(() => { this._popup.style.opacity = '0'; }, 3000);
+    // 자동 숨김 없음 — hideProductResult()로 직접 숨김
+  }
+
+  hideProductResult() {
+    this._popup.style.opacity = '0';
   }
 
   // ── 버튼 ──
