@@ -34,6 +34,8 @@ export class ProductRenderer {
     this._model = null;
     this._gradeLight = GRADE_LIGHT['A'];
     this._boundRadius = 0.5;   // 모델 바운드 반지름
+    this._glowFade = 0;        // 글로우 페이드아웃 타이머 (0=대기, >0=페이드 중)
+    this._glowPeak = 0;        // 피크 강도
   }
 
   /** 상품 모델 준비 (아직 scale=0) */
@@ -64,31 +66,38 @@ export class ProductRenderer {
     if (this._boundRadius < 0.2) this._boundRadius = 0.5;
   }
 
-  /** 등장 진행도 (0→1) — 상자에서 빠져나오는 동안 라이트 2배 확장 */
+  /** 등장 진행도 (0→1) — 상자에서 빠져나오는 동안 강한 플래시 */
   setRevealProgress(t) {
     this.pivot.scale.setScalar(t);
-    this.glowLight.intensity = t * this._gradeLight.intensity * 2;
-    this.glowLight.distance = this._gradeLight.distance * (1 + (1 - t));  // 2x → 1x
+    // 개봉 중: 등급 강도의 3배로 강하게
+    this._glowPeak = this._gradeLight.intensity * 3;
+    this.glowLight.intensity = t * this._glowPeak;
+    this.glowLight.distance = this._gradeLight.distance * (1.5 + (1 - t));
     this._revealing = t < 1;
+
+    // 개봉 완료되면 페이드아웃 시작
+    if (t >= 1) {
+      this._glowFade = 1.0; // 1.0 → 0.0까지 페이드
+    }
   }
 
-  /** 회전 + 부유 + 라이트 펄스 */
+  /** 회전 + 부유 + 글로우 페이드아웃 */
   rotate(dt, elapsed) {
     if (this._model) this._model.rotation.y += dt * 1.1;
     this.pivot.position.y += Math.sin(elapsed * 2.2) * 0.001;
 
-    // 상승 중이면 범위를 서서히 정상으로 복원
-    if (this._revealing) {
-      const d = this.glowLight.distance;
-      const target = this._gradeLight.distance;
-      if (d > target) {
-        this.glowLight.distance = Math.max(target, d - dt * target);
+    // 글로우 페이드아웃 (2초에 걸쳐 서서히 사라짐)
+    if (this._glowFade > 0) {
+      this._glowFade = Math.max(0, this._glowFade - dt / 2.0);
+      // ease-out 커브로 자연스럽게
+      const fade = this._glowFade * this._glowFade;
+      this.glowLight.intensity = this._glowPeak * fade;
+      this.glowLight.distance = this._gradeLight.distance * (1 + fade * 0.5);
+
+      if (this._glowFade <= 0) {
+        this.glowLight.intensity = 0;
       }
     }
-
-    // 라이트 강도 펄스 (등급별 기본 강도 기준 ±15%)
-    const base = this._gradeLight.intensity;
-    this.glowLight.intensity = base * (0.85 + Math.sin(elapsed * 3) * 0.15);
   }
 
   /**

@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
 /**
  * Three.js 씬, 카메라, 렌더러, 조명, 바닥 관리.
  */
@@ -46,6 +47,7 @@ export class SceneManager {
 
     this._setupLighting();
     this._setupFloor();
+    this._setupHDR();
     this._setupResize();
     this._setupFade();
   }
@@ -53,7 +55,7 @@ export class SceneManager {
   get canvas() { return this.renderer.domElement; }
 
   _setupLighting() {
-    this.scene.add(new THREE.AmbientLight(0x334466, 0.8));
+    this.scene.add(new THREE.AmbientLight(0x334466, 0.4));
 
     const shadowRes = isMobile ? 1024 : 2048;
 
@@ -169,6 +171,60 @@ export class SceneManager {
     const palettes = SceneManager.FLOOR_PALETTES;
     const idx = Math.floor(Math.random() * palettes.length);
     this._applyFloorPalette(palettes[idx]);
+    this._loadHDR(this._pickHDRForPalette(idx));
+  }
+
+  // ── HDR 환경맵 ──
+
+  /** HDR 환경 프리셋: 배경 분위기별 HDR + 톤/강도 */
+  static HDR_PRESETS = [
+    { file: 'assets/hdri/studio_small_09_1k.hdr', intensity: 0.6 },
+    { file: 'assets/hdri/studio_small_03_1k.hdr', intensity: 0.5 },
+    { file: 'assets/hdri/moonless_golf_1k.hdr',   intensity: 0.35 },
+  ];
+
+  _setupHDR() {
+    this._rgbeLoader = new RGBELoader();
+    this._pmrem = new THREE.PMREMGenerator(this.renderer);
+    this._pmrem.compileEquirectangularShader();
+    this._hdrCache = new Map();
+
+    // 기본 HDR 로드
+    this._loadHDR(SceneManager.HDR_PRESETS[0]);
+  }
+
+  _loadHDR(preset) {
+    const cached = this._hdrCache.get(preset.file);
+    if (cached) {
+      this._applyHDR(cached, preset.intensity);
+      return;
+    }
+
+    this._rgbeLoader.load(preset.file, (texture) => {
+      const envMap = this._pmrem.fromEquirectangular(texture).texture;
+      texture.dispose();
+      this._hdrCache.set(preset.file, envMap);
+      this._applyHDR(envMap, preset.intensity);
+    });
+  }
+
+  _applyHDR(envMap, intensity) {
+    this.scene.environment = envMap;
+    // environment만 설정 (background는 기존 팔레트 색상 유지)
+    if (this.scene.environmentIntensity !== undefined) {
+      this.scene.environmentIntensity = intensity;
+    }
+  }
+
+  /** 팔레트 변경 시 HDR 프리셋도 매칭 */
+  _pickHDRForPalette(paletteIndex) {
+    const presets = SceneManager.HDR_PRESETS;
+    // 어두운 팔레트(7,8,10,13)→moonless, 나머지→studio 교대
+    const darkPalettes = [7, 8, 10, 13];
+    if (darkPalettes.includes(paletteIndex)) {
+      return presets[2]; // moonless_golf (어두운 환경)
+    }
+    return presets[paletteIndex % 2]; // studio 09/03 교대
   }
 
   _setupResize() {

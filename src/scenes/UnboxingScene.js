@@ -9,7 +9,7 @@ import { pickHiddenProduct } from '../systems/BoxGenerator.js';
 const PI = Math.PI;
 const FLOOR_Y = 0.06;
 const OPEN_FB = PI * 0.82, OPEN_LR = PI * 0.78;
-const RISE_HEIGHT = 1.2;
+const RISE_HEIGHT = 1.8;
 const RISE_DUR = 0.8;
 
 // 바닥 경계 (넓은 보드 영역)

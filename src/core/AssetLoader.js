@@ -97,23 +97,29 @@ export class AssetLoader {
     const cardWidth = cardHeight * aspect;
     const cardDepth = 0.008;
 
-    // 앞면 (이미지)
+    // 앞면 (이미지 — emissive로 조명 영향 최소화)
     const frontGeo = new THREE.PlaneGeometry(cardWidth, cardHeight);
     const frontMat = new THREE.MeshStandardMaterial({
       map: texture,
-      roughness: 0.3,
-      metalness: 0.1,
+      emissiveMap: texture,
+      emissive: 0xffffff,
+      emissiveIntensity: 0.7,
+      roughness: 0.35,
+      metalness: 0.05,
     });
     const front = new THREE.Mesh(frontGeo, frontMat);
     front.position.z = cardDepth / 2 + 0.001;
     front.castShadow = true;
 
-    // 뒷면 (카드 뒷면)
+    // 뒷면 (앞면과 동일한 그림)
     const backGeo = new THREE.PlaneGeometry(cardWidth, cardHeight);
     const backMat = new THREE.MeshStandardMaterial({
-      color: 0x1a1a3e,
-      roughness: 0.4,
-      metalness: 0.3,
+      map: texture,
+      emissiveMap: texture,
+      emissive: 0xffffff,
+      emissiveIntensity: 0.7,
+      roughness: 0.35,
+      metalness: 0.05,
     });
     const back = new THREE.Mesh(backGeo, backMat);
     back.rotation.y = Math.PI;
