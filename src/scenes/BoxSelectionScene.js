@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { createBoxMesh, createHoverGlow, addPriceStickers, BOX_H } from '../rendering/BoxMesh.js';
 import { createPriceTag3D } from '../rendering/PriceTag3D.js';
+import { InputGuard } from '../core/InputGuard.js';
 
 const FLOOR_Y = 0.06;
 const TAG_FLOAT_HEIGHT = 0.55;
@@ -15,7 +16,7 @@ function towersToLayout(towerDefs) {
   const totalW = (towerDefs.length - 1) * spacing;
   return towerDefs.map((td, i) => ({
     x: -totalW / 2 + i * spacing,
-    z: -5.0 - (Math.random() * 0.3),
+    z: -6.5 - (Math.random() * 0.4),
     n: td.boxCount,
     role: td.role,
   }));
@@ -124,7 +125,7 @@ export class BoxSelectionScene {
     }
     return counts.map((n, i) => ({
       x: -totalW / 2 + i * spacing,
-      z: -5.0 - (Math.random() * 0.3),
+      z: -6.5 - (Math.random() * 0.4),
       n,
     }));
   }
@@ -326,6 +327,7 @@ export class BoxSelectionScene {
 
   _setupInput() {
     addEventListener('pointermove', (e) => {
+      if (InputGuard.blocked) return;
       if (this.gameState.state.phase !== 'box_selection') return;
       this._mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
       this._ray.setFromCamera(this._mouse, this.sceneMgr.camera);
@@ -353,6 +355,7 @@ export class BoxSelectionScene {
     });
 
     addEventListener('pointerdown', (e) => {
+      if (InputGuard.blocked) return;
       if (this.gameState.state.phase !== 'box_selection') return;
       this._mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
       this._ray.setFromCamera(this._mouse, this.sceneMgr.camera);

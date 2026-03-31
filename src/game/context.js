@@ -13,6 +13,8 @@ import { BoxSelectionScene } from '../scenes/BoxSelectionScene.js';
 import { UnboxingScene } from '../scenes/UnboxingScene.js';
 import { DisplayShelf3D, BOARD_Z, BOARD_D } from '../scenes/DisplayShelf3D.js';
 import { CardDeck3D } from '../scenes/CardDeck3D.js';
+import { CardZoneBoard } from '../scenes/CardZoneBoard.js';
+import { CouponCatalog } from '../ui/CouponCatalog.js';
 import { CardSelectionScene3D } from '../scenes/CardSelectionScene3D.js';
 import { FloorElement } from '../rendering/FloorElement.js';
 import { FloorUIManager } from '../rendering/FloorUIManager.js';
@@ -57,6 +59,8 @@ export function createContext() {
   const boxSelection   = new BoxSelectionScene(sceneMgr, gameState, bus);
   const unboxing       = new UnboxingScene(sceneMgr, gameState, bus, assetLoader, ruleEngine);
   const displayShelf   = new DisplayShelf3D(sceneMgr, assetLoader);
+  const cardZoneBoard  = new CardZoneBoard(sceneMgr);
+  const couponCatalog  = new CouponCatalog();
   const cardDeck       = new CardDeck3D(sceneMgr);
   const tapPin         = new TapIndicator(sceneMgr.scene);
 
@@ -67,14 +71,14 @@ export function createContext() {
   const endRoundBtn = floorUI.add('endRound',
     new EndRoundButton(sceneMgr, sceneMgr.scene, {
       width: 2.0, depth: 0.6, texWidth: 400, texHeight: 120,
-      x: 0, z: BOARD_Z + BOARD_D / 2 + 0.45,
+      x: 0, z: BOARD_Z + BOARD_D / 2 + 0.25,
     }),
   );
 
   return {
     bus, ruleEngine, gameState, assetLoader, sceneMgr, hud, coins, audio,
     roundMgr, displayMgr, couponSys,
-    boxSelection, unboxing, displayShelf, cardDeck, tapPin,
+    boxSelection, unboxing, displayShelf, cardDeck, cardZoneBoard, couponCatalog, tapPin,
     floorUI, slotFullBubble, cardSelection3D, endRoundBtn,
   };
 }

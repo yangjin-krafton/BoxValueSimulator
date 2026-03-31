@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { InputGuard } from '../core/InputGuard.js';
 
 /**
  * 바닥 3D UI 요소 관리자.
@@ -67,6 +68,7 @@ export class FloorUIManager {
   }
 
   _onPointerDown(e) {
+    if (InputGuard.blocked) return;
     const targets = this._collectTargets();
     if (targets.length === 0) return;
 
@@ -84,6 +86,7 @@ export class FloorUIManager {
   }
 
   _onPointerMove(e) {
+    if (InputGuard.blocked) return;
     const targets = this._collectTargets();
 
     if (targets.length === 0) {

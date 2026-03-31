@@ -5,6 +5,7 @@
 import * as THREE from 'three';
 import { SLOT_POSITIONS } from '../scenes/DisplayShelf3D.js';
 import { generateBoxSet } from '../systems/BoxGenerator.js';
+import { InputGuard } from '../core/InputGuard.js';
 
 export function setupBoxEvents(ctx, { startNewRound, finishBoxAndContinue, refreshDisplay3D }) {
   const {
@@ -104,6 +105,7 @@ export function setupBoxEvents(ctx, { startNewRound, finishBoxAndContinue, refre
   // ── 판매 버튼 (보드판 위 클릭) ──
 
   addEventListener('pointerdown', (e) => {
+    if (InputGuard.blocked) return;
     if (gameState.state.phase !== 'box_selection') return;
     _mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
     _ray.setFromCamera(_mouse, sceneMgr.camera);

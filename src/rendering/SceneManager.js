@@ -26,18 +26,18 @@ export class SceneManager {
     this.scene.background = new THREE.Color(0x1a1c2e);
     this.scene.fog = new THREE.FogExp2(0x1a1c2e, 0.045);
 
-    // Camera — 세로 뷰: 보드(중앙) + 타워(뒤쪽)
-    this.camera = new THREE.PerspectiveCamera(50, innerWidth / innerHeight, 0.1, 120);
-    this.camera.position.set(0, 8, 7);
+    // Camera — 상단:상자 / 중단:슬롯 / 하단:쿠폰덱 전체 조망
+    this.camera = new THREE.PerspectiveCamera(52, innerWidth / innerHeight, 0.1, 120);
+    this.camera.position.set(0, 10, 10);
 
     // Controls
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
-    this.controls.target.set(0, 0.3, -1.5);
+    this.controls.target.set(0, 0, -0.5);
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.07;
-    this.controls.minDistance = 4;
-    this.controls.maxDistance = 18;
-    this.controls.maxPolarAngle = Math.PI * 0.47;
+    this.controls.minDistance = 5;
+    this.controls.maxDistance = 22;
+    this.controls.maxPolarAngle = Math.PI * 0.46;
     this.controls.update();
 
     this.clock = new THREE.Clock();

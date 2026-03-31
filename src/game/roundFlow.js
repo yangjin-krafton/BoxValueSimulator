@@ -8,9 +8,14 @@ export function setupRoundFlow(ctx) {
   const {
     bus, ruleEngine, gameState, sceneMgr, hud, coins, audio,
     roundMgr, displayMgr, couponSys,
-    boxSelection, unboxing, displayShelf, cardDeck,
+    boxSelection, unboxing, displayShelf, cardDeck, cardZoneBoard, couponCatalog,
     endRoundBtn, cardSelection3D,
   } = ctx;
+
+  // 덱 클릭 → 쿠폰 도감 열기
+  cardDeck.onDeckClick(() => {
+    couponCatalog.show(couponSys.getOwnedCards());
+  });
 
   // ── 디스플레이 동기화 ──
 
@@ -140,6 +145,7 @@ export function setupRoundFlow(ctx) {
           const picked = couponSys.selectCard(i);
           if (picked) cardDeck.addCard(picked);
           gameState.syncCoupons(couponSys.getOwnedCards());
+          cardZoneBoard.updateOwnedCards(couponSys.getOwnedCards());
           sceneMgr.fadeTransition(1.4, () => startNewRound());
         };
 
