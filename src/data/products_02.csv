@@ -1,0 +1,10 @@
+id,name,style,type,grade,price,description,modelPath,imagePath
+card_fig_witch_queen_stylized,마녀 여왕 (스타일라이즈드),스타일라이즈드,card,SSS,59000,,,assets/cards/fig_witch_queen_stylized.webp
+card_fig_witch_queen_vinyl,마녀 여왕 (바이닐토이),바이닐토이,card,SS,32000,,,assets/cards/fig_witch_queen_vinyl.webp
+card_fig_witch_queen_wooden,마녀 여왕 (우드카빙),우드카빙,card,SS,20000,,,assets/cards/fig_witch_queen_wooden.webp
+card_fig_wolf_alpha_clay,알파 울프 (클레이),클레이,card,A,11000,,,assets/cards/fig_wolf_alpha_clay.webp
+card_fig_wolf_alpha_mech,알파 울프 (메카닉),메카닉,card,S,30000,,,assets/cards/fig_wolf_alpha_mech.webp
+card_fig_wolf_alpha_metallic,알파 울프 (메탈릭),메탈릭,card,S,44000,,,assets/cards/fig_wolf_alpha_metallic.webp
+card_fig_wolf_alpha_pixel,알파 울프 (복셀픽셀),복셀픽셀,card,B,4000,,,assets/cards/fig_wolf_alpha_pixel.webp
+card_fig_wolf_alpha_plush,알파 울프 (플러시),플러시,card,B,6000,,,assets/cards/fig_wolf_alpha_plush.webp
+card_fig_wolf_alpha_wooden,알파 울프 (우드카빙),우드카빙,card,B,11000,,,assets/cards/fig_wolf_alpha_wooden.webp

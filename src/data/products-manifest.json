@@ -1,7 +1,8 @@
 {
   "files": [
-    "data/products_01.csv"
+    "data/products_01.csv",
+    "data/products_02.csv"
   ],
-  "totalProducts": 929,
-  "generatedAt": "2026-03-31T09:20:14.315Z"
+  "totalProducts": 1009,
+  "generatedAt": "2026-03-31T11:30:39.354Z"
 }
